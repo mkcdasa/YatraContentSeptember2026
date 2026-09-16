@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Palette. Warm cream and deep saffron-maroon: the visual language of a temple
+ * without the clip-art. Tokens are HSL triplets so Tailwind's <alpha-value>
+ * modifier works, and every text pair below clears 4.5:1 against its surface.
+ */
+:root {
+  --bg: 35 60% 98%;
+  --surface: 0 0% 100%;
+  --surface-2: 35 45% 95%;
+  --border: 30 25% 87%;
+  --fg: 25 30% 13%;
+  --muted: 25 12% 38%;
+  --primary: 16 72% 28%;
+  --primary-fg: 40 60% 97%;
+  --accent: 38 92% 45%;
+  --accent-fg: 25 40% 14%;
+  --ok: 152 55% 27%;
+  --warn: 30 90% 32%;
+  --danger: 0 65% 40%;
+  --shadow: 25 40% 20%;
+}
+
+:root[data-theme='dark'] {
+  --bg: 25 22% 8%;
+  --surface: 25 18% 12%;
+  --surface-2: 25 16% 17%;
+  --border: 25 14% 25%;
+  --fg: 35 30% 94%;
+  --muted: 33 12% 70%;
+  --primary: 26 80% 66%;
+  --primary-fg: 25 35% 10%;
+  --accent: 38 90% 62%;
+  --accent-fg: 25 40% 10%;
+  --ok: 152 46% 58%;
+  --warn: 38 82% 62%;
+  --danger: 0 68% 68%;
+  --shadow: 0 0% 0%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: 25 22% 8%;
+    --surface: 25 18% 12%;
+    --surface-2: 25 16% 17%;
+    --border: 25 14% 25%;
+    --fg: 35 30% 94%;
+    --muted: 33 12% 70%;
+    --primary: 26 80% 66%;
+    --primary-fg: 25 35% 10%;
+    --accent: 38 90% 62%;
+    --accent-fg: 25 40% 10%;
+    --ok: 152 46% 58%;
+    --warn: 38 82% 62%;
+    --danger: 0 68% 68%;
+    --shadow: 0 0% 0%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-bg text-fg font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display tracking-tight;
+  }
+  /* One-handed use on a moving bus: nothing interactive below 44px. */
+  button,
+  a,
+  [role='button'] {
+    touch-action: manipulation;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-bg;
+  }
+}
+
+@layer components {
+  .tap {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  .card {
+    @apply bg-surface border border-border rounded-2xl shadow-card;
+  }
+  .hide-scrollbar {
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

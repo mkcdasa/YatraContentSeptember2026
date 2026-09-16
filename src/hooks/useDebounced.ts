@@ -1,0 +1,11 @@
+import { useEffect, useState } from 'react'
+
+/** Keeps the search box from firing a request on every keystroke. */
+export function useDebounced<T>(value: T, delay = 280): T {
+  const [debounced, setDebounced] = useState(value)
+  useEffect(() => {
+    const id = setTimeout(() => setDebounced(value), delay)
+    return () => clearTimeout(id)
+  }, [value, delay])
+  return debounced
+}
