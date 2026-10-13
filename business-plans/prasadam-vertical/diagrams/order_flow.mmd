@@ -1,0 +1,22 @@
+flowchart TD
+  A[Order comes in] --> B{Channel?}
+  B -->|Internal dept| C[Weekly standing order<br/>fixed delivery day]
+  B -->|Corporate / white-label| D[Quote + 50% advance<br/>sticker proof approved]
+  B -->|Online store / Amazon| E[Shopify / Amazon order]
+  B -->|Festival stall| F[Pre-packed combos<br/>UPI at counter]
+  C --> G[Order system<br/>tag stream + campaign]
+  D --> G
+  E --> G
+  F --> G
+  G --> H[Production plan<br/>weekly + festival calendar]
+  H --> I[Cook in temple kitchen]
+  I --> J[QC + shelf-life check]
+  J --> K[Pack + label<br/>MFD, best-before, FSSAI]
+  K --> L{Delivery}
+  L -->|Hyderabad B2B| M[Own vehicle]
+  L -->|Pan-India| N[Courier aggregator / Amazon]
+  L -->|On campus| O[Stall / restaurant]
+  M --> P[Payment + feedback]
+  N --> P
+  O --> P
+  P --> Q[DMTT ROI dashboard]
