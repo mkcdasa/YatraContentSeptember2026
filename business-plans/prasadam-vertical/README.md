@@ -7,6 +7,7 @@ Hyderabad. It is built from the *Prasadam Revenue Generation Plan* meeting on
 
 | File | What it is |
 | --- | --- |
+| [`00_Leadership_Business_Plan.pdf`](00_Leadership_Business_Plan.pdf) | **For temple leadership and top management (48 pages).** Executive summary, decisions requested with phase-gated funding, market and SWOT, audiences, revenue streams, pricing, go-to-market, operations, governance, roadmap, financials with sensitivity analysis, risk heat map, KPIs, sign-off page, and appendices with everything said in the meeting and all flowcharts |
 | [`01_Business_Plan.docx`](01_Business_Plan.docx) | Full business plan (about 29 pages): everything from the meeting, market research, SWOT, 14 audiences, 14 revenue streams, 16 new ideas, products, pricing, marketing, operations, roadmap, festival calendar, financials, risks, KPIs, diagrams, sources |
 | [`02_Presentation.pptx`](02_Presentation.pptx) | 26-slide deck for the decision meeting |
 | [`03_Mind_Map.html`](03_Mind_Map.html) | Interactive mind map covering every detail, with search and expand/collapse, plus all flowcharts. Open it in any browser; it works offline |
@@ -32,6 +33,12 @@ All files are generated from one content file, `src/content.py`. Edit it, then r
 ```bash
 pip install python-docx python-pptx openpyxl
 python3 src/build_all.py
+```
+
+To rebuild the leadership PDF (needs Node with Playwright and the Noto fonts):
+
+```bash
+PLAYWRIGHT_MODULE=<path to playwright/index.mjs> CHROME=<path to chromium> python3 src/build_pdf.py
 ```
 
 To re-render the diagram images after you change a flowchart, install
