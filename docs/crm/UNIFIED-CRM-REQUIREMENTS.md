@@ -26,6 +26,7 @@ what, and when — and who to stop spending money on.
 | Cold data | ~20–25 crore phone numbers | Bulk import from the cold-data CRM (currently offline — see §7) |
 | Events / gated-community counters | Leads collected on the spot (e.g. Yatra interest) | Excel import / mobile entry |
 | Campaign history (SMS, WhatsApp, RCS, email) | Every message sent and the response | Import from the campaign tools (source heard as "Carex" — verify) |
+| Bulk messaging providers (SMS / RCS / WhatsApp to crores of numbers from the cold data) | Per message: sent, delivered, not delivered, etc. | API integration with each provider (names heard as "PTM intelligence" and "GovShow" — verify) |
 | WhatsApp / email messages | New contact details people send us | AI extraction → save as contact |
 | Excel sheets | Archived Hello Leads leads (beyond 1 lakh), any other lists | Direct Excel import |
 
@@ -109,6 +110,15 @@ times they declined; campaign spend on them.
       and check the data format.
 - [ ] Export the ~60k DMT donors from Dhananjaya (manual, Phase 1).
 - [ ] Confirm the campaign tool name ("Carex"?) and what history it can export.
+- [ ] Confirm the bulk SMS / RCS / WhatsApp provider names and get their API
+      docs for delivery reports.
 - [ ] Draft the architecture on Google Cloud and the data model for review.
-- [ ] Fix a **daily status-call time**, including while Prabhu is travelling
-      to the dham.
+
+## 9. Working rhythm
+
+- **One status call per day at 2:30** with Prabhu (AM or PM to confirm —
+  night-time was mentioned as the only time that works). One call only, not
+  many through the day.
+- This project is the main priority on that call: CRM progress first, other
+  topics after.
+- These notes are to be shared on Slack as well.
