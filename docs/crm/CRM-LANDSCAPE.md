@@ -7,7 +7,8 @@ Add to this file as each remaining system is walked through.
 > **Never commit logins, passwords or donor records to this repository.**
 > Keep credentials in a password manager and refer to them here by owner only.
 
-**Goal:** bring all of these systems into **one platform**.
+**Goal:** bring all of these systems into **one platform** — see
+[UNIFIED-CRM-REQUIREMENTS.md](UNIFIED-CRM-REQUIREMENTS.md).
 
 ## Systems at a glance
 
