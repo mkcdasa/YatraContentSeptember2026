@@ -7,6 +7,8 @@ Add to this file as each remaining system is walked through.
 > **Never commit logins, passwords or donor records to this repository.**
 > Keep credentials in a password manager and refer to them here by owner only.
 
+**Goal:** bring all of these systems into **one platform**.
+
 ## Systems at a glance
 
 | System | Role | Direction | Data held |
@@ -16,7 +18,8 @@ Add to this file as each remaining system is walked through.
 | **Exotel** | Cloud telephony for the public numbers | Inbound calls | Call recordings, caller numbers |
 | **Razorpay** | Online donation payments | — | Feeds donor details into Hello Leads |
 | **Cold-data CRM** (built by Sachi Kumar Gauranga Das) | Bulk prospect database | Outbound / campaigns | ~20 crore cleaned phone numbers |
-| **Dhananjaya ERP** (Donor Care Center) | Temple-wide donation ERP, open-source | — | Live donations; ~60–70k DMT-department donors |
+| **Donation websites** (harekrishnagoldentemple.org and others) | Online donation pages | Inbound | Feed every donation into Dhananjaya |
+| **Dhananjaya ERP** (Donor Care Center) | Temple-wide donation ERP and receipt generator, open-source | — | Live donations; ~60–70k DMT-department donors |
 
 ## Data flow
 
@@ -29,8 +32,11 @@ Razorpay donations ────────────────────�
                                                │
 Public calls to temple / Yatra numbers ──► Exotel ──► rings 5–10 executives at once ──► Tata Tele
 
-Cold-data CRM (20 crore numbers)  — separate, not linked
-Dhananjaya ERP (all temple donors) — separate; mobile app only, no API access yet
+Donation websites (harekrishnagoldentemple.org, …) ──► Dhananjaya ERP ──► donation receipt (PDF)
+Donations entered by preachers in the Dhananjaya app ─┘   (all temple donors; mobile app only, no API yet)
+
+Yatra websites — separate from the donation websites; NOT linked to Dhananjaya
+Cold-data CRM (20 crore numbers) — separate, not linked
 ```
 
 ## Hello Leads
@@ -110,16 +116,50 @@ already interested.
   Python down to ~**20 crore**.
 - Not connected to Hello Leads or Tata Tele.
 
+## Donation websites
+
+Dhananjaya does not collect donor data on its own — it receives it from the
+donation websites. **Document the websites before Dhananjaya** when mapping
+the flow.
+
+- **harekrishnagoldentemple.org** — main donation website; every donation made
+  here flows into Dhananjaya, which generates the receipt.
+- **DHKM.org** (as heard — verify the exact domain) — another donation site.
+- In total there are **4–5 websites**, one per channel: SMS, WhatsApp,
+  RCS marketing, and Google/Meta Ads each have their own landing site.
+- **Yatra is completely separate.** The Yatra websites are not the donation
+  websites and are not linked to Dhananjaya. (Yatra flow to be mapped as its
+  own "step one".)
+
 ## Dhananjaya ERP — Donor Care Center (DCC)
 
-- Open-source ERP used temple-wide by the Donor Care Center. All donations
-  (including digital-marketing donations) are recorded here — **live data**,
-  updated every day.
-- Holds ~**60–70k donors** from our (DMT) department, alongside every other
-  preacher's donors.
+- Open-source ERP used temple-wide by the Donor Care Center. **All donation
+  receipts are generated here only** — whether the donation came from a
+  website or was entered by a preacher. It is **live data**, updated every day.
+- Holds ~**60k donors** from our (DMT) department — under our login plus two or
+  three other preacher codes — alongside every other preacher's donors.
 - **Access today:** mobile app only. Our login shows the donation report but
   **not full donor details** — no permission yet. No web/API access.
 - Donor data is sensitive; privacy and confidentiality are strictly maintained.
+
+**What the mobile app does (walkthrough):**
+
+- **Search donor** → donor profile with a **unique donor ID**, mobile number,
+  email, address, PAN, Aadhaar, assigned **preacher name**, gotra, nakshatra.
+- **Stats** — total donated, partnership, breakdown by trust.
+- **Donation receipts** — list of each donation (amount, date); tap one to open
+  the PDF receipt.
+- **Send WhatsApp or email** to the donor directly from the app.
+- **Reminders** — set a date and custom message: birthday, wedding anniversary,
+  death anniversary, anything else.
+- **Festival seva slot booking** — the amount on a donor's receipts can be
+  **redeemed** to book festival seva slots. Purely amount-based, no
+  discretion: you can only book up to what has been donated.
+
+**Data-quality issue — duplicate donors:** a donor is supposed to have exactly
+one donor ID, but in practice the same person can have **several donor IDs**
+(created under different names or trusts). Any integration will need
+de-duplication.
 
 **Path to API integration:**
 
@@ -136,7 +176,13 @@ worked out with Rajaram Prabhu.
 
 - [ ] Get Hello Leads login and review the account — fields, pipelines,
       integrations, plan limits.
-- [ ] Get a walkthrough of the Dhananjaya mobile app and its dashboard.
+- [x] Walkthrough of the Dhananjaya mobile app (done 2026-10-19).
+- [ ] List all 4–5 donation websites with their exact URLs and channel
+      (SMS / WhatsApp / RCS / Ads), and confirm "DHKM.org".
+- [ ] Clarify how Razorpay fits: does a website donation go to Hello Leads
+      (via Razorpay), to Dhananjaya, or both?
+- [ ] Map the Yatra flow separately (websites, enquiries, bookings).
+- [ ] Plan de-duplication of donor IDs before any Dhananjaya integration.
 - [ ] Set up the Zoom meeting with Lakshmikant, Satyagar and Rajaram Prabhu
       for Dhananjaya API access (DMT donors only).
 - [ ] Verify both Exotel phone numbers (they were heard as 9 digits).
