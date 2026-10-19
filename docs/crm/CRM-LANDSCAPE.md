@@ -92,10 +92,10 @@ in progress). The complete customer interaction history lives in Tata Tele.
 numbers, and capture those callers as hot leads — someone who calls is
 already interested.
 
-| Number (as heard — verify) | Published as | Treated as |
+| Number | Published as | Treated as |
 |---|---|---|
-| 950538886 | Yatra Department number — social media, posters, websites | Every caller is a Yatra enquiry |
-| 950568881 | HKGT / Golden Temple contact number — published everywhere | General / all other purposes |
+| 95053 88886 | Yatra Department number — social media, posters, websites | Every caller is a Yatra enquiry |
+| 95056 88881 | HKGT / Golden Temple contact number — published everywhere | General / all other purposes |
 
 **How a call is handled today:**
 
@@ -125,7 +125,7 @@ the flow.
 
 - **harekrishnagoldentemple.org** — main donation website; every donation made
   here flows into Dhananjaya, which generates the receipt.
-- **DHKM.org** (as heard — verify the exact domain) — another donation site.
+- **thehkm.org** — another donation site.
 - In total there are **4–5 websites**, one per channel: SMS, WhatsApp,
   RCS marketing, and Google/Meta Ads each have their own landing site.
 - **Yatra is completely separate.** The Yatra websites are not the donation
@@ -134,6 +134,7 @@ the flow.
 
 ## Dhananjaya ERP — Donor Care Center (DCC)
 
+- Web dashboard: [erp.hkmhyd.org.in](https://erp.hkmhyd.org.in/app/seva-donation-dashboard).
 - Open-source ERP used temple-wide by the Donor Care Center. **All donation
   receipts are generated here only** — whether the donation came from a
   website or was entered by a preacher. It is **live data**, updated every day.
@@ -179,14 +180,13 @@ worked out with Rajaram Prabhu.
       integrations, plan limits.
 - [x] Walkthrough of the Dhananjaya mobile app (done 2026-10-19).
 - [ ] List all 4–5 donation websites with their exact URLs and channel
-      (SMS / WhatsApp / RCS / Ads), and confirm "DHKM.org".
+      (SMS / WhatsApp / RCS / Ads).
 - [ ] Clarify how Razorpay fits: does a website donation go to Hello Leads
       (via Razorpay), to Dhananjaya, or both?
 - [ ] Map the Yatra flow separately (websites, enquiries, bookings).
 - [ ] Plan de-duplication of donor IDs before any Dhananjaya integration.
 - [ ] Set up the Zoom meeting with Lakshmikant, Satyagar and Rajaram Prabhu
       for Dhananjaya API access (DMT donors only).
-- [ ] Verify both Exotel phone numbers (they were heard as 9 digits).
 - [ ] Clarify: does **every** Hello Leads lead go to Tata Tele, or only a
       selected subset? (Mentioned both ways.)
 - [ ] Confirm whether Tata Tele call outcomes sync back into Hello Leads.

@@ -25,10 +25,48 @@ what, and when — and who to stop spending money on.
 | Digital-marketing donations | Donor + donation | From the donation websites / payment gateway |
 | Cold data | ~20–25 crore phone numbers | Bulk import from the cold-data CRM (currently offline — see §7) |
 | Events / gated-community counters | Leads collected on the spot (e.g. Yatra interest) | Excel import / mobile entry |
-| Campaign history (SMS, WhatsApp, RCS, email) | Every message sent and the response | Import from the campaign tools (source heard as "Carex" — verify) |
-| Bulk messaging providers (SMS / RCS / WhatsApp to crores of numbers from the cold data) | Per message: sent, delivered, not delivered, etc. | API integration with each provider (names heard as "PTM intelligence" and "GovShow" — verify) |
+| Bulk messaging providers — **Karix, PayTM Intelligence, GupShup, Tata** (SMS / RCS / WhatsApp to crores of numbers from the cold data) | Per message: sent, delivered, not delivered, etc. | API integration with each provider |
+| Google Contacts / phone contacts | Fresh contacts | Daily sync by AI agents |
 | WhatsApp / email messages | New contact details people send us | AI extraction → save as contact |
 | Excel sheets | Archived Hello Leads leads (beyond 1 lakh), any other lists | Direct Excel import |
+
+## 2a. Source-data migration plan by stage (from Prabhu's written plan)
+
+Purpose of all data: **Fund Raising marketing and Yatra marketing.**
+
+### Stage 1 — existing sources
+
+| Source | Plan |
+|---|---|
+| **Hello Leads** ([helloleads.io](https://www.helloleads.io/)) — Google Ads & Meta Ads, online DMT leads | All **new** leads stored directly to the cloud |
+| **Exotel** ([exotel.com](https://exotel.com/)) — inbound IVRS on **95053 88886** (Yatra) and **95056 88881** (HKGT); 10 employees' mobiles ring simultaneously | Bring inbound call data to the cloud |
+| **Tata Tele** ([tatatelebusiness.com](https://www.tatatelebusiness.com/)) — tele-caller remarks | **Bridge connection**: updates from Tata Tele flow into the cloud |
+| **Cold data (DBMS)** — 20 crore contacts on Sachi Kumar Gauranga Dasa's computer (acting as the server) | Move to the cloud, with a **monthly / occasional import** function |
+| **Messaging providers** — Karix, PayTM Intelligence, GupShup, Tata | API integration: messages sent, delivered, not delivered, etc. |
+
+### Stage 2 — event leads
+
+- Temple festival leads and gated-community event leads (via Hello Leads) →
+  live data saved directly to the ERP through a form → **synced to the cloud
+  daily**.
+- Websites: [thehkm.org](https://thehkm.org/),
+  [harekrishnagoldentemple.org](https://harekrishnagoldentemple.org/).
+
+### Stage 3 — ERPs and spreadsheets
+
+- **Yatra ERP** → Yatris data → live data, **synced daily** to the cloud
+  (plan lists "60k donors" here — confirm whether that figure belongs to the
+  Yatra ERP or to Dhananjaya).
+- **Dhananjaya ERP** ([erp.hkmhyd.org.in](https://erp.hkmhyd.org.in/app/seva-donation-dashboard))
+  → field-preacher (LLP) donors → live data, **synced daily** to the cloud
+  (requires the API approval described in §6).
+- **Excel data** → imported directly to the cloud with an import function.
+
+### Stage 4 — AI agents
+
+- Save new contact details that surface in personal communication
+  (WhatsApp, email, SMS, etc.).
+- Sync fresh contacts **daily** from Google Contacts / phone contacts.
 
 ## 3. Replacement principle — build, verify, then switch off
 
@@ -109,9 +147,10 @@ times they declined; campaign spend on them.
 - [ ] Get Sachi Prabhu's contact, bring the cold-data server back online,
       and check the data format.
 - [ ] Export the ~60k DMT donors from Dhananjaya (manual, Phase 1).
-- [ ] Confirm the campaign tool name ("Carex"?) and what history it can export.
-- [ ] Confirm the bulk SMS / RCS / WhatsApp provider names and get their API
-      docs for delivery reports.
+- [ ] Get API access / delivery-report docs from Karix, PayTM Intelligence,
+      GupShup and Tata.
+- [ ] Get access to the Yatra ERP and confirm what Yatri data it holds.
+- [ ] Confirm the "60k donors" figure — Yatra ERP or Dhananjaya?
 - [ ] Draft the architecture on Google Cloud and the data model for review.
 
 ## 9. Working rhythm
