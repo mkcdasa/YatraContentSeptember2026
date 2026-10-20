@@ -6,8 +6,8 @@
 
 | Item | Value |
 |---|---|
-| Countries visited (stamp-verified) | 8 - Cambodia, France, Nepal, Sri Lanka, Thailand, UAE, USA, United Kingdom |
-| Visits logged | 15 |
+| Countries visited (stamp-verified) | 12 - Belgium, Cambodia, France, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, UAE, USA, United Kingdom |
+| Visits logged | 19 |
 | Valid visas today | USA B1/B2 (to 26 Dec 2034), Australia 600 (to 13 Nov 2030) |
 | Expired - renew | Schengen (19 Apr 2026), UK (29 Dec 2024) |
 | Passport expiry | 17 Sep 2028; practical last travel date 17 Mar 2028 (6-month rule); start renewal by Sep 2027 |
@@ -25,16 +25,20 @@
 
 | Country | Times | First entry | Latest entry | Days (known) |
 |---|---|---|---|---|
+| Belgium | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
 | Cambodia | 2 | 08 Feb 2023 | 27 Jun 2023 | 7 |
 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 13 |
+| Italy | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
 | Nepal | 3 | 15 May 2019 | 14 Apr 2022 | 8 |
+| Netherlands | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
 | Sri Lanka | 3 | 28 Sep 2019 | 24 Jan 2022 | 31 |
+| Switzerland | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
 | UAE | 1 | 01 Aug 2024 | 01 Aug 2024 | - |
 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 27 |
 | United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | - |
 
-*Italy (27 Jul 2024) is a transit stamp. Pre-2018 travel not captured.*
+*Belgium, Netherlands, Switzerland, Italy: visited inside the 15-27 Jul 2024 Schengen trip (no internal stamps). Pre-2018 travel not captured.*
 
 ## 4. Trip log (passport stamps)
 
@@ -52,10 +56,13 @@
 | 10 | Thailand | 24 Jun 2023 | 27 Jun 2023 | 4 | Visa on Arrival | Passport p.20-21: Thai VOA stamp admitted 2? Jun 2023 until 9 Jul 2023 (class TR-15 = 15 days -> 24 Jun); Thai departed 27 Jun 2023; India dep. RGI Hyderabad 24 Jun 2023 | Check |
 | 11 | Cambodia | 27 Jun 2023 | 30 Jun 2023 | 4 | e-Visa (valid 27 Jun-26 Jul 2023) | Passport p.20: Cambodia entry 27 Jun 2023, exit 30 Jun 2023 | High |
 | 12 | France | 15 Jul 2024 | 27 Jul 2024 | 13 | Schengen C visa #1 (France-issued, Pondicherry) | Passport p.9/p.17: CDG stamp 15 Jul 2024; Malpensa stamp 27 Jul 2024; India dep. Mumbai 14 Jul 2024 | High |
-| 13 | Italy | 27 Jul 2024 | 27 Jul 2024 | 1 | Schengen C visa #1 | Passport p.17: Malpensa stamp 27 Jul 2024 | Check |
-| 14 | United Kingdom | 27 Jul 2024 | ? | - | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024 | High |
-| 15 | UAE | 01 Aug 2024 | ? | - | Visa/entry per stamp (Indian PP) | Passport p.10: UAE entry stamp 01 Aug 2024; India arrival RGI Hyderabad 05 Aug 2024 | High |
-| 16 | USA | 04 Sep 2025 | 30 Sep 2025 | 27 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + p.10: India dep. New Delhi 03 Sep 2025; CBP stamp 04 Sep 2025; India arrival Mumbai 30 Sep 2025 | High |
+| 13 | Belgium | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
+| 14 | Netherlands | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
+| 15 | Switzerland | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
+| 16 | Italy | ? | 27 Jul 2024 | - | Schengen C visa #1 | Your confirmation (Oct 2026): Rome visited; Passport p.17: Malpensa exit stamp 27 Jul 2024 | Check |
+| 17 | United Kingdom | 27 Jul 2024 | ? | - | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024 | High |
+| 18 | UAE | 01 Aug 2024 | ? | - | Visa/entry per stamp (Indian PP) | Passport p.10: UAE entry stamp 01 Aug 2024; India arrival RGI Hyderabad 05 Aug 2024 | High |
+| 19 | USA | 04 Sep 2025 | 30 Sep 2025 | 27 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + p.10: India dep. New Delhi 03 Sep 2025; CBP stamp 04 Sep 2025; India arrival Mumbai 30 Sep 2025 | High |
 
 ## 5. Visas held
 
