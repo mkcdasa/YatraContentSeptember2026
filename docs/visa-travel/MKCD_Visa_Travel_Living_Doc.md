@@ -29,7 +29,7 @@
 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 13 |
 | Nepal | 3 | 15 May 2019 | 14 Apr 2022 | 8 |
 | Sri Lanka | 3 | 28 Sep 2019 | 24 Jan 2022 | 31 |
-| Thailand | 3 | 07 Feb 2023 | 25 Jun 2023 | 8 |
+| Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
 | UAE | 1 | 01 Aug 2024 | 01 Aug 2024 | - |
 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 27 |
 | United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | - |
@@ -49,7 +49,7 @@
 | 7 | Thailand | 07 Feb 2023 | 08 Feb 2023 | 2 | Visa on Arrival (30 days) | Passport p.7-8: Thai admitted 7 Feb 2023, departed 8 Feb 2023; India dep. Bengaluru 07 Feb 2023 | High |
 | 8 | Cambodia | 08 Feb 2023 | 10 Feb 2023 | 3 | e-Visa (valid to 07 Mar 2023) | Passport p.10: Cambodia entry 08 Feb 2023, exit 10 Feb 2023 | High |
 | 9 | Thailand | 10 Feb 2023 | 12 Feb 2023 | 3 | Visa on Arrival (30 days) | Passport p.8: Thai admitted 10 Feb 2023 (until 11 Mar), departed 12 Feb 2023; India arrival Bengaluru 12 Feb 2023 | High |
-| 10 | Thailand | 25 Jun 2023 | 27 Jun 2023 | 3 | Visa on Arrival | Passport p.20-21: Thai VOA stamp (entry day partly legible), Thai departed 27 Jun 2023; India dep. RGI Hyderabad 24 Jun 2023 | Check |
+| 10 | Thailand | 24 Jun 2023 | 27 Jun 2023 | 4 | Visa on Arrival | Passport p.20-21: Thai VOA stamp admitted 2? Jun 2023 until 9 Jul 2023 (class TR-15 = 15 days -> 24 Jun); Thai departed 27 Jun 2023; India dep. RGI Hyderabad 24 Jun 2023 | Check |
 | 11 | Cambodia | 27 Jun 2023 | 30 Jun 2023 | 4 | e-Visa (valid 27 Jun-26 Jul 2023) | Passport p.20: Cambodia entry 27 Jun 2023, exit 30 Jun 2023 | High |
 | 12 | France | 15 Jul 2024 | 27 Jul 2024 | 13 | Schengen C visa #1 (France-issued, Pondicherry) | Passport p.9/p.17: CDG stamp 15 Jul 2024; Malpensa stamp 27 Jul 2024; India dep. Mumbai 14 Jul 2024 | High |
 | 13 | Italy | 27 Jul 2024 | 27 Jul 2024 | 1 | Schengen C visa #1 | Passport p.17: Malpensa stamp 27 Jul 2024 | Check |
