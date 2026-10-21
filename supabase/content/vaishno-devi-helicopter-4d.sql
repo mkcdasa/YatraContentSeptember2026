@@ -55,4 +55,7 @@ where y.slug='vaishno-devi-helicopter-package' and i.version=1
 on conflict (itinerary_id,day_number) do update set title=excluded.title,
   body=excluded.body, stay=excluded.stay;
 
+-- Departure: 13–16 March 2027
+insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-03-13'::date,'2027-03-16'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-helicopter-package' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-03-13'::date);
+
 commit;
