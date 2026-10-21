@@ -17,6 +17,10 @@ echo "  applying seed"
 for f in supabase/seed/*.sql; do
   $PSQL $CONN -d "$DB" -q -v ON_ERROR_STOP=1 -f "$f"
 done
+echo "  applying hand-authored content"
+for f in supabase/content/*.sql; do
+  $PSQL $CONN -d "$DB" -q -v ON_ERROR_STOP=1 -f "$f"
+done
 $PSQL $CONN -d "$DB" -At -c "
   select 'yatras=' || (select count(*) from yatras)
       || ' destinations=' || (select count(*) from destinations)

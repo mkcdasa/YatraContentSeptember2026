@@ -30,6 +30,9 @@ supabase db push
 #    Seed files are generated, not committed — see supabase/seed/README.md.
 python3 scripts/import_content.py --src source-content --out supabase/seed
 for f in supabase/seed/*.sql; do psql "$SUPABASE_DB_URL" -f "$f"; done
+
+# 3. Load hand-authored content (itineraries written directly, not imported)
+for f in supabase/content/*.sql; do psql "$SUPABASE_DB_URL" -f "$f"; done
 ```
 
 Migrations live in `supabase/migrations/` and run in filename order:
