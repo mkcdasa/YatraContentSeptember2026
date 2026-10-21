@@ -66,7 +66,7 @@
 | 17 | Vatican City | 26 Jul 2024 | 26 Jul 2024 | 1 | Schengen C visa #1 (open border with Italy) | Itinerary Day 15: St Peter's Square & Basilica; date inferred | Check |
 | 18 | Italy | 23 Jul 2024 | 27 Jul 2024 | 5 | Schengen C visa #1 | Itinerary Days 12-16: Milan, Padova, Venice, Arezzo, Florence, Pisa, Rome; Malpensa exit stamp 27 Jul 2024 | Check |
 | 19 | United Kingdom | 27 Jul 2024 | 31 Jul 2024 | 5 | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024; UAE entry 1 Aug 2024 -> UK exit ~31 Jul (inferred) | Check |
-| 20 | UAE | 01 Aug 2024 | ? | - | Visa/entry per stamp (Indian PP) | Passport p.10: UAE entry stamp 01 Aug 2024; India arrival RGI Hyderabad 05 Aug 2024 | High |
+| 20 | UAE | 01 Aug 2024 | ? | - | UAE Tourist eVisa, single entry, 30 days (issued Dubai 18 Jul 2024) | Passport p.10: UAE entry stamp 01 Aug 2024 + eVisa PDF; India arrival RGI Hyderabad 05 Aug 2024 | High |
 | 21 | USA | 04 Sep 2025 | 30 Sep 2025 | 27 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + p.10: India dep. New Delhi 03 Sep 2025; CBP stamp 04 Sep 2025; India arrival Mumbai 30 Sep 2025 | High |
 | 22 | Sri Lanka | 17 Jan 2026 | 25 Jan 2026 | 9 | Sri Lanka ETA | Your Ramayan Yatra itinerary 16-25 Jan 2026 (no stamp - scan ends Nov 2025) | Check |
 | 23 | Nepal | 24 May 2026 | 29 May 2026 | 6 | No visa needed | Your Muktinath Yatra itinerary 24-29 May 2026 (no stamp available) | Check |
@@ -83,6 +83,7 @@
 | Schengen C (France) #1 | 15 Jul 2024 - 29 Aug 2024 | Multiple | EXPIRED | Used Jul 2024 (France->Italy); 30 days |
 | Schengen C (France) #2 | 21 Oct 2025 - 19 Apr 2026 | Multiple | EXPIRED | Expired 19 Apr 2026; 30 days |
 | UK Standard Visitor | 29 Jun 2024 - 29 Dec 2024 | Multiple | EXPIRED | Used Jul 2024; expired 29 Dec 2024; up to 6 months per visit |
+| UAE Tourist eVisa | 18 Jul 2024 - 15 Sep 2024 | Single | EXPIRED | Used 1 Aug 2024 (Dubai); entry validity expired 15 Sep 2024; 30 days max stay |
 
 ## 6. Where my current visas already work
 
