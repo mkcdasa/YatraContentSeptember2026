@@ -16,6 +16,8 @@ Outputs (in the -o folder):
     visits.csv     one row per place visit with country / state / city
     countries.csv  countries with days, separate trips, first and last visit
     cities.csv     cities with country, state, days, separate trips, first and last visit
+                   (suburbs and airports within --metro-radius km of a big city count as that city)
+    places.csv     every distinct place (Google place ID) with visits, days and a Google Maps link
     by_year.csv    countries and cities seen per year
     summary.txt    plain-text overview (paste it, plus the CSVs, into an AI chat)
 """
@@ -26,6 +28,8 @@ import json
 import os
 import re
 import sys
+import unicodedata
+from math import asin, cos, radians, sin, sqrt
 from collections import defaultdict
 from datetime import date, datetime
 
@@ -86,6 +90,7 @@ def visits_from_file(path):
                     "semantic_type": cand.get("semanticType", ""),
                     "name": "",
                     "address": "",
+                    "level": visit.get("hierarchyLevel", 0),
                 }
 
     elif isinstance(data, list):  # iPhone export
@@ -105,6 +110,7 @@ def visits_from_file(path):
                     "semantic_type": cand.get("semanticType", ""),
                     "name": "",
                     "address": "",
+                    "level": int(visit.get("hierarchyLevel", 0) or 0),
                 }
 
     elif isinstance(data, dict) and "timelineObjects" in data:  # old Takeout
@@ -125,6 +131,7 @@ def visits_from_file(path):
                     "semantic_type": loc.get("semanticType", ""),
                     "name": loc.get("name", ""),
                     "address": loc.get("address", ""),
+                    "level": 0,
                 }
     else:
         print(f"  skipped {path}: not a recognised Timeline format", file=sys.stderr)
@@ -151,6 +158,17 @@ def local_dates(start, end):
     return [date.fromordinal(first.toordinal() + i) for i in range(days + 1)]
 
 
+def plain(text):
+    """'Hyderābād' -> 'Hyderabad', so names are easy to read, sort and match."""
+    return "".join(c for c in unicodedata.normalize("NFKD", text or "") if not unicodedata.combining(c))
+
+
+def km(lat1, lng1, lat2, lng2):
+    lat1, lng1, lat2, lng2 = map(radians, (lat1, lng1, lat2, lng2))
+    a = sin((lat2 - lat1) / 2) ** 2 + cos(lat1) * cos(lat2) * sin((lng2 - lng1) / 2) ** 2
+    return 12742 * asin(sqrt(a))
+
+
 def count_trips(days):
     days = sorted(days)
     trips = 1 if days else 0
@@ -175,6 +193,10 @@ def main():
     ap.add_argument("--min-population", type=int, default=15000,
                     help="snap each visit to the nearest town of at least this size (default 15000; "
                          "lower it to see small villages and pilgrimage towns separately)")
+    ap.add_argument("--metro-population", type=int, default=500000,
+                    help="cities at least this big absorb nearby suburbs and airports (default 500000)")
+    ap.add_argument("--metro-radius", type=float, default=30,
+                    help="how far, in km, a metro city reaches (default 30; 0 turns grouping off)")
     args = ap.parse_args()
 
     try:
@@ -195,28 +217,50 @@ def main():
     # Round to ~100 m so repeated visits to the same spot are geocoded once.
     keys = sorted({(round(v["lat"], 3), round(v["lng"], 3)) for v in visits})
     geo = dict(zip(keys, reverse_geocode.search(keys, min_population=args.min_population)))
+    metro = dict(zip(keys, reverse_geocode.search(keys, min_population=args.metro_population)))
 
     os.makedirs(args.out, exist_ok=True)
     country_days = defaultdict(set)
     city_days = defaultdict(set)
     year_countries = defaultdict(set)
     year_cities = defaultdict(set)
+    place_visits = defaultdict(list)
     rows = []
     for v in visits:
-        g = geo[(round(v["lat"], 3), round(v["lng"], 3))]
-        country, state, city = g["country"], g.get("state", ""), g["city"]
+        key = (round(v["lat"], 3), round(v["lng"], 3))
+        g, m = geo[key], metro[key]
+        country, state, town = g["country"], plain(g.get("state", "")), plain(g["city"])
+        city = town
+        if (m["country"] == country and args.metro_radius
+                and km(v["lat"], v["lng"], m["latitude"], m["longitude"]) <= args.metro_radius):
+            city, state = plain(m["city"]), plain(m.get("state", "")) or state
         days = local_dates(v["start"], v["end"])
+        if v.get("level", 0) == 0:
+            place_visits[v["place_id"] or f"{key[0]},{key[1]}"].append((v, days, town, city, state, country))
         country_days[country].update(days)
         city_days[(city, state, country)].update(days)
         year_countries[v["start"].year].add(country)
         year_cities[v["start"].year].add(f"{city}, {country}")
         rows.append([v["start"].isoformat(), v["end"].isoformat() if v["end"] else "",
-                     f"{v['lat']:.5f}", f"{v['lng']:.5f}", city, state, country,
+                     f"{v['lat']:.5f}", f"{v['lng']:.5f}", town, city, state, country,
                      v["semantic_type"], v["name"], v["address"], v["place_id"]])
 
     write_csv(os.path.join(args.out, "visits.csv"),
-              ["start", "end", "lat", "lng", "city", "state", "country",
+              ["start", "end", "lat", "lng", "town", "city", "state", "country",
                "semantic_type", "name", "address", "place_id"], rows)
+
+    place_rows = []
+    for pid, items in place_visits.items():
+        v, _, town, city, state, country = items[-1]
+        days = set().union(*(d for _, d, *_ in items))
+        link = (f"https://www.google.com/maps/place/?q=place_id:{pid}" if pid.startswith("Ch")
+                else f"https://www.google.com/maps?q={v['lat']:.5f},{v['lng']:.5f}")
+        place_rows.append([v["name"], town, city, state, country, len(items), len(days), count_trips(days),
+                           min(days), max(days), v["semantic_type"], f"{v['lat']:.5f}", f"{v['lng']:.5f}", link])
+    place_rows.sort(key=lambda r: (r[4] != "India", r[4], r[3], r[2], -r[5]))
+    write_csv(os.path.join(args.out, "places.csv"),
+              ["name", "town", "city", "state", "country", "visits", "days", "trips", "first_visit",
+               "last_visit", "semantic_type", "lat", "lng", "google_maps_link"], place_rows)
 
     country_rows = sorted(
         ([c, len(d), count_trips(d), min(d), max(d)] for c, d in country_days.items()),
@@ -241,13 +285,14 @@ def main():
         f"Place visits: {len(visits)}",
         f"Countries: {len(country_days)}",
         f"Cities/towns: {len(city_days)}",
+        f"Distinct places: {len(place_rows)}",
         "",
         "Countries (days, trips):",
     ]
     lines += [f"  {r[0]}: {r[1]} days, {r[2]} trips (first {r[3]}, last {r[4]})" for r in country_rows]
     lines += ["", "Most-visited cities (trips, days):"]
     lines += [f"  {r[0]}, {r[1]}, {r[2]}: {r[4]} trips, {r[3]} days"
-              for r in city_rows if r[0].lower() != home][:40]
+              for r in city_rows if plain(r[0]).lower() != home][:40]
     lines += ["", "Per year:"]
     lines += [f"  {y}: {len(year_countries[y])} countries, {len(year_cities[y])} cities"
               for y in sorted(year_countries)]
