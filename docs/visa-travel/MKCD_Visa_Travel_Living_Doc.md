@@ -6,8 +6,8 @@
 
 | # | Item | Value |
 |---|---|---|
-| 1 | Countries visited (stamp-verified) | 15 - Belgium, Cambodia, China (Tibet), France, Germany, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, UAE, USA, United Kingdom, Vatican City |
-| 2 | Visits logged | 26 |
+| 1 | Countries visited (stamp-verified) | 17 - Belgium, Cambodia, Canada, China (Tibet), France, Germany, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, Turkey, UAE, USA, United Kingdom, Vatican City |
+| 2 | Visits logged | 32 |
 | 3 | Valid visas today | USA B1/B2 (to 26 Dec 2034), Australia 600 (to 13 Nov 2030) |
 | 4 | Expired - renew | Schengen (19 Apr 2026), UK (29 Dec 2024) |
 | 5 | Passport expiry | 17 Sep 2028; practical last travel date 17 Mar 2028 (6-month rule); start renewal by Sep 2027 |
@@ -29,21 +29,23 @@
 |---|---|---|---|---|---|
 | 1 | Belgium | 1 | 18 Jul 2024 | 18 Jul 2024 | 2 |
 | 2 | Cambodia | 2 | 08 Feb 2023 | 27 Jun 2023 | 7 |
-| 3 | China (Tibet) | 1 | 02 Jun 2026 | 02 Jun 2026 | 10 |
-| 4 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 4 |
-| 5 | Germany | 1 | 20 Jul 2024 | 20 Jul 2024 | 2 |
-| 6 | Italy | 1 | 23 Jul 2024 | 23 Jul 2024 | 5 |
-| 7 | Nepal | 6 | 15 May 2019 | 11 Jun 2026 | 20 |
-| 8 | Netherlands | 1 | 19 Jul 2024 | 19 Jul 2024 | 2 |
-| 9 | Sri Lanka | 4 | 28 Sep 2019 | 17 Jan 2026 | 40 |
-| 10 | Switzerland | 1 | 21 Jul 2024 | 21 Jul 2024 | 3 |
-| 11 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
-| 12 | UAE | 1 | 01 Aug 2024 | 01 Aug 2024 | - |
-| 13 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 27 |
-| 14 | United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | 5 |
-| 15 | Vatican City | 1 | 26 Jul 2024 | 26 Jul 2024 | 1 |
+| 3 | Canada | 1 | 06 Sep 2025 | 06 Sep 2025 | 1 |
+| 4 | China (Tibet) | 1 | 05 Jun 2026 | 05 Jun 2026 | 6 |
+| 5 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 4 |
+| 6 | Germany | 1 | 20 Jul 2024 | 20 Jul 2024 | 2 |
+| 7 | Italy | 1 | 23 Jul 2024 | 23 Jul 2024 | 5 |
+| 8 | Nepal | 6 | 03 Mar 2019 | 10 Jun 2026 | 41 |
+| 9 | Netherlands | 1 | 19 Jul 2024 | 19 Jul 2024 | 2 |
+| 10 | Sri Lanka | 6 | 28 Sep 2019 | 17 Jan 2026 | 68 |
+| 11 | Switzerland | 1 | 21 Jul 2024 | 21 Jul 2024 | 3 |
+| 12 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
+| 13 | Turkey | 2 | 31 Jul 2024 | 29 Sep 2025 | 3 |
+| 14 | UAE | 2 | 15 Jul 2024 | 01 Aug 2024 | 6 |
+| 15 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 26 |
+| 16 | United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | 5 |
+| 17 | Vatican City | 1 | 25 Jul 2024 | 25 Jul 2024 | 1 |
 
-*Total: 15 rows*
+*Total: 17 rows*
 
 *Belgium, Netherlands, Germany, Switzerland, Italy, Vatican City: visited inside the 15-27 Jul 2024 Schengen trip (no internal stamps). Pre-2018 travel not captured.*
 
@@ -51,34 +53,40 @@
 
 | # | # | Country | Entry | Exit | Days | Visa / permit | Evidence | Conf. |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 1 | Nepal | ? | 07 Mar 2019 | - | No visa needed (Indian PP) | Passport p.3: Nepal departed + India arrival New Delhi 07 Mar 2019 | Check |
-| 2 | 2 | Nepal | 15 May 2019 | ? | - | No visa needed | Passport p.3: India departed New Delhi 15 May 2019, Nepal arrived 15 May 2019 | High |
+| 1 | 1 | Nepal | 03 Mar 2019 | 07 Mar 2019 | 5 | No visa needed (Indian PP) | GPS timeline 3-6 Mar 2019 + passport p.3: Nepal departed / India arrival New Delhi 07 Mar 2019 | High |
+| 2 | 2 | Nepal | 15 May 2019 | 26 May 2019 | 12 | No visa needed | Passport p.3 + GPS timeline 15-26 May 2019: Kathmandu, Pokhara, Baglung (Muktinath road), Hetauda, Bharatpur/Chitwan, Janakpur | High |
 | 3 | 3 | Sri Lanka | 28 Sep 2019 | 07 Oct 2019 | 10 | ETA 30-day, 1st visit (exp 28/10/2019) | Passport p.5/p.9: SL permitted 28 Sep 2019; embarked 07 Oct 2019; India arrival Madurai 07 Oct 2019 | High |
 | 4 | 4 | Sri Lanka | 17 Dec 2019 | 29 Dec 2019 | 13 | ETA 30-day, 1st visit (exp 16/01/2020) | Passport p.4: India dep. RGI Hyderabad 17 Dec 2019; SL departure + India arrival RGI 29 Dec 2019 | High |
-| 5 | 5 | Sri Lanka | 24 Jan 2022 | 31 Jan 2022 | 8 | ETA 30-day, 1st visit (exp 23/02/2022) | Passport p.4/p.9: India dep. Chennai 24 Jan 2022; SL embarked 31 Jan 2022; India arrival Chennai 31 Jan 2022 | High |
-| 6 | 6 | Nepal | 14 Apr 2022 | 21 Apr 2022 | 8 | No visa needed | Passport p.6/p.7/p.9: India dep. New Delhi 14 Apr 2022; Nepal departed 21 Apr 2022; India arrival Bengaluru 21 Apr 2022 | High |
-| 7 | 7 | Thailand | 07 Feb 2023 | 08 Feb 2023 | 2 | Visa on Arrival (30 days) | Passport p.7-8: Thai admitted 7 Feb 2023, departed 8 Feb 2023; India dep. Bengaluru 07 Feb 2023 | High |
-| 8 | 8 | Cambodia | 08 Feb 2023 | 10 Feb 2023 | 3 | e-Visa (valid to 07 Mar 2023) | Passport p.10: Cambodia entry 08 Feb 2023, exit 10 Feb 2023 | High |
-| 9 | 9 | Thailand | 10 Feb 2023 | 12 Feb 2023 | 3 | Visa on Arrival (30 days) | Passport p.8: Thai admitted 10 Feb 2023 (until 11 Mar), departed 12 Feb 2023; India arrival Bengaluru 12 Feb 2023 | High |
-| 10 | 10 | Thailand | 24 Jun 2023 | 27 Jun 2023 | 4 | Visa on Arrival | Passport p.20-21: Thai VOA stamp admitted 2? Jun 2023 until 9 Jul 2023 (class TR-15 = 15 days -> 24 Jun); Thai departed 27 Jun 2023; India dep. RGI Hyderabad 24 Jun 2023 | Check |
-| 11 | 11 | Cambodia | 27 Jun 2023 | 30 Jun 2023 | 4 | e-Visa (valid 27 Jun-26 Jul 2023) | Passport p.20: Cambodia entry 27 Jun 2023, exit 30 Jun 2023 | High |
-| 12 | 12 | France | 15 Jul 2024 | 18 Jul 2024 | 4 | Schengen C visa #1 (France-issued, Pondicherry) | Passport p.9/p.17: CDG stamp 15 Jul 2024; Malpensa stamp 27 Jul 2024; India dep. Mumbai 14 Jul 2024 | High |
-| 13 | 13 | Belgium | 18 Jul 2024 | 19 Jul 2024 | 2 | Schengen C visa #1 | Itinerary Day 7: Brussels + ISKCON Radhadesh; dates inferred | Check |
-| 14 | 14 | Netherlands | 19 Jul 2024 | 20 Jul 2024 | 2 | Schengen C visa #1 | Itinerary Days 8-9: Amsterdam canal cruise + city; dates inferred | Check |
-| 15 | 15 | Germany | 20 Jul 2024 | 21 Jul 2024 | 2 | Schengen C visa #1 | Itinerary Days 9-10: Cologne, Black Forest, Triberg; dates inferred | Check |
-| 16 | 16 | Switzerland | 21 Jul 2024 | 23 Jul 2024 | 3 | Schengen C visa #1 | Itinerary Days 10-12: Rhine Falls, Zurich, Lucerne, Mt Titlis; dates inferred | Check |
-| 17 | 17 | Vatican City | 26 Jul 2024 | 26 Jul 2024 | 1 | Schengen C visa #1 (open border with Italy) | Itinerary Day 15: St Peter's Square & Basilica; date inferred | Check |
-| 18 | 18 | Italy | 23 Jul 2024 | 27 Jul 2024 | 5 | Schengen C visa #1 | Itinerary Days 12-16: Milan, Padova, Venice, Arezzo, Florence, Pisa, Rome; Malpensa exit stamp 27 Jul 2024 | Check |
-| 19 | 19 | United Kingdom | 27 Jul 2024 | 31 Jul 2024 | 5 | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024; UAE entry 1 Aug 2024 -> UK exit ~31 Jul (inferred) | Check |
-| 20 | 20 | UAE | 01 Aug 2024 | ? | - | UAE Tourist eVisa, single entry, 30 days (issued Dubai 18 Jul 2024) | Passport p.10: UAE entry stamp 01 Aug 2024 + eVisa PDF; India arrival RGI Hyderabad 05 Aug 2024 | High |
-| 21 | 21 | USA | 04 Sep 2025 | 30 Sep 2025 | 27 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + p.10: India dep. New Delhi 03 Sep 2025; CBP stamp 04 Sep 2025; India arrival Mumbai 30 Sep 2025 | High |
-| 22 | 22 | Sri Lanka | 17 Jan 2026 | 25 Jan 2026 | 9 | Sri Lanka ETA | Your Ramayan Yatra itinerary 16-25 Jan 2026 (no stamp - scan ends Nov 2025) | Check |
-| 23 | 23 | Nepal | 24 May 2026 | 29 May 2026 | 6 | No visa needed | Your Muktinath Yatra itinerary 24-29 May 2026 (no stamp available) | Check |
-| 24 | 24 | Nepal | 31 May 2026 | 02 Jun 2026 | 3 | No visa needed | Kailash itinerary Days 1-3 (no stamp available) | Check |
-| 25 | 25 | China (Tibet) | 02 Jun 2026 | 11 Jun 2026 | 10 | Chinese group visa + Tibet Travel Permit (via operator) | Kailash itinerary Days 3-12, 31 May-13 Jun 2026 (no stamp available) | Check |
-| 26 | 26 | Nepal | 11 Jun 2026 | 13 Jun 2026 | 3 | No visa needed | Kailash itinerary Days 12-13 | Check |
+| 5 | 5 | Sri Lanka | 24 Jan 2022 | 31 Jan 2022 | 8 | ETA 30-day (exp 23/02/2022) | Passport p.4/p.9: India dep. Chennai 24 Jan 2022; SL embarked 31 Jan 2022; India arrival Chennai 31 Jan 2022 | High |
+| 6 | 6 | Sri Lanka | 01 Feb 2022 | 24 Feb 2022 | 24 | ETA(s) - stamps not in scan | GPS timeline: continuous Sri Lanka presence 24 Jan-24 Feb 2022 (Hatton, Nuwara Eliya, Jaffna, Trincomalee, Kandy, Kataragama...) = further Ramayana batches | Check |
+| 7 | 7 | Sri Lanka | 02 Mar 2022 | 05 Mar 2022 | 4 | ETA - stamps not in scan | GPS timeline 2-5 Mar 2022 (Hatton) | Check |
+| 8 | 8 | Nepal | 14 Apr 2022 | 21 Apr 2022 | 8 | No visa needed | Passport p.6/p.7/p.9: India dep. New Delhi 14 Apr 2022; Nepal departed 21 Apr 2022; India arrival Bengaluru 21 Apr 2022 | High |
+| 9 | 9 | Thailand | 07 Feb 2023 | 08 Feb 2023 | 2 | Visa on Arrival (30 days) | Passport p.7-8: Thai admitted 7 Feb 2023, departed 8 Feb 2023; India dep. Bengaluru 07 Feb 2023 | High |
+| 10 | 10 | Cambodia | 08 Feb 2023 | 10 Feb 2023 | 3 | e-Visa (valid to 07 Mar 2023) | Passport p.10: Cambodia entry 08 Feb 2023, exit 10 Feb 2023 | High |
+| 11 | 11 | Thailand | 10 Feb 2023 | 12 Feb 2023 | 3 | Visa on Arrival (30 days) | Passport p.8: Thai admitted 10 Feb 2023 (until 11 Mar), departed 12 Feb 2023; India arrival Bengaluru 12 Feb 2023 | High |
+| 12 | 12 | Thailand | 24 Jun 2023 | 27 Jun 2023 | 4 | Visa on Arrival | Passport p.20-21: Thai VOA stamp admitted 2? Jun 2023 until 9 Jul 2023 (class TR-15 = 15 days -> 24 Jun); Thai departed 27 Jun 2023; India dep. RGI Hyderabad 24 Jun 2023 | Check |
+| 13 | 13 | Cambodia | 27 Jun 2023 | 30 Jun 2023 | 4 | e-Visa (valid 27 Jun-26 Jul 2023) | Passport p.20: Cambodia entry 27 Jun 2023, exit 30 Jun 2023 | High |
+| 14 | 14 | UAE | 15 Jul 2024 | 15 Jul 2024 | 1 | Airside transit | GPS timeline: Sharjah 15 Jul 2024 (outbound Hyderabad-Sharjah-Paris) | High |
+| 15 | 15 | France | 15 Jul 2024 | 18 Jul 2024 | 4 | Schengen C visa #1 (France-issued, Pondicherry) | Passport p.9/p.17: CDG stamp 15 Jul 2024; Malpensa stamp 27 Jul 2024; India dep. Mumbai 14 Jul 2024 | High |
+| 16 | 16 | Belgium | 18 Jul 2024 | 19 Jul 2024 | 2 | Schengen C visa #1 | GPS-confirmed 18-19 Jul 2024: Brussels, Jette, Leuven, Hoogstraten | High |
+| 17 | 17 | Netherlands | 19 Jul 2024 | 20 Jul 2024 | 2 | Schengen C visa #1 | GPS-confirmed 19-20 Jul 2024: Breda, Oosterhout, Amsterdam | High |
+| 18 | 18 | Germany | 20 Jul 2024 | 21 Jul 2024 | 2 | Schengen C visa #1 | GPS-confirmed 20-21 Jul 2024: Dusseldorf, Cologne, Frankfurt, Sankt Wendel (Saarland), Offenburg, Waldkirch (Black Forest) | High |
+| 19 | 19 | Switzerland | 21 Jul 2024 | 23 Jul 2024 | 3 | Schengen C visa #1 | GPS-confirmed 21-23 Jul 2024: Schaffhausen (Rhine Falls), Zurich, Lucerne/Kriens, Bellinzona (Ticino) | High |
+| 20 | 20 | Vatican City | 25 Jul 2024 | 25 Jul 2024 | 1 | Schengen C visa #1 (open border with Italy) | GPS: Rome 25 Jul 2024; St Peter's per itinerary | Check |
+| 21 | 21 | Italy | 23 Jul 2024 | 27 Jul 2024 | 5 | Schengen C visa #1 | GPS-confirmed 23-28 Jul 2024: Milan & Venice 23, Vicenza/Este/Florence/Pisa 24, Rome 25, Perugia 25-26, Modena/Prato/Scandicci 26, Gallarate (Malpensa) 26-28; Malpensa exit stamp 27 Jul | High |
+| 22 | 22 | United Kingdom | 27 Jul 2024 | 31 Jul 2024 | 5 | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024; GPS London/Horley 28-31 Jul, Bishops Stortford (Stansted) 31 Jul | High |
+| 23 | 23 | Turkey | 31 Jul 2024 | 01 Aug 2024 | 2 | Turkish eVisa (conditional, via UK/Schengen visa) | GPS timeline: Umraniye, Istanbul (Asian side) 31 Jul-1 Aug 2024 - left the airport | Check |
+| 24 | 24 | UAE | 01 Aug 2024 | 05 Aug 2024 | 5 | UAE Tourist eVisa, single entry, 30 days (issued Dubai 18 Jul 2024) | Passport p.10: UAE entry stamp 01 Aug 2024 + eVisa PDF; GPS: Dubai 1-4 Aug, Abu Dhabi + Masdar City 3 Aug, Sharjah 5 Aug; India arrival RGI 05 Aug 2024 | High |
+| 25 | 25 | USA | 04 Sep 2025 | 29 Sep 2025 | 26 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + GPS: NY 4-5, Niagara 5-6, Pittsburgh 6-7, New Vrindaban (Wheeling WV) 7, DC/Baltimore/Fairfax 8-9, NJ/NYC/Philadelphia 10-12, Orlando 12-15, Gainesville (ISKCON Alachua)/Jacksonville 16, Miami 17, Los Angeles 17-20, Fairfax/DC 20-22, Boston/Shrewsbury 23-25, NJ 26-27, Philadelphia/DC/NYC 29; India arrival Mumbai 30 Sep | High |
+| 26 | 26 | Canada | 06 Sep 2025 | 06 Sep 2025 | 1 | TRV would be required - CONFIRM | GPS timeline: Niagara Falls, Ontario 06 Sep 2025 (1 day) | Check |
+| 27 | 27 | Turkey | 29 Sep 2025 | 29 Sep 2025 | 1 | Airside transit | GPS timeline: Bagcilar, Istanbul 29 Sep 2025 | High |
+| 28 | 28 | Sri Lanka | 17 Jan 2026 | 25 Jan 2026 | 9 | Sri Lanka ETA | Your Ramayan Yatra itinerary 16-25 Jan 2026. GPS timeline shows NO Sri Lanka after Mar 2022 | Check |
+| 29 | 29 | Nepal | 24 May 2026 | 29 May 2026 | 6 | No visa needed | Your Muktinath Yatra itinerary 24-29 May 2026. GPS shows no Nepal in this window (Pokhara last seen Apr 2022) | Check |
+| 30 | 30 | Nepal | 30 May 2026 | 05 Jun 2026 | 7 | No visa needed | GPS timeline: Nepal 30 May-5 Jun 2026 (Kathmandu); Kailash itinerary Days 1-3 | High |
+| 31 | 31 | China (Tibet) | 05 Jun 2026 | 10 Jun 2026 | 6 | Chinese group visa + Tibet Travel Permit (via operator) | GPS blackout 6-9 Jun 2026 (no data in Tibet) between Nepal legs; Kailash itinerary | Check |
+| 32 | 32 | Nepal | 10 Jun 2026 | 12 Jun 2026 | 3 | No visa needed | GPS timeline: Nepal 10-12 Jun 2026 | High |
 
-*Total: 26 rows*
+*Total: 32 rows*
 
 ## 5. Visas held
 
@@ -258,14 +266,18 @@ Changes 2025-26: Iran visa-waiver SUSPENDED 22 Nov 2025; Thailand 60 d -> 30 d f
 | 2 | Europe (Schengen) | 2025-11-06 | 2025-11-20 | Inside Schengen #2 validity (21 Oct 2025-19 Apr 2026); no stamp in Nov-2025 scan |
 | 3 | Australia (Yatra) | 2026-02-10 | 2026-02-19 | Visa granted 13 Nov 2025; would be FIRST Australia entry - confirm |
 | 4 | Bali, Indonesia | 2026-02-21 | 2026-02-27 | Confirm |
-| 5 | USA Yatra (brochure) | 2026-04-22 | 2026-05-08 | Brochure route NY-DC-New Vrindaban-Niagara-Orlando-LA-SF is dated 22 Apr-8 May; your stamped USA trip is 4-30 Sep 2025. Was Apr-May 2026 a SECOND USA trip? If yes I will add it to the Travel Log |
-| 6 | Nepal (Muktinath Yatra) | 2024-10-27 | 2024-11-02 | No 2024 Nepal stamp seen - may have been an escorted group yatra or not run |
-| 7 | Sri Lanka (Ramayan Yatra) | 2024-12-01 | 2024-12-07 | No Dec-2024 SL stamp in scan - confirm |
-| 8 | Thailand / Cambodia Yatra | 2025-01-07 | 2025-01-12 | No Jan-2025 stamp in scan - confirm |
-| 9 | Nepal (Muktinath Yatra) | 2025-04-01 | 2025-04-21 | No Apr-2025 stamp in scan - confirm |
-| 10 | OOS / BJ (domestic?) | 2025-03-11 | 2025-03-16 | Label unclear ('OOS'); probably out-of-station, not international |
+| 5 | USA Yatra (brochure 22 Apr-8 May) | 2026-04-22 | 2026-05-08 | RESOLVED by GPS: no 2026 USA trip; Sep 2025 route = NY, Niagara, Pittsburgh, New Vrindaban, DC, Baltimore, NJ, Philadelphia, Orlando, Alachua, Miami, LA, Boston. San Francisco NOT visited |
+| 6 | Sri Lanka Ramayan Yatra Jan 2026 | 2026-01-16 | 2026-01-25 | GPS timeline has no Sri Lanka after Mar 2022 - confirm you personally travelled |
+| 7 | Nepal Muktinath Yatra May 2026 | 2026-05-24 | 2026-05-29 | GPS shows no Nepal 24-29 May 2026 - confirm you personally travelled |
+| 8 | Canada - Niagara Falls, Ontario | 2025-09-06 | 2025-09-06 | Did you cross into Canada (needs TRV) or is this a border/boat GPS point? |
+| 9 | Disneyland Paris? | 2024-07-16 | 2024-07-16 | GPS point beside Disneyland Paris - visited? |
+| 10 | Nepal (Muktinath Yatra) | 2024-10-27 | 2024-11-02 | No 2024 Nepal stamp seen - may have been an escorted group yatra or not run |
+| 11 | Sri Lanka (Ramayan Yatra) | 2024-12-01 | 2024-12-07 | No Dec-2024 SL stamp in scan - confirm |
+| 12 | Thailand / Cambodia Yatra | 2025-01-07 | 2025-01-12 | No Jan-2025 stamp in scan - confirm |
+| 13 | Nepal (Muktinath Yatra) | 2025-04-01 | 2025-04-21 | No Apr-2025 stamp in scan - confirm |
+| 14 | OOS / BJ (domestic?) | 2025-03-11 | 2025-03-16 | Label unclear ('OOS'); probably out-of-station, not international |
 
-*Total: 10 rows*
+*Total: 14 rows*
 
 ## 10. Yatra Wishlist - places to visit, explore and plan
 
@@ -332,73 +344,80 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 | 35 | Switzerland | Zurich | ISKCON Zurich (Krishna Tempel) - if visited | ISKCON/Temple | 21-22 Jul 2024 | Not in itinerary - delete if not visited |
 | 36 | Italy | Milan | Villaggio Hare Krishna (Chignolo d'Isola) | ISKCON/Temple | 23 Jul 2024 | ISKCON Milan farm community |
 | 37 | Italy | Milan | Duomo di Milano, Galleria Vittorio Emanuele II, Sforza Castle, Brera | City tour | 23 Jul 2024 |  |
-| 38 | Italy | Padova | Padova (overnight base) | City tour | 24 Jul 2024 | Prato della Valle / St Anthony basilica if seen |
-| 39 | Italy | Venice | Gondola ride | Cruise/Ride | 24 Jul 2024 |  |
-| 40 | Italy | Venice | St Mark's Square, Doge's Palace, Rialto Bridge | Landmark | 24 Jul 2024 |  |
-| 41 | Italy | Arezzo | Arezzo (overnight base) | City tour | 25 Jul 2024 |  |
-| 42 | Italy | Florence | Florence Cathedral (Duomo), Ponte Vecchio, Piazza della Signoria | Landmark | 25 Jul 2024 |  |
-| 43 | Italy | Pisa | Leaning Tower of Pisa | Landmark | 25 Jul 2024 |  |
-| 44 | Italy | Florence | ISKCON Florence (Villa Vrindavana, San Casciano) | ISKCON/Temple | 25 Jul 2024 |  |
-| 45 | Italy | Rome | Colosseum (outside), Roman Forum, Pantheon | Landmark | 26 Jul 2024 |  |
+| 38 | Italy | Vicenza / Este (Veneto) | Veneto overnight base - GPS 24 Jul 2024 (itinerary said Padova) | City tour | 24 Jul 2024 | GPS: Vicenza & Este |
+| 39 | Italy | Venice | Gondola ride | Cruise/Ride | 23 Jul 2024 | GPS: Venice 23 Jul |
+| 40 | Italy | Venice | St Mark's Square, Doge's Palace, Rialto Bridge | Landmark | 23 Jul 2024 |  |
+| 41 | Italy | Perugia (Umbria) | Perugia overnight base - GPS 25-26 Jul 2024 (itinerary said Arezzo) | City tour | 25-26 Jul 2024 | GPS |
+| 42 | Italy | Florence | Florence Cathedral (Duomo), Ponte Vecchio, Piazza della Signoria | Landmark | 24-25 Jul 2024 | GPS |
+| 43 | Italy | Pisa | Leaning Tower of Pisa | Landmark | 24 Jul 2024 | GPS |
+| 44 | Italy | Florence (Scandicci) | ISKCON Florence (Villa Vrindavana, San Casciano) | ISKCON/Temple | 26 Jul 2024 | GPS: Scandicci 26 Jul |
+| 45 | Italy | Rome | Colosseum (outside), Roman Forum, Pantheon | Landmark | 25 Jul 2024 | GPS: Rome 25 Jul |
 | 46 | Italy | Milan | Departure Milan Malpensa | Transit hub | 27 Jul 2024 | Malpensa stamp 27 Jul 2024 |
-| 47 | Vatican City | Vatican City | St Peter's Square & St Peter's Basilica | Landmark | 26 Jul 2024 |  |
-| 48 | India | Srirangam (Trichy) | Sri Ranganathaswamy Divya Desams, Vishwaroopa darshan | ISKCON/Temple | 16-17 Jan 2026 | Domestic leg before Jaffna flight |
-| 49 | Sri Lanka | Jaffna | Nilavarai bottomless well, Keerimalai springs, Naguleswaram (Pancha Ishwaram) | ISKCON/Temple | 17 Jan 2026 |  |
-| 50 | Sri Lanka | Nainativu | Nagadeepa island (by boat) | ISKCON/Temple | 18 Jan 2026 |  |
-| 51 | Sri Lanka | Mannar | Rama Setu view point, Thiruketheeswaram (Pancha Ishwaram) | ISKCON/Temple | 18 Jan 2026 |  |
-| 52 | Sri Lanka | Trincomalee | Kanniya hot springs; Koneswaram (Pancha Ishwaram); Shankari Devi Shakti peetha | ISKCON/Temple | 18-19 Jan 2026 |  |
-| 53 | Sri Lanka | Sigiriya | Sigiriya Lion Rock (Ravana link) | Landmark | 19 Jan 2026 |  |
-| 54 | Sri Lanka | Kandy | Temple of the Tooth Relic | Landmark | 20 Jan 2026 |  |
-| 55 | Sri Lanka | Ramboda | Ramboda Hanuman temple (Chinmaya) & Ramboda Falls | ISKCON/Temple | 20 Jan 2026 |  |
-| 56 | Sri Lanka | Nuwara Eliya | Seetha Amman Kovil (Ashok Vatika), Hakgala garden, Divurumpola (Sita agni pariksha) | ISKCON/Temple | 21 Jan 2026 |  |
-| 57 | Sri Lanka | Ella | Ravana Cave & Ravana Falls | Nature | 21 Jan 2026 |  |
-| 58 | Sri Lanka | Kataragama | Kataragama & Sella Kataragama | ISKCON/Temple | 21-22 Jan 2026 |  |
-| 59 | Sri Lanka | Ussangoda / Mirissa | Ussangoda (Ravana's burnt land); whale watching | Nature | 22 Jan 2026 |  |
-| 60 | Sri Lanka | Dondra / Galle | Tenavaram-Thondeshwaram (Pancha Ishwaram); Galle Fort | ISKCON/Temple | 23 Jan 2026 |  |
-| 61 | Sri Lanka | Unawatuna / Bentota | Rumassala Sanjeevani hill; Bentota boat ride | Nature | 23 Jan 2026 |  |
-| 62 | Sri Lanka | Colombo | ISKCON Colombo, Gangaramaya, Colombo Lotus Tower, Kelaniya (Vibhishana) temple | ISKCON/Temple | 24 Jan 2026 |  |
-| 63 | Sri Lanka | Chilaw | Munneswaram (Pancha Ishwaram) | ISKCON/Temple | 24 Jan 2026 | All five Pancha Ishwaram covered |
-| 64 | Nepal | Kathmandu | Budhanilkantha - Jala Narayana (sleeping Vishnu) | ISKCON/Temple | 24 May 2026 |  |
-| 65 | Nepal | Kathmandu | ISKCON Kathmandu | ISKCON/Temple | 24 May 2026 |  |
-| 66 | Nepal | Patan | Durbar Square - Krishna Mandir | ISKCON/Temple | 24 May 2026 |  |
-| 67 | Nepal | Kathmandu | Pashupatinath - Rudrabhishekam at main linga; Bagmati river | ISKCON/Temple | 25 May 2026 | Also visited 2019/2022 |
-| 68 | Nepal | Kathmandu | Guhyeshwari Shakti peetha | ISKCON/Temple | 25 May 2026 |  |
-| 69 | Nepal | Bhaktapur | Changu Narayan (oldest Vishnu temple) | ISKCON/Temple | 25 May 2026 |  |
-| 70 | Nepal | Kathmandu | Swayambhunath stupa | Landmark | 25 May 2026 |  |
-| 71 | Nepal | Pokhara | Bindhyabasini temple, Tal Barahi temple, Phewa lake boat ride, Devi's Fall | ISKCON/Temple | 26 & 28 May 2026 |  |
-| 72 | Nepal | Jomsom / Muktinath | Muktinath (106th Divya Desam); Kali Gandaki - Shaligram | ISKCON/Temple | 27-28 May 2026 | Flight Pokhara-Jomsom |
-| 73 | Nepal | Kathmandu | Pashupatinath & Budhanilkantha (pre-Kailash) | ISKCON/Temple | 31 May-1 Jun 2026 |  |
-| 74 | China (Tibet) | Kyirong | Kyirong border town (acclimatisation) | Transit hub | 2-3 Jun 2026 | Entered China at Rasuwagadhi/Kyirong |
-| 75 | China (Tibet) | Saga / Dongba | Tibetan plateau drive | Nature | 4 Jun 2026 |  |
-| 76 | China (Tibet) | Manasarovar | Lake Manasarovar - parikrama, puja, snan; Rakshas Tal | Nature | 5-6 Jun 2026 |  |
-| 77 | China (Tibet) | Darchen / Kailash | Mt Kailash outer kora: Yama Dwar, Dirapuk, Dolma La (5,630 m), Zuthulpuk | Nature | 7-9 Jun 2026 | 3-day parikrama |
-| 78 | Nepal | Kathmandu | Return via Kyirong; departure | Transit hub | 11-13 Jun 2026 |  |
-| 79 | India | Rishikesh | Triveni Ghat Ganga aarti, Ram/Sita Jhula, Parmarth Niketan, Gita Mandir, ISKCON Rishikesh | ISKCON/Temple | Multiple batches 2023-2026 |  |
-| 80 | India | Haridwar | Har ki Pauri, Mansa Devi (ropeway) | ISKCON/Temple | Multiple batches 2023-2026 |  |
-| 81 | India | Yamunotri | Yamunotri temple, Surya Kund, Kharsali Shani temple | ISKCON/Temple | Multiple batches 2023-2026 |  |
-| 82 | India | Gangotri / Harsil | Gangotri temple, Bhagirath Shila, Harsil valley, Bagori village | ISKCON/Temple | Multiple batches 2023-2026 |  |
-| 83 | India | Kedarnath | Kedarnath temple, Bhim Shila, Adi Shankaracharya samadhi (hilltop stay) | ISKCON/Temple | Multiple batches 2023-2026 |  |
-| 84 | India | Badrinath / Mana | Badri Narayan (Maha Abhishek), Brahma Kapal, Mana village, Vyas & Ganesh gufa, Saraswati udgam | ISKCON/Temple | Multiple batches 2023-2026 |  |
-| 85 | USA | New Jersey | Indian Heritage Foundation NJ; Sri Venkateswara Temple Bridgewater; BAPS Akshardham Robbinsville | ISKCON/Temple | USA yatra |  |
-| 86 | USA | New York City | Wall Street & Charging Bull, 9/11 Memorial, Empire State Building, Madame Tussauds, Times Square, Central Park | Landmark | USA yatra |  |
-| 87 | USA | New York City | Tompkins Square Park (Hare Krishna tree), Bhakti Center, ISKCON Brooklyn (Radha Govinda) | ISKCON/Temple | USA yatra |  |
-| 88 | USA | New York City | Statue of Liberty; American Museum of Natural History | Landmark | USA yatra |  |
-| 89 | USA | Baltimore | ISKCON Baltimore | ISKCON/Temple | USA yatra |  |
-| 90 | USA | Washington DC | US Capitol Visitor Center, National Mall, White House, Lincoln Memorial, Washington Monument, WWII Memorial, Smithsonian Air & Space | Landmark | USA yatra |  |
-| 91 | USA | Fairfax VA | Sri Venkateswara Lotus Temple | ISKCON/Temple | USA yatra |  |
-| 92 | USA | New Vrindaban WV | Prabhupada's Palace of Gold; Matchless Gifts | ISKCON/Temple | USA yatra |  |
-| 93 | USA | Pittsburgh | Sri Venkateswara Temple, Penn Hills | ISKCON/Temple | USA yatra |  |
-| 94 | USA | Niagara Falls NY | Maid of the Mist, Cave of the Winds, illumination show | Nature | USA yatra |  |
-| 95 | USA | Orlando | ISKCON Orlando; Walt Disney World; Universal Studios & Islands of Adventure; Aquatica | Landmark | USA yatra |  |
-| 96 | USA | Los Angeles | ISKCON LA New Dvaraka (Watseka Ave); ISKCON Laguna Beach; Hollywood Walk of Fame & TCL Chinese Theatre | ISKCON/Temple | USA yatra |  |
-| 97 | USA | San Jose | Krishna Balaram Balaji Mandir (India Heritage Foundation) | ISKCON/Temple | USA yatra |  |
-| 98 | USA | San Francisco | Golden Gate Bridge & Park, Palace of Fine Arts, Pier 39 / Fisherman's Wharf, hop-on-hop-off | Landmark | USA yatra |  |
-| 99 | USA | Berkeley / Mountain View | ISKCON Berkeley; ISKCON Silicon Valley (Mountain View); Google campus | ISKCON/Temple | USA yatra |  |
-| 100 | Thailand | Bangkok (BKK) | Bangkok | City tour | Feb 2023 (x2); Jun 2023 | Add sites (ISKCON Bangkok, Wat Arun, Grand Palace...) |
-| 101 | Cambodia | Siem Reap | Angkor Wat / Angkor Thom | Landmark | Feb 2023; Jun 2023 | Confirm sites |
-| 102 | UAE | Dubai | Dubai | City tour | 1-~5 Aug 2024 | Add sites (ISKCON Dubai Bur Dubai, Burj Khalifa...) |
+| 47 | Vatican City | Vatican City | St Peter's Square & St Peter's Basilica | Landmark | 25 Jul 2024 |  |
+| 48 | Italy | Modena / Prato / Gallarate | Modena & Prato 26 Jul; Gallarate (Malpensa) 26-28 Jul - GPS | Transit hub | 26-28 Jul 2024 | GPS |
+| 49 | India | Srirangam (Trichy) | Sri Ranganathaswamy Divya Desams, Vishwaroopa darshan | ISKCON/Temple | 16-17 Jan 2026 | Domestic leg before Jaffna flight |
+| 50 | Sri Lanka | Jaffna | Nilavarai bottomless well, Keerimalai springs, Naguleswaram (Pancha Ishwaram) | ISKCON/Temple | 17 Jan 2026 |  |
+| 51 | Sri Lanka | Nainativu | Nagadeepa island (by boat) | ISKCON/Temple | 18 Jan 2026 |  |
+| 52 | Sri Lanka | Mannar | Rama Setu view point, Thiruketheeswaram (Pancha Ishwaram) | ISKCON/Temple | 18 Jan 2026 |  |
+| 53 | Sri Lanka | Trincomalee | Kanniya hot springs; Koneswaram (Pancha Ishwaram); Shankari Devi Shakti peetha | ISKCON/Temple | 18-19 Jan 2026 |  |
+| 54 | Sri Lanka | Sigiriya | Sigiriya Lion Rock (Ravana link) | Landmark | 19 Jan 2026 |  |
+| 55 | Sri Lanka | Kandy | Temple of the Tooth Relic | Landmark | 20 Jan 2026 |  |
+| 56 | Sri Lanka | Ramboda | Ramboda Hanuman temple (Chinmaya) & Ramboda Falls | ISKCON/Temple | 20 Jan 2026 |  |
+| 57 | Sri Lanka | Nuwara Eliya | Seetha Amman Kovil (Ashok Vatika), Hakgala garden, Divurumpola (Sita agni pariksha) | ISKCON/Temple | 21 Jan 2026 |  |
+| 58 | Sri Lanka | Ella | Ravana Cave & Ravana Falls | Nature | 21 Jan 2026 |  |
+| 59 | Sri Lanka | Kataragama | Kataragama & Sella Kataragama | ISKCON/Temple | 21-22 Jan 2026 |  |
+| 60 | Sri Lanka | Ussangoda / Mirissa | Ussangoda (Ravana's burnt land); whale watching | Nature | 22 Jan 2026 |  |
+| 61 | Sri Lanka | Dondra / Galle | Tenavaram-Thondeshwaram (Pancha Ishwaram); Galle Fort | ISKCON/Temple | 23 Jan 2026 |  |
+| 62 | Sri Lanka | Unawatuna / Bentota | Rumassala Sanjeevani hill; Bentota boat ride | Nature | 23 Jan 2026 |  |
+| 63 | Sri Lanka | Colombo | ISKCON Colombo, Gangaramaya, Colombo Lotus Tower, Kelaniya (Vibhishana) temple | ISKCON/Temple | 24 Jan 2026 |  |
+| 64 | Sri Lanka | Chilaw | Munneswaram (Pancha Ishwaram) | ISKCON/Temple | 24 Jan 2026 | All five Pancha Ishwaram covered |
+| 65 | Nepal | Kathmandu | Budhanilkantha - Jala Narayana (sleeping Vishnu) | ISKCON/Temple | 24 May 2026 |  |
+| 66 | Nepal | Kathmandu | ISKCON Kathmandu | ISKCON/Temple | 24 May 2026 |  |
+| 67 | Nepal | Patan | Durbar Square - Krishna Mandir | ISKCON/Temple | 24 May 2026 |  |
+| 68 | Nepal | Kathmandu | Pashupatinath - Rudrabhishekam at main linga; Bagmati river | ISKCON/Temple | 25 May 2026 | Also visited 2019/2022 |
+| 69 | Nepal | Kathmandu | Guhyeshwari Shakti peetha | ISKCON/Temple | 25 May 2026 |  |
+| 70 | Nepal | Bhaktapur | Changu Narayan (oldest Vishnu temple) | ISKCON/Temple | 25 May 2026 |  |
+| 71 | Nepal | Kathmandu | Swayambhunath stupa | Landmark | 25 May 2026 |  |
+| 72 | Nepal | Pokhara | Bindhyabasini temple, Tal Barahi temple, Phewa lake boat ride, Devi's Fall | ISKCON/Temple | 26 & 28 May 2026 |  |
+| 73 | Nepal | Jomsom / Muktinath | Muktinath (106th Divya Desam); Kali Gandaki - Shaligram | ISKCON/Temple | 27-28 May 2026 | Flight Pokhara-Jomsom |
+| 74 | Nepal | Kathmandu | Pashupatinath & Budhanilkantha (pre-Kailash) | ISKCON/Temple | 31 May-1 Jun 2026 |  |
+| 75 | China (Tibet) | Kyirong | Kyirong border town (acclimatisation) | Transit hub | 2-3 Jun 2026 | Entered China at Rasuwagadhi/Kyirong |
+| 76 | China (Tibet) | Saga / Dongba | Tibetan plateau drive | Nature | 4 Jun 2026 |  |
+| 77 | China (Tibet) | Manasarovar | Lake Manasarovar - parikrama, puja, snan; Rakshas Tal | Nature | 5-6 Jun 2026 |  |
+| 78 | China (Tibet) | Darchen / Kailash | Mt Kailash outer kora: Yama Dwar, Dirapuk, Dolma La (5,630 m), Zuthulpuk | Nature | 7-9 Jun 2026 | 3-day parikrama |
+| 79 | Nepal | Kathmandu | Return via Kyirong; departure | Transit hub | 11-13 Jun 2026 |  |
+| 80 | India | Rishikesh | Triveni Ghat Ganga aarti, Ram/Sita Jhula, Parmarth Niketan, Gita Mandir, ISKCON Rishikesh | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| 81 | India | Haridwar | Har ki Pauri, Mansa Devi (ropeway) | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| 82 | India | Yamunotri | Yamunotri temple, Surya Kund, Kharsali Shani temple | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| 83 | India | Gangotri / Harsil | Gangotri temple, Bhagirath Shila, Harsil valley, Bagori village | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| 84 | India | Kedarnath | Kedarnath temple, Bhim Shila, Adi Shankaracharya samadhi (hilltop stay) | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| 85 | India | Badrinath / Mana | Badri Narayan (Maha Abhishek), Brahma Kapal, Mana village, Vyas & Ganesh gufa, Saraswati udgam | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| 86 | USA | New Jersey (Edison, Somerset, Robbinsville) | Indian Heritage Foundation NJ; Sri Venkateswara Temple Bridgewater; BAPS Akshardham Robbinsville (Mercerville GPS 10-11 Sep) | ISKCON/Temple | 10-12 & 26-27 Sep 2025 | GPS-confirmed |
+| 87 | USA | New York City | Wall Street & Charging Bull, 9/11 Memorial, Empire State Building, Madame Tussauds, Times Square, Central Park | Landmark | 4-5, 10-12 & 27-29 Sep 2025 | GPS-confirmed |
+| 88 | USA | New York City | Tompkins Square Park (Hare Krishna tree), Bhakti Center, ISKCON Brooklyn (Radha Govinda) | ISKCON/Temple | 10-12 Sep 2025 | GPS-confirmed |
+| 89 | USA | New York City | Statue of Liberty; American Museum of Natural History | Landmark | 10-12 Sep 2025 | GPS-confirmed |
+| 90 | USA | Baltimore / Gaithersburg | ISKCON Baltimore; ISKCON Washington DC (Potomac) likely | ISKCON/Temple | 8-9 Sep 2025 | GPS-confirmed |
+| 91 | USA | Washington DC | US Capitol Visitor Center, National Mall, White House, Lincoln Memorial, Washington Monument, WWII Memorial, Smithsonian Air & Space | Landmark | 8-9, 20-22 & 29 Sep 2025 | GPS-confirmed (9 days in DC area) |
+| 92 | USA | Fairfax / Chantilly VA | Sri Venkateswara Lotus Temple | ISKCON/Temple | 8 & 20-22 Sep 2025 | GPS-confirmed (Centreville/Chantilly) |
+| 93 | USA | New Vrindaban WV | Prabhupada's Palace of Gold; Matchless Gifts | ISKCON/Temple | 7 Sep 2025 | GPS-confirmed (Wheeling) |
+| 94 | USA | Pittsburgh (Monroeville) | Sri Venkateswara Temple, Penn Hills | ISKCON/Temple | 6-7 Sep 2025 | GPS-confirmed |
+| 95 | USA | Niagara Falls NY | Maid of the Mist, Cave of the Winds, illumination show | Nature | 5-6 Sep 2025 | GPS-confirmed |
+| 96 | USA | Orlando (Kissimmee) | ISKCON Orlando; Walt Disney World; Universal Studios & Islands of Adventure; Aquatica | Landmark | 12-15 Sep 2025 | GPS-confirmed |
+| 97 | USA | Los Angeles | ISKCON LA New Dvaraka (Watseka Ave); ISKCON Laguna Beach; Hollywood Walk of Fame & TCL Chinese Theatre | ISKCON/Temple | 17-20 Sep 2025 | GPS-confirmed |
+| 98 | USA | Gainesville / Alachua FL | ISKCON Alachua (New Raman Reti) - GPS 16 Sep 2025 | ISKCON/Temple | 16 Sep 2025 | GPS-confirmed; not in brochure |
+| 99 | USA | Jacksonville / Miami FL | Jacksonville 16 Sep; Miami (Flagami/Brownsville) 17 Sep - GPS | Transit hub | 16-17 Sep 2025 | GPS-confirmed |
+| 100 | USA | Boston / Shrewsbury MA | Boston (ISKCON Boston - Prabhupada landed here 1965); Shrewsbury - GPS 23-25 Sep 2025 | ISKCON/Temple | 23-25 Sep 2025 | GPS-confirmed; not in brochure. Confirm sites |
+| 101 | USA | Philadelphia PA | Philadelphia - GPS 10 & 29 Sep 2025 (Independence Hall? ISKCON Philadelphia?) | Landmark | 10 & 29 Sep 2025 | GPS-confirmed; confirm sites |
+| 102 | USA | Wheeling / Erie / Altoona | Road route Pittsburgh -> New Vrindaban (Wheeling WV) -> DC - GPS 6-7 Sep 2025 | Transit hub | 6-7 Sep 2025 | GPS-confirmed |
+| 103 | Canada | Niagara Falls, Ontario | Niagara Falls Canadian side - GPS 6 Sep 2025 (CONFIRM actual entry) | Nature | 6 Sep 2025 | Needs Canadian TRV - confirm |
+| 104 | Turkey | Istanbul (Umraniye) | Istanbul overnight stop 31 Jul-1 Aug 2024 (London -> Dubai); airport transit 29 Sep 2025 | Transit hub | 31 Jul 2024; 29 Sep 2025 | Turkish eVisa presumably used in 2024 - confirm |
+| 105 | UAE | Abu Dhabi | Abu Dhabi + Masdar City day trip - GPS 3 Aug 2024 (Sheikh Zayed Mosque / BAPS Mandir?) | Landmark | 3 Aug 2024 | Confirm sites |
+| 106 | UAE | Sharjah | Sharjah airport transits 15 Jul & 5 Aug 2024 | Transit hub | 15 Jul & 5 Aug 2024 |  |
+| 107 | Thailand | Bangkok (BKK) | Bangkok | City tour | Feb 2023 (x2); Jun 2023 | Add sites (ISKCON Bangkok, Wat Arun, Grand Palace...) |
+| 108 | Cambodia | Siem Reap | Angkor Wat / Angkor Thom | Landmark | Feb 2023; Jun 2023 | Confirm sites |
+| 109 | UAE | Dubai | Dubai | City tour | 1-~5 Aug 2024 | Add sites (ISKCON Dubai Bur Dubai, Burj Khalifa...) |
 
-*Total: 102 rows*
+*Total: 109 rows*
 
 ## 12. World Checklist - tick what you have visited
 
@@ -410,8 +429,8 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Andhra Pradesh**
 
-- [ ] **Tirupati** - Tirumala Sri Venkateswara Temple (Balaji) _Temple_ *(Likely - confirm)*
-- [ ] **Tirupati** - Sri Padmavathi Temple, Tiruchanur _Temple_ *(Likely - confirm)*
+- [x] **Tirupati** - Tirumala Sri Venkateswara Temple (Balaji) _Temple_
+- [x] **Tirupati** - Sri Padmavathi Temple, Tiruchanur _Temple_
 - [ ] **Srikalahasti** - Srikalahasteeswara (Vayu linga) _Temple_
 - [ ] **Ahobilam** - Nava Narasimha kshetras _Temple_
 - [ ] **Srisailam** - Mallikarjuna Jyotirlinga & Bhramaramba _Temple_
@@ -427,9 +446,9 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 - [ ] **Hyderabad** - Golconda Fort & Qutb Shahi Tombs _Monument_
 - [ ] **Hyderabad** - Salar Jung Museum _Museum_
 - [ ] **Hyderabad** - Birla Mandir & Chilkur Balaji _Temple_
-- [ ] **Yadadri** - Yadagirigutta Lakshmi Narasimha Temple _Temple_
-- [ ] **Bhadrachalam** - Sita Ramachandraswamy Temple _Temple_
-- [ ] **Warangal** - Thousand Pillar Temple & Warangal Fort _Monument_
+- [x] **Yadadri** - Yadagirigutta Lakshmi Narasimha Temple _Temple_
+- [x] **Bhadrachalam** - Sita Ramachandraswamy Temple _Temple_
+- [x] **Warangal** - Thousand Pillar Temple & Warangal Fort _Monument_
 - [ ] **Mulugu** - Ramappa (Rudreshwara) Temple - UNESCO _UNESCO_
 - [ ] **Basar** - Gnana Saraswati Temple _Temple_
 
@@ -439,19 +458,19 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 - [ ] **Bengaluru** - Vaikuntha Hill (ISKCON Vasanthapura) _ISKCON_
 - [ ] **Bengaluru** - Bull Temple, Lalbagh, Vidhana Soudha _Monument_
 - [ ] **Mysuru** - Mysore Palace & Dasara (Jamboo Savari) _Festival_
-- [ ] **Mysuru** - Chamundeshwari Temple, Chamundi Hill _Temple_ *(Likely - confirm)*
-- [ ] **Mysuru** - ISKCON Mysore _ISKCON_ *(Likely - confirm)*
-- [ ] **Srirangapatna** - Ranganathaswamy Temple _Temple_
+- [x] **Mysuru** - Chamundeshwari Temple, Chamundi Hill _Temple_
+- [x] **Mysuru** - ISKCON Mysore _ISKCON_
+- [ ] **Srirangapatna** - Ranganathaswamy Temple _Temple_ *(Likely - confirm)*
 - [ ] **Melukote** - Cheluvanarayana & Yoga Narasimha _Temple_
-- [ ] **Hampi** - Hampi (Vijayanagara) - Virupaksha, Vittala stone chariot - UNESCO _UNESCO_
+- [x] **Hampi** - Hampi (Vijayanagara) - Virupaksha, Vittala stone chariot - UNESCO _UNESCO_
 - [ ] **Pattadakal / Badami / Aihole** - Chalukya temples & cave temples - UNESCO _UNESCO_
-- [ ] **Belur & Halebidu** - Hoysala temples (Chennakeshava, Hoysaleswara) - UNESCO _UNESCO_ *(Likely - confirm)*
+- [x] **Belur & Halebidu** - Hoysala temples (Chennakeshava, Hoysaleswara) - UNESCO _UNESCO_
 - [ ] **Somanathapura** - Keshava Temple - UNESCO (Hoysala) _UNESCO_
 - [ ] **Shravanabelagola** - Gomateshwara (Bahubali) statue _Monument_
-- [ ] **Udupi** - Sri Krishna Matha (Kanakana Kindi) _Temple_
-- [ ] **Kollur / Dharmasthala / Kukke** - Mookambika, Manjunatha, Subrahmanya _Temple_
-- [ ] **Gokarna** - Mahabaleshwar Temple (Atmalinga) _Temple_
-- [ ] **Murudeshwar** - Giant Shiva statue & temple _Temple_
+- [x] **Udupi** - Sri Krishna Matha (Kanakana Kindi) _Temple_
+- [ ] **Kollur / Dharmasthala / Kukke** - Mookambika, Manjunatha, Subrahmanya _Temple_ *(Likely - confirm)*
+- [x] **Gokarna** - Mahabaleshwar Temple (Atmalinga) _Temple_
+- [x] **Murudeshwar** - Giant Shiva statue & temple _Temple_
 - [ ] **Coorg** - Talakaveri, Bylakuppe Golden Temple _Nature_ *(Likely - confirm)*
 - [ ] **Chikkamagaluru** - Sringeri Sharada Peetham, Horanadu _Temple_ *(Likely - confirm)*
 - [ ] **Yana** - Yana caves _Nature_ *(Likely - confirm)*
@@ -459,15 +478,15 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Tamil Nadu**
 
-- [ ] **Chennai** - ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy _Temple_
+- [x] **Chennai** - ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy _Temple_
 - [ ] **Mahabalipuram** - Shore Temple, Pancha Rathas - UNESCO _UNESCO_
-- [ ] **Kanchipuram** - Varadaraja Perumal, Ekambareswarar, Kamakshi _Temple_
+- [x] **Kanchipuram** - Varadaraja Perumal, Ekambareswarar, Kamakshi _Temple_
 - [x] **Srirangam** - Sri Ranganathaswamy Temple (largest functioning temple) _Temple_
 - [ ] **Thanjavur** - Brihadeeswara Temple - UNESCO (Great Living Chola Temples) _UNESCO_
 - [ ] **Gangaikonda Cholapuram / Darasuram** - Chola temples - UNESCO _UNESCO_
 - [ ] **Chidambaram** - Nataraja Temple _Temple_
-- [ ] **Madurai** - Meenakshi Amman Temple _Temple_
-- [ ] **Rameswaram** - Ramanathaswamy Temple & Dhanushkodi _Temple_
+- [x] **Madurai** - Meenakshi Amman Temple _Temple_
+- [x] **Rameswaram** - Ramanathaswamy Temple & Dhanushkodi _Temple_
 - [ ] **Kanyakumari** - Vivekananda Rock, Thiruvalluvar statue, Devi temple _Monument_
 - [ ] **Tiruvannamalai** - Arunachaleswarar & Girivalam _Temple_
 - [ ] **Tirunelveli / Thiruchendur** - Nellaiappar, Murugan (Arupadai veedu) _Temple_
@@ -475,24 +494,24 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Kerala**
 
-- [ ] **Guruvayur** - Guruvayur Sri Krishna Temple _Temple_
-- [ ] **Thiruvananthapuram** - Sree Padmanabhaswamy Temple _Temple_
+- [x] **Guruvayur** - Guruvayur Sri Krishna Temple _Temple_
+- [x] **Thiruvananthapuram** - Sree Padmanabhaswamy Temple _Temple_
 - [ ] **Sabarimala** - Ayyappa Temple _Temple_
 - [ ] **Kochi** - Fort Kochi, Mattancherry, Chottanikkara _Monument_
 - [ ] **Alappuzha / Kumarakom** - Backwaters houseboat _Nature_
-- [ ] **Thrissur** - Vadakkunnathan & Thrissur Pooram _Festival_
+- [ ] **Thrissur** - Vadakkunnathan & Thrissur Pooram _Festival_ *(Likely - confirm)*
 - [ ] **Ambalappuzha / Aranmula** - Sri Krishna temples _Temple_
 - [ ] **Munnar** - Tea gardens, Eravikulam _Nature_
 - [ ] **Kollam / Kanyakumari border** - Suchindram _Temple_
 
 **Maharashtra**
 
-- [ ] **Mumbai** - ISKCON Juhu (Prabhupada samadhi) & Chowpatty _ISKCON_
+- [x] **Mumbai** - ISKCON Juhu (Prabhupada samadhi) & Chowpatty _ISKCON_
 - [ ] **Mumbai** - Gateway of India, Elephanta Caves - UNESCO, CST - UNESCO _UNESCO_
 - [ ] **Mumbai** - Siddhivinayak, Mahalakshmi, Babulnath, Mumba Devi _Temple_
 - [ ] **Mumbai** - NMACC & Jio World Centre (BKC) _Modern_
 - [ ] **Pune** - ISKCON NVCC Katraj; Dagdusheth Ganapati _ISKCON_
-- [ ] **Alandi / Dehu / Pandharpur** - Dnyaneshwar, Tukaram, Vitthal-Rukmini (Ashadhi Ekadashi) _Temple_
+- [x] **Alandi / Dehu / Pandharpur** - Dnyaneshwar, Tukaram, Vitthal-Rukmini (Ashadhi Ekadashi) _Temple_
 - [ ] **Aurangabad** - Ajanta & Ellora caves (Kailasa temple) - UNESCO _UNESCO_
 - [ ] **Nashik / Trimbakeshwar** - Panchavati, Trimbakeshwar Jyotirlinga, Kumbh _Temple_
 - [ ] **Shirdi / Shani Shingnapur** - Sai Baba samadhi _Temple_
@@ -505,20 +524,21 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Gujarat**
 
-- [ ] **Dwarka** - Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga _Temple_ *(Likely - confirm)*
-- [ ] **Somnath** - Somnath Jyotirlinga, Bhalka Tirth, Prabhas Patan _Temple_ *(Likely - confirm)*
-- [ ] **Ahmedabad** - ISKCON Ahmedabad; Sabarmati Ashram; Adalaj stepwell; UNESCO city _UNESCO_
+- [x] **Diu** - Diu fort & beaches, Gangeshwar Mahadev _Sightseeing_
+- [x] **Dwarka** - Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga _Temple_
+- [x] **Somnath** - Somnath Jyotirlinga, Bhalka Tirth, Prabhas Patan _Temple_
+- [x] **Ahmedabad** - ISKCON Ahmedabad; Sabarmati Ashram; Adalaj stepwell; UNESCO city _UNESCO_
 - [ ] **Patan** - Rani ki Vav - UNESCO _UNESCO_
 - [ ] **Kevadia** - Statue of Unity _Modern_
 - [ ] **Dholavira** - Harappan city - UNESCO _UNESCO_
 - [ ] **Champaner-Pavagadh** - Archaeological park - UNESCO; Kalika Mata _UNESCO_
-- [ ] **Ambaji / Modhera / Dakor** - Shakti peetha; Sun Temple; Ranchhodrai _Temple_
+- [x] **Ambaji / Modhera / Dakor** - Shakti peetha; Sun Temple; Ranchhodrai _Temple_
 
 **Rajasthan**
 
-- [ ] **Jaipur** - Amber Fort, Hawa Mahal, Jantar Mantar - UNESCO, Govind Dev Ji _Monument_
-- [ ] **Nathdwara** - Shrinathji Haveli _Temple_
-- [ ] **Udaipur** - City Palace, Lake Pichola, Eklingji _Monument_
+- [x] **Jaipur** - Amber Fort, Hawa Mahal, Jantar Mantar - UNESCO, Govind Dev Ji _Monument_
+- [x] **Nathdwara** - Shrinathji Haveli _Temple_
+- [x] **Udaipur** - City Palace, Lake Pichola, Eklingji _Monument_
 - [ ] **Pushkar / Ajmer** - Brahma Temple, Pushkar lake, Dargah _Temple_
 - [ ] **Jodhpur / Jaisalmer** - Mehrangarh Fort; Jaisalmer Fort - UNESCO _UNESCO_
 - [ ] **Chittorgarh / Kumbhalgarh / Ranthambore** - Hill Forts of Rajasthan - UNESCO; tiger reserve _UNESCO_
@@ -527,23 +547,23 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Delhi**
 
-- [ ] **New Delhi** - ISKCON East of Kailash (Glory of India) & Punjabi Bagh _ISKCON_
+- [x] **New Delhi** - ISKCON East of Kailash (Glory of India) & Punjabi Bagh _ISKCON_
 - [ ] **Delhi** - Red Fort, Qutub Minar, Humayun's Tomb - UNESCO _UNESCO_
 - [ ] **Delhi** - Akshardham, Lotus Temple, India Gate, Birla Mandir _Monument_
 
 **Uttar Pradesh**
 
-- [ ] **Vrindavan** - ISKCON Krishna Balaram Mandir & Prabhupada Samadhi _ISKCON_ *(Likely - confirm)*
-- [ ] **Vrindavan** - Banke Bihari, Radha Raman, Radha Damodar, Prem Mandir, Seva Kunj, Nidhivan _Temple_ *(Likely - confirm)*
-- [ ] **Mathura** - Krishna Janmabhoomi, Vishram Ghat, Dwarkadhish _Temple_ *(Likely - confirm)*
+- [x] **Vrindavan** - ISKCON Krishna Balaram Mandir & Prabhupada Samadhi _ISKCON_
+- [x] **Vrindavan** - Banke Bihari, Radha Raman, Radha Damodar, Prem Mandir, Seva Kunj, Nidhivan _Temple_
+- [x] **Mathura** - Krishna Janmabhoomi, Vishram Ghat, Dwarkadhish _Temple_
 - [ ] **Govardhan** - Govardhan parikrama, Radha Kund, Kusum Sarovar _Temple_ *(Likely - confirm)*
 - [ ] **Barsana / Nandgaon** - Radha Rani Temple, Nand Bhavan _Temple_ *(Likely - confirm)*
-- [ ] **Ayodhya** - Ram Mandir (Ram Lalla), Hanuman Garhi, Kanak Bhavan, Saryu _Temple_ *(Likely - confirm)*
-- [ ] **Varanasi (Kashi)** - Kashi Vishwanath & corridor, Ganga aarti, Sarnath _Temple_ *(Likely - confirm)*
-- [ ] **Prayagraj** - Triveni Sangam, Maha Kumbh (2025), Hanuman Mandir _Festival_ *(Likely - confirm)*
+- [x] **Ayodhya** - Ram Mandir (Ram Lalla), Hanuman Garhi, Kanak Bhavan, Saryu _Temple_
+- [x] **Varanasi (Kashi)** - Kashi Vishwanath & corridor, Ganga aarti, Sarnath _Temple_
+- [x] **Prayagraj** - Triveni Sangam, Maha Kumbh (2025), Hanuman Mandir _Festival_
 - [ ] **Naimisharanya** - Chakra Tirth, Vyasa Gaddi _Temple_ *(Likely - confirm)*
-- [ ] **Agra** - Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO _UNESCO_
-- [ ] **Lucknow** - Bara Imambara, Rumi Darwaza _Monument_ *(Likely - confirm)*
+- [x] **Agra** - Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO _UNESCO_
+- [x] **Lucknow** - Bara Imambara, Rumi Darwaza _Monument_
 - [ ] **Chitrakoot** - Kamadgiri, Ram Ghat _Temple_
 
 **Uttarakhand**
@@ -580,7 +600,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Haryana**
 
-- [ ] **Kurukshetra** - Brahma Sarovar, Jyotisar (Gita sthal), ISKCON Kurukshetra _Temple_ *(Likely - confirm)*
+- [x] **Kurukshetra** - Brahma Sarovar, Jyotisar (Gita sthal), ISKCON Kurukshetra _Temple_
 
 **Madhya Pradesh**
 
@@ -591,7 +611,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 - [ ] **Khajuraho** - Khajuraho temples - UNESCO _UNESCO_
 - [ ] **Sanchi** - Sanchi Stupa - UNESCO _UNESCO_
 - [ ] **Bhimbetka** - Rock shelters - UNESCO _UNESCO_
-- [ ] **Gwalior / Orchha** - Gwalior Fort; Orchha Ram Raja _Monument_
+- [x] **Gwalior / Orchha** - Gwalior Fort; Orchha Ram Raja _Monument_
 - [ ] **Amarkantak** - Narmada udgam _Temple_
 - [ ] **Kanha / Bandhavgarh** - Tiger reserves _Nature_
 
@@ -601,10 +621,10 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Bihar**
 
-- [ ] **Bodh Gaya** - Mahabodhi Temple - UNESCO _UNESCO_
-- [ ] **Gaya** - Vishnupad Temple (pind daan) _Temple_
+- [x] **Bodh Gaya** - Mahabodhi Temple - UNESCO _UNESCO_
+- [x] **Gaya** - Vishnupad Temple (pind daan) _Temple_
 - [ ] **Nalanda / Rajgir** - Nalanda ruins - UNESCO; Vishwa Shanti Stupa _UNESCO_
-- [ ] **Patna** - Takht Patna Sahib, ISKCON Patna _Temple_
+- [x] **Patna** - Takht Patna Sahib, ISKCON Patna _Temple_
 
 **Jharkhand**
 
@@ -612,17 +632,17 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **West Bengal**
 
-- [ ] **Mayapur** - ISKCON Mayapur - TOVP, Prabhupada Pushpa Samadhi, Yogapith _ISKCON_ *(Likely - confirm)*
+- [x] **Mayapur** - ISKCON Mayapur - TOVP, Prabhupada Pushpa Samadhi, Yogapith _ISKCON_
 - [ ] **Navadvipa** - Navadvipa mandala parikrama _Temple_
-- [ ] **Kolkata** - ISKCON Kolkata; Dakshineswar; Kalighat; Belur Math; Victoria Memorial; Prabhupada birthplace (Tollygunge) _Temple_
+- [x] **Kolkata** - ISKCON Kolkata; Dakshineswar; Kalighat; Belur Math; Victoria Memorial; Prabhupada birthplace (Tollygunge) _Temple_
 - [ ] **Darjeeling** - Darjeeling Himalayan Railway - UNESCO _UNESCO_
 - [ ] **Sundarbans** - Sundarbans - UNESCO _UNESCO_
 
 **Odisha**
 
-- [ ] **Puri** - Jagannath Temple, Ratha Yatra, Gundicha, Tota Gopinath, Haridas samadhi _Temple_ *(Likely - confirm)*
-- [ ] **Konark** - Sun Temple - UNESCO _UNESCO_ *(Likely - confirm)*
-- [ ] **Bhubaneswar** - Lingaraj, Mukteshwar, Udayagiri caves, ISKCON _Temple_ *(Likely - confirm)*
+- [x] **Puri** - Jagannath Temple, Ratha Yatra, Gundicha, Tota Gopinath, Haridas samadhi _Temple_
+- [x] **Konark** - Sun Temple - UNESCO _UNESCO_
+- [x] **Bhubaneswar** - Lingaraj, Mukteshwar, Udayagiri caves, ISKCON _Temple_
 - [ ] **Chilika** - Chilika lake & Kalijai _Nature_
 
 **Assam**
@@ -653,7 +673,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Tripura**
 
-- [ ] **Udaipur (Tripura)** - Tripura Sundari (Shakti peetha), Ujjayanta Palace, Unakoti _Temple_
+- [x] **Udaipur (Tripura)** - Tripura Sundari (Shakti peetha), Ujjayanta Palace, Unakoti _Temple_
 
 **Sikkim**
 
@@ -687,7 +707,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Uttar Pradesh**
 
-- [ ] **Agra** - Mehtab Bagh (Taj sunset view), Taj Mahotsav (Feb) _Sightseeing_
+- [x] **Agra** - Mehtab Bagh (Taj sunset view), Taj Mahotsav (Feb) _Sightseeing_
 
 **Delhi**
 
@@ -779,7 +799,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 - [ ] **Jim Corbett** - Dhikala zone safari _Wildlife_
 
-*India: 6 of 191 visited*
+*India: 55 of 192 visited*
 
 ### USA
 
@@ -818,7 +838,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **California**
 
-- [x] **Laguna Beach / San Jose / Mountain View** - ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley _ISKCON_
+- [ ] **Laguna Beach / San Jose / Mountain View** - ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley _ISKCON_
 
 **New York**
 
@@ -831,7 +851,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 **California**
 
 - [x] **Los Angeles** - ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty _ISKCON_
-- [x] **San Francisco** - Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) _Monument_
+- [ ] **San Francisco** - Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) _Monument_
 - [ ] **Yosemite / Sequoia** - Yosemite - UNESCO _UNESCO_
 - [ ] **San Diego** - ISKCON San Diego, Balboa Park _ISKCON_
 
@@ -849,7 +869,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Florida**
 
-- [ ] **Alachua** - ISKCON Alachua (New Raman Reti) - largest US community _ISKCON_
+- [x] **Alachua** - ISKCON Alachua (New Raman Reti) - largest US community _ISKCON_
 - [x] **Orlando / Miami** - Disney World, Kennedy Space Center, Everglades - UNESCO _Modern_
 
 **Texas**
@@ -862,11 +882,11 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Massachusetts**
 
-- [ ] **Boston** - ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail _ISKCON_
+- [x] **Boston** - ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail _ISKCON_
 
 **Pennsylvania**
 
-- [ ] **Philadelphia / Gita Nagari** - Independence Hall - UNESCO; Gita Nagari farm (Port Royal) _UNESCO_
+- [x] **Philadelphia / Gita Nagari** - Independence Hall - UNESCO; Gita Nagari farm (Port Royal) _UNESCO_
 
 **New Jersey**
 
@@ -949,7 +969,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Massachusetts**
 
-- [ ] **Boston** - Freedom Trail, Fenway, Harvard Yard, Cape Cod _Sightseeing_
+- [x] **Boston** - Freedom Trail, Fenway, Harvard Yard, Cape Cod _Sightseeing_
 
 **Colorado**
 
@@ -959,7 +979,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 - [ ] **Portland / Seattle** - Multnomah Falls, Mt Rainier, Pike Place Market _Nature_
 
-*USA: 17 of 52 visited*
+*USA: 19 of 52 visited*
 
 ### United Kingdom
 
@@ -1491,7 +1511,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Istanbul**
 
-- [ ] **Istanbul** - Hagia Sophia, Blue Mosque, Topkapi - UNESCO _UNESCO_
+- [ ] **Istanbul** - Hagia Sophia, Blue Mosque, Topkapi - UNESCO _UNESCO_ *(Likely - confirm)*
 
 **Cappadocia**
 
@@ -1533,17 +1553,17 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Dubai**
 
-- [ ] **Dubai** - Burj Khalifa & Dubai Mall / Fountain _Modern_
+- [ ] **Dubai** - Burj Khalifa & Dubai Mall / Fountain _Modern_ *(Likely - confirm)*
 - [ ] **Dubai** - ISKCON Dubai (Bur Dubai Shiva-Krishna temple) & Hindu Temple Jebel Ali _Temple_
 - [ ] **Dubai** - Palm Jumeirah, Atlantis, Burj Al Arab, Dubai Marina _Modern_
-- [ ] **Dubai** - Old Dubai - Al Fahidi, Gold & Spice souks, Dubai Creek abra _Monument_
+- [ ] **Dubai** - Old Dubai - Al Fahidi, Gold & Spice souks, Dubai Creek abra _Monument_ *(Likely - confirm)*
 - [ ] **Dubai** - Museum of the Future, Dubai Frame, Global Village (Nov-Apr) _Modern_
 - [ ] **Dubai** - Desert safari, Miracle Garden (Nov-Apr) _Nature_
 
 **Abu Dhabi**
 
-- [ ] **Abu Dhabi** - BAPS Hindu Mandir (Abu Mureikhah) - first traditional Hindu temple in UAE _Temple_
-- [ ] **Abu Dhabi** - Sheikh Zayed Grand Mosque _Monument_
+- [ ] **Abu Dhabi** - BAPS Hindu Mandir (Abu Mureikhah) - first traditional Hindu temple in UAE _Temple_ *(Likely - confirm)*
+- [ ] **Abu Dhabi** - Sheikh Zayed Grand Mosque _Monument_ *(Likely - confirm)*
 - [ ] **Abu Dhabi** - Louvre Abu Dhabi, Qasr Al Watan, Emirates Palace _Museum_
 - [ ] **Yas Island** - Ferrari World, Yas Marina F1 circuit _Modern_
 
@@ -1603,7 +1623,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Anuradhapura**
 
-- [ ] **Anuradhapura / Polonnaruwa** - Sacred city - UNESCO; Jaya Sri Maha Bodhi _UNESCO_
+- [x] **Anuradhapura / Polonnaruwa** - Sacred city - UNESCO; Jaya Sri Maha Bodhi _UNESCO_
 
 **Southern**
 
@@ -1621,15 +1641,15 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 - [ ] **Pinnawala / Minneriya** - Elephant orphanage; Minneriya elephant gathering (Aug-Sep) _Wildlife_
 
-*Sri Lanka: 13 of 17 visited*
+*Sri Lanka: 14 of 17 visited*
 
 ### Cambodia
 
 
 **Siem Reap**
 
-- [ ] **Siem Reap** - Angkor Wat (Vishnu temple) - UNESCO _UNESCO_ *(Likely - confirm)*
-- [ ] **Siem Reap** - Angkor Thom - Bayon, Ta Prohm, Banteay Srei _UNESCO_ *(Likely - confirm)*
+- [x] **Siem Reap** - Angkor Wat (Vishnu temple) - UNESCO _UNESCO_
+- [x] **Siem Reap** - Angkor Thom - Bayon, Ta Prohm, Banteay Srei _UNESCO_
 - [ ] **Tonle Sap** - Floating villages _Nature_
 
 **Phnom Penh**
@@ -1648,7 +1668,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 - [ ] **Siem Reap** - Angkor sunrise, Phare circus, Pub Street, Apsara dance _Sightseeing_
 
-*Cambodia: 0 of 7 visited*
+*Cambodia: 2 of 7 visited*
 
 ### Thailand
 
@@ -1723,11 +1743,11 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 **Madhesh**
 
-- [ ] **Janakpur** - Janaki Mandir (Sita's birthplace), Vivah Mandap _Temple_
+- [x] **Janakpur** - Janaki Mandir (Sita's birthplace), Vivah Mandap _Temple_
 
 **Lumbini**
 
-- [ ] **Lumbini** - Buddha's birthplace - UNESCO _UNESCO_
+- [ ] **Lumbini** - Buddha's birthplace - UNESCO _UNESCO_ *(Likely - confirm)*
 
 **Koshi**
 
@@ -1736,7 +1756,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 **Bagmati**
 
 - [ ] **Everest region** - Everest base camp / Kala Patthar or mountain flight _Nature_
-- [ ] **Chitwan** - Chitwan NP - UNESCO _UNESCO_
+- [x] **Chitwan (Bharatpur)** - Chitwan NP - UNESCO _UNESCO_
 
 **Gandaki**
 
@@ -1746,7 +1766,7 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 - [ ] **Kathmandu / Nagarkot** - Everest mountain flight, Nagarkot sunrise, Thamel _Nature_
 
-*Nepal: 10 of 17 visited*
+*Nepal: 12 of 17 visited*
 
 ### Bhutan
 
@@ -2449,7 +2469,518 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 *Fiji / Pacific: 0 of 1 visited*
 
-## 13. Sources & caveats
+## 13. GPS Timeline cross-check (Google Maps Timeline, Feb 2015 - Oct 2026)
+
+| # | Country | Days | Trips | First visit | Last visit |
+|---|---|---|---|---|---|
+| 1 | India | 2955 | 115 | 2015-02-18 | 2026-10-20 |
+| 2 | Sri Lanka | 50 | 8 | 2019-09-28 | 2022-03-05 |
+| 3 | Nepal | 36 | 5 | 2019-03-03 | 2026-06-12 |
+| 4 | United States | 26 | 1 | 2025-09-04 | 2025-09-29 |
+| 5 | Thailand | 9 | 3 | 2023-02-07 | 2023-06-30 |
+| 6 | Cambodia | 7 | 2 | 2023-02-08 | 2023-06-30 |
+| 7 | United Arab Emirates | 6 | 2 | 2024-07-15 | 2024-08-05 |
+| 8 | Italy | 6 | 1 | 2024-07-23 | 2024-07-28 |
+| 9 | France | 4 | 1 | 2024-07-15 | 2024-07-18 |
+| 10 | United Kingdom | 4 | 1 | 2024-07-28 | 2024-07-31 |
+| 11 | Switzerland | 3 | 1 | 2024-07-21 | 2024-07-23 |
+| 12 | Turkey | 3 | 2 | 2024-07-31 | 2025-09-29 |
+| 13 | Belgium | 2 | 1 | 2024-07-18 | 2024-07-19 |
+| 14 | Netherlands | 2 | 1 | 2024-07-19 | 2024-07-20 |
+| 15 | Germany | 2 | 1 | 2024-07-20 | 2024-07-21 |
+| 16 | Canada | 1 | 1 | 2025-09-06 | 2025-09-06 |
+
+*Total: 16 rows*
+
+### Foreign trip windows (GPS-derived)
+
+| # | Country | From | To | Days |
+|---|---|---|---|---|
+| 1 | Nepal | 2019-03-03 | 2019-03-06 | 4 |
+| 2 | Nepal | 2019-05-15 | 2019-05-26 | 12 |
+| 3 | Sri Lanka | 2019-09-28 | 2019-10-07 | 10 |
+| 4 | Sri Lanka | 2019-12-17 | 2019-12-28 | 12 |
+| 5 | Sri Lanka | 2022-01-24 | 2022-02-24 | 32 |
+| 6 | Sri Lanka | 2022-03-02 | 2022-03-05 | 4 |
+| 7 | Nepal | 2022-04-14 | 2022-04-21 | 8 |
+| 8 | Thailand | 2023-02-07 | 2023-02-11 | 5 |
+| 9 | Cambodia | 2023-02-08 | 2023-02-10 | 3 |
+| 10 | Thailand | 2023-06-25 | 2023-06-30 | 6 |
+| 11 | Cambodia | 2023-06-27 | 2023-06-30 | 4 |
+| 12 | France | 2024-07-15 | 2024-07-18 | 4 |
+| 13 | United Arab Emirates | 2024-07-15 | 2024-07-15 | 1 |
+| 14 | Belgium | 2024-07-18 | 2024-07-19 | 2 |
+| 15 | Netherlands | 2024-07-19 | 2024-07-20 | 2 |
+| 16 | Germany | 2024-07-20 | 2024-07-21 | 2 |
+| 17 | Switzerland | 2024-07-21 | 2024-07-23 | 3 |
+| 18 | Italy | 2024-07-23 | 2024-07-28 | 6 |
+| 19 | United Kingdom | 2024-07-28 | 2024-07-31 | 4 |
+| 20 | Turkey | 2024-07-31 | 2024-08-01 | 2 |
+| 21 | United Arab Emirates | 2024-08-01 | 2024-08-05 | 5 |
+| 22 | United States | 2025-09-04 | 2025-09-29 | 26 |
+| 23 | Turkey | 2025-09-29 | 2025-09-29 | 1 |
+| 24 | Nepal | 2026-05-30 | 2026-06-05 | 7 |
+| 25 | Nepal | 2026-06-10 | 2026-06-12 | 3 |
+
+*Total: 25 rows*
+
+### Reconciliation - GPS vs passport / itineraries
+
+- **Sri Lanka Ramayan Yatra 16-25 Jan 2026** - You said visited; GPS timeline has NO Sri Lanka after 5 Mar 2022 (export runs to 14 Oct 2026). Either Timeline was off, or the Jan 2026 batch was led by someone else. Kept in Travel Log with CONFLICT flag - please confirm.
+- **Nepal Muktinath Yatra 24-29 May 2026** - GPS shows no Nepal 24-29 May 2026; Pokhara/Baglung last seen Apr 2022. The 2026 Nepal presence is 30 May-5 Jun and 10-12 Jun (Kailash legs). Kept with CONFLICT flag - confirm.
+- **Kailash Manasarovar Jun 2026** - GPS supports it: Nepal 30 May-5 Jun, then a 5-day GPS blackout (Tibet, no data), Nepal again 10-12 Jun. Dates adjusted to GPS.
+- **USA yatra places** - GPS (4-29 Sep 2025) shows NY, Niagara, Pittsburgh, New Vrindaban (Wheeling WV), DC/Fairfax, Baltimore, NJ, Philadelphia, Orlando, Gainesville (ISKCON Alachua), Miami, Los Angeles, Boston. NO San Francisco / Berkeley / San Jose -> those brochure places un-ticked.
+- **Canada 6 Sep 2025** - GPS puts you in Niagara Falls, Ontario for 1 day. Indians need a TRV to enter Canada - was this the Rainbow Bridge / Hornblower boat near the border, or an actual crossing? Logged as Transit pending your answer.
+- **Turkey** - GPS shows Istanbul (Umraniye, Asian side) overnight 31 Jul-1 Aug 2024 - i.e. you LEFT the airport -> Turkey counts as entered (Turkish eVisa via UK/Schengen visa). Plus airport transit 29 Sep 2025.
+- **UAE 15 Jul 2024** - GPS shows Sharjah on 15 Jul 2024 = outbound transit to Paris (Air Arabia). Added as transit.
+- **Abu Dhabi 3 Aug 2024** - GPS confirms Abu Dhabi + Masdar City day trip from Dubai.
+- **Sri Lanka Feb-Mar 2022** - Passport scan shows exit 31 Jan 2022, but GPS shows you in Sri Lanka 24 Jan-24 Feb and 2-5 Mar 2022 (Hatton 7 trips) = several Ramayana batches. Stamps for those re-entries are not in the Nov-2025 scan. Added as GPS-derived visits.
+- **Nepal 2019** - GPS fills the gaps: 3-6 Mar 2019 (entered via Sunauli/Bhairahawa, exit KTM 7 Mar) and 15-26 May 2019 (Pokhara, Baglung, Hetauda, Chitwan, Janakpur; exit via Janakpur-Sitamarhi land border).
+- **Italy / UK dates** - GPS: Italy 23-28 Jul, London 28-31 Jul 2024 vs stamps 27 Jul for both Malpensa and Gatwick - a late-night flight; stamps kept.
+- **Lagny-sur-Marne 16 Jul 2024** - GPS point next to Disneyland Paris - did you visit Disneyland? (not in itinerary)
+- **Europe route detail** - GPS adds: Cambrai (FR), Breda/Oosterhout (NL), Dusseldorf, Frankfurt, Sankt Wendel (Saarland), Offenburg/Waldkirch (Black Forest), Schaffhausen, Kriens, Bellinzona (Ticino), Vicenza/Este, Perugia (overnight, not Arezzo), Modena, Prato, Scandicci (= ISKCON Villa Vrindavana area).
+
+## 14. India - states & union territories (GPS)
+
+Tick as you cover new ones.
+
+- [x] **Telangana** (State) - 2440 days, 166 trips, 26 cities; 2015-02-18 to 2026-10-20. Banswada, Bhadrachalam, Bhongir, Farrukhnagar, Hyderabad, Jangaon, Kamareddi, Khammam, Mahbubabad, Mahbubnagar, Mancheral, Manuguru
+- [x] **Karnataka** (State) - 180 days, 29 trips, 29 cities; 2016-02-05 to 2026-10-12. Bagepalli, Basavakalyan, Belagavi, Belur, Bengaluru, Byndoor, Channapatna, Channarayapatna, Closepet, Devanhalli, Gadag-Betageri, Gangawati
+- [x] **Uttarakhand** (State) - 143 days, 8 trips, 9 cities; 2019-05-28 to 2024-06-20. Dehra Dun, Haridwar, Mussoorie, Pauri, Rishikesh, Roorkee, Srinagar, Tehri, Uttarkashi
+- [x] **Uttar Pradesh** (State) - 142 days, 22 trips, 38 cities; 2017-09-04 to 2025-01-21. Achhnera, Agra, Atarra, Ayodhya, Bela, Bindki, Chandauli, Chhata, Dataganj, Deoband, Etawah, Fyzabad
+- [x] **Andhra Pradesh** (State) - 58 days, 29 trips, 38 cities; 2015-10-17 to 2026-10-03. Akkarampalle, Betamcherla, Chemmumiahpet, Dharmavaram, Dhone, Giddalur, Gooty, Gorantla, Guntakal, Guntur, Hindupur, Jaggaiahpet
+- [x] **Gujarat** (State) - 45 days, 6 trips, 30 cities; 2015-04-24 to 2025-01-30. Ahmedabad, Ambaji, Ankleshwar, Baola, Bharuch, Bhiloda, Bholav, Bilimora, Chorwad, Chotila, Dakor, Dwarka
+- [x] **Rajasthan** (State) - 31 days, 12 trips, 9 cities; 2017-09-05 to 2024-10-16. Bharatpur, Dausa, Dungarpur, Jaipur, Kaman, Karauli, Nathdwara, Rajsamand, Udaipur
+- [x] **Haryana** (State) - 29 days, 21 trips, 6 cities; 2019-03-07 to 2026-06-12. Faridabad, Gharaunda, Gurugram, Karnal, Nilokheri, Thanesar
+- [x] **West Bengal** (State) - 28 days, 5 trips, 15 cities; 2016-07-25 to 2025-03-16. Baharampur, Barddhaman, Bolpur, Howrah, Kalna, Kalyani, Kharagpur, Kolkata, Krishnanagar, Nagarukhra City, Navadwip, Rampur Hat
+- [x] **Maharashtra** (State) - 25 days, 20 trips, 13 cities; 2015-04-24 to 2025-09-30. Ballarpur, Bhayandar, Borivli, Dharmabad, Gondia, Kalyan, Mumbai, Nagpur, Nanded, Navi Mumbai, Pandharpur, Purna
+- [x] **Tamil Nadu** (State) - 23 days, 12 trips, 14 cities; 2015-10-17 to 2025-04-27. Arakkonam, Chennai, Dindigul, Kanchipuram, Krishnagiri, Kuzhithurai, Madurai, Madurantakam, Rameswaram, Sriperumbudur, Srivilliputhur, Thoothukudi
+- [x] **Delhi** (UT) - 16 days, 12 trips, 4 cities; 2019-03-07 to 2024-10-11. Delhi, Karol Bagh, Najafgarh, Narela
+- [x] **Odisha** (State) - 15 days, 5 trips, 10 cities; 2018-10-13 to 2022-12-16. Balasore, Bhubaneswar, Brahmapur, Cuttack, Jajpur, Jaleshwar, Konarka, Puri, Remuna, Rourkela
+- [x] **Bihar** (State) - 7 days, 4 trips, 5 cities; 2019-02-21 to 2022-07-09. Bodh Gaya, Gaya, Patna, Sherghati, Sitamarhi
+- [x] **Madhya Pradesh** (State) - 7 days, 6 trips, 7 cities; 2017-09-23 to 2022-07-10. Bhopal, Gwalior, Itarsi, Jabalpur, Khandwa, Pandhurna, Sohagpur
+- [x] **Kerala** (State) - 2 days, 1 trips, 9 cities; 2018-02-18 to 2018-02-19. Guruvayur, Kanayannur, Kollam, Kozhikode, Kunnamkulam, Shoranur, Thiruvananthapuram, Thrissur, Tirur
+- [x] **Chhattisgarh** (State) - 1 days, 1 trips, 1 cities; 2019-02-20 to 2019-02-20. Bhilai
+- [x] **Dadra and Nagar Haveli and Daman and Diu** (UT) - 1 days, 1 trips, 1 cities; 2025-01-30 to 2025-01-30. Diu
+- [x] **Jharkhand** (State) - 1 days, 1 trips, 2 cities; 2019-02-21 to 2019-02-21. Barki Saria, Gomoh
+- [ ] **Andaman and Nicobar Islands** (UT) - not yet
+- [ ] **Arunachal Pradesh** (State) - not yet
+- [ ] **Assam** (State) - not yet
+- [ ] **Chandigarh** (UT) - not yet
+- [ ] **Goa** (State) - not yet
+- [ ] **Himachal Pradesh** (State) - not yet
+- [ ] **Jammu and Kashmir** (UT) - not yet
+- [ ] **Ladakh** (UT) - not yet
+- [ ] **Lakshadweep** (UT) - not yet
+- [ ] **Manipur** (State) - not yet
+- [ ] **Meghalaya** (State) - not yet
+- [ ] **Mizoram** (State) - not yet
+- [ ] **Nagaland** (State) - not yet
+- [ ] **Puducherry** (UT) - not yet
+- [ ] **Punjab** (State) - not yet
+- [ ] **Sikkim** (State) - not yet
+- [ ] **Tripura** (State) - not yet
+
+### Pilgrimage status
+
+- [x] Somnath _Jyotirlinga_
+- [ ] Mallikarjuna, Srisailam _Jyotirlinga_
+- [ ] Mahakaleshwar, Ujjain _Jyotirlinga_
+- [ ] Omkareshwar _Jyotirlinga_
+- [x] Kedarnath _Jyotirlinga_
+- [ ] Bhimashankar _Jyotirlinga_
+- [x] Kashi Vishwanath, Varanasi _Jyotirlinga_
+- [ ] Trimbakeshwar, Nashik _Jyotirlinga_
+- [ ] Vaidyanath, Deoghar _Jyotirlinga_
+- [x] Nageshwar, Dwarka _Jyotirlinga_
+- [x] Rameshwaram _Jyotirlinga + Char Dham_
+- [ ] Grishneshwar, Ellora _Jyotirlinga_
+- [x] Badrinath _Char Dham_
+- [x] Dwarka _Char Dham_
+- [x] Jagannath Puri _Char Dham_
+
+## 15. GPS cities & towns (374)
+
+| # | City | State / region | Country | Days | Trips | First | Last |
+|---|---|---|---|---|---|---|---|
+| 1 | Hyderabad | Telangana | India | 2328 | 180 | 2015-02-19 | 2026-10-20 |
+| 2 | Sangareddi | Telangana | India | 151 | 79 | 2015-02-18 | 2024-02-28 |
+| 3 | Singapur | Telangana | India | 109 | 60 | 2015-02-21 | 2018-03-03 |
+| 4 | Bengaluru | Karnataka | India | 168 | 28 | 2016-02-05 | 2026-10-12 |
+| 5 | Dehra Dun | Uttarakhand | India | 67 | 20 | 2019-06-01 | 2024-06-20 |
+| 6 | Gurugram | Haryana | India | 26 | 20 | 2019-03-07 | 2026-06-12 |
+| 7 | Rishikesh | Uttarakhand | India | 40 | 15 | 2019-05-28 | 2024-05-21 |
+| 8 | Mathura | Uttar Pradesh | India | 17 | 15 | 2017-09-04 | 2024-10-17 |
+| 9 | Srinagar | Uttarakhand | India | 44 | 11 | 2019-05-28 | 2024-06-20 |
+| 10 | Lucknow | Uttar Pradesh | India | 30 | 11 | 2018-12-24 | 2024-03-09 |
+| 11 | Vrindavan | Uttar Pradesh | India | 63 | 10 | 2017-09-04 | 2024-10-18 |
+| 12 | Haridwar | Uttarakhand | India | 31 | 10 | 2019-05-28 | 2023-10-28 |
+| 13 | Chennai | Tamil Nadu | India | 13 | 10 | 2015-10-17 | 2024-12-22 |
+| 14 | Patancheru | Telangana | India | 9 | 9 | 2015-07-03 | 2019-10-29 |
+| 15 | Ahmedabad | Gujarat | India | 26 | 8 | 2017-07-14 | 2025-01-30 |
+| 16 | Delhi | Delhi | India | 10 | 8 | 2019-03-07 | 2022-05-10 |
+| 17 | Nagpur | Maharashtra | India | 8 | 8 | 2017-09-03 | 2019-01-31 |
+| 18 | Uttarkashi | Uttarakhand | India | 28 | 7 | 2019-06-29 | 2024-06-18 |
+| 19 | Kathmandu | Bagmati Province | Nepal | 27 | 7 | 2019-03-04 | 2026-06-12 |
+| 20 | Colombo | Western Province | Sri Lanka | 20 | 7 | 2019-09-28 | 2022-02-15 |
+| 21 | Varanasi | Uttar Pradesh | India | 18 | 7 | 2018-12-25 | 2025-01-20 |
+| 22 | Hatton | Central Province | Sri Lanka | 17 | 7 | 2022-01-31 | 2022-03-05 |
+| 23 | Mumbai | Maharashtra | India | 9 | 7 | 2015-04-24 | 2025-09-30 |
+| 24 | Kolkata | West Bengal | India | 8 | 7 | 2016-07-25 | 2025-03-16 |
+| 25 | Prayagraj | Uttar Pradesh | India | 20 | 6 | 2018-12-20 | 2025-01-21 |
+| 26 | Dwarka | Gujarat | India | 16 | 6 | 2017-07-17 | 2025-01-28 |
+| 27 | Ayodhya | Uttar Pradesh | India | 15 | 6 | 2018-12-22 | 2024-03-10 |
+| 28 | Akkarampalle | Andhra Pradesh | India | 11 | 6 | 2017-06-25 | 2025-04-24 |
+| 29 | Veraval | Gujarat | India | 9 | 6 | 2017-07-18 | 2025-01-29 |
+| 30 | Okha | Gujarat | India | 8 | 6 | 2017-07-17 | 2025-01-27 |
+| 31 | Karol Bagh | Delhi | India | 7 | 6 | 2019-03-07 | 2024-10-11 |
+| 32 | Porbandar | Gujarat | India | 6 | 6 | 2017-07-18 | 2025-01-28 |
+| 33 | Govardhan | Uttar Pradesh | India | 6 | 6 | 2017-09-27 | 2022-10-30 |
+| 34 | Navadwip | West Bengal | India | 24 | 5 | 2016-07-26 | 2025-03-16 |
+| 35 | Vijayawada | Andhra Pradesh | India | 11 | 5 | 2016-07-24 | 2022-02-20 |
+| 36 | Tirumala | Andhra Pradesh | India | 11 | 5 | 2017-06-24 | 2025-04-26 |
+| 37 | Kanchipuram | Tamil Nadu | India | 8 | 5 | 2015-10-17 | 2025-04-27 |
+| 38 | Fyzabad | Uttar Pradesh | India | 8 | 5 | 2018-12-23 | 2024-03-10 |
+| 39 | Bharatpur | Bagmati Province | Nepal | 7 | 5 | 2019-05-16 | 2022-04-19 |
+| 40 | Tirupati | Andhra Pradesh | India | 6 | 5 | 2017-06-26 | 2025-04-23 |
+| 41 | Agra | Uttar Pradesh | India | 6 | 5 | 2017-09-24 | 2022-07-01 |
+| 42 | Kosi | Uttar Pradesh | India | 6 | 5 | 2017-09-26 | 2022-10-29 |
+| 43 | Bhongir | Telangana | India | 5 | 5 | 2016-04-18 | 2023-07-09 |
+| 44 | Howrah | West Bengal | India | 5 | 5 | 2016-07-25 | 2023-11-07 |
+| 45 | Mahbubnagar | Telangana | India | 5 | 5 | 2017-03-20 | 2026-10-03 |
+| 46 | Gooty | Andhra Pradesh | India | 5 | 5 | 2017-03-30 | 2026-10-03 |
+| 47 | Farrukhnagar | Telangana | India | 5 | 5 | 2017-06-27 | 2025-05-04 |
+| 48 | Kaman | Rajasthan | India | 5 | 5 | 2017-09-26 | 2024-10-16 |
+| 49 | Ranavav | Gujarat | India | 5 | 5 | 2020-01-11 | 2025-01-28 |
+| 50 | Jaipur | Rajasthan | India | 19 | 4 | 2017-09-05 | 2021-10-19 |
+| 51 | Bhubaneswar | Odisha | India | 8 | 4 | 2018-10-13 | 2022-12-16 |
+| 52 | Misrikh | Uttar Pradesh | India | 7 | 4 | 2018-12-24 | 2024-03-09 |
+| 53 | Nalgonda | Telangana | India | 5 | 4 | 2016-03-18 | 2024-04-29 |
+| 54 | Rasapudipalem | Andhra Pradesh | India | 5 | 4 | 2016-07-25 | 2018-10-21 |
+| 55 | Limbdi | Gujarat | India | 4 | 4 | 2017-07-17 | 2023-11-27 |
+| 56 | Chotila | Gujarat | India | 4 | 4 | 2017-07-17 | 2023-11-24 |
+| 57 | Jamnagar | Gujarat | India | 4 | 4 | 2017-07-17 | 2023-11-24 |
+| 58 | Ballarpur | Maharashtra | India | 4 | 4 | 2018-09-18 | 2019-02-20 |
+| 59 | Tiruchanur | Andhra Pradesh | India | 4 | 4 | 2018-10-06 | 2025-04-26 |
+| 60 | Pauri | Uttarakhand | India | 4 | 4 | 2019-06-01 | 2024-05-14 |
+| 61 | Tehri | Uttarakhand | India | 4 | 4 | 2019-07-03 | 2022-06-15 |
+| 62 | Guntakal | Andhra Pradesh | India | 4 | 4 | 2021-01-14 | 2026-07-12 |
+| 63 | Khammam | Telangana | India | 4 | 4 | 2023-07-09 | 2024-04-29 |
+| 64 | Puri | Odisha | India | 12 | 3 | 2018-10-13 | 2022-12-16 |
+| 65 | Pokhara | Province 4 | Nepal | 11 | 3 | 2019-05-16 | 2022-04-18 |
+| 66 | Bangkok | Bangkok | Thailand | 9 | 3 | 2023-02-07 | 2023-06-30 |
+| 67 | Washington | District of Columbia | United States | 9 | 3 | 2025-09-08 | 2025-09-29 |
+| 68 | Nuwara Eliya | Central Province | Sri Lanka | 8 | 3 | 2019-10-02 | 2022-01-29 |
+| 69 | Atarra | Uttar Pradesh | India | 7 | 3 | 2018-12-21 | 2019-10-18 |
+| 70 | Ghaziabad | Uttar Pradesh | India | 7 | 3 | 2019-06-27 | 2023-03-25 |
+| 71 | Baglun | Province 4 | Nepal | 6 | 3 | 2019-05-17 | 2022-04-17 |
+| 72 | Thanesar | Haryana | India | 6 | 3 | 2019-07-10 | 2022-11-01 |
+| 73 | Jaffna | Northern Province | Sri Lanka | 6 | 3 | 2019-09-29 | 2022-01-26 |
+| 74 | Trincomalee | Eastern Province | Sri Lanka | 6 | 3 | 2019-09-30 | 2022-01-27 |
+| 75 | Kandy | Central Province | Sri Lanka | 6 | 3 | 2019-10-01 | 2022-01-28 |
+| 76 | Kataragama | Uva Province | Sri Lanka | 6 | 3 | 2019-10-04 | 2022-01-30 |
+| 77 | Nathdwara | Rajasthan | India | 6 | 3 | 2020-01-13 | 2023-11-21 |
+| 78 | Udupi | Karnataka | India | 5 | 3 | 2017-03-18 | 2026-10-06 |
+| 79 | Gampola | Central Province | Sri Lanka | 5 | 3 | 2019-10-02 | 2022-01-28 |
+| 80 | Rajkot | Gujarat | India | 5 | 3 | 2023-11-20 | 2025-01-26 |
+| 81 | Bharatpur | Rajasthan | India | 4 | 3 | 2017-09-14 | 2021-10-19 |
+| 82 | Vadodara | Gujarat | India | 3 | 3 | 2015-04-24 | 2020-02-14 |
+| 83 | Malpe | Karnataka | India | 3 | 3 | 2017-03-18 | 2026-10-06 |
+| 84 | Channapatna | Karnataka | India | 3 | 3 | 2017-06-21 | 2024-01-06 |
+| 85 | Kurnool | Andhra Pradesh | India | 3 | 3 | 2017-06-27 | 2026-10-03 |
+| 86 | Vikarabad | Telangana | India | 3 | 3 | 2017-07-13 | 2021-04-05 |
+| 87 | Warangal | Telangana | India | 3 | 3 | 2017-09-15 | 2023-01-30 |
+| 88 | Bhopal | Madhya Pradesh | India | 3 | 3 | 2017-09-23 | 2018-11-19 |
+| 89 | Kunda | Uttar Pradesh | India | 3 | 3 | 2018-12-24 | 2019-10-16 |
+| 90 | Raebareli | Uttar Pradesh | India | 3 | 3 | 2019-01-26 | 2019-02-27 |
+| 91 | Patna | Bihar | India | 3 | 3 | 2019-05-26 | 2022-07-09 |
+| 92 | Chilaw | North Western Province | Sri Lanka | 3 | 3 | 2019-09-29 | 2022-01-25 |
+| 93 | Dambulla | Central Province | Sri Lanka | 3 | 3 | 2019-10-01 | 2022-01-27 |
+| 94 | Devinuwara | Southern Province | Sri Lanka | 3 | 3 | 2019-10-05 | 2022-01-30 |
+| 95 | Rajsamand | Rajasthan | India | 3 | 3 | 2020-01-15 | 2023-11-21 |
+| 96 | Dakor | Gujarat | India | 3 | 3 | 2020-02-14 | 2023-11-27 |
+| 97 | Siem Reap | Siem Reap | Cambodia | 7 | 2 | 2023-02-08 | 2023-06-30 |
+| 98 | New York City | New York | United States | 6 | 2 | 2025-09-10 | 2025-09-27 |
+| 99 | Sharjah | Sharjah | United Arab Emirates | 5 | 2 | 2024-07-15 | 2024-08-05 |
+| 100 | Bodh Gaya | Bihar | India | 4 | 2 | 2019-02-22 | 2021-11-28 |
+| 101 | Janakpur | Madhesh | Nepal | 4 | 2 | 2019-05-25 | 2022-04-19 |
+| 102 | Madurai | Tamil Nadu | India | 4 | 2 | 2019-10-07 | 2022-07-04 |
+| 103 | Udaipur | Rajasthan | India | 4 | 2 | 2020-02-12 | 2023-11-22 |
+| 104 | Roorkee | Uttarakhand | India | 4 | 2 | 2022-05-17 | 2022-06-11 |
+| 105 | Mysore | Karnataka | India | 4 | 2 | 2023-05-27 | 2024-01-08 |
+| 106 | Edison | New Jersey | United States | 4 | 2 | 2025-09-10 | 2025-09-27 |
+| 107 | Gangawati | Karnataka | India | 3 | 2 | 2017-02-05 | 2017-03-20 |
+| 108 | Gaya | Bihar | India | 3 | 2 | 2019-02-21 | 2021-11-27 |
+| 109 | Hetauda | Bagmati Province | Nepal | 3 | 2 | 2019-05-21 | 2022-04-19 |
+| 110 | Vavuniya | Northern Province | Sri Lanka | 3 | 2 | 2019-09-29 | 2022-01-26 |
+| 111 | Rameswaram | Tamil Nadu | India | 3 | 2 | 2019-10-07 | 2022-07-02 |
+| 112 | Bhiloda | Gujarat | India | 3 | 2 | 2020-01-13 | 2020-02-13 |
+| 113 | Talala | Gujarat | India | 3 | 2 | 2023-11-26 | 2025-01-30 |
+| 114 | Philadelphia | Pennsylvania | United States | 3 | 2 | 2025-09-10 | 2025-09-29 |
+| 115 | Sadashivpet | Telangana | India | 2 | 2 | 2015-07-05 | 2021-08-12 |
+| 116 | Suriapet | Telangana | India | 2 | 2 | 2016-03-19 | 2017-11-12 |
+| 117 | Kharagpur | West Bengal | India | 2 | 2 | 2016-07-25 | 2018-10-20 |
+| 118 | Krishnanagar | West Bengal | India | 2 | 2 | 2016-07-26 | 2023-11-05 |
+| 119 | Dhone | Andhra Pradesh | India | 2 | 2 | 2017-01-20 | 2017-01-23 |
+| 120 | Hubli | Karnataka | India | 2 | 2 | 2017-02-04 | 2026-10-06 |
+| 121 | Byndoor | Karnataka | India | 2 | 2 | 2017-03-18 | 2026-10-05 |
+| 122 | Nandyal | Andhra Pradesh | India | 2 | 2 | 2017-05-20 | 2017-06-27 |
+| 123 | Chorwad | Gujarat | India | 2 | 2 | 2017-07-18 | 2025-01-28 |
+| 124 | Vizianagaram | Andhra Pradesh | India | 2 | 2 | 2017-08-25 | 2018-10-21 |
+| 125 | Karauli | Rajasthan | India | 2 | 2 | 2017-09-29 | 2021-07-17 |
+| 126 | Guntur | Andhra Pradesh | India | 2 | 2 | 2018-02-21 | 2025-04-28 |
+| 127 | Sriramnagar | Telangana | India | 2 | 2 | 2018-11-18 | 2021-04-05 |
+| 128 | Jhansi | Uttar Pradesh | India | 2 | 2 | 2018-11-20 | 2022-07-10 |
+| 129 | Itarsi | Madhya Pradesh | India | 2 | 2 | 2018-12-26 | 2022-07-10 |
+| 130 | Dataganj | Uttar Pradesh | India | 2 | 2 | 2019-02-24 | 2019-02-28 |
+| 131 | Sultanpur | Uttar Pradesh | India | 2 | 2 | 2019-02-25 | 2019-03-01 |
+| 132 | Kirtipur | Bagmati Province | Nepal | 2 | 2 | 2019-05-16 | 2022-04-15 |
+| 133 | Najafgarh | Delhi | India | 2 | 2 | 2019-06-27 | 2021-07-11 |
+| 134 | Kanpur | Uttar Pradesh | India | 2 | 2 | 2019-07-12 | 2022-07-09 |
+| 135 | Mussoorie | Uttarakhand | India | 2 | 2 | 2019-09-25 | 2022-05-18 |
+| 136 | Point Pedro | Northern Province | Sri Lanka | 2 | 2 | 2019-12-21 | 2022-01-25 |
+| 137 | Valvedditturai | Northern Province | Sri Lanka | 2 | 2 | 2019-12-21 | 2022-01-26 |
+| 138 | Badulla | Uva Province | Sri Lanka | 2 | 2 | 2019-12-26 | 2022-01-29 |
+| 139 | Khambhaliya | Gujarat | India | 2 | 2 | 2020-01-10 | 2023-11-16 |
+| 140 | Khapat | Gujarat | India | 2 | 2 | 2020-01-11 | 2020-02-10 |
+| 141 | Siddhapur | Gujarat | India | 2 | 2 | 2020-01-15 | 2020-02-15 |
+| 142 | Rajpipla | Gujarat | India | 2 | 2 | 2020-01-16 | 2020-02-14 |
+| 143 | Konarka | Odisha | India | 2 | 2 | 2020-01-27 | 2022-12-14 |
+| 144 | Vellore | Tamil Nadu | India | 2 | 2 | 2021-07-29 | 2022-07-01 |
+| 145 | Devanhalli | Karnataka | India | 2 | 2 | 2022-04-26 | 2023-05-29 |
+| 146 | Chachoengsao | Chachoengsao | Thailand | 2 | 2 | 2023-02-10 | 2023-06-26 |
+| 147 | Gorantla | Andhra Pradesh | India | 2 | 2 | 2023-02-13 | 2023-07-21 |
+| 148 | Krishnarajpet | Karnataka | India | 2 | 2 | 2023-05-27 | 2024-01-08 |
+| 149 | Nagarukhra City | West Bengal | India | 2 | 2 | 2023-10-31 | 2023-11-07 |
+| 150 | Junagadh | Gujarat | India | 2 | 2 | 2023-11-20 | 2023-11-26 |
+| 151 | Queens | New York | United States | 2 | 2 | 2025-09-04 | 2025-09-29 |
+| 152 | Centreville | Virginia | United States | 2 | 2 | 2025-09-08 | 2025-09-22 |
+| 153 | Paris | Ile-de-France | France | 4 | 1 | 2024-07-15 | 2024-07-18 |
+| 154 | London | England | United Kingdom | 4 | 1 | 2024-07-28 | 2024-07-31 |
+| 155 | Dubai | Dubai | United Arab Emirates | 4 | 1 | 2024-08-01 | 2024-08-04 |
+| 156 | Los Angeles | California | United States | 4 | 1 | 2025-09-17 | 2025-09-20 |
+| 157 | Giddalur | Andhra Pradesh | India | 3 | 1 | 2021-01-06 | 2021-01-08 |
+| 158 | Gallarate | Lombardy | Italy | 3 | 1 | 2024-07-26 | 2024-07-28 |
+| 159 | Somerset | New Jersey | United States | 3 | 1 | 2025-09-10 | 2025-09-12 |
+| 160 | Kissimmee | Florida | United States | 3 | 1 | 2025-09-13 | 2025-09-15 |
+| 161 | Chantilly | Virginia | United States | 3 | 1 | 2025-09-20 | 2025-09-22 |
+| 162 | Boston | Massachusetts | United States | 3 | 1 | 2025-09-23 | 2025-09-25 |
+| 163 | Shrewsbury | Massachusetts | United States | 3 | 1 | 2025-09-23 | 2025-09-25 |
+| 164 | Manipal | Karnataka | India | 3 | 1 | 2026-10-04 | 2026-10-06 |
+| 165 | Nellore | Andhra Pradesh | India | 2 | 1 | 2015-10-17 | 2015-10-19 |
+| 166 | Pandharpur | Maharashtra | India | 2 | 1 | 2017-02-02 | 2017-02-03 |
+| 167 | Siddipet | Telangana | India | 2 | 1 | 2017-06-24 | 2017-06-25 |
+| 168 | Handia | Uttar Pradesh | India | 2 | 1 | 2019-10-18 | 2019-10-20 |
+| 169 | Anuradhapura | North Central Province | Sri Lanka | 2 | 1 | 2019-12-20 | 2019-12-21 |
+| 170 | Tiruchirappalli | Tamil Nadu | India | 2 | 1 | 2022-07-04 | 2022-07-05 |
+| 171 | Purna | Maharashtra | India | 2 | 1 | 2022-07-10 | 2022-07-11 |
+| 172 | Rampur Hat | West Bengal | India | 2 | 1 | 2022-12-12 | 2022-12-13 |
+| 173 | Belur | Karnataka | India | 2 | 1 | 2023-05-27 | 2023-05-28 |
+| 174 | Brussels | Brussels Capital | Belgium | 2 | 1 | 2024-07-18 | 2024-07-19 |
+| 175 | Amsterdam | North Holland | Netherlands | 2 | 1 | 2024-07-19 | 2024-07-20 |
+| 176 | Zurich (Kreis 11) / Seebach | Zurich | Switzerland | 2 | 1 | 2024-07-22 | 2024-07-23 |
+| 177 | Florence | Tuscany | Italy | 2 | 1 | 2024-07-24 | 2024-07-25 |
+| 178 | Perugia | Umbria | Italy | 2 | 1 | 2024-07-25 | 2024-07-26 |
+| 179 | Umraniye | Istanbul | Turkey | 2 | 1 | 2024-07-31 | 2024-08-01 |
+| 180 | Puttur | Andhra Pradesh | India | 2 | 1 | 2025-04-24 | 2025-04-25 |
+| 181 | The Bronx | New York | United States | 2 | 1 | 2025-09-04 | 2025-09-05 |
+| 182 | Amherst | New York | United States | 2 | 1 | 2025-09-05 | 2025-09-06 |
+| 183 | Niagara Falls | New York | United States | 2 | 1 | 2025-09-05 | 2025-09-06 |
+| 184 | Monroeville | Pennsylvania | United States | 2 | 1 | 2025-09-06 | 2025-09-07 |
+| 185 | Gaithersburg | Maryland | United States | 2 | 1 | 2025-09-08 | 2025-09-09 |
+| 186 | Baltimore | Maryland | United States | 2 | 1 | 2025-09-08 | 2025-09-09 |
+| 187 | Mercerville-Hamilton Square | New Jersey | United States | 2 | 1 | 2025-09-10 | 2025-09-11 |
+| 188 | Manhattan | New York | United States | 2 | 1 | 2025-09-11 | 2025-09-12 |
+| 189 | Meadow Woods | Florida | United States | 2 | 1 | 2025-09-12 | 2025-09-13 |
+| 190 | Jacksonville | Florida | United States | 2 | 1 | 2025-09-16 | 2025-09-17 |
+| 191 | Bilimora | Gujarat | India | 1 | 1 | 2015-04-24 | 2015-04-24 |
+| 192 | Piduguralla | Andhra Pradesh | India | 1 | 1 | 2015-10-17 | 2015-10-17 |
+| 193 | Kavali | Andhra Pradesh | India | 1 | 1 | 2015-10-17 | 2015-10-17 |
+| 194 | Bhadrachalam | Telangana | India | 1 | 1 | 2016-03-19 | 2016-03-19 |
+| 195 | Manuguru | Telangana | India | 1 | 1 | 2016-03-19 | 2016-03-19 |
+| 196 | Nadim Tiruvuru | Andhra Pradesh | India | 1 | 1 | 2016-03-20 | 2016-03-20 |
+| 197 | Kalna | West Bengal | India | 1 | 1 | 2016-07-29 | 2016-07-29 |
+| 198 | Basavakalyan | Karnataka | India | 1 | 1 | 2017-02-02 | 2017-02-02 |
+| 199 | Belagavi | Karnataka | India | 1 | 1 | 2017-02-03 | 2017-02-03 |
+| 200 | Gadag-Betageri | Karnataka | India | 1 | 1 | 2017-02-05 | 2017-02-05 |
+| 201 | Yellapur | Karnataka | India | 1 | 1 | 2017-03-19 | 2017-03-19 |
+| 202 | Hindupur | Andhra Pradesh | India | 1 | 1 | 2017-03-30 | 2017-03-30 |
+| 203 | Penukonda | Andhra Pradesh | India | 1 | 1 | 2017-03-30 | 2017-03-30 |
+| 204 | Betamcherla | Andhra Pradesh | India | 1 | 1 | 2017-06-24 | 2017-06-24 |
+| 205 | Razampeta | Andhra Pradesh | India | 1 | 1 | 2017-06-24 | 2017-06-24 |
+| 206 | Navi Mumbai | Maharashtra | India | 1 | 1 | 2017-07-13 | 2017-07-13 |
+| 207 | Bharuch | Gujarat | India | 1 | 1 | 2017-07-14 | 2017-07-14 |
+| 208 | Bholav | Gujarat | India | 1 | 1 | 2017-07-19 | 2017-07-19 |
+| 209 | Ankleshwar | Gujarat | India | 1 | 1 | 2017-07-19 | 2017-07-19 |
+| 210 | Bhayandar | Maharashtra | India | 1 | 1 | 2017-07-19 | 2017-07-19 |
+| 211 | Kalyan | Maharashtra | India | 1 | 1 | 2017-07-19 | 2017-07-19 |
+| 212 | Sholapur | Maharashtra | India | 1 | 1 | 2017-07-20 | 2017-07-20 |
+| 213 | Tuni | Andhra Pradesh | India | 1 | 1 | 2017-08-24 | 2017-08-24 |
+| 214 | Sriramnagar | Andhra Pradesh | India | 1 | 1 | 2017-08-25 | 2017-08-25 |
+| 215 | Nellimarla | Andhra Pradesh | India | 1 | 1 | 2017-08-25 | 2017-08-25 |
+| 216 | Dausa | Rajasthan | India | 1 | 1 | 2017-10-01 | 2017-10-01 |
+| 217 | Kozhikode | Kerala | India | 1 | 1 | 2018-02-18 | 2018-02-18 |
+| 218 | Tirur | Kerala | India | 1 | 1 | 2018-02-18 | 2018-02-18 |
+| 219 | Shoranur | Kerala | India | 1 | 1 | 2018-02-18 | 2018-02-18 |
+| 220 | Guruvayur | Kerala | India | 1 | 1 | 2018-02-18 | 2018-02-18 |
+| 221 | Kunnamkulam | Kerala | India | 1 | 1 | 2018-02-18 | 2018-02-18 |
+| 222 | Thrissur | Kerala | India | 1 | 1 | 2018-02-18 | 2018-02-18 |
+| 223 | Kanayannur | Kerala | India | 1 | 1 | 2018-02-19 | 2018-02-19 |
+| 224 | Kollam | Kerala | India | 1 | 1 | 2018-02-19 | 2018-02-19 |
+| 225 | Thiruvananthapuram | Kerala | India | 1 | 1 | 2018-02-19 | 2018-02-19 |
+| 226 | Kuzhithurai | Tamil Nadu | India | 1 | 1 | 2018-02-19 | 2018-02-19 |
+| 227 | Arakkonam | Tamil Nadu | India | 1 | 1 | 2018-02-20 | 2018-02-20 |
+| 228 | Sriperumbudur | Tamil Nadu | India | 1 | 1 | 2018-02-20 | 2018-02-20 |
+| 229 | Mancheral | Telangana | India | 1 | 1 | 2018-10-01 | 2018-10-01 |
+| 230 | Sattenapalle | Andhra Pradesh | India | 1 | 1 | 2018-10-12 | 2018-10-12 |
+| 231 | Samalkot | Andhra Pradesh | India | 1 | 1 | 2018-10-13 | 2018-10-13 |
+| 232 | Cuttack | Odisha | India | 1 | 1 | 2018-10-15 | 2018-10-15 |
+| 233 | Shantipur | West Bengal | India | 1 | 1 | 2018-10-18 | 2018-10-18 |
+| 234 | Jaleshwar | Odisha | India | 1 | 1 | 2018-10-20 | 2018-10-20 |
+| 235 | Balasore | Odisha | India | 1 | 1 | 2018-10-20 | 2018-10-20 |
+| 236 | Remuna | Odisha | India | 1 | 1 | 2018-10-20 | 2018-10-20 |
+| 237 | Brahmapur | Odisha | India | 1 | 1 | 2018-10-21 | 2018-10-21 |
+| 238 | Palasa | Andhra Pradesh | India | 1 | 1 | 2018-10-21 | 2018-10-21 |
+| 239 | Banswada | Telangana | India | 1 | 1 | 2018-10-21 | 2018-10-21 |
+| 240 | Jangaon | Telangana | India | 1 | 1 | 2018-12-19 | 2018-12-19 |
+| 241 | Jabalpur | Madhya Pradesh | India | 1 | 1 | 2018-12-26 | 2018-12-26 |
+| 242 | Sohagpur | Madhya Pradesh | India | 1 | 1 | 2018-12-26 | 2018-12-26 |
+| 243 | Pandhurna | Madhya Pradesh | India | 1 | 1 | 2019-01-21 | 2019-01-21 |
+| 244 | Purwa | Uttar Pradesh | India | 1 | 1 | 2019-01-26 | 2019-01-26 |
+| 245 | Bela | Uttar Pradesh | India | 1 | 1 | 2019-01-28 | 2019-01-28 |
+| 246 | Nawabganj | Uttar Pradesh | India | 1 | 1 | 2019-01-29 | 2019-01-29 |
+| 247 | Gondia | Maharashtra | India | 1 | 1 | 2019-02-20 | 2019-02-20 |
+| 248 | Bhilai | Chhattisgarh | India | 1 | 1 | 2019-02-20 | 2019-02-20 |
+| 249 | Rourkela | Odisha | India | 1 | 1 | 2019-02-21 | 2019-02-21 |
+| 250 | Gomoh | Jharkhand | India | 1 | 1 | 2019-02-21 | 2019-02-21 |
+| 251 | Barki Saria | Jharkhand | India | 1 | 1 | 2019-02-21 | 2019-02-21 |
+| 252 | Chandauli | Uttar Pradesh | India | 1 | 1 | 2019-02-23 | 2019-02-23 |
+| 253 | Gorakhpur | Uttar Pradesh | India | 1 | 1 | 2019-03-03 | 2019-03-03 |
+| 254 | Siddharthanagar | Lumbini Province | Nepal | 1 | 1 | 2019-03-03 | 2019-03-03 |
+| 255 | Sitamarhi | Bihar | India | 1 | 1 | 2019-05-26 | 2019-05-26 |
+| 256 | Najibabad | Uttar Pradesh | India | 1 | 1 | 2019-06-28 | 2019-06-28 |
+| 257 | Deoband | Uttar Pradesh | India | 1 | 1 | 2019-07-09 | 2019-07-09 |
+| 258 | Mandawar | Uttar Pradesh | India | 1 | 1 | 2019-07-10 | 2019-07-10 |
+| 259 | Nakur | Uttar Pradesh | India | 1 | 1 | 2019-07-10 | 2019-07-10 |
+| 260 | Etawah | Uttar Pradesh | India | 1 | 1 | 2019-07-12 | 2019-07-12 |
+| 261 | Meerut | Uttar Pradesh | India | 1 | 1 | 2019-09-25 | 2019-09-25 |
+| 262 | Kamareddi | Telangana | India | 1 | 1 | 2019-10-17 | 2019-10-17 |
+| 263 | Gyanpur | Uttar Pradesh | India | 1 | 1 | 2019-10-18 | 2019-10-18 |
+| 264 | Bindki | Uttar Pradesh | India | 1 | 1 | 2019-10-20 | 2019-10-20 |
+| 265 | Jaswantnagar | Uttar Pradesh | India | 1 | 1 | 2019-10-20 | 2019-10-20 |
+| 266 | Negombo | Western Province | Sri Lanka | 1 | 1 | 2019-12-20 | 2019-12-20 |
+| 267 | Matale | Central Province | Sri Lanka | 1 | 1 | 2019-12-23 | 2019-12-23 |
+| 268 | Baola | Gujarat | India | 1 | 1 | 2020-01-12 | 2020-01-12 |
+| 269 | Ambaji | Gujarat | India | 1 | 1 | 2020-01-15 | 2020-01-15 |
+| 270 | Palanpur | Gujarat | India | 1 | 1 | 2020-01-15 | 2020-01-15 |
+| 271 | Jajpur | Odisha | India | 1 | 1 | 2020-01-29 | 2020-01-29 |
+| 272 | Mangrol | Gujarat | India | 1 | 1 | 2020-02-10 | 2020-02-10 |
+| 273 | Jetpur | Gujarat | India | 1 | 1 | 2020-02-11 | 2020-02-11 |
+| 274 | Dungarpur | Rajasthan | India | 1 | 1 | 2020-02-13 | 2020-02-13 |
+| 275 | Mamidalapadu | Andhra Pradesh | India | 1 | 1 | 2021-01-06 | 2021-01-06 |
+| 276 | Closepet | Karnataka | India | 1 | 1 | 2021-05-05 | 2021-05-05 |
+| 277 | Mandya | Karnataka | India | 1 | 1 | 2021-05-05 | 2021-05-05 |
+| 278 | Raya | Uttar Pradesh | India | 1 | 1 | 2021-07-14 | 2021-07-14 |
+| 279 | Kolar | Karnataka | India | 1 | 1 | 2021-07-25 | 2021-07-25 |
+| 280 | Mulbagal | Karnataka | India | 1 | 1 | 2021-07-25 | 2021-07-25 |
+| 281 | Krishnagiri | Tamil Nadu | India | 1 | 1 | 2021-07-29 | 2021-07-29 |
+| 282 | Nilokheri | Haryana | India | 1 | 1 | 2021-10-24 | 2021-10-24 |
+| 283 | Sherghati | Bihar | India | 1 | 1 | 2021-11-26 | 2021-11-26 |
+| 284 | Weligama | Southern Province | Sri Lanka | 1 | 1 | 2022-01-30 | 2022-01-30 |
+| 285 | Tadepallegudem | Andhra Pradesh | India | 1 | 1 | 2022-02-19 | 2022-02-19 |
+| 286 | Kovvur | Andhra Pradesh | India | 1 | 1 | 2022-02-19 | 2022-02-19 |
+| 287 | Jaggaiahpet | Andhra Pradesh | India | 1 | 1 | 2022-02-20 | 2022-02-20 |
+| 288 | Malangawa | Madhesh | Nepal | 1 | 1 | 2022-04-18 | 2022-04-18 |
+| 289 | Chemmumiahpet | Andhra Pradesh | India | 1 | 1 | 2022-06-29 | 2022-06-29 |
+| 290 | Achhnera | Uttar Pradesh | India | 1 | 1 | 2022-06-30 | 2022-06-30 |
+| 291 | Dindigul | Tamil Nadu | India | 1 | 1 | 2022-07-02 | 2022-07-02 |
+| 292 | Thoothukudi | Tamil Nadu | India | 1 | 1 | 2022-07-02 | 2022-07-02 |
+| 293 | Srivilliputhur | Tamil Nadu | India | 1 | 1 | 2022-07-04 | 2022-07-04 |
+| 294 | Madurantakam | Tamil Nadu | India | 1 | 1 | 2022-07-05 | 2022-07-05 |
+| 295 | Gwalior | Madhya Pradesh | India | 1 | 1 | 2022-07-09 | 2022-07-09 |
+| 296 | Khandwa | Madhya Pradesh | India | 1 | 1 | 2022-07-10 | 2022-07-10 |
+| 297 | Nanded | Maharashtra | India | 1 | 1 | 2022-07-11 | 2022-07-11 |
+| 298 | Dharmabad | Maharashtra | India | 1 | 1 | 2022-07-11 | 2022-07-11 |
+| 299 | Nizamabad | Telangana | India | 1 | 1 | 2022-07-11 | 2022-07-11 |
+| 300 | Medak | Telangana | India | 1 | 1 | 2022-07-11 | 2022-07-11 |
+| 301 | Wanparti | Telangana | India | 1 | 1 | 2022-07-12 | 2022-07-12 |
+| 302 | Chhata | Uttar Pradesh | India | 1 | 1 | 2022-10-31 | 2022-10-31 |
+| 303 | Narela | Delhi | India | 1 | 1 | 2022-10-31 | 2022-10-31 |
+| 304 | Gharaunda | Haryana | India | 1 | 1 | 2022-10-31 | 2022-10-31 |
+| 305 | Karnal | Haryana | India | 1 | 1 | 2022-11-01 | 2022-11-01 |
+| 306 | Kalyani | West Bengal | India | 1 | 1 | 2022-12-10 | 2022-12-10 |
+| 307 | Baharampur | West Bengal | India | 1 | 1 | 2022-12-12 | 2022-12-12 |
+| 308 | Sainthia | West Bengal | India | 1 | 1 | 2022-12-13 | 2022-12-13 |
+| 309 | Bolpur | West Bengal | India | 1 | 1 | 2022-12-13 | 2022-12-13 |
+| 310 | Barddhaman | West Bengal | India | 1 | 1 | 2022-12-13 | 2022-12-13 |
+| 311 | Mahbubabad | Telangana | India | 1 | 1 | 2023-01-30 | 2023-01-30 |
+| 312 | Nandigama | Andhra Pradesh | India | 1 | 1 | 2023-01-31 | 2023-01-31 |
+| 313 | Renigunta | Andhra Pradesh | India | 1 | 1 | 2023-02-01 | 2023-02-01 |
+| 314 | Faridabad | Haryana | India | 1 | 1 | 2023-03-24 | 2023-03-24 |
+| 315 | Bagepalli | Karnataka | India | 1 | 1 | 2023-05-24 | 2023-05-24 |
+| 316 | Channarayapatna | Karnataka | India | 1 | 1 | 2023-05-27 | 2023-05-27 |
+| 317 | Dharmavaram | Andhra Pradesh | India | 1 | 1 | 2023-07-18 | 2023-07-18 |
+| 318 | Ranaghat | West Bengal | India | 1 | 1 | 2023-10-31 | 2023-10-31 |
+| 319 | Modasa | Gujarat | India | 1 | 1 | 2023-11-22 | 2023-11-22 |
+| 320 | Maddur | Karnataka | India | 1 | 1 | 2024-01-06 | 2024-01-06 |
+| 321 | Borivli | Maharashtra | India | 1 | 1 | 2024-07-14 | 2024-07-14 |
+| 322 | Lagny-sur-Marne | Ile-de-France | France | 1 | 1 | 2024-07-16 | 2024-07-16 |
+| 323 | Cambrai | Hauts-de-France | France | 1 | 1 | 2024-07-18 | 2024-07-18 |
+| 324 | Marche-en-Famenne | Wallonia | Belgium | 1 | 1 | 2024-07-18 | 2024-07-18 |
+| 325 | Hoogstraten | Flanders | Belgium | 1 | 1 | 2024-07-19 | 2024-07-19 |
+| 326 | Breda | North Brabant | Netherlands | 1 | 1 | 2024-07-19 | 2024-07-19 |
+| 327 | Oosterhout | North Brabant | Netherlands | 1 | 1 | 2024-07-19 | 2024-07-19 |
+| 328 | Dusseldorf | North Rhine-Westphalia | Germany | 1 | 1 | 2024-07-20 | 2024-07-20 |
+| 329 | Koln | North Rhine-Westphalia | Germany | 1 | 1 | 2024-07-20 | 2024-07-20 |
+| 330 | Frankfurt am Main | Hesse | Germany | 1 | 1 | 2024-07-21 | 2024-07-21 |
+| 331 | Sankt Wendel | Saarland | Germany | 1 | 1 | 2024-07-21 | 2024-07-21 |
+| 332 | Offenburg | Baden-Wurttemberg | Germany | 1 | 1 | 2024-07-21 | 2024-07-21 |
+| 333 | Waldkirch | Baden-Wurttemberg | Germany | 1 | 1 | 2024-07-21 | 2024-07-21 |
+| 334 | Schaffhausen | Schaffhausen | Switzerland | 1 | 1 | 2024-07-21 | 2024-07-21 |
+| 335 | Kriens | Lucerne | Switzerland | 1 | 1 | 2024-07-22 | 2024-07-22 |
+| 336 | Luzern | Lucerne | Switzerland | 1 | 1 | 2024-07-22 | 2024-07-22 |
+| 337 | Zurich (Kreis 11) / Affoltern | Zurich | Switzerland | 1 | 1 | 2024-07-22 | 2024-07-22 |
+| 338 | Bellinzona | Ticino | Switzerland | 1 | 1 | 2024-07-23 | 2024-07-23 |
+| 339 | Milan | Lombardy | Italy | 1 | 1 | 2024-07-23 | 2024-07-23 |
+| 340 | Venice | Veneto | Italy | 1 | 1 | 2024-07-23 | 2024-07-23 |
+| 341 | Vicenza | Veneto | Italy | 1 | 1 | 2024-07-24 | 2024-07-24 |
+| 342 | Este | Veneto | Italy | 1 | 1 | 2024-07-24 | 2024-07-24 |
+| 343 | Pisa | Tuscany | Italy | 1 | 1 | 2024-07-24 | 2024-07-24 |
+| 344 | Rome | Lazio | Italy | 1 | 1 | 2024-07-25 | 2024-07-25 |
+| 345 | Scandicci | Tuscany | Italy | 1 | 1 | 2024-07-26 | 2024-07-26 |
+| 346 | Prato | Tuscany | Italy | 1 | 1 | 2024-07-26 | 2024-07-26 |
+| 347 | Modena | Emilia-Romagna | Italy | 1 | 1 | 2024-07-26 | 2024-07-26 |
+| 348 | Horley | England | United Kingdom | 1 | 1 | 2024-07-28 | 2024-07-28 |
+| 349 | Bishops Stortford | England | United Kingdom | 1 | 1 | 2024-07-31 | 2024-07-31 |
+| 350 | Abu Dhabi | Abu Dhabi | United Arab Emirates | 1 | 1 | 2024-08-03 | 2024-08-03 |
+| 351 | Masdar City | Abu Dhabi | United Arab Emirates | 1 | 1 | 2024-08-03 | 2024-08-03 |
+| 352 | Secunderabad | Telangana | India | 1 | 1 | 2024-09-26 | 2024-09-26 |
+| 353 | Jewar | Uttar Pradesh | India | 1 | 1 | 2024-10-11 | 2024-10-11 |
+| 354 | Diu | Dadra and Nagar Haveli and Daman and Diu | India | 1 | 1 | 2025-01-30 | 2025-01-30 |
+| 355 | Cheektowaga | New York | United States | 1 | 1 | 2025-09-05 | 2025-09-05 |
+| 356 | Niagara Falls | Ontario | Canada | 1 | 1 | 2025-09-06 | 2025-09-06 |
+| 357 | Erie | Pennsylvania | United States | 1 | 1 | 2025-09-06 | 2025-09-06 |
+| 358 | Wheeling | West Virginia | United States | 1 | 1 | 2025-09-07 | 2025-09-07 |
+| 359 | Altoona | Pennsylvania | United States | 1 | 1 | 2025-09-07 | 2025-09-07 |
+| 360 | Oak Ridge | Florida | United States | 1 | 1 | 2025-09-13 | 2025-09-13 |
+| 361 | Gainesville | Florida | United States | 1 | 1 | 2025-09-16 | 2025-09-16 |
+| 362 | Flagami | Florida | United States | 1 | 1 | 2025-09-17 | 2025-09-17 |
+| 363 | Brownsville | Florida | United States | 1 | 1 | 2025-09-17 | 2025-09-17 |
+| 364 | South Riding | Virginia | United States | 1 | 1 | 2025-09-20 | 2025-09-20 |
+| 365 | Wyckoff | New Jersey | United States | 1 | 1 | 2025-09-26 | 2025-09-26 |
+| 366 | Piscataway | New Jersey | United States | 1 | 1 | 2025-09-27 | 2025-09-27 |
+| 367 | Bagcılar | Istanbul | Turkey | 1 | 1 | 2025-09-29 | 2025-09-29 |
+| 368 | Dailekh | Karnali Pradesh | Nepal | 1 | 1 | 2026-06-10 | 2026-06-10 |
+| 369 | Mangalore | Karnataka | India | 1 | 1 | 2026-10-04 | 2026-10-04 |
+| 370 | Gangolli | Karnataka | India | 1 | 1 | 2026-10-05 | 2026-10-05 |
+| 371 | Kundapura | Karnataka | India | 1 | 1 | 2026-10-05 | 2026-10-05 |
+| 372 | Murudeshwara | Karnataka | India | 1 | 1 | 2026-10-06 | 2026-10-06 |
+| 373 | Kumta | Karnataka | India | 1 | 1 | 2026-10-06 | 2026-10-06 |
+| 374 | Gokarna | Karnataka | India | 1 | 1 | 2026-10-06 | 2026-10-06 |
+
+*Total: 374 rows*
+
+## 16. Sources & caveats
 - Passport scan (Nov 2025) and VEVO (13 Nov 2025) for history/visas.
 - Entry rules: secondary sources on 20 Oct 2026 (Wikipedia table for Indian citizens, news, embassy PDFs). Verify on official portals.
 - Passport number deliberately omitted.
@@ -2459,3 +2990,4 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 - 21 Oct 2026 - Added Schengen countries (BE, NL, DE, CH, IT, Vatican) to Jul 2024 trip; added Yatra Wishlist section; added Places Visited master list from the Europe+London itinerary and inferred per-country dates; added World Checklist (414 places, ~75 countries).
 - 21 Oct 2026 - Deep research on power visas: ranked strategy, Indian passport baseline (55), Access Map corrections (Gibraltar, Bosnia, Egypt, Caribbean BOTs, Singapore DE/CH rule, Kuwait, Kosovo, Belarus, Kyrgyzstan, El Salvador).
 - 21 Oct 2026 - World Checklist expanded to 566 places / 91 countries incl. popular sightseeing, theme parks, beaches, wildlife; real tick boxes added (Excel ☑/☐ dropdown, Markdown [x]).
+- 21 Oct 2026 - Merged Google Maps Timeline export (Travel Master List.xlsx): GPS countries/states/cities/places/pilgrimage sheets; Travel Log corrected (Nepal 2019, Sri Lanka 2022 batches, Turkey x2, Canada, UAE transit + Abu Dhabi, Kailash dates); USA places corrected (no San Francisco; Alachua/Boston/Philadelphia added); 134 checklist ticks; 2 itinerary conflicts flagged.
