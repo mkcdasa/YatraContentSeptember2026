@@ -6,8 +6,8 @@
 
 | Item | Value |
 |---|---|
-| Countries visited (stamp-verified) | 14 - Belgium, Cambodia, France, Germany, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, UAE, USA, United Kingdom, Vatican City |
-| Visits logged | 21 |
+| Countries visited (stamp-verified) | 15 - Belgium, Cambodia, China (Tibet), France, Germany, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, UAE, USA, United Kingdom, Vatican City |
+| Visits logged | 26 |
 | Valid visas today | USA B1/B2 (to 26 Dec 2034), Australia 600 (to 13 Nov 2030) |
 | Expired - renew | Schengen (19 Apr 2026), UK (29 Dec 2024) |
 | Passport expiry | 17 Sep 2028; practical last travel date 17 Mar 2028 (6-month rule); start renewal by Sep 2027 |
@@ -27,12 +27,13 @@
 |---|---|---|---|---|
 | Belgium | 1 | 18 Jul 2024 | 18 Jul 2024 | 2 |
 | Cambodia | 2 | 08 Feb 2023 | 27 Jun 2023 | 7 |
+| China (Tibet) | 1 | 02 Jun 2026 | 02 Jun 2026 | 10 |
 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 4 |
 | Germany | 1 | 20 Jul 2024 | 20 Jul 2024 | 2 |
 | Italy | 1 | 23 Jul 2024 | 23 Jul 2024 | 5 |
-| Nepal | 3 | 15 May 2019 | 14 Apr 2022 | 8 |
+| Nepal | 6 | 15 May 2019 | 11 Jun 2026 | 20 |
 | Netherlands | 1 | 19 Jul 2024 | 19 Jul 2024 | 2 |
-| Sri Lanka | 3 | 28 Sep 2019 | 24 Jan 2022 | 31 |
+| Sri Lanka | 4 | 28 Sep 2019 | 17 Jan 2026 | 40 |
 | Switzerland | 1 | 21 Jul 2024 | 21 Jul 2024 | 3 |
 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
 | UAE | 1 | 01 Aug 2024 | 01 Aug 2024 | - |
@@ -67,6 +68,11 @@
 | 19 | United Kingdom | 27 Jul 2024 | 31 Jul 2024 | 5 | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024; UAE entry 1 Aug 2024 -> UK exit ~31 Jul (inferred) | Check |
 | 20 | UAE | 01 Aug 2024 | ? | - | Visa/entry per stamp (Indian PP) | Passport p.10: UAE entry stamp 01 Aug 2024; India arrival RGI Hyderabad 05 Aug 2024 | High |
 | 21 | USA | 04 Sep 2025 | 30 Sep 2025 | 27 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + p.10: India dep. New Delhi 03 Sep 2025; CBP stamp 04 Sep 2025; India arrival Mumbai 30 Sep 2025 | High |
+| 22 | Sri Lanka | 17 Jan 2026 | 25 Jan 2026 | 9 | Sri Lanka ETA | Your Ramayan Yatra itinerary 16-25 Jan 2026 (no stamp - scan ends Nov 2025) | Check |
+| 23 | Nepal | 24 May 2026 | 29 May 2026 | 6 | No visa needed | Your Muktinath Yatra itinerary 24-29 May 2026 (no stamp available) | Check |
+| 24 | Nepal | 31 May 2026 | 02 Jun 2026 | 3 | No visa needed | Kailash itinerary Days 1-3 (no stamp available) | Check |
+| 25 | China (Tibet) | 02 Jun 2026 | 11 Jun 2026 | 10 | Chinese group visa + Tibet Travel Permit (via operator) | Kailash itinerary Days 3-12, 31 May-13 Jun 2026 (no stamp available) | Check |
+| 26 | Nepal | 11 Jun 2026 | 13 Jun 2026 | 3 | No visa needed | Kailash itinerary Days 12-13 | Check |
 
 ## 5. Visas held
 
@@ -143,7 +149,7 @@
 | Indonesia (Bali, Java) | e-VOA IDR 500,000, 30 days (+1 ext.). Bali levy IDR 150,000 + digital arrival card. Confirm India on eligible list | 30 days (+30) | Planned Feb 2026 | Confirm |
 | Philippines | Visa-free 14 days (hotel, funds, onward ticket). Holders of valid US/Japan/AU/CA/Schengen/SG/UK visa get 30 days | 14 days / 30 days with US or AU visa | Low | Researched |
 | Japan | Visa required: e-Visa/VFS route, fee Rs 500 + service charges (reported) | Typically 15-90 days | Medium | Researched |
-| China (incl. Tibet / Kailash) | Chinese visa (tourist: 4 working days; group visa via operator ~6 working days) + Tibet Travel Permit + ATP via Nepal; or MEA KMY lottery (kmy.gov.in, June-Aug, 1,000 pilgrims) | Per permit | HIGH (Kailash) | Researched |
+| China (incl. Tibet / Kailash) | Chinese visa (tourist: 4 working days; group visa via operator ~6 working days) + Tibet Travel Permit + ATP via Nepal; or MEA KMY lottery (kmy.gov.in, June-Aug, 1,000 pilgrims) | Per permit | DONE Jun 2026 (per your itinerary) | Researched |
 | Hong Kong | Pre-Arrival Registration (PAR) online, up to 14 days; valid 6 months | 14 days | Low | Researched |
 | Russia | e-Visa (up to 16 days). Visa-free group scheme still only under negotiation | 16 days | Medium | Researched |
 | Kazakhstan | Visa-free 14 days reported (conflicting 30-90 elsewhere) | 14 days | Low | Researched |
@@ -172,9 +178,9 @@
 |---|---|---|---|
 | Europe (Schengen) | 2025-10-04 | 2025-10-17 | Schengen visa #2 only valid from 21 Oct 2025 - this window pre-dates it; likely moved to Nov |
 | Europe (Schengen) | 2025-11-06 | 2025-11-20 | Inside Schengen #2 validity (21 Oct 2025-19 Apr 2026); no stamp in Nov-2025 scan |
-| Sri Lanka (Ramayan Yatra) | 2026-01-18 | 2026-01-26 | Future relative to scan; confirm if done |
 | Australia (Yatra) | 2026-02-10 | 2026-02-19 | Visa granted 13 Nov 2025; would be FIRST Australia entry - confirm |
 | Bali, Indonesia | 2026-02-21 | 2026-02-27 | Confirm |
+| USA Yatra (brochure) | 2026-04-22 | 2026-05-08 | Brochure route NY-DC-New Vrindaban-Niagara-Orlando-LA-SF is dated 22 Apr-8 May; your stamped USA trip is 4-30 Sep 2025. Was Apr-May 2026 a SECOND USA trip? If yes I will add it to the Travel Log |
 | Nepal (Muktinath Yatra) | 2024-10-27 | 2024-11-02 | No 2024 Nepal stamp seen - may have been an escorted group yatra or not run |
 | Sri Lanka (Ramayan Yatra) | 2024-12-01 | 2024-12-07 | No Dec-2024 SL stamp in scan - confirm |
 | Thailand / Cambodia Yatra | 2025-01-07 | 2025-01-12 | No Jan-2025 stamp in scan - confirm |
@@ -251,13 +257,61 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 | Italy | Rome | Colosseum (outside), Roman Forum, Pantheon | Landmark | 26 Jul 2024 |  |
 | Italy | Milan | Departure Milan Malpensa | Transit hub | 27 Jul 2024 | Malpensa stamp 27 Jul 2024 |
 | Vatican City | Vatican City | St Peter's Square & St Peter's Basilica | Landmark | 26 Jul 2024 |  |
-| Sri Lanka | Colombo (BIA) | Colombo - Ramayana trail bases | City tour | Sep-Oct 2019; Dec 2019; Jan 2022 | Add sites visited (e.g. Seetha Amman Kovil, Ashok Vatika, Munneswaram, Kelaniya) |
-| Nepal | Kathmandu | Kathmandu (Pashupatinath etc.) | City tour | May 2019; Apr 2022 (+Mar 2019 exit) | Add sites (Pashupatinath, Budhanilkantha, Krishna Mandir Patan) |
-| Nepal | Pokhara / Jomsom / Muktinath | Muktinath yatra route | ISKCON/Temple | (from your dashboard - confirm trip) | Add when confirmed |
+| India | Srirangam (Trichy) | Sri Ranganathaswamy Divya Desams, Vishwaroopa darshan | ISKCON/Temple | 16-17 Jan 2026 | Domestic leg before Jaffna flight |
+| Sri Lanka | Jaffna | Nilavarai bottomless well, Keerimalai springs, Naguleswaram (Pancha Ishwaram) | ISKCON/Temple | 17 Jan 2026 |  |
+| Sri Lanka | Nainativu | Nagadeepa island (by boat) | ISKCON/Temple | 18 Jan 2026 |  |
+| Sri Lanka | Mannar | Rama Setu view point, Thiruketheeswaram (Pancha Ishwaram) | ISKCON/Temple | 18 Jan 2026 |  |
+| Sri Lanka | Trincomalee | Kanniya hot springs; Koneswaram (Pancha Ishwaram); Shankari Devi Shakti peetha | ISKCON/Temple | 18-19 Jan 2026 |  |
+| Sri Lanka | Sigiriya | Sigiriya Lion Rock (Ravana link) | Landmark | 19 Jan 2026 |  |
+| Sri Lanka | Kandy | Temple of the Tooth Relic | Landmark | 20 Jan 2026 |  |
+| Sri Lanka | Ramboda | Ramboda Hanuman temple (Chinmaya) & Ramboda Falls | ISKCON/Temple | 20 Jan 2026 |  |
+| Sri Lanka | Nuwara Eliya | Seetha Amman Kovil (Ashok Vatika), Hakgala garden, Divurumpola (Sita agni pariksha) | ISKCON/Temple | 21 Jan 2026 |  |
+| Sri Lanka | Ella | Ravana Cave & Ravana Falls | Nature | 21 Jan 2026 |  |
+| Sri Lanka | Kataragama | Kataragama & Sella Kataragama | ISKCON/Temple | 21-22 Jan 2026 |  |
+| Sri Lanka | Ussangoda / Mirissa | Ussangoda (Ravana's burnt land); whale watching | Nature | 22 Jan 2026 |  |
+| Sri Lanka | Dondra / Galle | Tenavaram-Thondeshwaram (Pancha Ishwaram); Galle Fort | ISKCON/Temple | 23 Jan 2026 |  |
+| Sri Lanka | Unawatuna / Bentota | Rumassala Sanjeevani hill; Bentota boat ride | Nature | 23 Jan 2026 |  |
+| Sri Lanka | Colombo | ISKCON Colombo, Gangaramaya, Colombo Lotus Tower, Kelaniya (Vibhishana) temple | ISKCON/Temple | 24 Jan 2026 |  |
+| Sri Lanka | Chilaw | Munneswaram (Pancha Ishwaram) | ISKCON/Temple | 24 Jan 2026 | All five Pancha Ishwaram covered |
+| Nepal | Kathmandu | Budhanilkantha - Jala Narayana (sleeping Vishnu) | ISKCON/Temple | 24 May 2026 |  |
+| Nepal | Kathmandu | ISKCON Kathmandu | ISKCON/Temple | 24 May 2026 |  |
+| Nepal | Patan | Durbar Square - Krishna Mandir | ISKCON/Temple | 24 May 2026 |  |
+| Nepal | Kathmandu | Pashupatinath - Rudrabhishekam at main linga; Bagmati river | ISKCON/Temple | 25 May 2026 | Also visited 2019/2022 |
+| Nepal | Kathmandu | Guhyeshwari Shakti peetha | ISKCON/Temple | 25 May 2026 |  |
+| Nepal | Bhaktapur | Changu Narayan (oldest Vishnu temple) | ISKCON/Temple | 25 May 2026 |  |
+| Nepal | Kathmandu | Swayambhunath stupa | Landmark | 25 May 2026 |  |
+| Nepal | Pokhara | Bindhyabasini temple, Tal Barahi temple, Phewa lake boat ride, Devi's Fall | ISKCON/Temple | 26 & 28 May 2026 |  |
+| Nepal | Jomsom / Muktinath | Muktinath (106th Divya Desam); Kali Gandaki - Shaligram | ISKCON/Temple | 27-28 May 2026 | Flight Pokhara-Jomsom |
+| Nepal | Kathmandu | Pashupatinath & Budhanilkantha (pre-Kailash) | ISKCON/Temple | 31 May-1 Jun 2026 |  |
+| China (Tibet) | Kyirong | Kyirong border town (acclimatisation) | Transit hub | 2-3 Jun 2026 | Entered China at Rasuwagadhi/Kyirong |
+| China (Tibet) | Saga / Dongba | Tibetan plateau drive | Nature | 4 Jun 2026 |  |
+| China (Tibet) | Manasarovar | Lake Manasarovar - parikrama, puja, snan; Rakshas Tal | Nature | 5-6 Jun 2026 |  |
+| China (Tibet) | Darchen / Kailash | Mt Kailash outer kora: Yama Dwar, Dirapuk, Dolma La (5,630 m), Zuthulpuk | Nature | 7-9 Jun 2026 | 3-day parikrama |
+| Nepal | Kathmandu | Return via Kyirong; departure | Transit hub | 11-13 Jun 2026 |  |
+| India | Rishikesh | Triveni Ghat Ganga aarti, Ram/Sita Jhula, Parmarth Niketan, Gita Mandir, ISKCON Rishikesh | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| India | Haridwar | Har ki Pauri, Mansa Devi (ropeway) | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| India | Yamunotri | Yamunotri temple, Surya Kund, Kharsali Shani temple | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| India | Gangotri / Harsil | Gangotri temple, Bhagirath Shila, Harsil valley, Bagori village | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| India | Kedarnath | Kedarnath temple, Bhim Shila, Adi Shankaracharya samadhi (hilltop stay) | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| India | Badrinath / Mana | Badri Narayan (Maha Abhishek), Brahma Kapal, Mana village, Vyas & Ganesh gufa, Saraswati udgam | ISKCON/Temple | Multiple batches 2023-2026 |  |
+| USA | New Jersey | Indian Heritage Foundation NJ; Sri Venkateswara Temple Bridgewater; BAPS Akshardham Robbinsville | ISKCON/Temple | USA yatra |  |
+| USA | New York City | Wall Street & Charging Bull, 9/11 Memorial, Empire State Building, Madame Tussauds, Times Square, Central Park | Landmark | USA yatra |  |
+| USA | New York City | Tompkins Square Park (Hare Krishna tree), Bhakti Center, ISKCON Brooklyn (Radha Govinda) | ISKCON/Temple | USA yatra |  |
+| USA | New York City | Statue of Liberty; American Museum of Natural History | Landmark | USA yatra |  |
+| USA | Baltimore | ISKCON Baltimore | ISKCON/Temple | USA yatra |  |
+| USA | Washington DC | US Capitol Visitor Center, National Mall, White House, Lincoln Memorial, Washington Monument, WWII Memorial, Smithsonian Air & Space | Landmark | USA yatra |  |
+| USA | Fairfax VA | Sri Venkateswara Lotus Temple | ISKCON/Temple | USA yatra |  |
+| USA | New Vrindaban WV | Prabhupada's Palace of Gold; Matchless Gifts | ISKCON/Temple | USA yatra |  |
+| USA | Pittsburgh | Sri Venkateswara Temple, Penn Hills | ISKCON/Temple | USA yatra |  |
+| USA | Niagara Falls NY | Maid of the Mist, Cave of the Winds, illumination show | Nature | USA yatra |  |
+| USA | Orlando | ISKCON Orlando; Walt Disney World; Universal Studios & Islands of Adventure; Aquatica | Landmark | USA yatra |  |
+| USA | Los Angeles | ISKCON LA New Dvaraka (Watseka Ave); ISKCON Laguna Beach; Hollywood Walk of Fame & TCL Chinese Theatre | ISKCON/Temple | USA yatra |  |
+| USA | San Jose | Krishna Balaram Balaji Mandir (India Heritage Foundation) | ISKCON/Temple | USA yatra |  |
+| USA | San Francisco | Golden Gate Bridge & Park, Palace of Fine Arts, Pier 39 / Fisherman's Wharf, hop-on-hop-off | Landmark | USA yatra |  |
+| USA | Berkeley / Mountain View | ISKCON Berkeley; ISKCON Silicon Valley (Mountain View); Google campus | ISKCON/Temple | USA yatra |  |
 | Thailand | Bangkok (BKK) | Bangkok | City tour | Feb 2023 (x2); Jun 2023 | Add sites (ISKCON Bangkok, Wat Arun, Grand Palace...) |
 | Cambodia | Siem Reap | Angkor Wat / Angkor Thom | Landmark | Feb 2023; Jun 2023 | Confirm sites |
 | UAE | Dubai | Dubai | City tour | 1-~5 Aug 2024 | Add sites (ISKCON Dubai Bur Dubai, Burj Khalifa...) |
-| USA | (cities to add) | USA trip Sep 2025 | City tour | 4-30 Sep 2025 | Add cities & temples visited (27 days) |
 
 ## 12. World Checklist - important places by Country > State > City
 
@@ -311,7 +365,7 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 | Tamil Nadu | Chennai | ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy | Temple |  |
 | Tamil Nadu | Mahabalipuram | Shore Temple, Pancha Rathas - UNESCO | UNESCO |  |
 | Tamil Nadu | Kanchipuram | Varadaraja Perumal, Ekambareswarar, Kamakshi | Temple |  |
-| Tamil Nadu | Srirangam | Sri Ranganathaswamy Temple (largest functioning temple) | Temple |  |
+| Tamil Nadu | Srirangam | Sri Ranganathaswamy Temple (largest functioning temple) | Temple | Yes |
 | Tamil Nadu | Thanjavur | Brihadeeswara Temple - UNESCO (Great Living Chola Temples) | UNESCO |  |
 | Tamil Nadu | Gangaikonda Cholapuram / Darasuram | Chola temples - UNESCO | UNESCO |  |
 | Tamil Nadu | Chidambaram | Nataraja Temple | Temple |  |
@@ -373,9 +427,9 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 | Uttar Pradesh | Agra | Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO | UNESCO |  |
 | Uttar Pradesh | Lucknow | Bara Imambara, Rumi Darwaza | Monument | Likely |
 | Uttar Pradesh | Chitrakoot | Kamadgiri, Ram Ghat | Temple |  |
-| Uttarakhand | Char Dham | Yamunotri, Gangotri, Kedarnath, Badrinath | Temple | Likely |
-| Uttarakhand | Rishikesh / Haridwar | Ganga aarti, Har ki Pauri, Laxman Jhula, ISKCON Rishikesh | Temple | Likely |
-| Uttarakhand | Dehradun / Mussoorie | Base for Char Dham | Nature | Likely |
+| Uttarakhand | Char Dham | Yamunotri, Gangotri, Kedarnath, Badrinath | Temple | Yes |
+| Uttarakhand | Rishikesh / Haridwar | Ganga aarti, Har ki Pauri, Laxman Jhula, ISKCON Rishikesh | Temple | Yes |
+| Uttarakhand | Dehradun / Mussoorie | Base for Char Dham | Nature | Yes |
 | Uttarakhand | Hemkund / Valley of Flowers | Valley of Flowers - UNESCO | UNESCO |  |
 | Uttarakhand | Panch Kedar / Panch Badri | Tungnath, Madhyamaheshwar, Rudranath, Kalpeshwar; Adi Badri etc. | Temple |  |
 | Uttarakhand | Jim Corbett | Corbett National Park | Nature |  |
@@ -434,27 +488,34 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 
 | State / region | City | Place(s) | Category | Visited |
 |---|---|---|---|---|
-| New York | New York City | ISKCON NYC (26 Second Ave - Prabhupada's first temple; Brooklyn Radha Govinda) | ISKCON |  |
-| New York | New York City | Statue of Liberty, Ellis Island, Times Square, Central Park, Empire State, 9/11 Memorial | Monument |  |
-| New York | New York City | Metropolitan Museum, MoMA, Brooklyn Bridge | Museum |  |
-| New York | Tompkins Square Park | Hare Krishna Tree (first public kirtan 1966) | ISKCON |  |
-| Washington DC | Washington DC | White House, Capitol, Lincoln Memorial, Smithsonian museums | Monument |  |
+| New York | New York City | ISKCON NYC (26 Second Ave - Prabhupada's first temple; Brooklyn Radha Govinda) | ISKCON | Yes |
+| New York | New York City | Statue of Liberty, Ellis Island, Times Square, Central Park, Empire State, 9/11 Memorial | Monument | Yes |
+| New York | New York City | Metropolitan Museum, MoMA, Brooklyn Bridge | Museum | Yes |
+| New York | Tompkins Square Park | Hare Krishna Tree (first public kirtan 1966) | ISKCON | Yes |
+| Washington DC | Washington DC | White House, Capitol, Lincoln Memorial, Smithsonian museums | Monument | Yes |
 | Maryland | Potomac | ISKCON Washington DC | ISKCON |  |
-| West Virginia | Moundsville | New Vrindaban - Prabhupada's Palace of Gold | ISKCON |  |
-| California | Los Angeles | ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty | ISKCON |  |
-| California | San Francisco | Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) | Monument |  |
+| Maryland | Baltimore | ISKCON Baltimore | ISKCON | Yes |
+| Virginia | Fairfax | Sri Venkateswara Lotus Temple | Temple | Yes |
+| Pennsylvania | Pittsburgh | Sri Venkateswara Temple, Penn Hills | Temple | Yes |
+| New York | Niagara Falls | Niagara Falls - Maid of the Mist, Cave of the Winds | Nature | Yes |
+| New Jersey | Bridgewater | Sri Venkateswara (Balaji) Temple; IHF New Jersey | Temple | Yes |
+| California | Laguna Beach / San Jose / Mountain View | ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley | ISKCON | Yes |
+| New York | New York City | Bhakti Center (East Village) | ISKCON | Yes |
+| West Virginia | Moundsville | New Vrindaban - Prabhupada's Palace of Gold | ISKCON | Yes |
+| California | Los Angeles | ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty | ISKCON | Yes |
+| California | San Francisco | Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) | Monument | Yes |
 | California | Yosemite / Sequoia | Yosemite - UNESCO | UNESCO |  |
 | California | San Diego | ISKCON San Diego, Balboa Park | ISKCON |  |
 | Nevada / Arizona | Las Vegas / Grand Canyon | Grand Canyon - UNESCO; Hoover Dam | UNESCO |  |
 | Utah | Spanish Fork | Sri Sri Radha Krishna Temple (Holi festival) | ISKCON |  |
 | Utah / Arizona | Zion, Bryce, Antelope Canyon, Monument Valley | National parks | Nature |  |
 | Florida | Alachua | ISKCON Alachua (New Raman Reti) - largest US community | ISKCON |  |
-| Florida | Orlando / Miami | Disney World, Kennedy Space Center, Everglades - UNESCO | Modern |  |
+| Florida | Orlando / Miami | Disney World, Kennedy Space Center, Everglades - UNESCO | Modern | Yes |
 | Texas | Houston / Dallas | ISKCON Houston (Radha Nila Madhava), Dallas (Kalachandji's), NASA JSC | ISKCON |  |
 | Illinois | Chicago | ISKCON Chicago; Millennium Park, Willis Tower, Art Institute | ISKCON |  |
 | Massachusetts | Boston | ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail | ISKCON |  |
 | Pennsylvania | Philadelphia / Gita Nagari | Independence Hall - UNESCO; Gita Nagari farm (Port Royal) | UNESCO |  |
-| New Jersey | Towaco / Robbinsville | ISKCON NJ; BAPS Akshardham Robbinsville (largest Hindu temple outside India) | Temple |  |
+| New Jersey | Towaco / Robbinsville | ISKCON NJ; BAPS Akshardham Robbinsville (largest Hindu temple outside India) | Temple | Yes |
 | Georgia | Atlanta | ISKCON Atlanta (New Panihati Dham) | ISKCON |  |
 | Hawaii | Honolulu / Big Island | ISKCON Honolulu (New Navadvipa); Pearl Harbor; Volcanoes NP - UNESCO | UNESCO |  |
 | Wyoming / Montana | Yellowstone | Yellowstone - UNESCO | UNESCO |  |
@@ -710,18 +771,20 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 
 | State / region | City | Place(s) | Category | Visited |
 |---|---|---|---|---|
-| Western | Colombo | ISKCON Colombo (New Kurukshetra); Gangaramaya; Kelaniya Raja Maha Vihara | ISKCON |  |
-| Central | Nuwara Eliya | Seetha Amman Kovil (Ashok Vatika), Hakgala garden | Temple |  |
-| Central | Kandy | Temple of the Tooth - UNESCO; Kataragama devale | UNESCO |  |
-| Central | Dambulla / Sigiriya | Golden Cave Temple - UNESCO; Sigiriya rock - UNESCO (Ravana link) | UNESCO |  |
-| Central | Ella | Ravana Falls & Ravana cave, Nine Arch Bridge | Nature |  |
-| Uva / Southern | Kataragama | Kataragama (Murugan) shrine | Temple |  |
-| Northern | Jaffna | Nallur Kandaswamy Kovil, Nagadeepa | Temple |  |
-| Eastern | Trincomalee | Koneswaram (Thirukoneswaram) & Shankari Devi; Kanniya hot wells | Temple |  |
-| North Western | Chilaw | Munneswaram & Manavari (first Shiva linga by Rama) | Temple |  |
-| Western | Rumassala / Unawatuna | Rumassala (Sanjeevani hill), Galle Fort - UNESCO | UNESCO |  |
+| Western | Colombo | ISKCON Colombo (New Kurukshetra); Gangaramaya; Kelaniya Raja Maha Vihara | ISKCON | Yes |
+| Central | Nuwara Eliya | Seetha Amman Kovil (Ashok Vatika), Hakgala garden | Temple | Yes |
+| Central | Kandy | Temple of the Tooth - UNESCO; Kataragama devale | UNESCO | Yes |
+| Central | Dambulla / Sigiriya | Golden Cave Temple - UNESCO; Sigiriya rock - UNESCO (Ravana link) | UNESCO | Yes |
+| Central | Ella | Ravana Falls & Ravana cave, Nine Arch Bridge | Nature | Yes |
+| Uva / Southern | Kataragama | Kataragama (Murugan) shrine | Temple | Yes |
+| Northern | Jaffna | Nallur Kandaswamy Kovil, Nagadeepa | Temple | Yes |
+| Northern | Jaffna / Mannar | Nilavarai well, Keerimalai, Naguleswaram, Thiruketheeswaram, Rama Setu view | Temple | Yes |
+| Central | Ramboda | Ramboda Hanuman temple & falls | Temple | Yes |
+| Eastern | Trincomalee | Koneswaram (Thirukoneswaram) & Shankari Devi; Kanniya hot wells | Temple | Yes |
+| North Western | Chilaw | Munneswaram & Manavari (first Shiva linga by Rama) | Temple | Yes |
+| Western | Rumassala / Unawatuna | Rumassala (Sanjeevani hill), Galle Fort - UNESCO | UNESCO | Yes |
 | Anuradhapura | Anuradhapura / Polonnaruwa | Sacred city - UNESCO; Jaya Sri Maha Bodhi | UNESCO |  |
-| Southern | Ussangoda / Dondra | Ussangoda (Hanuman burnt land), Dondra Vishnu devale | Temple |  |
+| Southern | Ussangoda / Dondra | Ussangoda (Hanuman burnt land), Dondra Vishnu devale | Temple | Yes |
 
 ### Cambodia
 
@@ -753,13 +816,16 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 
 | State / region | City | Place(s) | Category | Visited |
 |---|---|---|---|---|
-| Bagmati | Kathmandu | Pashupatinath - UNESCO | Temple | Likely |
-| Bagmati | Kathmandu | Budhanilkantha (sleeping Vishnu), Swayambhunath, Boudhanath - UNESCO | Temple | Likely |
-| Bagmati | Patan / Bhaktapur | Krishna Mandir, Durbar Squares - UNESCO | UNESCO |  |
-| Bagmati | Kathmandu | ISKCON Kathmandu (Budhanilkantha) | ISKCON |  |
-| Gandaki | Mustang | Muktinath (108 water spouts, Shaligram) | Temple | Likely |
-| Gandaki | Pokhara | Phewa lake, Bindhyabasini, Sarangkot sunrise | Nature | Likely |
-| Gandaki | Jomsom / Kali Gandaki | Shaligram river, Kagbeni | Nature | Likely |
+| Bagmati | Kathmandu | Pashupatinath - UNESCO | Temple | Yes |
+| Bagmati | Kathmandu | Budhanilkantha (sleeping Vishnu), Swayambhunath, Boudhanath - UNESCO | Temple | Yes |
+| Bagmati | Patan / Bhaktapur | Krishna Mandir, Durbar Squares - UNESCO | UNESCO | Yes |
+| Bagmati | Kathmandu | ISKCON Kathmandu (Budhanilkantha) | ISKCON | Yes |
+| Bagmati | Bhaktapur | Changu Narayan (oldest Vishnu temple) - UNESCO | Temple | Yes |
+| Bagmati | Kathmandu | Guhyeshwari Shakti peetha | Temple | Yes |
+| Gandaki | Pokhara | Bindhyabasini, Tal Barahi, Devi's Fall | Temple | Yes |
+| Gandaki | Mustang | Muktinath (108 water spouts, Shaligram) | Temple | Yes |
+| Gandaki | Pokhara | Phewa lake, Bindhyabasini, Sarangkot sunrise | Nature | Yes |
+| Gandaki | Jomsom / Kali Gandaki | Shaligram river, Kagbeni | Nature | Yes |
 | Madhesh | Janakpur | Janaki Mandir (Sita's birthplace), Vivah Mandap | Temple |  |
 | Lumbini | Lumbini | Buddha's birthplace - UNESCO | UNESCO |  |
 | Koshi | Barahakshetra / Pathibhara | Varaha kshetra; Pathibhara Devi | Temple |  |
@@ -857,7 +923,8 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 | Beijing | Beijing | Great Wall - UNESCO, Forbidden City - UNESCO, Temple of Heaven | UNESCO |  |
 | Shaanxi | Xi'an | Terracotta Army - UNESCO | UNESCO |  |
 | Shanghai | Shanghai | The Bund, Pudong | Modern |  |
-| Tibet | Lhasa / Kailash | Mt Kailash & Lake Mansarovar parikrama; Potala Palace - UNESCO | Temple |  |
+| Tibet | Kailash / Manasarovar | Mt Kailash outer kora (Dolma La) & Lake Manasarovar parikrama | Temple | Yes |
+| Tibet | Lhasa | Potala Palace - UNESCO, Jokhang | UNESCO |  |
 
 ### Hong Kong
 
