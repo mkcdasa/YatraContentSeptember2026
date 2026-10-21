@@ -181,10 +181,25 @@
 | Nepal (Muktinath Yatra) | 2025-04-01 | 2025-04-21 | No Apr-2025 stamp in scan - confirm |
 | OOS / BJ (domestic?) | 2025-03-11 | 2025-03-16 | Label unclear ('OOS'); probably out-of-station, not international |
 
-## 10. Sources & caveats
+## 10. Yatra Wishlist - places to visit, explore and plan
+
+| Yatra / place | Location | Best time | Typical dates | Days | Permit / registration | Priority | Status |
+|---|---|---|---|---|---|---|---|
+| Mysore Dasara | Mysuru, Karnataka, India | Sep-Oct (Navaratri) | 10 days ending Vijayadashami; Jamboo Savari on the last day | 3-4 | None (domestic) | High | Idea |
+| Tirupati Balaji Brahmotsavam | Tirumala, Andhra Pradesh, India | Sep-Oct (Salakatla Brahmotsavam); some years a 2nd Navaratri Brahmotsavam | 9 days; Garuda Seva day is the peak | 2-3 | None; TTD darshan tokens / SED booking via tirupatibalaji.ap.gov.in | High | Idea |
+| Vaishno Devi | Katra, Jammu & Kashmir, India | Mar-Jun and Sep-Nov (avoid peak summer rush and Jan snow) | Navaratri very crowded | 3-4 (with travel) | None; free RFID yatra card from SMVDSB (online or Katra) | High | Idea |
+| Amarnath Yatra | Pahalgam / Baltal, Jammu & Kashmir, India | Jul-Aug only (yatra window set yearly by SASB) | ~45-60 days, Ashadha Purnima to Shravana Purnima (Raksha Bandhan) | 5-7 | Compulsory SASB registration + Compulsory Health Certificate from authorised doctor; RFID card; age 13-70 | High | Idea |
+| Seven Sisters (North-East India) | Assam, Meghalaya, Arunachal, Nagaland, Manipur, Mizoram, Tripura | Oct-Apr (dry, clear) | Avoid Jun-Sep monsoon | 10-14 | Inner Line Permit (ILP) for Arunachal, Nagaland, Mizoram, Manipur - online; none for Assam/Meghalaya/Tripura | Medium | Idea |
+| Kerala | Kerala, India | Oct-Mar; Sabarimala season Nov-Jan | Guruvayur Ekadasi (Nov-Dec); Thrissur Pooram (Apr-May) | 6-8 | None (domestic); Sabarimala needs virtual-queue booking | Medium | Idea |
+
+Notes: **Mysore Dasara** - Palace illumination, Chamundi Hill, Jamboo Savari procession. Book stay months ahead; ISKCON Mysore nearby. Combine with Srirangapatna, Melukote. **Tirupati Balaji Brahmotsavam** - Vahana sevas each morning/evening; Garuda Seva night draws lakhs. Arrange accommodation via TTD or HKM contacts well in advance. **Vaishno Devi** - 13 km trek from Katra (ponies/palki/helicopter available). Combine with Jammu Raghunath temple; optionally Amritsar. **Amarnath Yatra** - Register as soon as the window opens (Mar-Apr). Pahalgam route 32 km (3 days) or Baltal 14 km (1 day); helicopter options. Needs fitness prep. **Seven Sisters (North-East India)** - Kamakhya (Guwahati), Majuli satras (Vaishnava), Tawang monastery, Cherrapunji/Living root bridges, Loktak lake, Tripureshwari temple. Plan as 2 circuits (Assam-Meghalaya-Arunachal; Manipur-Mizoram-Tripura-Nagaland). **Kerala** - Guruvayur, Padmanabhaswamy (dress code), Sabarimala, Ambalappuzha, Aranmula, Chottanikkara; backwaters. Combine with Kanyakumari/Suchindram.
+
+
+## 11. Sources & caveats
 - Passport scan (Nov 2025) and VEVO (13 Nov 2025) for history/visas.
 - Entry rules: secondary sources on 20 Oct 2026 (Wikipedia table for Indian citizens, news, embassy PDFs). Verify on official portals.
 - Passport number deliberately omitted.
 
 ## Change log
 - 20 Oct 2026 - v1 created.
+- 21 Oct 2026 - Added Schengen countries (BE, NL, DE, CH, IT, Vatican) to Jul 2024 trip; added Yatra Wishlist section.
