@@ -11,7 +11,7 @@ SUBTITLE = "Business Plan, Roadmap & Project Management Plan"
 ORG = "Hare Krishna Golden Temple (ISKCON), Banjara Hills, Hyderabad"
 PREPARED_FOR = "Temple management, Production (Prabhu) and DMTT"
 SOURCE_MEETING = "Prasadam Revenue Generation Plan meeting, 26 September 2026"
-VERSION = "v1.0 draft, 26 September 2026"
+VERSION = "v1.2, 21 October 2026"
 
 # Anything marked [ESTIMATE] must be replaced with the 6–12 month order data
 # (action item A4) before it is used to commit money.
@@ -87,7 +87,7 @@ MEETING_INSIGHTS = [
     ("Festival counters evidence", [
         "Janmashtami 2026: almost all prasadam counters sold out; around ₹6 lakh sales. Target: 10 times more.",
         "A family member of the production lead watched the corner stall for four hours; continuous crowds.",
-        "Mahalaya (Pitru Paksha) brings many people for service; last year ~200 lakh-level participation was mentioned. Put sweets and savories stalls there too.",
+        "Mahalaya (Pitru Paksha) brings many people for service; a figure of about 200 lakh was mentioned for last year (the transcript is unclear on what it measured). Put sweets and savories stalls there too.",
         "One stall causes queues of 10–50 people and others walk away; put many stalls in a row.",
         "Place stalls where footfall is: entrance, exit (especially the darshan exit queue), Goshala walking path, staircases, garden, near benches and the waterfall, from Goshala entrance to Samskara hall.",
         "A counter in a garden where people do not gather is of no use; traffic goes out through the exit.",
@@ -141,6 +141,19 @@ MEETING_INSIGHTS = [
         "Tech-platform thinking: Zomato, Swiggy, Zerodha, Amazon own little but scale through technology. Our scale will also come from technology.",
         "Long-term: 100 employees, export to different countries, 100 QSRs.",
         "Other related ideas raised: dairy products and ghee; temple advertising projects; education company in 150 languages; Krishna-conscious games; audio/video in 50 languages (outside this plan's scope but share the same DMTT capability).",
+    ]),
+    ("Smaller details also mentioned", [
+        "About 10 days was mentioned for samples and feasibility on internal-department pricing.",
+        "\"In 65 days we can do it\" was said about getting the vertical moving before the hero campaigns.",
+        "Hero campaigns named: Dasara, Ganesh Chaturthi, New Year, Pitru Paksha, Acharya month and other temple festivals.",
+        "Vasudha is not a competitor; it works on a different platform. Few other temple groups produce sweets and savories at scale.",
+        "Mukunda Dasa recently visited a well-known business that now sells a full range of laddus and products, and brought back samples.",
+        "A visitor with long-running business in Europe offered a connection.",
+        "Companies already pay some vendor for festival gifts; middlemen in purchase departments may take commission, but owners prefer a source they trust.",
+        "Gift boxes can carry the client's branding with a sticker; earlier requests were refused because no facility existed.",
+        "Chinmaya Mission's 50,000-meal enquiry was passed to a professor contact; it should not be lost.",
+        "Google has given the organisation ₹75 lakh in funding for technology products (context for DMTT's capacity).",
+        "Some passages of the transcript are garbled (names, a few numbers); points are recorded as heard.",
     ]),
 ]
 

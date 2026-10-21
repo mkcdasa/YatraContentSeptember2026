@@ -263,5 +263,19 @@ sheet("Business ideas", ["Idea", "Description", "Priority", "Owner", "Test by"],
 sheet("Open questions", ["Question", "Owner", "Answer", "Date"], [(q, "", "", "") for q in C.OPEN_QUESTIONS], [70, 18, 50, 12])
 sheet("Market research", ["Topic", "Finding", "Source", "URL"], C.MARKET_FACTS, [26, 70, 24, 50])
 
+# Print setup so the workbook converts cleanly to PDF (A4 landscape, one page wide)
+for sh in wb.worksheets:
+    sh.page_setup.orientation = "landscape"
+    sh.page_setup.paperSize = sh.PAPERSIZE_A4
+    sh.sheet_properties.pageSetUpPr.fitToPage = True
+    sh.page_setup.fitToWidth = 1
+    sh.page_setup.fitToHeight = 0
+    sh.print_options.gridLines = False
+    sh.oddFooter.center.text = "&A · page &P of &N"
+    if sh.max_row > 1:
+        sh.print_title_rows = "1:1"
+gantt = wb["WBS & Gantt"]
+gantt.print_area = f"A1:K{gantt.max_row}"  # the week grid is too wide to print; the PDFs carry the roadmap chart
+
 wb.save(OUT)
 print(OUT)

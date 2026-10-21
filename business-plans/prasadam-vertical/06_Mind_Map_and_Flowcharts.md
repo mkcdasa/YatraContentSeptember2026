@@ -1,6 +1,6 @@
 # Prasadam, Sweets & Savories Vertical: Mind Map & Flowcharts
 
-Hare Krishna Golden Temple (ISKCON), Banjara Hills, Hyderabad · v1.0 draft, 26 September 2026
+Hare Krishna Golden Temple (ISKCON), Banjara Hills, Hyderabad · v1.2, 21 October 2026
 
 GitHub renders these Mermaid diagrams. The fully detailed, clickable mind map is `03_Mind_Map.html` (open it in any browser).
 

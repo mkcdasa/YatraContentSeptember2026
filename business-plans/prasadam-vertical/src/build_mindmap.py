@@ -155,8 +155,12 @@ for slug, code in zip(SLUGS, [MERMAID_MINDMAP] + [c for _, c in FLOWS]):
 
 
 def svg_for(slug):
-    f = DIAG / f"{slug}.svg"
-    return f.read_text(encoding="utf-8") if f.exists() else None
+    """The pre-rendered diagram as an embedded PNG (renders offline and in print)."""
+    import base64
+    f = DIAG / f"{slug}.png"
+    if not f.exists():
+        return None
+    return f'<img alt="{slug.replace("_", " ")}" style="max-width:100%;height:auto" src="data:image/png;base64,{base64.b64encode(f.read_bytes()).decode()}">'
 
 
 # ---------------------------------------------------------------------------

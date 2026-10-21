@@ -4,11 +4,13 @@ Writes two HTML files (cover + body) next to the diagrams; render_pdf.mjs prints
 them with headless Chromium and merges them into one PDF.
 """
 import html
+from datetime import date
 from pathlib import Path
 
 import content as C
 
 ROOT = Path(__file__).resolve().parent.parent
+AS_OF = date(2026, 10, 21)  # the "today" line on the roadmap; update with each edition
 BUILD = ROOT / "src" / "pdf_build"
 BUILD.mkdir(exist_ok=True)
 E = html.escape
@@ -193,8 +195,8 @@ def chart_roadmap():
         y = 18 + i * 31
         out.append(f'<text x="{L - 8}" y="{y + 16}" class="ax" text-anchor="end">{E(p["name"].split(" – ")[0])}: {E(p["name"].split(" – ")[1])}</text>')
         out.append(f'<rect x="{sx(a):.1f}" y="{y + 4}" width="{max(sx(b) - sx(a) - 2, 4):.1f}" height="18" rx="4" fill="{CAT[0] if i < 2 else CAT[1] if i < 4 else CAT[2]}"/>')
-    x = sx(1.7)
-    out.append(f'<line x1="{x:.0f}" x2="{x:.0f}" y1="10" y2="{H - 24}" stroke="{INK}" stroke-dasharray="3 3"/><text x="{x + 4:.0f}" y="12" class="lg">Today (13 Oct 2026)</text>')
+    x = sx((AS_OF - date(2026, 9, 1)).days / 30.44)
+    out.append(f'<line x1="{x:.0f}" x2="{x:.0f}" y1="10" y2="{H - 24}" stroke="{INK}" stroke-dasharray="3 3"/><text x="{x + 4:.0f}" y="12" class="lg">Today ({AS_OF.day} {AS_OF:%b %Y})</text>')
     return "".join(out) + "</svg>"
 
 
@@ -615,7 +617,7 @@ body {{ margin:0; font-family:'Noto Sans'; }}
 <div class="t">Prasadam, Sweets &amp; Savories<br>A New Revenue Vertical</div>
 <div class="s">Business plan and roadmap for temple leadership and top management<br><span style="font-size:11pt;color:#E9C46A">From the house of Radha Krishna: satvik, pure, no preservatives</span></div>
 <div class="band"></div>
-<div class="m"><b>Prepared for:</b> Temple leadership and top management<br><b>Prepared by:</b> Mukunda Dasa, with DMTT and the production team<br><b>Based on:</b> {E(C.SOURCE_MEETING)}, plus market research<br><b>Version:</b> 1.1 · 13 October 2026</div>
+<div class="m"><b>Prepared for:</b> Temple leadership and top management<br><b>Prepared by:</b> Mukunda Dasa, with DMTT and the production team<br><b>Based on:</b> {E(C.SOURCE_MEETING)}, plus market research<br><b>Version:</b> {E(C.VERSION)}</div>
 <div class="conf">CONFIDENTIAL · FOR INTERNAL DECISION-MAKING · FIGURES MARKED [ESTIMATE] ARE PLANNING ASSUMPTIONS</div>
 </div></body></html>"""
 (BUILD / "cover.html").write_text(cover, encoding="utf-8")

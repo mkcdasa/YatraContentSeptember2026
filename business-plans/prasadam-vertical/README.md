@@ -7,6 +7,10 @@ Hyderabad. It is built from the *Prasadam Revenue Generation Plan* meeting on
 
 | File | What it is |
 | --- | --- |
+| **[Living business plan](https://claude.ai/code/artifact/b1afdda0-456c-4e85-9ff6-d3f67c49028a)** | **The editable, shared version of everything below.** Status and action tracker, decisions with approval dropdowns, risk register with status, roadmap timeline, financial sensitivity chart, all flowcharts, change log |
+| [`07_Complete_Compendium.pdf`](07_Complete_Compendium.pdf) | **Every document in one bookmarked PDF (about 205 pages):** leadership plan, detailed plan, deck, mind map and flowcharts, PM plan, tracker, and the meeting record with the full transcript |
+| [`pdf/`](pdf) | One PDF per deliverable: `01_Business_Plan`, `02_Presentation`, `03_Mind_Map`, `04_Project_Management_Plan`, `05_Project_Tracker`, `06_Meeting_Record` |
+| [`meeting/`](meeting) | The meeting summary and full transcript as received (the 11 MB audio file is not stored in git) |
 | [`00_Leadership_Business_Plan.pdf`](00_Leadership_Business_Plan.pdf) | **For temple leadership and top management (48 pages).** Executive summary, decisions requested with phase-gated funding, market and SWOT, audiences, revenue streams, pricing, go-to-market, operations, governance, roadmap, financials with sensitivity analysis, risk heat map, KPIs, sign-off page, and appendices with everything said in the meeting and all flowcharts |
 | [`01_Business_Plan.docx`](01_Business_Plan.docx) | Full business plan (about 29 pages): everything from the meeting, market research, SWOT, 14 audiences, 14 revenue streams, 16 new ideas, products, pricing, marketing, operations, roadmap, festival calendar, financials, risks, KPIs, diagrams, sources |
 | [`02_Presentation.pptx`](02_Presentation.pptx) | 26-slide deck for the decision meeting |
@@ -39,6 +43,12 @@ To rebuild the leadership PDF (needs Node with Playwright and the Noto fonts):
 
 ```bash
 PLAYWRIGHT_MODULE=<path to playwright/index.mjs> CHROME=<path to chromium> python3 src/build_pdf.py
+```
+
+To rebuild the per-document PDFs and the compendium (needs LibreOffice too):
+
+```bash
+PLAYWRIGHT_MODULE=<path to playwright/index.mjs> CHROME=<path to chromium> python3 src/build_pdfs.py
 ```
 
 To re-render the diagram images after you change a flowchart, install
