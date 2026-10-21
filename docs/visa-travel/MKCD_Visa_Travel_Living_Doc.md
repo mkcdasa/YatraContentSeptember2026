@@ -17,8 +17,8 @@
 ## 2. Top actions
 
 - **Passport expires 17 Sep 2028** - Most countries need 6 months validity -> practical last safe travel date ~17 Mar 2028. Start renewal ~Sep 2027. Passports issued in India are e-passports since 28 May 2025. Keep old passport: US & Australia visas stay valid but must be carried; tell Australia Home Affairs new passport number (ImmiAccount).
-- **Schengen: no valid visa** - Both France visas expired (Apr 2026). You now have 2 lawful visas in 3 years -> eligible for the EU 'cascade' 2-year multiple-entry visa. Apply 3 months before the next Europe yatra.
-- **UK: no valid visa** - UK visa expired 29 Dec 2024. Apply 3-4 weeks ahead; consider a 2-year or 5-year Standard Visitor visa if you will return often.
+- **Schengen: no valid visa - #1 PRIORITY** - Both France visas expired (Apr 2026). With 2 lawful Schengen visas in 3 years you qualify for the EU cascade 2-year MEV; a 5-year MEV needs >=5.5 yrs passport validity (yours ends Sep 2028) -> renew passport first if you want the 5-year. Schengen MEV is the single biggest reach gain (~65 destinations). Ask for a German- or Swiss-issued visa if Singapore 96-h transit matters.
+- **UK: no valid visa - #2** - UK visa expired 29 Dec 2024. Fees from 8 Apr 2026: GBP 135 (6-mo), 506 (2-yr), 903 (5-yr), 1,128 (10-yr). Long-validity visa recommended; it also covers Ireland (BIVS - enter UK first). Gibraltar via UK visa ended 15 Jul 2026.
 - **Australia: confirm stream** - Visa is Business Visitor stream (condition 8115). A pilgrimage yatra with devotees may count as tourism - confirm whether to apply for a Tourist-stream visa.
 - **Malaysia visa-free ends 31 Dec 2026** - Get visa/e-visa for any 2027 Malaysia yatra unless extended.
 - **Thailand now 30 days (from 15 Sep 2026, reported)** - Plan group stays accordingly; complete TDAC before arrival.
@@ -100,22 +100,22 @@
 | 1 | Mexico | US | Visa exempt; up to 180 d | US: plain | Researched |
 | 2 | Costa Rica | US | Visa exempt; ~30-90 d | US: multiple-entry; valid on entry | Researched |
 | 3 | Panama | US+AU | Visa exempt; 30 d | US: used once; >=1 yr validity left; AU: used once; >=1 yr left | Researched |
-| 4 | Belize | US | VoA / exempt; 90 d (Schengen) | US: multiple-entry | Researched |
-| 5 | Guatemala | US | Visa exempt; 90 d | US: plain | Confirm |
-| 6 | Honduras | US | Visa exempt; 90 d | US: plain | Researched |
-| 7 | Dominican Republic | US | Tourist card on arrival (~US$10); ~30 d | US: multiple-entry, in passport | Researched |
-| 8 | Colombia | US | Visa exempt; 90 d | US: not C1; >=180 d validity left | Researched |
-| 9 | Peru | US+AU | Visa exempt; up to 180 d / 365 | US: >=6 mo validity left; AU: >=6 mo validity left | Researched |
-| 10 | Chile | US | Visa exempt; - | US: not transit C; >=6 mo validity | Researched |
-| 11 | Argentina | US | Visa-free tourism (Res. 353/2025); 90 d (one notice: 30 d) | US: B2 etc.; insurance required | Researched |
-| 12 | Aruba / Curacao / Bonaire / Sint Maarten | US | Visa exempt; ~30 d | US: multiple-entry only | Researched |
-| 13 | Bahamas | US | VoA; up to 3 mo | US: plain | Researched |
-| 14 | Antigua & Barbuda | US | VoA (US$100); 30 d | US: plain | Researched |
-| 15 | Albania | US | Visa exempt; 90 d | US: multi-entry, used once | Researched |
-| 16 | Montenegro | US+AU | Visa exempt; 30 d | US: plain; AU: plain | Researched |
-| 17 | Serbia | US | Visa exempt; 90 d / 180 | US: plain | Researched |
-| 18 | North Macedonia | US | Visa exempt; 15 d | US: visa physically in passport | Researched |
-| 19 | Bosnia & Herzegovina | US | Visa exempt; up to 6 mo (your old sheet said 30 d) | US: multi-entry | Researched |
+| 4 | Belize | US | Visa-free (Schengen) / VoA (US, CA); 90 d | US: multiple-entry -> VoA | Researched |
+| 5 | Guatemala | US | Visa exempt (CA-4 shared 90 d); 90 d | US: plain | Researched |
+| 6 | Honduras | US | Visa exempt (CA-4); 90 d | US: plain | Researched |
+| 7 | El Salvador | US | Visa exempt (CA-4); up to 180 d | US: valid US visa (single aggregator source) | Confirm |
+| 8 | Dominican Republic | US | Tourist card on arrival (~US$10); ~30 d | US: multiple-entry, in passport | Researched |
+| 9 | Colombia | US | Visa exempt; 90 d | US: not C1; >=180 d validity left | Researched |
+| 10 | Peru | US+AU | Visa exempt; up to 180 d / 365 | US: >=6 mo validity left; AU: >=6 mo validity left | Researched |
+| 11 | Chile | US | Visa exempt; - | US: not transit C; >=6 mo validity | Researched |
+| 12 | Argentina | US | Visa-free tourism (Res. 353/2025); 90 d (one notice: 30 d) | US: B2 etc.; insurance required | Researched |
+| 13 | Aruba / Curacao / Bonaire / Sint Maarten | US | Visa exempt; ~30 d | US: multiple-entry only | Researched |
+| 14 | Bahamas | US | Visa-free; 90 d | US: plain | Researched |
+| 15 | Antigua & Barbuda | US | VoA (US$100); 30 d | US: plain | Researched |
+| 16 | Albania | US | Visa exempt; 90 d | US: multi-entry, used once | Researched |
+| 17 | Montenegro | US+AU | Visa exempt; 30 d | US: plain; AU: plain | Researched |
+| 18 | Serbia | US | Visa exempt; 90 d / 180 | US: plain | Researched |
+| 19 | North Macedonia | US | Visa exempt; 15 d | US: visa physically in passport | Researched |
 | 20 | Georgia | US+AU | Visa exempt; 90 d / 180 | US: plain; AU: plain | Researched |
 | 21 | Moldova | US | Visa exempt; 90 d | US: not transit | Researched |
 | 22 | Armenia | US+AU | VoA; 90 d | US: plain; AU: plain | Researched |
@@ -125,28 +125,91 @@
 | 26 | Oman | US+AU | VoA / exempt; 14 d | US: plain; AU: plain | Researched |
 | 27 | Saudi Arabia | US | eVisa / VoA; up to 90 d | US: may need used-once | Researched |
 | 28 | Bahrain | US | VoA / eVisa; 14 d | US: visit visa/Green Card | Researched |
-| 29 | Kuwait | US | eVisa eligibility; - | US: plain | Researched |
-| 30 | Philippines | US+AU | Visa-free; 30 d (vs 14 d normally) | US: plain; AU: plain | Researched |
-| 31 | Taiwan | US+AU | Travel Authorization Certificate; 14 d (old 30 d outdated) | US: even if expired <10 yrs; AU: plain | Researched |
-| 32 | South Korea (transit) | US+AU | Visa-free B-2 transit; up to 30 d, onward ticket | US: plain; AU: checked via VEVO | Researched |
-| 33 | Singapore (transit) | US+AU | 96-hr visa-free transit; 96 h | US: >=1 mo validity; AU: plain | Researched |
+| 29 | Kuwait | US | eVisa (KWD 3); 30 d | US: tourist visa >=6 mo validity | Confirm |
+| 30 | Egypt | US | VoA (~US$25); 30 d | US: visa must be USED | Researched |
+| 31 | Bermuda | US | Visa-free; up to 180 d/yr | US: >=45 d validity beyond departure | Researched |
+| 32 | Cayman Islands | US | Visa-free; 30 d | US: arriving DIRECT from that country | Researched |
+| 33 | Turks & Caicos | US | Visa-free; 30-90 d | US: plain | Researched |
+| 34 | Anguilla | US | Visa-free; - | US: plain | Researched |
+| 35 | Kosovo | US+AU | Visa exempt; 15 d | US: plain; AU: plain | Confirm |
+| 36 | Kyrgyzstan | US | Visa-free (Manas airport); 7 d | US: visa valid >3 yrs | Confirm |
+| 37 | Qatar (Hayya A3) | US+AU | Pre-arrival ETA QAR 100; 30 d | US: plain; AU: plain | Researched |
+| 38 | Philippines | US+AU | Visa-free; 30 d (vs 14 d normally) | US: plain; AU: plain | Researched |
+| 39 | Taiwan | US+AU | Travel Authorization Certificate; 14 d (old 30 d outdated) | US: even if expired <10 yrs; AU: plain | Researched |
+| 40 | South Korea (transit) | US+AU | Visa-free B-2 transit; up to 30 d, onward ticket | US: plain; AU: checked via VEVO | Researched |
+| 41 | Singapore (transit) | US+AU | 96-hr visa-free transit (VFTF); 96 h | US: >=1 mo validity; AU: plain | Researched |
 
-*Total: 33 rows*
+*Total: 41 rows*
 
-## 7. Power visas
+## 7. Power visas - ranked strategy (deep research 21 Oct 2026)
 
-| # | Rank | Document | Held | Extra destinations | + Schengen | Total |
-|---|---|---|---|---|---|---|
-| 1 | 1 | USA B1/B2 visa | Yes | 33 | 0 | 33 |
-| 2 | 2 | Schengen C visa (multi-entry) | No | 30 | 29 | 59 |
-| 3 | 3 | UK Standard Visitor visa | No | 24 | 0 | 24 |
-| 4 | 4 | Australia Visitor visa | Yes | 11 | 0 | 11 |
-| 5 | 5 | Canada visitor visa (TRV) | No | 22 | 0 | 22 |
-| 6 | 6 | Japan visa | No | 9 | 0 | 9 |
+Baseline: Indian passport alone = **55 destinations** without a prior visa (Henley 84th (Henley Passport Index, 9 Oct 2026)). 'Unique vs US' = what the document adds beyond the US visa you already hold.
 
-*Total: 6 rows*
+| # | Document | Status | 3rd-country unlocks | Overlap w/ US | UNIQUE vs US | Own territory | Cost / validity | Verdict |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Schengen C multiple-entry (2-yr -> 5-yr via EU cascade) | EXPIRED Apr 2026 | ~36 | 28 | 8 (Albania via Schengen route, Bosnia, Cyprus, Gibraltar, Belize visa-free, Belarus, Kyrgyzstan, Singapore VFTF via DE/CH) | 29 Schengen states + Monaco, San Marino, Vatican, Andorra | EUR 90 fee; 2-yr MEV now (you have 2 used visas in 3 yrs), then 5-yr if passport has >=5.5 yrs validity -> renew passport FIRST, then apply for 5-yr | APPLY FIRST. Biggest single reach gain: ~65 destinations |
+| 2 | USA B1/B2 (10-yr) | HELD to Dec 2034 - used once | ~33 (22-42 by source) | - | - | USA | - | Keep; carry the passport that holds it after renewal |
+| 3 | UK Standard Visitor (2-yr / 5-yr / 10-yr) | EXPIRED Dec 2024 | ~31 (+5 Caribbean BOTs) | 26 | Ireland (BIVS - must enter UK first); Albania via UK route | UK + Ireland | GBP 135 (6-mo) / 506 (2-yr) / 903 (5-yr) / 1,128 (10-yr) from 8 Apr 2026. No ETA for Indians | APPLY SECOND - needed for every UK yatra anyway; take 2-yr or 5-yr. Gibraltar via UK visa ENDED 15 Jul 2026 |
+| 4 | Australia Visitor 600 | HELD to Nov 2030 (Business Visitor stream) | ~11 | 11 | 0 | Australia | Check Tourist-stream for pilgrimage | Keep; no third-country value beyond US visa |
+| 5 | Canada TRV (up to 10-yr) | Not held | ~27 | 27 | 0 | Canada (+ Niagara Canadian side) | CAD 100 + CAD 85 biometrics; validity to passport expiry; India NOT eTA-eligible | Only if a Canada yatra is planned (ISKCON Toronto/Vancouver/Montreal) |
+| 6 | Japan 5-yr multiple-entry | Not held | ~10 | 10 | 0 | Japan (90 d/visit) | Rs 500 via VFS; needs 2 Japan visits in 3 yrs or financial proof | Only if a Japan yatra is planned |
+| 7 | China visa + Tibet permits | Per trip | 0 | - | - | China / Tibet | Group visa via operator ~6 working days + TTP + ATP | Per Kailash trip only (done Jun 2026) |
+| 8 | Saudi eVisa/VoA (via used US visa) | Eligible now | 0 | - | - | Saudi Arabia (Umrah possible with Nusuk) | SAR 440, 1-yr multiple, <=90 d | Use when needed; no separate application |
 
-**US**: HELD. Best value overall; valid to 2034.; **SCH**: EXPIRED. Renew first - you qualify for the EU 2-year multi-entry cascade visa. 29 Schengen states + extras.; **UK**: EXPIRED. Renew; ask for a longer-validity visa. Unlocks Ireland (BIVS) and ~20 more.; **AU**: HELD. Narrow value (11 places); check stream.; **CA**: Not held. Mostly duplicates what the US visa gives.; **JP**: Not held. Low priority.
+*Total: 8 rows*
+
+**Recommended stack:** USA (have) + Schengen 5-yr + UK 5-yr = ~95 destinations without a per-trip visa, plus the 55 baseline. Order: renew passport (for 5-yr Schengen) -> Schengen MEV -> UK long-validity. Canada/Japan only when a yatra there is planned.
+
+
+### Other multi-country visas (status Oct 2026)
+
+| # | Visa / scheme | Covers / status | Yatra relevance | Priority | Conf. |
+|---|---|---|---|---|---|
+| 1 | Schengen 2-yr -> 5-yr MEV (EU cascade, C(2024)2434) | 29 Schengen states + Monaco/San Marino/Vatican/Andorra + ~36 third-country unlocks (8 that the US visa does NOT give: Albania*, Bosnia, Cyprus, Gibraltar, Belize visa-free, Belarus, Kyrgyzstan, Singapore VFTF via DE/CH) | All Europe yatras; Balkans extension | #1 PRIORITY - apply now (2 used visas in 3 yrs = eligible for 2-yr) | V |
+| 2 | UK Standard Visitor 2-yr/5-yr/10-yr | UK + Ireland (BIVS - enter UK first) + ~31 unlocks (26 overlap US). Fees from 8 Apr 2026: 6-mo GBP135, 2-yr GBP506, 5-yr GBP903, 10-yr GBP1,128 | Bhaktivedanta Manor, Ireland (Inis Rath), London yatras | #2 - get 2-yr or 5-yr before next UK yatra | V |
+| 3 | Chinese visa + Tibet Travel Permit | Mainland China; Kailash via Nepal needs group visa + TTP + ATP. India NOT in China's 2025-26 visa-free / 240-h transit / Hainan lists | Kailash (done Jun 2026), Buddhist circuit | Per-trip only | V |
+| 4 | GCC unified 'Grand Tours' visa (6 Gulf states) | NOT launched (GCC says 'soon'; UAE-Bahrain pilot by end-2026). Fee ~US$100-150, 30-90 d; Indian eligibility unpublished | Gulf transit/yatra | Watch | U |
+| 5 | East Africa Tourist Visa (Kenya-Uganda-Rwanda) | US$100, 90 d multi-entry via Uganda/Rwanda portal. Rwanda already visa-free for Indians, Kenya eTA US$32.50 -> saves only Uganda's US$50 | Nairobi/Kampala ISKCON | Low | V |
+| 6 | KAZA UniVisa (Zambia-Zimbabwe) | US$50, 30 d - but Indian eligibility NOT on published lists; use Zambia eVisa + Zimbabwe VoA | Victoria Falls | Low | U |
+| 7 | Japan 5-yr multiple-entry visa | Japan itself (90 d/visit). Third-country unlocks (~10) all overlap US visa. Fee Rs 500 via VFS; needs 2 prior Japan visits in 3 yrs or financial proof | Japan yatra only | Only if Japan is planned | V |
+| 8 | Canada TRV (up to 10 yrs, CAD 100 + 85 biometrics) | Canada itself. All ~27 third-country unlocks overlap US visa. NO eTA for Indians even with US visa | ISKCON Toronto/Vancouver/Montreal, Niagara (Canadian side) | Only if Canada is planned | V |
+| 9 | US Green Card (for comparison) | Everything US visa gives + Canada (no visa), Argentina, Armenia, Chile | n/a | n/a | V |
+| 10 | South Korea C-3-2 group visa (fee waiver ~US$15) | Via designated agencies, extended to 31 Dec 2026; Jeju visa-free | Korea yatra | If planned | V |
+| 11 | Russia unified e-Visa (16 d) | India-Russia group visa-free (5-50 pax) still NOT in force | ISKCON Moscow | Per-trip | V |
+| 12 | Saudi eVisa/VoA via used US/UK/Schengen visa | SAR 440, 1-yr multiple, <=90 d; tourist eVisa holders may do Umrah with Nusuk permit; first-time VoA may need Saudi carrier | Transit/Jeddah | You already qualify (US visa used) | V |
+
+*Total: 12 rows*
+
+### Commonly repeated claims that are wrong
+
+- UK visa gets Indians into Gibraltar - ended 15 Jul 2026
+- US visa gives eTA for Canada - not for Indian passports
+- Indians are visa-free in Serbia - ended Jan 2023
+- Japan MEV = 3 yrs/15 days - now 5 yrs/90 days
+- Nicaragua VoA with US visa - prior approval since 16 Feb 2026
+- Any Schengen visa works for Singapore 96-h transit - only German/Swiss-issued
+- Egypt VoA with valid US/Schengen visa - must be USED
+- Korea transit with Japan visa - no
+- Indians need Hayya for Qatar - 30-day free waiver on arrival exists
+- Australian VISITOR visa gives UAE VoA - only residence permits
+- Bosnia accepts US visa - no
+- Brazil e-visa for Indians - no
+
+### 7b. Indian passport baseline (55)
+
+| # | Region | Destinations |
+|---|---|---|
+| 1 | South Asia | Bhutan (VF), Nepal (VF), Maldives (VoA), Sri Lanka (free ETA) |
+| 2 | SE / E Asia | Malaysia (VF to 31 Dec 2026), Thailand (VF 30 d from 15 Sep 2026), Philippines (VF 14 d; 30 d with US/AU visa), Macao (VF 30 d), Cambodia, Indonesia, Laos, Myanmar, Timor-Leste (VoA/eVoA), Mongolia (VoA) |
+| 3 | Central Asia | Kazakhstan (VF 14 d); Uzbekistan 30 d announced Aug 2026 - not yet in force |
+| 4 | Middle East | Qatar (VF 30 d on arrival), Jordan (VoA) |
+| 5 | Africa | Angola, Mauritius, Rwanda, Senegal, The Gambia (VF); Burundi, Comoros, Djibouti, Ethiopia, Guinea-Bissau, Madagascar, Mozambique, Sierra Leone, Tanzania, Zimbabwe (VoA); Kenya, Seychelles (ETA) |
+| 6 | Caribbean | Barbados, Dominica, Grenada, Haiti, Jamaica, St Vincent, Trinidad & Tobago, Montserrat, British Virgin Is. (VF); St Lucia (VoA); St Kitts & Nevis (ETA); Turks & Caicos (VF per Wikipedia) |
+| 7 | Oceania | Cook Is., Fiji, Kiribati, Micronesia, Vanuatu (VF); Marshall Is., Niue, Palau, Samoa, Tuvalu (VoA) |
+
+*Total: 7 rows*
+
+Changes 2025-26: Iran visa-waiver SUSPENDED 22 Nov 2025; Thailand 60 d -> 30 d from 15 Sep 2026 (TDAC required); Malaysia VF ends 31 Dec 2026 unless extended; Sri Lanka ETA now free (apply online); Nicaragua & Bolivia VoA removed 2026; Cape Verde VoA removed Jan 2026; The Gambia visa-free added Feb 2026; Brazil: visa required (VIVIS up to 10-yr); 'Brazil e-visa for Indians' claims are wrong; China: India NOT in 2025-26 visa-free, 240-h transit or Hainan lists.
 
 ## 8. Yatra destinations - entry rules for an Indian passport
 
@@ -1320,3 +1383,4 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 ## Change log
 - 20 Oct 2026 - v1 created.
 - 21 Oct 2026 - Added Schengen countries (BE, NL, DE, CH, IT, Vatican) to Jul 2024 trip; added Yatra Wishlist section; added Places Visited master list from the Europe+London itinerary and inferred per-country dates; added World Checklist (414 places, ~75 countries).
+- 21 Oct 2026 - Deep research on power visas: ranked strategy, Indian passport baseline (55), Access Map corrections (Gibraltar, Bosnia, Egypt, Caribbean BOTs, Singapore DE/CH rule, Kuwait, Kosovo, Belarus, Kyrgyzstan, El Salvador).
