@@ -400,983 +400,2054 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 *Total: 102 rows*
 
-## 12. World Checklist - important places by Country > State > City
+## 12. World Checklist - tick what you have visited
 
-Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (confirm); blank = not yet.
+Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub renders them). *(Likely)* = seen in your yatra dashboards - please confirm. Grouped Country > State/region > City.
 
 
 ### India
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Andhra Pradesh | Tirupati | Tirumala Sri Venkateswara Temple (Balaji) | Temple | Likely |
-| 2 | Andhra Pradesh | Tirupati | Sri Padmavathi Temple, Tiruchanur | Temple | Likely |
-| 3 | Andhra Pradesh | Srikalahasti | Srikalahasteeswara (Vayu linga) | Temple |  |
-| 4 | Andhra Pradesh | Ahobilam | Nava Narasimha kshetras | Temple |  |
-| 5 | Andhra Pradesh | Srisailam | Mallikarjuna Jyotirlinga & Bhramaramba | Temple |  |
-| 6 | Andhra Pradesh | Simhachalam | Varaha Lakshmi Narasimha Temple | Temple |  |
-| 7 | Andhra Pradesh | Lepakshi | Veerabhadra Temple (hanging pillar) | Monument |  |
-| 8 | Andhra Pradesh | Amaravati | Amaravati Stupa & Dhyana Buddha | Monument |  |
-| 9 | Andhra Pradesh | Mantralayam | Raghavendra Swamy Mutt | Temple |  |
-| 10 | Telangana | Hyderabad | Hare Krishna Golden Temple, Banjara Hills (home) | ISKCON | Yes |
-| 11 | Telangana | Hyderabad | Charminar & Mecca Masjid | Monument |  |
-| 12 | Telangana | Hyderabad | Golconda Fort & Qutb Shahi Tombs | Monument |  |
-| 13 | Telangana | Hyderabad | Salar Jung Museum | Museum |  |
-| 14 | Telangana | Hyderabad | Birla Mandir & Chilkur Balaji | Temple |  |
-| 15 | Telangana | Yadadri | Yadagirigutta Lakshmi Narasimha Temple | Temple |  |
-| 16 | Telangana | Bhadrachalam | Sita Ramachandraswamy Temple | Temple |  |
-| 17 | Telangana | Warangal | Thousand Pillar Temple & Warangal Fort | Monument |  |
-| 18 | Telangana | Mulugu | Ramappa (Rudreshwara) Temple - UNESCO | UNESCO |  |
-| 19 | Telangana | Basar | Gnana Saraswati Temple | Temple |  |
-| 20 | Karnataka | Bengaluru | ISKCON Sri Radha Krishna Temple, Rajajinagar | ISKCON | Yes |
-| 21 | Karnataka | Bengaluru | Vaikuntha Hill (ISKCON Vasanthapura) | ISKCON |  |
-| 22 | Karnataka | Bengaluru | Bull Temple, Lalbagh, Vidhana Soudha | Monument |  |
-| 23 | Karnataka | Mysuru | Mysore Palace & Dasara (Jamboo Savari) | Festival |  |
-| 24 | Karnataka | Mysuru | Chamundeshwari Temple, Chamundi Hill | Temple | Likely |
-| 25 | Karnataka | Mysuru | ISKCON Mysore | ISKCON | Likely |
-| 26 | Karnataka | Srirangapatna | Ranganathaswamy Temple | Temple |  |
-| 27 | Karnataka | Melukote | Cheluvanarayana & Yoga Narasimha | Temple |  |
-| 28 | Karnataka | Hampi | Hampi (Vijayanagara) - Virupaksha, Vittala stone chariot - UNESCO | UNESCO |  |
-| 29 | Karnataka | Pattadakal / Badami / Aihole | Chalukya temples & cave temples - UNESCO | UNESCO |  |
-| 30 | Karnataka | Belur & Halebidu | Hoysala temples (Chennakeshava, Hoysaleswara) - UNESCO | UNESCO | Likely |
-| 31 | Karnataka | Somanathapura | Keshava Temple - UNESCO (Hoysala) | UNESCO |  |
-| 32 | Karnataka | Shravanabelagola | Gomateshwara (Bahubali) statue | Monument |  |
-| 33 | Karnataka | Udupi | Sri Krishna Matha (Kanakana Kindi) | Temple |  |
-| 34 | Karnataka | Kollur / Dharmasthala / Kukke | Mookambika, Manjunatha, Subrahmanya | Temple |  |
-| 35 | Karnataka | Gokarna | Mahabaleshwar Temple (Atmalinga) | Temple |  |
-| 36 | Karnataka | Murudeshwar | Giant Shiva statue & temple | Temple |  |
-| 37 | Karnataka | Coorg | Talakaveri, Bylakuppe Golden Temple | Nature | Likely |
-| 38 | Karnataka | Chikkamagaluru | Sringeri Sharada Peetham, Horanadu | Temple | Likely |
-| 39 | Karnataka | Yana | Yana caves | Nature | Likely |
-| 40 | Karnataka | Bijapur (Vijayapura) | Gol Gumbaz | Monument |  |
-| 41 | Tamil Nadu | Chennai | ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy | Temple |  |
-| 42 | Tamil Nadu | Mahabalipuram | Shore Temple, Pancha Rathas - UNESCO | UNESCO |  |
-| 43 | Tamil Nadu | Kanchipuram | Varadaraja Perumal, Ekambareswarar, Kamakshi | Temple |  |
-| 44 | Tamil Nadu | Srirangam | Sri Ranganathaswamy Temple (largest functioning temple) | Temple | Yes |
-| 45 | Tamil Nadu | Thanjavur | Brihadeeswara Temple - UNESCO (Great Living Chola Temples) | UNESCO |  |
-| 46 | Tamil Nadu | Gangaikonda Cholapuram / Darasuram | Chola temples - UNESCO | UNESCO |  |
-| 47 | Tamil Nadu | Chidambaram | Nataraja Temple | Temple |  |
-| 48 | Tamil Nadu | Madurai | Meenakshi Amman Temple | Temple |  |
-| 49 | Tamil Nadu | Rameswaram | Ramanathaswamy Temple & Dhanushkodi | Temple |  |
-| 50 | Tamil Nadu | Kanyakumari | Vivekananda Rock, Thiruvalluvar statue, Devi temple | Monument |  |
-| 51 | Tamil Nadu | Tiruvannamalai | Arunachaleswarar & Girivalam | Temple |  |
-| 52 | Tamil Nadu | Tirunelveli / Thiruchendur | Nellaiappar, Murugan (Arupadai veedu) | Temple |  |
-| 53 | Tamil Nadu | Ooty / Kodaikanal | Nilgiri Mountain Railway - UNESCO | UNESCO |  |
-| 54 | Kerala | Guruvayur | Guruvayur Sri Krishna Temple | Temple |  |
-| 55 | Kerala | Thiruvananthapuram | Sree Padmanabhaswamy Temple | Temple |  |
-| 56 | Kerala | Sabarimala | Ayyappa Temple | Temple |  |
-| 57 | Kerala | Kochi | Fort Kochi, Mattancherry, Chottanikkara | Monument |  |
-| 58 | Kerala | Alappuzha / Kumarakom | Backwaters houseboat | Nature |  |
-| 59 | Kerala | Thrissur | Vadakkunnathan & Thrissur Pooram | Festival |  |
-| 60 | Kerala | Ambalappuzha / Aranmula | Sri Krishna temples | Temple |  |
-| 61 | Kerala | Munnar | Tea gardens, Eravikulam | Nature |  |
-| 62 | Kerala | Kollam / Kanyakumari border | Suchindram | Temple |  |
-| 63 | Maharashtra | Mumbai | ISKCON Juhu (Prabhupada samadhi) & Chowpatty | ISKCON |  |
-| 64 | Maharashtra | Mumbai | Gateway of India, Elephanta Caves - UNESCO, CST - UNESCO | UNESCO |  |
-| 65 | Maharashtra | Mumbai | Siddhivinayak, Mahalakshmi, Babulnath, Mumba Devi | Temple |  |
-| 66 | Maharashtra | Mumbai | NMACC & Jio World Centre (BKC) | Modern |  |
-| 67 | Maharashtra | Pune | ISKCON NVCC Katraj; Dagdusheth Ganapati | ISKCON |  |
-| 68 | Maharashtra | Alandi / Dehu / Pandharpur | Dnyaneshwar, Tukaram, Vitthal-Rukmini (Ashadhi Ekadashi) | Temple |  |
-| 69 | Maharashtra | Aurangabad | Ajanta & Ellora caves (Kailasa temple) - UNESCO | UNESCO |  |
-| 70 | Maharashtra | Nashik / Trimbakeshwar | Panchavati, Trimbakeshwar Jyotirlinga, Kumbh | Temple |  |
-| 71 | Maharashtra | Shirdi / Shani Shingnapur | Sai Baba samadhi | Temple |  |
-| 72 | Maharashtra | Jyotirlingas | Bhimashankar, Grishneshwar, Aundha Nagnath, Parli Vaijnath | Temple |  |
-| 73 | Maharashtra | Kolhapur / Tuljapur | Mahalakshmi, Tulja Bhavani | Temple |  |
-| 74 | Goa | Goa | Basilica of Bom Jesus & Old Goa churches - UNESCO; Mangeshi | UNESCO |  |
-| 75 | Gujarat | Dwarka | Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga | Temple | Likely |
-| 76 | Gujarat | Somnath | Somnath Jyotirlinga, Bhalka Tirth, Prabhas Patan | Temple | Likely |
-| 77 | Gujarat | Ahmedabad | ISKCON Ahmedabad; Sabarmati Ashram; Adalaj stepwell; UNESCO city | UNESCO |  |
-| 78 | Gujarat | Patan | Rani ki Vav - UNESCO | UNESCO |  |
-| 79 | Gujarat | Kevadia | Statue of Unity | Modern |  |
-| 80 | Gujarat | Dholavira | Harappan city - UNESCO | UNESCO |  |
-| 81 | Gujarat | Champaner-Pavagadh | Archaeological park - UNESCO; Kalika Mata | UNESCO |  |
-| 82 | Gujarat | Ambaji / Modhera / Dakor | Shakti peetha; Sun Temple; Ranchhodrai | Temple |  |
-| 83 | Rajasthan | Jaipur | Amber Fort, Hawa Mahal, Jantar Mantar - UNESCO, Govind Dev Ji | Monument |  |
-| 84 | Rajasthan | Nathdwara | Shrinathji Haveli | Temple |  |
-| 85 | Rajasthan | Udaipur | City Palace, Lake Pichola, Eklingji | Monument |  |
-| 86 | Rajasthan | Pushkar / Ajmer | Brahma Temple, Pushkar lake, Dargah | Temple |  |
-| 87 | Rajasthan | Jodhpur / Jaisalmer | Mehrangarh Fort; Jaisalmer Fort - UNESCO | UNESCO |  |
-| 88 | Rajasthan | Chittorgarh / Kumbhalgarh / Ranthambore | Hill Forts of Rajasthan - UNESCO; tiger reserve | UNESCO |  |
-| 89 | Rajasthan | Mount Abu | Dilwara Jain temples | Temple |  |
-| 90 | Rajasthan | Khatu / Salasar | Khatu Shyamji, Salasar Balaji | Temple |  |
-| 91 | Delhi | New Delhi | ISKCON East of Kailash (Glory of India) & Punjabi Bagh | ISKCON |  |
-| 92 | Delhi | Delhi | Red Fort, Qutub Minar, Humayun's Tomb - UNESCO | UNESCO |  |
-| 93 | Delhi | Delhi | Akshardham, Lotus Temple, India Gate, Birla Mandir | Monument |  |
-| 94 | Uttar Pradesh | Vrindavan | ISKCON Krishna Balaram Mandir & Prabhupada Samadhi | ISKCON | Likely |
-| 95 | Uttar Pradesh | Vrindavan | Banke Bihari, Radha Raman, Radha Damodar, Prem Mandir, Seva Kunj, Nidhivan | Temple | Likely |
-| 96 | Uttar Pradesh | Mathura | Krishna Janmabhoomi, Vishram Ghat, Dwarkadhish | Temple | Likely |
-| 97 | Uttar Pradesh | Govardhan | Govardhan parikrama, Radha Kund, Kusum Sarovar | Temple | Likely |
-| 98 | Uttar Pradesh | Barsana / Nandgaon | Radha Rani Temple, Nand Bhavan | Temple | Likely |
-| 99 | Uttar Pradesh | Ayodhya | Ram Mandir (Ram Lalla), Hanuman Garhi, Kanak Bhavan, Saryu | Temple | Likely |
-| 100 | Uttar Pradesh | Varanasi (Kashi) | Kashi Vishwanath & corridor, Ganga aarti, Sarnath | Temple | Likely |
-| 101 | Uttar Pradesh | Prayagraj | Triveni Sangam, Maha Kumbh (2025), Hanuman Mandir | Festival | Likely |
-| 102 | Uttar Pradesh | Naimisharanya | Chakra Tirth, Vyasa Gaddi | Temple | Likely |
-| 103 | Uttar Pradesh | Agra | Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO | UNESCO |  |
-| 104 | Uttar Pradesh | Lucknow | Bara Imambara, Rumi Darwaza | Monument | Likely |
-| 105 | Uttar Pradesh | Chitrakoot | Kamadgiri, Ram Ghat | Temple |  |
-| 106 | Uttarakhand | Char Dham | Yamunotri, Gangotri, Kedarnath, Badrinath | Temple | Yes |
-| 107 | Uttarakhand | Rishikesh / Haridwar | Ganga aarti, Har ki Pauri, Laxman Jhula, ISKCON Rishikesh | Temple | Yes |
-| 108 | Uttarakhand | Dehradun / Mussoorie | Base for Char Dham | Nature | Yes |
-| 109 | Uttarakhand | Hemkund / Valley of Flowers | Valley of Flowers - UNESCO | UNESCO |  |
-| 110 | Uttarakhand | Panch Kedar / Panch Badri | Tungnath, Madhyamaheshwar, Rudranath, Kalpeshwar; Adi Badri etc. | Temple |  |
-| 111 | Uttarakhand | Jim Corbett | Corbett National Park | Nature |  |
-| 112 | Himachal Pradesh | Manali / Kullu | Hadimba, Vashisht, Rohtang / Atal tunnel | Nature |  |
-| 113 | Himachal Pradesh | Dharamshala | McLeod Ganj, Dalai Lama temple | Monument |  |
-| 114 | Himachal Pradesh | Shimla | Kalka-Shimla railway - UNESCO, Jakhoo | UNESCO |  |
-| 115 | Himachal Pradesh | Kangra / Chamunda / Jwalamukhi / Naina Devi | Shakti peethas | Temple |  |
-| 116 | Himachal Pradesh | Spiti | Key Monastery, Tabo | Monument |  |
-| 117 | Jammu & Kashmir | Katra | Vaishno Devi | Temple |  |
-| 118 | Jammu & Kashmir | Pahalgam / Baltal | Amarnath cave | Temple |  |
-| 119 | Jammu & Kashmir | Srinagar | Dal Lake, Shankaracharya temple, Mughal gardens, Kheer Bhawani | Nature |  |
-| 120 | Ladakh | Leh | Pangong, Nubra, Hemis, Thiksey, Khardung La | Nature |  |
-| 121 | Punjab | Amritsar | Golden Temple, Jallianwala Bagh, Wagah border | Temple |  |
-| 122 | Punjab | Anandpur Sahib | Takht Kesgarh Sahib | Temple |  |
-| 123 | Haryana | Kurukshetra | Brahma Sarovar, Jyotisar (Gita sthal), ISKCON Kurukshetra | Temple | Likely |
-| 124 | Madhya Pradesh | Ujjain | Mahakaleshwar Jyotirlinga & Mahakal Lok; Kal Bhairav; Sandipani Ashram; Simhastha 2028 | Temple |  |
-| 125 | Madhya Pradesh | Omkareshwar | Omkareshwar Jyotirlinga & parikrama | Temple |  |
-| 126 | Madhya Pradesh | Indore | Khajrana Ganesh, ISKCON Indore, Rajwada | Temple |  |
-| 127 | Madhya Pradesh | Maheshwar / Mandu | Ahilya ghats; Mandu monuments | Monument |  |
-| 128 | Madhya Pradesh | Khajuraho | Khajuraho temples - UNESCO | UNESCO |  |
-| 129 | Madhya Pradesh | Sanchi | Sanchi Stupa - UNESCO | UNESCO |  |
-| 130 | Madhya Pradesh | Bhimbetka | Rock shelters - UNESCO | UNESCO |  |
-| 131 | Madhya Pradesh | Gwalior / Orchha | Gwalior Fort; Orchha Ram Raja | Monument |  |
-| 132 | Madhya Pradesh | Amarkantak | Narmada udgam | Temple |  |
-| 133 | Madhya Pradesh | Kanha / Bandhavgarh | Tiger reserves | Nature |  |
-| 134 | Chhattisgarh | Rajim / Sirpur / Chitrakote | Rajim Kumbh, Laxman temple, Chitrakote falls | Temple |  |
-| 135 | Bihar | Bodh Gaya | Mahabodhi Temple - UNESCO | UNESCO |  |
-| 136 | Bihar | Gaya | Vishnupad Temple (pind daan) | Temple |  |
-| 137 | Bihar | Nalanda / Rajgir | Nalanda ruins - UNESCO; Vishwa Shanti Stupa | UNESCO |  |
-| 138 | Bihar | Patna | Takht Patna Sahib, ISKCON Patna | Temple |  |
-| 139 | Jharkhand | Deoghar | Baidyanath Jyotirlinga | Temple |  |
-| 140 | West Bengal | Mayapur | ISKCON Mayapur - TOVP, Prabhupada Pushpa Samadhi, Yogapith | ISKCON | Likely |
-| 141 | West Bengal | Navadvipa | Navadvipa mandala parikrama | Temple |  |
-| 142 | West Bengal | Kolkata | ISKCON Kolkata; Dakshineswar; Kalighat; Belur Math; Victoria Memorial; Prabhupada birthplace (Tollygunge) | Temple |  |
-| 143 | West Bengal | Darjeeling | Darjeeling Himalayan Railway - UNESCO | UNESCO |  |
-| 144 | West Bengal | Sundarbans | Sundarbans - UNESCO | UNESCO |  |
-| 145 | Odisha | Puri | Jagannath Temple, Ratha Yatra, Gundicha, Tota Gopinath, Haridas samadhi | Temple | Likely |
-| 146 | Odisha | Konark | Sun Temple - UNESCO | UNESCO | Likely |
-| 147 | Odisha | Bhubaneswar | Lingaraj, Mukteshwar, Udayagiri caves, ISKCON | Temple | Likely |
-| 148 | Odisha | Chilika | Chilika lake & Kalijai | Nature |  |
-| 149 | Assam | Guwahati | Kamakhya Temple, Umananda | Temple |  |
-| 150 | Assam | Majuli | Vaishnava satras (river island) | Temple |  |
-| 151 | Assam | Kaziranga | Kaziranga - UNESCO (rhinos) | UNESCO |  |
-| 152 | Meghalaya | Shillong / Cherrapunji | Living root bridges, Mawlynnong, Dawki | Nature |  |
-| 153 | Arunachal Pradesh | Tawang | Tawang Monastery (ILP) | Monument |  |
-| 154 | Manipur | Imphal | Shree Govindajee Temple, Loktak lake, Kangla Fort | Temple |  |
-| 155 | Nagaland | Kohima | Hornbill Festival (Dec), WWII cemetery | Festival |  |
-| 156 | Mizoram | Aizawl | Solomon's Temple, Reiek | Monument |  |
-| 157 | Tripura | Udaipur (Tripura) | Tripura Sundari (Shakti peetha), Ujjayanta Palace, Unakoti | Temple |  |
-| 158 | Sikkim | Gangtok | Rumtek, Tsomgo lake, Nathu La; Khangchendzonga NP - UNESCO | UNESCO |  |
-| 159 | Andaman & Nicobar | Port Blair | Cellular Jail, Havelock (Radhanagar) | Monument |  |
-| 160 | Lakshadweep | Agatti / Bangaram | Lagoons | Nature |  |
-| 161 | Puducherry | Puducherry | Aurobindo Ashram, Auroville, French quarter | Monument |  |
 
-*Total: 161 rows*
+**Andhra Pradesh**
+
+- [ ] **Tirupati** - Tirumala Sri Venkateswara Temple (Balaji) _Temple_ *(Likely - confirm)*
+- [ ] **Tirupati** - Sri Padmavathi Temple, Tiruchanur _Temple_ *(Likely - confirm)*
+- [ ] **Srikalahasti** - Srikalahasteeswara (Vayu linga) _Temple_
+- [ ] **Ahobilam** - Nava Narasimha kshetras _Temple_
+- [ ] **Srisailam** - Mallikarjuna Jyotirlinga & Bhramaramba _Temple_
+- [ ] **Simhachalam** - Varaha Lakshmi Narasimha Temple _Temple_
+- [ ] **Lepakshi** - Veerabhadra Temple (hanging pillar) _Monument_
+- [ ] **Amaravati** - Amaravati Stupa & Dhyana Buddha _Monument_
+- [ ] **Mantralayam** - Raghavendra Swamy Mutt _Temple_
+
+**Telangana**
+
+- [x] **Hyderabad** - Hare Krishna Golden Temple, Banjara Hills (home) _ISKCON_
+- [ ] **Hyderabad** - Charminar & Mecca Masjid _Monument_
+- [ ] **Hyderabad** - Golconda Fort & Qutb Shahi Tombs _Monument_
+- [ ] **Hyderabad** - Salar Jung Museum _Museum_
+- [ ] **Hyderabad** - Birla Mandir & Chilkur Balaji _Temple_
+- [ ] **Yadadri** - Yadagirigutta Lakshmi Narasimha Temple _Temple_
+- [ ] **Bhadrachalam** - Sita Ramachandraswamy Temple _Temple_
+- [ ] **Warangal** - Thousand Pillar Temple & Warangal Fort _Monument_
+- [ ] **Mulugu** - Ramappa (Rudreshwara) Temple - UNESCO _UNESCO_
+- [ ] **Basar** - Gnana Saraswati Temple _Temple_
+
+**Karnataka**
+
+- [x] **Bengaluru** - ISKCON Sri Radha Krishna Temple, Rajajinagar _ISKCON_
+- [ ] **Bengaluru** - Vaikuntha Hill (ISKCON Vasanthapura) _ISKCON_
+- [ ] **Bengaluru** - Bull Temple, Lalbagh, Vidhana Soudha _Monument_
+- [ ] **Mysuru** - Mysore Palace & Dasara (Jamboo Savari) _Festival_
+- [ ] **Mysuru** - Chamundeshwari Temple, Chamundi Hill _Temple_ *(Likely - confirm)*
+- [ ] **Mysuru** - ISKCON Mysore _ISKCON_ *(Likely - confirm)*
+- [ ] **Srirangapatna** - Ranganathaswamy Temple _Temple_
+- [ ] **Melukote** - Cheluvanarayana & Yoga Narasimha _Temple_
+- [ ] **Hampi** - Hampi (Vijayanagara) - Virupaksha, Vittala stone chariot - UNESCO _UNESCO_
+- [ ] **Pattadakal / Badami / Aihole** - Chalukya temples & cave temples - UNESCO _UNESCO_
+- [ ] **Belur & Halebidu** - Hoysala temples (Chennakeshava, Hoysaleswara) - UNESCO _UNESCO_ *(Likely - confirm)*
+- [ ] **Somanathapura** - Keshava Temple - UNESCO (Hoysala) _UNESCO_
+- [ ] **Shravanabelagola** - Gomateshwara (Bahubali) statue _Monument_
+- [ ] **Udupi** - Sri Krishna Matha (Kanakana Kindi) _Temple_
+- [ ] **Kollur / Dharmasthala / Kukke** - Mookambika, Manjunatha, Subrahmanya _Temple_
+- [ ] **Gokarna** - Mahabaleshwar Temple (Atmalinga) _Temple_
+- [ ] **Murudeshwar** - Giant Shiva statue & temple _Temple_
+- [ ] **Coorg** - Talakaveri, Bylakuppe Golden Temple _Nature_ *(Likely - confirm)*
+- [ ] **Chikkamagaluru** - Sringeri Sharada Peetham, Horanadu _Temple_ *(Likely - confirm)*
+- [ ] **Yana** - Yana caves _Nature_ *(Likely - confirm)*
+- [ ] **Bijapur (Vijayapura)** - Gol Gumbaz _Monument_
+
+**Tamil Nadu**
+
+- [ ] **Chennai** - ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy _Temple_
+- [ ] **Mahabalipuram** - Shore Temple, Pancha Rathas - UNESCO _UNESCO_
+- [ ] **Kanchipuram** - Varadaraja Perumal, Ekambareswarar, Kamakshi _Temple_
+- [x] **Srirangam** - Sri Ranganathaswamy Temple (largest functioning temple) _Temple_
+- [ ] **Thanjavur** - Brihadeeswara Temple - UNESCO (Great Living Chola Temples) _UNESCO_
+- [ ] **Gangaikonda Cholapuram / Darasuram** - Chola temples - UNESCO _UNESCO_
+- [ ] **Chidambaram** - Nataraja Temple _Temple_
+- [ ] **Madurai** - Meenakshi Amman Temple _Temple_
+- [ ] **Rameswaram** - Ramanathaswamy Temple & Dhanushkodi _Temple_
+- [ ] **Kanyakumari** - Vivekananda Rock, Thiruvalluvar statue, Devi temple _Monument_
+- [ ] **Tiruvannamalai** - Arunachaleswarar & Girivalam _Temple_
+- [ ] **Tirunelveli / Thiruchendur** - Nellaiappar, Murugan (Arupadai veedu) _Temple_
+- [ ] **Ooty / Kodaikanal** - Nilgiri Mountain Railway - UNESCO _UNESCO_
+
+**Kerala**
+
+- [ ] **Guruvayur** - Guruvayur Sri Krishna Temple _Temple_
+- [ ] **Thiruvananthapuram** - Sree Padmanabhaswamy Temple _Temple_
+- [ ] **Sabarimala** - Ayyappa Temple _Temple_
+- [ ] **Kochi** - Fort Kochi, Mattancherry, Chottanikkara _Monument_
+- [ ] **Alappuzha / Kumarakom** - Backwaters houseboat _Nature_
+- [ ] **Thrissur** - Vadakkunnathan & Thrissur Pooram _Festival_
+- [ ] **Ambalappuzha / Aranmula** - Sri Krishna temples _Temple_
+- [ ] **Munnar** - Tea gardens, Eravikulam _Nature_
+- [ ] **Kollam / Kanyakumari border** - Suchindram _Temple_
+
+**Maharashtra**
+
+- [ ] **Mumbai** - ISKCON Juhu (Prabhupada samadhi) & Chowpatty _ISKCON_
+- [ ] **Mumbai** - Gateway of India, Elephanta Caves - UNESCO, CST - UNESCO _UNESCO_
+- [ ] **Mumbai** - Siddhivinayak, Mahalakshmi, Babulnath, Mumba Devi _Temple_
+- [ ] **Mumbai** - NMACC & Jio World Centre (BKC) _Modern_
+- [ ] **Pune** - ISKCON NVCC Katraj; Dagdusheth Ganapati _ISKCON_
+- [ ] **Alandi / Dehu / Pandharpur** - Dnyaneshwar, Tukaram, Vitthal-Rukmini (Ashadhi Ekadashi) _Temple_
+- [ ] **Aurangabad** - Ajanta & Ellora caves (Kailasa temple) - UNESCO _UNESCO_
+- [ ] **Nashik / Trimbakeshwar** - Panchavati, Trimbakeshwar Jyotirlinga, Kumbh _Temple_
+- [ ] **Shirdi / Shani Shingnapur** - Sai Baba samadhi _Temple_
+- [ ] **Jyotirlingas** - Bhimashankar, Grishneshwar, Aundha Nagnath, Parli Vaijnath _Temple_
+- [ ] **Kolhapur / Tuljapur** - Mahalakshmi, Tulja Bhavani _Temple_
+
+**Goa**
+
+- [ ] **Goa** - Basilica of Bom Jesus & Old Goa churches - UNESCO; Mangeshi _UNESCO_
+
+**Gujarat**
+
+- [ ] **Dwarka** - Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga _Temple_ *(Likely - confirm)*
+- [ ] **Somnath** - Somnath Jyotirlinga, Bhalka Tirth, Prabhas Patan _Temple_ *(Likely - confirm)*
+- [ ] **Ahmedabad** - ISKCON Ahmedabad; Sabarmati Ashram; Adalaj stepwell; UNESCO city _UNESCO_
+- [ ] **Patan** - Rani ki Vav - UNESCO _UNESCO_
+- [ ] **Kevadia** - Statue of Unity _Modern_
+- [ ] **Dholavira** - Harappan city - UNESCO _UNESCO_
+- [ ] **Champaner-Pavagadh** - Archaeological park - UNESCO; Kalika Mata _UNESCO_
+- [ ] **Ambaji / Modhera / Dakor** - Shakti peetha; Sun Temple; Ranchhodrai _Temple_
+
+**Rajasthan**
+
+- [ ] **Jaipur** - Amber Fort, Hawa Mahal, Jantar Mantar - UNESCO, Govind Dev Ji _Monument_
+- [ ] **Nathdwara** - Shrinathji Haveli _Temple_
+- [ ] **Udaipur** - City Palace, Lake Pichola, Eklingji _Monument_
+- [ ] **Pushkar / Ajmer** - Brahma Temple, Pushkar lake, Dargah _Temple_
+- [ ] **Jodhpur / Jaisalmer** - Mehrangarh Fort; Jaisalmer Fort - UNESCO _UNESCO_
+- [ ] **Chittorgarh / Kumbhalgarh / Ranthambore** - Hill Forts of Rajasthan - UNESCO; tiger reserve _UNESCO_
+- [ ] **Mount Abu** - Dilwara Jain temples _Temple_
+- [ ] **Khatu / Salasar** - Khatu Shyamji, Salasar Balaji _Temple_
+
+**Delhi**
+
+- [ ] **New Delhi** - ISKCON East of Kailash (Glory of India) & Punjabi Bagh _ISKCON_
+- [ ] **Delhi** - Red Fort, Qutub Minar, Humayun's Tomb - UNESCO _UNESCO_
+- [ ] **Delhi** - Akshardham, Lotus Temple, India Gate, Birla Mandir _Monument_
+
+**Uttar Pradesh**
+
+- [ ] **Vrindavan** - ISKCON Krishna Balaram Mandir & Prabhupada Samadhi _ISKCON_ *(Likely - confirm)*
+- [ ] **Vrindavan** - Banke Bihari, Radha Raman, Radha Damodar, Prem Mandir, Seva Kunj, Nidhivan _Temple_ *(Likely - confirm)*
+- [ ] **Mathura** - Krishna Janmabhoomi, Vishram Ghat, Dwarkadhish _Temple_ *(Likely - confirm)*
+- [ ] **Govardhan** - Govardhan parikrama, Radha Kund, Kusum Sarovar _Temple_ *(Likely - confirm)*
+- [ ] **Barsana / Nandgaon** - Radha Rani Temple, Nand Bhavan _Temple_ *(Likely - confirm)*
+- [ ] **Ayodhya** - Ram Mandir (Ram Lalla), Hanuman Garhi, Kanak Bhavan, Saryu _Temple_ *(Likely - confirm)*
+- [ ] **Varanasi (Kashi)** - Kashi Vishwanath & corridor, Ganga aarti, Sarnath _Temple_ *(Likely - confirm)*
+- [ ] **Prayagraj** - Triveni Sangam, Maha Kumbh (2025), Hanuman Mandir _Festival_ *(Likely - confirm)*
+- [ ] **Naimisharanya** - Chakra Tirth, Vyasa Gaddi _Temple_ *(Likely - confirm)*
+- [ ] **Agra** - Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO _UNESCO_
+- [ ] **Lucknow** - Bara Imambara, Rumi Darwaza _Monument_ *(Likely - confirm)*
+- [ ] **Chitrakoot** - Kamadgiri, Ram Ghat _Temple_
+
+**Uttarakhand**
+
+- [x] **Char Dham** - Yamunotri, Gangotri, Kedarnath, Badrinath _Temple_
+- [x] **Rishikesh / Haridwar** - Ganga aarti, Har ki Pauri, Laxman Jhula, ISKCON Rishikesh _Temple_
+- [x] **Dehradun / Mussoorie** - Base for Char Dham _Nature_
+- [ ] **Hemkund / Valley of Flowers** - Valley of Flowers - UNESCO _UNESCO_
+- [ ] **Panch Kedar / Panch Badri** - Tungnath, Madhyamaheshwar, Rudranath, Kalpeshwar; Adi Badri etc. _Temple_
+- [ ] **Jim Corbett** - Corbett National Park _Nature_
+
+**Himachal Pradesh**
+
+- [ ] **Manali / Kullu** - Hadimba, Vashisht, Rohtang / Atal tunnel _Nature_
+- [ ] **Dharamshala** - McLeod Ganj, Dalai Lama temple _Monument_
+- [ ] **Shimla** - Kalka-Shimla railway - UNESCO, Jakhoo _UNESCO_
+- [ ] **Kangra / Chamunda / Jwalamukhi / Naina Devi** - Shakti peethas _Temple_
+- [ ] **Spiti** - Key Monastery, Tabo _Monument_
+
+**Jammu & Kashmir**
+
+- [ ] **Katra** - Vaishno Devi _Temple_
+- [ ] **Pahalgam / Baltal** - Amarnath cave _Temple_
+- [ ] **Srinagar** - Dal Lake, Shankaracharya temple, Mughal gardens, Kheer Bhawani _Nature_
+
+**Ladakh**
+
+- [ ] **Leh** - Pangong, Nubra, Hemis, Thiksey, Khardung La _Nature_
+
+**Punjab**
+
+- [ ] **Amritsar** - Golden Temple, Jallianwala Bagh, Wagah border _Temple_
+- [ ] **Anandpur Sahib** - Takht Kesgarh Sahib _Temple_
+
+**Haryana**
+
+- [ ] **Kurukshetra** - Brahma Sarovar, Jyotisar (Gita sthal), ISKCON Kurukshetra _Temple_ *(Likely - confirm)*
+
+**Madhya Pradesh**
+
+- [ ] **Ujjain** - Mahakaleshwar Jyotirlinga & Mahakal Lok; Kal Bhairav; Sandipani Ashram; Simhastha 2028 _Temple_
+- [ ] **Omkareshwar** - Omkareshwar Jyotirlinga & parikrama _Temple_
+- [ ] **Indore** - Khajrana Ganesh, ISKCON Indore, Rajwada _Temple_
+- [ ] **Maheshwar / Mandu** - Ahilya ghats; Mandu monuments _Monument_
+- [ ] **Khajuraho** - Khajuraho temples - UNESCO _UNESCO_
+- [ ] **Sanchi** - Sanchi Stupa - UNESCO _UNESCO_
+- [ ] **Bhimbetka** - Rock shelters - UNESCO _UNESCO_
+- [ ] **Gwalior / Orchha** - Gwalior Fort; Orchha Ram Raja _Monument_
+- [ ] **Amarkantak** - Narmada udgam _Temple_
+- [ ] **Kanha / Bandhavgarh** - Tiger reserves _Nature_
+
+**Chhattisgarh**
+
+- [ ] **Rajim / Sirpur / Chitrakote** - Rajim Kumbh, Laxman temple, Chitrakote falls _Temple_
+
+**Bihar**
+
+- [ ] **Bodh Gaya** - Mahabodhi Temple - UNESCO _UNESCO_
+- [ ] **Gaya** - Vishnupad Temple (pind daan) _Temple_
+- [ ] **Nalanda / Rajgir** - Nalanda ruins - UNESCO; Vishwa Shanti Stupa _UNESCO_
+- [ ] **Patna** - Takht Patna Sahib, ISKCON Patna _Temple_
+
+**Jharkhand**
+
+- [ ] **Deoghar** - Baidyanath Jyotirlinga _Temple_
+
+**West Bengal**
+
+- [ ] **Mayapur** - ISKCON Mayapur - TOVP, Prabhupada Pushpa Samadhi, Yogapith _ISKCON_ *(Likely - confirm)*
+- [ ] **Navadvipa** - Navadvipa mandala parikrama _Temple_
+- [ ] **Kolkata** - ISKCON Kolkata; Dakshineswar; Kalighat; Belur Math; Victoria Memorial; Prabhupada birthplace (Tollygunge) _Temple_
+- [ ] **Darjeeling** - Darjeeling Himalayan Railway - UNESCO _UNESCO_
+- [ ] **Sundarbans** - Sundarbans - UNESCO _UNESCO_
+
+**Odisha**
+
+- [ ] **Puri** - Jagannath Temple, Ratha Yatra, Gundicha, Tota Gopinath, Haridas samadhi _Temple_ *(Likely - confirm)*
+- [ ] **Konark** - Sun Temple - UNESCO _UNESCO_ *(Likely - confirm)*
+- [ ] **Bhubaneswar** - Lingaraj, Mukteshwar, Udayagiri caves, ISKCON _Temple_ *(Likely - confirm)*
+- [ ] **Chilika** - Chilika lake & Kalijai _Nature_
+
+**Assam**
+
+- [ ] **Guwahati** - Kamakhya Temple, Umananda _Temple_
+- [ ] **Majuli** - Vaishnava satras (river island) _Temple_
+- [ ] **Kaziranga** - Kaziranga - UNESCO (rhinos) _UNESCO_
+
+**Meghalaya**
+
+- [ ] **Shillong / Cherrapunji** - Living root bridges, Mawlynnong, Dawki _Nature_
+
+**Arunachal Pradesh**
+
+- [ ] **Tawang** - Tawang Monastery (ILP) _Monument_
+
+**Manipur**
+
+- [ ] **Imphal** - Shree Govindajee Temple, Loktak lake, Kangla Fort _Temple_
+
+**Nagaland**
+
+- [ ] **Kohima** - Hornbill Festival (Dec), WWII cemetery _Festival_
+
+**Mizoram**
+
+- [ ] **Aizawl** - Solomon's Temple, Reiek _Monument_
+
+**Tripura**
+
+- [ ] **Udaipur (Tripura)** - Tripura Sundari (Shakti peetha), Ujjayanta Palace, Unakoti _Temple_
+
+**Sikkim**
+
+- [ ] **Gangtok** - Rumtek, Tsomgo lake, Nathu La; Khangchendzonga NP - UNESCO _UNESCO_
+
+**Andaman & Nicobar**
+
+- [ ] **Port Blair** - Cellular Jail, Havelock (Radhanagar) _Monument_
+
+**Lakshadweep**
+
+- [ ] **Agatti / Bangaram** - Lagoons _Nature_
+
+**Puducherry**
+
+- [ ] **Puducherry** - Aurobindo Ashram, Auroville, French quarter _Monument_
+
+**Maharashtra**
+
+- [ ] **Mumbai** - Marine Drive, Gateway of India, Juhu beach, Bandra-Worli Sea Link, Film City _Sightseeing_
+- [ ] **Lonavala / Mahabaleshwar** - Hill stations, Imagica theme park _Sightseeing_
+
+**Goa**
+
+- [ ] **North / South Goa** - Calangute, Baga, Palolem beaches; Dudhsagar falls _Beach_
+
+**Rajasthan**
+
+- [ ] **Jaipur** - Chokhi Dhani, Nahargarh sunset, Jal Mahal _Sightseeing_
+- [ ] **Jaisalmer** - Sam sand dunes camel safari & desert camp _Sightseeing_
+
+**Uttar Pradesh**
+
+- [ ] **Agra** - Mehtab Bagh (Taj sunset view), Taj Mahotsav (Feb) _Sightseeing_
+
+**Delhi**
+
+- [ ] **Delhi** - Chandni Chowk, Connaught Place, Dilli Haat, Rashtrapati Bhavan _Sightseeing_
+
+**Himachal Pradesh**
+
+- [ ] **Manali / Solang** - Solang Valley adventure, Atal Tunnel, Sissu _Nature_
+
+**Jammu & Kashmir**
+
+- [ ] **Gulmarg / Pahalgam / Sonamarg** - Gulmarg gondola, Betaab valley, Thajiwas glacier _Nature_
+
+**Ladakh**
+
+- [ ] **Leh** - Magnetic Hill, Pangong Tso, Nubra sand dunes (Bactrian camels) _Nature_
+
+**Karnataka**
+
+- [ ] **Bengaluru** - Wonderla, Bannerghatta, Nandi Hills sunrise, Cubbon Park _Sightseeing_
+- [ ] **Hampi** - Hampi coracle ride, Matanga hill sunrise _Sightseeing_
+
+**Tamil Nadu**
+
+- [ ] **Ooty / Kodaikanal** - Botanical gardens, Doddabetta, Kodai lake _Nature_
+
+**Kerala**
+
+- [ ] **Munnar / Thekkady / Varkala** - Tea museum, Periyar wildlife boat, Varkala cliff beach _Nature_
+
+**Andhra Pradesh**
+
+- [ ] **Araku / Vizag** - Araku valley train, Borra caves, RK Beach, Kailasagiri _Nature_
+
+**Telangana**
+
+- [ ] **Hyderabad** - Ramoji Film City (world's largest), Hussain Sagar & Buddha statue, Hitec City _Sightseeing_
+
+**Gujarat**
+
+- [ ] **Kutch** - Rann Utsav - White Rann (Nov-Feb), Mandvi beach _Festival_
+- [ ] **Gir** - Gir National Park - Asiatic lions _Wildlife_
+
+**Madhya Pradesh**
+
+- [ ] **Pachmarhi / Jabalpur** - Pachmarhi hill station; Bhedaghat marble rocks & Dhuandhar falls _Nature_
+
+**Uttarakhand**
+
+- [ ] **Nainital / Auli / Mussoorie** - Naini lake, Auli skiing, Kempty falls _Nature_
+
+**West Bengal**
+
+- [ ] **Kolkata** - Howrah Bridge, Park Street, Eco Park, Science City _Sightseeing_
+
+**Odisha**
+
+- [ ] **Puri** - Puri beach, Sand art (Sudarsan Pattnaik), Raghurajpur craft village _Sightseeing_
+
+**Assam**
+
+- [ ] **Kaziranga / Majuli** - Elephant & jeep safari; Brahmaputra river cruise _Wildlife_
+
+**Meghalaya**
+
+- [ ] **Shillong** - Umiam lake, Elephant falls, Laitlum canyon _Nature_
+
+**Sikkim**
+
+- [ ] **Gangtok / Pelling** - Gurudongmar lake, Yumthang valley, Kanchenjunga views _Nature_
+
+**Andaman & Nicobar**
+
+- [ ] **Havelock / Neil** - Scuba & sea walk, Radhanagar beach, Ross island, bioluminescence _Beach_
+
+**Rajasthan**
+
+- [ ] **Ranthambore / Sariska** - Tiger safari _Wildlife_
+
+**Madhya Pradesh**
+
+- [ ] **Kanha / Bandhavgarh / Pench** - Tiger safaris (Jungle Book country) _Wildlife_
+
+**Karnataka**
+
+- [ ] **Kabini / Bandipur / Nagarhole** - Safari, black panther (Kabini) _Wildlife_
+
+**Uttarakhand**
+
+- [ ] **Jim Corbett** - Dhikala zone safari _Wildlife_
+
+*India: 6 of 191 visited*
 
 ### USA
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | New York | New York City | ISKCON NYC (26 Second Ave - Prabhupada's first temple; Brooklyn Radha Govinda) | ISKCON | Yes |
-| 2 | New York | New York City | Statue of Liberty, Ellis Island, Times Square, Central Park, Empire State, 9/11 Memorial | Monument | Yes |
-| 3 | New York | New York City | Metropolitan Museum, MoMA, Brooklyn Bridge | Museum | Yes |
-| 4 | New York | Tompkins Square Park | Hare Krishna Tree (first public kirtan 1966) | ISKCON | Yes |
-| 5 | Washington DC | Washington DC | White House, Capitol, Lincoln Memorial, Smithsonian museums | Monument | Yes |
-| 6 | Maryland | Potomac | ISKCON Washington DC | ISKCON |  |
-| 7 | Maryland | Baltimore | ISKCON Baltimore | ISKCON | Yes |
-| 8 | Virginia | Fairfax | Sri Venkateswara Lotus Temple | Temple | Yes |
-| 9 | Pennsylvania | Pittsburgh | Sri Venkateswara Temple, Penn Hills | Temple | Yes |
-| 10 | New York | Niagara Falls | Niagara Falls - Maid of the Mist, Cave of the Winds | Nature | Yes |
-| 11 | New Jersey | Bridgewater | Sri Venkateswara (Balaji) Temple; IHF New Jersey | Temple | Yes |
-| 12 | California | Laguna Beach / San Jose / Mountain View | ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley | ISKCON | Yes |
-| 13 | New York | New York City | Bhakti Center (East Village) | ISKCON | Yes |
-| 14 | West Virginia | Moundsville | New Vrindaban - Prabhupada's Palace of Gold | ISKCON | Yes |
-| 15 | California | Los Angeles | ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty | ISKCON | Yes |
-| 16 | California | San Francisco | Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) | Monument | Yes |
-| 17 | California | Yosemite / Sequoia | Yosemite - UNESCO | UNESCO |  |
-| 18 | California | San Diego | ISKCON San Diego, Balboa Park | ISKCON |  |
-| 19 | Nevada / Arizona | Las Vegas / Grand Canyon | Grand Canyon - UNESCO; Hoover Dam | UNESCO |  |
-| 20 | Utah | Spanish Fork | Sri Sri Radha Krishna Temple (Holi festival) | ISKCON |  |
-| 21 | Utah / Arizona | Zion, Bryce, Antelope Canyon, Monument Valley | National parks | Nature |  |
-| 22 | Florida | Alachua | ISKCON Alachua (New Raman Reti) - largest US community | ISKCON |  |
-| 23 | Florida | Orlando / Miami | Disney World, Kennedy Space Center, Everglades - UNESCO | Modern | Yes |
-| 24 | Texas | Houston / Dallas | ISKCON Houston (Radha Nila Madhava), Dallas (Kalachandji's), NASA JSC | ISKCON |  |
-| 25 | Illinois | Chicago | ISKCON Chicago; Millennium Park, Willis Tower, Art Institute | ISKCON |  |
-| 26 | Massachusetts | Boston | ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail | ISKCON |  |
-| 27 | Pennsylvania | Philadelphia / Gita Nagari | Independence Hall - UNESCO; Gita Nagari farm (Port Royal) | UNESCO |  |
-| 28 | New Jersey | Towaco / Robbinsville | ISKCON NJ; BAPS Akshardham Robbinsville (largest Hindu temple outside India) | Temple | Yes |
-| 29 | Georgia | Atlanta | ISKCON Atlanta (New Panihati Dham) | ISKCON |  |
-| 30 | Hawaii | Honolulu / Big Island | ISKCON Honolulu (New Navadvipa); Pearl Harbor; Volcanoes NP - UNESCO | UNESCO |  |
-| 31 | Wyoming / Montana | Yellowstone | Yellowstone - UNESCO | UNESCO |  |
-| 32 | Washington | Seattle | Space Needle, Vedic Cultural Center Sammamish | Modern |  |
-| 33 | Alaska | Denali / Glacier Bay | Northern lights, glaciers | Nature |  |
-| 34 | Louisiana | New Orleans | French Quarter, ISKCON New Orleans | Monument |  |
-| 35 | Michigan | Detroit | ISKCON Detroit - Fisher Mansion (Bhaktivedanta Cultural Center) | ISKCON |  |
-| 36 | North Carolina | Hillsborough | ISKCON New Goloka | ISKCON |  |
 
-*Total: 36 rows*
+**New York**
+
+- [x] **New York City** - ISKCON NYC (26 Second Ave - Prabhupada's first temple; Brooklyn Radha Govinda) _ISKCON_
+- [x] **New York City** - Statue of Liberty, Ellis Island, Times Square, Central Park, Empire State, 9/11 Memorial _Monument_
+- [x] **New York City** - Metropolitan Museum, MoMA, Brooklyn Bridge _Museum_
+- [x] **Tompkins Square Park** - Hare Krishna Tree (first public kirtan 1966) _ISKCON_
+
+**Washington DC**
+
+- [x] **Washington DC** - White House, Capitol, Lincoln Memorial, Smithsonian museums _Monument_
+
+**Maryland**
+
+- [ ] **Potomac** - ISKCON Washington DC _ISKCON_
+- [x] **Baltimore** - ISKCON Baltimore _ISKCON_
+
+**Virginia**
+
+- [x] **Fairfax** - Sri Venkateswara Lotus Temple _Temple_
+
+**Pennsylvania**
+
+- [x] **Pittsburgh** - Sri Venkateswara Temple, Penn Hills _Temple_
+
+**New York**
+
+- [x] **Niagara Falls** - Niagara Falls - Maid of the Mist, Cave of the Winds _Nature_
+
+**New Jersey**
+
+- [x] **Bridgewater** - Sri Venkateswara (Balaji) Temple; IHF New Jersey _Temple_
+
+**California**
+
+- [x] **Laguna Beach / San Jose / Mountain View** - ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley _ISKCON_
+
+**New York**
+
+- [x] **New York City** - Bhakti Center (East Village) _ISKCON_
+
+**West Virginia**
+
+- [x] **Moundsville** - New Vrindaban - Prabhupada's Palace of Gold _ISKCON_
+
+**California**
+
+- [x] **Los Angeles** - ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty _ISKCON_
+- [x] **San Francisco** - Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) _Monument_
+- [ ] **Yosemite / Sequoia** - Yosemite - UNESCO _UNESCO_
+- [ ] **San Diego** - ISKCON San Diego, Balboa Park _ISKCON_
+
+**Nevada / Arizona**
+
+- [ ] **Las Vegas / Grand Canyon** - Grand Canyon - UNESCO; Hoover Dam _UNESCO_
+
+**Utah**
+
+- [ ] **Spanish Fork** - Sri Sri Radha Krishna Temple (Holi festival) _ISKCON_
+
+**Utah / Arizona**
+
+- [ ] **Zion, Bryce, Antelope Canyon, Monument Valley** - National parks _Nature_
+
+**Florida**
+
+- [ ] **Alachua** - ISKCON Alachua (New Raman Reti) - largest US community _ISKCON_
+- [x] **Orlando / Miami** - Disney World, Kennedy Space Center, Everglades - UNESCO _Modern_
+
+**Texas**
+
+- [ ] **Houston / Dallas** - ISKCON Houston (Radha Nila Madhava), Dallas (Kalachandji's), NASA JSC _ISKCON_
+
+**Illinois**
+
+- [ ] **Chicago** - ISKCON Chicago; Millennium Park, Willis Tower, Art Institute _ISKCON_
+
+**Massachusetts**
+
+- [ ] **Boston** - ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail _ISKCON_
+
+**Pennsylvania**
+
+- [ ] **Philadelphia / Gita Nagari** - Independence Hall - UNESCO; Gita Nagari farm (Port Royal) _UNESCO_
+
+**New Jersey**
+
+- [x] **Towaco / Robbinsville** - ISKCON NJ; BAPS Akshardham Robbinsville (largest Hindu temple outside India) _Temple_
+
+**Georgia**
+
+- [ ] **Atlanta** - ISKCON Atlanta (New Panihati Dham) _ISKCON_
+
+**Hawaii**
+
+- [ ] **Honolulu / Big Island** - ISKCON Honolulu (New Navadvipa); Pearl Harbor; Volcanoes NP - UNESCO _UNESCO_
+
+**Wyoming / Montana**
+
+- [ ] **Yellowstone** - Yellowstone - UNESCO _UNESCO_
+
+**Washington**
+
+- [ ] **Seattle** - Space Needle, Vedic Cultural Center Sammamish _Modern_
+
+**Alaska**
+
+- [ ] **Denali / Glacier Bay** - Northern lights, glaciers _Nature_
+
+**Louisiana**
+
+- [ ] **New Orleans** - French Quarter, ISKCON New Orleans _Monument_
+
+**Michigan**
+
+- [ ] **Detroit** - ISKCON Detroit - Fisher Mansion (Bhaktivedanta Cultural Center) _ISKCON_
+
+**North Carolina**
+
+- [ ] **Hillsborough** - ISKCON New Goloka _ISKCON_
+
+**New York**
+
+- [ ] **New York City** - Broadway show, Rockefeller / Top of the Rock, High Line, Grand Central, Fifth Avenue, One World Observatory _Sightseeing_
+- [ ] **New York City** - Brooklyn Bridge walk, DUMBO, Coney Island, Staten Island ferry _Sightseeing_
+
+**Nevada**
+
+- [ ] **Las Vegas** - The Strip, Bellagio fountains, Fremont Street, Sphere, Cirque du Soleil _Sightseeing_
+
+**California**
+
+- [ ] **Los Angeles** - Universal Studios Hollywood, Disneyland Anaheim, Santa Monica Pier, Griffith Observatory, Beverly Hills _Theme park_
+- [ ] **San Francisco** - Alcatraz, Lombard Street, cable cars, Muir Woods, Napa Valley, Lake Tahoe _Sightseeing_
+
+**Florida**
+
+- [ ] **Orlando** - Magic Kingdom, EPCOT, Hollywood Studios, Animal Kingdom, Universal, SeaWorld, Legoland _Theme park_
+- [ ] **Miami / Keys** - South Beach, Art Deco, Everglades airboat, Key West _Beach_
+
+**South Dakota**
+
+- [ ] **Keystone** - Mount Rushmore, Badlands, Crazy Horse _Monument_
+
+**Arizona**
+
+- [ ] **Page / Sedona** - Antelope Canyon, Horseshoe Bend, Sedona red rocks _Nature_
+
+**Illinois**
+
+- [ ] **Chicago** - Navy Pier, Cloud Gate (Bean), Skydeck, river architecture cruise _Sightseeing_
+
+**Washington DC**
+
+- [ ] **Washington DC** - Cherry blossoms (Mar-Apr), Smithsonian museums, Arlington, Georgetown _Sightseeing_
+
+**Tennessee**
+
+- [ ] **Nashville / Memphis / Smoky Mtns** - Graceland, Great Smoky Mountains NP (most-visited US park), Dollywood _Nature_
+
+**Texas**
+
+- [ ] **San Antonio / Austin** - The Alamo, River Walk _Sightseeing_
+
+**Massachusetts**
+
+- [ ] **Boston** - Freedom Trail, Fenway, Harvard Yard, Cape Cod _Sightseeing_
+
+**Colorado**
+
+- [ ] **Denver / Rocky Mountain NP** - Rocky Mountain NP, Garden of the Gods, Aspen _Nature_
+
+**Oregon / Washington**
+
+- [ ] **Portland / Seattle** - Multnomah Falls, Mt Rainier, Pike Place Market _Nature_
+
+*USA: 17 of 52 visited*
 
 ### United Kingdom
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | England | London | Bhaktivedanta Manor, Watford | ISKCON | Yes |
-| 2 | England | London | ISKCON Soho Street (Radha Londonishvara) & Govinda's | ISKCON |  |
-| 3 | England | London | Tower of London - UNESCO | UNESCO | Yes |
-| 4 | England | London | Westminster Abbey & Palace of Westminster (Big Ben) - UNESCO | UNESCO | Yes |
-| 5 | England | London | Buckingham Palace - Changing of the Guard | Monument | Yes |
-| 6 | England | London | St Paul's Cathedral | Monument | Yes |
-| 7 | England | London | London Eye, Thames cruise, Tower Bridge | Monument | Yes |
-| 8 | England | London | Madame Tussauds | Museum | Yes |
-| 9 | England | London | British Museum (Indian galleries), Natural History, V&A | Museum |  |
-| 10 | England | London | Neasden BAPS Shri Swaminarayan Mandir | Temple |  |
-| 11 | England | London | Kew Gardens - UNESCO; Greenwich - UNESCO | UNESCO |  |
-| 12 | England | Wiltshire | Stonehenge - UNESCO | UNESCO |  |
-| 13 | England | Bath | Roman Baths - UNESCO | UNESCO |  |
-| 14 | England | Oxford / Cambridge | University colleges, Oxford Centre for Hindu Studies | Monument |  |
-| 15 | England | Windsor | Windsor Castle | Monument |  |
-| 16 | England | Liverpool | Beatles story (George Harrison link) | Museum |  |
-| 17 | England | Henley / Friar Park | George Harrison's Friar Park (exterior) | Monument |  |
-| 18 | England | Leicester / Birmingham | ISKCON Leicester (Sri Sri Radha Madhava), Birmingham temple | ISKCON |  |
-| 19 | England | Lake District | Lake District - UNESCO | UNESCO |  |
-| 20 | Scotland | Edinburgh | Edinburgh Castle, Royal Mile - UNESCO; Karuna Bhavan (Lesmahagow) | UNESCO |  |
-| 21 | Scotland | Highlands | Loch Ness, Glencoe, Isle of Skye | Nature |  |
-| 22 | Wales | Cardiff / Snowdonia | Cardiff Castle; Snowdon; castles of Edward I - UNESCO | UNESCO |  |
-| 23 | Northern Ireland | Antrim | Giant's Causeway - UNESCO; Inis Rath (Govindadwipa, Fermanagh) | UNESCO |  |
 
-*Total: 23 rows*
+**England**
+
+- [x] **London** - Bhaktivedanta Manor, Watford _ISKCON_
+- [ ] **London** - ISKCON Soho Street (Radha Londonishvara) & Govinda's _ISKCON_
+- [x] **London** - Tower of London - UNESCO _UNESCO_
+- [x] **London** - Westminster Abbey & Palace of Westminster (Big Ben) - UNESCO _UNESCO_
+- [x] **London** - Buckingham Palace - Changing of the Guard _Monument_
+- [x] **London** - St Paul's Cathedral _Monument_
+- [x] **London** - London Eye, Thames cruise, Tower Bridge _Monument_
+- [x] **London** - Madame Tussauds _Museum_
+- [ ] **London** - British Museum (Indian galleries), Natural History, V&A _Museum_
+- [ ] **London** - Neasden BAPS Shri Swaminarayan Mandir _Temple_
+- [ ] **London** - Kew Gardens - UNESCO; Greenwich - UNESCO _UNESCO_
+- [ ] **Wiltshire** - Stonehenge - UNESCO _UNESCO_
+- [ ] **Bath** - Roman Baths - UNESCO _UNESCO_
+- [ ] **Oxford / Cambridge** - University colleges, Oxford Centre for Hindu Studies _Monument_
+- [ ] **Windsor** - Windsor Castle _Monument_
+- [ ] **Liverpool** - Beatles story (George Harrison link) _Museum_
+- [ ] **Henley / Friar Park** - George Harrison's Friar Park (exterior) _Monument_
+- [ ] **Leicester / Birmingham** - ISKCON Leicester (Sri Sri Radha Madhava), Birmingham temple _ISKCON_
+- [ ] **Lake District** - Lake District - UNESCO _UNESCO_
+
+**Scotland**
+
+- [ ] **Edinburgh** - Edinburgh Castle, Royal Mile - UNESCO; Karuna Bhavan (Lesmahagow) _UNESCO_
+- [ ] **Highlands** - Loch Ness, Glencoe, Isle of Skye _Nature_
+
+**Wales**
+
+- [ ] **Cardiff / Snowdonia** - Cardiff Castle; Snowdon; castles of Edward I - UNESCO _UNESCO_
+
+**Northern Ireland**
+
+- [ ] **Antrim** - Giant's Causeway - UNESCO; Inis Rath (Govindadwipa, Fermanagh) _UNESCO_
+
+**England**
+
+- [ ] **London** - Harry Potter Warner Bros Studio, The Shard, Sky Garden, Hyde Park, Camden, Notting Hill, Covent Garden, Borough Market _Sightseeing_
+- [ ] **London** - Wembley / Lord's / Wimbledon tour, West End musical, Natural History Museum _Sightseeing_
+- [ ] **Cotswolds / Stratford** - Cotswold villages, Shakespeare's birthplace, Warwick Castle _Sightseeing_
+- [ ] **Cornwall / Devon** - St Ives, Eden Project, Jurassic Coast _Nature_
+- [ ] **York / Manchester / Liverpool** - York Minster, Old Trafford tour, Albert Dock _Sightseeing_
+
+**Scotland**
+
+- [ ] **Edinburgh** - Arthur's Seat, Royal Yacht Britannia, Edinburgh Fringe (Aug) _Sightseeing_
+- [ ] **Highlands** - Glenfinnan Viaduct (Hogwarts Express), Ben Nevis, Isle of Skye Fairy Pools _Nature_
+
+*United Kingdom: 7 of 30 visited*
 
 ### France
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Ile-de-France | Paris | Eiffel Tower | Monument | Yes |
-| 2 | Ile-de-France | Paris | Louvre Museum | Museum | Yes |
-| 3 | Ile-de-France | Paris | Seine cruise, Notre-Dame, Arc de Triomphe, Champs-Elysees | Monument | Yes |
-| 4 | Ile-de-France | Paris | Montmartre & Sacre-Coeur | Monument | Yes |
-| 5 | Ile-de-France | Paris | Palace of Versailles - UNESCO | UNESCO |  |
-| 6 | Ile-de-France | Paris | Musee d'Orsay, Sainte-Chapelle, Pantheon | Museum |  |
-| 7 | Ile-de-France | Sarcelles | ISKCON Paris | ISKCON |  |
-| 8 | Centre-Val de Loire | Lucay-le-Male | ISKCON New Mayapur | ISKCON | Yes |
-| 9 | Centre-Val de Loire | Loire Valley | Chateaux (Chambord, Chenonceau) - UNESCO | UNESCO |  |
-| 10 | Normandy | Mont-Saint-Michel | Mont-Saint-Michel - UNESCO | UNESCO |  |
-| 11 | Provence | Avignon / Nice / Monaco | Papal Palace, French Riviera | Monument |  |
-| 12 | Alsace | Strasbourg / Colmar | Old towns - UNESCO | UNESCO |  |
 
-*Total: 12 rows*
+**Ile-de-France**
+
+- [x] **Paris** - Eiffel Tower _Monument_
+- [x] **Paris** - Louvre Museum _Museum_
+- [x] **Paris** - Seine cruise, Notre-Dame, Arc de Triomphe, Champs-Elysees _Monument_
+- [x] **Paris** - Montmartre & Sacre-Coeur _Monument_
+- [ ] **Paris** - Palace of Versailles - UNESCO _UNESCO_
+- [ ] **Paris** - Musee d'Orsay, Sainte-Chapelle, Pantheon _Museum_
+- [ ] **Sarcelles** - ISKCON Paris _ISKCON_
+
+**Centre-Val de Loire**
+
+- [x] **Lucay-le-Male** - ISKCON New Mayapur _ISKCON_
+- [ ] **Loire Valley** - Chateaux (Chambord, Chenonceau) - UNESCO _UNESCO_
+
+**Normandy**
+
+- [ ] **Mont-Saint-Michel** - Mont-Saint-Michel - UNESCO _UNESCO_
+
+**Provence**
+
+- [ ] **Avignon / Nice / Monaco** - Papal Palace, French Riviera _Monument_
+
+**Alsace**
+
+- [ ] **Strasbourg / Colmar** - Old towns - UNESCO _UNESCO_
+
+**Ile-de-France**
+
+- [ ] **Paris** - Disneyland Paris _Theme park_
+- [ ] **Paris** - Montparnasse view, Galeries Lafayette rooftop, Luxembourg Gardens, Moulin Rouge exterior, Pere Lachaise _Sightseeing_
+
+**Provence**
+
+- [ ] **Provence** - Lavender fields (Jun-Jul), Gorges du Verdon _Nature_
+
+**Auvergne-Rhone-Alpes**
+
+- [ ] **Chamonix** - Mont Blanc, Aiguille du Midi _Nature_
+
+*France: 5 of 16 visited*
 
 ### Belgium
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Brussels | Brussels | Grand Place - UNESCO, Manneken Pis, Atomium | UNESCO | Yes |
-| 2 | Wallonia | Durbuy | ISKCON Radhadesh | ISKCON | Yes |
-| 3 | Flanders | Bruges / Ghent / Antwerp | Bruges historic centre - UNESCO; Antwerp ISKCON | UNESCO |  |
 
-*Total: 3 rows*
+**Brussels**
+
+- [x] **Brussels** - Grand Place - UNESCO, Manneken Pis, Atomium _UNESCO_
+
+**Wallonia**
+
+- [x] **Durbuy** - ISKCON Radhadesh _ISKCON_
+
+**Flanders**
+
+- [ ] **Bruges / Ghent / Antwerp** - Bruges historic centre - UNESCO; Antwerp ISKCON _UNESCO_
+- [ ] **Bruges** - Canal boat, Belfry, chocolate & waffles _Sightseeing_
+
+*Belgium: 2 of 4 visited*
 
 ### Netherlands
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | North Holland | Amsterdam | Canal ring - UNESCO, Dam Square, Anne Frank House | UNESCO | Yes |
-| 2 | North Holland | Amsterdam | Rijksmuseum, Van Gogh Museum; ISKCON Amsterdam | Museum |  |
-| 3 | South Holland | Keukenhof / Kinderdijk | Tulips (Mar-May); windmills - UNESCO | UNESCO |  |
 
-*Total: 3 rows*
+**North Holland**
+
+- [x] **Amsterdam** - Canal ring - UNESCO, Dam Square, Anne Frank House _UNESCO_
+- [ ] **Amsterdam** - Rijksmuseum, Van Gogh Museum; ISKCON Amsterdam _Museum_
+
+**South Holland**
+
+- [ ] **Keukenhof / Kinderdijk** - Tulips (Mar-May); windmills - UNESCO _UNESCO_
+
+**North Holland**
+
+- [ ] **Zaanse Schans / Volendam** - Windmills, cheese farms, clog factory _Sightseeing_
+
+*Netherlands: 1 of 4 visited*
 
 ### Germany
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | North Rhine-Westphalia | Cologne | Cologne Cathedral - UNESCO | UNESCO | Yes |
-| 2 | Baden-Wurttemberg | Black Forest / Triberg | Black Forest, Triberg falls & cuckoo clocks | Nature | Yes |
-| 3 | Bavaria | Munich | Marienplatz, Nymphenburg, BMW; Oktoberfest | Monument |  |
-| 4 | Bavaria | Neuschwanstein | Neuschwanstein Castle | Monument |  |
-| 5 | Bavaria | Jandelsbrunn | ISKCON Simhachalam (Narasimha deity) | ISKCON |  |
-| 6 | Rhineland-Palatinate | Abentheuer | Goloka Dhama | ISKCON |  |
-| 7 | Berlin | Berlin | Brandenburg Gate, Reichstag, Berlin Wall, Museum Island - UNESCO | UNESCO |  |
-| 8 | Hesse / Rhine | Rhine Gorge | Upper Middle Rhine Valley castles - UNESCO | UNESCO |  |
-| 9 | Saxony | Dresden | Frauenkirche, Zwinger | Monument |  |
 
-*Total: 9 rows*
+**North Rhine-Westphalia**
+
+- [x] **Cologne** - Cologne Cathedral - UNESCO _UNESCO_
+
+**Baden-Wurttemberg**
+
+- [x] **Black Forest / Triberg** - Black Forest, Triberg falls & cuckoo clocks _Nature_
+
+**Bavaria**
+
+- [ ] **Munich** - Marienplatz, Nymphenburg, BMW; Oktoberfest _Monument_
+- [ ] **Neuschwanstein** - Neuschwanstein Castle _Monument_
+- [ ] **Jandelsbrunn** - ISKCON Simhachalam (Narasimha deity) _ISKCON_
+
+**Rhineland-Palatinate**
+
+- [ ] **Abentheuer** - Goloka Dhama _ISKCON_
+
+**Berlin**
+
+- [ ] **Berlin** - Brandenburg Gate, Reichstag, Berlin Wall, Museum Island - UNESCO _UNESCO_
+
+**Hesse / Rhine**
+
+- [ ] **Rhine Gorge** - Upper Middle Rhine Valley castles - UNESCO _UNESCO_
+
+**Saxony**
+
+- [ ] **Dresden** - Frauenkirche, Zwinger _Monument_
+
+**Bavaria**
+
+- [ ] **Munich / Fussen** - Oktoberfest (Sep-Oct), Zugspitze, Linderhof _Sightseeing_
+
+**Hesse**
+
+- [ ] **Frankfurt / Heidelberg** - Romerberg, Heidelberg Castle, Rhine cruise Rudesheim _Sightseeing_
+
+*Germany: 2 of 11 visited*
 
 ### Switzerland
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Schaffhausen | Rhine Falls | Rhine Falls | Nature | Yes |
-| 2 | Zurich | Zurich | Old Town, Lake Zurich; ISKCON Zurich | Monument | Yes |
-| 3 | Lucerne | Lucerne | Chapel Bridge, Lion Monument, Lake Lucerne | Monument | Yes |
-| 4 | Obwalden | Engelberg | Mt Titlis (Cliff Walk, Ice Flyer) | Nature | Yes |
-| 5 | Bern | Interlaken / Jungfrau | Jungfraujoch - Top of Europe; Jungfrau-Aletsch - UNESCO | UNESCO |  |
-| 6 | Valais | Zermatt | Matterhorn, Gornergrat | Nature |  |
-| 7 | Bern | Bern | Old City - UNESCO | UNESCO |  |
-| 8 | Geneva / Vaud | Geneva / Montreux | Lake Geneva, Chillon Castle, UN | Monument |  |
 
-*Total: 8 rows*
+**Schaffhausen**
+
+- [x] **Rhine Falls** - Rhine Falls _Nature_
+
+**Zurich**
+
+- [x] **Zurich** - Old Town, Lake Zurich; ISKCON Zurich _Monument_
+
+**Lucerne**
+
+- [x] **Lucerne** - Chapel Bridge, Lion Monument, Lake Lucerne _Monument_
+
+**Obwalden**
+
+- [x] **Engelberg** - Mt Titlis (Cliff Walk, Ice Flyer) _Nature_
+
+**Bern**
+
+- [ ] **Interlaken / Jungfrau** - Jungfraujoch - Top of Europe; Jungfrau-Aletsch - UNESCO _UNESCO_
+
+**Valais**
+
+- [ ] **Zermatt** - Matterhorn, Gornergrat _Nature_
+
+**Bern**
+
+- [ ] **Bern** - Old City - UNESCO _UNESCO_
+
+**Geneva / Vaud**
+
+- [ ] **Geneva / Montreux** - Lake Geneva, Chillon Castle, UN _Monument_
+
+**Bern**
+
+- [ ] **Interlaken / Grindelwald** - Harder Kulm, First cliff walk, Lauterbrunnen falls, Schilthorn (Bond) _Nature_
+
+**Lucerne**
+
+- [ ] **Lucerne** - Mt Pilatus (cogwheel + cable car), Lake Lucerne cruise _Nature_
+
+**Valais / Graubunden**
+
+- [ ] **Zermatt / St Moritz** - Glacier Express train, Bernina Express _Nature_
+
+**Vaud**
+
+- [ ] **Montreux / Lausanne** - Lavaux vineyards, Chaplin's World, Olympic Museum _Sightseeing_
+
+*Switzerland: 4 of 12 visited*
 
 ### Italy
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Lombardy | Milan | Duomo, Galleria, Sforza Castle, Last Supper - UNESCO | UNESCO | Yes |
-| 2 | Lombardy | Chignolo d'Isola | Villaggio Hare Krishna | ISKCON | Yes |
-| 3 | Veneto | Venice | St Mark's, Doge's Palace, Rialto, gondola - UNESCO | UNESCO | Yes |
-| 4 | Veneto | Padova | Prato della Valle, St Anthony's Basilica, Scrovegni Chapel - UNESCO | UNESCO | Yes |
-| 5 | Veneto | Verona | Arena, Juliet's house - UNESCO | UNESCO |  |
-| 6 | Tuscany | Florence | Duomo, Ponte Vecchio, Piazza della Signoria, Uffizi - UNESCO | UNESCO | Yes |
-| 7 | Tuscany | Florence (San Casciano) | ISKCON Villa Vrindavana | ISKCON | Yes |
-| 8 | Tuscany | Pisa | Leaning Tower (Piazza dei Miracoli) - UNESCO | UNESCO | Yes |
-| 9 | Tuscany | Arezzo / Siena / San Gimignano | Tuscan hill towns - UNESCO | UNESCO | Yes |
-| 10 | Lazio | Rome | Colosseum, Roman Forum, Pantheon - UNESCO | UNESCO | Yes |
-| 11 | Lazio | Rome | Trevi Fountain, Spanish Steps, Piazza Navona; ISKCON Rome | Monument |  |
-| 12 | Campania | Pompeii / Amalfi / Capri | Pompeii - UNESCO; Amalfi Coast - UNESCO | UNESCO |  |
-| 13 | Campania | Naples | Historic centre - UNESCO, Vesuvius | UNESCO |  |
-| 14 | Sicily | Agrigento / Taormina / Etna | Valley of Temples - UNESCO; Mt Etna - UNESCO | UNESCO |  |
-| 15 | Liguria | Cinque Terre | Cinque Terre - UNESCO | UNESCO |  |
-| 16 | Lake Como | Como / Bellagio | Lake Como | Nature |  |
 
-*Total: 16 rows*
+**Lombardy**
+
+- [x] **Milan** - Duomo, Galleria, Sforza Castle, Last Supper - UNESCO _UNESCO_
+- [x] **Chignolo d'Isola** - Villaggio Hare Krishna _ISKCON_
+
+**Veneto**
+
+- [x] **Venice** - St Mark's, Doge's Palace, Rialto, gondola - UNESCO _UNESCO_
+- [x] **Padova** - Prato della Valle, St Anthony's Basilica, Scrovegni Chapel - UNESCO _UNESCO_
+- [ ] **Verona** - Arena, Juliet's house - UNESCO _UNESCO_
+
+**Tuscany**
+
+- [x] **Florence** - Duomo, Ponte Vecchio, Piazza della Signoria, Uffizi - UNESCO _UNESCO_
+- [x] **Florence (San Casciano)** - ISKCON Villa Vrindavana _ISKCON_
+- [x] **Pisa** - Leaning Tower (Piazza dei Miracoli) - UNESCO _UNESCO_
+- [x] **Arezzo / Siena / San Gimignano** - Tuscan hill towns - UNESCO _UNESCO_
+
+**Lazio**
+
+- [x] **Rome** - Colosseum, Roman Forum, Pantheon - UNESCO _UNESCO_
+- [ ] **Rome** - Trevi Fountain, Spanish Steps, Piazza Navona; ISKCON Rome _Monument_
+
+**Campania**
+
+- [ ] **Pompeii / Amalfi / Capri** - Pompeii - UNESCO; Amalfi Coast - UNESCO _UNESCO_
+- [ ] **Naples** - Historic centre - UNESCO, Vesuvius _UNESCO_
+
+**Sicily**
+
+- [ ] **Agrigento / Taormina / Etna** - Valley of Temples - UNESCO; Mt Etna - UNESCO _UNESCO_
+
+**Liguria**
+
+- [ ] **Cinque Terre** - Cinque Terre - UNESCO _UNESCO_
+
+**Lake Como**
+
+- [ ] **Como / Bellagio** - Lake Como _Nature_
+
+**Veneto**
+
+- [ ] **Venice** - Murano & Burano islands, Lido _Sightseeing_
+
+**Lazio**
+
+- [ ] **Rome** - Vatican Museums & Sistine Chapel, Trevi, Spanish Steps, Piazza Navona, Trastevere _Sightseeing_
+
+**Campania**
+
+- [ ] **Sorrento / Positano / Capri** - Amalfi drive, Blue Grotto, Pompeii _Sightseeing_
+
+**Tuscany**
+
+- [ ] **Chianti / Val d'Orcia** - Tuscan countryside, San Gimignano _Nature_
+
+**Lombardy**
+
+- [ ] **Lake Como / Garda** - Bellagio, Varenna, Gardaland theme park _Nature_
+
+*Italy: 9 of 21 visited*
 
 ### Vatican City
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Vatican | Vatican City | St Peter's Basilica & Square - UNESCO | UNESCO | Yes |
-| 2 | Vatican | Vatican City | Vatican Museums & Sistine Chapel | Museum |  |
 
-*Total: 2 rows*
+**Vatican**
+
+- [x] **Vatican City** - St Peter's Basilica & Square - UNESCO _UNESCO_
+- [ ] **Vatican City** - Vatican Museums & Sistine Chapel _Museum_
+
+*Vatican City: 1 of 2 visited*
 
 ### Spain
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Catalonia | Barcelona | Sagrada Familia, Park Guell (Gaudi) - UNESCO; ISKCON Barcelona | UNESCO |  |
-| 2 | Madrid | Madrid | Prado, Royal Palace; ISKCON Madrid | Museum |  |
-| 3 | Andalusia | Granada / Seville / Cordoba | Alhambra - UNESCO; Seville Cathedral; Mezquita - UNESCO | UNESCO |  |
-| 4 | Andalusia | Brihuega / Guadalajara | New Vraja Mandala (ISKCON farm) | ISKCON |  |
 
-*Total: 4 rows*
+**Catalonia**
+
+- [ ] **Barcelona** - Sagrada Familia, Park Guell (Gaudi) - UNESCO; ISKCON Barcelona _UNESCO_
+
+**Madrid**
+
+- [ ] **Madrid** - Prado, Royal Palace; ISKCON Madrid _Museum_
+
+**Andalusia**
+
+- [ ] **Granada / Seville / Cordoba** - Alhambra - UNESCO; Seville Cathedral; Mezquita - UNESCO _UNESCO_
+- [ ] **Brihuega / Guadalajara** - New Vraja Mandala (ISKCON farm) _ISKCON_
+
+**Catalonia**
+
+- [ ] **Barcelona** - La Rambla, Camp Nou tour, Montserrat monastery, Magic Fountain _Sightseeing_
+
+**Madrid**
+
+- [ ] **Madrid** - Santiago Bernabeu tour, Retiro Park, Toledo day trip _Sightseeing_
+
+**Andalusia**
+
+- [ ] **Seville / Ronda** - Flamenco show, Plaza de Espana, Ronda bridge _Sightseeing_
+
+**Balearic / Canary Is.**
+
+- [ ] **Mallorca / Ibiza / Tenerife** - Beaches, Mt Teide _Beach_
+
+*Spain: 0 of 8 visited*
 
 ### Portugal
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Lisbon | Lisbon / Sintra | Belem Tower, Jeronimos - UNESCO; Sintra - UNESCO; ISKCON Lisbon | UNESCO |  |
-| 2 | Porto | Porto | Ribeira - UNESCO, Douro valley | UNESCO |  |
 
-*Total: 2 rows*
+**Lisbon**
+
+- [ ] **Lisbon / Sintra** - Belem Tower, Jeronimos - UNESCO; Sintra - UNESCO; ISKCON Lisbon _UNESCO_
+
+**Porto**
+
+- [ ] **Porto** - Ribeira - UNESCO, Douro valley _UNESCO_
+
+**Lisbon**
+
+- [ ] **Lisbon / Sintra / Cascais** - Tram 28, Pena Palace, Cabo da Roca _Sightseeing_
+
+**Algarve**
+
+- [ ] **Lagos / Albufeira** - Benagil cave, cliffs _Beach_
+
+*Portugal: 0 of 4 visited*
 
 ### Austria
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Vienna | Vienna | Schonbrunn, Hofburg, St Stephen's - UNESCO; ISKCON Vienna | UNESCO |  |
-| 2 | Salzburg | Salzburg / Hallstatt | Mozart city - UNESCO; Hallstatt - UNESCO | UNESCO |  |
 
-*Total: 2 rows*
+**Vienna**
+
+- [ ] **Vienna** - Schonbrunn, Hofburg, St Stephen's - UNESCO; ISKCON Vienna _UNESCO_
+
+**Salzburg**
+
+- [ ] **Salzburg / Hallstatt** - Mozart city - UNESCO; Hallstatt - UNESCO _UNESCO_
+
+**Tyrol**
+
+- [ ] **Innsbruck / Salzburg** - Swarovski Crystal Worlds, Sound of Music tour, Hallstatt _Sightseeing_
+
+*Austria: 0 of 3 visited*
 
 ### Czechia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Prague | Prague | Charles Bridge, Prague Castle, Old Town - UNESCO; ISKCON Prague | UNESCO |  |
-| 2 | Central Bohemia | Krishnuv Dvur | ISKCON farm (Krsnuv Dvur) | ISKCON |  |
 
-*Total: 2 rows*
+**Prague**
+
+- [ ] **Prague** - Charles Bridge, Prague Castle, Old Town - UNESCO; ISKCON Prague _UNESCO_
+
+**Central Bohemia**
+
+- [ ] **Krishnuv Dvur** - ISKCON farm (Krsnuv Dvur) _ISKCON_
+
+**Prague**
+
+- [ ] **Prague** - Astronomical Clock, Vltava cruise, Petrin Tower, Cesky Krumlov day trip _Sightseeing_
+
+*Czechia: 0 of 3 visited*
 
 ### Hungary
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Budapest | Budapest | Parliament, Buda Castle, Danube - UNESCO; ISKCON Budapest | UNESCO |  |
-| 2 | Somogy | Somogyvamos | Krishna Valley (Krisna-volgy) - eco village | ISKCON |  |
 
-*Total: 2 rows*
+**Budapest**
+
+- [ ] **Budapest** - Parliament, Buda Castle, Danube - UNESCO; ISKCON Budapest _UNESCO_
+
+**Somogy**
+
+- [ ] **Somogyvamos** - Krishna Valley (Krisna-volgy) - eco village _ISKCON_
+
+**Budapest**
+
+- [ ] **Budapest** - Szechenyi thermal baths, Fisherman's Bastion, Danube night cruise _Sightseeing_
+
+*Hungary: 0 of 3 visited*
 
 ### Poland
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Krakow | Krakow / Auschwitz | Old Town - UNESCO; Wieliczka salt mine - UNESCO | UNESCO |  |
-| 2 | Lower Silesia | Czarnow | New Santipur (ISKCON) | ISKCON |  |
 
-*Total: 2 rows*
+**Krakow**
+
+- [ ] **Krakow / Auschwitz** - Old Town - UNESCO; Wieliczka salt mine - UNESCO _UNESCO_
+
+**Lower Silesia**
+
+- [ ] **Czarnow** - New Santipur (ISKCON) _ISKCON_
+
+*Poland: 0 of 2 visited*
 
 ### Greece
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Attica | Athens | Acropolis & Parthenon - UNESCO | UNESCO |  |
-| 2 | Islands | Santorini / Mykonos / Delphi / Meteora | Meteora - UNESCO; Delphi - UNESCO | UNESCO |  |
 
-*Total: 2 rows*
+**Attica**
+
+- [ ] **Athens** - Acropolis & Parthenon - UNESCO _UNESCO_
+
+**Islands**
+
+- [ ] **Santorini / Mykonos / Delphi / Meteora** - Meteora - UNESCO; Delphi - UNESCO _UNESCO_
+
+**South Aegean**
+
+- [ ] **Santorini / Mykonos** - Oia sunset, caldera cruise, Mykonos windmills _Beach_
+
+**Crete / Ionian**
+
+- [ ] **Crete / Corfu / Zakynthos** - Knossos, Navagio beach _Beach_
+
+*Greece: 0 of 4 visited*
 
 ### Croatia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Dalmatia | Dubrovnik / Split / Plitvice | Old City - UNESCO; Diocletian's Palace; Plitvice - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Dalmatia**
+
+- [ ] **Dubrovnik / Split / Plitvice** - Old City - UNESCO; Diocletian's Palace; Plitvice - UNESCO _UNESCO_
+- [ ] **Dubrovnik / Hvar** - City walls walk (Game of Thrones), Hvar island _Sightseeing_
+
+*Croatia: 0 of 2 visited*
 
 ### Slovenia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Upper Carniola | Lake Bled / Ljubljana | Lake Bled | Nature |  |
 
-*Total: 1 rows*
+**Upper Carniola**
+
+- [ ] **Lake Bled / Ljubljana** - Lake Bled _Nature_
+
+*Slovenia: 0 of 1 visited*
 
 ### Denmark
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Copenhagen | Copenhagen | Nyhavn, Little Mermaid, Tivoli; ISKCON Copenhagen | Monument |  |
 
-*Total: 1 rows*
+**Copenhagen**
+
+- [ ] **Copenhagen** - Nyhavn, Little Mermaid, Tivoli; ISKCON Copenhagen _Monument_
+
+*Denmark: 0 of 1 visited*
 
 ### Sweden
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Stockholm | Stockholm / Korsnas | Gamla Stan, Vasa Museum; Almviks Gard (ISKCON farm) | ISKCON |  |
 
-*Total: 1 rows*
+**Stockholm**
+
+- [ ] **Stockholm / Korsnas** - Gamla Stan, Vasa Museum; Almviks Gard (ISKCON farm) _ISKCON_
+
+*Sweden: 0 of 1 visited*
 
 ### Norway
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Western fjords | Bergen / Geiranger / Tromso | Fjords - UNESCO; Northern lights | UNESCO |  |
 
-*Total: 1 rows*
+**Western fjords**
+
+- [ ] **Bergen / Geiranger / Tromso** - Fjords - UNESCO; Northern lights _UNESCO_
+
+**Western**
+
+- [ ] **Bergen / Lofoten** - Flam railway, Preikestolen, Lofoten Islands, Tromso aurora _Nature_
+
+*Norway: 0 of 2 visited*
 
 ### Finland / Iceland
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Lapland / Reykjavik | Northern lights, Golden Circle, Blue Lagoon | Nature |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Lapland / Reykjavik** - Northern lights, Golden Circle, Blue Lagoon _Nature_
+
+*Finland / Iceland: 0 of 1 visited*
 
 ### Ireland
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Leinster | Dublin | Trinity College (Book of Kells), Guinness; ISKCON Dublin | Monument |  |
-| 2 | Ulster | Fermanagh | Inis Rath - Govindadwipa (Hare Krishna island) | ISKCON |  |
-| 3 | Munster | Cliffs of Moher / Ring of Kerry | Cliffs of Moher | Nature |  |
 
-*Total: 3 rows*
+**Leinster**
+
+- [ ] **Dublin** - Trinity College (Book of Kells), Guinness; ISKCON Dublin _Monument_
+
+**Ulster**
+
+- [ ] **Fermanagh** - Inis Rath - Govindadwipa (Hare Krishna island) _ISKCON_
+
+**Munster**
+
+- [ ] **Cliffs of Moher / Ring of Kerry** - Cliffs of Moher _Nature_
+
+**Leinster / Munster**
+
+- [ ] **Dublin / Killarney** - Guinness Storehouse, Temple Bar, Cliffs of Moher, Ring of Kerry _Sightseeing_
+
+*Ireland: 0 of 4 visited*
 
 ### Turkey
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Istanbul | Istanbul | Hagia Sophia, Blue Mosque, Topkapi - UNESCO | UNESCO |  |
-| 2 | Cappadocia | Goreme | Balloons, rock churches - UNESCO | UNESCO |  |
-| 3 | Denizli / Izmir | Pamukkale / Ephesus | Travertines - UNESCO; Ephesus - UNESCO | UNESCO |  |
 
-*Total: 3 rows*
+**Istanbul**
+
+- [ ] **Istanbul** - Hagia Sophia, Blue Mosque, Topkapi - UNESCO _UNESCO_
+
+**Cappadocia**
+
+- [ ] **Goreme** - Balloons, rock churches - UNESCO _UNESCO_
+
+**Denizli / Izmir**
+
+- [ ] **Pamukkale / Ephesus** - Travertines - UNESCO; Ephesus - UNESCO _UNESCO_
+
+**Istanbul**
+
+- [ ] **Istanbul** - Bosphorus cruise, Grand Bazaar, Galata Tower, Basilica Cistern _Sightseeing_
+
+**Antalya**
+
+- [ ] **Antalya** - Mediterranean resorts, Duden falls _Beach_
+
+*Turkey: 0 of 5 visited*
 
 ### Russia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Moscow | Moscow | Red Square, Kremlin, St Basil's - UNESCO; ISKCON Moscow (new temple) | UNESCO |  |
-| 2 | St Petersburg | St Petersburg | Hermitage, Peterhof - UNESCO | UNESCO |  |
 
-*Total: 2 rows*
+**Moscow**
+
+- [ ] **Moscow** - Red Square, Kremlin, St Basil's - UNESCO; ISKCON Moscow (new temple) _UNESCO_
+
+**St Petersburg**
+
+- [ ] **St Petersburg** - Hermitage, Peterhof - UNESCO _UNESCO_
+
+**Moscow**
+
+- [ ] **Moscow** - Bolshoi Theatre, Moscow Metro tour, Gorky Park _Sightseeing_
+
+*Russia: 0 of 3 visited*
 
 ### UAE
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Dubai | Dubai | Burj Khalifa & Dubai Mall / Fountain | Modern |  |
-| 2 | Dubai | Dubai | ISKCON Dubai (Bur Dubai Shiva-Krishna temple) & Hindu Temple Jebel Ali | Temple |  |
-| 3 | Dubai | Dubai | Palm Jumeirah, Atlantis, Burj Al Arab, Dubai Marina | Modern |  |
-| 4 | Dubai | Dubai | Old Dubai - Al Fahidi, Gold & Spice souks, Dubai Creek abra | Monument |  |
-| 5 | Dubai | Dubai | Museum of the Future, Dubai Frame, Global Village (Nov-Apr) | Modern |  |
-| 6 | Dubai | Dubai | Desert safari, Miracle Garden (Nov-Apr) | Nature |  |
-| 7 | Abu Dhabi | Abu Dhabi | BAPS Hindu Mandir (Abu Mureikhah) - first traditional Hindu temple in UAE | Temple |  |
-| 8 | Abu Dhabi | Abu Dhabi | Sheikh Zayed Grand Mosque | Monument |  |
-| 9 | Abu Dhabi | Abu Dhabi | Louvre Abu Dhabi, Qasr Al Watan, Emirates Palace | Museum |  |
-| 10 | Abu Dhabi | Yas Island | Ferrari World, Yas Marina F1 circuit | Modern |  |
-| 11 | Sharjah / Fujairah | Sharjah | Sharjah heritage area, Al Noor; Fujairah fort | Monument |  |
 
-*Total: 11 rows*
+**Dubai**
+
+- [ ] **Dubai** - Burj Khalifa & Dubai Mall / Fountain _Modern_
+- [ ] **Dubai** - ISKCON Dubai (Bur Dubai Shiva-Krishna temple) & Hindu Temple Jebel Ali _Temple_
+- [ ] **Dubai** - Palm Jumeirah, Atlantis, Burj Al Arab, Dubai Marina _Modern_
+- [ ] **Dubai** - Old Dubai - Al Fahidi, Gold & Spice souks, Dubai Creek abra _Monument_
+- [ ] **Dubai** - Museum of the Future, Dubai Frame, Global Village (Nov-Apr) _Modern_
+- [ ] **Dubai** - Desert safari, Miracle Garden (Nov-Apr) _Nature_
+
+**Abu Dhabi**
+
+- [ ] **Abu Dhabi** - BAPS Hindu Mandir (Abu Mureikhah) - first traditional Hindu temple in UAE _Temple_
+- [ ] **Abu Dhabi** - Sheikh Zayed Grand Mosque _Monument_
+- [ ] **Abu Dhabi** - Louvre Abu Dhabi, Qasr Al Watan, Emirates Palace _Museum_
+- [ ] **Yas Island** - Ferrari World, Yas Marina F1 circuit _Modern_
+
+**Sharjah / Fujairah**
+
+- [ ] **Sharjah** - Sharjah heritage area, Al Noor; Fujairah fort _Monument_
+
+**Dubai**
+
+- [ ] **Dubai** - Dubai Aquarium, Ski Dubai, IMG Worlds, Motiongate, Legoland, La Perle show _Theme park_
+- [ ] **Dubai** - Dhow cruise Marina, Dubai Opera, Jumeirah Beach, Ain Dubai, Al Seef _Sightseeing_
+
+**Abu Dhabi**
+
+- [ ] **Yas Island** - Warner Bros World, Yas Waterworld, SeaWorld Abu Dhabi, Saadiyat beach _Theme park_
+
+*UAE: 0 of 14 visited*
 
 ### Sri Lanka
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Western | Colombo | ISKCON Colombo (New Kurukshetra); Gangaramaya; Kelaniya Raja Maha Vihara | ISKCON | Yes |
-| 2 | Central | Nuwara Eliya | Seetha Amman Kovil (Ashok Vatika), Hakgala garden | Temple | Yes |
-| 3 | Central | Kandy | Temple of the Tooth - UNESCO; Kataragama devale | UNESCO | Yes |
-| 4 | Central | Dambulla / Sigiriya | Golden Cave Temple - UNESCO; Sigiriya rock - UNESCO (Ravana link) | UNESCO | Yes |
-| 5 | Central | Ella | Ravana Falls & Ravana cave, Nine Arch Bridge | Nature | Yes |
-| 6 | Uva / Southern | Kataragama | Kataragama (Murugan) shrine | Temple | Yes |
-| 7 | Northern | Jaffna | Nallur Kandaswamy Kovil, Nagadeepa | Temple | Yes |
-| 8 | Northern | Jaffna / Mannar | Nilavarai well, Keerimalai, Naguleswaram, Thiruketheeswaram, Rama Setu view | Temple | Yes |
-| 9 | Central | Ramboda | Ramboda Hanuman temple & falls | Temple | Yes |
-| 10 | Eastern | Trincomalee | Koneswaram (Thirukoneswaram) & Shankari Devi; Kanniya hot wells | Temple | Yes |
-| 11 | North Western | Chilaw | Munneswaram & Manavari (first Shiva linga by Rama) | Temple | Yes |
-| 12 | Western | Rumassala / Unawatuna | Rumassala (Sanjeevani hill), Galle Fort - UNESCO | UNESCO | Yes |
-| 13 | Anuradhapura | Anuradhapura / Polonnaruwa | Sacred city - UNESCO; Jaya Sri Maha Bodhi | UNESCO |  |
-| 14 | Southern | Ussangoda / Dondra | Ussangoda (Hanuman burnt land), Dondra Vishnu devale | Temple | Yes |
 
-*Total: 14 rows*
+**Western**
+
+- [x] **Colombo** - ISKCON Colombo (New Kurukshetra); Gangaramaya; Kelaniya Raja Maha Vihara _ISKCON_
+
+**Central**
+
+- [x] **Nuwara Eliya** - Seetha Amman Kovil (Ashok Vatika), Hakgala garden _Temple_
+- [x] **Kandy** - Temple of the Tooth - UNESCO; Kataragama devale _UNESCO_
+- [x] **Dambulla / Sigiriya** - Golden Cave Temple - UNESCO; Sigiriya rock - UNESCO (Ravana link) _UNESCO_
+- [x] **Ella** - Ravana Falls & Ravana cave, Nine Arch Bridge _Nature_
+
+**Uva / Southern**
+
+- [x] **Kataragama** - Kataragama (Murugan) shrine _Temple_
+
+**Northern**
+
+- [x] **Jaffna** - Nallur Kandaswamy Kovil, Nagadeepa _Temple_
+- [x] **Jaffna / Mannar** - Nilavarai well, Keerimalai, Naguleswaram, Thiruketheeswaram, Rama Setu view _Temple_
+
+**Central**
+
+- [x] **Ramboda** - Ramboda Hanuman temple & falls _Temple_
+
+**Eastern**
+
+- [x] **Trincomalee** - Koneswaram (Thirukoneswaram) & Shankari Devi; Kanniya hot wells _Temple_
+
+**North Western**
+
+- [x] **Chilaw** - Munneswaram & Manavari (first Shiva linga by Rama) _Temple_
+
+**Western**
+
+- [x] **Rumassala / Unawatuna** - Rumassala (Sanjeevani hill), Galle Fort - UNESCO _UNESCO_
+
+**Anuradhapura**
+
+- [ ] **Anuradhapura / Polonnaruwa** - Sacred city - UNESCO; Jaya Sri Maha Bodhi _UNESCO_
+
+**Southern**
+
+- [x] **Ussangoda / Dondra** - Ussangoda (Hanuman burnt land), Dondra Vishnu devale _Temple_
+
+**Central**
+
+- [ ] **Kandy / Nuwara Eliya** - Kandy-Ella scenic train, Peradeniya gardens, Gregory lake, tea factory _Nature_
+
+**Southern**
+
+- [ ] **Mirissa / Bentota / Yala** - Whale watching, turtle hatchery, Yala leopard safari _Wildlife_
+
+**Central**
+
+- [ ] **Pinnawala / Minneriya** - Elephant orphanage; Minneriya elephant gathering (Aug-Sep) _Wildlife_
+
+*Sri Lanka: 13 of 17 visited*
 
 ### Cambodia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Siem Reap | Siem Reap | Angkor Wat (Vishnu temple) - UNESCO | UNESCO | Likely |
-| 2 | Siem Reap | Siem Reap | Angkor Thom - Bayon, Ta Prohm, Banteay Srei | UNESCO | Likely |
-| 3 | Siem Reap | Tonle Sap | Floating villages | Nature |  |
-| 4 | Phnom Penh | Phnom Penh | Royal Palace, Silver Pagoda, National Museum | Monument |  |
-| 5 | Preah Vihear | Preah Vihear | Preah Vihear (Shiva temple) - UNESCO | UNESCO |  |
-| 6 | Kampong Thom | Sambor Prei Kuk | Pre-Angkor temples - UNESCO | UNESCO |  |
 
-*Total: 6 rows*
+**Siem Reap**
+
+- [ ] **Siem Reap** - Angkor Wat (Vishnu temple) - UNESCO _UNESCO_ *(Likely - confirm)*
+- [ ] **Siem Reap** - Angkor Thom - Bayon, Ta Prohm, Banteay Srei _UNESCO_ *(Likely - confirm)*
+- [ ] **Tonle Sap** - Floating villages _Nature_
+
+**Phnom Penh**
+
+- [ ] **Phnom Penh** - Royal Palace, Silver Pagoda, National Museum _Monument_
+
+**Preah Vihear**
+
+- [ ] **Preah Vihear** - Preah Vihear (Shiva temple) - UNESCO _UNESCO_
+
+**Kampong Thom**
+
+- [ ] **Sambor Prei Kuk** - Pre-Angkor temples - UNESCO _UNESCO_
+
+**Siem Reap**
+
+- [ ] **Siem Reap** - Angkor sunrise, Phare circus, Pub Street, Apsara dance _Sightseeing_
+
+*Cambodia: 0 of 7 visited*
 
 ### Thailand
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Bangkok | Bangkok | Grand Palace & Wat Phra Kaew (Emerald Buddha; Ramakien murals) | Monument |  |
-| 2 | Bangkok | Bangkok | Wat Arun, Wat Pho (Reclining Buddha), Chao Phraya cruise | Monument |  |
-| 3 | Bangkok | Bangkok | ISKCON Bangkok; Erawan (Brahma) shrine; Trimurti shrine; Sri Maha Mariamman | Temple |  |
-| 4 | Bangkok | Bangkok | Chatuchak market, Asiatique, Icon Siam | Modern |  |
-| 5 | Ayutthaya | Ayutthaya | Ayutthaya historical park - UNESCO | UNESCO |  |
-| 6 | Sukhothai | Sukhothai | Sukhothai - UNESCO | UNESCO |  |
-| 7 | Chiang Mai | Chiang Mai | Doi Suthep, Old City temples; Yi Peng lanterns (Nov) | Temple |  |
-| 8 | Chonburi | Pattaya | Sanctuary of Truth, Nong Nooch | Modern |  |
-| 9 | Phuket / Krabi | Phuket | Big Buddha, Phi Phi islands | Nature |  |
-| 10 | Nakhon Ratchasima / Buriram | Phimai / Phanom Rung | Khmer Hindu temples (Vishnu, Shiva) | Temple |  |
 
-*Total: 10 rows*
+**Bangkok**
+
+- [ ] **Bangkok** - Grand Palace & Wat Phra Kaew (Emerald Buddha; Ramakien murals) _Monument_
+- [ ] **Bangkok** - Wat Arun, Wat Pho (Reclining Buddha), Chao Phraya cruise _Monument_
+- [ ] **Bangkok** - ISKCON Bangkok; Erawan (Brahma) shrine; Trimurti shrine; Sri Maha Mariamman _Temple_
+- [ ] **Bangkok** - Chatuchak market, Asiatique, Icon Siam _Modern_
+
+**Ayutthaya**
+
+- [ ] **Ayutthaya** - Ayutthaya historical park - UNESCO _UNESCO_
+
+**Sukhothai**
+
+- [ ] **Sukhothai** - Sukhothai - UNESCO _UNESCO_
+
+**Chiang Mai**
+
+- [ ] **Chiang Mai** - Doi Suthep, Old City temples; Yi Peng lanterns (Nov) _Temple_
+
+**Chonburi**
+
+- [ ] **Pattaya** - Sanctuary of Truth, Nong Nooch _Modern_
+
+**Phuket / Krabi**
+
+- [ ] **Phuket** - Big Buddha, Phi Phi islands _Nature_
+
+**Nakhon Ratchasima / Buriram**
+
+- [ ] **Phimai / Phanom Rung** - Khmer Hindu temples (Vishnu, Shiva) _Temple_
+
+**Bangkok**
+
+- [ ] **Bangkok** - Damnoen Saduak floating market, Maeklong railway market, Safari World, Siam Paragon, Khao San Road _Sightseeing_
+
+**Chonburi / Phuket**
+
+- [ ] **Pattaya / Phuket** - Coral Island, Alcazar show, Phi Phi, James Bond island, Phang Nga _Beach_
+
+**Krabi**
+
+- [ ] **Krabi** - Railay beach, 4-island tour, Tiger Cave temple _Beach_
+
+**Chiang Mai**
+
+- [ ] **Chiang Mai / Chiang Rai** - Elephant sanctuary, White Temple, Night Bazaar _Sightseeing_
+
+*Thailand: 0 of 14 visited*
 
 ### Nepal
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Bagmati | Kathmandu | Pashupatinath - UNESCO | Temple | Yes |
-| 2 | Bagmati | Kathmandu | Budhanilkantha (sleeping Vishnu), Swayambhunath, Boudhanath - UNESCO | Temple | Yes |
-| 3 | Bagmati | Patan / Bhaktapur | Krishna Mandir, Durbar Squares - UNESCO | UNESCO | Yes |
-| 4 | Bagmati | Kathmandu | ISKCON Kathmandu (Budhanilkantha) | ISKCON | Yes |
-| 5 | Bagmati | Bhaktapur | Changu Narayan (oldest Vishnu temple) - UNESCO | Temple | Yes |
-| 6 | Bagmati | Kathmandu | Guhyeshwari Shakti peetha | Temple | Yes |
-| 7 | Gandaki | Pokhara | Bindhyabasini, Tal Barahi, Devi's Fall | Temple | Yes |
-| 8 | Gandaki | Mustang | Muktinath (108 water spouts, Shaligram) | Temple | Yes |
-| 9 | Gandaki | Pokhara | Phewa lake, Bindhyabasini, Sarangkot sunrise | Nature | Yes |
-| 10 | Gandaki | Jomsom / Kali Gandaki | Shaligram river, Kagbeni | Nature | Yes |
-| 11 | Madhesh | Janakpur | Janaki Mandir (Sita's birthplace), Vivah Mandap | Temple |  |
-| 12 | Lumbini | Lumbini | Buddha's birthplace - UNESCO | UNESCO |  |
-| 13 | Koshi | Barahakshetra / Pathibhara | Varaha kshetra; Pathibhara Devi | Temple |  |
-| 14 | Bagmati | Everest region | Everest base camp / Kala Patthar or mountain flight | Nature |  |
-| 15 | Bagmati | Chitwan | Chitwan NP - UNESCO | UNESCO |  |
 
-*Total: 15 rows*
+**Bagmati**
+
+- [x] **Kathmandu** - Pashupatinath - UNESCO _Temple_
+- [x] **Kathmandu** - Budhanilkantha (sleeping Vishnu), Swayambhunath, Boudhanath - UNESCO _Temple_
+- [x] **Patan / Bhaktapur** - Krishna Mandir, Durbar Squares - UNESCO _UNESCO_
+- [x] **Kathmandu** - ISKCON Kathmandu (Budhanilkantha) _ISKCON_
+- [x] **Bhaktapur** - Changu Narayan (oldest Vishnu temple) - UNESCO _Temple_
+- [x] **Kathmandu** - Guhyeshwari Shakti peetha _Temple_
+
+**Gandaki**
+
+- [x] **Pokhara** - Bindhyabasini, Tal Barahi, Devi's Fall _Temple_
+- [x] **Mustang** - Muktinath (108 water spouts, Shaligram) _Temple_
+- [x] **Pokhara** - Phewa lake, Bindhyabasini, Sarangkot sunrise _Nature_
+- [x] **Jomsom / Kali Gandaki** - Shaligram river, Kagbeni _Nature_
+
+**Madhesh**
+
+- [ ] **Janakpur** - Janaki Mandir (Sita's birthplace), Vivah Mandap _Temple_
+
+**Lumbini**
+
+- [ ] **Lumbini** - Buddha's birthplace - UNESCO _UNESCO_
+
+**Koshi**
+
+- [ ] **Barahakshetra / Pathibhara** - Varaha kshetra; Pathibhara Devi _Temple_
+
+**Bagmati**
+
+- [ ] **Everest region** - Everest base camp / Kala Patthar or mountain flight _Nature_
+- [ ] **Chitwan** - Chitwan NP - UNESCO _UNESCO_
+
+**Gandaki**
+
+- [ ] **Pokhara** - Paragliding Sarangkot, World Peace Pagoda, Gupteshwar cave _Nature_
+
+**Bagmati**
+
+- [ ] **Kathmandu / Nagarkot** - Everest mountain flight, Nagarkot sunrise, Thamel _Nature_
+
+*Nepal: 10 of 17 visited*
 
 ### Bhutan
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Paro / Thimphu | Paro | Tiger's Nest (Taktsang), Punakha Dzong, Thimphu Buddha | Monument |  |
 
-*Total: 1 rows*
+**Paro / Thimphu**
+
+- [ ] **Paro** - Tiger's Nest (Taktsang), Punakha Dzong, Thimphu Buddha _Monument_
+
+**-**
+
+- [ ] **Paro / Thimphu** - Dochula pass, Phobjikha valley (black-necked cranes), Tshechu festival _Nature_
+
+*Bhutan: 0 of 2 visited*
 
 ### Bangladesh
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Dhaka / Sylhet | Dhaka | Dhakeshwari; ISKCON Dhaka (Swamibag); Sri Chaitanya birthplace link at Sylhet | Temple |  |
 
-*Total: 1 rows*
+**Dhaka / Sylhet**
+
+- [ ] **Dhaka** - Dhakeshwari; ISKCON Dhaka (Swamibag); Sri Chaitanya birthplace link at Sylhet _Temple_
+
+*Bangladesh: 0 of 1 visited*
 
 ### Maldives
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Male / atolls | Island resort, snorkelling | Nature |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Male / atolls** - Island resort, snorkelling _Nature_
+- [ ] **Male / atolls** - Overwater villa, bioluminescent beach (Vaadhoo), snorkelling with manta rays _Beach_
+
+*Maldives: 0 of 2 visited*
 
 ### Mauritius
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Grand Bassin | Ganga Talao (Shiva), ISKCON Mauritius (Phoenix), Le Morne - UNESCO | Temple |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Grand Bassin** - Ganga Talao (Shiva), ISKCON Mauritius (Phoenix), Le Morne - UNESCO _Temple_
+- [ ] **Mauritius** - Chamarel seven-coloured earth, Ile aux Cerfs, underwater waterfall (Le Morne), catamaran _Beach_
+
+*Mauritius: 0 of 2 visited*
 
 ### Malaysia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Selangor | Kuala Lumpur | Batu Caves (Murugan), Petronas Towers; ISKCON KL | Temple |  |
-| 2 | Penang | George Town | George Town - UNESCO; Kek Lok Si | UNESCO |  |
 
-*Total: 2 rows*
+**Selangor**
+
+- [ ] **Kuala Lumpur** - Batu Caves (Murugan), Petronas Towers; ISKCON KL _Temple_
+
+**Penang**
+
+- [ ] **George Town** - George Town - UNESCO; Kek Lok Si _UNESCO_
+
+**Kuala Lumpur / Pahang**
+
+- [ ] **KL / Genting / Langkawi** - KL Tower, Genting Highlands SkyWorlds, Langkawi SkyBridge & cable car _Theme park_
+
+*Malaysia: 0 of 3 visited*
 
 ### Singapore
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Singapore | Marina Bay Sands, Gardens by the Bay, Sri Mariamman, Sri Krishnan temple, Sentosa | Modern |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Singapore** - Marina Bay Sands, Gardens by the Bay, Sri Mariamman, Sri Krishnan temple, Sentosa _Modern_
+- [ ] **Singapore** - Universal Studios, Marina Bay light show, Night Safari, Jewel Changi waterfall, Little India, Merlion, Sentosa cable car _Theme park_
+
+*Singapore: 0 of 2 visited*
 
 ### Indonesia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Bali | Ubud / Uluwatu / Besakih | Besakih mother temple, Tanah Lot, Uluwatu, Tirta Empul; Kecak dance (Ramayana) | Temple |  |
-| 2 | Central Java | Yogyakarta | Prambanan (Shiva-Vishnu-Brahma) - UNESCO; Borobudur - UNESCO | UNESCO |  |
-| 3 | Jakarta | Jakarta | ISKCON Jakarta; Monas | ISKCON |  |
 
-*Total: 3 rows*
+**Bali**
+
+- [ ] **Ubud / Uluwatu / Besakih** - Besakih mother temple, Tanah Lot, Uluwatu, Tirta Empul; Kecak dance (Ramayana) _Temple_
+
+**Central Java**
+
+- [ ] **Yogyakarta** - Prambanan (Shiva-Vishnu-Brahma) - UNESCO; Borobudur - UNESCO _UNESCO_
+
+**Jakarta**
+
+- [ ] **Jakarta** - ISKCON Jakarta; Monas _ISKCON_
+
+**Bali**
+
+- [ ] **Bali** - Ubud rice terraces (Tegallalang), Nusa Penida (Kelingking), Kuta/Seminyak, Mt Batur sunrise, Bali Swing _Beach_
+
+*Indonesia: 0 of 4 visited*
 
 ### Vietnam
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Quang Nam / Ha Long | My Son / Ha Long Bay | My Son Cham Shiva temples - UNESCO; Ha Long Bay - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Quang Nam / Ha Long**
+
+- [ ] **My Son / Ha Long Bay** - My Son Cham Shiva temples - UNESCO; Ha Long Bay - UNESCO _UNESCO_
+
+**-**
+
+- [ ] **Hanoi / Da Nang / HCMC** - Ha Long Bay cruise, Golden Bridge (Ba Na Hills), Hoi An lanterns, Cu Chi tunnels, Sapa _Sightseeing_
+
+*Vietnam: 0 of 2 visited*
 
 ### Laos
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Champasak | Vat Phou | Vat Phou Khmer Hindu temple - UNESCO; Luang Prabang - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Champasak**
+
+- [ ] **Vat Phou** - Vat Phou Khmer Hindu temple - UNESCO; Luang Prabang - UNESCO _UNESCO_
+
+*Laos: 0 of 1 visited*
 
 ### Myanmar
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Mandalay / Bagan | Bagan | Bagan temples - UNESCO; Shwedagon Pagoda (Yangon) | UNESCO |  |
 
-*Total: 1 rows*
+**Mandalay / Bagan**
+
+- [ ] **Bagan** - Bagan temples - UNESCO; Shwedagon Pagoda (Yangon) _UNESCO_
+
+*Myanmar: 0 of 1 visited*
 
 ### Philippines
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Luzon | Manila / Banaue | Intramuros; rice terraces - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Luzon**
+
+- [ ] **Manila / Banaue** - Intramuros; rice terraces - UNESCO _UNESCO_
+
+*Philippines: 0 of 1 visited*
 
 ### Japan
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Kanto | Tokyo | Senso-ji, Meiji shrine, Shibuya, Skytree; ISKCON Tokyo (Funabori) | Monument |  |
-| 2 | Kansai | Kyoto / Nara | Fushimi Inari, Kinkaku-ji, Kiyomizu - UNESCO; Todai-ji (Nara) | UNESCO |  |
-| 3 | Kansai | Osaka / Hiroshima | Osaka Castle; Peace Memorial - UNESCO; Miyajima | UNESCO |  |
-| 4 | Chubu | Mt Fuji / Hakone | Mt Fuji - UNESCO | UNESCO |  |
 
-*Total: 4 rows*
+**Kanto**
+
+- [ ] **Tokyo** - Senso-ji, Meiji shrine, Shibuya, Skytree; ISKCON Tokyo (Funabori) _Monument_
+
+**Kansai**
+
+- [ ] **Kyoto / Nara** - Fushimi Inari, Kinkaku-ji, Kiyomizu - UNESCO; Todai-ji (Nara) _UNESCO_
+- [ ] **Osaka / Hiroshima** - Osaka Castle; Peace Memorial - UNESCO; Miyajima _UNESCO_
+
+**Chubu**
+
+- [ ] **Mt Fuji / Hakone** - Mt Fuji - UNESCO _UNESCO_
+
+**Kanto**
+
+- [ ] **Tokyo** - Tokyo Disneyland & DisneySea, teamLab, Shinjuku, Akihabara, Harajuku, Tsukiji market _Theme park_
+
+**Kansai**
+
+- [ ] **Osaka / Kyoto** - Universal Studios Japan (Nintendo World), Dotonbori, Arashiyama bamboo grove, Gion, cherry blossom (Mar-Apr) _Theme park_
+
+**Hokkaido / Chubu**
+
+- [ ] **Sapporo / Takayama** - Snow festival (Feb), Shirakawa-go, Japanese Alps _Nature_
+
+*Japan: 0 of 7 visited*
 
 ### South Korea
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Seoul | Seoul | Gyeongbokgung, Bukchon, N Seoul Tower; Gimhae (Queen Heo, Ayodhya princess link) | Monument |  |
 
-*Total: 1 rows*
+**Seoul**
+
+- [ ] **Seoul** - Gyeongbokgung, Bukchon, N Seoul Tower; Gimhae (Queen Heo, Ayodhya princess link) _Monument_
+
+**Seoul / Jeju**
+
+- [ ] **Seoul / Jeju** - Lotte World, Everland, Nami Island, Myeongdong, Jeju island (visa-free for Indians), DMZ tour _Theme park_
+
+*South Korea: 0 of 2 visited*
 
 ### China
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Beijing | Beijing | Great Wall - UNESCO, Forbidden City - UNESCO, Temple of Heaven | UNESCO |  |
-| 2 | Shaanxi | Xi'an | Terracotta Army - UNESCO | UNESCO |  |
-| 3 | Shanghai | Shanghai | The Bund, Pudong | Modern |  |
-| 4 | Tibet | Kailash / Manasarovar | Mt Kailash outer kora (Dolma La) & Lake Manasarovar parikrama | Temple | Yes |
-| 5 | Tibet | Lhasa | Potala Palace - UNESCO, Jokhang | UNESCO |  |
 
-*Total: 5 rows*
+**Beijing**
+
+- [ ] **Beijing** - Great Wall - UNESCO, Forbidden City - UNESCO, Temple of Heaven _UNESCO_
+
+**Shaanxi**
+
+- [ ] **Xi'an** - Terracotta Army - UNESCO _UNESCO_
+
+**Shanghai**
+
+- [ ] **Shanghai** - The Bund, Pudong _Modern_
+
+**Tibet**
+
+- [x] **Kailash / Manasarovar** - Mt Kailash outer kora (Dolma La) & Lake Manasarovar parikrama _Temple_
+- [ ] **Lhasa** - Potala Palace - UNESCO, Jokhang _UNESCO_
+
+**Shanghai / Beijing**
+
+- [ ] **Shanghai / Beijing** - Shanghai Disneyland, Bund night cruise, Summer Palace, Mutianyu Great Wall _Theme park_
+
+**Guangxi / Sichuan / Hunan**
+
+- [ ] **Guilin / Chengdu / Zhangjiajie** - Li River, giant pandas, Avatar mountains (Zhangjiajie glass bridge) _Nature_
+
+*China: 1 of 7 visited*
 
 ### Hong Kong
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Hong Kong | Victoria Peak, Big Buddha (Lantau); ISKCON Hong Kong | Modern |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Hong Kong** - Victoria Peak, Big Buddha (Lantau); ISKCON Hong Kong _Modern_
+- [ ] **Hong Kong** - Hong Kong Disneyland, Ocean Park, Star Ferry, Symphony of Lights, Ngong Ping 360 _Theme park_
+
+*Hong Kong: 0 of 2 visited*
 
 ### Taiwan
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Taipei | Taipei 101, Taroko Gorge | Modern |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Taipei** - Taipei 101, Taroko Gorge _Modern_
+- [ ] **Taipei / Jiufen** - Jiufen old street, Sun Moon Lake, Shilin night market _Sightseeing_
+
+*Taiwan: 0 of 2 visited*
 
 ### Kazakhstan
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Almaty | Almaty | Charyn Canyon; Sri Vrindavan Dham (ISKCON farm) | Nature |  |
 
-*Total: 1 rows*
+**Almaty**
+
+- [ ] **Almaty** - Charyn Canyon; Sri Vrindavan Dham (ISKCON farm) _Nature_
+
+*Kazakhstan: 0 of 1 visited*
 
 ### Uzbekistan
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Samarkand / Bukhara | Registan - UNESCO; Bukhara - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Samarkand / Bukhara** - Registan - UNESCO; Bukhara - UNESCO _UNESCO_
+
+*Uzbekistan: 0 of 1 visited*
 
 ### Georgia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Tbilisi / Kazbegi | Old Tbilisi, Gergeti Trinity Church | Monument |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Tbilisi / Kazbegi** - Old Tbilisi, Gergeti Trinity Church _Monument_
+
+*Georgia: 0 of 1 visited*
 
 ### Armenia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Yerevan / Geghard | Geghard - UNESCO, Garni temple | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Yerevan / Geghard** - Geghard - UNESCO, Garni temple _UNESCO_
+
+*Armenia: 0 of 1 visited*
 
 ### Israel / Palestine
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Jerusalem | Old City - UNESCO (Western Wall, Church of Holy Sepulchre, Dome of the Rock) | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Jerusalem** - Old City - UNESCO (Western Wall, Church of Holy Sepulchre, Dome of the Rock) _UNESCO_
+
+*Israel / Palestine: 0 of 1 visited*
 
 ### Jordan
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Petra / Wadi Rum | Petra - UNESCO; Wadi Rum - UNESCO; Dead Sea | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Petra / Wadi Rum** - Petra - UNESCO; Wadi Rum - UNESCO; Dead Sea _UNESCO_
+
+*Jordan: 0 of 1 visited*
 
 ### Saudi Arabia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | AlUla | Hegra - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **AlUla** - Hegra - UNESCO _UNESCO_
+
+*Saudi Arabia: 0 of 1 visited*
 
 ### Oman
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Muscat | Muscat | Sultan Qaboos Mosque, Motishwar Mandir (oldest Hindu temple in Gulf), Nizwa | Temple |  |
 
-*Total: 1 rows*
+**Muscat**
+
+- [ ] **Muscat** - Sultan Qaboos Mosque, Motishwar Mandir (oldest Hindu temple in Gulf), Nizwa _Temple_
+
+*Oman: 0 of 1 visited*
 
 ### Qatar
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Doha | Doha | Museum of Islamic Art, Souq Waqif, Katara | Museum |  |
 
-*Total: 1 rows*
+**Doha**
+
+- [ ] **Doha** - Museum of Islamic Art, Souq Waqif, Katara _Museum_
+
+*Qatar: 0 of 1 visited*
 
 ### Bahrain
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Manama | Manama | Shreenathji Temple (200-yr-old), Bahrain Fort - UNESCO | Temple |  |
 
-*Total: 1 rows*
+**Manama**
+
+- [ ] **Manama** - Shreenathji Temple (200-yr-old), Bahrain Fort - UNESCO _Temple_
+
+*Bahrain: 0 of 1 visited*
 
 ### Egypt
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Giza / Luxor | Giza / Luxor / Aswan | Pyramids & Sphinx - UNESCO; Karnak, Valley of Kings - UNESCO; Abu Simbel; Nile cruise | UNESCO |  |
 
-*Total: 1 rows*
+**Giza / Luxor**
+
+- [ ] **Giza / Luxor / Aswan** - Pyramids & Sphinx - UNESCO; Karnak, Valley of Kings - UNESCO; Abu Simbel; Nile cruise _UNESCO_
+
+**Red Sea**
+
+- [ ] **Hurghada / Sharm** - Red Sea diving, Nile felucca, Cairo museum (GEM) _Beach_
+
+*Egypt: 0 of 2 visited*
 
 ### Kenya
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Nairobi / Maasai Mara | Nairobi | ISKCON Nairobi; Maasai Mara migration (Jul-Oct) | ISKCON |  |
 
-*Total: 1 rows*
+**Nairobi / Maasai Mara**
+
+- [ ] **Nairobi** - ISKCON Nairobi; Maasai Mara migration (Jul-Oct) _ISKCON_
+
+*Kenya: 0 of 1 visited*
 
 ### Tanzania
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Arusha / Zanzibar | Serengeti / Kilimanjaro / Zanzibar | Serengeti - UNESCO; Kilimanjaro - UNESCO; Stone Town - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Arusha / Zanzibar**
+
+- [ ] **Serengeti / Kilimanjaro / Zanzibar** - Serengeti - UNESCO; Kilimanjaro - UNESCO; Stone Town - UNESCO _UNESCO_
+
+*Tanzania: 0 of 1 visited*
 
 ### South Africa
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Western Cape / KZN | Cape Town / Durban | Table Mountain, Robben Island - UNESCO; ISKCON Durban (Sri Sri Radha Radhanath), Kruger NP | ISKCON |  |
 
-*Total: 1 rows*
+**Western Cape / KZN**
+
+- [ ] **Cape Town / Durban** - Table Mountain, Robben Island - UNESCO; ISKCON Durban (Sri Sri Radha Radhanath), Kruger NP _ISKCON_
+
+**-**
+
+- [ ] **Cape Town / Kruger** - Cape of Good Hope, Boulders penguins, Garden Route, Kruger Big Five safari, Soweto _Wildlife_
+
+*South Africa: 0 of 2 visited*
 
 ### Morocco
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Marrakech / Fes / Chefchaouen | Medinas - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Marrakech / Fes / Chefchaouen** - Medinas - UNESCO _UNESCO_
+- [ ] **Marrakech / Sahara** - Jemaa el-Fnaa, Merzouga desert camp, Atlas mountains _Sightseeing_
+
+*Morocco: 0 of 2 visited*
 
 ### Ethiopia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Amhara | Lalibela | Rock-hewn churches - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Amhara**
+
+- [ ] **Lalibela** - Rock-hewn churches - UNESCO _UNESCO_
+
+*Ethiopia: 0 of 1 visited*
 
 ### Zimbabwe / Zambia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Victoria Falls | Victoria Falls - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Victoria Falls** - Victoria Falls - UNESCO _UNESCO_
+
+*Zimbabwe / Zambia: 0 of 1 visited*
 
 ### Uganda / Rwanda
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Bwindi / Volcanoes | Mountain gorillas; ISKCON Kampala | Nature |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Bwindi / Volcanoes** - Mountain gorillas; ISKCON Kampala _Nature_
+
+*Uganda / Rwanda: 0 of 1 visited*
 
 ### Canada
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Ontario | Toronto / Niagara | ISKCON Toronto (Hare Krishna Centre); CN Tower; Niagara Falls | ISKCON |  |
-| 2 | British Columbia | Vancouver / Banff | ISKCON Vancouver (Burnaby); Banff & Jasper - UNESCO | UNESCO |  |
-| 3 | Quebec | Montreal / Quebec City | ISKCON Montreal; Old Quebec - UNESCO | UNESCO |  |
 
-*Total: 3 rows*
+**Ontario**
+
+- [ ] **Toronto / Niagara** - ISKCON Toronto (Hare Krishna Centre); CN Tower; Niagara Falls _ISKCON_
+
+**British Columbia**
+
+- [ ] **Vancouver / Banff** - ISKCON Vancouver (Burnaby); Banff & Jasper - UNESCO _UNESCO_
+
+**Quebec**
+
+- [ ] **Montreal / Quebec City** - ISKCON Montreal; Old Quebec - UNESCO _UNESCO_
+
+**Ontario / Alberta**
+
+- [ ] **Niagara / Banff** - Hornblower cruise (Canadian side), Lake Louise, Moraine Lake, Icefields Parkway, Jasper _Nature_
+
+**Quebec / BC**
+
+- [ ] **Montreal / Vancouver** - Old Quebec, Stanley Park, Capilano suspension bridge, Whistler _Sightseeing_
+
+*Canada: 0 of 5 visited*
 
 ### Mexico
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Yucatan | Chichen Itza / Tulum / Cancun | Chichen Itza - UNESCO; Tulum | UNESCO |  |
-| 2 | Mexico City | Mexico City | Teotihuacan - UNESCO; Zocalo; ISKCON Mexico City | UNESCO |  |
 
-*Total: 2 rows*
+**Yucatan**
+
+- [ ] **Chichen Itza / Tulum / Cancun** - Chichen Itza - UNESCO; Tulum _UNESCO_
+
+**Mexico City**
+
+- [ ] **Mexico City** - Teotihuacan - UNESCO; Zocalo; ISKCON Mexico City _UNESCO_
+
+**Quintana Roo**
+
+- [ ] **Cancun / Riviera Maya** - Xcaret park, cenotes, Isla Mujeres, Cozumel _Beach_
+
+*Mexico: 0 of 3 visited*
 
 ### Peru
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Cusco | Machu Picchu / Cusco | Machu Picchu - UNESCO; Sacred Valley; ISKCON Cusco | UNESCO |  |
-| 2 | Lima / Puno | Lima / Lake Titicaca | Historic centre - UNESCO; Titicaca | UNESCO |  |
 
-*Total: 2 rows*
+**Cusco**
+
+- [ ] **Machu Picchu / Cusco** - Machu Picchu - UNESCO; Sacred Valley; ISKCON Cusco _UNESCO_
+
+**Lima / Puno**
+
+- [ ] **Lima / Lake Titicaca** - Historic centre - UNESCO; Titicaca _UNESCO_
+
+*Peru: 0 of 2 visited*
 
 ### Brazil
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Rio / Sao Paulo | Rio de Janeiro | Christ the Redeemer, Sugarloaf - UNESCO; Iguazu Falls - UNESCO; Nova Gokula (ISKCON farm, Pindamonhangaba) | UNESCO |  |
 
-*Total: 1 rows*
+**Rio / Sao Paulo**
+
+- [ ] **Rio de Janeiro** - Christ the Redeemer, Sugarloaf - UNESCO; Iguazu Falls - UNESCO; Nova Gokula (ISKCON farm, Pindamonhangaba) _UNESCO_
+
+**Rio**
+
+- [ ] **Rio de Janeiro** - Copacabana, Ipanema, Carnival (Feb-Mar), Selaron steps _Beach_
+
+*Brazil: 0 of 2 visited*
 
 ### Argentina
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Buenos Aires / Misiones | Buenos Aires / Iguazu | Recoleta, Tango; Iguazu - UNESCO; Perito Moreno glacier | UNESCO |  |
 
-*Total: 1 rows*
+**Buenos Aires / Misiones**
+
+- [ ] **Buenos Aires / Iguazu** - Recoleta, Tango; Iguazu - UNESCO; Perito Moreno glacier _UNESCO_
+
+*Argentina: 0 of 1 visited*
 
 ### Chile
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Santiago / Atacama / Easter Island | Atacama desert; Rapa Nui moai - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Santiago / Atacama / Easter Island** - Atacama desert; Rapa Nui moai - UNESCO _UNESCO_
+
+*Chile: 0 of 1 visited*
 
 ### Colombia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Cartagena / Bogota | Cartagena old city - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Cartagena / Bogota** - Cartagena old city - UNESCO _UNESCO_
+
+*Colombia: 0 of 1 visited*
 
 ### Guyana / Trinidad / Suriname
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Georgetown / Port of Spain / Paramaribo | Hindu diaspora temples; Temple in the Sea (Waterloo, Trinidad); ISKCON Guyana | Temple |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Georgetown / Port of Spain / Paramaribo** - Hindu diaspora temples; Temple in the Sea (Waterloo, Trinidad); ISKCON Guyana _Temple_
+
+*Guyana / Trinidad / Suriname: 0 of 1 visited*
 
 ### Cuba
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Havana | Havana | Old Havana - UNESCO | UNESCO |  |
 
-*Total: 1 rows*
+**Havana**
+
+- [ ] **Havana** - Old Havana - UNESCO _UNESCO_
+
+*Cuba: 0 of 1 visited*
 
 ### Costa Rica / Panama
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | - | Arenal / Panama City | Rainforest, Panama Canal | Nature |  |
 
-*Total: 1 rows*
+**-**
+
+- [ ] **Arenal / Panama City** - Rainforest, Panama Canal _Nature_
+
+*Costa Rica / Panama: 0 of 1 visited*
 
 ### Australia
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | New South Wales | Sydney | Opera House - UNESCO, Harbour Bridge, Bondi; ISKCON Sydney (North Sydney) | UNESCO |  |
-| 2 | New South Wales | Murwillumbah | New Govardhana (ISKCON farm); Byron Bay | ISKCON |  |
-| 3 | Victoria | Melbourne | ISKCON Melbourne (Albert Park); Great Ocean Road (Twelve Apostles); New Nandagram | ISKCON |  |
-| 4 | Queensland | Brisbane / Cairns / Gold Coast | Great Barrier Reef - UNESCO; ISKCON Brisbane; Daintree | UNESCO |  |
-| 5 | Northern Territory | Uluru | Uluru-Kata Tjuta - UNESCO | UNESCO |  |
-| 6 | Western Australia | Perth | ISKCON Perth; Pinnacles, Rottnest | ISKCON |  |
-| 7 | Tasmania | Hobart | Cradle Mountain, MONA | Nature |  |
 
-*Total: 7 rows*
+**New South Wales**
+
+- [ ] **Sydney** - Opera House - UNESCO, Harbour Bridge, Bondi; ISKCON Sydney (North Sydney) _UNESCO_
+- [ ] **Murwillumbah** - New Govardhana (ISKCON farm); Byron Bay _ISKCON_
+
+**Victoria**
+
+- [ ] **Melbourne** - ISKCON Melbourne (Albert Park); Great Ocean Road (Twelve Apostles); New Nandagram _ISKCON_
+
+**Queensland**
+
+- [ ] **Brisbane / Cairns / Gold Coast** - Great Barrier Reef - UNESCO; ISKCON Brisbane; Daintree _UNESCO_
+
+**Northern Territory**
+
+- [ ] **Uluru** - Uluru-Kata Tjuta - UNESCO _UNESCO_
+
+**Western Australia**
+
+- [ ] **Perth** - ISKCON Perth; Pinnacles, Rottnest _ISKCON_
+
+**Tasmania**
+
+- [ ] **Hobart** - Cradle Mountain, MONA _Nature_
+
+**New South Wales**
+
+- [ ] **Sydney** - Blue Mountains, Bondi-Coogee walk, Taronga Zoo, Sydney Harbour cruise, Vivid (May-Jun) _Sightseeing_
+
+**Victoria**
+
+- [ ] **Melbourne / Phillip Island** - Penguin parade, Yarra Valley, MCG tour, Puffing Billy _Sightseeing_
+
+**Queensland**
+
+- [ ] **Gold Coast / Cairns** - Movie World, Dreamworld, Sea World; reef snorkel/dive, Kuranda railway _Theme park_
+
+*Australia: 0 of 10 visited*
 
 ### New Zealand
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | North Island | Auckland / Rotorua | ISKCON Auckland (Kumeu); Rotorua geothermal; Hobbiton | ISKCON |  |
-| 2 | South Island | Queenstown / Milford Sound | Fiordland - UNESCO; Christchurch ISKCON | UNESCO |  |
 
-*Total: 2 rows*
+**North Island**
+
+- [ ] **Auckland / Rotorua** - ISKCON Auckland (Kumeu); Rotorua geothermal; Hobbiton _ISKCON_
+
+**South Island**
+
+- [ ] **Queenstown / Milford Sound** - Fiordland - UNESCO; Christchurch ISKCON _UNESCO_
+
+**South / North Island**
+
+- [ ] **Queenstown / Rotorua** - Bungee (AJ Hackett), Milford Sound cruise, Franz Josef glacier, Te Puia geysers, Waitomo glow-worm caves, Hobbiton _Nature_
+
+*New Zealand: 0 of 3 visited*
 
 ### Fiji
 
-| # | State / region | City | Place(s) | Category | Visited |
-|---|---|---|---|---|---|
-| 1 | Viti Levu | Nadi / Suva | Sri Siva Subramaniya temple (Nadi); ISKCON Fiji (Lautoka, Suva, Labasa) | Temple |  |
 
-*Total: 1 rows*
+**Viti Levu**
+
+- [ ] **Nadi / Suva** - Sri Siva Subramaniya temple (Nadi); ISKCON Fiji (Lautoka, Suva, Labasa) _Temple_
+
+*Fiji: 0 of 1 visited*
+
+### Montenegro
+
+
+**Bay of Kotor**
+
+- [ ] **Kotor / Budva** - Kotor old town & fortress, Budva riviera _Sightseeing_
+
+*Montenegro: 0 of 1 visited*
+
+### Iceland
+
+
+**-**
+
+- [ ] **Reykjavik** - Golden Circle, Blue Lagoon, South Coast waterfalls, Jokulsarlon glacier lagoon, Northern Lights (Sep-Mar) _Nature_
+
+*Iceland: 0 of 1 visited*
+
+### Finland
+
+
+**Lapland**
+
+- [ ] **Rovaniemi** - Santa Claus Village, husky safari, glass igloos _Sightseeing_
+
+*Finland: 0 of 1 visited*
+
+### Seychelles
+
+
+**-**
+
+- [ ] **Mahe / Praslin / La Digue** - Anse Source d'Argent, Vallee de Mai - UNESCO _Beach_
+
+*Seychelles: 0 of 1 visited*
+
+### Israel / Jordan
+
+
+**-**
+
+- [ ] **Dead Sea** - Float in the Dead Sea, Masada _Nature_
+
+*Israel / Jordan: 0 of 1 visited*
+
+### Kenya / Tanzania
+
+
+**-**
+
+- [ ] **Maasai Mara / Serengeti** - Great Migration (Jul-Oct), Ngorongoro crater, hot-air balloon safari _Wildlife_
+
+*Kenya / Tanzania: 0 of 1 visited*
+
+### Namibia / Botswana
+
+
+**-**
+
+- [ ] **Sossusvlei / Okavango** - Namib dunes, Etosha, Okavango Delta mokoro _Wildlife_
+
+*Namibia / Botswana: 0 of 1 visited*
+
+### Ecuador
+
+
+**Galapagos**
+
+- [ ] **Galapagos Islands** - Galapagos wildlife cruise - UNESCO; Quito old town _Wildlife_
+
+*Ecuador: 0 of 1 visited*
+
+### Brazil / Peru
+
+
+**Amazon**
+
+- [ ] **Manaus / Iquitos** - Amazon river lodge, meeting of waters _Wildlife_
+
+*Brazil / Peru: 0 of 1 visited*
+
+### Argentina / Chile
+
+
+**Patagonia**
+
+- [ ] **El Calafate / Torres del Paine** - Perito Moreno glacier, Torres del Paine W-trek, Ushuaia (end of the world) _Nature_
+
+*Argentina / Chile: 0 of 1 visited*
+
+### Antarctica
+
+
+**-**
+
+- [ ] **Antarctic Peninsula** - Expedition cruise from Ushuaia (Nov-Mar) _Nature_
+
+*Antarctica: 0 of 1 visited*
+
+### Caribbean
+
+
+**-**
+
+- [ ] **Caribbean cruise** - Bahamas / Jamaica / Cayman cruise from Miami; Barbados, St Lucia Pitons _Beach_
+
+*Caribbean: 0 of 1 visited*
+
+### Fiji / Pacific
+
+
+**-**
+
+- [ ] **Fiji / Bora Bora / Tahiti** - Mamanuca islands, Bora Bora overwater bungalows _Beach_
+
+*Fiji / Pacific: 0 of 1 visited*
 
 ## 13. Sources & caveats
 - Passport scan (Nov 2025) and VEVO (13 Nov 2025) for history/visas.
@@ -1387,3 +2458,4 @@ Tick in the Excel sheet. Yes = visited; Likely = from your yatra dashboards (con
 - 20 Oct 2026 - v1 created.
 - 21 Oct 2026 - Added Schengen countries (BE, NL, DE, CH, IT, Vatican) to Jul 2024 trip; added Yatra Wishlist section; added Places Visited master list from the Europe+London itinerary and inferred per-country dates; added World Checklist (414 places, ~75 countries).
 - 21 Oct 2026 - Deep research on power visas: ranked strategy, Indian passport baseline (55), Access Map corrections (Gibraltar, Bosnia, Egypt, Caribbean BOTs, Singapore DE/CH rule, Kuwait, Kosovo, Belarus, Kyrgyzstan, El Salvador).
+- 21 Oct 2026 - World Checklist expanded to 566 places / 91 countries incl. popular sightseeing, theme parks, beaches, wildlife; real tick boxes added (Excel ☑/☐ dropdown, Markdown [x]).
