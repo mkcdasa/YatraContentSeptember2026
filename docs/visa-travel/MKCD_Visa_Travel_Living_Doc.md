@@ -25,20 +25,20 @@
 
 | Country | Times | First entry | Latest entry | Days (known) |
 |---|---|---|---|---|
-| Belgium | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
+| Belgium | 1 | 18 Jul 2024 | 18 Jul 2024 | 2 |
 | Cambodia | 2 | 08 Feb 2023 | 27 Jun 2023 | 7 |
-| France | 1 | 15 Jul 2024 | 15 Jul 2024 | 13 |
-| Germany | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
-| Italy | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
+| France | 1 | 15 Jul 2024 | 15 Jul 2024 | 4 |
+| Germany | 1 | 20 Jul 2024 | 20 Jul 2024 | 2 |
+| Italy | 1 | 23 Jul 2024 | 23 Jul 2024 | 5 |
 | Nepal | 3 | 15 May 2019 | 14 Apr 2022 | 8 |
-| Netherlands | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
+| Netherlands | 1 | 19 Jul 2024 | 19 Jul 2024 | 2 |
 | Sri Lanka | 3 | 28 Sep 2019 | 24 Jan 2022 | 31 |
-| Switzerland | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
+| Switzerland | 1 | 21 Jul 2024 | 21 Jul 2024 | 3 |
 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
 | UAE | 1 | 01 Aug 2024 | 01 Aug 2024 | - |
 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 27 |
-| United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | - |
-| Vatican City | 1 | Jul 2024 (no stamp) | Jul 2024 (no stamp) | - |
+| United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | 5 |
+| Vatican City | 1 | 26 Jul 2024 | 26 Jul 2024 | 1 |
 
 *Belgium, Netherlands, Germany, Switzerland, Italy, Vatican City: visited inside the 15-27 Jul 2024 Schengen trip (no internal stamps). Pre-2018 travel not captured.*
 
@@ -57,14 +57,14 @@
 | 9 | Thailand | 10 Feb 2023 | 12 Feb 2023 | 3 | Visa on Arrival (30 days) | Passport p.8: Thai admitted 10 Feb 2023 (until 11 Mar), departed 12 Feb 2023; India arrival Bengaluru 12 Feb 2023 | High |
 | 10 | Thailand | 24 Jun 2023 | 27 Jun 2023 | 4 | Visa on Arrival | Passport p.20-21: Thai VOA stamp admitted 2? Jun 2023 until 9 Jul 2023 (class TR-15 = 15 days -> 24 Jun); Thai departed 27 Jun 2023; India dep. RGI Hyderabad 24 Jun 2023 | Check |
 | 11 | Cambodia | 27 Jun 2023 | 30 Jun 2023 | 4 | e-Visa (valid 27 Jun-26 Jul 2023) | Passport p.20: Cambodia entry 27 Jun 2023, exit 30 Jun 2023 | High |
-| 12 | France | 15 Jul 2024 | 27 Jul 2024 | 13 | Schengen C visa #1 (France-issued, Pondicherry) | Passport p.9/p.17: CDG stamp 15 Jul 2024; Malpensa stamp 27 Jul 2024; India dep. Mumbai 14 Jul 2024 | High |
-| 13 | Belgium | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
-| 14 | Netherlands | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
-| 15 | Germany | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
-| 16 | Switzerland | ? | ? | - | Schengen C visa #1 | Your confirmation (Oct 2026): visited during the 15-27 Jul 2024 Europe trip | Check |
-| 17 | Vatican City | ? | ? | - | Schengen C visa #1 (Vatican has open border with Italy) | Your confirmation (Oct 2026): visited from Rome during the 15-27 Jul 2024 Europe trip | Check |
-| 18 | Italy | ? | 27 Jul 2024 | - | Schengen C visa #1 | Your confirmation (Oct 2026): Rome visited; Passport p.17: Malpensa exit stamp 27 Jul 2024 | Check |
-| 19 | United Kingdom | 27 Jul 2024 | ? | - | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024 | High |
+| 12 | France | 15 Jul 2024 | 18 Jul 2024 | 4 | Schengen C visa #1 (France-issued, Pondicherry) | Passport p.9/p.17: CDG stamp 15 Jul 2024; Malpensa stamp 27 Jul 2024; India dep. Mumbai 14 Jul 2024 | High |
+| 13 | Belgium | 18 Jul 2024 | 19 Jul 2024 | 2 | Schengen C visa #1 | Itinerary Day 7: Brussels + ISKCON Radhadesh; dates inferred | Check |
+| 14 | Netherlands | 19 Jul 2024 | 20 Jul 2024 | 2 | Schengen C visa #1 | Itinerary Days 8-9: Amsterdam canal cruise + city; dates inferred | Check |
+| 15 | Germany | 20 Jul 2024 | 21 Jul 2024 | 2 | Schengen C visa #1 | Itinerary Days 9-10: Cologne, Black Forest, Triberg; dates inferred | Check |
+| 16 | Switzerland | 21 Jul 2024 | 23 Jul 2024 | 3 | Schengen C visa #1 | Itinerary Days 10-12: Rhine Falls, Zurich, Lucerne, Mt Titlis; dates inferred | Check |
+| 17 | Vatican City | 26 Jul 2024 | 26 Jul 2024 | 1 | Schengen C visa #1 (open border with Italy) | Itinerary Day 15: St Peter's Square & Basilica; date inferred | Check |
+| 18 | Italy | 23 Jul 2024 | 27 Jul 2024 | 5 | Schengen C visa #1 | Itinerary Days 12-16: Milan, Padova, Venice, Arezzo, Florence, Pisa, Rome; Malpensa exit stamp 27 Jul 2024 | Check |
+| 19 | United Kingdom | 27 Jul 2024 | 31 Jul 2024 | 5 | UK Standard Visitor C-visit, multiple, 29 Jun-29 Dec 2024 | Passport p.23: Gatwick stamp 27 Jul 2024; UAE entry 1 Aug 2024 -> UK exit ~31 Jul (inferred) | Check |
 | 20 | UAE | 01 Aug 2024 | ? | - | Visa/entry per stamp (Indian PP) | Passport p.10: UAE entry stamp 01 Aug 2024; India arrival RGI Hyderabad 05 Aug 2024 | High |
 | 21 | USA | 04 Sep 2025 | 30 Sep 2025 | 27 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + p.10: India dep. New Delhi 03 Sep 2025; CBP stamp 04 Sep 2025; India arrival Mumbai 30 Sep 2025 | High |
 
@@ -198,11 +198,72 @@
 Notes: **Mysore Dasara** - Palace illumination, Chamundi Hill, Jamboo Savari procession. Book stay months ahead; ISKCON Mysore nearby. Combine with Srirangapatna, Melukote. **Tirupati Balaji Brahmotsavam** - Vahana sevas each morning/evening; Garuda Seva night draws lakhs. Arrange accommodation via TTD or HKM contacts well in advance. **Vaishno Devi** - 13 km trek from Katra (ponies/palki/helicopter available). Combine with Jammu Raghunath temple; optionally Amritsar. **Amarnath Yatra** - Register as soon as the window opens (Mar-Apr). Pahalgam route 32 km (3 days) or Baltal 14 km (1 day); helicopter options. Needs fitness prep. **Seven Sisters (North-East India)** - Kamakhya (Guwahati), Majuli satras (Vaishnava), Tawang monastery, Cherrapunji/Living root bridges, Loktak lake, Tripureshwari temple. Plan as 2 circuits (Assam-Meghalaya-Arunachal; Manipur-Mizoram-Tripura-Nagaland). **Pune** - ISKCON NVCC (Katraj) and ISKCON Camp; Dagdusheth Halwai Ganapati; Alandi (Dnyaneshwar samadhi) and Dehu (Tukaram) - Warkari heritage; Jejuri Khandoba; Bhimashankar Jyotirlinga day trip; Shaniwar Wada, Parvati hill. Can combine with Pandharpur (Ashadhi Ekadashi) or Shirdi. **Indore & Madhya Pradesh** - Base at Indore (Khajrana Ganesh, ISKCON Indore, Sarafa night food street). Ujjain: Mahakaleshwar + Mahakal Lok corridor, Kal Bhairav, Sandipani Ashram (Krishna's school). Omkareshwar Jyotirlinga + parikrama; Maheshwar ghats (Ahilyabai); Mandu. Optional extension: Chitrakoot / Khajuraho / Sanchi. Plan a 2028 Simhastha batch separately. **Mumbai - NMACC (Nita Mukesh Ambani Cultural Centre)** - NMACC: Grand Theatre, Studio Theatre, Cube, Art House exhibitions, Swadesh artisan showcase. Combine with ISKCON Juhu (Prabhupada samadhi/museum), ISKCON Chowpatty (Radha Gopinath), Siddhivinayak, Mahalakshmi, Babulnath, Mumba Devi; Elephanta caves day trip. Was already on your Bucket List tab. **Kerala** - Guruvayur, Padmanabhaswamy (dress code), Sabarimala, Ambalappuzha, Aranmula, Chottanikkara; backwaters. Combine with Kanyakumari/Suchindram.
 
 
-## 11. Sources & caveats
+## 11. Places Visited - master list
+
+Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-16) then London (27 Jul-~1 Aug, Days 1-3); per-country dates inferred from the itinerary anchored on the CDG/Malpensa/Gatwick stamps.
+
+| Country | City / area | Place / site | Type | Date / trip | Notes |
+|---|---|---|---|---|---|
+| United Kingdom | London | Arrival London (Gatwick) | Transit hub | 27 Jul 2024 | Gatwick stamp 27 Jul 2024 |
+| United Kingdom | Watford (Aldenham) | Bhaktivedanta Manor - Hare Krishna Temple | ISKCON/Temple | 27 Jul-1 Aug 2024 | Prabhupada's UK centre, donated by George Harrison |
+| United Kingdom | London | Tower of London | Landmark | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | St Paul's Cathedral | Landmark | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | Buckingham Palace - Changing of the Guard | Landmark | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | London Eye | Landmark | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | River Thames cruise | Cruise/Ride | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | Madame Tussauds | Museum | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | London Bridge / Tower Bridge area | Landmark | 27 Jul-1 Aug 2024 |  |
+| United Kingdom | London | Big Ben & Houses of Parliament (viewed) | Landmark | 27 Jul-1 Aug 2024 | Seen from London Eye / cruise |
+| France | Paris | Arrival Paris CDG | Transit hub | 15 Jul 2024 | CDG stamp 15 Jul 2024 |
+| France | Paris | Seine River cruise | Cruise/Ride | 15 Jul 2024 |  |
+| France | Paris | Eiffel Tower (2nd floor) | Landmark | 16 Jul 2024 |  |
+| France | Paris | Louvre Museum (Mona Lisa, Venus de Milo) | Museum | 16 Jul 2024 |  |
+| France | Paris | Arc de Triomphe, Champs-Elysees, Place de la Concorde | City tour | 16 Jul 2024 |  |
+| France | Paris | Montmartre, Latin Quarter, Le Marais | City tour | 16 Jul 2024 |  |
+| France | Paris | Notre-Dame (viewed from Seine) | Landmark | 15 Jul 2024 |  |
+| France | Lucay-le-Male (Indre) | ISKCON New Mayapur (Nouvelle Mayapura) | ISKCON/Temple | 17 Jul 2024 | Itinerary calls it 'outskirts of Paris'; it is ~250 km south |
+| France | Paris | ISKCON Paris (Sarcelles) - if visited | ISKCON/Temple | 15-17 Jul 2024 | Not in itinerary - delete if not visited |
+| Belgium | Brussels | Grand Place & Town Hall | Landmark | 18 Jul 2024 |  |
+| Belgium | Brussels | Manneken Pis | Landmark | 18 Jul 2024 |  |
+| Belgium | Durbuy (Septon) | ISKCON Radhadesh (Chateau de Petite Somme) | ISKCON/Temple | 18 Jul 2024 | Bhaktivedanta College campus, Ardennes |
+| Netherlands | Amsterdam | Canal cruise | Cruise/Ride | 19 Jul 2024 |  |
+| Netherlands | Amsterdam | Dam Square & Royal Palace | Landmark | 19 Jul 2024 |  |
+| Netherlands | Amsterdam | Anne Frank House (exterior) | Landmark | 19 Jul 2024 |  |
+| Netherlands | Amsterdam | Jordaan district | City tour | 19 Jul 2024 |  |
+| Netherlands / Germany | (countryside) | 'Hare Krishna Valley' temple (per itinerary) | ISKCON/Temple | 20 Jul 2024 | Itinerary name is vague - confirm which temple (e.g. ISKCON Amsterdam, Simhachalam/Germany, Goloka Dhama/Abentheuer). Edit country when known. |
+| Germany | Cologne | Cologne Cathedral & Old Town | Landmark | 20 Jul 2024 |  |
+| Germany | Black Forest | Black Forest drive | Nature | 21 Jul 2024 |  |
+| Germany | Triberg | Triberg - cuckoo clock shop (and falls area) | Landmark | 21 Jul 2024 |  |
+| Switzerland | Neuhausen am Rheinfall | Rhine Falls (Europe's largest waterfall) | Nature | 21 Jul 2024 | Swiss side of the German border |
+| Switzerland | Zurich | Zurich Old Town | City tour | 21 Jul 2024 |  |
+| Switzerland | Lucerne | Chapel Bridge, Water Tower, Lake Lucerne, Old Town | Landmark | 22 Jul 2024 |  |
+| Switzerland | Engelberg | Mt Titlis - Rotair cable car, Cliff Walk, Ice Flyer | Nature | 22 Jul 2024 |  |
+| Switzerland | Zurich | ISKCON Zurich (Krishna Tempel) - if visited | ISKCON/Temple | 21-22 Jul 2024 | Not in itinerary - delete if not visited |
+| Italy | Milan | Villaggio Hare Krishna (Chignolo d'Isola) | ISKCON/Temple | 23 Jul 2024 | ISKCON Milan farm community |
+| Italy | Milan | Duomo di Milano, Galleria Vittorio Emanuele II, Sforza Castle, Brera | City tour | 23 Jul 2024 |  |
+| Italy | Padova | Padova (overnight base) | City tour | 24 Jul 2024 | Prato della Valle / St Anthony basilica if seen |
+| Italy | Venice | Gondola ride | Cruise/Ride | 24 Jul 2024 |  |
+| Italy | Venice | St Mark's Square, Doge's Palace, Rialto Bridge | Landmark | 24 Jul 2024 |  |
+| Italy | Arezzo | Arezzo (overnight base) | City tour | 25 Jul 2024 |  |
+| Italy | Florence | Florence Cathedral (Duomo), Ponte Vecchio, Piazza della Signoria | Landmark | 25 Jul 2024 |  |
+| Italy | Pisa | Leaning Tower of Pisa | Landmark | 25 Jul 2024 |  |
+| Italy | Florence | ISKCON Florence (Villa Vrindavana, San Casciano) | ISKCON/Temple | 25 Jul 2024 |  |
+| Italy | Rome | Colosseum (outside), Roman Forum, Pantheon | Landmark | 26 Jul 2024 |  |
+| Italy | Milan | Departure Milan Malpensa | Transit hub | 27 Jul 2024 | Malpensa stamp 27 Jul 2024 |
+| Vatican City | Vatican City | St Peter's Square & St Peter's Basilica | Landmark | 26 Jul 2024 |  |
+| Sri Lanka | Colombo (BIA) | Colombo - Ramayana trail bases | City tour | Sep-Oct 2019; Dec 2019; Jan 2022 | Add sites visited (e.g. Seetha Amman Kovil, Ashok Vatika, Munneswaram, Kelaniya) |
+| Nepal | Kathmandu | Kathmandu (Pashupatinath etc.) | City tour | May 2019; Apr 2022 (+Mar 2019 exit) | Add sites (Pashupatinath, Budhanilkantha, Krishna Mandir Patan) |
+| Nepal | Pokhara / Jomsom / Muktinath | Muktinath yatra route | ISKCON/Temple | (from your dashboard - confirm trip) | Add when confirmed |
+| Thailand | Bangkok (BKK) | Bangkok | City tour | Feb 2023 (x2); Jun 2023 | Add sites (ISKCON Bangkok, Wat Arun, Grand Palace...) |
+| Cambodia | Siem Reap | Angkor Wat / Angkor Thom | Landmark | Feb 2023; Jun 2023 | Confirm sites |
+| UAE | Dubai | Dubai | City tour | 1-~5 Aug 2024 | Add sites (ISKCON Dubai Bur Dubai, Burj Khalifa...) |
+| USA | (cities to add) | USA trip Sep 2025 | City tour | 4-30 Sep 2025 | Add cities & temples visited (27 days) |
+
+## 12. Sources & caveats
 - Passport scan (Nov 2025) and VEVO (13 Nov 2025) for history/visas.
 - Entry rules: secondary sources on 20 Oct 2026 (Wikipedia table for Indian citizens, news, embassy PDFs). Verify on official portals.
 - Passport number deliberately omitted.
 
 ## Change log
 - 20 Oct 2026 - v1 created.
-- 21 Oct 2026 - Added Schengen countries (BE, NL, DE, CH, IT, Vatican) to Jul 2024 trip; added Yatra Wishlist section.
+- 21 Oct 2026 - Added Schengen countries (BE, NL, DE, CH, IT, Vatican) to Jul 2024 trip; added Yatra Wishlist section; added Places Visited master list from the Europe+London itinerary and inferred per-country dates.
