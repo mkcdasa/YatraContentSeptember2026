@@ -35,7 +35,7 @@ def coach_totals(d):
 
 def day_md(d):
     km, t = coach_totals(d)
-    out = [f"### Day {d['day']} · {d['dow']} {d['date'][8:]} July · {d['title']}", "",
+    out = [f"### Day {d['day']} · {d['dow']} {int(d['date'][8:])} {'April' if d['date'][5:7]=='04' else 'May'} · {d['title']}", "",
            f"Overnight: {d['overnight']}. By coach: {km:,} km, {fmt_m(t)} including breaks.", "",
            "| Time | What | Where (map) | Mode · km · duration | Details | Meal by / notes |",
            "| --- | --- | --- | --- | --- | --- |"]
@@ -62,14 +62,14 @@ def sections():
     s = {}
     s["summary"] = "\n".join(
         ["## Day summary", "",
-         f"The coach covers about {sum(coach_totals(d)[0] for d in D.DAYS):,} km over 16 days. No day goes past the EU limit of 9 hours' driving. Days 6 and 10 are the longest, at about 7.5 hours on the coach including breaks.", "",
+         f"The coach covers about {sum(coach_totals(d)[0] for d in D.DAYS):,} km between 17 April and 2 May 2027. No day goes past the EU limit of 9 hours' driving. Day 9 (Cologne → Goloka Dham → Black Forest) is the longest, at about 7.5 hours on the coach including breaks. Day 14 (Rome) is the longest day on foot, from 05:00 to 22:30.", "",
          "| Day | Date | Route | Overnight | Coach km | Coach time incl. breaks |", "| --- | --- | --- | --- | --- | --- |"]
-        + [f"| {d['day']} | {d['dow']} {d['date'][8:]} Jul | {cell(d['title'])} | {d['overnight']} | {coach_totals(d)[0]:,} | {fmt_m(coach_totals(d)[1])} |" for d in D.DAYS]
-        + ["", "Flights, the Dover–Calais ferry, boats, cable cars and the Lucerne–Interlaken train are not counted in coach km."])
-    for name, rng, head in (("d1", range(0, 4), "Days 1–4: Hyderabad → London → Paris"),
-                            ("d2", range(4, 8), "Days 5–8: Paris, New Mayapur, Brussels, Radhadesh, Amsterdam"),
-                            ("d3", range(8, 12), "Days 9–12: Netherlands, Cologne, Goloka Dham, Black Forest, Zurich, Titlis, Lucerne"),
-                            ("d4", range(12, 16), "Days 13–16: Lake Como, Milan, Venice, Pisa, Florence, Rome, Vatican")):
+        + [f"| {d['day']} | {d['dow']} {int(d['date'][8:])} {'Apr' if d['date'][5:7]=='04' else 'May'} | {cell(d['title'])} | {d['overnight']} | {coach_totals(d)[0]:,} | {fmt_m(coach_totals(d)[1])} |" for d in D.DAYS]
+        + ["", "Coach km include the coach's empty repositioning runs (Day 11 to Interlaken, Day 14 to Florence). Flights, the ferry, boats, cable cars, trains and the Rome local coach are not counted."])
+    for name, rng, head in (("d1", range(0, 4), "Days 1–4 (17–20 Apr): Hyderabad & Bangalore → London → Paris"),
+                            ("d2", range(4, 8), "Days 5–8 (21–24 Apr): Paris, Louvre, Brussels, Radhadesh, Amsterdam, Keukenhof"),
+                            ("d3", range(8, 12), "Days 9–12 (25–28 Apr): Cologne, Goloka Dham, Black Forest, Zurich, Titlis, Lucerne, Lake Como"),
+                            ("d4", range(12, 16), "Days 13–16 (29 Apr–2 May): Venice, Rome & Vatican, Florence, Pisa, Milan → home")):
         s[name] = f"## {head}\n\n" + "\n\n".join(day_md(D.DAYS[i]) for i in rng)
     meals = ["## Meal plan", "",
              "Breakfast is at the hotel on all 15 hotel mornings. Lunch is at a temple on 6 days and at an Indian restaurant (or packed) on the rest. Dinner is at the hotel except on Day 2 (Govinda's, Soho) and Day 16 (packed, before the flight).", "",

@@ -29,8 +29,8 @@ LINK = Font(name=FONT, size=9, color="0563C1", underline="single")
 BODY = Font(name=FONT, size=9)
 
 # Real elapsed minutes for rows whose clock times sit in two time zones.
-# IST = UTC+5:30, BST = UTC+1, CEST = UTC+2.
-TZ_OFFSET = {"IST": 330, "BST": 60, "CEST": 120}
+# IST = UTC+5:30, BST = UTC+1, CEST = UTC+2, GST (Gulf) = UTC+4.
+TZ_OFFSET = {"IST": 330, "BST": 60, "CEST": 120, "GST": 240}
 
 
 def tm(s):
@@ -90,7 +90,7 @@ def readme(wb):
                 "Hare Krishna! Everything here can be edited. Durations and daily km recalculate automatically.")
     rows = [
         ("Yatra", f"{D.YATRA['title']} {D.YATRA['subtitle']}"),
-        ("Dates", D.YATRA["dates"] + " – dates follow the 2024 poster; shift them for a new batch and check weekday closures."),
+        ("Dates", D.YATRA["dates"] + ". Out: Hyderabad EK 525/EK 31 (LHR T3 16:10) and Bangalore EY 1013/EY 67 (LHR T4 18:45) on 17 Apr. Back: EY 82 Malpensa 11:40 on 2 May → Abu Dhabi → EY 352 Hyderabad 02:45 / EY 232 Bangalore 03:15 on 3 May."),
         ("Countries", ", ".join(D.YATRA["countries"])),
         ("Organised by", D.YATRA["organiser"]),
         ("Contact", D.YATRA["contact"]),
@@ -98,10 +98,11 @@ def readme(wb):
         ("Mode of transport", "Private coach for every road movement. Exceptions are marked in the Mode column: Flight, Ferry (Dover–Calais), Boat, Cable car (Titlis), Train (Lucerne–Interlaken)."),
         ("Meals", "Breakfast: hotel (complimentary). Lunch: Indian restaurant or ISKCON temple prasadam near the sightseeing. Dinner: at the hotel (Satvik menu pre-agreed or an Indian caterer delivering). The 'Provided by' column names the provider for every meal."),
         ("Distances & times", "Coach estimates from route knowledge, NOT live Google Maps results. Click the 'Route' link on each movement to verify km and time, then overwrite the numbers. Coaches are slower than cars."),
-        ("Time zones", "Times are local. UK = BST (IST − 4:30). Continent = CEST (IST − 3:30). Flight and ferry rows show local clock times; their Duration is the real elapsed time."),
+        ("Time zones", "Times are local. UK = BST (IST − 4:30). Continent = CEST (IST − 3:30). Abu Dhabi = GST (IST − 1:30). Flight and ferry rows show local clock times; their Duration is the real elapsed time."),
+        ("Ekadasi", "Kamada Ekadasi 17 Apr (travel day; break fast London 18 Apr 05:59–10:40). Varuthini Ekadasi 2 May (flight home; break fast in India 3 May before ~10:00)."),
         ("Status column", "Use the dropdown: Draft → To verify → Booked → Confirmed. Filter on it to see what is still open."),
-        ("Sheets", "Day summary · Minute-by-minute · Meal plan · Places & maps · Pros & cons · Challenges · Do's & don'ts · Visa documents · Inclusions · Practical info"),
-        ("Source", "2024 posters (15N/16D, 8 countries), brochure PDF (12N/13D day plan), inclusions/exclusions sheet, Schengen biometric guidelines document."),
+        ("Sheets", "Budget · Day summary · Minute-by-minute · Meal plan · Places & maps · Entry tickets · Pros & cons · Challenges · Do's & don'ts · Visa documents · Inclusions · Practical info"),
+        ("Source", "2024 posters (15N/16D, 8 countries), brochure PDF, inclusions/exclusions sheet, Schengen biometric guidelines, shortlisted 2027 flights, team budget sheet; prices and events checked 22 Oct 2026."),
     ]
     for k, v in rows:
         ws.append([k, v])
@@ -271,9 +272,123 @@ def tickets_sheet(wb):
         style_row(ws, r, len(cols))
         for c in (2, 6):
             ws.cell(row=r, column=c).font = Font(name=FONT, bold=True, size=10)
+    planned_total_row = ws.max_row - 1
     ws.append([])
     ws.append(["", "Group costs (not per person): Zaanse Schans coach parking €35–55/day; Volendam coach parking €15–25; Louvre group fee €90 per 7–20; Dover–Calais ferry by quote; Venice access fee – overnight guests in Mestre exempt but must register."])
     ws.cell(row=ws.max_row, column=2).font = Font(name=FONT, italic=True, size=9)
+    return fx_row, planned_total_row
+
+
+def budget_sheet(wb, fx_row, tickets_total_row):
+    ws = wb.create_sheet("Budget", 1)
+    title_block(ws, "Budget per yatri – cost against the ₹5,00,000 price",
+                "Blue cells are inputs. Group costs are divided by the number of yatris. GST (5%) and TCS (5%) are collected on top of the price and passed on, so they are not costs here.")
+    inp = {}
+    for label, val, fmt in (("Yatris (paying)", D.DEFAULT_PAX, "0"), ("Package price per person (₹)", D.PRICE_PP, "#,##0"),
+                            ("Contingency (% of costs)", D.CONTINGENCY_PCT, "0%")):
+        ws.append([label, val])
+        r = ws.max_row
+        inp[label] = f"$B${r}"
+        ws.cell(row=r, column=1).font = Font(name=FONT, bold=True, size=10)
+        ws.cell(row=r, column=2).font = Font(name=FONT, size=10, color="0000FF")
+        ws.cell(row=r, column=2).number_format = fmt
+    fx = {"INR": None}
+    for cur in D.FX:
+        ws.append([f"INR per 1 {cur}", f"='Entry tickets'!B{fx_row[cur]}"])
+        fx[cur] = f"$B${ws.max_row}"
+        ws.cell(row=ws.max_row, column=1).font = Font(name=FONT, size=10)
+        ws.cell(row=ws.max_row, column=2).font = Font(name=FONT, size=10, color="008000")
+    pax, price, cont = inp["Yatris (paying)"], inp["Package price per person (₹)"], inp["Contingency (% of costs)"]
+    ws.append([])
+
+    # hotel table
+    ws.append(["Hotels (twin share)", "Nights", "Room rate / night", "Currency", "Per person (₹)"])
+    for c in range(1, 6):
+        ws.cell(row=ws.max_row, column=c).font = Font(name=FONT, bold=True, color="FFFFFF", size=10)
+        ws.cell(row=ws.max_row, column=c).fill = HEAD
+    h_first = ws.max_row + 1
+    for city, n, rate, cur in D.HOTELS:
+        ws.append([city, n, rate, cur])
+        r = ws.max_row
+        ws.cell(row=r, column=5).value = f"=B{r}*C{r}*{fx[cur]}/2"
+        ws.cell(row=r, column=3).font = Font(name=FONT, size=9, color="0000FF")
+        ws.cell(row=r, column=5).number_format = "#,##0"
+        style_row(ws, r, 5)
+        ws.cell(row=r, column=3).font = Font(name=FONT, size=9, color="0000FF")
+    h_last = ws.max_row
+    ws.append(["Total hotels", f"=SUM(B{h_first}:B{h_last})", "", "", f"=SUM(E{h_first}:E{h_last})"])
+    hotel_total = f"E{ws.max_row}"
+    style_row(ws, ws.max_row, 5)
+    ws.append([])
+
+    cols = ["Cost line", "Basis", "Amount", "Currency", "₹ per person", "Team sheet ₹", "Difference ₹", "Group total ₹", "Note"]
+    ws.append(cols)
+    for i, w in enumerate([52, 8, 12, 9, 13, 13, 13, 14, 50], 1):
+        c = ws.cell(row=ws.max_row, column=i)
+        c.font = Font(name=FONT, bold=True, color="FFFFFF", size=10)
+        c.fill = HEAD
+        c.alignment = Alignment(wrap_text=True)
+        ws.column_dimensions[get_column_letter(i)].width = w
+    b_first = ws.max_row + 1
+    for line, basis, amt, cur, team_key, note in D.BUDGET:
+        ws.append([line, basis, amt, cur, None, D.TEAM_SHEET.get(team_key) if team_key else None, None, None, note])
+        r = ws.max_row
+        rate = fx[cur] if cur != "INR" else "1"
+        if basis == "pp":
+            ws.cell(row=r, column=5).value = f"=C{r}*{rate}"
+        elif basis == "group":
+            ws.cell(row=r, column=5).value = f"=C{r}*{rate}/{pax}"
+        elif basis == "hotels":
+            ws.cell(row=r, column=5).value = f"={hotel_total}"
+        elif basis == "tickets":
+            ws.cell(row=r, column=5).value = f"='Entry tickets'!F{tickets_total_row}"
+        ws.cell(row=r, column=7).value = f'=IF(F{r}="","",E{r}-F{r})'
+        ws.cell(row=r, column=8).value = f"=E{r}*{pax}"
+        for c in (3, 5, 6, 7, 8):
+            ws.cell(row=r, column=c).number_format = "#,##0"
+        style_row(ws, r, len(cols))
+        if amt is not None:
+            ws.cell(row=r, column=3).font = Font(name=FONT, size=9, color="0000FF")
+    b_last = ws.max_row
+    rows_out = {}
+    for label, f_pp, f_team in (
+        ("Subtotal", f"=SUM(E{b_first}:E{b_last})", f"=SUM(F{b_first}:F{b_last})"),
+        ("Contingency", f"=E{b_last + 1}*{cont}", ""),
+        ("TOTAL COST per yatri", f"=E{b_last + 1}+E{b_last + 2}", f"=F{b_last + 1}"),
+        ("Package price per yatri", f"={price}", f"={price}"),
+        ("SURPLUS / (SHORTFALL) per yatri", f"=E{b_last + 4}-E{b_last + 3}", f"=F{b_last + 4}-F{b_last + 3}"),
+        ("Margin % of price", f"=E{b_last + 5}/E{b_last + 4}", f"=F{b_last + 5}/F{b_last + 4}"),
+        ("Price needed for a 5% margin", f"=E{b_last + 3}/0.95", ""),
+    ):
+        ws.append([label, "", "", "", f_pp, f_team or None, None, None, ""])
+        r = ws.max_row
+        rows_out[label] = r
+        if label not in ("Margin % of price", "Price needed for a 5% margin", "Package price per yatri"):
+            ws.cell(row=r, column=8).value = f"=E{r}*{pax}"
+        fmt = "0.0%" if label.startswith("Margin") else "#,##0;(#,##0)"
+        for c in (5, 6, 8):
+            ws.cell(row=r, column=c).number_format = fmt
+        style_row(ws, r, len(cols))
+        for c in (1, 5, 6, 8):
+            ws.cell(row=r, column=c).font = Font(name=FONT, bold=True, size=10)
+    ws.append([])
+    # sensitivity on group size
+    ws.append(["Group size sensitivity", "Yatris", "", "", "Cost per yatri", "Surplus per yatri", "", "Group surplus"])
+    for c in range(1, 9):
+        ws.cell(row=ws.max_row, column=c).font = Font(name=FONT, bold=True, color="FFFFFF", size=10)
+        ws.cell(row=ws.max_row, column=c).fill = HEAD
+    pp_part = f'SUMIFS(E{b_first}:E{b_last},B{b_first}:B{b_last},"<>group")'
+    grp_total = f'SUMIFS(H{b_first}:H{b_last},B{b_first}:B{b_last},"group")'
+    for n in (30, 35, 40, 45, 49):
+        ws.append(["", n])
+        r = ws.max_row
+        ws.cell(row=r, column=5).value = f"=({pp_part}+{grp_total}/B{r})*(1+{cont})"
+        ws.cell(row=r, column=6).value = f"={price}-E{r}"
+        ws.cell(row=r, column=8).value = f"=F{r}*B{r}"
+        for c in (5, 6, 8):
+            ws.cell(row=r, column=c).number_format = "#,##0;(#,##0)"
+        style_row(ws, r, 8)
+    ws.column_dimensions["A"].width = 52
 
 
 def simple_sheet(wb, name, cols, widths, rows, title=None):
@@ -294,7 +409,8 @@ def main():
     day_summary(wb, first, last)
     meal_sheet(wb)
     places_sheet(wb)
-    tickets_sheet(wb)
+    fx_row, tickets_total_row = tickets_sheet(wb)
+    budget_sheet(wb, fx_row, tickets_total_row)
     simple_sheet(wb, "Pros & cons", ["Day", "Pros", "Cons / watch-outs"], [5, 70, 70], D.PROS_CONS)
     simple_sheet(wb, "Challenges", ["Challenge", "What happens", "Mitigation"], [28, 60, 70], D.CHALLENGES)
     n = max(len(D.DOS), len(D.DONTS))
