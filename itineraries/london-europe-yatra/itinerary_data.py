@@ -85,7 +85,7 @@ PLACES = {
     "ISKCON_ZRH": ("ISKCON Zurich – Krishna Tempel (Bergstrasse 54)", "Krishna Tempel, Bergstrasse 54, 8032 Zürich", "Zurich", "Switzerland"),
     "H_ZRH": ("Hotel, Zurich (TBC)", "Zürich Hauptbahnhof", "Zurich", "Switzerland"),
     "TITLIS": ("Mount Titlis – Engelberg valley station", "Titlis Talstation, Engelberg", "Engelberg", "Switzerland"),
-    "TITLIS_LUNCH": ("Indian restaurant at Titlis summit station (verify it is open)", "Titlis Bergstation Restaurant", "Engelberg", "Switzerland"),
+    "TITLIS_LUNCH": ("Indian Group Restaurant, Trübsee mid-station", "Trübsee Titlis Engelberg", "Engelberg", "Switzerland"),
     "LION": ("Lion Monument (Löwendenkmal), Lucerne", "Lion Monument, Lucerne", "Lucerne", "Switzerland"),
     "CHAPEL": ("Chapel Bridge & Lucerne old town", "Chapel Bridge, Lucerne", "Lucerne", "Switzerland"),
     "LUZ_PIER": ("Lake Lucerne cruise pier (Bahnhofquai)", "Lake Lucerne Navigation Company, Lucerne", "Lucerne", "Switzerland"),
@@ -349,9 +349,9 @@ DAYS = [
              V("07:00", "07:20", "H_ZRH", "Check-out", "Check-out."),
              T("07:20", "08:40", "H_ZRH", "TITLIS", 85, detail="Coach via A4/A2 to Engelberg. Morning japa on board. Today is the disappearance day of Sri Abhirama Thakura."),
              V("08:45", "12:00", "TITLIS", "Cable car & snow", "Titlis Xpress gondola + Rotair (revolving cable car) to 3,020 m: Glacier Cave, Cliff Walk (optional), snow play, group photo at the summit. Ice Flyer chairlift only if it is running in spring.",
-               mode="Cable car", note="Altitude and cold: seniors go slowly and stay hydrated. Check the webcam and lift status the evening before."),
-             M("12:00", "13:00", "Lunch", "TITLIS_LUNCH", "Indian restaurant at Titlis summit station (pre-book; verify it is open) – backup: Engelberg Indian restaurant"),
-             V("13:00", "13:45", "TITLIS", "Descent", "Rotair and gondola back down to Engelberg.", mode="Cable car"),
+               mode="Cable car", note="Summit station under construction until 2029 (limited wheelchair access). Ask sales@titlis.ch for 2027 maintenance dates. Check webcam and lift status the evening before."),
+             M("12:00", "13:00", "Lunch", "TITLIS_LUNCH", "Indian Group Restaurant at Trübsee mid-station (moved down from the summit during construction; pre-book)"),
+             V("13:00", "13:45", "TITLIS", "Descent", "Gondola from Trübsee back down to Engelberg.", mode="Cable car"),
              T("13:45", "14:30", "TITLIS", "LION", 35),
              V("14:30", "15:00", "LION", "Sightseeing", "Lion Monument: dying lion carved in rock (Mark Twain's 'most mournful piece of stone')."),
              V("15:00", "15:45", "CHAPEL", "Sightseeing", "Chapel Bridge (Kapellbrücke) and the Water Tower, old town squares, Swiss shopping."),
@@ -557,17 +557,17 @@ EXCLUSIONS = [
 ]
 
 PRACTICAL = [
-    ("Weather in late July", "London 14–23 °C, showers possible; Paris/Brussels/Amsterdam 15–25 °C; Black Forest/Zurich 14–25 °C; Titlis summit 0–5 °C; Milan/Venice/Florence/Rome 22–35 °C. Sunset ~21:15 (London) to ~20:40 (Rome)."),
+    ("Weather in late April", "15–21 °C by day, 6–11 °C at night, rain on 3–5 days in 11. Titisee mornings near freezing. Titlis summit −2 to −7 °C with snow. Sunset 20:00–21:00."),
     ("Currency", "UK: GBP (£). France, Belgium, Netherlands, Germany, Italy, Vatican: EUR (€). Switzerland: CHF (EUR widely accepted at a poor rate). A multi-currency forex card plus a little cash in each."),
     ("Power plugs", "UK: Type G (3-pin). Europe: Type C/F (2 round pins). Switzerland: Type J (Type C fits). Carry a universal adapter and a power bank."),
     ("Mobile & data", "An international roaming pack or a Europe + UK eSIM. Switzerland is often excluded from EU packs, so check. Make WhatsApp the group channel."),
-    ("Time zones", "UK = IST − 4 h 30 m (BST). France to Italy = IST − 3 h 30 m (CEST)."),
+    ("Time zones", "UK = IST − 4 h 30 m (BST). France to Italy = IST − 3 h 30 m (CEST). Abu Dhabi = IST − 1 h 30 m."),
     ("Tipping", "Driver EUR 3 per person per day (collected by the tour manager). Local guides 2–5 EUR per person per tour (optional). Restaurants: service usually included."),
     ("Emergency numbers", "UK 999 / 112; EU and Switzerland 112. Indian High Commission London +44 20 7836 8484 (verify); Indian embassies in Paris, Brussels, The Hague, Berlin, Bern and Rome (save their numbers before departure)."),
     ("Senior-citizen care", "Seats near the front, wheelchair booking at the Louvre, Vatican and airports, extra rest stops, a medicine pouch with prescriptions, an attendant ratio of 1:10, lifts used wherever available."),
-    ("Packing", "4 sets of comfortable clothes + 1 dhoti/saree set for temples, a light jacket + a warm fleece (Titlis), raincoat or umbrella, cap, sunglasses, walking shoes + slippers, tulasi beads, japa bag, small Gita, medicines for 20 days, ORS, sunscreen, an empty bottle, a small towel, a lock for suitcases, a laundry bag."),
+    ("Packing", "Warm jacket + fleece + thermal layer, gloves, woollen cap (Titlis), Ekadasi snacks for 17 Apr and 2 May, 4–5 sets of clothes + 1 dhoti/saree set for temples, raincoat or umbrella, cap, sunglasses, walking shoes + slippers, tulasi beads, japa bag, small Gita, medicines for 20 days, ORS, sunscreen, an empty bottle, a small towel, a lock for suitcases, a laundry bag."),
     ("Water & toilets", "Tap water is drinkable in the UK, France, Switzerland and most of Italy. Public toilets often charge €0.50–€1; use temple, restaurant and museum toilets."),
-    ("Shopping & VAT refund", "Paris: perfumes and fashion; Switzerland: chocolates, watches, cuckoo clocks (Titisee); Italy: leather (Florence), Murano glass (Venice). Ask for a tax-free form and get it stamped at Rome airport before check-in."),
+    ("Shopping & VAT refund", "Paris: perfumes and fashion; Switzerland: chocolates, watches, cuckoo clocks (Titisee); Italy: leather (Florence), Murano glass (Venice). Ask for a tax-free form and get it stamped at Malpensa customs before check-in."),
 ]
 
 # ---------------------------------------------------------------------------
