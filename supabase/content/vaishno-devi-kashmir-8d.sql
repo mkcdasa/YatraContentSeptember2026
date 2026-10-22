@@ -77,10 +77,17 @@ on conflict (itinerary_id,day_number) do update set title=excluded.title,
 -- Departure: 13–20 March 2027
 insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-03-13'::date,'2027-03-20'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-03-13'::date);
 
--- Package price for this departure: ₹100,000 per person + 5% GST, excluding flight charges
+-- 2027 season, one batch a month, chosen for weather and to avoid Navratri crowds
+insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-04-17'::date,'2027-04-24'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-04-17'::date);
+insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-05-08'::date,'2027-05-15'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-05-08'::date);
+insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-06-05'::date,'2027-06-12'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-06-05'::date);
+insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-09-18'::date,'2027-09-25'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-09-18'::date);
+insert into yatra_batches (yatra_id,start_date,end_date,status) select y.id,'2027-10-16'::date,'2027-10-23'::date,'planned'::batch_status from yatras y where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from yatra_batches x where x.yatra_id=y.id and x.start_date='2027-10-16'::date);
+
+-- Package price for every 2027 departure: ₹100,000 per person + 5% GST, excluding flight charges
 insert into batch_pricing (batch_id,yatra_id,tier,amount,gst,currency,effective_from)
 select b.id,y.id,'general'::price_tier,100000,5000,'INR','2026-10-21'::date
-from yatras y join yatra_batches b on b.yatra_id=y.id and b.start_date='2027-03-13'::date
+from yatras y join yatra_batches b on b.yatra_id=y.id and b.start_date between '2027-03-01'::date and '2027-12-31'::date
 where y.slug='vaishno-devi-kashmir-8-day' and not exists (select 1 from batch_pricing p where p.batch_id=b.id and p.tier='general');
 
 commit;
