@@ -6,8 +6,8 @@
 
 | # | Item | Value |
 |---|---|---|
-| 1 | Countries visited (stamp-verified) | 17 - Belgium, Cambodia, Canada, China (Tibet), France, Germany, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, Turkey, UAE, USA, United Kingdom, Vatican City |
-| 2 | Visits logged | 32 |
+| 1 | Countries visited (stamp-verified) | 16 - Belgium, Cambodia, China (Tibet), France, Germany, Italy, Nepal, Netherlands, Sri Lanka, Switzerland, Thailand, Turkey, UAE, USA, United Kingdom, Vatican City |
+| 2 | Visits logged | 31 |
 | 3 | Valid visas today | USA B1/B2 (to 26 Dec 2034), Australia 600 (to 13 Nov 2030) |
 | 4 | Expired - renew | Schengen (19 Apr 2026), UK (29 Dec 2024) |
 | 5 | Passport expiry | 17 Sep 2028; practical last travel date 17 Mar 2028 (6-month rule); start renewal by Sep 2027 |
@@ -29,23 +29,22 @@
 |---|---|---|---|---|---|
 | 1 | Belgium | 1 | 18 Jul 2024 | 18 Jul 2024 | 2 |
 | 2 | Cambodia | 2 | 08 Feb 2023 | 27 Jun 2023 | 7 |
-| 3 | Canada | 1 | 06 Sep 2025 | 06 Sep 2025 | 1 |
-| 4 | China (Tibet) | 1 | 05 Jun 2026 | 05 Jun 2026 | 6 |
-| 5 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 4 |
-| 6 | Germany | 1 | 20 Jul 2024 | 20 Jul 2024 | 2 |
-| 7 | Italy | 1 | 23 Jul 2024 | 23 Jul 2024 | 5 |
-| 8 | Nepal | 6 | 03 Mar 2019 | 10 Jun 2026 | 41 |
-| 9 | Netherlands | 1 | 19 Jul 2024 | 19 Jul 2024 | 2 |
-| 10 | Sri Lanka | 6 | 28 Sep 2019 | 17 Jan 2026 | 68 |
-| 11 | Switzerland | 1 | 21 Jul 2024 | 21 Jul 2024 | 3 |
-| 12 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
-| 13 | Turkey | 2 | 31 Jul 2024 | 29 Sep 2025 | 3 |
-| 14 | UAE | 2 | 15 Jul 2024 | 01 Aug 2024 | 6 |
-| 15 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 26 |
-| 16 | United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | 5 |
-| 17 | Vatican City | 1 | 25 Jul 2024 | 25 Jul 2024 | 1 |
+| 3 | China (Tibet) | 1 | 05 Jun 2026 | 05 Jun 2026 | 6 |
+| 4 | France | 1 | 15 Jul 2024 | 15 Jul 2024 | 4 |
+| 5 | Germany | 1 | 20 Jul 2024 | 20 Jul 2024 | 2 |
+| 6 | Italy | 1 | 23 Jul 2024 | 23 Jul 2024 | 5 |
+| 7 | Nepal | 6 | 03 Mar 2019 | 10 Jun 2026 | 41 |
+| 8 | Netherlands | 1 | 19 Jul 2024 | 19 Jul 2024 | 2 |
+| 9 | Sri Lanka | 6 | 28 Sep 2019 | 17 Jan 2026 | 68 |
+| 10 | Switzerland | 1 | 21 Jul 2024 | 21 Jul 2024 | 3 |
+| 11 | Thailand | 3 | 07 Feb 2023 | 24 Jun 2023 | 9 |
+| 12 | Turkey | 2 | 31 Jul 2024 | 29 Sep 2025 | 3 |
+| 13 | UAE | 2 | 15 Jul 2024 | 01 Aug 2024 | 6 |
+| 14 | USA | 1 | 04 Sep 2025 | 04 Sep 2025 | 26 |
+| 15 | United Kingdom | 1 | 27 Jul 2024 | 27 Jul 2024 | 5 |
+| 16 | Vatican City | 1 | 25 Jul 2024 | 25 Jul 2024 | 1 |
 
-*Total: 17 rows*
+*Total: 16 rows*
 
 *Belgium, Netherlands, Germany, Switzerland, Italy, Vatican City: visited inside the 15-27 Jul 2024 Schengen trip (no internal stamps). Pre-2018 travel not captured.*
 
@@ -78,15 +77,14 @@
 | 23 | 23 | Turkey | 31 Jul 2024 | 01 Aug 2024 | 2 | Turkish eVisa (conditional, via UK/Schengen visa) | GPS timeline: Umraniye, Istanbul (Asian side) 31 Jul-1 Aug 2024 - left the airport | Check |
 | 24 | 24 | UAE | 01 Aug 2024 | 05 Aug 2024 | 5 | UAE Tourist eVisa, single entry, 30 days (issued Dubai 18 Jul 2024) | Passport p.10: UAE entry stamp 01 Aug 2024 + eVisa PDF; GPS: Dubai 1-4 Aug, Abu Dhabi + Masdar City 3 Aug, Sharjah 5 Aug; India arrival RGI 05 Aug 2024 | High |
 | 25 | 25 | USA | 04 Sep 2025 | 29 Sep 2025 | 26 | B1/B2 10-yr visa (admitted until 03 Mar 2026) | Passport p.26 + GPS: NY 4-5, Niagara 5-6, Pittsburgh 6-7, New Vrindaban (Wheeling WV) 7, DC/Baltimore/Fairfax 8-9, NJ/NYC/Philadelphia 10-12, Orlando 12-15, Gainesville (ISKCON Alachua)/Jacksonville 16, Miami 17, Los Angeles 17-20, Fairfax/DC 20-22, Boston/Shrewsbury 23-25, NJ 26-27, Philadelphia/DC/NYC 29; India arrival Mumbai 30 Sep | High |
-| 26 | 26 | Canada | 06 Sep 2025 | 06 Sep 2025 | 1 | TRV would be required - CONFIRM | GPS timeline: Niagara Falls, Ontario 06 Sep 2025 (1 day) | Check |
-| 27 | 27 | Turkey | 29 Sep 2025 | 29 Sep 2025 | 1 | Airside transit | GPS timeline: Bagcilar, Istanbul 29 Sep 2025 | High |
-| 28 | 28 | Sri Lanka | 17 Jan 2026 | 25 Jan 2026 | 9 | Sri Lanka ETA | Your Ramayan Yatra itinerary 16-25 Jan 2026. GPS timeline shows NO Sri Lanka after Mar 2022 | Check |
-| 29 | 29 | Nepal | 24 May 2026 | 29 May 2026 | 6 | No visa needed | Your Muktinath Yatra itinerary 24-29 May 2026. GPS shows no Nepal in this window (Pokhara last seen Apr 2022) | Check |
-| 30 | 30 | Nepal | 30 May 2026 | 05 Jun 2026 | 7 | No visa needed | GPS timeline: Nepal 30 May-5 Jun 2026 (Kathmandu); Kailash itinerary Days 1-3 | High |
-| 31 | 31 | China (Tibet) | 05 Jun 2026 | 10 Jun 2026 | 6 | Chinese group visa + Tibet Travel Permit (via operator) | GPS blackout 6-9 Jun 2026 (no data in Tibet) between Nepal legs; Kailash itinerary | Check |
-| 32 | 32 | Nepal | 10 Jun 2026 | 12 Jun 2026 | 3 | No visa needed | GPS timeline: Nepal 10-12 Jun 2026 | High |
+| 26 | 26 | Turkey | 29 Sep 2025 | 29 Sep 2025 | 1 | Airside transit | GPS timeline: Bagcilar, Istanbul 29 Sep 2025 | High |
+| 27 | 27 | Sri Lanka | 17 Jan 2026 | 25 Jan 2026 | 9 | Sri Lanka ETA | Your Ramayan Yatra itinerary 16-25 Jan 2026; confirmed by you 22 Oct 2026 (phone Timeline was off) | High |
+| 28 | 28 | Nepal | 24 May 2026 | 29 May 2026 | 6 | No visa needed | Your Muktinath Yatra itinerary 24-29 May 2026; confirmed by you 22 Oct 2026 (phone Timeline was off) | High |
+| 29 | 29 | Nepal | 30 May 2026 | 05 Jun 2026 | 7 | No visa needed | GPS timeline: Nepal 30 May-5 Jun 2026 (Kathmandu); Kailash itinerary Days 1-3 | High |
+| 30 | 30 | China (Tibet) | 05 Jun 2026 | 10 Jun 2026 | 6 | Chinese group visa + Tibet Travel Permit (via operator) | GPS blackout 6-9 Jun 2026 (no data in Tibet) between Nepal legs; Kailash itinerary | Check |
+| 31 | 31 | Nepal | 10 Jun 2026 | 12 Jun 2026 | 3 | No visa needed | GPS timeline: Nepal 10-12 Jun 2026 | High |
 
-*Total: 32 rows*
+*Total: 31 rows*
 
 ## 5. Visas held
 
@@ -267,9 +265,9 @@ Changes 2025-26: Iran visa-waiver SUSPENDED 22 Nov 2025; Thailand 60 d -> 30 d f
 | 3 | Australia (Yatra) | 2026-02-10 | 2026-02-19 | Visa granted 13 Nov 2025; would be FIRST Australia entry - confirm |
 | 4 | Bali, Indonesia | 2026-02-21 | 2026-02-27 | Confirm |
 | 5 | USA Yatra (brochure 22 Apr-8 May) | 2026-04-22 | 2026-05-08 | RESOLVED by GPS: no 2026 USA trip; Sep 2025 route = NY, Niagara, Pittsburgh, New Vrindaban, DC, Baltimore, NJ, Philadelphia, Orlando, Alachua, Miami, LA, Boston. San Francisco NOT visited |
-| 6 | Sri Lanka Ramayan Yatra Jan 2026 | 2026-01-16 | 2026-01-25 | GPS timeline has no Sri Lanka after Mar 2022 - confirm you personally travelled |
-| 7 | Nepal Muktinath Yatra May 2026 | 2026-05-24 | 2026-05-29 | GPS shows no Nepal 24-29 May 2026 - confirm you personally travelled |
-| 8 | Canada - Niagara Falls, Ontario | 2025-09-06 | 2025-09-06 | Did you cross into Canada (needs TRV) or is this a border/boat GPS point? |
+| 6 | Sri Lanka Ramayan Yatra Jan 2026 | 2026-01-16 | 2026-01-25 | RESOLVED 22 Oct 2026: visited (phone Timeline was off). In Travel Log. |
+| 7 | Nepal Muktinath Yatra May 2026 | 2026-05-24 | 2026-05-29 | RESOLVED 22 Oct 2026: visited (phone Timeline was off). In Travel Log. |
+| 8 | Canada - Niagara Falls, Ontario | 2025-09-06 | 2025-09-06 | RESOLVED 22 Oct 2026: NOT visited - GPS point was on the US side/border. Removed from Travel Log; Canada stays unvisited. |
 | 9 | Disneyland Paris? | 2024-07-16 | 2024-07-16 | GPS point beside Disneyland Paris - visited? |
 | 10 | Nepal (Muktinath Yatra) | 2024-10-27 | 2024-11-02 | No 2024 Nepal stamp seen - may have been an escorted group yatra or not run |
 | 11 | Sri Lanka (Ramayan Yatra) | 2024-12-01 | 2024-12-07 | No Dec-2024 SL stamp in scan - confirm |
@@ -409,15 +407,14 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 | 100 | USA | Boston / Shrewsbury MA | Boston (ISKCON Boston - Prabhupada landed here 1965); Shrewsbury - GPS 23-25 Sep 2025 | ISKCON/Temple | 23-25 Sep 2025 | GPS-confirmed; not in brochure. Confirm sites |
 | 101 | USA | Philadelphia PA | Philadelphia - GPS 10 & 29 Sep 2025 (Independence Hall? ISKCON Philadelphia?) | Landmark | 10 & 29 Sep 2025 | GPS-confirmed; confirm sites |
 | 102 | USA | Wheeling / Erie / Altoona | Road route Pittsburgh -> New Vrindaban (Wheeling WV) -> DC - GPS 6-7 Sep 2025 | Transit hub | 6-7 Sep 2025 | GPS-confirmed |
-| 103 | Canada | Niagara Falls, Ontario | Niagara Falls Canadian side - GPS 6 Sep 2025 (CONFIRM actual entry) | Nature | 6 Sep 2025 | Needs Canadian TRV - confirm |
-| 104 | Turkey | Istanbul (Umraniye) | Istanbul overnight stop 31 Jul-1 Aug 2024 (London -> Dubai); airport transit 29 Sep 2025 | Transit hub | 31 Jul 2024; 29 Sep 2025 | Turkish eVisa presumably used in 2024 - confirm |
-| 105 | UAE | Abu Dhabi | Abu Dhabi + Masdar City day trip - GPS 3 Aug 2024 (Sheikh Zayed Mosque / BAPS Mandir?) | Landmark | 3 Aug 2024 | Confirm sites |
-| 106 | UAE | Sharjah | Sharjah airport transits 15 Jul & 5 Aug 2024 | Transit hub | 15 Jul & 5 Aug 2024 |  |
-| 107 | Thailand | Bangkok (BKK) | Bangkok | City tour | Feb 2023 (x2); Jun 2023 | Add sites (ISKCON Bangkok, Wat Arun, Grand Palace...) |
-| 108 | Cambodia | Siem Reap | Angkor Wat / Angkor Thom | Landmark | Feb 2023; Jun 2023 | Confirm sites |
-| 109 | UAE | Dubai | Dubai | City tour | 1-~5 Aug 2024 | Add sites (ISKCON Dubai Bur Dubai, Burj Khalifa...) |
+| 103 | Turkey | Istanbul (Umraniye) | Istanbul overnight stop 31 Jul-1 Aug 2024 (London -> Dubai); airport transit 29 Sep 2025 | Transit hub | 31 Jul 2024; 29 Sep 2025 | Turkish eVisa presumably used in 2024 - confirm |
+| 104 | UAE | Abu Dhabi | Abu Dhabi + Masdar City day trip - GPS 3 Aug 2024 (Sheikh Zayed Mosque / BAPS Mandir?) | Landmark | 3 Aug 2024 | Confirm sites |
+| 105 | UAE | Sharjah | Sharjah airport transits 15 Jul & 5 Aug 2024 | Transit hub | 15 Jul & 5 Aug 2024 |  |
+| 106 | Thailand | Bangkok (BKK) | Bangkok | City tour | Feb 2023 (x2); Jun 2023 | Add sites (ISKCON Bangkok, Wat Arun, Grand Palace...) |
+| 107 | Cambodia | Siem Reap | Angkor Wat / Angkor Thom | Landmark | Feb 2023; Jun 2023 | Confirm sites |
+| 108 | UAE | Dubai | Dubai | City tour | 1-~5 Aug 2024 | Add sites (ISKCON Dubai Bur Dubai, Burj Khalifa...) |
 
-*Total: 109 rows*
+*Total: 108 rows*
 
 ## 12. World Checklist - tick what you have visited
 
@@ -2526,11 +2523,11 @@ Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub
 
 ### Reconciliation - GPS vs passport / itineraries
 
-- **Sri Lanka Ramayan Yatra 16-25 Jan 2026** - You said visited; GPS timeline has NO Sri Lanka after 5 Mar 2022 (export runs to 14 Oct 2026). Either Timeline was off, or the Jan 2026 batch was led by someone else. Kept in Travel Log with CONFLICT flag - please confirm.
-- **Nepal Muktinath Yatra 24-29 May 2026** - GPS shows no Nepal 24-29 May 2026; Pokhara/Baglung last seen Apr 2022. The 2026 Nepal presence is 30 May-5 Jun and 10-12 Jun (Kailash legs). Kept with CONFLICT flag - confirm.
+- **Sri Lanka Ramayan Yatra 16-25 Jan 2026** - GPS has no Sri Lanka after Mar 2022 because the phone Timeline was OFF. Confirmed visited by you (22 Oct 2026).
+- **Nepal Muktinath Yatra 24-29 May 2026** - GPS gap because the phone Timeline was OFF. Confirmed visited by you (22 Oct 2026). GPS 30 May-5 Jun / 10-12 Jun = Kailash legs.
 - **Kailash Manasarovar Jun 2026** - GPS supports it: Nepal 30 May-5 Jun, then a 5-day GPS blackout (Tibet, no data), Nepal again 10-12 Jun. Dates adjusted to GPS.
 - **USA yatra places** - GPS (4-29 Sep 2025) shows NY, Niagara, Pittsburgh, New Vrindaban (Wheeling WV), DC/Fairfax, Baltimore, NJ, Philadelphia, Orlando, Gainesville (ISKCON Alachua), Miami, Los Angeles, Boston. NO San Francisco / Berkeley / San Jose -> those brochure places un-ticked.
-- **Canada 6 Sep 2025** - GPS puts you in Niagara Falls, Ontario for 1 day. Indians need a TRV to enter Canada - was this the Rainbow Bridge / Hornblower boat near the border, or an actual crossing? Logged as Transit pending your answer.
+- **Canada 6 Sep 2025** - GPS point in Niagara Falls, Ontario was border/boat drift - you confirmed (22 Oct 2026) you did NOT enter Canada. Canada remains unvisited (TRV needed).
 - **Turkey** - GPS shows Istanbul (Umraniye, Asian side) overnight 31 Jul-1 Aug 2024 - i.e. you LEFT the airport -> Turkey counts as entered (Turkish eVisa via UK/Schengen visa). Plus airport transit 29 Sep 2025.
 - **UAE 15 Jul 2024** - GPS shows Sharjah on 15 Jul 2024 = outbound transit to Paris (Air Arabia). Added as transit.
 - **Abu Dhabi 3 Aug 2024** - GPS confirms Abu Dhabi + Masdar City day trip from Dubai.
@@ -2991,3 +2988,4 @@ Tick as you cover new ones.
 - 21 Oct 2026 - Deep research on power visas: ranked strategy, Indian passport baseline (55), Access Map corrections (Gibraltar, Bosnia, Egypt, Caribbean BOTs, Singapore DE/CH rule, Kuwait, Kosovo, Belarus, Kyrgyzstan, El Salvador).
 - 21 Oct 2026 - World Checklist expanded to 566 places / 91 countries incl. popular sightseeing, theme parks, beaches, wildlife; real tick boxes added (Excel ☑/☐ dropdown, Markdown [x]).
 - 21 Oct 2026 - Merged Google Maps Timeline export (Travel Master List.xlsx): GPS countries/states/cities/places/pilgrimage sheets; Travel Log corrected (Nepal 2019, Sri Lanka 2022 batches, Turkey x2, Canada, UAE transit + Abu Dhabi, Kailash dates); USA places corrected (no San Francisco; Alachua/Boston/Philadelphia added); 134 checklist ticks; 2 itinerary conflicts flagged.
+- 22 Oct 2026 - Conflicts resolved: Sri Lanka Jan 2026 and Nepal May 2026 confirmed visited (Timeline off); Canada removed (not entered).
