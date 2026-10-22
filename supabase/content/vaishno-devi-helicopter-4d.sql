@@ -11,9 +11,9 @@ insert into yatras (slug,title,scope,nature,themes,nights,days,difficulty,senior
   'vaishno-devi-helicopter-package',
   '4 Days Vaishno Devi Helicopter Package',
   'domestic'::yatra_scope,'evergreen'::yatra_nature,'{}',3,4,2,true,false,
-  'Jammu – Katra – Vaishno Devi – Jammu. Jammu temple sightseeing, helicopter from Katra to Sanjichhat, Evening Darshan and Aarti, a night at Bhawan, Morning Aarti and Bhairon Baba Temple, then Banganga, Darshani Deodi and Katra market before returning to Jammu.',
+  'Jammu – Katra – Vaishno Devi – Jammu. Raghunath and Ranbireshwar temples in Jammu, helicopter from Katra to Sanjichhat, Evening Darshan and Aarti, a night at Bhawan, Morning Aarti and Bhairon Baba Temple, then Banganga, Darshani Deodi and Katra market before returning to Jammu.',
   array[
-    'Jammu Temple Sightseeing',
+    'Raghunath & Ranbireshwar Temples, Jammu',
     'Helicopter Ride from Katra to Sanjichhat',
     'Shri Mata Vaishno Devi Darshan',
     'Morning Aarti at Bhawan',
@@ -39,7 +39,7 @@ select i.id,d.day_number,d.title,d.body,d.stay
 from itineraries i join yatras y on y.id=i.yatra_id
 cross join (values
   (1,'Jammu Arrival – Local Sightseeing',
-   E'Arrive at Jammu Airport by 2 pm, meet our representative and transfer to the hotel.\nAfter freshening up, proceed for local sightseeing:\n- Raghunath Temple\n- Ranbireshwar Temple\n- Bawe Wali Mata Temple\n- Peer Kho Cave Temple\n- Bahu Fort\nReturn to the hotel in the evening.',
+   E'Arrive at Jammu Airport by 2 pm, meet our representative and transfer to the hotel.\nAfter lunch, visit:\n- Raghunath Temple\n- Ranbireshwar Temple\n- Raghunath Bazaar (shopping)\nReturn to the hotel in the evening.',
    'Jammu'),
   (2,'Jammu – Katra – Vaishno Devi by Helicopter',
    E'After breakfast, proceed to Katra (approx. 50 km / 1.5 hours).\nComplete Yatra registration formalities and report at Katra Helipad as per the allotted schedule.\nBoard the helicopter to Sanjichhat (flight duration approximately 5–8 minutes).\nRoute: Katra Helipad → Sanjichhat Helipad → Bhawan (approx. 2.5 km by battery car).\nProceed towards Shri Mata Vaishno Devi Bhawan and participate in the divine Evening Darshan and Aarti.',
