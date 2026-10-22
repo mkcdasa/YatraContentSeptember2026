@@ -237,6 +237,45 @@ def places_sheet(wb):
         style_row(ws, r, 6)
 
 
+def tickets_sheet(wb):
+    ws = wb.create_sheet("Entry tickets")
+    title_block(ws, "Entry tickets – adult price per person (official 2026 rates)",
+                f"Checked {D.FX_ASOF}. Edit a price or an exchange rate and the INR columns and totals update.")
+    fx_row = {}
+    for cur, rate in D.FX.items():
+        ws.append([f"INR per 1 {cur}", rate])
+        fx_row[cur] = ws.max_row
+        ws.cell(row=ws.max_row, column=1).font = Font(name=FONT, bold=True, size=10)
+        ws.cell(row=ws.max_row, column=2).font = Font(name=FONT, size=10, color="0000FF")
+    ws.append([])
+    cols = ["Day", "Place", "In plan?", "Currency", "Price (local)", "Price (INR)", "Notes", "Source"]
+    header(ws, cols, [5, 44, 9, 9, 12, 12, 46, 14])
+    ws.freeze_panes = None
+    first = ws.max_row + 1
+    for day, place, planned, cur, price, note, src in D.ENTRY_TICKETS:
+        ws.append([day, place, "Yes" if planned else "Optional", cur, price, None, note, "Open" if src else ""])
+        r = ws.max_row
+        ws.cell(row=r, column=6).value = f'=IF(E{r}="","",E{r}*$B${fx_row[cur]})'
+        ws.cell(row=r, column=5).number_format = "#,##0.00"
+        ws.cell(row=r, column=6).number_format = "#,##0"
+        if src:
+            ws.cell(row=r, column=8).hyperlink = src
+            ws.cell(row=r, column=8).font = LINK
+        style_row(ws, r, len(cols))
+        ws.cell(row=r, column=5).font = Font(name=FONT, size=9, color="0000FF")
+    last = ws.max_row
+    ws.append(["", "Total – tickets in the plan (per adult)", "", "", "", f'=SUMIFS(F{first}:F{last},C{first}:C{last},"Yes")'])
+    ws.append(["", "Total – optional extras if all taken (per adult)", "", "", "", f'=SUMIFS(F{first}:F{last},C{first}:C{last},"Optional")'])
+    for r in (ws.max_row - 1, ws.max_row):
+        ws.cell(row=r, column=6).number_format = "#,##0"
+        style_row(ws, r, len(cols))
+        for c in (2, 6):
+            ws.cell(row=r, column=c).font = Font(name=FONT, bold=True, size=10)
+    ws.append([])
+    ws.append(["", "Group costs (not per person): Zaanse Schans coach parking €35–55/day; Volendam coach parking €15–25; Louvre group fee €90 per 7–20; Dover–Calais ferry by quote; Venice access fee – overnight guests in Mestre exempt but must register."])
+    ws.cell(row=ws.max_row, column=2).font = Font(name=FONT, italic=True, size=9)
+
+
 def simple_sheet(wb, name, cols, widths, rows, title=None):
     ws = wb.create_sheet(name)
     if title:
@@ -255,6 +294,7 @@ def main():
     day_summary(wb, first, last)
     meal_sheet(wb)
     places_sheet(wb)
+    tickets_sheet(wb)
     simple_sheet(wb, "Pros & cons", ["Day", "Pros", "Cons / watch-outs"], [5, 70, 70], D.PROS_CONS)
     simple_sheet(wb, "Challenges", ["Challenge", "What happens", "Mitigation"], [28, 60, 70], D.CHALLENGES)
     n = max(len(D.DOS), len(D.DONTS))

@@ -537,3 +537,48 @@ PRACTICAL = [
     ("Water & toilets", "Tap water is drinkable in the UK, France, Switzerland and most of Italy. Public toilets often charge €0.50–€1; use temple, restaurant and museum toilets."),
     ("Shopping & VAT refund", "Paris: perfumes and fashion; Switzerland: chocolates, watches, cuckoo clocks (Titisee); Italy: leather (Florence), Murano glass (Venice). Ask for a tax-free form and get it stamped at Rome airport before check-in."),
 ]
+
+# ---------------------------------------------------------------------------
+# Entry tickets — official 2026 adult rates, checked 22 Oct 2026
+# ---------------------------------------------------------------------------
+
+FX_ASOF = "2026-10-22"
+FX = {"GBP": 126.78, "EUR": 106.13, "CHF": 114.66}  # INR per unit: XE (GBP), ECB 21 Oct (EUR, CHF)
+
+# (day, place, planned?, currency, price per adult, notes, source)
+ENTRY_TICKETS = [
+    (2, "The Lion King, Lyceum (optional)", False, "GBP", 45, "Group 20+ Stalls/Royal Circle; group shows Tue–Fri only", "https://www.thelionking.co.uk/groups-and-education"),
+    (2, "Christ Church, Oxford (optional)", False, "GBP", 22.95, "Weekday; 65+ £20.50", "https://www.chch.ox.ac.uk/visit/daily-multimedia-tours"),
+    (2, "Bodleian Library 60-min tour (optional)", False, "GBP", 17.50, "From price", "https://visit.bodleian.ox.ac.uk/tours/library-guided-tours"),
+    (2, "Bourton Model Village (optional)", False, "GBP", 4.95, "Over 60 £4.50; card only", "https://theoldnewinn.co.uk/model-village"),
+    (3, "London Eye", True, "GBP", 26, "Group 10+; £29 online standard", "https://www.londoneye.com/tickets-and-prices/groups/"),
+    (3, "Thames boat London Eye → Tower (Uber Boat)", True, "GBP", 11.70, "Online single; 10% off groups 10+; seniors 50% off", "https://www.thamesclippers.com/plan-your-journey/ticket-information"),
+    (3, "Tower of London (Crown Jewels)", True, "GBP", 37, "NOT VERIFIED – official site blocked", "https://www.hrp.org.uk/tower-of-london/"),
+    (3, "Madame Tussauds London", True, "GBP", 27, "Online from-price; walk-up £39", "https://www.madametussauds.com/london/tickets/"),
+    (4, "Seine cruise – Bateaux Parisiens", True, "EUR", 18, "Online; €20 on the day (partly verified)", "https://www.bateauxparisiens.com/static/BP/FAQ/faq-en.pdf"),
+    (5, "Eiffel Tower – lift to 2nd floor", True, "EUR", 23.50, "Youth 12–24 €11.80; child €6", "https://www.toureiffel.paris/en/rates-opening-times"),
+    (6, "Disneyland Paris 1 day (Option B)", False, "EUR", 56, "€56–110 by date; NOT VERIFIED", "https://www.disneylandparis.com/"),
+    (7, "Louvre (non-EU rate)", True, "EUR", 32, "Group €28 + €90 fee per 7–20 people", "https://www.louvre.fr/en/visit/hours-admission"),
+    (7, "Atomium inside (optional)", False, "EUR", 15, "Group 20+; standard €17", "https://www.atomium.be/tickets"),
+    (8, "Amsterdam canal cruise 75 min (Blue Boat)", True, "EUR", 26, "Plus passenger tax", "https://www.blueboat.nl/en/canal-cruise-amsterdam/canal-tour-amsterdam/"),
+    (9, "De Kat windmill, Zaanse Schans (optional)", False, "EUR", 7.50, "Village free", "https://www.zaanseschans.com/en/paint-mill-de-kat/"),
+    (10, "Cologne Cathedral inside (optional)", False, "EUR", 12, "New charge since 1 Jul 2026; free during services", "https://api.koelner-dom.de/uploads/Dom_Ticket_Flyer_05_ON_5b22f02690.pdf"),
+    (11, "Lake Titisee boat (optional)", False, "EUR", 7.50, "About 25 min", "https://drubba-titisee.com/bootsfahrt"),
+    (11, "Rhine Falls – Schloss Laufen platforms", True, "CHF", 5, "Child CHF 3", "https://shop.e-guma.ch/schlosslaufen-am-rheinfall/de/tickets/rheinfall-ticket-3670826"),
+    (11, "Rhine Falls boat to the rock (optional)", False, "CHF", 22.50, "Not for seniors", "https://www.rhyfall-maendli.ch/linienfahrten-und-erlebnisse/felsenfahrt/"),
+    (12, "Mount Titlis return (group rate)", True, "CHF", 81.60, "20% off CHF 102 for groups 10+", "https://www.engelberg.ch/en/cable-cars/prices-summer"),
+    (12, "Titlis Ice Flyer", True, "CHF", 12, "Extra", "https://www.engelberg.ch/en/cable-cars/prices-summer"),
+    (12, "Lake Lucerne 1-hour cruise", True, "CHF", None, "TBC – no 2026 fare published; groups@lakelucerne.ch", "https://www.lakelucerne.ch/en/information/prices/"),
+    (12, "Luzern–Interlaken Express 2nd class (group)", True, "CHF", 39.80, "CHF 23.80 + CHF 16 reservation", "https://www.zentralbahn.ch/"),
+    (13, "Lake Como boat Como ↔ Cernobbio", True, "EUR", 6, "Return; groups/seniors €4.80", "https://www.navigazionelaghi.it/wp-content/uploads/2026/03/NLC_Tariffe-A4_042026_CT012018_Ita.pdf"),
+    (14, "Milan Duomo cathedral + museum (optional)", False, "EUR", 10, "Terraces lift €18", "https://www.duomomilano.it/en/access-updates-for-the-milan-duomo-monumental-complex/"),
+    (14, "Venice vaporetto 1-day pass", True, "EUR", 25, "Single €9.50", "https://avm.avmspa.it/en/content/venice-urban-services-0"),
+    (14, "Venice gondola 30 min (per person, 5/boat)", True, "EUR", 18, "~€90 per gondola; NOT VERIFIED", ""),
+    (14, "Doge's Palace (optional)", False, "EUR", 30, "Online 30 days ahead; €35 otherwise", "https://www.visitmuve.it/en/tickets/"),
+    (15, "Leaning Tower of Pisa climb (optional)", False, "EUR", 20, "Includes Cathedral", "https://www.opapisa.it/en/tickets/prices/"),
+    (15, "Florence Duomo Brunelleschi Pass (optional)", False, "EUR", 30, "Cathedral itself free", "https://tickets.duomo.firenze.it/en/support/prices"),
+    (16, "Vatican Museums & Sistine Chapel", True, "EUR", 25, "€20 + €5 booking", "https://www.museivaticani.va/content/museivaticani-mobile/en/organizza-visita/tariffe-e-biglietti.html"),
+    (16, "Colosseum + Forum + Palatine", True, "EUR", 18, "Under 18 free", "https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/"),
+    (16, "Trevi Fountain basin access", True, "EUR", 2, "Since Feb 2026", "https://www.comune.roma.it/web/it/notizia/biglietto-dingresso-fontana-di-trevi.page"),
+    (16, "Pantheon", True, "EUR", 7, "Since Jul 2026", "https://direzionemuseiroma.cultura.gov.it/en/pantheon/"),
+]
