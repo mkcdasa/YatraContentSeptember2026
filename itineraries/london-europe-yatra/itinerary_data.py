@@ -127,7 +127,7 @@ def maps_route(a, b, mode="driving"):
 
 
 HOTEL_DINNER = "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
-HOTEL_BREAKFAST = "Hotel – complimentary buffet (07:00–09:00)"
+HOTEL_BREAKFAST = "Hotel – complimentary buffet (08:00–09:00)"
 
 
 def T(start, end, a, b, km, mode="Coach", detail="", note="", tz=None):
@@ -171,13 +171,13 @@ DAYS = [
              V("18:45", "19:45", "LHR_T4", "Arrival", "BANGALORE GROUP: UK Border, baggage claim, meet the coach at T4. Headcount."),
              T("19:45", "20:30", "LHR_T4", "H_LON", 25, detail="Coach run 2: Bangalore group to the hotel."),
              M("20:45", "21:30", "Dinner", "H_LON", "Hotel / Indian caterer – Ekadasi (grain-free) menu", "Bangalore group dinner."),
-             V("21:30", "22:00", "H_LON", "Briefing", "Joint welcome kirtan and briefing. Tomorrow: break fast (Dvadasi parana) 05:59–10:40 at breakfast (07:00–09:00); coach 09:00. Sunset tonight about 20:05; jet lag: sleep by 22:30."),
+             V("21:30", "22:00", "H_LON", "Briefing", "Joint welcome kirtan and briefing. Tomorrow: break fast (Dvadasi parana) 05:59–10:40 at breakfast (08:00–09:00); coach 09:00. Sunset tonight about 20:05; jet lag: sleep by 22:30."),
          ]),
     dict(day=2, date="2027-04-18", dow="Sun", title="Bhaktivedanta Manor Sunday programme · Oxford · Cotswolds",
          overnight="London (Wembley)", tz="BST",
          rows=[
-             V("06:00", "07:00", "H_LON", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_LON", HOTEL_BREAKFAST + " – Dvadasi break fast between 05:59 and 10:40 (London)", "Break the Ekadasi fast with grains at breakfast."),
+             V("07:30", "08:00", "H_LON", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_LON", HOTEL_BREAKFAST + " – Dvadasi break fast between 05:59 and 10:40 (London)", "Break the Ekadasi fast with grains at breakfast."),
              T("09:00", "09:45", "H_LON", "MANOR", 22, detail="Coach to Watford. Use the Hilfield Lane entrance (sat-nav WD25 8HE)."),
              V("09:45", "11:30", "MANOR", "Temple darshan", "Bhaktivedanta Manor: darshan of Sri Sri Radha-Gokulananda and Sita-Rama-Lakshmana-Hanuman, Srila Prabhupada's rooms, gardens, lake and goshala. Story of George Harrison's gift of the Manor."),
              V("11:30", "13:00", "MANOR", "Spiritual programme", "Sunday Love Feast programme: kirtan and Bhagavad-gita class with the London devotees.",
@@ -194,8 +194,8 @@ DAYS = [
     dict(day=3, date="2027-04-19", dow="Mon", title="London city: Westminster · London Eye · Thames · Tower · Tussauds · Soho temple",
          overnight="London (Wembley)", tz="BST",
          rows=[
-             V("06:00", "07:00", "H_LON", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_LON", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_LON", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_LON", HOTEL_BREAKFAST),
              T("09:00", "09:55", "H_LON", "WESTMINSTER", 20, detail="Coach into central London; drop at Westminster Bridge."),
              V("10:00", "11:00", "EYE", "Sightseeing", "London Eye – 30-minute rotation in a capsule (pre-booked 10:00 group slot). Views of St Paul's, Buckingham Palace, the Shard."),
              V("11:00", "11:45", "WESTMINSTER", "Sightseeing", "Walk over Westminster Bridge: Big Ben, Houses of Parliament, Westminster Abbey (exterior), Parliament Square."),
@@ -216,8 +216,8 @@ DAYS = [
     dict(day=4, date="2027-04-20", dow="Tue", title="London → Dover → ferry → Calais → Paris · Balarama Rasayatra",
          overnight="Paris", tz="BST→CEST",
          rows=[
-             V("06:00", "07:00", "H_LON", "Morning programme", MORNING, tz="BST"),
-             M("07:00", "09:00", "Breakfast", "H_LON", HOTEL_BREAKFAST, tz="BST"),
+             V("07:30", "08:00", "H_LON", "Morning programme", MORNING, tz="BST"),
+             M("08:00", "09:00", "Breakfast", "H_LON", HOTEL_BREAKFAST, tz="BST"),
              V("08:30", "09:00", "H_LON", "Check-out", "Check-out, luggage loading, headcount. Settle room extras (own expense).", tz="BST"),
              T("09:00", "11:15", "H_LON", "DOVER", 135, tz="BST", detail="Coach via M25/M20 to Port of Dover. Today is Balarama Rasayatra and Sri Krishna Vasanta Rasa: kirtan and the pastime narrated on board."),
              V("11:15", "13:15", "DOVER", "Border check", "UK exit and French entry at Dover. First entry into Schengen: EU Entry/Exit System (EES) records fingerprints and a face photo for each yatri. Coach and passengers checked together.", tz="BST",
@@ -233,8 +233,8 @@ DAYS = [
     dict(day=5, date="2027-04-21", dow="Wed", title="Paris: Arc de Triomphe · Eiffel Tower · Notre-Dame · ISKCON Paris · Seine cruise",
          overnight="Paris", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_PAR", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_PAR", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_PAR", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_PAR", HOTEL_BREAKFAST),
              T("09:00", "09:25", "H_PAR", "ARC", 5),
              V("09:25", "10:15", "ARC", "Sightseeing", "Arc de Triomphe photo stop, Champs-Élysées walk (one side), Place de la Concorde drive-past."),
              T("10:15", "10:35", "ARC", "EIFFEL", 3),
@@ -256,8 +256,8 @@ DAYS = [
     dict(day=6, date="2027-04-22", dow="Thu", title="Louvre → Brussels: Atomium · Grand Place · Manneken Pis",
          overnight="Brussels", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_PAR", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_PAR", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_PAR", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_PAR", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_PAR", "Check-out", "Check-out, luggage loaded, headcount."),
              T("09:00", "09:25", "H_PAR", "LOUVRE", 4),
              V("09:30", "12:15", "LOUVRE", "Sightseeing", "Louvre with a licensed guide (whisper headsets): Mona Lisa, Venus de Milo, Winged Victory, Egyptian antiquities, the Pyramid.",
@@ -275,8 +275,8 @@ DAYS = [
     dict(day=7, date="2027-04-23", dow="Fri", title="ISKCON Radhadesh (Durbuy) → Amsterdam · canal cruise",
          overnight="Amsterdam", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_BRU", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_BRU", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_BRU", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_BRU", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_BRU", "Check-out", "Check-out, luggage loaded."),
              T("09:00", "10:45", "H_BRU", "RADHADESH", 125, detail="Coach via E411 into the Ardennes hills."),
              V("10:45", "12:45", "RADHADESH", "Temple darshan", "Radhadesh, Château de Petite Somme: a neo-gothic château that houses ISKCON's Benelux temple. Darshan, the château, the Museum of Sacred Art, bookshop. Kirtan with the community."),
@@ -292,8 +292,8 @@ DAYS = [
     dict(day=8, date="2027-04-24", dow="Sat", title="Zaanse Schans windmills · Keukenhof tulip gardens → Cologne",
          overnight="Cologne", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_AMS", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_AMS", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_AMS", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_AMS", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_AMS", "Check-out", "Check-out, luggage loaded."),
              T("09:00", "09:30", "H_AMS", "ZAANSE", 20),
              V("09:30", "11:00", "ZAANSE", "Sightseeing", "Zaanse Schans: working windmills, clog-making workshop, cheese farm, green wooden houses.",
@@ -310,8 +310,8 @@ DAYS = [
     dict(day=9, date="2027-04-25", dow="Sun", title="Cologne · ISKCON Cologne → Goloka Dham Sunday programme → Black Forest",
          overnight="Titisee (Black Forest)", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_CGN", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_CGN", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_CGN", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_CGN", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_CGN", "Check-out", "Check-out."),
              T("09:00", "09:10", "H_CGN", "DOM", 2),
              V("09:10", "09:50", "DOM", "Sightseeing", "Cologne Cathedral (UNESCO): exterior and square. Interior only during services on Sunday mornings (tourist entry €12 on weekdays).",
@@ -330,8 +330,8 @@ DAYS = [
     dict(day=10, date="2027-04-26", dow="Mon", title="Lake Titisee · cuckoo clocks → Rhine Falls → Zurich · ISKCON Zurich",
          overnight="Zurich", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_TIT", "Morning programme", MORNING + " Lakeside japa walk if weather allows."),
-             M("07:00", "09:00", "Breakfast", "H_TIT", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_TIT", "Morning programme", MORNING + " Lakeside japa walk if weather allows."),
+             M("08:00", "09:00", "Breakfast", "H_TIT", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_TIT", "Check-out", "Check-out."),
              V("09:00", "10:30", "TITISEE", "Sightseeing", "Lake Titisee promenade, Black Forest cuckoo-clock shops with a live demonstration, optional boat trip (if the spring season has started). VAT refund forms for big purchases."),
              T("10:30", "11:45", "TITISEE", "RHINEFALLS", 70, detail="Coach into Switzerland (border check possible; passports handy)."),
@@ -348,8 +348,8 @@ DAYS = [
     dict(day=11, date="2027-04-27", dow="Tue", title="Mount Titlis (snow) · Lucerne · Lion Monument · lake cruise → train to Interlaken",
          overnight="Interlaken", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_ZRH", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_ZRH", HOTEL_BREAKFAST, "Winter clothing today: the Titlis summit is about −2 to −7 °C with snow in late April."),
+             V("07:30", "08:00", "H_ZRH", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_ZRH", HOTEL_BREAKFAST, "Winter clothing today: the Titlis summit is about −2 to −7 °C with snow in late April."),
              V("08:30", "09:00", "H_ZRH", "Check-out", "Check-out."),
              T("09:00", "10:20", "H_ZRH", "TITLIS", 85, detail="Coach via A4/A2 to Engelberg. Today is the disappearance day of Sri Abhirama Thakura."),
              V("10:30", "13:00", "TITLIS", "Cable car & snow", "Titlis Xpress gondola + Rotair (revolving cable car) to 3,020 m: Glacier Cave, Cliff Walk (optional), snow play, group photo at the summit. Ice Flyer chairlift only if it is running in spring.",
@@ -370,8 +370,8 @@ DAYS = [
     dict(day=12, date="2027-04-28", dow="Wed", title="Interlaken → Gotthard → Lake Como → Villaggio Hare Krishna → Milan",
          overnight="Milan", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_INT", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_INT", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_INT", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_INT", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_INT", "Check-out", "Check-out."),
              V("09:00", "09:20", "HOHEMATTE", "Sightseeing", "Höhematte park: morning view of the snow-covered Jungfrau, Höheweg promenade."),
              T("09:20", "13:50", "H_INT", "COMO", 290, detail="Coach via Brünig–Lucerne–Gotthard road tunnel–Lugano (3 h 45 m + 45 min break). Italy border check possible.",
@@ -387,8 +387,8 @@ DAYS = [
     dict(day=13, date="2027-04-29", dow="Thu", title="Milan Duomo → Prabhupada Desh → Padova → Venice (gondola)",
          overnight="Venice-Mestre", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_MIL", "Morning programme", MORNING),
-             M("07:00", "09:00", "Breakfast", "H_MIL", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_MIL", "Morning programme", MORNING),
+             M("08:00", "09:00", "Breakfast", "H_MIL", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_MIL", "Check-out", "Check-out."),
              T("09:00", "09:20", "H_MIL", "DUOMO_MIL", 3),
              V("09:20", "10:15", "DUOMO_MIL", "Photo stop", "Milan Duomo (exterior; interior optional, opens 09:00), Galleria Vittorio Emanuele II, La Scala (exterior)."),
@@ -407,7 +407,7 @@ DAYS = [
     dict(day=14, date="2027-04-30", dow="Fri", title="Rome day by high-speed train: Vatican Museums · St Peter's · Colosseum · Trevi → Florence",
          overnight="Florence", tz="CEST",
          rows=[
-             M("05:00", "05:40", "Breakfast", "H_MES", "Hotel – breakfast boxes (ordered the evening before)", "EXCEPTION to the 07:00–09:00 breakfast / 09:00 start: the only Vatican day needs the 06:30 train. With a 09:00 start the group reaches Rome at ~13:15 and loses the Colosseum interior."),
+             M("05:00", "05:40", "Breakfast", "H_MES", "Hotel – breakfast boxes (ordered the evening before)", "EXCEPTION to the 08:00–09:00 breakfast / 09:00 start: the only Vatican day needs the 06:30 train. With a 09:00 start the group reaches Rome at ~13:15 and loses the Colosseum interior."),
              V("05:40", "06:00", "H_MES", "Check-out", "Check-out. Big luggage loaded on the coach, which drives empty to Florence (260 km) and waits there."),
              T("06:00", "06:15", "H_MES", "VE_MESTRE", 3, detail="Coach to Venezia Mestre station."),
              T("06:15", "09:30", "H_MES", "H_FLR", 260, detail="Our coach drives empty with the luggage to Florence and the driver rests there (no passengers)."),
@@ -433,8 +433,8 @@ DAYS = [
     dict(day=15, date="2027-05-01", dow="Sat", title="Labour Day: Florence · Villa Vrindavan · Leaning Tower of Pisa → Malpensa",
          overnight="Near Milan Malpensa airport", tz="CEST",
          rows=[
-             V("06:00", "07:00", "H_FLR", "Morning programme", MORNING + " Disappearance day of Sri Vrindavana Dasa Thakura: reading from Chaitanya Bhagavata."),
-             M("07:00", "09:00", "Breakfast", "H_FLR", HOTEL_BREAKFAST),
+             V("07:30", "08:00", "H_FLR", "Morning programme", MORNING + " Disappearance day of Sri Vrindavana Dasa Thakura: reading from Chaitanya Bhagavata."),
+             M("08:00", "09:00", "Breakfast", "H_FLR", HOTEL_BREAKFAST),
              V("08:30", "09:00", "H_FLR", "Check-out", "Check-out."),
              T("09:00", "09:15", "H_FLR", "FLORENCE", 3, detail="Coach to the Lungarno drop point (coaches cannot enter the ZTL; coach permit about €200–300)."),
              V("09:15", "11:00", "FLORENCE", "Sightseeing", "Florence orientation (UNESCO): Duomo with Brunelleschi's dome, Baptistery doors, Piazza della Signoria, copy of David, Ponte Vecchio.",
