@@ -413,6 +413,8 @@ def main():
     places_sheet(wb)
     fx_row, tickets_total_row = tickets_sheet(wb)
     budget_sheet(wb, fx_row, tickets_total_row)
+    simple_sheet(wb, "Booking guide", ["Day", "Place", "Official booking link", "Group rules", "When to book"], [5, 34, 50, 80, 26], D.BOOKING,
+                 title="Where to book every ticket – official sites and group desks")
     simple_sheet(wb, "Pros & cons", ["Day", "Pros", "Cons / watch-outs"], [5, 70, 70], D.PROS_CONS)
     simple_sheet(wb, "Challenges", ["Challenge", "What happens", "Mitigation"], [28, 60, 70], D.CHALLENGES)
     n = max(len(D.DOS), len(D.DONTS))
