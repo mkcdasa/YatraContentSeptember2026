@@ -167,8 +167,8 @@ def minute_sheet(wb):
 def day_summary(wb, first, last):
     ws = wb.create_sheet("Day summary", 1)
     cols = ["Day", "Date", "Route", "Overnight", "Coach km", "Coach time incl. breaks (h:mm)",
-            "Driver-hours check (EU: max 9 h/day)", "First start", "Last end"]
-    header(ws, cols, [5, 10, 60, 22, 10, 12, 26, 10, 10])
+            "Driver-hours check (EU: max 9 h/day)", "First start", "Last end", "Planned walks (km)"]
+    header(ws, cols, [5, 10, 60, 22, 10, 12, 26, 10, 10, 10])
     m = "'Minute-by-minute'!"
     top = ws.max_row + 1
     for d in D.DAYS:
@@ -181,6 +181,8 @@ def day_summary(wb, first, last):
                                           f'IF(F{r}*24>4.5,"45 min break needed","OK")))')
         ws.cell(row=r, column=8).value = f'=_xlfn.MINIFS({rng("D")},{rng("A")},A{r})'
         ws.cell(row=r, column=9).value = f'=_xlfn.MAXIFS({rng("E")},{rng("A")},A{r})'
+        ws.cell(row=r, column=10).value = f'=SUMIFS({rng("K")},{rng("A")},A{r},{rng("J")},"Walk")'
+        ws.cell(row=r, column=10).number_format = "0.0"
         ws.cell(row=r, column=2).number_format = "dd-mmm-yy"
         ws.cell(row=r, column=5).number_format = "#,##0"
         ws.cell(row=r, column=6).number_format = "[h]:mm"
@@ -196,7 +198,7 @@ def day_summary(wb, first, last):
     for c in range(1, len(cols) + 1):
         ws.cell(row=r, column=c).font = Font(name=FONT, bold=True, size=10)
     ws.append([])
-    ws.append(["", "", "Day 1 and Day 16 flights, the ferry, boats, cable cars and the train are excluded from coach km and hours."])
+    ws.append(["", "", "Day 1 and Day 16 flights, the ferry, boats, cable cars and the train are excluded from coach km and hours. 'Planned walks' counts only the walking legs between points; add ~1–1.5 km for walking inside each attraction."])
     ws.cell(row=ws.max_row, column=3).font = Font(name=FONT, italic=True, size=9)
 
 
