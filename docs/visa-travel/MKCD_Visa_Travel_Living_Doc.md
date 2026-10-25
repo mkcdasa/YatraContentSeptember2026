@@ -1,6 +1,6 @@
 # MKCD - Visa & Travel Living Document
 
-> **How to use:** this is the readable copy. The *master* is `MKCD_Visa_Travel_Tracker.xlsx` (formulas, expiry countdowns, Yes/No switches). Edit either; keep the change log at the bottom. Last full refresh: **20 Oct 2026**.
+> **How to use:** this is the readable copy. The *master* is `MKCD_Visa_Travel_Tracker.xlsx`; the **live tick-list** is https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW (formulas, expiry countdowns, Yes/No switches). Edit either; keep the change log at the bottom. Last full refresh: **20 Oct 2026**.
 
 ## 1. Snapshot
 
@@ -418,7 +418,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 ## 12. World Checklist - tick what you have visited
 
-Checkboxes: `[x]` = visited, `[ ]` = not yet (tick directly in this file; GitHub renders them). *(Likely)* = seen in your yatra dashboards - please confirm. Grouped Country > State/region > City.
+**Live clickable version:** https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW (ticks save to a shared record). In this file `[x]` = visited, `[ ]` = not yet; GitHub shows these boxes read-only in file view, so edit the text or use the live page. *(Likely)* = seen in your yatra dashboards - please confirm. Grouped Country > State/region > City.
 
 
 ### India
@@ -2989,3 +2989,4 @@ Tick as you cover new ones.
 - 21 Oct 2026 - World Checklist expanded to 566 places / 91 countries incl. popular sightseeing, theme parks, beaches, wildlife; real tick boxes added (Excel ☑/☐ dropdown, Markdown [x]).
 - 21 Oct 2026 - Merged Google Maps Timeline export (Travel Master List.xlsx): GPS countries/states/cities/places/pilgrimage sheets; Travel Log corrected (Nepal 2019, Sri Lanka 2022 batches, Turkey x2, Canada, UAE transit + Abu Dhabi, Kailash dates); USA places corrected (no San Francisco; Alachua/Boston/Philadelphia added); 134 checklist ticks; 2 itinerary conflicts flagged.
 - 22 Oct 2026 - Conflicts resolved: Sri Lanka Jan 2026 and Nepal May 2026 confirmed visited (Timeline off); Canada removed (not entered).
+- 25 Oct 2026 - Checkboxes fixed: Excel uses TRUE/FALSE cells (Insert > Checkbox for native boxes); live clickable checklist at https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW
