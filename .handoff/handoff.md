@@ -1,0 +1,75 @@
+---
+date: 2026-10-27T09:33:25.941Z
+project: YatraContentSeptember2026
+session: 89532118
+schema_version: 1
+next_steps_count: 4
+has_blockers: false
+keywords: hr tracker, gnaneshwar, rajendra prasad, clickup, hr_tasks_data.py, google sheet, r&r additions, mkcd
+headline: Goal: single living HR task tracker for MKCD (HKM Hyderabad) covering every instruction given to HR Manager Rajendra Pra
+---
+
+# Session Handoff Snapshot
+> **Generated:** 10/27/2026, 9:33:25 AM
+
+## 🎯 High-Level Objective
+* **Goal:** Goal: single living HR task tracker for MKCD (HKM Hyderabad) covering every instruction given to HR Manager Rajendra Prasad (RP) and HR Executive Gnaneshwar (GN). Intent: MKCD follows up pending items weekly; GN works them in ClickUp (RP does not use ClickUp); recurring items become permanent R&R. Sources: WhatsApp exports (HR group Aug 2025-Oct 2026, RP 1:1, GN 1:1) + sweep of Claude Docs Action Items list, HR Dept R&R doc, employee living docs, ClickUp other spaces, Notion People & Operations plan, Drive MASTER action register.
+
+## 📌 Current State & Next Steps
+* **Status:** Done: sweep complete (Claude Docs, ClickUp pages 0-3 MKCP Tasks + MOM page 0, Notion vertical plan, MASTER register 2149/4152 rows parseable), tracker data + outputs rebuilt, Sheet/ClickUp/Claude Doc/repo all updated and pushed, working tree clean. Remaining: user decisions on I3, I5, I8, I15, J12; MOM ClickUp pages 1+ and MKCP Tasks beyond page 3 unread (low value); Google Doc R&R v1 (1Ka1bL_-Ng8EIRTo3AjHqeLNx5NcjBrpmDGQWpLDAYy0) outdated, superseded by Claude Doc section 9A and repo md; weekly refresh cadence not yet automated.
+* **Next Action:** Collect MKCD decisions on I3 (social-media hire), I5 (department placements), I8 (HR notes in shared docs), I15 (monitoring software), J12 (confidential) and record in hr_tasks_data.py + Sheet
+
+### Remaining Queue
+- [ ] Weekly refresh: edit hr_tasks_data.py -> rebuild -> Google_Sheets update_values Untitled!A1:M<n> -> create only new ClickUp tasks -> commit/push
+- [ ] Optionally finish reading MOM ClickUp space pages 1+ and MKCP Tasks beyond page 3 for stragglers
+- [ ] Optionally trash/replace outdated Google Doc R&R v1 (1Ka1bL_-Ng8EIRTo3AjHqeLNx5NcjBrpmDGQWpLDAYy0) only if user asks
+
+## 🛠️ Modified Files Delta
+* scripts/hr_tracker/hr_tasks_data.py: +29 tasks (I1-I17, J1-J12), CROSS_REFS dict applied to 15 rows, B8 -> COMPLETED, +6 RR_ADDITIONS entries
+* docs/hr/HR_Task_Tracker_Oct2026.xlsx: regenerated (106 rows)
+* docs/hr/HR_Task_Tracker_Oct2026.md: regenerated
+* docs/hr/HR_Roles_Responsibilities_Additions_Oct2026.md: regenerated with 26 items
+* .gitignore: added __pycache__/ and *.pyc
+
+## 🚫 Failed Approaches (DO NOT RETRY)
+* Approach: upload tracker CSV with Google_Drive create_file → Result: permission prompt every time, user angry; also lost leading apostrophes in 3 cells → Lesson: use Google_Sheets update_values on sheet 1fzmkRrOWSxG5Y744AHJ7p-IPqXVCxwd0yw_SvUi-lzo (tab 'Untitled')
+* Approach: ClickUp create_many with query '[*].{id,name}' → Result: returned null although tasks were created → Lesson: never retry blindly; verify with clickup_filter_tasks on list 1300380000011033
+* Approach: Claude_Docs read of a node without container → Result: bad_request container:required → Lesson: pass container {kind:project,id:<doc uuid>} with ref {object:node,id:<content id>}
+* Approach: regex line-split of MASTER register fileContent → Result: 1 hit, content is one line → Lesson: split rows at ',A### MA-#####,' markers then csv-parse; only 2149 of 4152 rows present (1MB cap)
+* Approach: single 56KB create_many payload → Result: too large → Lesson: batches of ~15 with compact descriptions
+* Approach: Artifact read on Claude Docs-type artifact → Result: only type instructions → Lesson: use mcp__Claude_Docs__read with project ref
+
+## 🔑 Crucial Context & Implicit Rules
+* Build: python3 scripts/hr_tracker/build_hr_tracker.py <scratchpad-out-dir>; reads <out>/links.json for sheet/clickup/doc links
+* Git: branch claude/fervent-edison-meesy5; commits end with Co-Authored-By Claude Fable 5.1 line and Claude-Session URL; no model IDs inside repo files
+* ClickUp: HR Department space 90165770409, folder 90167634196, list 1300380000011033 'MKCD Follow-up Action Items (WhatsApp) - Due 10 Nov 2026'; GN user id 100909505; tag mkcd-followup; due_date 1794292200000 with due_date_time false
+* Claude Docs: Action Items doc project 4e8d5dcc-105a-404d-8be9-2f044690766b node 1d9becf0-3cbf; HR R&R doc project c20416db-0d3b-4322-9f36-2e507baafc4e node 3b03de69-b393 (rev 2 after section 9A); GN living doc project 861b8446-f771-457d-b538-ca8cb1156337; RP living doc project 668ecc06-2af2-4b8b-a9b7-3d9c0134abd6
+* Google Sheet tracker id 1fzmkRrOWSxG5Y744AHJ7p-IPqXVCxwd0yw_SvUi-lzo, single tab 'Untitled', 13 columns A-M, header row 1, B8 is row 17
+* Owners abbreviations: RP, GN, BOTH, MKCD; statuses COMPLETED/PENDING/PARTIAL/VERIFY/RECURRING; priorities urgent/high/normal/low
+* Permission prompts: cloud session mode only changeable by user via app mode dropdown (Auto); never suggest CLI flags
+
+## Key Decisions
+- Decision: one data file scripts/hr_tracker/hr_tasks_data.py drives xlsx/md/ClickUp JSON via build_hr_tracker.py — Reason: single source of truth, regenerate all outputs after any edit
+- Decision: sweep items go in category I, 25-Oct payroll decisions in category J; existing rows get CROSS_REFS evidence notes instead of duplicate rows — Reason: keep original WhatsApp IDs stable for ClickUp task names
+- Decision: J12 (Gnaneshwar termination discussion) in Sheet only, clickup=False — Reason: ClickUp list is assigned to Gnaneshwar himself
+- Decision: update existing Google Sheet in place via Google_Sheets update_values, never create new Drive files — Reason: every Drive create_file triggers a permission prompt the user explicitly rejected
+- Decision: R&R additions appended to existing Claude Doc HR — Dept R&R (Oct 2026) as section 9A — Reason: user already had that living doc; corrects earlier claim that none existed
+- Decision: ClickUp tasks created via task.create_many in batches of ~13-17 — Reason: 50+ task payload exceeded size limit
+
+## 🙋 User Contribution (human-authored)
+User supplied the five WhatsApp exports, defined the deliverables (pending list, ClickUp assignment to Gnaneshwar with 10 Nov deadline, living document, R&R additions), asked for the cross-tool sweep, and repeatedly stated that Google Drive create-file permission is granted permanently and prompts must stop.
+
+## 🙋 User Decisions (made by the human)
+- **Assign all ClickUp tasks to Gnaneshwar, deadline 10 Nov 2026**
+  - Reason: Rajendra Prasad does not use ClickUp
+- **Add HR items found across Claude projects and other tools into the same live tracker**
+  - Reason: One place to follow up
+- **Full permission for Drive file creation, no further prompts**
+  - Reason: Prompts every time were unacceptable
+  - Rejected: Per-call approval
+
+## Summary
+Request 1 (done earlier): 77-item tracker from WhatsApp, Google Sheet, ClickUp list 1300380000011033 (51 tasks to GN due 10 Nov 2026), R&R additions Google Doc, repo commit 9b3532a. Request 2 (this session): cross-tool sweep found 29 new HR items -> categories I (sweep, 17) and J (25-Oct payroll/performance decisions, 12); 15 existing rows cross-referenced; B8 marked completed (GN closed in ClickUp 27 Oct). Published: Google Sheet updated in place (107 rows, range Untitled!A1:M107), 27 new ClickUp tasks (list now 78, J12 confidential kept out), Claude Doc HR Dept R&R section 9A with 26 permanent responsibilities + links, repo commits 0cfe920 and pycache ignore pushed to claude/fervent-edison-meesy5. User repeatedly asked to stop Drive create_file permission prompts; cannot be changed from session, only via app mode dropdown (Auto).
+
+---
+*A short hint surfaces on session start; full context loads only if your next prompt matches a keyword above, or via manual `/handoff-resume`. The same record is available as a sibling `.json` file for external tools.*

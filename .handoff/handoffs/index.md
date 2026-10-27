@@ -1,0 +1,1 @@
+2026-10-27T09:33:25.941Z | hr tracker, gnaneshwar, rajendra prasad, clickup, hr_tasks_data.py, google sheet, r&r additions, mkcd | Goal: single living HR task tracker for MKCD (HKM Hyderabad) covering every instruction given to HR Manager Rajendra Pra | 2026-10-27/handoff-2026-10-27T09-33-25-941Z.md
