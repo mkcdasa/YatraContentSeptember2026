@@ -14,3 +14,5 @@ public/pwa-512.png
 # it is a build artifact, and it carries personal contact details lifted from
 # the department's notes. Regenerate it, do not check it in.
 supabase/seed/*.sql
+__pycache__/
+*.pyc
