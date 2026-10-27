@@ -15,6 +15,8 @@ Derived from recurring instructions in the HR WhatsApp chats. To be appended to 
 9. **Recruitment support** - Profile sourcing & screening, scheduling, Keka Hiring module data entry, candidate feedback emails in standard subject format.
 10. **Office closing & assets** - Check both floors (lights, AC, fans) before leaving; ID cards; systems / equipment requirement list; TSF equipment returns.
 11. **Weekly pending-task update** - Every Monday: update the HR Task Tracker Google Sheet and email MKCD the pending list with status and support required.
+12. **Roster integrity & employee living documents** - Every person paid on any trust appears in the HR roster with department, designation, date of joining, trust and a linked employee living document; reconcile roster vs pay sheets every month; link docs from the Notion Leadership Hub.
+13. **ClickUp hygiene across spaces** - Weekly: close or merge duplicate / obsolete HR tasks in all ClickUp spaces (MKCP Assistant, Arjun Prabhu, MOM lists) and keep one live HR follow-up list.
 
 ## Rajendra Prasad - HR Manager (permanent / recurring responsibilities)
 
@@ -27,3 +29,7 @@ Derived from recurring instructions in the HR WhatsApp chats. To be appended to 
 7. **Training & development** - Induction for new joiners; sales / team-building programs with recording, feedback and certificates; implement learnings from HR symposiums.
 8. **Reporting to management** - MoM after every management meeting; monthly HR dashboard (headcount, attrition, attendance, performance, recruitment status); weekly pending-task status with Gnaneshwar.
 9. **Availability** - HR Manager or HR Executive present in office during the 1st week of every month (payroll week); no simultaneous leave.
+10. **Written warnings before payroll** - Every non-performance / target-shortfall / unapproved-absence case gets a written warning email before the month's payroll, with the salary consequence stated; copies filed in the employee file and a list sent to MKCD.
+11. **Exits, consultants & trust movements - due process** - Performance record, notice, final settlement and letters for every exit; written consultancy agreements (scope, fee, IP, days on site); appointment letters and PF paperwork for every trust movement.
+12. **Organisation structure & JD document owner** - Maintain the department R&R documents and employee living documents: designation, JD, CTC and reporting line for every person (PID39-42); backup person and KT plan for every role (PID101); communicate structure changes to all staff.
+13. **Policies & SOP library for HR** - Recruitment & onboarding SOP, promotion policy, office-hours / Sunday / discipline circular, employee-monitoring disclosure; quarterly training calendar (PID15/16).
