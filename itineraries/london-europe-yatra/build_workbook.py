@@ -283,8 +283,8 @@ def tickets_sheet(wb):
 
 def budget_sheet(wb, fx_row, tickets_total_row):
     ws = wb.create_sheet("Budget", 1)
-    title_block(ws, "Budget per yatri – cost against the ₹5,00,000 price",
-                "Blue cells are inputs. Group costs are divided by the number of yatris. GST (5%) and TCS (5%) are collected on top of the price and passed on, so they are not costs here.")
+    title_block(ws, "Budget per yatri – cost against the ₹5,49,000 price",
+                "Blue cells are inputs. Group costs are divided by the number of yatris. GST (5%) and TCS (2%) are collected on top of the price and passed on, so they are not costs here.")
     inp = {}
     for label, val, fmt in (("Yatris (paying)", D.DEFAULT_PAX, "0"), ("Package price per person (₹)", D.PRICE_PP, "#,##0"),
                             ("Contingency (% of costs)", D.CONTINGENCY_PCT, "0%")):

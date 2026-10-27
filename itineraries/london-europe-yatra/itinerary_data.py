@@ -17,7 +17,7 @@ YATRA = {
     "dates": "17 April – 2 May 2027 (15 nights / 16 days)",
     "organiser": "Hare Krishna Golden Temple, Banjara Hills, Hyderabad (Punya Kshetras)",
     "contact": "+91 95053 88886 · www.punyakshetras.com · www.hkmhyderabad.org",
-    "price": "₹5,00,000 per person (all inclusive, all flights) + 5% GST + 5% TCS (TCS claimable against income tax)",
+    "price": "₹5,49,000 per person (including international flights) + 5% GST + 2% TCS (TCS refunded/credited through your income-tax return)",
     "countries": ["United Kingdom", "France", "Belgium", "Netherlands", "Germany",
                   "Switzerland", "Italy", "Vatican City"],
 }
@@ -531,7 +531,7 @@ CHALLENGES = [
     ("Satvik food availability", "Most restaurants use onion and garlic; few Indian restaurants in small towns.", "Written no-onion/no-garlic menus; temple prasadam on 5 meals; packed lunches on 2 days; carry ready meals and dry snacks."),
     ("Senior citizens' stamina", "Long walks (Louvre, Vatican, Venice), steps (Pisa, Venice bridges), altitude (Titlis), the 05:00–22:30 Rome day.", "Wheelchairs at museums, a rest option in Florence on Day 14, slow group with an assistant, pre-departure medical check."),
     ("Visas and biometrics", "UK visa can be applied for only 3 months before travel; Schengen up to 6 months before. Passports are held during processing.", "UK first (mid-to-late Jan 2027), then Schengen via Italy (by late Feb / early Mar 2027)."),
-    ("Budget shortfall", "Realistic cost about ₹5.33 lakh per yatri at 40 yatris vs ₹5.00 lakh price.", "Group hotel contracts, split UK/mainland coach, fill the coach to 45–49, review price (see Budget)."),
+    ("Thin margin", "Realistic cost about ₹5.33 lakh per yatri at 40 yatris vs the ₹5.49 lakh price: a margin of only about 3%.", "Lock hotel, coach and flight prices early; hold the contingency; fill the coach to 45–49 (see Budget)."),
     ("Lost passport or luggage", "12 hotels in 15 nights.", "Group luggage tags, a daily luggage count, scans of passports and visas, Indian embassy contacts."),
 ]
 
@@ -698,7 +698,7 @@ BOOKING = [
 # Budget per yatri — team sheet vs researched estimate (22 Oct 2026)
 # ---------------------------------------------------------------------------
 
-PRICE_PP = 500000          # package price per person, before 5% GST and 5% TCS
+PRICE_PP = 549000          # package price per person, before 5% GST and 2% TCS
 DEFAULT_PAX = 40
 
 # Team's own sheet (per person, INR)
