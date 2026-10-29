@@ -1,0 +1,3315 @@
+{
+ "yatra": {
+  "title": "London Europe Yatra",
+  "subtitle": "with Hare Krishna Devotees — 8 countries",
+  "dates": "17 April – 2 May 2027 (15 nights / 16 days)",
+  "organiser": "Hare Krishna Golden Temple, Banjara Hills, Hyderabad (Punya Kshetras)",
+  "contact": "+91 95053 88886 · www.punyakshetras.com · www.hkmhyderabad.org",
+  "price": "₹5,49,000 per person (including international flights) + 5% GST + 2% TCS (TCS refunded/credited through your income-tax return)",
+  "countries": [
+   "United Kingdom",
+   "France",
+   "Belgium",
+   "Netherlands",
+   "Germany",
+   "Switzerland",
+   "Italy",
+   "Vatican City"
+  ]
+ },
+ "price": {
+  "base": "₹5,49,000",
+  "gst": "₹27,450",
+  "subtotal": "₹5,76,450",
+  "tcs": "₹11,529",
+  "total": "₹5,87,979"
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2027-04-17",
+   "dow": "Sat",
+   "title": "Hyderabad & Bangalore → London Heathrow · Kamada Ekadasi",
+   "overnight": "London (Wembley)",
+   "tz": "BST",
+   "summary": "Hyderabad group flies Emirates via Dubai (dep 04:40, arrive Heathrow 16:10); Bangalore group flies Etihad via Abu Dhabi (dep 10:00, arrive 18:45). Kamada Ekadasi: fruit meals on board. Welcome kirtan and dinner at the hotel.",
+   "short": "Fly to London",
+   "coach_km": 75,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "01:40–04:00",
+     "what": "Reporting",
+     "where": "Rajiv Gandhi International Airport (HYD)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Rajiv+Gandhi+International+Airport+Hyderabad",
+     "detail": "HYDERABAD GROUP: report at RGIA departures (3 h before). Tour manager hands over tickets, insurance, kit (cap, bag, ID card, name badge). Group check-in on Emirates; bag drop. 25 kg check-in + 7 kg cabin. Today is Kamada Ekadasi: fruit meals (FPML) pre-ordered on both flights.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "04:40–16:10",
+     "what": "Flight · 7700 km",
+     "where": "Rajiv Gandhi International Airport (HYD) → Heathrow Terminal 3",
+     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+3",
+     "detail": "HYDERABAD GROUP: Emirates EK 525 HYD 04:40 → Dubai 06:45 (T3); 4 h 40 m layover; EK 31 Dubai 11:25 → Heathrow T3 16:10. Ekadasi: fruit meals on board; carry dry fruits, nuts, makhana.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "07:00–09:15",
+     "what": "Reporting",
+     "where": "Kempegowda International Airport (BLR), T2",
+     "link": "https://www.google.com/maps/search/?api=1&query=Kempegowda+International+Airport+Terminal+2+Bengaluru",
+     "detail": "BANGALORE GROUP: report at Kempegowda T2 (3 h before). Group check-in on Etihad (first leg operated by Akasa Air); confirm bags are checked through to London. 30 kg check-in + 7 kg cabin. Ekadasi fruit meals pre-ordered.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "10:00–18:45",
+     "what": "Flight · 8000 km",
+     "where": "Kempegowda International Airport (BLR), T2 → Heathrow Terminal 4",
+     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+4",
+     "detail": "BANGALORE GROUP: Etihad EY 1013 (Akasa Air) BLR T2 10:00 → Abu Dhabi 12:35; 1 h 35 m layover; EY 67 Abu Dhabi 14:10 → Heathrow T4 18:45.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "16:10–17:30",
+     "what": "Arrival",
+     "where": "Heathrow Terminal 3",
+     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+3",
+     "detail": "HYDERABAD GROUP: UK Border (eVisa linked to passport), baggage claim, meet the tour manager at the T3 coach park. Headcount.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "17:30–18:15",
+     "what": "Coach · 25 km",
+     "where": "Heathrow Terminal 3 → Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Heathrow+Terminal+3&destination=Wembley%2C+London&travelmode=driving",
+     "detail": "Coach run 1: Hyderabad group to the hotel. Welcome talk, group rules, WhatsApp group, SIM/eSIM help.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:15–19:00",
+     "what": "Hotel check-in",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hyderabad group check-in, rest.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:20–19:00",
+     "what": "Coach · 25 km",
+     "where": "Hotel, Wembley area (TBC) → Heathrow Terminal 4",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Wembley%2C+London&destination=Heathrow+Terminal+4&travelmode=driving",
+     "detail": "Coach run 2 (empty) back to Heathrow T4 for the Bangalore group.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "19:30–20:30",
+     "what": "Dinner",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel / Indian caterer – Ekadasi (grain-free) menu. Hyderabad group dinner. No grains, beans, onion or garlic: fruit, potato, sabudana, paneer, nuts, milk.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "18:45–19:45",
+     "what": "Arrival",
+     "where": "Heathrow Terminal 4",
+     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+4",
+     "detail": "BANGALORE GROUP: UK Border, baggage claim, meet the coach at T4. Headcount.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:45–20:30",
+     "what": "Coach · 25 km",
+     "where": "Heathrow Terminal 4 → Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Heathrow+Terminal+4&destination=Wembley%2C+London&travelmode=driving",
+     "detail": "Coach run 2: Bangalore group to the hotel.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:45–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel / Indian caterer – Ekadasi (grain-free) menu. Bangalore group dinner.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "21:30–22:00",
+     "what": "Briefing",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Joint welcome kirtan and briefing. Tomorrow: break fast (Dvadasi parana) 05:59–10:40 at breakfast (08:00–09:00); coach 09:00. Sunset tonight about 20:05; jet lag: sleep by 22:30.",
+     "note": "",
+     "meal": false,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "On the flight",
+    "Lunch": "On the flight",
+    "Dinner": "19:30 · Hotel, Wembley area (TBC) · Hotel / Indian caterer – Ekadasi (grain-free) menu; 20:45 · Hotel, Wembley area (TBC) · Hotel / Indian caterer – Ekadasi (grain-free) menu"
+   }
+  },
+  {
+   "day": 2,
+   "date": "2027-04-18",
+   "dow": "Sun",
+   "title": "Akshaya Patra Watford · Bhaktivedanta Manor Sunday programme · Madame Tussauds · ISKCON Soho · Covent Garden",
+   "overnight": "London (Wembley)",
+   "tz": "BST",
+   "summary": "Visit the Akshaya Patra kitchen in Watford, then Bhaktivedanta Manor for darshan of Sri Sri Radha-Gokulananda, the Sunday programme and feast prasadam. Afternoon at Madame Tussauds; evening arati at ISKCON Soho, where Srila Prabhupada installed Radha-Londonishvara in 1969; stroll through Covent Garden.",
+   "short": "Akshaya Patra · Bhaktivedanta Manor · Madame Tussauds · ISKCON Soho",
+   "coach_km": 70,
+   "walk_km": 1.6,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel – complimentary buffet (08:00–09:00) – Dvadasi break fast between 05:59 and 10:40 (London). Break the Ekadasi fast with grains at breakfast.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "09:00–09:30",
+     "what": "Coach · 17 km",
+     "where": "Hotel, Wembley area (TBC) → Akshaya Patra UK central kitchen, Watford",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Wembley%2C+London&destination=Akshaya+Patra%2C+Penfold+Trading+Estate%2C+Imperial+Way%2C+Watford+WD24+4YY&travelmode=driving",
+     "detail": "Coach north-west via A406/A41 to Watford (Imperial Way). Today's route runs one way: Watford in the morning, then into central London, then back to Wembley — no back-tracking.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:30–10:30",
+     "what": "Seva visit",
+     "where": "Akshaya Patra UK central kitchen, Watford",
+     "link": "https://www.google.com/maps/search/?api=1&query=Akshaya+Patra%2C+Penfold+Trading+Estate%2C+Imperial+Way%2C+Watford+WD24+4YY",
+     "detail": "Akshaya Patra UK central kitchen, Watford: opened in 2020, cooks up to 9,000 free school meals a day for UK schools; zero-carbon, zero-waste design. Akshaya Patra was founded in 2000 by the Hare Krishna Movement (ISKCON Bangalore), our own movement. Kitchen walk-through (hairnets given), short film, meet the team. Walking ~300 m, flat.",
+     "note": "By appointment only: akshayapatra.org.uk/contact, tel. 020 800 48743. The kitchen cooks on school days, so on a Sunday it is usually not cooking: ask for a walk-through and film. Coach parks inside the trading estate (confirm).",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "10:30–10:50",
+     "what": "Coach · 7 km",
+     "where": "Akshaya Patra UK central kitchen, Watford → Bhaktivedanta Manor, ISKCON (Watford)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Akshaya+Patra%2C+Penfold+Trading+Estate%2C+Imperial+Way%2C+Watford+WD24+4YY&destination=Bhaktivedanta+Manor%2C+Hilfield+Lane%2C+Watford+WD25+8HE&travelmode=driving",
+     "detail": "Short coach hop (7 km) to Bhaktivedanta Manor; Hilfield Lane entrance, coach park on site.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:50–11:30",
+     "what": "Temple darshan",
+     "where": "Bhaktivedanta Manor, ISKCON (Watford)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Bhaktivedanta+Manor%2C+Hilfield+Lane%2C+Watford+WD25+8HE",
+     "detail": "Bhaktivedanta Manor: darshan of Sri Sri Radha-Gokulananda and Sita-Rama-Lakshmana-Hanuman, Srila Prabhupada's rooms, gardens, lake and goshala. Story of George Harrison's gift of the Manor. Walking ~1 km on paths and lawns.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:30–13:00",
+     "what": "Spiritual programme",
+     "where": "Bhaktivedanta Manor, ISKCON (Watford)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Bhaktivedanta+Manor%2C+Hilfield+Lane%2C+Watford+WD25+8HE",
+     "detail": "Sunday programme: kirtan and Bhagavad-gita class with the London devotees.",
+     "note": "Morning Sunday programme 11:30–13:00 (last entry 11:45). Free; tel. 01923 851000. Inform the Manor of a 40-person group.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:00–13:45",
+     "what": "Lunch",
+     "where": "Bhaktivedanta Manor, ISKCON (Watford)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Bhaktivedanta+Manor%2C+Hilfield+Lane%2C+Watford+WD25+8HE",
+     "detail": "Bhaktivedanta Manor – Sunday feast prasadam (donation).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "13:45–14:45",
+     "what": "Coach · 27 km",
+     "where": "Bhaktivedanta Manor, ISKCON (Watford) → Madame Tussauds London",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Bhaktivedanta+Manor%2C+Hilfield+Lane%2C+Watford+WD25+8HE&destination=Madame+Tussauds+London%2C+Marylebone+Road&travelmode=driving",
+     "detail": "Coach via A41/A5 (Edgware Road) into Marylebone. Set-down on Marylebone Road at the attraction; the coach then parks in a booked coach bay (no waiting outside Tussauds).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "14:45–16:45",
+     "what": "Sightseeing",
+     "where": "Madame Tussauds London",
+     "link": "https://www.google.com/maps/search/?api=1&query=Madame+Tussauds+London%2C+Marylebone+Road",
+     "detail": "Madame Tussauds: Bollywood stars, the royal family, world leaders (Gandhi, Modi), sports and Marvel; 'Spirit of London' taxi ride. Timed group entry 15:00. Walking ~1 km indoors; stairs with lifts available.",
+     "note": "Book the 15:00 group slot. Check the 2027 Sunday closing time (last entry is usually 1–2 h before closing).",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:45–17:10",
+     "what": "Coach · 3 km",
+     "where": "Madame Tussauds London → Coach set-down, Soho Square / Charing Cross Road",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Madame+Tussauds+London%2C+Marylebone+Road&destination=Soho+Square%2C+London&travelmode=driving",
+     "detail": "Coach to the Soho Square / Charing Cross Road set-down. Coaches cannot enter Soho's narrow streets: set down and pick up only.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:10–17:15",
+     "what": "Walk · 0.2 km",
+     "where": "Coach set-down, Soho Square / Charing Cross Road → Radha-Krishna Temple, ISKCON Soho (10 Soho Street)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Soho+Square%2C+London&destination=Radha+Krishna+Temple+ISKCON%2C+10+Soho+Street%2C+London&travelmode=walking",
+     "detail": "Walk 200 m along Soho Street to the temple.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:15–18:45",
+     "what": "Temple darshan",
+     "where": "Radha-Krishna Temple, ISKCON Soho (10 Soho Street)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Radha+Krishna+Temple+ISKCON%2C+10+Soho+Street%2C+London",
+     "detail": "ISKCON Soho – Sri Sri Radha-Londonishvara, the first ISKCON deities in the UK, installed by Srila Prabhupada in 1969 (the year of the Beatles-produced 'Hare Krishna Mantra' single). Sunday evening arati and kirtan, history talk, Govinda's shop for snacks and books.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:45–19:20",
+     "what": "Walk · 1 km",
+     "where": "Radha-Krishna Temple, ISKCON Soho (10 Soho Street) → Covent Garden Piazza & Royal Opera House",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Radha+Krishna+Temple+ISKCON%2C+10+Soho+Street%2C+London&destination=Royal+Opera+House%2C+Bow+Street%2C+London&travelmode=walking",
+     "detail": "Walk 1 km through Soho and Seven Dials to Covent Garden (flat pavements, busy crossings: walk in a line behind the flag).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "19:20–19:50",
+     "what": "Sightseeing",
+     "where": "Covent Garden Piazza & Royal Opera House",
+     "link": "https://www.google.com/maps/search/?api=1&query=Royal+Opera+House%2C+Bow+Street%2C+London",
+     "detail": "Covent Garden Piazza and street performers; Royal Opera House (exterior; the April 2027 opera is Tosca, but there is no performance on 18 or 19 April); Lyceum Theatre on Wellington Street, home of The Lion King (exterior).",
+     "note": "The Lion King has no show on Monday and only a 14:30 matinee on Sunday, so it does not fit this day without dropping the Manor programme (see Plan B in the doc).",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:50–20:00",
+     "what": "Walk · 0.4 km",
+     "where": "Covent Garden Piazza & Royal Opera House → Coach pick-up, Aldwych / Strand",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Royal+Opera+House%2C+Bow+Street%2C+London&destination=Aldwych%2C+London&travelmode=walking",
+     "detail": "Walk down Wellington Street to the coach pick-up on Aldwych / Strand (pick-up only, coach cannot wait).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:00–20:45",
+     "what": "Coach · 16 km",
+     "where": "Coach pick-up, Aldwych / Strand → Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Aldwych%2C+London&destination=Wembley%2C+London&travelmode=driving",
+     "detail": "Coach back to Wembley (light Sunday-evening traffic).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:45–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "21:30–21:45",
+     "what": "Briefing",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Tomorrow: coach 09:00 sharp. The Changing of the Guard is at 11:00 and we must be in position by 10:15. About 6–7 km of walking and ~1.5 h of standing tomorrow: comfortable shoes, umbrella, water.",
+     "note": "",
+     "meal": false,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Wembley area (TBC) · Hotel – complimentary buffet (08:00–09:00) – Dvadasi break fast between 05:59 and 10:40 (London)",
+    "Lunch": "13:00 · Bhaktivedanta Manor, ISKCON (Watford) · Bhaktivedanta Manor – Sunday feast prasadam (donation)",
+    "Dinner": "20:45 · Hotel, Wembley area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 3,
+   "date": "2027-04-19",
+   "dow": "Mon",
+   "title": "Royal London: Changing of the Guard · King's Gallery · Tower of London (Koh-i-Noor) · Tower Bridge · Thames boat · London Eye · Westminster",
+   "overnight": "London (Wembley)",
+   "tz": "BST",
+   "summary": "Changing of the Guard at Buckingham Palace and The King's Gallery; the Tower of London with the Crown Jewels and the Koh-i-Noor; a walk on Tower Bridge; a Thames boat ride; the London Eye at sunset; Big Ben and the Houses of Parliament.",
+   "short": "Royal London: Guard · Tower & Koh-i-Noor · Thames · London Eye",
+   "coach_km": 39,
+   "walk_km": 3.7,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "09:00–10:00",
+     "what": "Coach · 16 km",
+     "where": "Hotel, Wembley area (TBC) → Coach set-down, Buckingham Palace Road (Royal Mews)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Wembley%2C+London&destination=Royal+Mews%2C+Buckingham+Palace+Road%2C+London&travelmode=driving",
+     "detail": "Coach via A40/Park Lane to the set-down on Buckingham Palace Road (by the Royal Mews). Today's route is one loop: west (palace) → east (Tower) by coach, back west (Westminster) by boat, then home. Coaches may not park or wait on Buckingham Gate or The Mall: the coach parks in a booked bay and returns at 12:45.",
+     "note": "Monday rush hour: leave on time. Coach must be ULEZ-compliant (Euro VI); the Congestion Charge applies 07:00–18:00.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:00–10:15",
+     "what": "Walk · 0.5 km",
+     "where": "Coach set-down, Buckingham Palace Road (Royal Mews) → Buckingham Palace – Changing of the Guard",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Royal+Mews%2C+Buckingham+Palace+Road%2C+London&destination=Victoria+Memorial%2C+Buckingham+Palace%2C+London&travelmode=walking",
+     "detail": "Walk 500 m to the Victoria Memorial in front of Buckingham Palace.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:15–11:45",
+     "what": "Ceremony",
+     "where": "Buckingham Palace – Changing of the Guard",
+     "link": "https://www.google.com/maps/search/?api=1&query=Victoria+Memorial%2C+Buckingham+Palace%2C+London",
+     "detail": "Buckingham Palace – Changing of the Guard (King's Guard), 11:00–11:45: the Foot Guards in red tunics and bearskins, the military band, the handover of the palace keys. Best spots: Victoria Memorial steps or the palace railings. Standing ~1.5 h.",
+     "note": "King's Guard changes Mon/Wed/Fri at 11:00 (Household Division calendar). Free. Cancelled in very wet weather or for state events: check householddivision.org.uk the evening before. Pickpockets work this crowd.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:45–12:45",
+     "what": "Sightseeing",
+     "where": "The King's Gallery, Buckingham Palace",
+     "link": "https://www.google.com/maps/search/?api=1&query=The+King%27s+Gallery%2C+Buckingham+Palace%2C+London",
+     "detail": "The King's Gallery (formerly the Queen's Gallery), Buckingham Palace: Royal Collection exhibition of paintings and treasures. This is the royal museum open in April; the Palace State Rooms open only in summer (July–September). Timed group entry 11:45. Walking ~500 m indoors.",
+     "note": "Group rate £19.80 (2026). Check the 2027 exhibition and opening dates on rct.uk. Alternative if closed: the Royal Mews (royal carriages), next door.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "12:45–12:55",
+     "what": "Walk · 0.4 km",
+     "where": "The King's Gallery, Buckingham Palace → Coach set-down, Buckingham Palace Road (Royal Mews)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=The+King%27s+Gallery%2C+Buckingham+Palace%2C+London&destination=Royal+Mews%2C+Buckingham+Palace+Road%2C+London&travelmode=walking",
+     "detail": "Walk 400 m back to the coach on Buckingham Palace Road.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "12:55–13:30",
+     "what": "Coach · 7 km",
+     "where": "Coach set-down, Buckingham Palace Road (Royal Mews) → Tower Hill coach park (Lower Thames Street)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Royal+Mews%2C+Buckingham+Palace+Road%2C+London&destination=Tower+Hill+Coach+Park%2C+Lower+Thames+Street%2C+London+EC3R+6DT&travelmode=driving",
+     "detail": "Coach along the Embankment past Westminster and St Paul's to Tower Hill coach park (Lower Thames Street; free drop-off under 15 min, then the coach parks there).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "13:30–14:15",
+     "what": "Lunch",
+     "where": "Indian vegetarian restaurant near Tower Hill (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Indian+vegetarian+restaurant+near+Tower+Hill+London",
+     "detail": "Indian vegetarian restaurant near Tower Hill (to be booked). Backup: packed Satvik lunch from the London caterer, eaten before entering the Tower.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "14:15–14:25",
+     "what": "Walk · 0.3 km",
+     "where": "Indian vegetarian restaurant near Tower Hill (TBC) → Tower of London – Crown Jewels (Kohinoor)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Indian+vegetarian+restaurant+near+Tower+Hill+London&destination=Tower+of+London&travelmode=walking",
+     "detail": "Walk 300 m to the Tower's group entrance.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "14:25–16:45",
+     "what": "Sightseeing",
+     "where": "Tower of London – Crown Jewels (Kohinoor)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Tower+of+London",
+     "detail": "Tower of London: go first to the Jewel House to see the Crown Jewels, including the Koh-i-Noor diamond in the Queen Mother's crown (narrate its journey from Golconda/Kollur near Hyderabad to London); then a Yeoman Warder (Beefeater) tour, the White Tower, the ravens and the walls. Walking ~1.5 km on cobbles; steep spiral stairs in the White Tower.",
+     "note": "Summer hours Mon 10:00–17:30. Book a timed group entry (14:15) with the Historic Royal Palaces groups desk (15+ rate).",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:45–17:15",
+     "what": "Walk · 1.2 km",
+     "where": "Tower of London – Crown Jewels (Kohinoor) → Tower Bridge",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Tower+of+London&destination=Tower+Bridge%2C+London&travelmode=walking",
+     "detail": "Walk onto Tower Bridge and back (1.2 km): photos, HMS Belfast, the Shard, and the real London Bridge upstream. Optional: Tower Bridge glass walkway (extra ticket).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:15–17:25",
+     "what": "Walk · 0.4 km",
+     "where": "Tower Bridge → Tower Millennium Pier",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Tower+Bridge%2C+London&destination=Tower+Millennium+Pier%2C+London&travelmode=walking",
+     "detail": "Walk down to Tower Millennium Pier.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:30–18:10",
+     "what": "Boat · 5 km",
+     "where": "Tower Millennium Pier → London Eye Pier (Thames cruise)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Tower+Millennium+Pier%2C+London&destination=London+Eye+Pier%2C+London&travelmode=transit",
+     "detail": "Thames boat upstream (Uber Boat RB1, or City Cruises with live commentary): under London Bridge, past Shakespeare's Globe, St Paul's and Somerset House to the London Eye. The coach drives empty to Westminster meanwhile.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:15–19:00",
+     "what": "Sightseeing",
+     "where": "London Eye",
+     "link": "https://www.google.com/maps/search/?api=1&query=London+Eye%2C+London",
+     "detail": "London Eye – 30-minute rotation in evening light (timed group slot 18:15): Parliament, Buckingham Palace, St Paul's, the Shard. Step-free.",
+     "note": "Check the 2027 April closing time before fixing the slot; group rate 10+.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:00–19:15",
+     "what": "Walk · 0.6 km",
+     "where": "London Eye → Westminster – Big Ben & Houses of Parliament",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=London+Eye%2C+London&destination=Parliament+Square%2C+London&travelmode=walking",
+     "detail": "Walk over Westminster Bridge (600 m).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "19:15–19:45",
+     "what": "Sightseeing",
+     "where": "Westminster – Big Ben & Houses of Parliament",
+     "link": "https://www.google.com/maps/search/?api=1&query=Parliament+Square%2C+London",
+     "detail": "Big Ben (Elizabeth Tower) and the Palace of Westminster — the Houses of Parliament: the House of Commons and the House of Lords (the Lords end is the Victoria Tower, by the Victoria Tower Gardens); Westminster Abbey; Parliament Square statues including Mahatma Gandhi. Sunset about 20:07.",
+     "note": "Outside only: Parliament usually sits on Mondays and its guided tours run on Saturdays and recess weekdays. Check parliament.uk once the 2027 recess dates are out.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:45–19:55",
+     "what": "Walk · 0.3 km",
+     "where": "Westminster – Big Ben & Houses of Parliament → Coach pick-up, Victoria Embankment (Westminster Pier)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Parliament+Square%2C+London&destination=Westminster+Pier%2C+Victoria+Embankment%2C+London&travelmode=walking",
+     "detail": "Walk 300 m to the coach pick-up on Victoria Embankment by Westminster Pier.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "19:55–20:45",
+     "what": "Coach · 16 km",
+     "where": "Coach pick-up, Victoria Embankment (Westminster Pier) → Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Westminster+Pier%2C+Victoria+Embankment%2C+London&destination=Wembley%2C+London&travelmode=driving",
+     "detail": "Coach back to Wembley.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:45–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "21:30–22:00",
+     "what": "Packing",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Pack tonight; luggage in the lobby at 08:45. Passports in hand luggage for the EU border check at Dover.",
+     "note": "",
+     "meal": false,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Wembley area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:30 · Indian vegetarian restaurant near Tower Hill (TBC) · Indian vegetarian restaurant near Tower Hill (to be booked)",
+    "Dinner": "20:45 · Hotel, Wembley area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 4,
+   "date": "2027-04-20",
+   "dow": "Tue",
+   "title": "London → Dover → ferry → Calais → Paris · Balarama Rasayatra",
+   "overnight": "Paris",
+   "tz": "BST→CEST",
+   "summary": "Coach to Dover and the ferry across the English Channel past the White Cliffs, then on through France to Paris. Balarama Rasayatra kirtan on the way.",
+   "short": "Dover ferry → Calais → Paris",
+   "coach_km": 430,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
+     "detail": "Check-out, luggage loading, headcount. Settle room extras (own expense).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–11:15",
+     "what": "Coach · 135 km",
+     "where": "Hotel, Wembley area (TBC) → Port of Dover – P&O / DFDS ferry",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Wembley%2C+London&destination=Port+of+Dover+Eastern+Docks&travelmode=driving",
+     "detail": "Coach via M25/M20 to Port of Dover. Today is Balarama Rasayatra and Sri Krishna Vasanta Rasa: kirtan and the pastime narrated on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "11:15–13:15",
+     "what": "Border check",
+     "where": "Port of Dover – P&O / DFDS ferry",
+     "link": "https://www.google.com/maps/search/?api=1&query=Port+of+Dover+Eastern+Docks",
+     "detail": "UK exit and French entry at Dover. First entry into Schengen: EU Entry/Exit System (EES) records fingerprints and a face photo for each yatri. Coach and passengers checked together.",
+     "note": "Coach passengers register in the separate coach building (Western Docks). Allow up to 2 h; book a later sailing as fallback.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:45–16:15",
+     "what": "Ferry · 42 km",
+     "where": "Port of Dover – P&O / DFDS ferry → Port of Calais",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Port+of+Dover+Eastern+Docks&destination=Port+of+Calais&travelmode=transit",
+     "detail": "DFDS / P&O ferry, 1 h 30 m crossing; clocks go forward 1 h. Coach goes on board. White Cliffs of Dover.",
+     "note": "Book coach space on the 13:45 sailing (quote from the groups desk).",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "14:00–14:45",
+     "what": "Lunch",
+     "where": "Port of Dover – P&O / DFDS ferry",
+     "link": "https://www.google.com/maps/search/?api=1&query=Port+of+Dover+Eastern+Docks",
+     "detail": "Packed Satvik lunch from London Indian caterer (eaten on board). Lunch on the ferry.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "16:30–20:30",
+     "what": "Coach · 295 km",
+     "where": "Port of Calais → Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Port+of+Calais&destination=Gare+du+Nord%2C+Paris&travelmode=driving",
+     "detail": "Coach via A16/A26/A1 to Paris (3 h 30 m + 30 min break). Video talk on Srila Prabhupada's visits to Paris.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:30–21:00",
+     "what": "Hotel check-in",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Check-in, rest. Paris is between the two rounds of the presidential election: avoid rallies.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "21:00–22:00",
+     "what": "Dinner",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Wembley area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "14:00 · Port of Dover – P&O / DFDS ferry · Packed Satvik lunch from London Indian caterer (eaten on board)",
+    "Dinner": "21:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 5,
+   "date": "2027-04-21",
+   "dow": "Wed",
+   "title": "Paris: Arc de Triomphe · Eiffel Tower · Notre-Dame · ISKCON Paris · Seine cruise",
+   "overnight": "Paris",
+   "tz": "CEST",
+   "summary": "Arc de Triomphe and the Champs-Élysées, the Eiffel Tower (2nd floor), Notre-Dame, darshan at ISKCON Paris and an evening cruise on the Seine.",
+   "short": "Paris: Eiffel Tower · Notre-Dame · ISKCON Paris · Seine",
+   "coach_km": 71,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "09:00–09:25",
+     "what": "Coach · 5 km",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC) → Arc de Triomphe & Champs-Élysées",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Gare+du+Nord%2C+Paris&destination=Arc+de+Triomphe%2C+Paris&travelmode=driving",
+     "detail": "Coach Hotel, Gare du Nord / La Chapelle area (TBC) → Arc de Triomphe & Champs-Élysées. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:25–10:15",
+     "what": "Sightseeing",
+     "where": "Arc de Triomphe & Champs-Élysées",
+     "link": "https://www.google.com/maps/search/?api=1&query=Arc+de+Triomphe%2C+Paris",
+     "detail": "Arc de Triomphe photo stop, Champs-Élysées walk (one side), Place de la Concorde drive-past.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "10:15–10:35",
+     "what": "Coach · 3 km",
+     "where": "Arc de Triomphe & Champs-Élysées → Eiffel Tower (2nd floor)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Arc+de+Triomphe%2C+Paris&destination=Eiffel+Tower%2C+Paris&travelmode=driving",
+     "detail": "Coach Arc de Triomphe & Champs-Élysées → Eiffel Tower (2nd floor). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:45–13:00",
+     "what": "Sightseeing",
+     "where": "Eiffel Tower (2nd floor)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Eiffel+Tower%2C+Paris",
+     "detail": "Eiffel Tower to the 2nd floor by lift (timed group ticket, 10:45). Views over the Trocadéro and Champ de Mars. Group photo at the Trocadéro.",
+     "note": "Security queue 30–45 min even with tickets.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:00–13:35",
+     "what": "Coach · 8 km",
+     "where": "Eiffel Tower (2nd floor) → Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Eiffel+Tower%2C+Paris&destination=Saravanaa+Bhavan%2C+170+Rue+du+Faubourg+Saint-Denis%2C+Paris&travelmode=driving",
+     "detail": "Coach Eiffel Tower (2nd floor) → Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "13:35–14:35",
+     "what": "Lunch",
+     "where": "Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Saravanaa+Bhavan%2C+170+Rue+du+Faubourg+Saint-Denis%2C+Paris",
+     "detail": "Saravanaa Bhavan Paris – group booking. South Indian vegetarian meals.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "14:35–14:55",
+     "what": "Coach · 3 km",
+     "where": "Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis) → Notre-Dame Cathedral & Île de la Cité",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Saravanaa+Bhavan%2C+170+Rue+du+Faubourg+Saint-Denis%2C+Paris&destination=Notre-Dame+de+Paris&travelmode=driving",
+     "detail": "Coach Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis) → Notre-Dame Cathedral & Île de la Cité. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "14:55–15:45",
+     "what": "Sightseeing",
+     "where": "Notre-Dame Cathedral & Île de la Cité",
+     "link": "https://www.google.com/maps/search/?api=1&query=Notre-Dame+de+Paris",
+     "detail": "Notre-Dame Cathedral (free; optional free timed booking), Île de la Cité, Seine banks, Latin Quarter.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "15:45–16:30",
+     "what": "Coach · 20 km",
+     "where": "Notre-Dame Cathedral & Île de la Cité → ISKCON Paris temple (Sevran)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Notre-Dame+de+Paris&destination=ISKCON+Paris%2C+230+Avenue+de+la+Division+Leclerc%2C+Sevran&travelmode=driving",
+     "detail": "Coach Notre-Dame Cathedral & Île de la Cité → ISKCON Paris temple (Sevran). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "16:30–18:30",
+     "what": "Temple darshan",
+     "where": "ISKCON Paris temple (Sevran)",
+     "link": "https://www.google.com/maps/search/?api=1&query=ISKCON+Paris%2C+230+Avenue+de+la+Division+Leclerc%2C+Sevran",
+     "detail": "ISKCON Paris: darshan of the temple deities, evening arati and kirtan. Talk on Srila Prabhupada's visits to Paris and New Mayapur.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:30–19:10",
+     "what": "Coach · 18 km",
+     "where": "ISKCON Paris temple (Sevran) → Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=ISKCON+Paris%2C+230+Avenue+de+la+Division+Leclerc%2C+Sevran&destination=Gare+du+Nord%2C+Paris&travelmode=driving",
+     "detail": "Coach ISKCON Paris temple (Sevran) → Hotel, Gare du Nord / La Chapelle area (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "19:15–20:15",
+     "what": "Dinner",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "20:25–20:55",
+     "what": "Coach · 7 km",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC) → Seine River Cruise – Bateaux Parisiens (Port de la Bourdonnais)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Gare+du+Nord%2C+Paris&destination=Bateaux+Parisiens%2C+Port+de+la+Bourdonnais%2C+Paris&travelmode=driving",
+     "detail": "Coach Hotel, Gare du Nord / La Chapelle area (TBC) → Seine River Cruise – Bateaux Parisiens (Port de la Bourdonnais). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "21:00–22:00",
+     "what": "Boat cruise",
+     "where": "Seine River Cruise – Bateaux Parisiens (Port de la Bourdonnais)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Bateaux+Parisiens%2C+Port+de+la+Bourdonnais%2C+Paris",
+     "detail": "Seine River Cruise, 1 h, Bateaux Parisiens: Notre-Dame, Louvre, Musée d'Orsay, bridges. Paris lit up after sunset (~20:50). Eiffel Tower sparkles on the hour.",
+     "note": "Spring evenings are 8–12 °C on the river: jackets.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "22:05–22:35",
+     "what": "Coach · 7 km",
+     "where": "Seine River Cruise – Bateaux Parisiens (Port de la Bourdonnais) → Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Bateaux+Parisiens%2C+Port+de+la+Bourdonnais%2C+Paris&destination=Gare+du+Nord%2C+Paris&travelmode=driving",
+     "detail": "Coach Seine River Cruise – Bateaux Parisiens (Port de la Bourdonnais) → Hotel, Gare du Nord / La Chapelle area (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:35 · Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis) · Saravanaa Bhavan Paris – group booking",
+    "Dinner": "19:15 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 6,
+   "date": "2027-04-22",
+   "dow": "Thu",
+   "title": "Louvre → Brussels: Atomium · Grand Place · Manneken Pis",
+   "overnight": "Brussels",
+   "tz": "CEST",
+   "summary": "Morning at the Louvre (Mona Lisa), then Brussels: the Atomium, the Grand Place and Manneken Pis.",
+   "short": "Louvre → Brussels",
+   "coach_km": 333,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
+     "detail": "Check-out, luggage loaded, headcount.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–09:25",
+     "what": "Coach · 4 km",
+     "where": "Hotel, Gare du Nord / La Chapelle area (TBC) → Louvre Museum (Mona Lisa)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Gare+du+Nord%2C+Paris&destination=Louvre+Museum%2C+Paris&travelmode=driving",
+     "detail": "Coach Hotel, Gare du Nord / La Chapelle area (TBC) → Louvre Museum (Mona Lisa). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:30–12:15",
+     "what": "Sightseeing",
+     "where": "Louvre Museum (Mona Lisa)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Louvre+Museum%2C+Paris",
+     "detail": "Louvre with a licensed guide (whisper headsets): Mona Lisa, Venus de Milo, Winged Victory, Egyptian antiquities, the Pyramid.",
+     "note": "Open Thursday (closed Tuesdays). Group entry via Passage Richelieu, timed slot 09:30.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "12:15–12:35",
+     "what": "Coach · 4 km",
+     "where": "Louvre Museum (Mona Lisa) → Krishna Bhavan, Rue Cail (South Indian vegetarian)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Louvre+Museum%2C+Paris&destination=Krishna+Bhavan%2C+24+Rue+Cail%2C+Paris&travelmode=driving",
+     "detail": "Coach Louvre Museum (Mona Lisa) → Krishna Bhavan, Rue Cail (South Indian vegetarian). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "12:35–13:35",
+     "what": "Lunch",
+     "where": "Krishna Bhavan, Rue Cail (South Indian vegetarian)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Krishna+Bhavan%2C+24+Rue+Cail%2C+Paris",
+     "detail": "Krishna Bhavan, Rue Cail – group booking. South Indian vegetarian lunch.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "13:45–17:45",
+     "what": "Coach · 315 km",
+     "where": "Krishna Bhavan, Rue Cail (South Indian vegetarian) → Atomium",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Krishna+Bhavan%2C+24+Rue+Cail%2C+Paris&destination=Atomium%2C+Brussels&travelmode=driving",
+     "detail": "Coach via A1/E19 to Brussels (3 h 30 m + 30 min break).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:45–18:15",
+     "what": "Photo stop",
+     "where": "Atomium",
+     "link": "https://www.google.com/maps/search/?api=1&query=Atomium%2C+Brussels",
+     "detail": "Atomium photo stop: 102 m model of an iron crystal from the 1958 Expo.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:15–18:45",
+     "what": "Coach · 8 km",
+     "where": "Atomium → Grand Place & Manneken Pis",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Atomium%2C+Brussels&destination=Grand+Place%2C+Brussels&travelmode=driving",
+     "detail": "Coach Atomium → Grand Place & Manneken Pis. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:45–19:45",
+     "what": "Sightseeing",
+     "where": "Grand Place & Manneken Pis",
+     "link": "https://www.google.com/maps/search/?api=1&query=Grand+Place%2C+Brussels",
+     "detail": "Grand Place (UNESCO), Town Hall, guild houses, Manneken Pis (5 min walk), Galeries Royales Saint-Hubert. Belgian chocolate shops (check ingredients).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:45–20:00",
+     "what": "Coach · 2 km",
+     "where": "Grand Place & Manneken Pis → Hotel, Brussels centre (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Grand+Place%2C+Brussels&destination=Brussels+Central+Station&travelmode=driving",
+     "detail": "Coach Grand Place & Manneken Pis → Hotel, Brussels centre (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:00–20:20",
+     "what": "Hotel check-in",
+     "where": "Hotel, Brussels centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Brussels+Central+Station",
+     "detail": "Check-in.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "20:30–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Brussels centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Brussels+Central+Station",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "12:35 · Krishna Bhavan, Rue Cail (South Indian vegetarian) · Krishna Bhavan, Rue Cail – group booking",
+    "Dinner": "20:30 · Hotel, Brussels centre (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 7,
+   "date": "2027-04-23",
+   "dow": "Fri",
+   "title": "ISKCON Radhadesh (Durbuy) → Amsterdam · canal cruise",
+   "overnight": "Amsterdam",
+   "tz": "CEST",
+   "summary": "Darshan and prasadam at ISKCON Radhadesh, a castle temple in the Ardennes hills; on to Amsterdam for an evening canal cruise.",
+   "short": "Radhadesh → Amsterdam canal cruise",
+   "coach_km": 435,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Brussels centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Brussels+Central+Station",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Brussels centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Brussels+Central+Station",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Brussels centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Brussels+Central+Station",
+     "detail": "Check-out, luggage loaded.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–10:45",
+     "what": "Coach · 125 km",
+     "where": "Hotel, Brussels centre (TBC) → ISKCON Radhadesh – Château de Petite Somme",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Brussels+Central+Station&destination=Radhadesh%2C+Petite+Somme+5%2C+6940+Durbuy&travelmode=driving",
+     "detail": "Coach via E411 into the Ardennes hills.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:45–12:45",
+     "what": "Temple darshan",
+     "where": "ISKCON Radhadesh – Château de Petite Somme",
+     "link": "https://www.google.com/maps/search/?api=1&query=Radhadesh%2C+Petite+Somme+5%2C+6940+Durbuy",
+     "detail": "Radhadesh, Château de Petite Somme: a neo-gothic château that houses ISKCON's Benelux temple. Darshan, the château, the Museum of Sacred Art, bookshop. Kirtan with the community.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "12:45–13:45",
+     "what": "Lunch",
+     "where": "ISKCON Radhadesh – Château de Petite Somme",
+     "link": "https://www.google.com/maps/search/?api=1&query=Radhadesh%2C+Petite+Somme+5%2C+6940+Durbuy",
+     "detail": "Radhadesh temple – prasadam (pre-arranged; donation).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "13:45–14:30",
+     "what": "Sightseeing",
+     "where": "ISKCON Radhadesh – Château de Petite Somme",
+     "link": "https://www.google.com/maps/search/?api=1&query=Radhadesh%2C+Petite+Somme+5%2C+6940+Durbuy",
+     "detail": "Spring walk in the château gardens and the Ourthe valley; temple shop.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "14:30–18:30",
+     "what": "Coach · 300 km",
+     "where": "ISKCON Radhadesh – Château de Petite Somme → Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Radhadesh%2C+Petite+Somme+5%2C+6940+Durbuy&destination=Amsterdam+Centraal&travelmode=driving",
+     "detail": "Coach via Liège–Eindhoven–Utrecht (3 h 30 m + 30 min break). Tulip fields visible from the motorway in late April.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:30–19:00",
+     "what": "Hotel check-in",
+     "where": "Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Amsterdam+Centraal",
+     "detail": "Check-in.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:00–20:00",
+     "what": "Dinner",
+     "where": "Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Amsterdam+Centraal",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "20:15–20:35",
+     "what": "Coach · 5 km",
+     "where": "Hotel, Amsterdam (TBC) → Amsterdam canal cruise (Centraal Station piers)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Amsterdam+Centraal&destination=Canal+cruise+Amsterdam+Centraal&travelmode=driving",
+     "detail": "Coaches over 7.5 t cannot enter the S100 ring: use a listed drop-off point.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:45–22:00",
+     "what": "Boat cruise",
+     "where": "Amsterdam canal cruise (Centraal Station piers)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Canal+cruise+Amsterdam+Centraal",
+     "detail": "Amsterdam canal cruise, 75 min, covered glass boat: the UNESCO canal ring, Anne Frank House, the Skinny Bridge, houseboats, the canals lit up at night.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "22:00–22:20",
+     "what": "Coach · 5 km",
+     "where": "Amsterdam canal cruise (Centraal Station piers) → Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Canal+cruise+Amsterdam+Centraal&destination=Amsterdam+Centraal&travelmode=driving",
+     "detail": "Coach Amsterdam canal cruise (Centraal Station piers) → Hotel, Amsterdam (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Brussels centre (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "12:45 · ISKCON Radhadesh – Château de Petite Somme · Radhadesh temple – prasadam (pre-arranged; donation)",
+    "Dinner": "19:00 · Hotel, Amsterdam (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 8,
+   "date": "2027-04-24",
+   "dow": "Sat",
+   "title": "Zaanse Schans windmills · Keukenhof tulip gardens → Cologne",
+   "overnight": "Cologne",
+   "tz": "CEST",
+   "summary": "The windmills of Zaanse Schans and the Keukenhof tulip gardens at peak bloom; drive to Cologne.",
+   "short": "Windmills · Keukenhof tulips → Cologne",
+   "coach_km": 335,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Amsterdam+Centraal",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Amsterdam+Centraal",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Amsterdam (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Amsterdam+Centraal",
+     "detail": "Check-out, luggage loaded.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–09:30",
+     "what": "Coach · 20 km",
+     "where": "Hotel, Amsterdam (TBC) → Zaanse Schans windmills",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Amsterdam+Centraal&destination=Zaanse+Schans&travelmode=driving",
+     "detail": "Coach Hotel, Amsterdam (TBC) → Zaanse Schans windmills. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:30–11:00",
+     "what": "Sightseeing",
+     "where": "Zaanse Schans windmills",
+     "link": "https://www.google.com/maps/search/?api=1&query=Zaanse+Schans",
+     "detail": "Zaanse Schans: working windmills, clog-making workshop, cheese farm, green wooden houses.",
+     "note": "Coach parking €35–55; card only. Saturday crowds build after 11:00.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:00–12:00",
+     "what": "Coach · 55 km",
+     "where": "Zaanse Schans windmills → Keukenhof tulip gardens",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Zaanse+Schans&destination=Keukenhof%2C+Lisse&travelmode=driving",
+     "detail": "Coach past the bulb fields of Lisse.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "12:00–15:30",
+     "what": "Sightseeing",
+     "where": "Keukenhof tulip gardens",
+     "link": "https://www.google.com/maps/search/?api=1&query=Keukenhof%2C+Lisse",
+     "detail": "Keukenhof (open 18 Mar–9 May 2027): 7 million flowering bulbs, peak tulip season in late April. Willem-Alexander pavilion, historic windmill, lakeside paths. Group photo among the tulips. Senior friendly (flat paths, benches, wheelchairs for hire).",
+     "note": "Timed group slot 12:00; free coach parking at P1.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:15–14:00",
+     "what": "Lunch",
+     "where": "Keukenhof tulip gardens",
+     "link": "https://www.google.com/maps/search/?api=1&query=Keukenhof%2C+Lisse",
+     "detail": "Packed Satvik lunch from Amsterdam Indian caterer (picnic area).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "15:30–18:45",
+     "what": "Coach · 260 km",
+     "where": "Keukenhof tulip gardens → Hotel, Cologne centre (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Keukenhof%2C+Lisse&destination=K%C3%B6ln+Hauptbahnhof&travelmode=driving",
+     "detail": "Coach via A12/A3 to Cologne (3 h + 15 min break).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:45–19:15",
+     "what": "Hotel check-in",
+     "where": "Hotel, Cologne centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ln+Hauptbahnhof",
+     "detail": "Check-in.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:30–20:30",
+     "what": "Dinner",
+     "where": "Hotel, Cologne centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ln+Hauptbahnhof",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "20:45–21:30",
+     "what": "Evening walk",
+     "where": "Cologne Cathedral & Hohenzollern Bridge",
+     "link": "https://www.google.com/maps/search/?api=1&query=Cologne+Cathedral",
+     "detail": "Optional walk to Cologne Cathedral: the floodlit facade and the Hohenzollern Bridge. Volendam was swapped for Keukenhof because of the tulip season.",
+     "note": "",
+     "meal": false,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Amsterdam (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:15 · Keukenhof tulip gardens · Packed Satvik lunch from Amsterdam Indian caterer (picnic area)",
+    "Dinner": "19:30 · Hotel, Cologne centre (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 9,
+   "date": "2027-04-25",
+   "dow": "Sun",
+   "title": "Cologne · ISKCON Cologne → Goloka Dham Sunday programme → Black Forest",
+   "overnight": "Titisee (Black Forest)",
+   "tz": "CEST",
+   "summary": "Cologne Cathedral and ISKCON Cologne, then the Sunday programme and feast at Goloka Dham; evening in the Black Forest.",
+   "short": "Cologne · Goloka Dham → Black Forest",
+   "coach_km": 530,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Cologne centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ln+Hauptbahnhof",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Cologne centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ln+Hauptbahnhof",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Cologne centre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ln+Hauptbahnhof",
+     "detail": "Check-out.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–09:10",
+     "what": "Coach · 2 km",
+     "where": "Hotel, Cologne centre (TBC) → Cologne Cathedral & Hohenzollern Bridge",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=K%C3%B6ln+Hauptbahnhof&destination=Cologne+Cathedral&travelmode=driving",
+     "detail": "Coach Hotel, Cologne centre (TBC) → Cologne Cathedral & Hohenzollern Bridge. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:10–09:50",
+     "what": "Sightseeing",
+     "where": "Cologne Cathedral & Hohenzollern Bridge",
+     "link": "https://www.google.com/maps/search/?api=1&query=Cologne+Cathedral",
+     "detail": "Cologne Cathedral (UNESCO): exterior and square. Interior only during services on Sunday mornings (tourist entry €12 on weekdays).",
+     "note": "Sunday masses restrict tourist entry.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:50–10:10",
+     "what": "Coach · 8 km",
+     "where": "Cologne Cathedral & Hohenzollern Bridge → ISKCON Cologne temple (address to confirm)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Cologne+Cathedral&destination=ISKCON+Hare+Krishna+Tempel+K%C3%B6ln&travelmode=driving",
+     "detail": "Coach Cologne Cathedral & Hohenzollern Bridge → ISKCON Cologne temple (address to confirm). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:10–11:00",
+     "what": "Temple darshan",
+     "where": "ISKCON Cologne temple (address to confirm)",
+     "link": "https://www.google.com/maps/search/?api=1&query=ISKCON+Hare+Krishna+Tempel+K%C3%B6ln",
+     "detail": "ISKCON Cologne: darshan, Sunday kirtan, meet local devotees.",
+     "note": "Confirm the temple address and opening time.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:00–13:30",
+     "what": "Coach · 190 km",
+     "where": "ISKCON Cologne temple (address to confirm) → ISKCON Goloka Dham (Abentheuer, near Trier)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=ISKCON+Hare+Krishna+Tempel+K%C3%B6ln&destination=Goloka+Dham%2C+Abentheuer%2C+Germany&travelmode=driving",
+     "detail": "Coach via A1/A48 through the Eifel and Hunsrück hills.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "13:30–14:15",
+     "what": "Lunch",
+     "where": "ISKCON Goloka Dham (Abentheuer, near Trier)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Goloka+Dham%2C+Abentheuer%2C+Germany",
+     "detail": "Goloka Dham temple – prasadam (pre-arranged; donation). The Sunday feast is at 15:00; take feast sweets for the road.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "14:15–15:30",
+     "what": "Temple darshan",
+     "where": "ISKCON Goloka Dham (Abentheuer, near Trier)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Goloka+Dham%2C+Abentheuer%2C+Germany",
+     "detail": "Goloka Dham, ISKCON's rural centre in Germany: darshan, Sunday Bhagavad-gita class (14:00), goshala, farm community.",
+     "note": "Tel. +49 6782 2214. Inform them of a 40-person group.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "15:30–20:00",
+     "what": "Coach · 330 km",
+     "where": "ISKCON Goloka Dham (Abentheuer, near Trier) → Hotel, Titisee-Neustadt (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Goloka+Dham%2C+Abentheuer%2C+Germany&destination=Titisee-Neustadt&travelmode=driving",
+     "detail": "Coach via A61/A5 (3 h 45 m + 45 min driver break).",
+     "note": "Longest coach day of the yatra (~7 h 30 m incl. breaks). Within the EU 9-hour driving limit.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:00–20:30",
+     "what": "Hotel check-in",
+     "where": "Hotel, Titisee-Neustadt (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titisee-Neustadt",
+     "detail": "Check-in. Black Forest nights can still be near 0 °C in late April.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "20:30–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Titisee-Neustadt (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titisee-Neustadt",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Cologne centre (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:30 · ISKCON Goloka Dham (Abentheuer, near Trier) · Goloka Dham temple – prasadam (pre-arranged; donation)",
+    "Dinner": "20:30 · Hotel, Titisee-Neustadt (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 10,
+   "date": "2027-04-26",
+   "dow": "Mon",
+   "title": "Lake Titisee · cuckoo clocks → Rhine Falls → Zurich · ISKCON Zurich",
+   "overnight": "Zurich",
+   "tz": "CEST",
+   "summary": "Lake Titisee and the cuckoo-clock shops, the thundering Rhine Falls, Zurich and darshan at ISKCON Zurich.",
+   "short": "Titisee · Rhine Falls → Zurich",
+   "coach_km": 127,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Titisee-Neustadt (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titisee-Neustadt",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional). Lakeside japa walk if weather allows.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Titisee-Neustadt (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titisee-Neustadt",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Titisee-Neustadt (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titisee-Neustadt",
+     "detail": "Check-out.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–10:30",
+     "what": "Sightseeing",
+     "where": "Lake Titisee & Black Forest cuckoo-clock shops",
+     "link": "https://www.google.com/maps/search/?api=1&query=Seestra%C3%9Fe%2C+Titisee-Neustadt",
+     "detail": "Lake Titisee promenade, Black Forest cuckoo-clock shops with a live demonstration, optional boat trip (if the spring season has started). VAT refund forms for big purchases.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "10:30–11:45",
+     "what": "Coach · 70 km",
+     "where": "Lake Titisee & Black Forest cuckoo-clock shops → Rhine Falls (Rheinfall), Neuhausen",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Seestra%C3%9Fe%2C+Titisee-Neustadt&destination=Rheinfall%2C+Neuhausen+am+Rheinfall&travelmode=driving",
+     "detail": "Coach into Switzerland (border check possible; passports handy).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "11:45–13:00",
+     "what": "Sightseeing",
+     "where": "Rhine Falls (Rheinfall), Neuhausen",
+     "link": "https://www.google.com/maps/search/?api=1&query=Rheinfall%2C+Neuhausen+am+Rheinfall",
+     "detail": "Rhine Falls, Europe's largest waterfall by volume, at high spring flow: Schloss Laufen platforms (lift available), optional boat to the rock.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:00–14:00",
+     "what": "Lunch",
+     "where": "Indian restaurant, Schaffhausen (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Indian+restaurant+Schaffhausen",
+     "detail": "Indian restaurant, Schaffhausen (to be booked) – backup: packed lunch.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "14:00–14:55",
+     "what": "Coach · 50 km",
+     "where": "Rhine Falls (Rheinfall), Neuhausen → Zurich old town – Bahnhofstrasse & lake promenade",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Rheinfall%2C+Neuhausen+am+Rheinfall&destination=B%C3%BCrkliplatz%2C+Z%C3%BCrich&travelmode=driving",
+     "detail": "Coach Rhine Falls (Rheinfall), Neuhausen → Zurich old town – Bahnhofstrasse & lake promenade. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "14:55–16:20",
+     "what": "Sightseeing",
+     "where": "Zurich old town – Bahnhofstrasse & lake promenade",
+     "link": "https://www.google.com/maps/search/?api=1&query=B%C3%BCrkliplatz%2C+Z%C3%BCrich",
+     "detail": "Zurich orientation: Bahnhofstrasse, Lake Zurich promenade, Grossmünster and Fraumünster (exterior), Lindenhof viewpoint. Swiss chocolate and watch shops.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:20–16:40",
+     "what": "Coach · 3 km",
+     "where": "Zurich old town – Bahnhofstrasse & lake promenade → ISKCON Zurich – Krishna Tempel (Bergstrasse 54)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=B%C3%BCrkliplatz%2C+Z%C3%BCrich&destination=Krishna+Tempel%2C+Bergstrasse+54%2C+8032+Z%C3%BCrich&travelmode=driving",
+     "detail": "Coach Zurich old town – Bahnhofstrasse & lake promenade → ISKCON Zurich – Krishna Tempel (Bergstrasse 54). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "16:40–18:30",
+     "what": "Temple darshan",
+     "where": "ISKCON Zurich – Krishna Tempel (Bergstrasse 54)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Krishna+Tempel%2C+Bergstrasse+54%2C+8032+Z%C3%BCrich",
+     "detail": "ISKCON Zurich Krishna Tempel: darshan, evening arati, kirtan, meet the Swiss devotees.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:30–18:45",
+     "what": "Coach · 4 km",
+     "where": "ISKCON Zurich – Krishna Tempel (Bergstrasse 54) → Hotel, Zurich (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Krishna+Tempel%2C+Bergstrasse+54%2C+8032+Z%C3%BCrich&destination=Z%C3%BCrich+Hauptbahnhof&travelmode=driving",
+     "detail": "Coach ISKCON Zurich – Krishna Tempel (Bergstrasse 54) → Hotel, Zurich (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:45–19:15",
+     "what": "Hotel check-in",
+     "where": "Hotel, Zurich (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Hauptbahnhof",
+     "detail": "Check-in.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:30–20:30",
+     "what": "Dinner",
+     "where": "Hotel, Zurich (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Hauptbahnhof",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Titisee-Neustadt (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:00 · Indian restaurant, Schaffhausen (TBC) · Indian restaurant, Schaffhausen (to be booked) – backup: packed lunch",
+    "Dinner": "19:30 · Hotel, Zurich (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 11,
+   "date": "2027-04-27",
+   "dow": "Tue",
+   "title": "Mount Titlis (snow) · Lucerne · Lion Monument · lake cruise → train to Interlaken",
+   "overnight": "Interlaken",
+   "tz": "CEST",
+   "summary": "Snow on Mount Titlis by the rotating cable car; Lucerne's Lion Monument and Chapel Bridge; a lake cruise; scenic train to Interlaken.",
+   "short": "Mount Titlis · Lucerne → Interlaken",
+   "coach_km": 190,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Zurich (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Hauptbahnhof",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Zurich (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Hauptbahnhof",
+     "detail": "Hotel – complimentary buffet (08:00–09:00). Winter clothing today: the Titlis summit is about −2 to −7 °C with snow in late April.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Zurich (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Hauptbahnhof",
+     "detail": "Check-out.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–10:20",
+     "what": "Coach · 85 km",
+     "where": "Hotel, Zurich (TBC) → Mount Titlis – Engelberg valley station",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Z%C3%BCrich+Hauptbahnhof&destination=Titlis+Talstation%2C+Engelberg&travelmode=driving",
+     "detail": "Coach via A4/A2 to Engelberg. Today is the disappearance day of Sri Abhirama Thakura.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:30–13:00",
+     "what": "Cable car & snow",
+     "where": "Mount Titlis – Engelberg valley station",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titlis+Talstation%2C+Engelberg",
+     "detail": "Titlis Xpress gondola + Rotair (revolving cable car) to 3,020 m: Glacier Cave, Cliff Walk (optional), snow play, group photo at the summit. Ice Flyer chairlift only if it is running in spring.",
+     "note": "Summit station under construction until 2029 (limited wheelchair access). Ask sales@titlis.ch for 2027 maintenance dates. Check webcam and lift status the evening before.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:00–14:00",
+     "what": "Lunch",
+     "where": "Indian Group Restaurant, Trübsee mid-station",
+     "link": "https://www.google.com/maps/search/?api=1&query=Tr%C3%BCbsee+Titlis+Engelberg",
+     "detail": "Indian Group Restaurant at Trübsee mid-station (moved down from the summit during construction; pre-book).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "14:00–14:30",
+     "what": "Descent",
+     "where": "Mount Titlis – Engelberg valley station",
+     "link": "https://www.google.com/maps/search/?api=1&query=Titlis+Talstation%2C+Engelberg",
+     "detail": "Gondola from Trübsee back down to Engelberg.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "14:30–15:15",
+     "what": "Coach · 35 km",
+     "where": "Mount Titlis – Engelberg valley station → Lion Monument (Löwendenkmal), Lucerne",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Titlis+Talstation%2C+Engelberg&destination=Lion+Monument%2C+Lucerne&travelmode=driving",
+     "detail": "Coach Mount Titlis – Engelberg valley station → Lion Monument (Löwendenkmal), Lucerne. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "15:15–15:40",
+     "what": "Sightseeing",
+     "where": "Lion Monument (Löwendenkmal), Lucerne",
+     "link": "https://www.google.com/maps/search/?api=1&query=Lion+Monument%2C+Lucerne",
+     "detail": "Lion Monument: dying lion carved in rock (Mark Twain's 'most mournful piece of stone').",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "15:40–16:20",
+     "what": "Sightseeing",
+     "where": "Chapel Bridge & Lucerne old town",
+     "link": "https://www.google.com/maps/search/?api=1&query=Chapel+Bridge%2C+Lucerne",
+     "detail": "Chapel Bridge (Kapellbrücke) and the Water Tower, old town squares, Swiss shopping.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:30–17:30",
+     "what": "Boat cruise",
+     "where": "Lake Lucerne cruise pier (Bahnhofquai)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Lake+Lucerne+Navigation+Company%2C+Lucerne",
+     "detail": "Lake Lucerne 1-hour round cruise: Mount Pilatus and Rigi views (spring timetable from 17 April).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:05–19:55",
+     "what": "Train · 75 km",
+     "where": "Luzern railway station → Interlaken Ost station",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Luzern+Bahnhof&destination=Interlaken+Ost&travelmode=transit",
+     "detail": "Luzern–Interlaken Express (scenic, ~1 h 50 m over the Brünig Pass, past Lakes Lungern and Brienz). Group reservation.",
+     "note": "Group fare + compulsory seat reservation; check the timetable and any Meiringen–Interlaken works.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "18:05–19:20",
+     "what": "Coach · 70 km",
+     "where": "Luzern railway station → Hotel, Interlaken (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Luzern+Bahnhof&destination=H%C3%B6heweg%2C+Interlaken&travelmode=driving",
+     "detail": "Our coach drives empty with the luggage to the Interlaken hotel (no passengers).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "19:55–20:20",
+     "what": "Hotel check-in",
+     "where": "Hotel, Interlaken (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6heweg%2C+Interlaken",
+     "detail": "Walk or coach from Interlaken Ost to the hotel; luggage arrives with the coach.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "20:30–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Interlaken (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6heweg%2C+Interlaken",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Zurich (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:00 · Indian Group Restaurant, Trübsee mid-station · Indian Group Restaurant at Trübsee mid-station (moved down from the summit during construction; pre-book)",
+    "Dinner": "20:30 · Hotel, Interlaken (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 12,
+   "date": "2027-04-28",
+   "dow": "Wed",
+   "title": "Interlaken → Gotthard → Lake Como → Villaggio Hare Krishna → Milan",
+   "overnight": "Milan",
+   "tz": "CEST",
+   "summary": "Through the Swiss Alps and the Gotthard to Italy: a boat ride on Lake Como and darshan at Villaggio Hare Krishna; overnight Milan.",
+   "short": "Gotthard → Lake Como → Villaggio Hare Krishna",
+   "coach_km": 380,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Interlaken (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6heweg%2C+Interlaken",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Interlaken (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6heweg%2C+Interlaken",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Interlaken (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6heweg%2C+Interlaken",
+     "detail": "Check-out.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–09:20",
+     "what": "Sightseeing",
+     "where": "Höhematte park – view of the Jungfrau",
+     "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6hematte%2C+Interlaken",
+     "detail": "Höhematte park: morning view of the snow-covered Jungfrau, Höheweg promenade.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:20–13:50",
+     "what": "Coach · 290 km",
+     "where": "Hotel, Interlaken (TBC) → Lake Como – Como town waterfront",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=H%C3%B6heweg%2C+Interlaken&destination=Piazza+Cavour%2C+Como&travelmode=driving",
+     "detail": "Coach via Brünig–Lucerne–Gotthard road tunnel–Lugano (3 h 45 m + 45 min break). Italy border check possible.",
+     "note": "Gotthard tunnel queues are shorter after Easter, but check TCS traffic info.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "13:50–14:50",
+     "what": "Lunch",
+     "where": "Indian restaurant, Como (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Indian+restaurant+Como",
+     "detail": "Indian restaurant, Como (to be booked) – backup: packed lunch.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "15:00–16:15",
+     "what": "Boat cruise",
+     "where": "Lake Como – Como town waterfront",
+     "link": "https://www.google.com/maps/search/?api=1&query=Piazza+Cavour%2C+Como",
+     "detail": "Lake Como: waterfront promenade, Duomo di Como (exterior), boat ride to Cernobbio and back, villa views.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:15–17:15",
+     "what": "Coach · 45 km",
+     "where": "Lake Como – Como town waterfront → Villaggio Hare Krishna (near Bergamo)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Piazza+Cavour%2C+Como&destination=Villaggio+Hare+Krishna%2C+Bergamo&travelmode=driving",
+     "detail": "Coach Lake Como – Como town waterfront → Villaggio Hare Krishna (near Bergamo). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:15–19:00",
+     "what": "Temple darshan",
+     "where": "Villaggio Hare Krishna (near Bergamo)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Villaggio+Hare+Krishna%2C+Bergamo",
+     "detail": "Villaggio Hare Krishna, Italy's oldest ISKCON farm community: darshan, evening arati, kirtan, goshala.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "19:00–20:00",
+     "what": "Coach · 45 km",
+     "where": "Villaggio Hare Krishna (near Bergamo) → Hotel, Milan (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Villaggio+Hare+Krishna%2C+Bergamo&destination=Milano+Centrale&travelmode=driving",
+     "detail": "Coach Villaggio Hare Krishna (near Bergamo) → Hotel, Milan (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:00–20:20",
+     "what": "Hotel check-in",
+     "where": "Hotel, Milan (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Centrale",
+     "detail": "Check-in.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "20:30–21:30",
+     "what": "Dinner",
+     "where": "Hotel, Milan (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Centrale",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Interlaken (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:50 · Indian restaurant, Como (TBC) · Indian restaurant, Como (to be booked) – backup: packed lunch",
+    "Dinner": "20:30 · Hotel, Milan (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 13,
+   "date": "2027-04-29",
+   "dow": "Thu",
+   "title": "Milan Duomo → Prabhupada Desh → Padova → Venice (gondola)",
+   "overnight": "Venice-Mestre",
+   "tz": "CEST",
+   "summary": "Milan Cathedral, prasadam at ISKCON Prabhupada Desh, the Basilica of St Anthony in Padova and an evening in Venice: St Mark's Square and a gondola ride.",
+   "short": "Milan · Prabhupada Desh · Padova · Venice",
+   "coach_km": 298,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Milan (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Centrale",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Milan (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Centrale",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Milan (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Centrale",
+     "detail": "Check-out.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–09:20",
+     "what": "Coach · 3 km",
+     "where": "Hotel, Milan (TBC) → Milan Duomo & Galleria Vittorio Emanuele II",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Milano+Centrale&destination=Duomo+di+Milano&travelmode=driving",
+     "detail": "Coach Hotel, Milan (TBC) → Milan Duomo & Galleria Vittorio Emanuele II. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:20–10:15",
+     "what": "Photo stop",
+     "where": "Milan Duomo & Galleria Vittorio Emanuele II",
+     "link": "https://www.google.com/maps/search/?api=1&query=Duomo+di+Milano",
+     "detail": "Milan Duomo (exterior; interior optional, opens 09:00), Galleria Vittorio Emanuele II, La Scala (exterior).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "10:15–13:00",
+     "what": "Coach · 210 km",
+     "where": "Milan Duomo & Galleria Vittorio Emanuele II → ISKCON Prabhupada Desh (Albettone, Vicenza)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Duomo+di+Milano&destination=Prabhupada+Desh%2C+Albettone&travelmode=driving",
+     "detail": "Coach via A4 past Bergamo, Brescia, Verona (2 h 30 m + 15 min break).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "13:00–13:45",
+     "what": "Lunch",
+     "where": "ISKCON Prabhupada Desh (Albettone, Vicenza)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Prabhupada+Desh%2C+Albettone",
+     "detail": "Prabhupada Desh temple – prasadam (pre-arranged; donation).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "13:45–14:45",
+     "what": "Temple darshan",
+     "where": "ISKCON Prabhupada Desh (Albettone, Vicenza)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Prabhupada+Desh%2C+Albettone",
+     "detail": "Prabhupada Desh: darshan, kirtan, Srila Prabhupada murti, Vaishnava community in the Berici hills.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "14:45–15:30",
+     "what": "Coach · 35 km",
+     "where": "ISKCON Prabhupada Desh (Albettone, Vicenza) → Basilica of St Anthony, Padova",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Prabhupada+Desh%2C+Albettone&destination=Basilica+di+Sant%27Antonio%2C+Padova&travelmode=driving",
+     "detail": "Coach ISKCON Prabhupada Desh (Albettone, Vicenza) → Basilica of St Anthony, Padova. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "15:30–16:10",
+     "what": "Sightseeing",
+     "where": "Basilica of St Anthony, Padova",
+     "link": "https://www.google.com/maps/search/?api=1&query=Basilica+di+Sant%27Antonio%2C+Padova",
+     "detail": "Padova: Basilica of St Anthony (free) and Prato della Valle.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:10–16:55",
+     "what": "Coach · 40 km",
+     "where": "Basilica of St Anthony, Padova → Venice Tronchetto coach terminal",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Basilica+di+Sant%27Antonio%2C+Padova&destination=Tronchetto%2C+Venezia&travelmode=driving",
+     "detail": "Venice coach day pass (Tronchetto) €310 per coach.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:00–20:00",
+     "what": "Sightseeing",
+     "where": "St Mark's Square, Doge's Palace & gondola ride",
+     "link": "https://www.google.com/maps/search/?api=1&query=Piazza+San+Marco%2C+Venezia",
+     "detail": "Vaporetto from Tronchetto to San Marco (~25 min each way). St Mark's Square and Basilica (exterior), Doge's Palace, Bridge of Sighs, Rialto Bridge. Gondola ride at sunset (~20:05): 30 min, 5 people per gondola. Two licensed guides (groups capped at 25).",
+     "note": "Check the 2027 Venice access-fee calendar; overnight guests in Mestre are exempt but must register. Many bridge steps.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "20:05–20:30",
+     "what": "Coach · 10 km",
+     "where": "Venice Tronchetto coach terminal → Hotel, Venice-Mestre (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Tronchetto%2C+Venezia&destination=Mestre%2C+Venezia&travelmode=driving",
+     "detail": "Coach Venice Tronchetto coach terminal → Hotel, Venice-Mestre (TBC). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:30–20:45",
+     "what": "Hotel check-in",
+     "where": "Hotel, Venice-Mestre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Mestre%2C+Venezia",
+     "detail": "Check-in. Day bags only tomorrow: big luggage stays on the coach, which drives to Florence.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "20:45–21:45",
+     "what": "Dinner",
+     "where": "Hotel, Venice-Mestre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Mestre%2C+Venezia",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "note": "",
+     "meal": true,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Milan (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:00 · ISKCON Prabhupada Desh (Albettone, Vicenza) · Prabhupada Desh temple – prasadam (pre-arranged; donation)",
+    "Dinner": "20:45 · Hotel, Venice-Mestre (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+   }
+  },
+  {
+   "day": 14,
+   "date": "2027-04-30",
+   "dow": "Fri",
+   "title": "Rome day by high-speed train: Vatican Museums · St Peter's · Colosseum · Trevi → Florence",
+   "overnight": "Florence",
+   "tz": "CEST",
+   "summary": "High-speed train to Rome: the Vatican Museums and Sistine Chapel, St Peter's Basilica, the Colosseum and the Trevi Fountain; train to Florence.",
+   "short": "Rome by high-speed train: Vatican · Colosseum",
+   "coach_km": 265,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "05:00–05:40",
+     "what": "Breakfast",
+     "where": "Hotel, Venice-Mestre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Mestre%2C+Venezia",
+     "detail": "Hotel – breakfast boxes (ordered the evening before). EXCEPTION to the 08:00–09:00 breakfast / 09:00 start: the only Vatican day needs the 06:30 train. With a 09:00 start the group reaches Rome at ~13:15 and loses the Colosseum interior.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "05:40–06:00",
+     "what": "Check-out",
+     "where": "Hotel, Venice-Mestre (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Mestre%2C+Venezia",
+     "detail": "Check-out. Big luggage loaded on the coach, which drives empty to Florence (260 km) and waits there.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "06:00–06:15",
+     "what": "Coach · 3 km",
+     "where": "Hotel, Venice-Mestre (TBC) → Venezia Mestre railway station",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Mestre%2C+Venezia&destination=Venezia+Mestre+station&travelmode=driving",
+     "detail": "Coach to Venezia Mestre station.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "06:15–09:30",
+     "what": "Coach · 260 km",
+     "where": "Hotel, Venice-Mestre (TBC) → Hotel, Florence (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Mestre%2C+Venezia&destination=Firenze+Santa+Maria+Novella&travelmode=driving",
+     "detail": "Our coach drives empty with the luggage to Florence and the driver rests there (no passengers).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "06:30–10:20",
+     "what": "Train · 530 km",
+     "where": "Venezia Mestre railway station → Roma Termini station",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Venezia+Mestre+station&destination=Roma+Termini&travelmode=transit",
+     "detail": "Frecciarossa high-speed train, reserved group coach (~3 h 50 m). Morning programme on board: japa, kirtan, class. Snacks from the breakfast boxes.",
+     "note": "Italian rail strikes are often called on Fridays: watch the strike calendar; backup is coach Mestre→Rome.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "10:20–10:50",
+     "what": "Local coach · 6 km",
+     "where": "Roma Termini station → Vatican Museums, Sistine Chapel & St Peter's Basilica",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Roma+Termini&destination=Vatican+Museums%2C+Vatican+City&travelmode=driving",
+     "detail": "Rome local coach with city permit (pre-booked) from Termini to the Vatican.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "11:00–13:30",
+     "what": "Sightseeing",
+     "where": "Vatican Museums, Sistine Chapel & St Peter's Basilica",
+     "link": "https://www.google.com/maps/search/?api=1&query=Vatican+Museums%2C+Vatican+City",
+     "detail": "Vatican Museums with two licensed guides (max 20 per guide; headsets compulsory): Raphael Rooms, Gallery of Maps, Sistine Chapel (silence, no photos).",
+     "note": "Open Friday 30 April; CLOSED on 1 May and on Sundays. Book the 11:00 group slot. Dress code: knees and shoulders covered.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:30–14:15",
+     "what": "Sightseeing",
+     "where": "Vatican Museums, Sistine Chapel & St Peter's Basilica",
+     "link": "https://www.google.com/maps/search/?api=1&query=Vatican+Museums%2C+Vatican+City",
+     "detail": "St Peter's Basilica (free): Michelangelo's Pietà, the dome, St Peter's Square. Shortcut from the Sistine Chapel for guided groups if allowed.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "14:30–15:30",
+     "what": "Lunch",
+     "where": "Indian restaurant near the Vatican (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Indian+restaurant+near+Vatican+Rome",
+     "detail": "Indian restaurant near the Vatican (to be booked). Late lunch; snacks carried.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "15:30–16:00",
+     "what": "Local coach · 5 km",
+     "where": "Indian restaurant near the Vatican (TBC) → Colosseum (inside) & Roman Forum view",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Indian+restaurant+near+Vatican+Rome&destination=Colosseum%2C+Rome&travelmode=driving",
+     "detail": "Local coach Indian restaurant near the Vatican (TBC) → Colosseum (inside) & Roman Forum view. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "16:00–17:30",
+     "what": "Sightseeing",
+     "where": "Colosseum (inside) & Roman Forum view",
+     "link": "https://www.google.com/maps/search/?api=1&query=Colosseum%2C+Rome",
+     "detail": "Colosseum inside (timed group ticket with a guide): arena view, the tiers, Arch of Constantine, Roman Forum overlook.",
+     "note": "Name-based tickets; carry passports.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "17:30–17:50",
+     "what": "Local coach · 2 km",
+     "where": "Colosseum (inside) & Roman Forum view → Trevi Fountain",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Colosseum%2C+Rome&destination=Trevi+Fountain%2C+Rome&travelmode=driving",
+     "detail": "Local coach Colosseum (inside) & Roman Forum view → Trevi Fountain. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "17:50–18:45",
+     "what": "Sightseeing",
+     "where": "Trevi Fountain",
+     "link": "https://www.google.com/maps/search/?api=1&query=Trevi+Fountain%2C+Rome",
+     "detail": "Trevi Fountain (€2 basin access, coin toss) and the Pantheon (€7).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "18:45–19:20",
+     "what": "Dinner",
+     "where": "Trevi Fountain",
+     "link": "https://www.google.com/maps/search/?api=1&query=Trevi+Fountain%2C+Rome",
+     "detail": "Packed Satvik dinner from the Rome Indian restaurant. Eaten on the train.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "19:20–19:45",
+     "what": "Local coach · 3 km",
+     "where": "Trevi Fountain → Roma Termini station",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Trevi+Fountain%2C+Rome&destination=Roma+Termini&travelmode=driving",
+     "detail": "Local coach Trevi Fountain → Roma Termini station. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:10–21:45",
+     "what": "Train · 275 km",
+     "where": "Roma Termini station → Firenze Santa Maria Novella station",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Roma+Termini&destination=Firenze+Santa+Maria+Novella&travelmode=transit",
+     "detail": "Frecciarossa Roma Termini → Firenze Santa Maria Novella (~1 h 35 m), reserved group coach.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "21:50–22:05",
+     "what": "Coach · 2 km",
+     "where": "Firenze Santa Maria Novella station → Hotel, Florence (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Firenze+Santa+Maria+Novella&destination=Firenze+Santa+Maria+Novella&travelmode=driving",
+     "detail": "Our coach meets the group at the station; luggage is already on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "22:05–22:30",
+     "what": "Hotel check-in",
+     "where": "Hotel, Florence (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Firenze+Santa+Maria+Novella",
+     "detail": "Check-in and rest. Hardest day of the yatra (05:00–22:30): seniors may instead rest in Florence (coach transfer with the luggage) — decide in advance.",
+     "note": "",
+     "meal": false,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "05:00 · Hotel, Venice-Mestre (TBC) · Hotel – breakfast boxes (ordered the evening before)",
+    "Lunch": "14:30 · Indian restaurant near the Vatican (TBC) · Indian restaurant near the Vatican (to be booked)",
+    "Dinner": "18:45 · Trevi Fountain · Packed Satvik dinner from the Rome Indian restaurant"
+   }
+  },
+  {
+   "day": 15,
+   "date": "2027-05-01",
+   "dow": "Sat",
+   "title": "Labour Day: Florence · Villa Vrindavan · Leaning Tower of Pisa → Malpensa",
+   "overnight": "Near Milan Malpensa airport",
+   "tz": "CEST",
+   "summary": "Florence (Duomo, Ponte Vecchio, Piazzale Michelangelo), prasadam at ISKCON Villa Vrindavan, the Leaning Tower of Pisa; farewell dinner near Milan Malpensa.",
+   "short": "Florence · Villa Vrindavan · Pisa",
+   "coach_km": 412,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "07:30–08:00",
+     "what": "Morning programme",
+     "where": "Hotel, Florence (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Firenze+Santa+Maria+Novella",
+     "detail": "Japa (16 rounds at own pace), short kirtan and Bhagavatam reading in the hotel hall or lobby (before breakfast; optional). Disappearance day of Sri Vrindavana Dasa Thakura: reading from Chaitanya Bhagavata.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "08:00–09:00",
+     "what": "Breakfast",
+     "where": "Hotel, Florence (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Firenze+Santa+Maria+Novella",
+     "detail": "Hotel – complimentary buffet (08:00–09:00).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "08:30–09:00",
+     "what": "Check-out",
+     "where": "Hotel, Florence (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Firenze+Santa+Maria+Novella",
+     "detail": "Check-out.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "09:00–09:15",
+     "what": "Coach · 3 km",
+     "where": "Hotel, Florence (TBC) → Florence – Duomo, Piazza della Signoria, Ponte Vecchio",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Firenze+Santa+Maria+Novella&destination=Piazza+della+Signoria%2C+Firenze&travelmode=driving",
+     "detail": "Coach to the Lungarno drop point (coaches cannot enter the ZTL; coach permit about €200–300).",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "09:15–11:00",
+     "what": "Sightseeing",
+     "where": "Florence – Duomo, Piazza della Signoria, Ponte Vecchio",
+     "link": "https://www.google.com/maps/search/?api=1&query=Piazza+della+Signoria%2C+Firenze",
+     "detail": "Florence orientation (UNESCO): Duomo with Brunelleschi's dome, Baptistery doors, Piazza della Signoria, copy of David, Ponte Vecchio.",
+     "note": "1 May is a public holiday in Italy: big crowds; some museums and shops closed or on holiday hours.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:00–11:20",
+     "what": "Coach · 4 km",
+     "where": "Florence – Duomo, Piazza della Signoria, Ponte Vecchio → Piazzale Michelangelo viewpoint",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Piazza+della+Signoria%2C+Firenze&destination=Piazzale+Michelangelo%2C+Firenze&travelmode=driving",
+     "detail": "Coach Florence – Duomo, Piazza della Signoria, Ponte Vecchio → Piazzale Michelangelo viewpoint. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "11:20–11:45",
+     "what": "Viewpoint",
+     "where": "Piazzale Michelangelo viewpoint",
+     "link": "https://www.google.com/maps/search/?api=1&query=Piazzale+Michelangelo%2C+Firenze",
+     "detail": "Piazzale Michelangelo: panorama of Florence; group photo.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:45–12:20",
+     "what": "Coach · 20 km",
+     "where": "Piazzale Michelangelo viewpoint → ISKCON Villa Vrindavan, Florence (Via Scopeti 108)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Piazzale+Michelangelo%2C+Firenze&destination=Villa+Vrindavan%2C+Via+Scopeti+108%2C+San+Casciano+in+Val+di+Pesa&travelmode=driving",
+     "detail": "Coach Piazzale Michelangelo viewpoint → ISKCON Villa Vrindavan, Florence (Via Scopeti 108). Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "12:20–13:00",
+     "what": "Temple darshan",
+     "where": "ISKCON Villa Vrindavan, Florence (Via Scopeti 108)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Villa+Vrindavan%2C+Via+Scopeti+108%2C+San+Casciano+in+Val+di+Pesa",
+     "detail": "Villa Vrindavan (ISKCON Florence): 16th-century Tuscan villa among vineyards. Darshan, kirtan, goshala, gardens.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "13:00–14:00",
+     "what": "Lunch",
+     "where": "ISKCON Villa Vrindavan, Florence (Via Scopeti 108)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Villa+Vrindavan%2C+Via+Scopeti+108%2C+San+Casciano+in+Val+di+Pesa",
+     "detail": "Villa Vrindavan – prasadam (pre-arranged; donation).",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "14:00–15:15",
+     "what": "Coach · 85 km",
+     "where": "ISKCON Villa Vrindavan, Florence (Via Scopeti 108) → Square of Miracles – Leaning Tower of Pisa",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Villa+Vrindavan%2C+Via+Scopeti+108%2C+San+Casciano+in+Val+di+Pesa&destination=Piazza+dei+Miracoli%2C+Pisa&travelmode=driving",
+     "detail": "Coach ISKCON Villa Vrindavan, Florence (Via Scopeti 108) → Square of Miracles – Leaning Tower of Pisa. Bhajans, japa and sthala-purana narration on board.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "15:15–16:30",
+     "what": "Sightseeing",
+     "where": "Square of Miracles – Leaning Tower of Pisa",
+     "link": "https://www.google.com/maps/search/?api=1&query=Piazza+dei+Miracoli%2C+Pisa",
+     "detail": "Square of Miracles (UNESCO): Leaning Tower (climb optional, 294 steps, not for seniors), Cathedral, Baptistery. 'Holding the tower' photos.",
+     "note": "Coach park ~10 min walk. Holiday crowds.",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "16:30–20:30",
+     "what": "Coach · 300 km",
+     "where": "Square of Miracles – Leaning Tower of Pisa → Hotel near Malpensa airport (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Piazza+dei+Miracoli%2C+Pisa&destination=Hotels+near+Milano+Malpensa+Airport&travelmode=driving",
+     "detail": "Coach via A11/A1/A7 to the Malpensa area (3 h 30 m + 30 min break). Farewell sharing and kirtan on board.",
+     "note": "Arezzo (on the poster) is dropped: no time.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "20:30–21:00",
+     "what": "Hotel check-in",
+     "where": "Hotel near Malpensa airport (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
+     "detail": "Check-in near Malpensa (10–15 min from T1).",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "21:00–22:00",
+     "what": "Dinner",
+     "where": "Hotel near Malpensa airport (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
+     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel) – farewell dinner.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "22:00–22:30",
+     "what": "Packing",
+     "where": "Hotel near Malpensa airport (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
+     "detail": "Final packing: 30 kg check-in + 7 kg cabin; weigh bags in the lobby. Tomorrow is Varuthini Ekadasi: early breakfast 06:30, coach 07:50.",
+     "note": "",
+     "meal": false,
+     "move": false
+    }
+   ],
+   "meals": {
+    "Breakfast": "08:00 · Hotel, Florence (TBC) · Hotel – complimentary buffet (08:00–09:00)",
+    "Lunch": "13:00 · ISKCON Villa Vrindavan, Florence (Via Scopeti 108) · Villa Vrindavan – prasadam (pre-arranged; donation)",
+    "Dinner": "21:00 · Hotel near Malpensa airport (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel) – farewell dinner"
+   }
+  },
+  {
+   "day": 16,
+   "date": "2027-05-02",
+   "dow": "Sun",
+   "title": "Varuthini Ekadasi · Milan Malpensa → Abu Dhabi → Hyderabad / Bangalore",
+   "overnight": "On flight (land 3 May)",
+   "tz": "CEST",
+   "summary": "Etihad from Milan Malpensa via Abu Dhabi; land in Hyderabad (02:45) and Bangalore (03:15) on Monday 3 May. Varuthini Ekadasi: fruit meals on board.",
+   "short": "Fly home via Abu Dhabi",
+   "coach_km": 10,
+   "walk_km": 0,
+   "rows": [
+    {
+     "time": "06:30–07:15",
+     "what": "Breakfast",
+     "where": "Hotel near Malpensa airport (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
+     "detail": "Hotel – Ekadasi breakfast (fruit, nuts, milk, potatoes; request in advance). EXCEPTION to the 09:00 start: the 11:40 flight needs the coach at 07:50.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "07:15–07:50",
+     "what": "Check-out",
+     "where": "Hotel near Malpensa airport (TBC)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
+     "detail": "Check-out, luggage count.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "07:50–08:10",
+     "what": "Coach · 10 km",
+     "where": "Hotel near Malpensa airport (TBC) → Milan Malpensa Airport (MXP), T1",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Hotels+near+Milano+Malpensa+Airport&destination=Milano+Malpensa+Terminal+1&travelmode=driving",
+     "detail": "Coach to Malpensa Terminal 1.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "08:10–11:00",
+     "what": "Airport formalities",
+     "where": "Milan Malpensa Airport (MXP), T1",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Malpensa+Terminal+1",
+     "detail": "Group check-in on Etihad, VAT refund at customs (before check-in for goods in checked bags), EES exit, security. Farewell and feedback forms. Driver tips handed over.",
+     "note": "",
+     "meal": false,
+     "move": false
+    },
+    {
+     "time": "11:40–19:40",
+     "what": "Flight · 4900 km",
+     "where": "Milan Malpensa Airport (MXP), T1 → Abu Dhabi International Airport (AUH)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Abu+Dhabi+International+Airport",
+     "detail": "BOTH GROUPS: Etihad EY 82 Malpensa T1 11:40 → Abu Dhabi T-A 19:40 (6 h). Ekadasi fruit meals (FPML) pre-ordered.",
+     "note": "",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "21:25–02:45",
+     "what": "Flight · 2600 km",
+     "where": "Abu Dhabi International Airport (AUH) → Rajiv Gandhi International Airport (HYD)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Rajiv+Gandhi+International+Airport+Hyderabad",
+     "detail": "HYDERABAD GROUP: Etihad EY 352 Abu Dhabi 21:25 → Hyderabad 02:45 on Mon 3 May (1 h 45 m layover). Break fast on 3 May between 05:49 and 10:05 IST.",
+     "note": "Arrange airport pickups for seniors at 03:30.",
+     "meal": false,
+     "move": true
+    },
+    {
+     "time": "21:35–03:15",
+     "what": "Flight · 2700 km",
+     "where": "Abu Dhabi International Airport (AUH) → Kempegowda International Airport (BLR), T2",
+     "link": "https://www.google.com/maps/search/?api=1&query=Kempegowda+International+Airport+Terminal+2+Bengaluru",
+     "detail": "BANGALORE GROUP: Etihad EY 232 Abu Dhabi 21:35 → Bangalore T2 03:15 on Mon 3 May (1 h 55 m layover). Break fast on 3 May between 05:58 and 10:11 IST.",
+     "note": "Hare Krishna! Yatra complete.",
+     "meal": false,
+     "move": true
+    }
+   ],
+   "meals": {
+    "Breakfast": "06:30 · Hotel near Malpensa airport (TBC) · Hotel – Ekadasi breakfast (fruit, nuts, milk, potatoes; request in advance)",
+    "Lunch": "On the flight",
+    "Dinner": "On the flight"
+   }
+  }
+ ],
+ "temples": [
+  "Bhaktivedanta Manor, Watford",
+  "ISKCON Soho, London",
+  "ISKCON Paris",
+  "Radhadesh, Belgium",
+  "ISKCON Cologne",
+  "Goloka Dham, Germany",
+  "ISKCON Zurich",
+  "Villaggio Hare Krishna, Italy",
+  "Prabhupada Desh, Italy",
+  "Villa Vrindavan, Florence"
+ ],
+ "hotels": [
+  [
+   "London (Wembley)",
+   3
+  ],
+  [
+   "Paris",
+   2
+  ],
+  [
+   "Brussels",
+   1
+  ],
+  [
+   "Amsterdam",
+   1
+  ],
+  [
+   "Cologne",
+   1
+  ],
+  [
+   "Titisee",
+   1
+  ],
+  [
+   "Zurich",
+   1
+  ],
+  [
+   "Interlaken",
+   1
+  ],
+  [
+   "Milan",
+   1
+  ],
+  [
+   "Venice-Mestre",
+   1
+  ],
+  [
+   "Florence",
+   1
+  ],
+  [
+   "Near Malpensa",
+   1
+  ]
+ ],
+ "inclusions": [
+  "All transfers by private coach",
+  "All meals",
+  "All airfare (ex-Hyderabad / Chennai / Bangalore or any South Indian city)",
+  "All visa charges",
+  "Services of a tour manager",
+  "All sightseeing as in the itinerary",
+  "All hotels"
+ ],
+ "exclusions": [
+  "Personal expenses",
+  "Driver tips at EUR 3 per person per day",
+  "Optional extras not in the itinerary: Lion King show, Leaning Tower climb, Doge's Palace, other optional entries"
+ ],
+ "visa": [
+  [
+   "Timing",
+   "UK visa: apply from about 17 Jan 2027 (max 3 months before); decision usually 3 weeks after biometrics. Schengen: apply to Italy (longest stay) between Jan and early Mar 2027 (max 6 months, min 15 days before); normally 15 days, up to 45. Do UK first, then Schengen."
+  ],
+  [
+   "Passport",
+   "Current passport + previous passports if any. Print the first and last pages, plus pages with travel history (black & white is fine). Valid 3+ months beyond 3 May 2027 and 2 blank pages."
+  ],
+  [
+   "Photos",
+   "Schengen visa photos, 35 mm × 45 mm, white background, matte or glossy, no spectacles, 2 copies. Do not bring ordinary passport-size photos."
+  ],
+  [
+   "Income Tax Return (ITR-V)",
+   "Personal or company ITR-V acknowledgement for the last 3 financial years (FY 2023-24, 2024-25, 2025-26). Balance sheet not needed."
+  ],
+  [
+   "Bank statement",
+   "Personal or company account, last 3 months, sealed and signed by the bank. Minimum balance about ₹3 lakh per person."
+  ],
+  [
+   "Salary slips",
+   "Last 3 months (employees)."
+  ],
+  [
+   "Covering letter",
+   "On company letterhead, or plain paper if there is none, signed by the sponsor (self, spouse or company). Add an explanation letter with proof for any sudden large deposit."
+  ],
+  [
+   "Leave letter",
+   "From the employer, if working."
+  ],
+  [
+   "Certificate of incorporation",
+   "If travelling on company funds or showing company ITR-V and bank statements: company registration or GST registration certificate."
+  ],
+  [
+   "Provided by organisers at the biometric office",
+   "Covering letter from Goldenavatar Ventures Pvt Ltd for the group, its ITR-V (3 years), 3-month sealed bank statement and incorporation letter, travel insurance (must cover the UK too), hotel confirmations, flight tickets, the filled visa application form."
+  ],
+  [
+   "UK visa specifics",
+   "£135 Standard Visitor visa, issued as an eVisa linked to the passport (each yatri creates a UKVI account). No UK ETA needed with a visa. Keep a scan of every Schengen document; most are reused."
+  ]
+ ],
+ "dos": [
+  "Carry your passport, visa and insurance card on travel days; keep a photocopy separately.",
+  "Be at the coach 5 minutes before the departure time announced.",
+  "Wear comfortable walking shoes already broken in; 10,000–15,000 steps on city days.",
+  "Dress modestly for churches and the Vatican: shoulders and knees covered, no caps inside.",
+  "Keep a small day-bag: water, cap, sunscreen, umbrella, light jacket, medicines, chargers.",
+  "Pre-inform the tour manager of medical conditions and dietary needs.",
+  "Use the buddy system; keep your phone on and charged (power bank).",
+  "Respect temple etiquette abroad: shoes off, no photos of deities where asked, offer a donation if you wish.",
+  "Keep coins of EUR and CHF for toilets (often €0.50–€1).",
+  "Ask for VAT refund forms on purchases over the minimum (varies by country).",
+  "Drink plenty of water, especially in Italy.",
+  "Keep the coach clean; take your waste with you."
+ ],
+ "donts": [
+  "Don't carry valuables or large amounts of cash in back pockets or open bags.",
+  "Don't sign petitions or accept 'free' bracelets or roses from strangers (common scams).",
+  "Don't wander off alone; never leave the group without telling the tour manager.",
+  "Don't bring banned food items from India (meat, dairy, fresh fruit and vegetables into the UK/EU). Packaged food is mostly fine; declare it if in doubt.",
+  "Don't climb the Leaning Tower or do the Titlis Cliff Walk if you have heart, BP or knee problems.",
+  "Don't take photos in the Sistine Chapel or where signs prohibit it.",
+  "Don't eat in the coach unless permitted by the driver; no hot food.",
+  "Don't block the bus aisle or leave bags in the stairwell.",
+  "Don't buy from street sellers near monuments (counterfeit goods; fines in Italy and France for buyers).",
+  "Don't overstay your visa or lose your stamps; keep boarding passes until home."
+ ],
+ "practical": [
+  [
+   "Weather in late April",
+   "15–21 °C by day, 6–11 °C at night, rain on 3–5 days in 11. Titisee mornings near freezing. Titlis summit −2 to −7 °C with snow. Sunset 20:00–21:00."
+  ],
+  [
+   "Currency",
+   "UK: GBP (£). France, Belgium, Netherlands, Germany, Italy, Vatican: EUR (€). Switzerland: CHF (EUR widely accepted at a poor rate). A multi-currency forex card plus a little cash in each."
+  ],
+  [
+   "Power plugs",
+   "UK: Type G (3-pin). Europe: Type C/F (2 round pins). Switzerland: Type J (Type C fits). Carry a universal adapter and a power bank."
+  ],
+  [
+   "Mobile & data",
+   "An international roaming pack or a Europe + UK eSIM. Switzerland is often excluded from EU packs, so check. Make WhatsApp the group channel."
+  ],
+  [
+   "Time zones",
+   "UK = IST − 4 h 30 m (BST). France to Italy = IST − 3 h 30 m (CEST). Abu Dhabi = IST − 1 h 30 m."
+  ],
+  [
+   "Tipping",
+   "Driver EUR 3 per person per day (collected by the tour manager). Local guides 2–5 EUR per person per tour (optional). Restaurants: service usually included."
+  ],
+  [
+   "Emergency numbers",
+   "UK 999 / 112; EU and Switzerland 112. Indian High Commission London +44 20 7836 8484 (verify); Indian embassies in Paris, Brussels, The Hague, Berlin, Bern and Rome (save their numbers before departure)."
+  ],
+  [
+   "Senior-citizen care",
+   "Seats near the front, wheelchair booking at the Louvre, Vatican and airports, extra rest stops, a medicine pouch with prescriptions, an attendant ratio of 1:10, lifts used wherever available."
+  ],
+  [
+   "Packing",
+   "Warm jacket + fleece + thermal layer, gloves, woollen cap (Titlis), Ekadasi snacks for 17 Apr and 2 May, 4–5 sets of clothes + 1 dhoti/saree set for temples, raincoat or umbrella, cap, sunglasses, walking shoes + slippers, tulasi beads, japa bag, small Gita, medicines for 20 days, ORS, sunscreen, an empty bottle, a small towel, a lock for suitcases, a laundry bag."
+  ],
+  [
+   "Water & toilets",
+   "Tap water is drinkable in the UK, France, Switzerland and most of Italy. Public toilets often charge €0.50–€1; use temple, restaurant and museum toilets."
+  ],
+  [
+   "Shopping & VAT refund",
+   "Paris: perfumes and fashion; Switzerland: chocolates, watches, cuckoo clocks (Titisee); Italy: leather (Florence), Murano glass (Venice). Ask for a tax-free form and get it stamped at Malpensa customs before check-in."
+  ]
+ ],
+ "challenges": [
+  [
+   "Vatican day has no backup",
+   "Vatican Museums are closed on 1 May and on Sundays, so Fri 30 April is the only day. It depends on two high-speed trains.",
+   "Book the 11:00 group slot early. Watch the Italian strike register from mid-April (strikes are announced 10–12 days ahead). Backup: coach Mestre → Rome (6 h) with an overnight in Rome."
+  ],
+  [
+   "First EU biometric check (EES) at Dover",
+   "Every yatri gives fingerprints and a photo at first Schengen entry (live since 10 Apr 2026). Coach queues of 1–2 h have been reported.",
+   "Arrive at Dover 2 h before sailing; book a later sailing as fallback; passports and visa copies in hand."
+  ],
+  [
+   "Two Ekadasis on travel days",
+   "Kamada Ekadasi on 17 Apr (outbound flights) and Varuthini Ekadasi on 2 May (flights home).",
+   "Pre-order fruit meals (FPML); carry Ekadasi snacks; grain-free hotel dinner on 17 Apr; break fast in London 05:59–10:40 on 18 Apr and in India before ~10:00 on 3 May."
+  ],
+  [
+   "Cold and wet spring weather",
+   "London 7–15 °C with showers; Black Forest near 0 °C at night; Titlis summit about −5 °C in snow; Italy 10–21 °C.",
+   "Warm jacket, thermal layer, gloves and cap for Titlis; umbrellas; non-slip shoes."
+  ],
+  [
+   "Holidays and events",
+   "1 May Labour Day in Italy (Florence/Pisa crowds); French presidential election 18 Apr and 2 May; Keukenhof and Zaanse Schans busy on Saturday.",
+   "Pre-book all timed entries; go early; avoid political rallies in Paris."
+  ],
+  [
+   "Central London coach rules",
+   "Coaches cannot enter Soho or Covent Garden, cannot wait at Buckingham Gate, The Mall or outside attractions; ULEZ (Euro VI coach) and the Congestion Charge apply.",
+   "Coach operator to pre-book coach bays (TfL coach parking map), use set-down/pick-up points in the timetable, and keep the group to time at every pick-up (the coach cannot wait)."
+  ],
+  [
+   "Pickpockets",
+   "London (Changing of the Guard crowd, Covent Garden), Paris (Eiffel, Louvre, Métro), Rome (Trevi, Colosseum, Termini station), Venice crowds.",
+   "Neck pouches, zipped bags worn in front, passports in the hotel safe except on ticket days, buddy system."
+  ],
+  [
+   "Satvik food availability",
+   "Most restaurants use onion and garlic; few Indian restaurants in small towns.",
+   "Written no-onion/no-garlic menus; temple prasadam on 5 meals; packed lunches on 2 days; carry ready meals and dry snacks."
+  ],
+  [
+   "Senior citizens' stamina",
+   "Long walks (Louvre, Vatican, Venice), steps (Pisa, Venice bridges), altitude (Titlis), the 05:00–22:30 Rome day.",
+   "Wheelchairs at museums, a rest option in Florence on Day 14, slow group with an assistant, pre-departure medical check."
+  ],
+  [
+   "Visas and biometrics",
+   "UK visa can be applied for only 3 months before travel; Schengen up to 6 months before. Passports are held during processing.",
+   "UK first (mid-to-late Jan 2027), then Schengen via Italy (by late Feb / early Mar 2027)."
+  ],
+  [
+   "Lost passport or luggage",
+   "12 hotels in 15 nights.",
+   "Group luggage tags, a daily luggage count, scans of passports and visas, Indian embassy contacts."
+  ]
+ ],
+ "tickets": [
+  [
+   2,
+   "Akshaya Patra kitchen, Watford",
+   true
+  ],
+  [
+   2,
+   "Bhaktivedanta Manor Sunday programme",
+   true
+  ],
+  [
+   2,
+   "The Lion King, Lyceum – Plan B only (Sun 14:30 matinee)",
+   false
+  ],
+  [
+   2,
+   "Royal Opera House – Tosca (not on our dates)",
+   false
+  ],
+  [
+   2,
+   "Madame Tussauds London",
+   true
+  ],
+  [
+   3,
+   "Changing of the Guard, Buckingham Palace",
+   true
+  ],
+  [
+   3,
+   "The King's Gallery, Buckingham Palace",
+   true
+  ],
+  [
+   3,
+   "Tower Bridge glass walkway (optional)",
+   false
+  ],
+  [
+   3,
+   "London Eye",
+   true
+  ],
+  [
+   3,
+   "Thames boat Tower → London Eye (Uber Boat)",
+   true
+  ],
+  [
+   3,
+   "Tower of London (Crown Jewels)",
+   true
+  ],
+  [
+   5,
+   "Seine cruise – Bateaux Parisiens",
+   true
+  ],
+  [
+   5,
+   "Eiffel Tower – lift to 2nd floor",
+   true
+  ],
+  [
+   6,
+   "Louvre (non-EU rate)",
+   true
+  ],
+  [
+   6,
+   "Atomium inside (optional)",
+   false
+  ],
+  [
+   7,
+   "Amsterdam canal cruise 75 min (Blue Boat)",
+   true
+  ],
+  [
+   8,
+   "De Kat windmill, Zaanse Schans (optional)",
+   false
+  ],
+  [
+   8,
+   "Keukenhof (group rate, 20+)",
+   true
+  ],
+  [
+   8,
+   "Cologne Cathedral inside (optional)",
+   false
+  ],
+  [
+   10,
+   "Lake Titisee boat (optional)",
+   false
+  ],
+  [
+   10,
+   "Rhine Falls – Schloss Laufen platforms",
+   true
+  ],
+  [
+   10,
+   "Rhine Falls boat to the rock (optional)",
+   false
+  ],
+  [
+   11,
+   "Mount Titlis return (group rate)",
+   true
+  ],
+  [
+   11,
+   "Titlis Ice Flyer (optional, if running in spring)",
+   false
+  ],
+  [
+   11,
+   "Lake Lucerne 1-hour cruise",
+   true
+  ],
+  [
+   11,
+   "Luzern–Interlaken Express 2nd class (group)",
+   true
+  ],
+  [
+   12,
+   "Lake Como boat Como ↔ Cernobbio",
+   true
+  ],
+  [
+   13,
+   "Milan Duomo cathedral + museum (optional)",
+   false
+  ],
+  [
+   13,
+   "Venice vaporetto 1-day pass",
+   true
+  ],
+  [
+   13,
+   "Venice gondola 30 min (per person, 5/boat)",
+   true
+  ],
+  [
+   13,
+   "Doge's Palace (optional)",
+   false
+  ],
+  [
+   14,
+   "Vatican Museums & Sistine Chapel",
+   true
+  ],
+  [
+   14,
+   "Colosseum + Forum + Palatine",
+   true
+  ],
+  [
+   14,
+   "Trevi Fountain basin access",
+   true
+  ],
+  [
+   14,
+   "Pantheon",
+   true
+  ],
+  [
+   15,
+   "Leaning Tower of Pisa climb (optional)",
+   false
+  ],
+  [
+   15,
+   "Florence Duomo Brunelleschi Pass (optional)",
+   false
+  ]
+ ],
+ "booking": [
+  [
+   2,
+   "Akshaya Patra kitchen, Watford",
+   "https://akshayapatra.org.uk/contact/",
+   "Free; visits by appointment only (tel. 020 800 48743).",
+   "Write now; confirm 2 weeks before"
+  ],
+  [
+   2,
+   "Bhaktivedanta Manor Sunday programme",
+   "https://www.krishnatemple.com/",
+   "Free; tell the Manor the numbers and arrival time (tel. 01923 851000); prasadam by donation.",
+   "1 month before"
+  ],
+  [
+   2,
+   "Madame Tussauds London",
+   "https://www.madametussauds.com/london/tickets/",
+   "Group rate; ask for a combined London Eye + Madame Tussauds group price; timed entry 15:00.",
+   "60–90 days before"
+  ],
+  [
+   3,
+   "Changing of the Guard",
+   "https://www.householddivision.org.uk/changing-the-guard-calendar",
+   "Free, no booking. Mon/Wed/Fri 11:00; can be cancelled in very wet weather.",
+   "Check the calendar the evening before"
+  ],
+  [
+   3,
+   "The King's Gallery, Buckingham Palace",
+   "https://www.rct.uk/visit/the-kings-gallery-buckingham-palace/information-for-groups-visiting-the-kings-gallery",
+   "Group rate from 15 (£19.80 in 2026); timed arrival; pay 30 days before; Blue Badge guide free.",
+   "When the 2027 season opens"
+  ],
+  [
+   3,
+   "Tower of London (Crown Jewels)",
+   "https://www.hrp.org.uk/tower-of-london/",
+   "Groups desk groupsandtraveltrade@hrp.org.uk; group rate from 15; coach driver and Blue Badge guide free.",
+   "60–90 days before"
+  ],
+  [
+   3,
+   "Thames boat Tower → London Eye",
+   "https://www.thamesclippers.com/plan-your-journey/ticket-information",
+   "Uber Boat: 10% off for groups of 10+; senior discounts. City Cruises if you want live commentary.",
+   "2–4 weeks before"
+  ],
+  [
+   3,
+   "London Eye",
+   "https://www.londoneye.com/tickets-and-prices/groups/",
+   "Group rate from 10; timed slot 18:15.",
+   "60–90 days before"
+  ],
+  [
+   4,
+   "Dover–Calais ferry with the coach",
+   "https://www.poferries.com/en/group-travel",
+   "P&O groups line 01304 448899, or DFDS groups uk.groups@dfds.com (dfds.com coach travel). Use the operator's group passport-scan app before Dover.",
+   "As soon as April 2027 fares open"
+  ],
+  [
+   5,
+   "Eiffel Tower – 2nd floor",
+   "https://ticket.toureiffel.paris/en",
+   "From 29 Sep 2026 groups of more than 9 cannot buy at the ticket office: book online. Tour operators use ticketpro.toureiffel.paris; request the account at least 4 months ahead (tel. +33 892 700 016).",
+   "Account by Dec 2026; tickets when sales open (~60 days)"
+  ],
+  [
+   5,
+   "Seine cruise – Bateaux Parisiens",
+   "https://www.bateauxparisiens.com/en/cruise-tours/guided-tour.html",
+   "Groups of 20+ should book ahead; confirm final numbers 3 working days before (tel. +33 1 76 64 14 45).",
+   "1–2 months before"
+  ],
+  [
+   6,
+   "Louvre",
+   "https://ticket.louvre.fr/en/musee-du-louvre-official-ticketing-service-groups-and-professionals",
+   "Professional account required; groups of 7–20 pay a €90 slot fee and €28 per person; a licensed guide must lead each group, so 40 yatris = 2 groups with 2 guides; no cancellation. Group entrance on Rue de Rivoli.",
+   "Open the account now; book as soon as April 2027 opens"
+  ],
+  [
+   6,
+   "Atomium (optional)",
+   "https://www.atomium.be/tickets",
+   "Group rate 20+.",
+   "1 month before"
+  ],
+  [
+   7,
+   "Amsterdam canal cruise – Blue Boat",
+   "https://www.blueboat.nl/en/canal-cruise-amsterdam/",
+   "Groups: blueboat.nl/en/group-arrangements, info@blueboat.nl, +31 20 679 1370.",
+   "1–2 months before"
+  ],
+  [
+   8,
+   "Keukenhof",
+   "https://keukenhof.nl/en/groups/",
+   "Group tickets for 20+ in the online shop (€20.50 online, €26.50 at the gate); date/time changeable up to 24 h before; no cancellation; one barcode per up to 80 people. 2027 season 18 Mar–9 May.",
+   "As soon as 2027 group sales open"
+  ],
+  [
+   8,
+   "De Kat windmill, Zaanse Schans (optional)",
+   "https://www.zaanseschans.com/en/paint-mill-de-kat/",
+   "Pay at the mill.",
+   "On the day"
+  ],
+  [
+   9,
+   "Cologne Cathedral inside (optional)",
+   "https://www.koelner-dom.de/en",
+   "Entry charge since 1 Jul 2026; free during services.",
+   "On the day"
+  ],
+  [
+   10,
+   "Lake Titisee boat (optional)",
+   "https://drubba-titisee.com/bootsfahrt",
+   "Pay on board; check that the spring season has started.",
+   "On the day"
+  ],
+  [
+   10,
+   "Rhine Falls – Schloss Laufen",
+   "https://schlosslaufen.ch/en",
+   "Group 30+ CHF 2 (15–29: CHF 3); group tickets only at the visitor centre; info@schlosslaufen.ch, +41 52 659 67 67.",
+   "On the day"
+  ],
+  [
+   10,
+   "Rhine Falls boat to the rock (optional)",
+   "https://www.rhyfall-maendli.ch/linienfahrten-und-erlebnisse/felsenfahrt/",
+   "Not suitable for seniors.",
+   "On the day"
+  ],
+  [
+   11,
+   "Mount Titlis",
+   "https://www.titlis.ch/en/information/prices",
+   "Groups of 10+ book in advance at reservation@titlis.ch (online group form); 10% off return tickets (not the Ice Flyer). Book the Trübsee group lunch on the same form.",
+   "2–3 months before"
+  ],
+  [
+   11,
+   "Lake Lucerne cruise",
+   "https://webshop.lakelucerne.ch/en/stories/group-bookings",
+   "Groups of 10+: 30% off scheduled boats; book with the group form or groups@lakelucerne.ch (+41 41 367 67 67); tickets collected on the day.",
+   "1 month before"
+  ],
+  [
+   11,
+   "Luzern–Interlaken Express",
+   "https://www.zentralbahn.ch/",
+   "Group fare through SBB/zb group desk; seat reservation compulsory (CHF 16).",
+   "2–3 months before"
+  ],
+  [
+   12,
+   "Lake Como boat",
+   "https://www.navigazionelaghi.it/en/",
+   "Buy at Como pier; group and senior rate €4.80.",
+   "On the day"
+  ],
+  [
+   13,
+   "Milan Duomo (optional)",
+   "https://ticket.duomomilano.it/en/",
+   "Groups with their own guide book through the call centre +39 02 89919751 (Mon–Sat 10–17); headsets compulsory for groups of 6+.",
+   "1 month before"
+  ],
+  [
+   13,
+   "Doge's Palace (optional)",
+   "https://palazzoducale.visitmuve.it/en/visitor-information/",
+   "Group bookings via call centre +39 041 42730892 or prenotazionivenezia@coopculture.it; whisper sets €1 for groups of 10+; licensed guides free.",
+   "30 days before (cheaper online price)"
+  ],
+  [
+   13,
+   "Venice vaporetto",
+   "https://actv.avmspa.it/en",
+   "Buy day passes at Tronchetto or online (Venezia Unica).",
+   "On the day or online"
+  ],
+  [
+   13,
+   "Venice gondola",
+   "https://www.gondolavenezia.it/",
+   "Official tariff per gondola (up to 5–6 people); about €90 for 30 min by day. Book through the hotel or a local agent; agree time and price first.",
+   "1–2 weeks before"
+  ],
+  [
+   13,
+   "Venice access fee (day-tripper fee)",
+   "https://cda.ve.it/en/",
+   "The 2027 calendar has 72 fee days from 26 March. Guests staying overnight in the Venice municipality (our Mestre hotel) are exempt but must register for the exemption QR code.",
+   "Register 1 week before"
+  ],
+  [
+   14,
+   "High-speed trains Venice → Rome → Florence",
+   "https://www.trenitalia.com/en.html",
+   "Trenitalia Frecciarossa (or Italo, italotreno.com): book through the group desk for 10+; named tickets.",
+   "As soon as sales open (~4 months ahead)"
+  ],
+  [
+   14,
+   "Vatican Museums & Sistine Chapel",
+   "https://tickets.museivaticani.va/",
+   "Only official site (beware look-alike sites); named tickets; book the 11:00 slot as 2 groups with 2 guides. Ask about the reduced pilgrimage-group ticket (max 20, letter from the religious institution).",
+   "As soon as the date opens (~60 days)"
+  ],
+  [
+   14,
+   "Colosseum + Forum + Palatine",
+   "https://ticketing.colosseo.it/en/",
+   "Sales open 30 days before; max 25 per group including the guide, so 2 groups; named single tickets (names changeable once, up to 1 week before); helpdesk@ticketcolosseo.com.",
+   "Exactly 30 days before (31 Mar 2027)"
+  ],
+  [
+   14,
+   "Trevi Fountain basin",
+   "https://www.comune.roma.it/web/it/notizia/biglietto-dingresso-fontana-di-trevi.page",
+   "€2, pay on site.",
+   "On the day"
+  ],
+  [
+   14,
+   "Pantheon",
+   "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
+   "€7; online booking advised at busy times.",
+   "1 week before"
+  ],
+  [
+   15,
+   "Florence Duomo – Brunelleschi Pass (optional)",
+   "https://tickets.duomo.firenze.it/en/",
+   "Online orders are capped at 10 tickets: email the Opera for a group; named tickets; dome time slot cannot be changed. Cathedral itself free.",
+   "1 month before"
+  ],
+  [
+   15,
+   "Leaning Tower of Pisa (optional climb)",
+   "https://www.opapisa.it/en/tickets/",
+   "Each ticket covers up to 30 people, so 2 orders; sales open 15 days before; agencies use the operators' area. Young children cannot climb.",
+   "15 days before (16 Apr 2027)"
+  ]
+ ]
+}
