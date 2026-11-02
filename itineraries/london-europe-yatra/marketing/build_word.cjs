@@ -5,13 +5,16 @@ const path = require('path');
 const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, ShadingType,
   HeadingLevel, AlignmentType, BorderStyle, ExternalHyperlink, Header, Footer, PageNumber,
-  LevelFormat, PageBreak, VerticalAlign,
+  LevelFormat, PageBreak, VerticalAlign, ImageRun,
 } = require('docx');
 
 const D = JSON.parse(fs.readFileSync(path.join(__dirname, 'word_data.json'), 'utf8'));
-const OUT = path.join(__dirname, 'out', 'London_Europe_Yatra_2027_Detailed_Itinerary.docx');
+const B = D.brand;
+const BHAKTI = B.key === 'bhakti';
+const OUT = path.join(__dirname, B.out, `${B.prefix}_Detailed_Itinerary.docx`);
 
-const MAROON = '6B1414', GOLD = 'B8860B', SAFFRON = 'E8891D', MUTED = '6E5A4B';
+const MAROON = BHAKTI ? '3A1650' : '6B1414', GOLD = 'B8860B', SAFFRON = 'E8891D', MUTED = '6E5A4B';
+const MAROON2 = BHAKTI ? '5A2378' : '8E1F1A';
 const W = 9866; // A4 width minus 2 × 1020 margins
 const FONT = 'Calibri';
 const border = { style: BorderStyle.SINGLE, size: 4, color: 'D9C7A6' };
@@ -53,9 +56,20 @@ const monthName = (d) => (d.slice(5, 7) === '04' ? 'April' : 'May');
 const dayDate = (d) => `${d.dow} ${parseInt(d.date.slice(8), 10)} ${monthName(d.date)} 2027`;
 const children = [];
 
+// Bhakti Yatra cover: ISKCON Vijay Nagar–Indore and Bhakti Yatra logos on a purple band (the ISKCON logo is white)
+function logoBand() {
+  const img = (f, w, h) => new Paragraph({ alignment: AlignmentType.CENTER, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(__dirname, f)), transformation: { width: w, height: h } })] });
+  const c = (child, w) => new TableCell({ children: [child], width: { size: w, type: WidthType.DXA }, verticalAlign: VerticalAlign.CENTER,
+    shading: { fill: MAROON, type: ShadingType.CLEAR, color: 'auto' }, margins: { top: 220, bottom: 220, left: 200, right: 200 },
+    borders: { top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE }, left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE } } });
+  return new Table({ width: { size: W, type: WidthType.DXA }, columnWidths: [W / 2, W / 2],
+    rows: [new TableRow({ children: [c(img(B.logos[0], 196, 67), W / 2), c(img(B.logos[1], 220, 50), W / 2)] })] });
+}
+
 // ---------------------------------------------------------------- cover
 children.push(
-  new Paragraph({ spacing: { before: 1800, after: 120 }, alignment: AlignmentType.CENTER, children: [t('HARE KRISHNA GOLDEN TEMPLE · HYDERABAD', { color: GOLD, bold: true, size: 22, characterSpacing: 40 })] }),
+  ...(BHAKTI ? [new Paragraph({ spacing: { before: 600 } }), logoBand(), new Paragraph({ spacing: { before: 900 } })] : []),
+  new Paragraph({ spacing: { before: BHAKTI ? 0 : 1800, after: 120 }, alignment: AlignmentType.CENTER, children: [t(BHAKTI ? 'HARE KRISHNA MOVEMENT INDORE PRESENTS' : 'HARE KRISHNA GOLDEN TEMPLE · HYDERABAD', { color: GOLD, bold: true, size: 22, characterSpacing: 40 })] }),
   new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 }, children: [t('London Europe Yatra 2027', { font: 'Georgia', bold: true, size: 64, color: MAROON })] }),
   new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 400 }, children: [t('Detailed itinerary and yatri information', { font: 'Georgia', italics: true, size: 30, color: MUTED })] }),
   new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 100 }, children: [t('17 April – 2 May 2027 · 15 nights / 16 days', { bold: true, size: 30, color: SAFFRON })] }),
@@ -120,7 +134,7 @@ children.push(h1('4. Day-by-day summary'),
   h2('A typical day'),
   bullet('07:30–08:00 morning programme in the hotel: japa, short kirtan and Bhagavatam reading (optional)'),
   bullet('08:00–09:00 breakfast at the hotel'),
-  bullet('09:00 coach leaves the hotel; sightseeing and temple darshan with narration in Telugu, Hindi and English'),
+  bullet(`09:00 coach leaves the hotel; sightseeing and temple darshan with narration in ${BHAKTI ? 'Hindi and English' : 'Telugu, Hindi and English'}`),
   bullet('Lunch at an Indian restaurant or a temple near the sightseeing'),
   bullet('Evening arati at a temple where possible; dinner at the hotel; next-day briefing'),
   p('Exceptions: Day 14 (Rome) starts at 05:00 for the 06:30 train, and Day 16 starts at 06:30 for the 11:40 flight.'),
@@ -185,13 +199,13 @@ children.push(brk(), h1('10. Entry tickets and booking'),
 
 // ---------------------------------------------------------------- contact
 children.push(h1('11. Contact and booking'),
-  p([t('To reserve a seat, call or WhatsApp ', {}), t('+91 95053 88886', { bold: true }), t('.')]),
+  p([t('To reserve a seat, call or WhatsApp ', {}), t(B.phone, { bold: true }), t('.')]),
   p(`${D.yatra.organiser}`), p(D.yatra.contact),
   p([t('Seats are limited to one coach. The itinerary may change slightly for operational reasons (weather, strikes, opening hours). Payment schedule and cancellation terms are on the booking form.', { italics: true, size: 18, color: MUTED })]),
 );
 
 const doc = new Document({
-  creator: 'Hare Krishna Golden Temple, Hyderabad',
+  creator: B.footer_org,
   title: 'London Europe Yatra 2027 – Detailed itinerary',
   styles: {
     default: { document: { run: { font: FONT, size: 20 } } },
@@ -199,7 +213,7 @@ const doc = new Document({
       { id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Normal', quickFormat: true,
         run: { font: 'Georgia', size: 34, bold: true, color: MAROON }, paragraph: { spacing: { before: 280, after: 140 }, outlineLevel: 0 } },
       { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Normal', quickFormat: true,
-        run: { font: 'Georgia', size: 26, bold: true, color: '8E1F1A' }, paragraph: { spacing: { before: 220, after: 100 }, outlineLevel: 1 } },
+        run: { font: 'Georgia', size: 26, bold: true, color: MAROON2 }, paragraph: { spacing: { before: 220, after: 100 }, outlineLevel: 1 } },
       { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Normal', quickFormat: true,
         run: { font: FONT, size: 22, bold: true, color: MAROON }, paragraph: { spacing: { before: 160, after: 80 }, outlineLevel: 2 } },
     ],
@@ -208,7 +222,7 @@ const doc = new Document({
   sections: [{
     properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1000, bottom: 1000, left: 1020, right: 1020 } }, titlePage: true },
     headers: { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [t('London Europe Yatra 2027 · 17 April – 2 May 2027', { size: 16, color: MUTED })] })] }) },
-    footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [t('Hare Krishna Golden Temple, Hyderabad · +91 95053 88886 · page ', { size: 16, color: MUTED }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: MUTED, font: FONT })] })] }) },
+    footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [t(`${B.footer_org} · ${B.phone} · page `, { size: 16, color: MUTED }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: MUTED, font: FONT })] })] }) },
     children,
   }],
 });

@@ -11,7 +11,9 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PHOTOS = os.path.join(HERE, "photos")
-OUT = os.path.join(HERE, "html", "photo_poster.html")
+import brand  # noqa: E402
+
+OUT = os.path.join(HERE, "html", brand.current()["html_prefix"] + "photo_poster.html")
 
 CREDITS = json.load(open(os.path.join(PHOTOS, "credits.json"), encoding="utf-8"))
 
@@ -155,6 +157,7 @@ def main():
     html = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>London Europe Yatra 2027 – Poster</title>'
             '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">'
             f'<style>{CSS}</style></head><body>{front()}{back()}</body></html>')
+    html = brand.apply(html)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
     print("wrote", OUT)

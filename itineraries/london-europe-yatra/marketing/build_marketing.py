@@ -14,6 +14,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import itinerary_data as D  # noqa: E402
+import brand  # noqa: E402
 
 HTML_DIR = os.path.join(HERE, "html")
 
@@ -455,6 +456,7 @@ def brochure():
 
 def main():
     os.makedirs(HTML_DIR, exist_ok=True)
+    b = brand.current()
     files = {
         "poster_1_main.html": poster_main(),
         "poster_2_itinerary.html": poster_glance(),
@@ -463,8 +465,8 @@ def main():
         "brochure.html": brochure(),
     }
     for name, html in files.items():
-        with open(os.path.join(HTML_DIR, name), "w", encoding="utf-8") as f:
-            f.write(html)
+        with open(os.path.join(HTML_DIR, b["html_prefix"] + name), "w", encoding="utf-8") as f:
+            f.write(brand.apply(html))
     print("wrote", len(files), "HTML files to", HTML_DIR)
 
 

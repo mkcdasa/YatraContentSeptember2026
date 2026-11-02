@@ -14,6 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import itinerary_data as D  # noqa: E402
 from build_marketing import DAY_TEXT, TEMPLES, GST, SUBTOTAL, TCS, inr  # noqa: E402
+import brand  # noqa: E402
 
 
 def place(key):
@@ -73,9 +74,14 @@ def main():
         "tickets": [(d, p, planned) for d, p, planned, *_ in D.ENTRY_TICKETS],
         "booking": D.BOOKING,
     }
+    b = brand.current()
+    data["brand"] = {k: b[k] for k in ("key", "out", "prefix", "presenter", "org", "footer_org", "phone", "web", "logos")}
+    if b["key"] != "hkgt":
+        data["yatra"] = dict(data["yatra"], organiser=b["org"], contact=f'{b["phone"]} · {b["web"]}')
+    text = json.dumps(data, ensure_ascii=False, indent=1).replace(brand.HKGT["langs"], b["langs"])
     out = os.path.join(HERE, "word_data.json")
     with open(out, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
+        f.write(text)
     print("wrote", out)
 
 

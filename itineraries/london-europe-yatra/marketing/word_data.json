@@ -3311,5 +3311,16 @@
    "Each ticket covers up to 30 people, so 2 orders; sales open 15 days before; agencies use the operators' area. Young children cannot climb.",
    "15 days before (16 Apr 2027)"
   ]
- ]
+ ],
+ "brand": {
+  "key": "hkgt",
+  "out": "out",
+  "prefix": "London_Europe_Yatra_2027",
+  "presenter": "Hare Krishna Golden Temple · Hyderabad",
+  "org": "Hare Krishna Golden Temple, Banjara Hills, Hyderabad",
+  "footer_org": "Hare Krishna Golden Temple, Hyderabad",
+  "phone": "+91 95053 88886",
+  "web": "www.punyakshetras.com · www.hkmhyderabad.org",
+  "logos": null
+ }
 }
