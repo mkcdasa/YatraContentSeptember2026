@@ -1,0 +1,100 @@
+{
+ "keukenhof": {
+  "file": "keukenhof.jpg",
+  "title": "File:Keukenhof 2018 DSC 0059.jpg",
+  "label": "Keukenhof",
+  "artist": "Atamari",
+  "license": "CC BY-SA 4.0"
+ },
+ "titlis": {
+  "file": "titlis.jpg",
+  "title": "File:Titlis-1.jpg",
+  "label": "Titlis",
+  "artist": "Man Ho Lam (lemon_ho)",
+  "license": "CC BY 2.5"
+ },
+ "venice": {
+  "file": "venice.jpg",
+  "title": "File:Gondolas, Grand Canal, Venice.jpg",
+  "label": "Venice",
+  "artist": "Peter K Burian",
+  "license": "CC BY-SA 4.0"
+ },
+ "colosseum": {
+  "file": "colosseum.jpg",
+  "title": "File:Colosseum of Rome, Italy.jpg",
+  "label": "Colosseum",
+  "artist": "public-domain (CC0) contributor",
+  "license": "CC0"
+ },
+ "windmills": {
+  "file": "windmills.jpg",
+  "title": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg",
+  "label": "Zaanse Schans",
+  "artist": "DimiTalen",
+  "license": "CC0"
+ },
+ "amsterdam": {
+  "file": "amsterdam.jpg",
+  "title": "File:Colorful canal houses at golden hour in Damrak avenue Amsterdam the Netherlands.jpg",
+  "label": "Amsterdam",
+  "artist": "Basile Morin",
+  "license": "CC BY-SA 4.0"
+ },
+ "rhinefalls": {
+  "file": "rhinefalls.jpg",
+  "title": "File:Neuhausen am Rheinfall.jpg",
+  "label": "Rhine Falls",
+  "artist": "Jörg Braukmann",
+  "license": "CC BY-SA 4.0"
+ },
+ "lucerne": {
+  "file": "lucerne.jpg",
+  "title": "File:Luzern - Chapel Bridge - March 2019 (02).jpg",
+  "label": "Lucerne",
+  "artist": "Liridon",
+  "license": "CC BY-SA 4.0"
+ },
+ "pisa": {
+  "file": "pisa.jpg",
+  "title": "File:The Duomo and Tower of Pisa at sunrise.jpg",
+  "label": "Pisa",
+  "artist": "MHoser",
+  "license": "CC BY-SA 4.0"
+ },
+ "vatican": {
+  "file": "vatican.jpg",
+  "title": "File:St Peter's Square, Vatican City - April 2007.jpg",
+  "label": "St Peter's",
+  "artist": "Diliff",
+  "license": "CC BY-SA 3.0"
+ },
+ "westminster": {
+  "file": "westminster.jpg",
+  "title": "File:Houses of Parliament, London - geograph.org.uk - 4786361.jpg",
+  "label": "Westminster",
+  "artist": "Alan Hunt (geograph.org.uk)",
+  "license": "CC BY-SA 2.0"
+ },
+ "towerbridge": {
+  "file": "towerbridge.jpg",
+  "title": "File:Tower Bridge golden hour.jpg",
+  "label": "Tower Bridge",
+  "artist": "The Cosmonaut",
+  "license": "CC BY-SA 2.5 ca"
+ },
+ "manor": {
+  "file": "manor.jpg",
+  "title": "File:Bhaktivedanta Manor - 01.JPG",
+  "label": "Bhaktivedanta Manor",
+  "artist": "Ilya Mauter",
+  "license": "CC BY-SA 2.5"
+ },
+ "eiffel": {
+  "file": "eiffel.jpg",
+  "title": "File:Paris - The Eiffel Tower in spring - 2307.jpg",
+  "label": "Eiffel Tower",
+  "artist": "Jorge Royan",
+  "license": "CC BY-SA 3.0"
+ }
+}
