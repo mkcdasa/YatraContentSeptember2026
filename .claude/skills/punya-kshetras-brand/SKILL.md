@@ -24,7 +24,7 @@ Everything brand-related is fixed here, so every yatra looks and reads the same.
 1. **Make a work folder:** copy `examples/vaishno-devi-helicopter-4d/` to `yatras/<slug>/` in the repo, or to the scratchpad. Delete its `img/`, `imgmap.json`, `i18n/*.json` and `restaurants.json` contents, and keep the structure.
 2. **Schedule:** write `rows.json` with `engine/new_rows.py` (`m()` for map links, `d()` for directions, `save()` prints km per day and checks continuity). Follow the daily rhythm in content-rules: breakfast 07:30–08:30, leave 09:00, lunch near the temple.
 3. **Restaurants:** research pure-veg places near each lunch stop (web search) and put a probable choice plus a backup with Maps links in `restaurants.json`.
-4. **Photos:** put them in `img/` and register each in `imgmap.json` with its caption and credit. Credits print on the back cover.
+4. **Photos:** put them in `img/` and register each in `imgmap.json` with its caption and credit (kept for records only; credits are never printed on the collateral).
 5. **Content:** fill `package.py` (title, dates, price, kicker, highlights, day pages, inclusions/exclusions, flights, poster block, itinerary block). Brand constants (phone, websites, quote, Why us, terms) come from `engine/brand.py`. **Never re-type them in a package.** Use the `why`, `extra_terms`, `faq` overrides only for yatra-specific lines.
 6. **Build:**
    ```bash

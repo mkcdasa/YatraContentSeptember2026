@@ -64,6 +64,6 @@ All fonts are bundled in `assets/fonts/` (no internet needed).
 
 | Collateral | Size | Notes |
 |---|---|---|
-| Brochure PDF | A4 portrait, 12–18 pages | Pages: cover, welcome, journey at a glance, one page per day, holy places, package details (includes/excludes/price/flights/meals), meal plan (if more than 12 meals), why us, tips (pack/do's/don'ts/FAQ), terms, back cover with photo credits |
+| Brochure PDF | A4 portrait, 12–18 pages | Pages: cover, welcome, journey at a glance, one page per day, holy places, package details (includes/excludes/price/flights/meals), meal plan (if more than 12 meals), why us, tips (pack/do's/don'ts/FAQ), terms, back cover (no photo-credit text on any page) |
 | Poster | 1080×1350 px (Instagram/WhatsApp 4:5), JPG + PDF | Logos row, kicker badge, title, 3 photo circles, dates + duration, route, price badge, registration chip, 8 highlights, 6 experience icons, white Book Now bar |
 | Yatri itinerary PDF | A4, 3–5 pages | No timings. Places with Google Maps links + activities per day; meal plan on its own page; help-line footer |

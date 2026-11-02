@@ -41,7 +41,7 @@ These rules come from the Hare Krishna Golden Temple yatra team. They apply to e
 - End with the help-line phone number and the closing blessing.
 
 ## Photos
-- Use photos the team supplies first. Otherwise use Wikimedia Commons images with clear licences (CC BY / CC BY-SA / public domain). Record every credit in `imgmap.json`; the brochure back page prints them automatically.
+- Use photos the team supplies first. Otherwise use Wikimedia Commons images with clear licences (CC BY / CC BY-SA / public domain). Record every credit in `imgmap.json` for our own records. **Do not print photo credits on any brochure, poster or itinerary** (team decision).
 - Use circles for the 3 cover/poster photos and rounded boxes elsewhere.
 
 ## Translations

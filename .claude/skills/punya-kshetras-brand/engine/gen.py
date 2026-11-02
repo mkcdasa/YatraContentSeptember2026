@@ -247,7 +247,6 @@ def back(pk,n,T,credits):
 <div style="font-size:9.5pt;margin:8mm auto 0;width:150mm;line-height:1.55">{E(CONTACT["address"])}</div>
 <div class="script" style="font-size:26pt;margin-top:8mm;color:#fff">{E(pk["closing"])}</div>
 </div>
-<div style="position:absolute;bottom:6mm;left:12mm;right:12mm;font-size:5.6pt;color:rgba(255,255,255,.6);line-height:1.4">Photo credits (Wikimedia Commons, used under their licences): {E(credits)}. Srila Prabhupada photographs and past-yatra photos © Hare Krishna Golden Temple / respective owners.</div>
 </div>'''
 BCSS=".cvlogo{background:#fff;border-radius:4mm;padding:2.5mm 4mm}.cvlogo img{height:20mm;display:block}"
 FIT="<script>\nwindow.__fit=document.fonts.ready.then(()=>{document.querySelectorAll('.page .body').forEach(b=>{\n  const t=b.querySelector('table.tl'), ph=b.querySelector('.dphotos');\n  if(!t) return;\n  let fs=7.9,pad=1.05,h=52,guard=0;\n  const over=()=>b.scrollHeight>b.clientHeight+1;\n  while(over() && guard++<60){\n    if(fs>7.0){fs-=0.15;pad=Math.max(.55,pad-.05);}\n    else if(ph && h>34){h-=3;ph.style.height=h+'mm';ph.querySelectorAll('.phbox').forEach(x=>x.style.height=h+'mm');}\n    else if(fs>6.3){fs-=0.15;}\n    else break;\n    t.style.fontSize=fs+'pt'; t.querySelectorAll('td').forEach(td=>td.style.padding=pad+'mm 1.4mm');\n  }\n  if(over()) document.title+=' OVERFLOW';\n});});\n</script>"
