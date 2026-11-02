@@ -20,7 +20,7 @@ def img(key):
     return "../photos/" + CREDITS[key]["file"]
 
 
-FOCUS = {"pisa": "92% center"}  # keep the leaning tower in the crop
+FOCUS = {"pisa": "92% center", "radhadesh": "center 40%"}  # keep the leaning tower in the crop
 
 
 def tile(key, caption, cls=""):
@@ -32,7 +32,7 @@ def tile(key, caption, cls=""):
 FRONT_TILES = [("manor", "Bhaktivedanta Manor, London"), ("eiffel", "Eiffel Tower, Paris"),
                ("keukenhof", "Keukenhof tulips, Holland"), ("titlis", "Mount Titlis snow, Switzerland"),
                ("venice", "Gondola ride, Venice"), ("colosseum", "Colosseum, Rome")]
-BACK_TILES = [("westminster", "Big Ben & Parliament"), ("windmills", "Zaanse Schans windmills"), ("amsterdam", "Amsterdam canals"),
+BACK_TILES = [("westminster", "Big Ben & Parliament"), ("radhadesh", "Radhadesh temple, Belgium"), ("windmills", "Zaanse Schans windmills"), ("amsterdam", "Amsterdam canals"),
               ("rhinefalls", "Rhine Falls"), ("lucerne", "Chapel Bridge, Lucerne"),
               ("vatican", "St Peter's, Vatican"), ("pisa", "Leaning Tower of Pisa")]
 
@@ -72,8 +72,6 @@ body{font-family:Inter,sans-serif;color:#2B1A12}
 .tile{position:relative;border-radius:3.5mm;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.18)}
 .tile img{display:block;width:100%;height:38mm;object-fit:cover}
 .g4 .tile img{height:40mm}
-.more{background:linear-gradient(135deg,var(--saffron),var(--pink));display:flex;align-items:center;justify-content:center;height:40mm;text-align:center;color:#fff;font-size:9pt;font-weight:600;padding:3mm;line-height:1.35}
-.more b{display:block;font-family:'Playfair Display',serif;font-size:14pt;margin-bottom:1mm}
 .tile figcaption{position:absolute;left:0;right:0;bottom:0;padding:5mm 2.5mm 1.8mm;color:#fff;font-size:8.6pt;font-weight:700;background:linear-gradient(180deg,transparent,rgba(0,0,0,.78))}
 .row{display:grid;grid-template-columns:78mm 1fr;gap:4mm;padding:4.5mm 10mm 0;align-items:stretch}
 .price{background:var(--maroon);color:#fff;border-radius:4mm;padding:4mm 4mm;text-align:center;position:relative}
@@ -138,8 +136,7 @@ def front():
 
 def back():
     route = '<i>→</i>'.join(f'<span>{c}</span>' for c in ROUTE)
-    tiles = "".join(tile(k, c) for k, c in BACK_TILES) + (
-        '<figure class="tile more"><div><b>and more…</b>Brussels · Cologne · Black Forest · Zurich · Lake Como · Milan · Florence</div></figure>')
+    tiles = "".join(tile(k, c) for k, c in BACK_TILES)
     inc = "".join(f'<div><b>{i}</b>{t}</div>' for i, t in INCLUDED)
     used = [k for k, _ in FRONT_TILES + BACK_TILES] + ["towerbridge"]
     credits = html.escape("; ".join(f'{CREDITS[k]["label"]}: {CREDITS[k]["artist"]}, {CREDITS[k]["license"]}' for k in used))
