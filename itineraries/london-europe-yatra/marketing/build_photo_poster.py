@@ -2,10 +2,10 @@
 Two-page photo poster (front and back) for the London Europe Yatra 2027.
 
 Photos are freely licensed images from Wikimedia Commons, kept in
-marketing/photos/ with their credits in photos/credits.json (written by
-fetch_photos.py). Render with: node marketing/render_photo_poster.cjs
+marketing/photos/ with their credits in photos/credits.json for our records (written by
+fetch_photos.py). No photo credits are printed on the poster:
+the team does not want them on any creative. Render with: node marketing/render_photo_poster.cjs
 """
-import html
 import json
 import os
 
@@ -106,7 +106,6 @@ body{font-family:Inter,sans-serif;color:#2B1A12}
 .inc div b{display:block;font-size:15pt;margin-bottom:.8mm}
 .inc .pr{background:var(--maroon);color:#fff;border-color:var(--maroon)}
 .inc .pr b{font-family:'Playfair Display',serif;font-size:15pt;color:var(--gold)}
-.credits{position:absolute;left:10mm;right:10mm;bottom:23mm;font-size:5.6pt;color:#8A7563;line-height:1.35}
 """
 
 
@@ -138,8 +137,6 @@ def back():
     route = '<i>→</i>'.join(f'<span>{c}</span>' for c in ROUTE)
     tiles = "".join(tile(k, c) for k, c in BACK_TILES)
     inc = "".join(f'<div><b>{i}</b>{t}</div>' for i, t in INCLUDED)
-    used = [k for k, _ in FRONT_TILES + BACK_TILES] + ["towerbridge"]
-    credits = html.escape("; ".join(f'{CREDITS[k]["label"]}: {CREDITS[k]["artist"]}, {CREDITS[k]["license"]}' for k in used))
     return f"""<section class="page">
 <div class="top"><h2>16 days · 8 countries · 10 temples</h2><p>Flights from Hyderabad &amp; Bangalore · one coach, one family of devotees</p>
 <div class="route">{route}</div></div>
@@ -147,7 +144,6 @@ def back():
 <div class="grid g4" style="padding-top:0">{tiles}</div>
 <div class="sec"><h3>Holy places</h3><div class="temples">{''.join(f'<div>🪷 {t}</div>' for t in TEMPLES)}<div>🍲 Akshaya Patra kitchen, Watford</div></div></div>
 <div class="sec"><h3>Included</h3><div class="inc">{inc}<div class="pr"><b>₹5,49,000</b>per person incl. flights<br>+ 5% GST + 2% TCS</div></div></div>
-<div class="credits">Photos: Wikimedia Commons — {credits}.</div>
 <div class="foot"><div class="c"><b>Reserve your seat · Call / WhatsApp</b> +91 95053 88886</div>
  <div class="w">Hare Krishna Golden Temple, Banjara Hills, Hyderabad · www.punyakshetras.com · www.hkmhyderabad.org</div>
  <div class="n">Itinerary may change slightly for operational reasons. Payment schedule and cancellation terms on the booking form.</div></div>
