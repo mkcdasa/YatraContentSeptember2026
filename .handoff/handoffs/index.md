@@ -1,0 +1,1 @@
+2026-11-03T02:13:52.141Z | london europe yatra, bhakti yatra, posters, brochure, word itinerary, itinerary_data, brand.py, photo poster | Goal: plan + market London Europe Yatra 2027 (17 Apr–2 May 2027, 15N/16D, 8 countries, coach) for Hare Krishna Golden Te | 2026-11-03/handoff-2026-11-03T02-13-52-141Z.md
