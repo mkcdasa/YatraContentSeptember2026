@@ -34,6 +34,42 @@ COLOURS = {
 }
 
 
+# Bhakti Yatra creatives say "international flights included" and name no departure city or airline
+FLIGHT_TEXT = [
+    ("Hyderabad group flies Emirates via Dubai (dep 04:40, arrive Heathrow 16:10); Bangalore group flies Etihad via Abu Dhabi (dep 10:00, arrive 18:45).",
+     "International flight to London Heathrow (included), arriving in the afternoon or evening."),
+    ("Etihad from Milan Malpensa via Abu Dhabi; land in Hyderabad (02:45) and Bangalore (03:15) on Monday 3 May.",
+     "International flight home from Milan Malpensa (included); arrive in India early on Monday 3 May."),
+    ("Fly home via Abu Dhabi", "Fly home"),
+    ("Flights from Hyderabad and Bangalore; return to both cities on 3 May.", "International flights included; home on 3 May."),
+    ("International flights from Hyderabad or Bangalore (economy, group fares)", "International flights (economy, group fares)"),
+    ("International flights from Hyderabad &amp; Bangalore", "International flights included"),
+    ("Flights from Hyderabad &amp; Bangalore · one coach", "International flights included · one coach"),
+    ("Flights from Hyderabad & Bangalore", "International flights included"),
+    ("All airfare (ex-Hyderabad / Chennai / Bangalore or any South Indian city)", "International flights (economy, group fares)"),
+    ("Hyderabad & Bangalore → London Heathrow · Kamada Ekadasi", "Fly to London Heathrow · Kamada Ekadasi"),
+    ("Varuthini Ekadasi · Milan Malpensa → Abu Dhabi → Hyderabad / Bangalore", "Varuthini Ekadasi · Milan Malpensa → home"),
+    (" Abu Dhabi = IST − 1 h 30 m.", ""),
+]
+
+
+def no_city_html(html):
+    import re
+    for old, new in FLIGHT_TEXT:
+        html = html.replace(old, new)
+    html = re.sub(r'<div class="flights">.*?</div>\n</div>\n',
+                  '<div class="flights"><div class="flight" style="grid-column:1/-1;text-align:center"><b>✈ International flights included</b>'
+                  '<span>Out Sat 17 April 2027 to London Heathrow · back Sun 2 May 2027 from Milan Malpensa, home on 3 May</span></div></div>\n',
+                  html, flags=re.S)
+    html = re.sub(r'<h3>Flights</h3>\n<table class="fl">.*?</table>\n<p class="small"[^>]*>.*?</p>',
+                  '<h3>Flights</h3>\n<p><b>International flights are included</b> in the yatra amount (economy, group fares): out on Saturday 17 April 2027 '
+                  'to London Heathrow, and home on Sunday 2 May 2027 from Milan Malpensa, arriving in India early on Monday 3 May. '
+                  'Flight details are shared at booking.</p>', html, flags=re.S)
+    html = html.replace('<div class="fact"><b>2</b><span>departure cities</span></div>',
+                        '<div class="fact"><b>✈</b><span>international flights included</span></div>')
+    return html
+
+
 def current():
     return BHAKTI if os.environ.get("YATRA_BRAND") == "bhakti" else HKGT
 
@@ -77,4 +113,4 @@ def apply(html, rel="../"):
         ("Hare Krishna Golden Temple", "Hare Krishna Movement Indore"), (HKGT["langs"], b["langs"]),
     ]:
         html = html.replace(old, new)
-    return html
+    return no_city_html(html)

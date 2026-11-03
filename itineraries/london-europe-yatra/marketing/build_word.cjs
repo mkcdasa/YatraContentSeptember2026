@@ -96,7 +96,7 @@ children.push(h1('1. The yatra at a glance'),
     ['Dates', '17 April – 2 May 2027 (15 nights / 16 days)'],
     ['Countries', D.yatra.countries.join(', ')],
     ['Route', 'London (3 nights) → Paris (2) → Brussels → Amsterdam → Cologne → Black Forest (Titisee) → Zurich → Interlaken → Milan → Venice-Mestre → Florence → near Milan Malpensa. Rome and the Vatican are a high-speed-train day on 30 April.'],
-    ['Departure cities', 'Hyderabad and Bangalore (flights into London Heathrow; home from Milan Malpensa)'],
+    BHAKTI ? ['Flights', 'International flights included (into London Heathrow; home from Milan Malpensa)'] : ['Departure cities', 'Hyderabad and Bangalore (flights into London Heathrow; home from Milan Malpensa)'],
     ['Temples', D.temples.join(', ')],
     ['Yatra amount', `${D.price.base} per person, including international flights, + 5% GST + 2% TCS`],
     ['Meals', 'Breakfast, lunch and dinner every day: Satvik prasadam, no onion or garlic. Ekadasi meals on 17 April and 2 May.'],
@@ -121,7 +121,7 @@ children.push(h1('2. Yatra amount, inclusions and exclusions'),
 const flightRows = [];
 for (const d of [D.days[0], D.days[15]]) for (const r of d.rows) if (r.what.startsWith('Flight') || /EY 82|EY 352|EY 232/.test(r.detail)) flightRows.push([dayDate(d), r.time, r.detail]);
 children.push(h1('3. Flights'),
-  p('Shortlisted 2027 schedules. Flight numbers and times may change before ticketing. Times are local.'),
+  p(BHAKTI ? 'International flights are included in the yatra amount (economy, group fares). Flight details are shared at booking.' : 'Shortlisted 2027 schedules. Flight numbers and times may change before ticketing. Times are local.'),
   table([2000, 1500, W - 3500], ['Date', 'Time', 'Flight'], flightRows),
 );
 
