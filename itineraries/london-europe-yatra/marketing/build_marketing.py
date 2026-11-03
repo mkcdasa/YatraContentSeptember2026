@@ -310,10 +310,7 @@ def poster_price():
   <li>15 nights in hotels</li><li>All meals: Satvik prasadam, no onion or garlic</li><li>Private coach throughout, ferry, boats and trains in the plan</li>
   <li>All sightseeing and entry tickets in the itinerary</li><li>Experienced tour manager and licensed local guides</li></ul></div>
 </div>
-<div class="grid2" style="margin-top:18px">
- <div class="card"><h3>Not included</h3><ul><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li></ul></div>
- <div class="card"><h3>Who can join</h3><ul><li>Devotees, families and friends</li><li>Passport valid 3+ months after 3 May 2027</li><li>Fit to walk 6–8 km on city days</li><li>Seniors welcome: we plan rests and a slower group</li></ul></div>
-</div>
+<div class="card" style="margin-top:18px"><h3>Not included</h3><ul style="columns:2;column-gap:24px"><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li></ul></div>
 <div class="steps">
  <div class="step"><b>1</b><span>Call or WhatsApp to register and reserve your seat</span></div>
  <div class="step"><b>2</b><span>Share passport and visa documents (ITR, bank statement)</span></div>
