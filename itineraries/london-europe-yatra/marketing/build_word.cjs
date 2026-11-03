@@ -189,10 +189,10 @@ children.push(h1("9. Do's and don'ts"), h2('Do'), ...D.dos.map(bullet), h2("Don'
 
 // ---------------------------------------------------------------- 10. booking
 children.push(brk(), h1('10. Entry tickets and booking'),
-  p('All entry tickets marked "Included" are part of the yatra amount and are booked by the organisers on the official sites below. Optional extras can be added on request.'),
+  p('All entry tickets marked "Included" are part of the yatra amount and are booked by the organisers on the official sites below.'),
   table([700, 3400, 1300, W - 5400], ['Day', 'Place', 'Status', 'Official site and group rules'],
     D.booking.map(([day, place, url, rules]) => {
-      const status = /\(optional/i.test(place) ? 'Optional' : 'Included';
+      const status = 'Included';
       return [String(day), place, status, [new Paragraph({ children: [link(url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''), url, 16)] }), new Paragraph({ children: [t(rules, { size: 16 })] })]];
     }), { size: 17 }),
 );

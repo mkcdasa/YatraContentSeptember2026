@@ -39,7 +39,7 @@ def row_out(r):
     if "₹" in note:  # internal fare notes
         note = ""
     return {"time": f"{r['start']}–{r['end']}", "what": what, "where": where, "link": r["link"],
-            "detail": detail.strip(), "note": note, "meal": r["kind"] in ("Breakfast", "Lunch", "Dinner"),
+            "detail": strip_extras(detail.strip()), "note": strip_extras(note), "meal": r["kind"] in ("Breakfast", "Lunch", "Dinner"),
             "move": r["kind"] == "Transfer"}
 
 
@@ -49,6 +49,17 @@ def meals(day):
         if r["kind"] in out:
             out[r["kind"]].append(f"{r['start']} · {place(r['to'])} · {r['meal_by']}")
     return {k: "; ".join(v) or "On the flight" for k, v in out.items()}
+
+
+# Creatives never mention driver tips or optional extras (team decision)
+EXTRAS = [" Driver tips handed over.", " Optional: Tower Bridge glass walkway (extra ticket).", " (climb optional, 294 steps, not for seniors)",
+          ", optional boat trip (if the spring season has started)", ", optional boat to the rock", " (exterior; interior optional, opens 09:00)"]
+
+
+def strip_extras(text):
+    for x in EXTRAS:
+        text = text.replace(x, "")
+    return text
 
 
 def no_city_days(days):
@@ -98,12 +109,13 @@ def main():
         "days": days,
         "temples": TEMPLES,
         "hotels": [(c, n) for c, n, *_ in D.HOTELS],
-        "inclusions": D.INCLUSIONS, "exclusions": D.EXCLUSIONS,
-        "visa": D.VISA_DOCS, "dos": D.DOS, "donts": D.DONTS, "practical": D.PRACTICAL,
+        "inclusions": D.INCLUSIONS,
+        "exclusions": [x for x in D.EXCLUSIONS if "tip" not in x.lower() and "optional" not in x.lower()],
+        "visa": D.VISA_DOCS, "dos": D.DOS, "donts": D.DONTS, "practical": [r for r in D.PRACTICAL if r[0] != "Tipping"],
         "challenges": [c for c in D.CHALLENGES if "margin" not in c[0].lower() and "budget" not in c[0].lower()
                        and "driver hours" not in c[0].lower()],
         "tickets": [(d, p, planned) for d, p, planned, *_ in D.ENTRY_TICKETS],
-        "booking": D.BOOKING,
+        "booking": [r for r in D.BOOKING if "optional" not in r[1].lower()],
     }
     b = brand.current()
     if b["key"] != "hkgt":

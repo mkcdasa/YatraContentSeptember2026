@@ -311,7 +311,7 @@ def poster_price():
   <li>All sightseeing and entry tickets in the itinerary</li><li>Experienced tour manager and licensed local guides</li></ul></div>
 </div>
 <div class="grid2" style="margin-top:18px">
- <div class="card"><h3>Not included</h3><ul><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li><li>Driver tips (€3 per person per day)</li><li>Optional extras (e.g. Pisa tower climb, Doge's Palace)</li></ul></div>
+ <div class="card"><h3>Not included</h3><ul><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li></ul></div>
  <div class="card"><h3>Who can join</h3><ul><li>Devotees, families and friends</li><li>Passport valid 3+ months after 3 May 2027</li><li>Fit to walk 6–8 km on city days</li><li>Seniors welcome: we plan rests and a slower group</li></ul></div>
 </div>
 <div class="steps">
@@ -430,7 +430,7 @@ def brochure():
 <tr><td>Sub-total</td><td>{inr(SUBTOTAL)}</td></tr><tr><td>TCS 2%*</td><td>{inr(TCS)}</td></tr><tr class="tot"><td>Total paid</td><td>{inr(SUBTOTAL + TCS)}</td></tr></table>
 <p class="small" style="margin-top:3mm">*TCS (Tax Collected at Source) is deposited against your PAN. You get it back as a refund, or as credit against your tax, when you file your income-tax return. A PAN is needed for the booking.</p></div>
 <div class="box"><h3>Included</h3><ul><li>International flights from Hyderabad or Bangalore (economy, group fares)</li><li>UK and Schengen visa charges</li><li>15 nights in hotels</li><li>All meals: Satvik prasadam, no onion or garlic; Ekadasi meals</li><li>Private coach throughout, Dover–Calais ferry, Thames, Seine, Amsterdam and lake boats, Swiss and Italian trains in the plan</li><li>All sightseeing and entry tickets in the itinerary</li><li>Tour manager and licensed local guides</li></ul>
-<h3>Not included</h3><ul><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li><li>Driver tips (€3 per person per day)</li><li>Optional extras: Pisa tower climb, Doge's Palace, Florence dome climb and similar</li></ul></div></div>
+<h3>Not included</h3><ul><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li></ul></div></div>
 <h3>Visa documents (start collecting now)</h3>
 <div class="two"><div class="box"><ul>
 <li><b>Passport</b> valid 3+ months after 3 May 2027 with 2 blank pages, plus old passports</li>

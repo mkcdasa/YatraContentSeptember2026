@@ -510,7 +510,7 @@
      "what": "Walk · 1.2 km",
      "where": "Tower of London – Crown Jewels (Kohinoor) → Tower Bridge",
      "link": "https://www.google.com/maps/dir/?api=1&origin=Tower+of+London&destination=Tower+Bridge%2C+London&travelmode=walking",
-     "detail": "Walk onto Tower Bridge and back (1.2 km): photos, HMS Belfast, the Shard, and the real London Bridge upstream. Optional: Tower Bridge glass walkway (extra ticket).",
+     "detail": "Walk onto Tower Bridge and back (1.2 km): photos, HMS Belfast, the Shard, and the real London Bridge upstream.",
      "note": "",
      "meal": false,
      "move": true
@@ -1563,7 +1563,7 @@
      "what": "Sightseeing",
      "where": "Lake Titisee & Black Forest cuckoo-clock shops",
      "link": "https://www.google.com/maps/search/?api=1&query=Seestra%C3%9Fe%2C+Titisee-Neustadt",
-     "detail": "Lake Titisee promenade, Black Forest cuckoo-clock shops with a live demonstration, optional boat trip (if the spring season has started). VAT refund forms for big purchases.",
+     "detail": "Lake Titisee promenade, Black Forest cuckoo-clock shops with a live demonstration. VAT refund forms for big purchases.",
      "note": "",
      "meal": false,
      "move": false
@@ -1583,7 +1583,7 @@
      "what": "Sightseeing",
      "where": "Rhine Falls (Rheinfall), Neuhausen",
      "link": "https://www.google.com/maps/search/?api=1&query=Rheinfall%2C+Neuhausen+am+Rheinfall",
-     "detail": "Rhine Falls, Europe's largest waterfall by volume, at high spring flow: Schloss Laufen platforms (lift available), optional boat to the rock.",
+     "detail": "Rhine Falls, Europe's largest waterfall by volume, at high spring flow: Schloss Laufen platforms (lift available).",
      "note": "",
      "meal": false,
      "move": false
@@ -2040,7 +2040,7 @@
      "what": "Photo stop",
      "where": "Milan Duomo & Galleria Vittorio Emanuele II",
      "link": "https://www.google.com/maps/search/?api=1&query=Duomo+di+Milano",
-     "detail": "Milan Duomo (exterior; interior optional, opens 09:00), Galleria Vittorio Emanuele II, La Scala (exterior).",
+     "detail": "Milan Duomo, Galleria Vittorio Emanuele II, La Scala (exterior).",
      "note": "",
      "meal": false,
      "move": false
@@ -2478,7 +2478,7 @@
      "what": "Sightseeing",
      "where": "Square of Miracles – Leaning Tower of Pisa",
      "link": "https://www.google.com/maps/search/?api=1&query=Piazza+dei+Miracoli%2C+Pisa",
-     "detail": "Square of Miracles (UNESCO): Leaning Tower (climb optional, 294 steps, not for seniors), Cathedral, Baptistery. 'Holding the tower' photos.",
+     "detail": "Square of Miracles (UNESCO): Leaning Tower, Cathedral, Baptistery. 'Holding the tower' photos.",
      "note": "Coach park ~10 min walk. Holiday crowds.",
      "meal": false,
      "move": false
@@ -2577,7 +2577,7 @@
      "what": "Airport formalities",
      "where": "Milan Malpensa Airport (MXP), T1",
      "link": "https://www.google.com/maps/search/?api=1&query=Milano+Malpensa+Terminal+1",
-     "detail": "Group check-in on Etihad, VAT refund at customs (before check-in for goods in checked bags), EES exit, security. Farewell and feedback forms. Driver tips handed over.",
+     "detail": "Group check-in on Etihad, VAT refund at customs (before check-in for goods in checked bags), EES exit, security. Farewell and feedback forms.",
      "note": "",
      "meal": false,
      "move": false
@@ -2692,9 +2692,7 @@
   "All hotels"
  ],
  "exclusions": [
-  "Personal expenses",
-  "Driver tips at EUR 3 per person per day",
-  "Optional extras not in the itinerary: Lion King show, Leaning Tower climb, Doge's Palace, other optional entries"
+  "Personal expenses"
  ],
  "visa": [
   [
@@ -2788,10 +2786,6 @@
   [
    "Time zones",
    "UK = IST − 4 h 30 m (BST). France to Italy = IST − 3 h 30 m (CEST). Abu Dhabi = IST − 1 h 30 m."
-  ],
-  [
-   "Tipping",
-   "Driver EUR 3 per person per day (collected by the tour manager). Local guides 2–5 EUR per person per tour (optional). Restaurants: service usually included."
   ],
   [
    "Emergency numbers",
@@ -3144,13 +3138,6 @@
    "Open the account now; book as soon as April 2027 opens"
   ],
   [
-   6,
-   "Atomium (optional)",
-   "https://www.atomium.be/tickets",
-   "Group rate 20+.",
-   "1 month before"
-  ],
-  [
    7,
    "Amsterdam canal cruise – Blue Boat",
    "https://www.blueboat.nl/en/canal-cruise-amsterdam/",
@@ -3165,38 +3152,10 @@
    "As soon as 2027 group sales open"
   ],
   [
-   8,
-   "De Kat windmill, Zaanse Schans (optional)",
-   "https://www.zaanseschans.com/en/paint-mill-de-kat/",
-   "Pay at the mill.",
-   "On the day"
-  ],
-  [
-   9,
-   "Cologne Cathedral inside (optional)",
-   "https://www.koelner-dom.de/en",
-   "Entry charge since 1 Jul 2026; free during services.",
-   "On the day"
-  ],
-  [
-   10,
-   "Lake Titisee boat (optional)",
-   "https://drubba-titisee.com/bootsfahrt",
-   "Pay on board; check that the spring season has started.",
-   "On the day"
-  ],
-  [
    10,
    "Rhine Falls – Schloss Laufen",
    "https://schlosslaufen.ch/en",
    "Group 30+ CHF 2 (15–29: CHF 3); group tickets only at the visitor centre; info@schlosslaufen.ch, +41 52 659 67 67.",
-   "On the day"
-  ],
-  [
-   10,
-   "Rhine Falls boat to the rock (optional)",
-   "https://www.rhyfall-maendli.ch/linienfahrten-und-erlebnisse/felsenfahrt/",
-   "Not suitable for seniors.",
    "On the day"
   ],
   [
@@ -3226,20 +3185,6 @@
    "https://www.navigazionelaghi.it/en/",
    "Buy at Como pier; group and senior rate €4.80.",
    "On the day"
-  ],
-  [
-   13,
-   "Milan Duomo (optional)",
-   "https://ticket.duomomilano.it/en/",
-   "Groups with their own guide book through the call centre +39 02 89919751 (Mon–Sat 10–17); headsets compulsory for groups of 6+.",
-   "1 month before"
-  ],
-  [
-   13,
-   "Doge's Palace (optional)",
-   "https://palazzoducale.visitmuve.it/en/visitor-information/",
-   "Group bookings via call centre +39 041 42730892 or prenotazionivenezia@coopculture.it; whisper sets €1 for groups of 10+; licensed guides free.",
-   "30 days before (cheaper online price)"
   ],
   [
    13,
@@ -3296,20 +3241,6 @@
    "https://direzionemuseiroma.cultura.gov.it/en/pantheon/",
    "€7; online booking advised at busy times.",
    "1 week before"
-  ],
-  [
-   15,
-   "Florence Duomo – Brunelleschi Pass (optional)",
-   "https://tickets.duomo.firenze.it/en/",
-   "Online orders are capped at 10 tickets: email the Opera for a group; named tickets; dome time slot cannot be changed. Cathedral itself free.",
-   "1 month before"
-  ],
-  [
-   15,
-   "Leaning Tower of Pisa (optional climb)",
-   "https://www.opapisa.it/en/tickets/",
-   "Each ticket covers up to 30 people, so 2 orders; sales open 15 days before; agencies use the operators' area. Young children cannot climb.",
-   "15 days before (16 Apr 2027)"
   ]
  ],
  "brand": {
