@@ -27,9 +27,9 @@ def short(t, n=95):
     if len(t) > n: t = t[:n].rsplit(" ", 1)[0].rstrip(",;:–-") + "…"
     return t
 
-MODE = {"Breakfast": "Breakfast", "Lunch": "Lunch", "Dinner": "Dinner", "Temple darshan": "Darshan",
-        "Spiritual programme": "Darshan", "Seva visit": "Darshan", "Morning programme": "Kirtan",
-        "Briefing": "Kirtan", "Ceremony": "Sightseeing", "Boat cruise": "Boat", "Cable car & snow": "Cable car"}
+MODE = {"Breakfast": "Breakfast", "Lunch": "Lunch", "Dinner": "Dinner", "Temple darshan": "Temple",
+        "Spiritual programme": "Temple", "Seva visit": "Visit", "Morning programme": "Morning",
+        "Briefing": "Evening", "Ceremony": "Sightseeing", "Boat cruise": "Boat", "Cable car & snow": "Cable car"}
 SKIP = ("Coach run 2 (empty)",)
 def ov(a, b): return a[1] < b[2] and b[1] < a[2]
 rows = []
@@ -43,7 +43,7 @@ for day in D.DAYS:
         if k == "Transfer":
             mode = {"Coach": "Coach", "Local coach": "Coach", "Flight": "Flight", "Train": "Train",
                     "Boat": "Boat", "Ferry": "Ferry", "Cable car": "Cable car"}.get(m, m)
-            act = {"Coach": "By coach · bhajans, japa and sthala purana on board",
+            act = {"Coach": "By private coach · tour manager's commentary on the way",
                    "Train": "High-speed train", "Boat": "Boat ride", "Ferry": "Ferry across the English Channel"}.get(mode, short(det))
             if mode == "Flight": act = short(det, 120)
             row = [day["day"], r["start"], r["end"], mode, frm, to, int(r["km"] or 0), act]
@@ -56,15 +56,30 @@ for day in D.DAYS:
                 elif "train" in det.lower() and mode == "Dinner": act = "Packed dinner, eaten on the train"
                 elif "Ekadasi" in det or "Dvadasi" in det or "fast" in det.lower(): act = short(det, 70)
                 elif mode == "Lunch" and det and len(det) < 60 and not det.startswith("Backup"): act = short(det, 60)
-            elif mode == "Kirtan" and k == "Morning programme":
-                act = "Japa, kirtan and Bhagavatam reading"
+            elif k == "Morning programme":
+                act = "Morning prayers, music and meditation (for those who wish)"
             elif k == "Briefing":
-                act = "Evening kirtan and briefing for tomorrow" if "welcome" not in det.lower() else short(det)
+                act = "Briefing for tomorrow" if "welcome" not in det.lower() else "Welcome get-together and briefing"
             else:
                 act = short(det)
+            act = act.replace("Break the Ekadasi fast with grains at breakfast", "Breakfast")
             row = [day["day"], r["start"], r["end"], mode, to or frm, "—", 0, act]
         row.append(r.get("link") or "")
         rows.append(row)
+TEMPLE = [("Manor", "Historic Tudor-style manor gifted by Beatle George Harrison; gardens and Sunday programme"),
+          ("Soho", "Hare Krishna temple in Soho, in the heart of London's West End"),
+          ("Paris", "Visit to the Hare Krishna temple of Paris; evening programme"),
+          ("Radhadesh", "Fairy-tale château in the Ardennes hills, home to the Radhadesh temple"),
+          ("Cologne", "Visit to the Hare Krishna temple, Cologne"),
+          ("Goloka", "Peaceful farm community in the German countryside; Sunday programme and lunch"),
+          ("Zurich", "Visit to the Hare Krishna temple, Zurich; evening programme"),
+          ("Villaggio", "Hilltop village community near Bergamo; evening programme"),
+          ("Prabhupada Desh", "Devotee community in the Berici hills; lunch stop"),
+          ("Vrindavan", "16th-century Tuscan villa among vineyards; lunch stop")]
+for r in rows:
+    if r[3] == "Temple":
+        r[7] = next((t for k, t in TEMPLE if k in r[4]), r[7])
+        if "Manor" in r[4] and r[1] >= "11:30": r[7] = "Sunday programme with music, talk and a grand Indian vegetarian lunch"
 # a luggage coach that runs while the group is on a train is not part of the yatri's day
 rows = [r for r in rows if not (r[3] == "Coach" and any(t[0] == r[0] and t[3] == "Train" and ov(r, t) for t in rows))]
 json.dump(rows, open(os.path.join(HERE, "rows.json"), "w"), ensure_ascii=False)

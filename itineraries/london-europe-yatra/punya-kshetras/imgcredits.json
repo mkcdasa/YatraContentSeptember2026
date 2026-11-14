@@ -5,8 +5,9 @@
   "cap": "Changing of the Guard, Buckingham Palace"
  },
  "tower": {
-  "title": "File:Tower of London viewed from the River Thames.jpg",
-  "license": "CC BY-SA 3.0",
+  "title": "https://traveldigg.com/wp-content/uploads/2016/05/Tower-Of-London-Images.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
   "cap": "Tower of London"
  },
  "londoneye": {
@@ -26,21 +27,21 @@
   "cap": "Arc de Triomphe"
  },
  "notredame": {
-  "title": "File:Notre Dame Paris front facade lower.jpg",
-  "artist": "Benh LIEU SONG",
-  "license": "CC BY-SA 3.0",
+  "title": "https://media.architecturaldigest.in/wp-content/uploads/2019/04/Notre-Dame-Paris-21.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
   "cap": "Notre-Dame, Paris"
  },
  "louvre": {
-  "title": "File:Louvre Courtyard, Looking West.jpg",
-  "artist": "Benh LIEU SONG (Flickr)",
-  "license": "CC BY-SA 4.0",
-  "cap": "The Louvre"
+  "title": "https://wallpapers.com/images/hd/louvre-museum-pyramid-architecture-wl6v450zo789laic.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "The Louvre, Paris"
  },
  "atomium": {
-  "title": "File:Atomium, Bruselas, Bélgica, 2021-12-15, DD 148-150 HDR.jpg",
-  "artist": "Diego Delso",
-  "license": "CC BY-SA 4.0",
+  "title": "https://img.locationscout.net/images/2018-02/atomium-brussels-belgium-onzz_l.jpeg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
   "cap": "Atomium, Brussels"
  },
  "grandplace": {
@@ -74,10 +75,10 @@
   "cap": "Through the Swiss Alps"
  },
  "lucerne2": {
-  "title": "File:Luzern - Chapel Bridge - March 2019 (02).jpg",
-  "artist": "Liridon",
-  "license": "CC BY-SA 4.0",
-  "cap": "Alpine lakes on the way"
+  "title": "https://thirdeyetraveller.com/wp-content/uploads/Kapellbrucke-chapel-bridge-and-water-tower-in-lucerne-7-of-13.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Chapel Bridge, Lucerne"
  },
  "venice2": {
   "title": "File:Gondolas, Grand Canal, Venice.jpg",
@@ -90,5 +91,179 @@
   "artist": "MHoser",
   "license": "CC BY-SA 4.0",
   "cap": "Square of Miracles, Pisa"
+ },
+ "eiffel": {
+  "title": "https://wanderon-images.gumlet.io/gallery/new/2025/02/27/1740643350731-eiffel-tower.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Eiffel Tower, Paris"
+ },
+ "eiffelnight": {
+  "title": "https://wallpapers.com/images/hd/eiffel-tower-at-night-vzpwdc2ygcdu3qzn.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Eiffel Tower by night"
+ },
+ "colosseum": {
+  "title": "https://media.cntraveler.com/photos/58da7b6e1021b64be09794da/master/pass/GettyImages-177303568.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Colosseum, Rome"
+ },
+ "colosseum2": {
+  "title": "https://www.indiaimagine.com/wp-content/uploads/2020/05/featured-roman-colosseum.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Colosseum at sunrise"
+ },
+ "colosseumair": {
+  "title": "https://thegetaway.mblycdn.com/tg/resized/2020/01/1200x630/GettyImages-1080329598-scaled_1340x799_acf_cropped.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Colosseum from above"
+ },
+ "pisa": {
+  "title": "https://images.pexels.com/photos/1144276/pexels-photo-1144276.jpeg?cs=srgb&dl=leaning-tower-of-pisa-1144276.jpg&fm=jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Leaning Tower of Pisa"
+ },
+ "stpeters": {
+  "title": "https://www.tripsavvy.com/thmb/yaXyjd9pEZB79T5Mr1ystHTvY44=/5135x3423/filters:no_upscale():max_bytes(150000):strip_icc()/view-of-vatican-city---164818774-5ac234d88023b900365bc98d.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "St Peter's Square, Vatican"
+ },
+ "stpeters2": {
+  "title": "https://www.tripsavvy.com/thmb/lJZxO6ouePt1WCQE8_0pRV5oDIk=/2121x1414/filters:fill(auto,1)/GettyImages-163295967-c09b537080784f64a7835b3dcf3a63d5.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "St Peter's Basilica, Vatican"
+ },
+ "sistine": {
+  "title": "https://www.visitvaticancity.org/wp-content/uploads/the-sistine-chapel.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Sistine Chapel, Vatican"
+ },
+ "trevi": {
+  "title": "https://cdn.britannica.com/36/194936-050-495739BE/Trevi-Fountain-Rome.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Trevi Fountain, Rome"
+ },
+ "pantheon": {
+  "title": "https://www.voyagetips.com/wp-content/uploads/2017/05/visiter-rome-pantheon.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Pantheon, Rome"
+ },
+ "florence": {
+  "title": "https://wallpaperaccess.com/full/1127871.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Florence Cathedral"
+ },
+ "florence2": {
+  "title": "https://media.cntraveler.com/photos/57719b2a4a3399cb31f9da7a/master/pass/florence-01-duomo-GettyImages-504655313.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Florence skyline"
+ },
+ "pontevecchio": {
+  "title": "https://cdn.generationvoyage.fr/2025/02/Le-Ponte-Vecchio-de-Florence.jpeg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Ponte Vecchio, Florence"
+ },
+ "milan": {
+  "title": "https://wallpaperaccess.com/full/3039454.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Milan Cathedral"
+ },
+ "milan2": {
+  "title": "https://wallpapercave.com/wp/wp3823865.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Duomo & Galleria, Milan"
+ },
+ "como": {
+  "title": "https://hips.hearstapps.com/hmg-prod/images/lake-como-towns-667aaa757880f.jpg?crop=0.9971751412429378xw:1xh;center",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Lake Como"
+ },
+ "como2": {
+  "title": "https://images.interhome.group/travelguide/italy-lake-como-varenna-summer.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Lake Como villages"
+ },
+ "lucerne": {
+  "title": "https://thirdeyetraveller.com/wp-content/uploads/Kapellbrucke-chapel-bridge-and-water-tower-in-lucerne-4-of-13-1400x1050.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Chapel Bridge, Lucerne"
+ },
+ "interlaken": {
+  "title": "https://www.bmc.net/assets/citpg/training-courses-in-Interlaken-Switzerland.webp",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Interlaken"
+ },
+ "zurich": {
+  "title": "https://a.cdn-hotels.com/gdcs/production127/d484/b9ca99c3-b15e-48ab-a3cb-983186637256.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Zurich"
+ },
+ "amsterdam": {
+  "title": "https://canalsofamsterdam.com/wp-content/uploads/2022/07/Canals-of-Amsterdam-scaled.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Amsterdam canals"
+ },
+ "bigben": {
+  "title": "https://wallpapers.com/images/hd/glowing-big-ben-pwlylsdisbhxruvg.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Big Ben & Parliament"
+ },
+ "westminster2": {
+  "title": "https://wallpapercave.com/wp/wp1845435.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Westminster at sunset"
+ },
+ "buckingham": {
+  "title": "https://cdn.londonandpartners.com/-/media/images/london/visit/whats-on/event-pages/buckinghampalace1920x1080.jpg?mw=640&hash=00A33E4417EF11894C1F8F69A35F6D40C09D7467",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Buckingham Palace"
+ },
+ "arcchamps": {
+  "title": "https://images7.alphacoders.com/541/541800.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Arc de Triomphe & Champs-Élysées"
+ },
+ "crownjewels": {
+  "title": "https://e3.365dm.com/23/04/2048x1152/skynews-crown-queen-marys-crown_6113053.jpg?20230406165523",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "The Crown Jewels"
+ },
+ "towerbridge": {
+  "title": "https://www.thetrainline.com/cms/media/1376/uk-london-tower-bridge-river-thames.jpg",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Tower Bridge, London"
+ },
+ "zaanse": {
+  "title": "https://images.locationscout.net/2023/09/windmills-at-zaanse-schans-netherlands-zaxc.jpg?h=1100&q=83",
+  "artist": "web image",
+  "license": "unverified – team accepted risk",
+  "cap": "Zaanse Schans windmills"
  }
 }

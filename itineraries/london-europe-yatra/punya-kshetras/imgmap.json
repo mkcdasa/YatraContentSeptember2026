@@ -1,18 +1,33 @@
 {
  "amsterdam": {
   "src": "img/amsterdam.jpg",
-  "credit": "File:Colorful canal houses at golden hour in Damrak avenue Amsterdam the Netherlands.jpg – Basile Morin, CC BY-SA 4.0",
-  "cap": "Amsterdam"
+  "credit": "https://canalsofamsterdam.com/wp-content/uploads/2022/07/Canals-of-Amsterdam-scaled.jpg – web image, unverified – team accepted risk",
+  "cap": "Amsterdam canals"
  },
  "arc": {
   "src": "img/arc.jpg",
   "credit": "File:Arc de Triomphe de l'Étoile at night vertical fix.jpg – Wilfredor, CC0",
   "cap": "Arc de Triomphe"
  },
+ "arcchamps": {
+  "src": "img/arcchamps.jpg",
+  "credit": "https://images7.alphacoders.com/541/541800.jpg – web image, unverified – team accepted risk",
+  "cap": "Arc de Triomphe & Champs-Élysées"
+ },
  "atomium": {
   "src": "img/atomium.jpg",
-  "credit": "File:Atomium, Bruselas, Bélgica, 2021-12-15, DD 148-150 HDR.jpg – Diego Delso, CC BY-SA 4.0",
+  "credit": "https://img.locationscout.net/images/2018-02/atomium-brussels-belgium-onzz_l.jpeg – web image, unverified – team accepted risk",
   "cap": "Atomium, Brussels"
+ },
+ "bigben": {
+  "src": "img/bigben.jpg",
+  "credit": "https://wallpapers.com/images/hd/glowing-big-ben-pwlylsdisbhxruvg.jpg – web image, unverified – team accepted risk",
+  "cap": "Big Ben & Parliament"
+ },
+ "buckingham": {
+  "src": "img/buckingham.jpg",
+  "credit": "https://cdn.londonandpartners.com/-/media/images/london/visit/whats-on/event-pages/buckinghampalace1920x1080.jpg?mw=640&hash=00A33E4417EF11894C1F8F69A35F6D40C09D7467 – web image, unverified – team accepted risk",
+  "cap": "Buckingham Palace"
  },
  "cologne": {
   "src": "img/cologne.jpg",
@@ -26,8 +41,33 @@
  },
  "colosseum": {
   "src": "img/colosseum.jpg",
-  "credit": "File:Colosseum of Rome, Italy.jpg – public-domain (CC0) contributor, CC0",
+  "credit": "https://media.cntraveler.com/photos/58da7b6e1021b64be09794da/master/pass/GettyImages-177303568.jpg – web image, unverified – team accepted risk",
   "cap": "Colosseum, Rome"
+ },
+ "colosseum2": {
+  "src": "img/colosseum2.jpg",
+  "credit": "https://www.indiaimagine.com/wp-content/uploads/2020/05/featured-roman-colosseum.jpg – web image, unverified – team accepted risk",
+  "cap": "Colosseum at sunrise"
+ },
+ "colosseumair": {
+  "src": "img/colosseumair.jpg",
+  "credit": "https://thegetaway.mblycdn.com/tg/resized/2020/01/1200x630/GettyImages-1080329598-scaled_1340x799_acf_cropped.jpg – web image, unverified – team accepted risk",
+  "cap": "Colosseum from above"
+ },
+ "como": {
+  "src": "img/como.jpg",
+  "credit": "https://hips.hearstapps.com/hmg-prod/images/lake-como-towns-667aaa757880f.jpg?crop=0.9971751412429378xw:1xh;center – web image, unverified – team accepted risk",
+  "cap": "Lake Como"
+ },
+ "como2": {
+  "src": "img/como2.jpg",
+  "credit": "https://images.interhome.group/travelguide/italy-lake-como-varenna-summer.jpg – web image, unverified – team accepted risk",
+  "cap": "Lake Como villages"
+ },
+ "crownjewels": {
+  "src": "img/crownjewels.jpg",
+  "credit": "https://e3.365dm.com/23/04/2048x1152/skynews-crown-queen-marys-crown_6113053.jpg?20230406165523 – web image, unverified – team accepted risk",
+  "cap": "The Crown Jewels"
  },
  "dover": {
   "src": "img/dover.jpg",
@@ -36,8 +76,23 @@
  },
  "eiffel": {
   "src": "img/eiffel.jpg",
-  "credit": "File:Paris - The Eiffel Tower in spring - 2307.jpg – Jorge Royan, CC BY-SA 3.0",
+  "credit": "https://wanderon-images.gumlet.io/gallery/new/2025/02/27/1740643350731-eiffel-tower.jpg – web image, unverified – team accepted risk",
   "cap": "Eiffel Tower, Paris"
+ },
+ "eiffelnight": {
+  "src": "img/eiffelnight.jpg",
+  "credit": "https://wallpapers.com/images/hd/eiffel-tower-at-night-vzpwdc2ygcdu3qzn.jpg – web image, unverified – team accepted risk",
+  "cap": "Eiffel Tower by night"
+ },
+ "florence": {
+  "src": "img/florence.jpg",
+  "credit": "https://wallpaperaccess.com/full/1127871.jpg – web image, unverified – team accepted risk",
+  "cap": "Florence Cathedral"
+ },
+ "florence2": {
+  "src": "img/florence2.jpg",
+  "credit": "https://media.cntraveler.com/photos/57719b2a4a3399cb31f9da7a/master/pass/florence-01-duomo-GettyImages-504655313.jpg – web image, unverified – team accepted risk",
+  "cap": "Florence skyline"
  },
  "grandplace": {
   "src": "img/grandplace.jpg",
@@ -48,6 +103,11 @@
   "src": "img/guard.jpg",
   "credit": "File:Guard of Buckingham Palace - 01.jpg – , CC BY-SA 3.0",
   "cap": "Changing of the Guard, Buckingham Palace"
+ },
+ "interlaken": {
+  "src": "img/interlaken.jpg",
+  "credit": "https://www.bmc.net/assets/citpg/training-courses-in-Interlaken-Switzerland.webp – web image, unverified – team accepted risk",
+  "cap": "Interlaken"
  },
  "keukenhof": {
   "src": "img/keukenhof.jpg",
@@ -61,38 +121,58 @@
  },
  "louvre": {
   "src": "img/louvre.jpg",
-  "credit": "File:Louvre Courtyard, Looking West.jpg – Benh LIEU SONG (Flickr), CC BY-SA 4.0",
-  "cap": "The Louvre"
+  "credit": "https://wallpapers.com/images/hd/louvre-museum-pyramid-architecture-wl6v450zo789laic.jpg – web image, unverified – team accepted risk",
+  "cap": "The Louvre, Paris"
  },
  "lucerne": {
   "src": "img/lucerne.jpg",
-  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
-  "cap": "Lucerne"
+  "credit": "https://thirdeyetraveller.com/wp-content/uploads/Kapellbrucke-chapel-bridge-and-water-tower-in-lucerne-4-of-13-1400x1050.jpg – web image, unverified – team accepted risk",
+  "cap": "Chapel Bridge, Lucerne"
  },
  "lucerne2": {
   "src": "img/lucerne2.jpg",
-  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
-  "cap": "Alpine lakes on the way"
+  "credit": "https://thirdeyetraveller.com/wp-content/uploads/Kapellbrucke-chapel-bridge-and-water-tower-in-lucerne-7-of-13.jpg – web image, unverified – team accepted risk",
+  "cap": "Chapel Bridge, Lucerne"
  },
  "manor": {
   "src": "img/manor.jpg",
   "credit": "File:Bhaktivedanta Manor - 01.JPG – Ilya Mauter, CC BY-SA 2.5",
   "cap": "Bhaktivedanta Manor"
  },
+ "milan": {
+  "src": "img/milan.jpg",
+  "credit": "https://wallpaperaccess.com/full/3039454.jpg – web image, unverified – team accepted risk",
+  "cap": "Milan Cathedral"
+ },
+ "milan2": {
+  "src": "img/milan2.jpg",
+  "credit": "https://wallpapercave.com/wp/wp3823865.jpg – web image, unverified – team accepted risk",
+  "cap": "Duomo & Galleria, Milan"
+ },
  "notredame": {
   "src": "img/notredame.jpg",
-  "credit": "File:Notre Dame Paris front facade lower.jpg – Benh LIEU SONG, CC BY-SA 3.0",
+  "credit": "https://media.architecturaldigest.in/wp-content/uploads/2019/04/Notre-Dame-Paris-21.jpg – web image, unverified – team accepted risk",
   "cap": "Notre-Dame, Paris"
+ },
+ "pantheon": {
+  "src": "img/pantheon.jpg",
+  "credit": "https://www.voyagetips.com/wp-content/uploads/2017/05/visiter-rome-pantheon.jpg – web image, unverified – team accepted risk",
+  "cap": "Pantheon, Rome"
  },
  "pisa": {
   "src": "img/pisa.jpg",
-  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
-  "cap": "Pisa"
+  "credit": "https://images.pexels.com/photos/1144276/pexels-photo-1144276.jpeg?cs=srgb&dl=leaning-tower-of-pisa-1144276.jpg&fm=jpg – web image, unverified – team accepted risk",
+  "cap": "Leaning Tower of Pisa"
  },
  "pisa2": {
   "src": "img/pisa2.jpg",
   "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
   "cap": "Square of Miracles, Pisa"
+ },
+ "pontevecchio": {
+  "src": "img/pontevecchio.jpg",
+  "credit": "https://cdn.generationvoyage.fr/2025/02/Le-Ponte-Vecchio-de-Florence.jpeg – web image, unverified – team accepted risk",
+  "cap": "Ponte Vecchio, Florence"
  },
  "radhadesh": {
   "src": "img/radhadesh.jpg",
@@ -109,6 +189,21 @@
   "credit": "File:Neuhausen am Rheinfall.jpg – Jörg Braukmann, CC BY-SA 4.0",
   "cap": "Rhine Falls, Schaffhausen"
  },
+ "sistine": {
+  "src": "img/sistine.jpg",
+  "credit": "https://www.visitvaticancity.org/wp-content/uploads/the-sistine-chapel.jpg – web image, unverified – team accepted risk",
+  "cap": "Sistine Chapel, Vatican"
+ },
+ "stpeters": {
+  "src": "img/stpeters.jpg",
+  "credit": "https://www.tripsavvy.com/thmb/yaXyjd9pEZB79T5Mr1ystHTvY44=/5135x3423/filters:no_upscale():max_bytes(150000):strip_icc()/view-of-vatican-city---164818774-5ac234d88023b900365bc98d.jpg – web image, unverified – team accepted risk",
+  "cap": "St Peter's Square, Vatican"
+ },
+ "stpeters2": {
+  "src": "img/stpeters2.jpg",
+  "credit": "https://www.tripsavvy.com/thmb/lJZxO6ouePt1WCQE8_0pRV5oDIk=/2121x1414/filters:fill(auto,1)/GettyImages-163295967-c09b537080784f64a7835b3dcf3a63d5.jpg – web image, unverified – team accepted risk",
+  "cap": "St Peter's Basilica, Vatican"
+ },
  "titlis": {
   "src": "img/titlis.jpg",
   "credit": "File:Titlis-1.jpg – Man Ho Lam (lemon_ho), CC BY 2.5",
@@ -121,13 +216,18 @@
  },
  "tower": {
   "src": "img/tower.jpg",
-  "credit": "File:Tower of London viewed from the River Thames.jpg – , CC BY-SA 3.0",
+  "credit": "https://traveldigg.com/wp-content/uploads/2016/05/Tower-Of-London-Images.jpg – web image, unverified – team accepted risk",
   "cap": "Tower of London"
  },
  "towerbridge": {
   "src": "img/towerbridge.jpg",
-  "credit": "File:Tower Bridge golden hour.jpg – The Cosmonaut, CC BY-SA 2.5 ca",
+  "credit": "https://www.thetrainline.com/cms/media/1376/uk-london-tower-bridge-river-thames.jpg – web image, unverified – team accepted risk",
   "cap": "Tower Bridge, London"
+ },
+ "trevi": {
+  "src": "img/trevi.jpg",
+  "credit": "https://cdn.britannica.com/36/194936-050-495739BE/Trevi-Fountain-Rome.jpg – web image, unverified – team accepted risk",
+  "cap": "Trevi Fountain, Rome"
  },
  "vatican": {
   "src": "img/vatican.jpg",
@@ -149,69 +249,39 @@
   "credit": "File:Houses of Parliament, London - geograph.org.uk - 4786361.jpg – Alan Hunt (geograph.org.uk), CC BY-SA 2.0",
   "cap": "Westminster"
  },
+ "westminster2": {
+  "src": "img/westminster2.jpg",
+  "credit": "https://wallpapercave.com/wp/wp1845435.jpg – web image, unverified – team accepted risk",
+  "cap": "Westminster at sunset"
+ },
  "windmills": {
   "src": "img/windmills.jpg",
   "credit": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg – DimiTalen, CC0",
   "cap": "Zaanse Schans windmills"
  },
- "bigben": {
-  "src": "img/westminster.jpg",
-  "credit": "File:Houses of Parliament, London - geograph.org.uk - 4786361.jpg – Alan Hunt (geograph.org.uk), CC BY-SA 2.0",
-  "cap": "Westminster"
+ "zaanse": {
+  "src": "img/zaanse.jpg",
+  "credit": "https://images.locationscout.net/2023/09/windmills-at-zaanse-schans-netherlands-zaxc.jpg?h=1100&q=83 – web image, unverified – team accepted risk",
+  "cap": "Zaanse Schans windmills"
+ },
+ "zurich": {
+  "src": "img/zurich.jpg",
+  "credit": "https://a.cdn-hotels.com/gdcs/production127/d484/b9ca99c3-b15e-48ab-a3cb-983186637256.jpg – web image, unverified – team accepted risk",
+  "cap": "Zurich"
  },
  "titisee": {
   "src": "img/rhinefalls.jpg",
   "credit": "File:Neuhausen am Rheinfall.jpg – Jörg Braukmann, CC BY-SA 4.0",
   "cap": "Rhine Falls"
  },
- "zurich": {
-  "src": "img/lucerne.jpg",
-  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
-  "cap": "Lucerne"
- },
- "interlaken": {
-  "src": "img/titlis.jpg",
-  "credit": "File:Titlis-1.jpg – Man Ho Lam (lemon_ho), CC BY 2.5",
-  "cap": "Mount Titlis"
- },
- "como": {
-  "src": "img/lucerne.jpg",
-  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
-  "cap": "Lucerne"
- },
- "milan": {
-  "src": "img/venice.jpg",
-  "credit": "File:Gondolas, Grand Canal, Venice.jpg – Peter K Burian, CC BY-SA 4.0",
-  "cap": "Venice"
- },
  "padova": {
   "src": "img/venice.jpg",
   "credit": "File:Gondolas, Grand Canal, Venice.jpg – Peter K Burian, CC BY-SA 4.0",
   "cap": "Venice"
  },
- "florence": {
-  "src": "img/pisa.jpg",
-  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
-  "cap": "Pisa"
- },
- "pontevecchio": {
-  "src": "img/pisa.jpg",
-  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
-  "cap": "Pisa"
- },
- "trevi": {
-  "src": "img/colosseum.jpg",
-  "credit": "File:Colosseum of Rome, Italy.jpg – public-domain (CC0) contributor, CC0",
-  "cap": "Colosseum, Rome"
- },
- "stpeters": {
-  "src": "img/vatican.jpg",
-  "credit": "File:St Peter's Square, Vatican City - April 2007.jpg – Diliff, CC BY-SA 3.0",
-  "cap": "St Peter's, Vatican"
- },
  "seine": {
   "src": "img/eiffel.jpg",
-  "credit": "File:Paris - The Eiffel Tower in spring - 2307.jpg – Jorge Royan, CC BY-SA 3.0",
+  "credit": "https://wanderon-images.gumlet.io/gallery/new/2025/02/27/1740643350731-eiffel-tower.jpg – web image, unverified – team accepted risk",
   "cap": "Eiffel Tower, Paris"
  },
  "alps": {

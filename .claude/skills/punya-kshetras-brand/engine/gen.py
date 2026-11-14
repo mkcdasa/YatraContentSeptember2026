@@ -46,7 +46,7 @@ def cover(pk):
 <div class="cv-top"><div class="logo"><img src="brand/hkgt_logo.png"></div><img class="seal" src="brand/seal.png"><div class="logo"><img src="brand/pk_logo.png"></div></div>
 <div class="cv-title"><div class="kick mont">{HELI if pk["show_heli_icon"] else ""}{E(pk["kicker"])}</div>
 <h1>{E(pk["title"])}</h1><div class="script t2">{E(pk["title2"])}</div>
-<div class="pill with">{E(WITH_LINE)}</div></div>
+<div class="pill with">{E(pk["with_line"])}</div></div>
 {circles}
 <div class="cv-band"><div class="dates mont">{E(pk["dates"])}</div><div class="dur mont">{E(pk["duration"])}</div><div class="route">{E(pk["tagline"])}</div>
 {f'<div class="regclose mont">{E(pk["cover_note"])}</div>' if pk["cover_note"] else ""}
@@ -85,13 +85,13 @@ def welcome(pk,n,T):
     stays="".join(f'<div class="stat"><b style="font-size:{"12pt" if len(pk["stays"])>4 else "16pt"};white-space:nowrap">{E(b)}</b><span>{E(a)}</span></div>' for a,b in pk["stays"])
     return f'''<div class="page">{chrome(pk,"Welcome",pk["greeting"],n,T)}<div class="body">
 <div class="grid2" style="grid-template-columns:1.15fr .85fr;gap:6mm">
-<div><h2 class="sec-title">Warm greetings<span class="script" style="display:block;margin:0">from Punya Kshetras</span></h2><div class="orn left"><span></span></div>
+<div><h2 class="sec-title">{E(pk["welcome_title"][0])}<span class="script" style="display:block;margin:0">{E(pk["welcome_title"][1])}</span></h2><div class="orn left"><span></span></div>
 <p class="lead">{E(pk["intro"])}</p>
-<p style="margin-top:3mm">{E(ORG_LINE)}</p></div>
-<div>{photo("prabhupada","62mm" if len(pk["highlights"])>9 else "70mm",None)}<div style="font-size:7.5pt;color:var(--muted);text-align:center;margin-top:1.5mm">His Divine Grace A.C. Bhaktivedanta Swami Srila Prabhupada,<br>Founder-Acharya of ISKCON</div></div></div>
-<div class="qbox" style="margin-top:6mm"><p>{E(PRABHUPADA_QUOTE[0])}</p><div class="src">Srila Prabhupada · {E(PRABHUPADA_QUOTE[1])}</div></div>
+<p style="margin-top:3mm">{E(pk["org_line"])}</p></div>
+<div>{photo(pk["welcome_img"],"62mm" if len(pk["highlights"])>9 else "70mm",None)}<div style="font-size:7.5pt;color:var(--muted);text-align:center;margin-top:1.5mm">{pk["welcome_cap"]}</div></div></div>
+<div class="qbox" style="margin-top:6mm"><p>{E(pk["quote"][0])}</p><div class="src">{E(pk["quote_by"])} · {E(pk["quote"][1])}</div></div>
 <div class="grid2" style="margin-top:6mm;grid-template-columns:1.2fr .8fr;gap:6mm">
-<div class="card"><h3 class="sub">Yatra highlights</h3><ul class="tick star" style="{"columns:2;column-gap:4mm;font-size:8pt" if len(pk["highlights"])>9 else ""}">{hl}</ul></div>
+<div class="card"><h3 class="sub">{E(pk.get("hl_title","Yatra highlights"))}</h3><ul class="tick star" style="{"columns:2;column-gap:4mm;font-size:8pt" if len(pk["highlights"])>9 else ""}">{hl}</ul></div>
 <div><h3 class="sub">Overnight stays</h3><div style="display:grid;grid-template-columns:{"1fr 1fr 1fr" if len(pk["stays"])>4 else "1fr 1fr"};gap:3mm">{stays}</div>
 <div class="card" style="margin-top:4mm;padding:4mm"><h3 class="sub" style="margin-bottom:1mm">Your departure</h3><p style="font-size:8.6pt">{E(pk["best"])}</p></div></div></div>
 </div></div>'''
@@ -134,6 +134,33 @@ JCSS="""
 .conn .dist{font-family:Montserrat;font-size:7.6pt;color:var(--plum);font-weight:600}
 .bridge{margin:3mm 0 0 4mm;font-size:8pt;color:var(--coral);font-family:Montserrat}
 """
+def attractions(pk,n,T):
+    a=pk["attractions"]
+    won="".join(f'<div class="won"><div class="phbox" style="height:40mm;border-radius:3mm">{img(k)}</div><span class="wb">{E(b)}</span><b>{E(t)}</b></div>' for k,t,b in a["wonders"])
+    cards="".join(f'<div class="cty"><div class="ch"><b>{E(c)}</b><span>{len(items)}</span></div><p>{" · ".join(E(x) for x in items)}</p></div>' for c,items in a["countries"])
+    total=sum(len(i) for _,i in a["countries"])
+    un="".join(f"<span>{E(x)}</span>" for x in a.get("unesco",[]))
+    return f'''<div class="page">{chrome(pk,a.get("header","Wonders & Attractions"),a.get("sub",""),n,T)}<div class="body">
+<h2 class="sec-title">{total} attractions<span class="script">in {len(a["countries"])} countries</span></h2><div class="orn left"><span></span></div>
+<div class="wons">{won}</div>
+<div class="ctys">{cards}</div>
+{f'<div class="unesco"><h3 class="sub" style="margin:0 0 2mm">{len(a["unesco"])} UNESCO World Heritage Sites on this tour</h3><div>{un}</div></div>' if un else ""}
+</div></div>'''
+ACSS="""
+.wons{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm;margin-bottom:4mm}
+.won{position:relative;text-align:center}.won b{display:block;font-family:'Playfair Display';font-size:10.5pt;color:var(--plum);margin-top:1.2mm}
+.won .wb{position:absolute;left:2mm;right:2mm;top:31mm;background:linear-gradient(90deg,var(--coral),var(--orange));color:#fff;border-radius:5mm;font-family:Montserrat;font-weight:700;font-size:6.6pt;padding:1mm 2mm;line-height:1.15}
+.ctys{display:grid;grid-template-columns:1fr 1fr;gap:2.6mm}
+.cty{background:#fff;border-radius:3mm;padding:2.4mm 3.5mm;box-shadow:0 .6mm 2mm rgba(58,20,82,.1);border-left:1.2mm solid var(--gold)}
+.cty .ch{display:flex;justify-content:space-between;align-items:center;margin-bottom:.8mm}
+.cty .ch b{font-family:Montserrat;font-size:9.4pt;color:var(--plum);text-transform:uppercase;letter-spacing:.3mm}
+.cty .ch span{background:var(--coral);color:#fff;font-family:Montserrat;font-weight:800;font-size:8.5pt;border-radius:4mm;padding:.4mm 2.6mm}
+.cty p{font-size:7.7pt;line-height:1.42}
+.unesco{margin-top:3.5mm;background:linear-gradient(135deg,var(--plum3),var(--plum2));border-radius:3mm;padding:3mm 4mm}
+.unesco h3{color:var(--gold2)!important}
+.unesco div{display:flex;flex-wrap:wrap;gap:1.4mm}
+.unesco div span{border:.3mm solid rgba(246,213,139,.7);color:#fff;border-radius:4mm;padding:.6mm 2.4mm;font-size:7.2pt;font-family:Montserrat;font-weight:600}
+"""
 def daypage(pk,d,rows,n,T):
     tr=[]
     for r in rows:
@@ -155,8 +182,8 @@ def daypage(pk,d,rows,n,T):
 </div></div>'''
 def places(pk,n,T):
     ps=pk["places"]; cells="".join(f'<div class="phbox" style="height:{"74mm" if len(ps)<=6 else "60mm"};border-radius:3mm">{img(k)}<div class="cap">{E(t)}<small>{E(s)}</small></div></div>' for k,t,s in ps)
-    return f'''<div class="page">{chrome(pk,"Holy Places You Will Visit","Darshan, history and natural beauty",n,T)}<div class="body">
-<h2 class="sec-title">Sacred places<span class="script">on this yatra</span></h2><div class="orn left"><span></span></div>
+    return f'''<div class="page">{chrome(pk,*pk.get("places_header",("Holy Places You Will Visit","Darshan, history and natural beauty")),n,T)}<div class="body">
+<h2 class="sec-title">{E(pk.get("places_title",("Sacred places","on this yatra"))[0])}<span class="script">{E(pk.get("places_title",("Sacred places","on this yatra"))[1])}</span></h2><div class="orn left"><span></span></div>
 <div class="grid3" style="gap:3.5mm">{cells}</div></div></div>'''
 def flights_card(pk):
     if not pk["flights"]: return ""
@@ -193,9 +220,9 @@ def mealpage(pk,rows,n,T):
 <table class="tl ml" style="font-size:8.2pt">{tr}</table></div></div>'''
 def why(pk,n,T):
     w="".join(f'<div class="wrow"><div class="wnum">{i+1}</div><div><b>{E(a)}</b><span>{E(b)}</span></div></div>' for i,(a,b) in enumerate(pk["why"]))
-    ex="".join(f'<div class="exp"><div class="ico">{ICONS[i]}</div><span>{E(x)}</span></div>' for i,x in enumerate(EXPERIENCES))
+    ex="".join(f'<div class="exp"><div class="ico">{ICONS[i]}</div><span>{E(x)}</span></div>' for i,x in enumerate(pk["experiences"]))
     return f'''<div class="page" style="background:linear-gradient(160deg,var(--plum3),var(--plum2) 70%,#7a2a8f)">{chrome(pk,"Why Punya Kshetras","Nourish your soul on sacred journeys",n,T)}<div class="body" style="color:#fff">
-<h2 class="sec-title" style="color:#fff">How we are<span class="script" style="color:var(--gold2)">different</span></h2><div class="orn left"><span></span></div>
+<h2 class="sec-title" style="color:#fff">{E(pk["why_title"][0])}<span class="script" style="color:var(--gold2)">{E(pk["why_title"][1])}</span></h2><div class="orn left"><span></span></div>
 <div class="wgrid">{w}</div>
 <h3 class="sub" style="color:var(--gold2);margin-top:7mm">Curated special experiences</h3>
 <div class="exps">{ex}</div>
@@ -258,10 +285,11 @@ def brochure(pk):
     rows=load_rows(pk)
     pages=[]
     meals_n=len([r for r in rows if r[3] in ('Breakfast','Lunch','Dinner')])
-    T=6+len(pk["daypages"])+3+(1 if meals_n>12 else 0)
+    T=6+len(pk["daypages"])+3+(1 if meals_n>12 else 0)+(1 if pk["attractions"] else 0)
     pages.append(cover(pk))
     pages.append(welcome(pk,2,T)); pages.append(journey(pk,3,T))
     n=4
+    if pk["attractions"]: pages.append(attractions(pk,n,T)); n+=1
     for d in pk["daypages"]: pages.append(daypage(pk,d,rows,n,T)); n+=1
     pages.append(places(pk,n,T)); n+=1
     pages.append(incl(pk,rows,n,T)); n+=1
@@ -272,7 +300,7 @@ def brochure(pk):
     html_so_far="".join(pages); used=set(k for k in IMG if IMG[k].get("credit") and IMG[k]["src"] in html_so_far)
     credits="; ".join(sorted(set(IMG[k]["credit"] for k in used)))
     pages.append(back(pk,n,T,credits))
-    css=open("style.css").read()+CSS_EXTRA+COVER_CSS+JCSS+WCSS+FCSS+TCSS+BCSS
+    css=open("style.css").read()+ACSS+CSS_EXTRA+COVER_CSS+JCSS+WCSS+FCSS+TCSS+BCSS
     return f'<!doctype html><html><head><meta charset="utf-8"><title>{E(pk["title"])} {E(pk["title2"])}</title><style>{css}</style></head><body>{"".join(pages)}{FIT}</body></html>'
 if __name__=="__main__":
     open("brochure.html","w").write(brochure(PK)); print("wrote brochure.html")

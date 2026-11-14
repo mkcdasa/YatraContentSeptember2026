@@ -45,11 +45,11 @@ def poster(pk):
     c=pk["poster"]
     circ="".join(f'<div class="circ" style="left:{x}px"><img src="{IMG[k]["src"]}"></div>' for k,x in zip(c["circ"],[70,445,820]))
     hl="".join(f"<div>{E(h)}</div>" for h in c["hl"])
-    ex="".join(f'<div><div class="i">{ICONS[i]}</div>{E(x)}</div>' for i,x in enumerate(EXPERIENCES))
+    ex="".join(f'<div><div class="i">{ICONS[i]}</div>{E(x)}</div>' for i,x in enumerate(pk["experiences"]))
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="po">
 <div class="bg"><img src="{IMG[c["hero"]]["src"]}" style="object-position:{c["pos"]}"></div><div class="sh"></div>
 <div class="top"><div class="lg"><img src="brand/hkgt_logo.png"></div><img class="seal" src="brand/seal.png"><div class="lg"><img src="brand/pk_logo.png"></div></div>
-<div class="tt"><div class="kick">{HELI if pk["show_heli_icon"] else ""}{E(c["kicker"])}</div><h1>{E(pk["title"])}</h1><div class="t2">{E(pk["title2"])}</div><div class="with">{E(WITH_LINE)}</div></div>
+<div class="tt"><div class="kick">{HELI if pk["show_heli_icon"] else ""}{E(c["kicker"])}</div><h1>{E(pk["title"])}</h1><div class="t2">{E(pk["title2"])}</div><div class="with">{E(pk["with_line"])}</div></div>
 {circ}
 <div class="when"><span class="dates">{E(pk["dates"])}</span><span class="dur">{E(pk["duration"])}</span><div class="route">{E(pk["tagline"])}</div><div><span class="price">{E(pk["price"])} <small>{E(c["price_small"])}</small></span>{f'<span class="reg">{c["reg"]}</span>' if c["reg"] else ""}</div></div>
 <div class="hl">{hl}</div>

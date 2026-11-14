@@ -1,14 +1,16 @@
-# Package spec: London & Europe Yatra, 17 April – 2 May 2027 (15 nights / 16 days, 8 countries by coach).
+# Package spec: London & Europe Grand Tour, 17 April – 2 May 2027 (15 nights / 16 days, 8 countries by coach).
+# General-audience edition (team request, Nov 2026): sells the sights, wonders and comfort to any Indian traveller;
+# temple visits stay in the plan but are not the headline.
 # Built with the punya-kshetras-brand skill. Field reference: .claude/skills/punya-kshetras-brand/engine/PACKAGE_SPEC.md
-# Schedule: python3 make_rows.py (from ../itinerary_data.py) → rows.json
+# Schedule: python3 make_rows.py (from ../itinerary_data.py) → rows.json ; photos: python3 make_imgmap.py
 # Build:    bash ../../../.claude/skills/punya-kshetras-brand/engine/build.sh .
-# Team decisions kept here: price includes international flights; no driver tips or optional extras;
-# no "Who can join" box; no photo credits printed; daily 07:30 programme, 08:00–09:00 breakfast, 09:00 departure.
+# Team decisions kept: price includes international flights; no driver tips or optional extras; no "Who can join" box;
+# no photo credits printed; daily 07:30 programme, 08:00–09:00 breakfast, 09:00 departure.
 PKG = {
  'key': 'ley27',
- 'slug': 'London-Europe-Yatra-16D-17-April-2-May-2027',
+ 'slug': 'London-Europe-Grand-Tour-16D-17-April-2-May-2027',
  'title': 'London & Europe',
- 'title2': 'Yatra',
+ 'title2': 'Grand Tour',
  'tagline': 'UK · France · Belgium · Netherlands · Germany · Switzerland · Italy · Vatican',
  'dates': '17 April – 2 May 2027',
  'dates_long': 'Saturday 17 April – Sunday 2 May 2027',
@@ -18,179 +20,228 @@ PKG = {
  'days': 16,
  'price': '₹5,49,000',
  'gst_note': '+ 5% GST + 2% TCS',
- 'price_note': 'per person · all-inclusive · including international flights · the 2% TCS is credited back through your income-tax return',
- 'seats_note': 'Limited seats.',
- 'kicker': '8 Countries · 10 ISKCON Temples',
+ 'price_note': 'per person · all-inclusive · including international flights & visas · the 2% TCS is credited back through your income-tax return',
+ 'seats_note': 'Limited seats – one coach only.',
+ 'kicker': '8 Countries · 60+ Attractions',
+ 'with_line': 'Escorted group tour from Hyderabad & Bangalore',
+ 'greeting': 'Namaste!',
+ 'closing': 'Bon voyage!',
  'hero': 'towerbridge',
- 'hero_pos': '50% 40%',
- 'cover_circles': [('manor', 'left:12mm;top:146mm'), ('eiffel', 'left:83mm;top:156mm'), ('titlis', 'left:154mm;top:146mm')],
- 'cover_feats': ['International flights included', '8 countries by coach', '10 ISKCON temples',
-                 'Snow on Mount Titlis', 'Vatican & Colosseum', 'Kirtan & sthala purana'],
- 'stats': [(16, 'Days'), (15, 'Nights'), (8, 'Countries'), (10, 'ISKCON temples'), ('4,000', 'Km by coach')],
- 'intro': "Travel with Hare Krishna devotees through eight countries in sixteen days. Take darshan at ten ISKCON temples, "
-          "beginning with Srila Prabhupada's Bhaktivedanta Manor and the castle temple of Radhadesh, and see Europe's great "
-          "sights, from the Tower of London and the Eiffel Tower to the snows of Mount Titlis, Venice and the Vatican. "
-          "Flights, visas, hotels, meals and sightseeing are all included.",
- 'highlights': ['Bhaktivedanta Manor Sunday feast',
-                'ISKCON Soho & Akshaya Patra',
-                'Changing of the Guard · Koh-i-Noor',
-                'Eiffel Tower, Louvre & Seine',
-                'Radhadesh castle temple',
-                'Keukenhof tulips · Amsterdam',
-                'Goloka Dham · Black Forest',
-                'Snow on Mount Titlis',
-                'Lake Como · Venice gondola',
-                'Vatican, Colosseum & Pisa'],
+ 'hero_pos': '50% 45%',
+ 'cover_circles': [('colosseum', 'left:12mm;top:146mm'), ('eiffel', 'left:83mm;top:156mm'), ('titlis', 'left:154mm;top:146mm')],
+ 'cover_feats': ['Flights & visas included', '60+ attractions', '11 UNESCO World Heritage Sites',
+                 'Indian vegetarian meals', 'Indian tour manager', 'Senior-friendly pace'],
+ 'stats': [(16, 'Days'), (8, 'Countries'), ('60+', 'Attractions'), (11, 'UNESCO sites'), ('4,000', 'Km by coach')],
+ 'welcome_title': ('Your dream holiday', 'to London & Europe'),
+ 'welcome_img': 'eiffel',
+ 'welcome_cap': 'The Eiffel Tower, Paris – you go up to the 2nd floor on Day 5',
+ 'quote': ('Travel is fatal to prejudice, bigotry, and narrow-mindedness.', 'The Innocents Abroad, 1869'),
+ 'quote_by': 'Mark Twain',
+ 'intro': "See the best of Europe in one unforgettable journey: 8 countries, 60+ attractions and 11 UNESCO World Heritage "
+          "Sites in 16 days. Stand before the Colosseum, one of the New 7 Wonders of the World, and the Leaning Tower of "
+          "Pisa; go up the Eiffel Tower; see the Koh-i-Noor at the Tower of London; touch the snow on Mount Titlis; ride a "
+          "gondola in Venice and walk into the Sistine Chapel. Flights, visas, hotels, Indian vegetarian meals, entry "
+          "tickets and a private coach are all included, so you simply pack and enjoy.",
+ 'org_line': "Organised by Punya Kshetras, the travel service of Hare Krishna Golden Temple, Hyderabad: a trusted, "
+             "family-friendly group tour with an Indian tour manager, home-style Indian vegetarian food every day and "
+             "special care for seniors.",
+ 'hl_title': 'Tour highlights',
+ 'highlights': ['Eiffel Tower, Louvre & Seine cruise',
+                'Colosseum, Trevi Fountain & Pantheon',
+                "Vatican, Sistine Chapel & St Peter's",
+                'Leaning Tower of Pisa & Florence',
+                'Venice gondola & St Mark’s Square',
+                'Snow on Mount Titlis & Lucerne',
+                'Lake Como boat ride · Milan Duomo',
+                'Tower of London & the Koh-i-Noor',
+                'London Eye · Madame Tussauds',
+                'Keukenhof tulips · Amsterdam canals',
+                'Rhine Falls · Black Forest',
+                'Atomium & Grand Place, Brussels'],
  'stays': [('London', '3 Nights'), ('Paris', '2 Nights'), ('Benelux', '2 Nights'),
            ('Germany', '2 Nights'), ('Switzerland', '2 Nights'), ('Italy', '4 Nights')],
  'best': 'Late April is spring: tulips at their peak, long evenings, 15–21 °C by day and 6–11 °C at night. '
          'Mount Titlis is below zero, so carry a warm jacket and gloves.',
  'stops': [('Hyderabad / Bangalore', 'Flights on 17 April', 'Flight', 'via Dubai / Abu Dhabi'),
-           ('London', '3 nights · Manor · Tower · London Eye', 'Coach + ferry', 'Dover → Calais'),
-           ('Paris', '2 nights · Eiffel Tower · Louvre · ISKCON Paris', 'Coach', '320 km'),
-           ('Brussels & Radhadesh', 'Atomium · Grand Place · castle temple', 'Coach', '310 km'),
-           ('Amsterdam', 'Canals · windmills · Keukenhof', 'Coach', '260 km'),
-           ('Cologne & Goloka Dham', 'Cathedral · ISKCON Cologne · Sunday feast', 'Coach', '480 km'),
-           ('Black Forest & Zurich', 'Titisee · Rhine Falls · ISKCON Zurich', 'Coach', '85 km'),
-           ('Titlis, Lucerne & Interlaken', 'Snow · Lion Monument · lake cruise', 'Coach', '380 km'),
-           ('Lake Como & Milan', 'Villaggio Hare Krishna · Duomo', 'Coach', '300 km'),
-           ('Venice', 'Prabhupada Desh · Padova · gondola', 'Train', '4 h'),
-           ('Rome, Vatican & Florence', "St Peter's · Colosseum · Villa Vrindavan", 'Coach', '300 km'),
+           ('London', '3 nights · Tower · London Eye · Buckingham Palace', 'Coach + ferry', 'Dover → Calais'),
+           ('Paris', '2 nights · Eiffel Tower · Louvre · Seine cruise', 'Coach', '320 km'),
+           ('Brussels & the Ardennes', 'Atomium · Grand Place · fairy-tale château', 'Coach', '310 km'),
+           ('Amsterdam', 'Canal cruise · windmills · Keukenhof tulips', 'Coach', '260 km'),
+           ('Cologne', 'Cologne Cathedral · Hohenzollern Bridge', 'Coach', '480 km'),
+           ('Black Forest & Zurich', 'Lake Titisee · Rhine Falls · Zurich', 'Coach', '85 km'),
+           ('Titlis, Lucerne & Interlaken', 'Snow · Chapel Bridge · lake cruise', 'Coach', '380 km'),
+           ('Lake Como & Milan', 'Lake boat ride · Milan Duomo', 'Coach', '300 km'),
+           ('Venice', 'Gondola · St Mark’s Square · Padova', 'Train', '4 h'),
+           ('Rome, Vatican & Florence', 'Colosseum · Sistine Chapel · Ponte Vecchio', 'Coach', '300 km'),
            ('Pisa & Milan Malpensa', 'Leaning Tower · flights home on 2 May', '', '')],
- 'journey_photos': [('towerbridge', 'Tower Bridge, London'), ('titlis', 'Mount Titlis, Switzerland'), ('venice', 'Venice, Italy')],
+ 'journey_photos': [('colosseum', 'Colosseum, Rome'), ('eiffelnight', 'Eiffel Tower by night'), ('lucerne', 'Lucerne, Switzerland')],
+ 'attractions': {
+   'header': 'Wonders & Attractions', 'sub': 'Everything below is included in the price',
+   'wonders': [('colosseum', 'Colosseum, Rome', 'New 7 Wonders of the World'),
+               ('pisa', 'Leaning Tower of Pisa', 'Wonder of the Medieval World'),
+               ('eiffel', 'Eiffel Tower, Paris', '330 m icon of the world'),
+               ('sistine', 'Sistine Chapel', "Michelangelo's masterpiece")],
+   'countries': [
+     ('United Kingdom', ['Buckingham Palace', 'Changing of the Guard', "The King's Gallery", 'Tower of London',
+                         'Crown Jewels & Koh-i-Noor', 'Tower Bridge', 'Thames boat ride', 'London Eye',
+                         'Big Ben & Houses of Parliament', 'Madame Tussauds', 'Covent Garden', 'White Cliffs of Dover']),
+     ('France', ['Eiffel Tower (2nd floor)', 'Arc de Triomphe', 'Champs-Élysées', 'Place de la Concorde',
+                 'Notre-Dame', 'Latin Quarter', 'Louvre & Mona Lisa', 'Seine river cruise']),
+     ('Belgium', ['Atomium', 'Grand Place', 'Manneken Pis', 'Royal Galleries', 'Château in the Ardennes']),
+     ('Netherlands', ['Amsterdam canal cruise', 'Zaanse Schans windmills', 'Clog & cheese workshops', 'Keukenhof tulip gardens']),
+     ('Germany', ['Cologne Cathedral', 'Hohenzollern Bridge', 'Black Forest drive', 'Lake Titisee', 'Cuckoo-clock shops']),
+     ('Switzerland', ['Rhine Falls', 'Zurich old town', 'Lake Zurich', 'Mount Titlis snow & Rotair', 'Glacier Cave & Cliff Walk',
+                      'Lion Monument', 'Chapel Bridge', 'Lake Lucerne cruise', 'Scenic train to Interlaken', 'Jungfrau view']),
+     ('Italy', ['Lake Como boat ride', 'Milan Duomo', 'Galleria Vittorio Emanuele II', 'Basilica of St Anthony, Padova',
+                "St Mark's Square", 'Venice gondola ride', 'Colosseum (inside)', 'Roman Forum', 'Trevi Fountain', 'Pantheon',
+                'Florence Duomo', 'Ponte Vecchio', 'Piazzale Michelangelo', 'Leaning Tower of Pisa', 'Rome by high-speed train']),
+     ('Vatican City', ['Vatican Museums', 'Sistine Chapel', "St Peter's Basilica", "St Peter's Square"])],
+   'unesco': ['Tower of London', 'Westminster', 'Paris, banks of the Seine', 'Grand Place, Brussels', 'Amsterdam canal ring',
+              'Cologne Cathedral', 'Venice & its lagoon', 'Historic Rome', 'Vatican City', 'Historic Florence', 'Piazza del Duomo, Pisa']},
  'daypages': [
-  {'n': 1, 'title': 'Fly to London · Kamada Ekadasi', 'stay': 'London (Wembley)', 'imgs': ['towerbridge', 'westminster'],
-   'story': 'The Hyderabad group flies Emirates via Dubai and lands at Heathrow at 4:10 pm; the Bangalore group flies Etihad via '
-            'Abu Dhabi and lands at 6:45 pm. Our tour manager meets both groups and takes them by coach to the hotel in Wembley. '
-            'It is Kamada Ekadasi, so fruit meals are arranged on board. The day ends with a welcome kirtan and dinner.',
-   'sig': ('Did you know?', 'Srila Prabhupada first came to London in 1969, and from London the Hare Krishna movement spread across '
-           'Europe. Our yatra follows that path.')},
-  {'n': 2, 'title': 'Akshaya Patra · Bhaktivedanta Manor · Soho', 'stay': 'London (Wembley)', 'imgs': ['manor', 'londoneye'],
-   'story': "Visit the Akshaya Patra kitchen in Watford, then Bhaktivedanta Manor for darshan of Sri Sri Radha-Gokulananda, the "
-            "Sunday programme and feast prasadam. In the afternoon, Madame Tussauds; in the evening, arati at ISKCON Soho and a "
-            "stroll through Covent Garden.",
-   'sig': ('Sacred significance', 'George Harrison gave Bhaktivedanta Manor to ISKCON in 1973. Srila Prabhupada stayed and '
-           'translated there, and Radha-Londonishvara at Soho were the first ISKCON deities installed in the UK (1969).')},
-  {'n': 3, 'title': 'Royal London', 'stay': 'London (Wembley)', 'imgs': ['guard', 'tower'],
-   'story': "The Changing of the Guard at Buckingham Palace and The King's Gallery; the Tower of London with the Crown Jewels and "
-            "the Koh-i-Noor; a walk on Tower Bridge; a Thames boat ride to the London Eye at sunset; then Big Ben and the Houses "
-            "of Parliament.",
-   'sig': ('Did you know?', 'The Koh-i-Noor came from the Kollur mines on the banks of the Krishna river in present-day Andhra '
-           'Pradesh. It is now set in a crown kept in the Jewel House at the Tower of London.')},
-  {'n': 4, 'title': 'London → Dover → ferry → Paris', 'stay': 'Paris', 'imgs': ['dover', 'arc'],
-   'story': 'Coach to Dover and the ferry across the English Channel past the White Cliffs, then on through northern France to '
-            'Paris, with kirtan and the pastimes of Lord Balarama on the way for Balarama Rasayatra.',
-   'sig': ('On the way', 'At Dover, every yatri gives fingerprints and a photo for the new EU entry system. Our team plans '
-           'extra time so the group is never rushed.')},
-  {'n': 5, 'title': 'Paris: Eiffel Tower · Notre-Dame · ISKCON Paris', 'stay': 'Paris', 'imgs': ['eiffel', 'notredame'],
-   'story': 'The Arc de Triomphe and the Champs-Élysées, the Eiffel Tower to the 2nd floor, South Indian lunch, Notre-Dame '
-            'Cathedral, darshan and evening arati at ISKCON Paris, and a night cruise on the Seine past the lit-up city.',
-   'sig': ('Did you know?', 'Srila Prabhupada visited Paris several times in the 1970s and spoke with French students and '
-           'philosophers about the science of the soul.')},
-  {'n': 6, 'title': 'Louvre → Brussels', 'stay': 'Brussels', 'imgs': ['louvre', 'grandplace'],
-   'story': 'A guided morning at the Louvre to see the Mona Lisa and other masterpieces, then on to Belgium: the Atomium, the '
-            'Grand Place with its golden guild houses, and Manneken Pis.',
-   'sig': ('Did you know?', "Brussels' Grand Place is a UNESCO World Heritage Site and is often called one of the most "
-           'beautiful squares in the world.')},
-  {'n': 7, 'title': 'Radhadesh → Amsterdam', 'stay': 'Amsterdam', 'imgs': ['radhadesh', 'amsterdam'],
-   'story': "Darshan, prasadam and a walk in the gardens at ISKCON Radhadesh, a castle temple in the Ardennes hills, then on to "
-            "Amsterdam for an evening cruise on the UNESCO canal ring.",
-   'sig': ('Sacred significance', "Radhadesh, in the Château de Petite Somme, is home to Sri Sri Radha-Gopinatha and is "
-           "ISKCON's main temple and college for the Benelux countries.")},
-  {'n': 8, 'title': 'Windmills & Keukenhof tulips → Cologne', 'stay': 'Cologne', 'imgs': ['keukenhof', 'windmills'],
-   'story': 'The working windmills of Zaanse Schans, then the Keukenhof gardens at peak tulip season, then the drive to Cologne '
-            'and an evening walk to the floodlit cathedral.',
-   'sig': ('Did you know?', 'Keukenhof plants about seven million bulbs each year and opens for only eight weeks in spring. '
+  {'n': 1, 'title': 'Welcome to London', 'stay': 'London (Wembley)', 'imgs': ['bigben', 'westminster2'],
+   'story': 'Fly from Hyderabad (Emirates via Dubai, landing Heathrow 4:10 pm) or Bangalore (Etihad via Abu Dhabi, landing '
+            '6:45 pm). Our tour manager meets you at Heathrow and takes you by private coach to the hotel. Welcome '
+            'get-together, a short briefing and a hot Indian dinner.',
+   'sig': ('Did you know?', '"Big Ben" is really the name of the giant 13.7-tonne bell inside the clock tower. The tower '
+           'itself is called the Elizabeth Tower.')},
+  {'n': 2, 'title': 'Madame Tussauds · Covent Garden · Bhaktivedanta Manor', 'stay': 'London (Wembley)', 'imgs': ['manor', 'londoneye'],
+   'story': "Start at Bhaktivedanta Manor, the mock-Tudor country house that Beatle George Harrison gave to the Hare Krishna "
+            "movement, for its Sunday programme and a grand Indian lunch, after a look inside the Akshaya Patra kitchen in "
+            "Watford. Then pose with Bollywood stars, royals and world leaders at Madame Tussauds, visit the temple in Soho "
+            "and enjoy the street performers of Covent Garden.",
+   'sig': ('Did you know?', 'Madame Tussauds has been on Marylebone Road since 1884. Its Bollywood gallery is one of the most '
+           'popular rooms for Indian visitors.')},
+  {'n': 3, 'title': 'Royal London: Palace, Crown Jewels & London Eye', 'stay': 'London (Wembley)', 'imgs': ['buckingham', 'crownjewels'],
+   'story': "Watch the Changing of the Guard at Buckingham Palace and tour The King's Gallery. At the Tower of London, see "
+            "the Crown Jewels and the famous Koh-i-Noor. Walk across Tower Bridge, cruise up the Thames, ride the London Eye "
+            "at sunset and finish at Big Ben and the Houses of Parliament.",
+   'sig': ('A Hyderabad connection', 'The Koh-i-Noor was mined in the old Golconda kingdom, near our own Hyderabad. Today it '
+           'sits in a crown in the Jewel House at the Tower of London.')},
+  {'n': 4, 'title': 'White Cliffs of Dover → ferry → Paris', 'stay': 'Paris', 'imgs': ['dover', 'arcchamps'],
+   'story': 'Drive to Dover and cross the English Channel by ferry, watching the famous White Cliffs fade behind you, then '
+            'continue through the French countryside to Paris for two nights.',
+   'sig': ('Did you know?', 'The White Cliffs of Dover rise up to 110 m (about 35 storeys) straight out of the sea, and on a '
+           'clear day you can see France from the top.')},
+  {'n': 5, 'title': 'Paris: Eiffel Tower, Notre-Dame & Seine cruise', 'stay': 'Paris', 'imgs': ['eiffel', 'notredame'],
+   'story': 'See the Arc de Triomphe and stroll the Champs-Élysées, then take the lift up the Eiffel Tower to the 2nd floor '
+            'for views across Paris. After a South Indian lunch, visit Notre-Dame and the Latin Quarter, then end the day '
+            'with a night cruise on the Seine past the glittering city.',
+   'sig': ('Did you know?', 'The 330 m Eiffel Tower was the tallest structure in the world for 41 years. At night it sparkles '
+           'with 20,000 lights for five minutes every hour.')},
+  {'n': 6, 'title': 'The Louvre & Mona Lisa → Brussels', 'stay': 'Brussels', 'imgs': ['louvre', 'atomium'],
+   'story': 'A guided morning at the Louvre, the world’s most-visited museum, to see the Mona Lisa, the Venus de Milo and the '
+            'Winged Victory. Drive to Brussels for the giant Atomium, the golden Grand Place and the cheeky Manneken Pis.',
+   'sig': ('Did you know?', 'The Atomium is a 102 m model of an iron crystal, magnified 165 billion times, built for the 1958 '
+           'World Expo.')},
+  {'n': 7, 'title': 'Fairy-tale Château → Amsterdam Canals', 'stay': 'Amsterdam', 'imgs': ['radhadesh', 'amsterdam'],
+   'story': 'Drive into the green Ardennes hills to the Château de Petite Somme, a fairy-tale castle that is home to the '
+            'Radhadesh temple, for lunch and a walk in its gardens. Continue to Amsterdam for an evening canal cruise past '
+            'tall gabled houses.',
+   'sig': ('Did you know?', 'Amsterdam has 165 canals and about 1,500 bridges, and its 17th-century canal ring is a UNESCO '
+           'World Heritage Site.')},
+  {'n': 8, 'title': 'Windmills & Keukenhof Tulips → Cologne', 'stay': 'Cologne', 'imgs': ['keukenhof', 'zaanse'],
+   'story': 'See working windmills, clog-making and a cheese farm at Zaanse Schans, then spend the afternoon among millions of '
+            'tulips at Keukenhof, the world’s most famous flower garden. Drive on to Cologne and walk to its floodlit cathedral.',
+   'sig': ('Did you know?', 'Keukenhof plants about 7 million bulbs every year and is open for only eight weeks in spring. '
            'Late April is the best time to see it.')},
-  {'n': 9, 'title': 'Cologne · Goloka Dham → Black Forest', 'stay': 'Titisee (Black Forest)', 'imgs': ['cologne', 'cologne2'],
-   'story': "Cologne Cathedral and ISKCON Cologne, then the Sunday programme and feast at Goloka Dham, ISKCON's rural centre in "
-            "Germany, and on to the Black Forest for the night.",
-   'sig': ('Sacred significance', 'Goloka Dham is a peaceful farm community in the hills near Trier, where devotees live simply, protect '
-           'cows and serve the deities.')},
-  {'n': 10, 'title': 'Titisee · Rhine Falls → Zurich', 'stay': 'Zurich', 'imgs': ['rhinefalls', 'rhinefalls2'],
-   'story': "Lake Titisee and the Black Forest cuckoo-clock shops, the thundering Rhine Falls, an orientation of Zurich's old "
-            "town, then darshan, arati and kirtan with the Swiss devotees at ISKCON Zurich.",
-   'sig': ('Did you know?', 'The Rhine Falls is the largest waterfall in Europe by volume, and it is at its strongest in spring '
-           'when the Alpine snow melts.')},
-  {'n': 11, 'title': 'Mount Titlis · Lucerne → Interlaken', 'stay': 'Interlaken', 'imgs': ['titlis', 'lucerne'],
-   'story': "Up Mount Titlis by the revolving Rotair cable car for snow, the glacier cave and the Alpine views; Lucerne's Lion "
-            "Monument and Chapel Bridge; a one-hour lake cruise; and a scenic train to Interlaken.",
-   'sig': ('Did you know?', 'The Rotair was the first revolving cable car in the world. It turns a full circle on the way up '
-           'to 3,020 m.')},
-  {'n': 12, 'title': 'Interlaken → Lake Como → Milan', 'stay': 'Milan', 'imgs': ['titlis2', 'lucerne2'],
-   'story': 'A morning view of the snowy Jungfrau, then through the Alps by the Gotthard to Italy: a boat ride on Lake Como and '
-            'darshan, arati and kirtan at Villaggio Hare Krishna.',
-   'sig': ('Sacred significance', "Villaggio Hare Krishna is ISKCON's oldest farm community in Italy, a village of devotees "
-           'in the hills near Bergamo.')},
-  {'n': 13, 'title': 'Milan Duomo · Prabhupada Desh · Venice', 'stay': 'Venice-Mestre', 'imgs': ['venice', 'venice2'],
-   'story': "Milan's great cathedral, prasadam at ISKCON Prabhupada Desh, the Basilica of St Anthony in Padova, and an evening "
-            "in Venice: St Mark's Square and a gondola ride.",
-   'sig': ('Sacred significance', 'Prabhupada Desh is a devotee community in the Berici hills near Vicenza, named in honour of '
-           'Srila Prabhupada.')},
-  {'n': 14, 'title': 'Rome & the Vatican by high-speed train', 'stay': 'Florence', 'imgs': ['vatican', 'colosseum'],
-   'story': "An early high-speed train to Rome: the Vatican Museums and the Sistine Chapel with licensed guides, St Peter's "
-            "Basilica, the Colosseum and the Trevi Fountain, then the train to Florence for the night.",
-   'sig': ('Did you know?', 'The Vatican is the smallest country in the world, and the eighth country on our yatra.')},
-  {'n': 15, 'title': 'Florence · Villa Vrindavan · Pisa', 'stay': 'Near Milan Malpensa airport', 'imgs': ['pisa', 'pisa2'],
-   'story': "Florence's Duomo, Piazza della Signoria and Ponte Vecchio, the panorama from Piazzale Michelangelo, prasadam at "
-            "ISKCON Villa Vrindavan, and the Leaning Tower of Pisa, then a farewell dinner near Milan Malpensa.",
-   'sig': ('Sacred significance', 'Villa Vrindavan is a 16th-century Tuscan villa among vineyards, home to a thriving '
-           'community of devotees.')},
-  {'n': 16, 'title': 'Flights home · Varuthini Ekadasi', 'stay': None, 'imgs': ['towerbridge', 'titlis'],
-   'story': 'After an early breakfast, the group checks in at Milan Malpensa for Etihad via Abu Dhabi, landing in Hyderabad and '
-            'Bangalore early on Monday 3 May. It is Varuthini Ekadasi, so fruit meals are arranged on board.',
-   'sig': ('Parting prayer', 'We return home carrying the memories of the holy places, the association of devotees and the '
-           'mercy of Srila Prabhupada, who brought Krishna to every town and village of the world.')}],
- 'places': [('manor', 'Bhaktivedanta Manor', "Srila Prabhupada's home in England"),
-            ('radhadesh', 'Radhadesh, Belgium', 'ISKCON castle temple in the Ardennes'),
-            ('towerbridge', 'Tower Bridge, London', 'Thames boat ride and the Tower'),
+  {'n': 9, 'title': 'Cologne Cathedral → the Black Forest', 'stay': 'Titisee (Black Forest)', 'imgs': ['cologne', 'cologne2'],
+   'story': 'See the soaring Cologne Cathedral by day, visit the Hare Krishna temple in Cologne and a peaceful farm community '
+            'in the countryside for Sunday lunch, then drive south into the Black Forest for the night.',
+   'sig': ('Did you know?', 'Cologne Cathedral took 632 years to finish (1248–1880). Its twin spires are 157 m tall.')},
+  {'n': 10, 'title': 'Lake Titisee · Rhine Falls → Zurich', 'stay': 'Zurich', 'imgs': ['rhinefalls', 'zurich'],
+   'story': "Walk by Lake Titisee and watch a cuckoo-clock demonstration, then feel the spray of the mighty Rhine Falls. "
+            "In Zurich, stroll the Bahnhofstrasse and the lake promenade, and visit the city's Hare Krishna temple.",
+   'sig': ('Did you know?', 'The Rhine Falls is the most powerful waterfall in Europe. In spring, when the Alpine snow melts, '
+           'it is at its mightiest.')},
+  {'n': 11, 'title': 'Snow on Mount Titlis · Lucerne → Interlaken', 'stay': 'Interlaken', 'imgs': ['titlis', 'lucerne'],
+   'story': "Ride the revolving Rotair cable car up Mount Titlis to play in the snow, walk through the Glacier Cave and cross "
+            "the Cliff Walk. In Lucerne, see the Lion Monument and Chapel Bridge, cruise the lake for an hour and take a "
+            "scenic train to Interlaken.",
+   'sig': ('Did you know?', 'The Rotair was the world’s first revolving cable car, and the Titlis Cliff Walk is Europe’s '
+           'highest suspension bridge, at over 3,000 m.')},
+  {'n': 12, 'title': 'Swiss Alps → Lake Como → Milan', 'stay': 'Milan', 'imgs': ['interlaken', 'como'],
+   'story': 'Wake up to views of the snowy Jungfrau, then drive through the Swiss Alps by the Gotthard into Italy. Take a boat '
+            'ride on beautiful Lake Como, visit a hilltop village community near Bergamo and arrive in Milan.',
+   'sig': ('Did you know?', 'Lake Como is over 400 m deep, one of the deepest lakes in Europe, and its villas have starred in '
+           'Hollywood films such as Casino Royale.')},
+  {'n': 13, 'title': 'Milan Duomo · Padova → Venice Gondola', 'stay': 'Venice-Mestre', 'imgs': ['milan', 'venice'],
+   'story': 'Admire the marble Milan Duomo and the glass-roofed Galleria, have lunch in the Berici hills, visit the Basilica '
+            "of St Anthony in Padova, then sail into Venice for St Mark's Square and a gondola ride on the canals.",
+   'sig': ('Did you know?', 'Venice is built on 118 small islands linked by more than 400 bridges, and there are no cars at '
+           'all: everyone travels by boat or on foot.')},
+  {'n': 14, 'title': 'Rome & the Vatican in a Day', 'stay': 'Florence', 'imgs': ['stpeters', 'colosseum'],
+   'story': "Take a high-speed train to Rome. With licensed guides, see the Vatican Museums, the Sistine Chapel and St Peter's "
+            "Basilica, then go inside the Colosseum, toss a coin into the Trevi Fountain and see the Pantheon before the "
+            "train to Florence.",
+   'sig': ('Did you know?', 'The Colosseum held about 50,000 spectators and was voted one of the New 7 Wonders of the World in '
+           '2007. The Vatican is the smallest country on earth – our 8th country.')},
+  {'n': 15, 'title': 'Florence & the Leaning Tower of Pisa', 'stay': 'Near Milan Malpensa airport', 'imgs': ['florence', 'pisa'],
+   'story': "Explore Florence, the cradle of the Renaissance: the Duomo, Piazza della Signoria and Ponte Vecchio, and the "
+            "postcard view from Piazzale Michelangelo. Lunch at a Tuscan villa among vineyards, then on to Pisa for the "
+            "famous photo with the Leaning Tower, and a farewell dinner near Milan.",
+   'sig': ('Did you know?', 'The Leaning Tower of Pisa leans about 4 degrees. It began tilting while it was still being built, '
+           'more than 800 years ago.')},
+  {'n': 16, 'title': 'Flights Home with a Lifetime of Memories', 'stay': None, 'imgs': ['eiffelnight', 'colosseumair'],
+   'story': 'After an early breakfast, check in at Milan Malpensa for Etihad via Abu Dhabi, landing in Hyderabad and '
+            'Bangalore early on Monday 3 May.',
+   'sig': ('Your tour in numbers', '16 days · 8 countries · 60+ attractions · 11 UNESCO World Heritage Sites · about 4,000 km '
+           'by private coach, plus ferry, boats and high-speed trains.')}],
+ 'places_header': ('Picture-Perfect Moments', 'The sights you will remember for life'),
+ 'places_title': ('Postcard moments', 'waiting for you'),
+ 'places': [('colosseum', 'Colosseum, Rome', 'New 7 Wonders of the World'),
             ('eiffel', 'Eiffel Tower, Paris', 'Up to the 2nd floor'),
-            ('keukenhof', 'Keukenhof, Netherlands', 'Tulips at their spring peak'),
+            ('pisa', 'Leaning Tower of Pisa', 'The famous photo stop'),
+            ('stpeters2', "St Peter's, Vatican", 'Vatican Museums & Sistine Chapel'),
+            ('venice', 'Venice', "Gondola ride and St Mark's Square"),
             ('titlis', 'Mount Titlis', 'Snow at 3,020 m'),
-            ('venice', 'Venice', "Gondola ride and St Mark's"),
-            ('vatican', "St Peter's, Vatican", 'Vatican Museums & Sistine Chapel'),
-            ('pisa', 'Pisa', 'The Leaning Tower and Square of Miracles')],
+            ('keukenhof', 'Keukenhof', 'Millions of spring tulips'),
+            ('towerbridge', 'Tower Bridge, London', 'Thames boat ride and the Tower'),
+            ('como', 'Lake Como', 'Boat ride among villas')],
  'incl': ['International flights from Hyderabad or Bangalore (economy, group fares)',
           'UK and Schengen visa charges',
           '15 nights in hotels, twin sharing',
-          'All meals – pure-vegetarian sattvic prasadam, no onion or garlic; Ekadasi meals',
+          'All meals – Indian vegetarian, breakfast, lunch and dinner',
           'Private coach throughout, Dover–Calais ferry, all boats and the Swiss and Italian trains in the plan',
-          'All sightseeing and entry tickets in the itinerary',
-          'Experienced tour manager and licensed local guides',
-          'Daily kirtan, japa and sthala purana with temple devotees'],
+          'Entry tickets to every attraction in the itinerary',
+          'Indian tour manager throughout and licensed local guides'],
  'excl': ['GST 5% and TCS 2%', 'Personal expenses and shopping', 'Anything not listed under inclusions'],
  'flights': ['Hyderabad group: Emirates via Dubai, Sat 17 April, landing Heathrow 4:10 pm',
              'Bangalore group: Etihad via Abu Dhabi, Sat 17 April, landing Heathrow 6:45 pm',
              'Return: Etihad from Milan Malpensa via Abu Dhabi, Sun 2 May; landing Mon 3 May'],
  'flights_title': 'Flights · booked by us',
- 'meal_note': 'All breakfasts, lunches and dinners are included: pure-vegetarian sattvic prasadam with no onion or garlic, '
-              'at hotels, temples and selected Indian restaurants. Fruit meals on both Ekadasi travel days.',
- 'why': [('Sattvic food', 'Pure-vegetarian prasadam every day, no onion or garlic, at hotels, temples and Indian restaurants'),
-         ('Pre-approved stays', 'Hotels checked and approved by Punya Kshetras, not booked blind'),
-         ('Comfortable transport', 'One private coach with experienced drivers, plus ferry, boats and trains'),
-         ('Care for seniors', 'Seats near the front, lifts and wheelchairs where needed, unhurried pace'),
-         ('Narration by devotees', 'Sthala purana and the glories of each holy place, in Telugu, Hindi and English'),
-         ('Family-like yatra', 'Kirtan, japa and satsang every day with ISKCON Hare Krishna devotees'),
-         ('No hidden charges', 'All-inclusive: flights, visas, stays, meals, tickets and transfers in one clear price')],
- 'extra_terms': [('Visas', 'UK and Schengen visas are applied for by each yatri with our help; the visa fees are included. '
-                  'Please give us your documents on time. If a visa is refused, the cancellation terms apply to the costs '
-                  'already paid to airlines and hotels.'),
+ 'meal_note': 'All breakfasts, lunches and dinners are included: home-style Indian vegetarian food at hotels and selected '
+              'Indian restaurants, so you never have to hunt for a meal abroad. No onion or garlic on request.',
+ 'why_title': ('Why travel', 'with us'),
+ 'experiences': ['Music & fun on the coach', 'Expert guides & stories', 'Comfortable hotels', 'Relaxed pace',
+                 'Special care for seniors', 'Indian vegetarian food'],
+ 'why': [('Everything included', 'Flights, visas, hotels, meals, entry tickets and transfers in one clear price'),
+         ('Indian food every day', 'Home-style vegetarian breakfast, lunch and dinner – no hunting for food abroad'),
+         ('Indian tour manager', 'One person who speaks your language looks after you from Hyderabad to home'),
+         ('Care for seniors', 'Seats near the front, lifts and wheelchairs where needed, an unhurried pace'),
+         ('Visa help', 'We guide you through the UK and Schengen visa paperwork, step by step'),
+         ('Family-like group', 'Travel with like-minded Indian families; make friends for life'),
+         ('Trusted organiser', 'Run by Hare Krishna Golden Temple, Hyderabad, with years of group-tour experience')],
+ 'extra_terms': [('Visas', 'UK and Schengen visas are applied for by each traveller with our help; the visa fees are '
+                  'included. Please give us your documents on time. If a visa is refused, the cancellation terms apply to '
+                  'the costs already paid to airlines and hotels.'),
                  ('Flights & connections', 'Flights are booked on group fares and cannot be changed. If an airline, train '
                   'or ferry changes its schedule or a strike affects travel, our team will arrange the best alternative.')],
  'faq_common': [('What do I need for the visa?', 'A passport valid 3+ months after 3 May 2027 with 2 blank pages, Schengen-size '
                  'photos, income-tax returns, bank statements and a covering letter. We guide you through every step.'),
-                ('What food is served?', 'Pure-vegetarian sattvic prasadam throughout, no onion or garlic, and fruit meals on '
-                 'Ekadasi.')],
+                ('What food is served?', 'Indian vegetarian food for every meal, at hotels and Indian restaurants. No onion '
+                 'or garlic on request.')],
  'faq': [('How much walking is there?', 'City days have 10,000–15,000 steps at an easy pace. The coach drops us close to each '
           'place, and lifts are used wherever available.'),
-         ('Will my phone work?', 'Take an international roaming pack or a Europe + UK eSIM. Check that Switzerland is covered.')],
+         ('Will there be time for shopping?', 'Yes – Covent Garden, the Champs-Élysées, Lucerne, Venice and Florence all have '
+          'free time for shopping and photos.')],
  'pack': ['Passport, visa copies, photo ID',
           'Warm jacket, gloves, woollen cap',
           'Walking shoes already broken in',
           'Raincoat or umbrella',
           'Personal medicines with prescriptions',
           'Universal plug adapter, power bank',
-          'Ekadasi snacks for 17 April and 2 May'],
+          'Sunglasses and a cap'],
  'dos': ['Carry your passport on travel days',
          'Be at the coach 5 minutes early',
          'Dress modestly for churches and the Vatican',
@@ -199,22 +250,22 @@ PKG = {
          'Drink plenty of water'],
  'donts': ["Don't carry valuables in back pockets",
            "Don't accept 'free' bracelets or roses",
-           "Don't leave the group without telling the leader",
+           "Don't leave the group without telling the tour manager",
            "Don't take meat, dairy or fresh produce into the UK/EU",
            "Don't buy from street sellers near monuments",
            "Don't take photos where signs prohibit it"],
- 'back': 'venice',
- 'closing': 'Hare Krishna!',
+ 'back': 'florence2',
  'rows': 'rows.json',
- 'poster': {'hero': 'towerbridge', 'pos': '50% 40%', 'circ': ['manor', 'eiffel', 'titlis'],
-            'kicker': '8 Countries · 10 ISKCON Temples',
-            'price_small': '+ 5% GST + 2% TCS · per person · incl. international flights',
-            'hl': ['International flights & visas included',
-                   'Bhaktivedanta Manor & ISKCON Soho',
-                   '10 ISKCON temples across Europe',
-                   'Tower of London & London Eye',
-                   'Eiffel Tower, Louvre & Seine cruise',
-                   'Keukenhof tulips & Amsterdam canals',
-                   'Snow on Mount Titlis · Venice · Vatican',
-                   'Sattvic prasadam · kirtan every day']},
+ 'timing_note': 'Timings are indicative and may change with flight slots, weather and queues. Distances by road are approximate.',
+ 'poster': {'hero': 'towerbridge', 'pos': '50% 45%', 'circ': ['colosseum', 'eiffel', 'titlis'],
+            'kicker': '8 Countries · 60+ Attractions',
+            'price_small': '+ 5% GST + 2% TCS · per person · incl. flights & visas',
+            'hl': ['Eiffel Tower, Louvre & Seine cruise',
+                   'Colosseum – a New 7 Wonder of the World',
+                   'Leaning Tower of Pisa & Florence',
+                   "Vatican, Sistine Chapel & St Peter's",
+                   'Snow on Mount Titlis · Lucerne',
+                   'Venice gondola · Lake Como',
+                   'Tower of London & the Koh-i-Noor',
+                   'Flights, visas & Indian meals included']},
 }

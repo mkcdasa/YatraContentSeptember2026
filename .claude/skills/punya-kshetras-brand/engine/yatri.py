@@ -93,7 +93,7 @@ def build(pk):
 <div class="logos"><div><img src="brand/hkgt_logo.png"></div><div><img src="brand/pk_logo.png"></div></div>
 <div class="kick">{HELI if pk["show_heli_icon"] else ""}{E(it["kicker"])}</div>
 <h1>{E(pk["title"])}<span>{E(pk["title2"])}</span></h1>
-<div class="meta"><span>{E(pk["dates"])}</span><span>{E(pk["duration"])}</span><span>{E(WITH_LINE)}</span></div>
+<div class="meta"><span>{E(pk["dates"])}</span><span>{E(pk["duration"])}</span><span>{E(pk["with_line"])}</span></div>
 <div class="route">{E(pk["tagline"])}</div></div>
 <h2>A spiritually enriching<i>yatra</i></h2>
 <div class="spec">{spec}</div>
