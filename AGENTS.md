@@ -4,22 +4,16 @@
 ## Session Learnings (auto-updated by handoff)
 
 ### Implicit Rules
-- Branch claude/new-session-yaq8x4; commits end with Co-Authored-By + Claude-Session lines; no model id in commits
-- Rebuild: python3 marketing/build_marketing.py, build_photo_poster.py, export_word_data.py, node marketing/build_word.cjs, then node marketing/render.cjs + render_photo_poster.cjs from repo root; prefix YATRA_BRAND=bhakti for Bhakti; NODE_PATH=$(npm root -g)
-- Excel recalc: python3 /mnt/skills/public/xlsx/scripts/recalc.py file.xlsx 60
-- Living doc: Claude Docs project 41969992-a942-449c-8cfc-39fa59681168, node 01869f60-e37d; link https://claude.ai/artifact/96kSc9Lverwvxj1phuNgjZ
-- Bhakti Yatra brand assets originally from branch claude/pensive-galileo-twgsa0 docs/brand/
-- User addressed as Hare Krishna Prabhu; terse instructions
+- Grand Tour build: in punya-kshetras run python3 make_rows.py and python3 make_imgmap.py, then from itineraries/london-europe-yatra run bash ../../.claude/skills/punya-kshetras-brand/engine/build.sh punya-kshetras
+- Build previews in punya-kshetras/build/prev_brochure-NN.png (build/ gitignored); remove out/*.png before commit
+- Bing fetcher script was in scratchpad (bingfetch.py), not committed
 
 ### Key Decisions
-- Decision: price Rs 5,49,000 incl. international flights + 5% GST + 2% TCS — Reason: user final; TCS refunded via ITR
-- Decision: daily 07:30 programme, 08:00–09:00 breakfast, 09:00 departure; exceptions Day 14 Rome train, Day 16 flight — Reason: user instruction; fixed departures
-- Decision: London Day 2 Akshaya Patra Watford, Bhaktivedanta Manor Sunday programme, Tussauds, ISKCON Soho, Covent Garden; Day 3 Changing of Guard, King's Gallery, Tower/Koh-i-Noor, Tower Bridge, Thames boat, London Eye, Westminster — Reason: user dropped Oxford/Cotswolds; one-direction routing
-- Decision: Lion King only as Plan B Sun matinee; no ROH show on dates — Reason: no Monday show; Tosca 17/20 Apr only
-- Decision: never print photo credits on creatives — Reason: user explicit, accepts licence risk; credits kept in marketing/photos/credits.json
-- Decision: brand switch in marketing/brand.py (YATRA_BRAND=bhakti) rewrites HKGT HTML/Word into Bhakti (ISKCON Vijay Nagar-Indore + Bhakti Yatra logos, purple, phones +91 72248 64316 / +91 92570 45200, Bhaktiyatra social) — Reason: one source, two brands
-- Decision: Bhakti versions say only 'International flights included', no city/airline — Reason: user instruction for Indore audience
-- Decision: driver tips + optional extras removed from all creatives, kept in internal Excel — Reason: user instruction; costing stays correct
-- Decision: shareable docs exclude budget, margin, fares, hotel rates, ticket costs — Reason: external audience
+- Decision: Grand Tour edition headlines sights (8 countries, 63 attractions, 11 UNESCO, Colosseum New7Wonder, Pisa Medieval Wonder) — Reason: user wants common-man appeal, not ISKCON temples
+- Decision: temples kept in schedule with plain wording (make_rows.py TEMPLE map) — Reason: still part of itinerary, just not headline
+- Decision: engine overrides with_line, quote/quote_by, welcome_img/cap/title, experiences, why_title, hl_title, places_header/places_title + attractions page; defaults unchanged — Reason: brand skill reusable for devotional yatras
+- Decision: meal page two columns when >30 meals — Reason: 44 meals overflowed one page
+- Decision: web images from Bing with source URLs in punya-kshetras/imgcredits.json, never printed — Reason: user accepts copyright risk; credits never on creatives
+- Decision: price ₹5,49,000 + 5% GST + 2% TCS incl international flights & visas; no driver tips/optional extras/Who-can-join — Reason: prior user rules
 
 <!-- handoff:learnings:end -->

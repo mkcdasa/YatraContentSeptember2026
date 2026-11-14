@@ -1,90 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T02:13:52.141Z",
+  "generatedAt": "2026-11-14T22:41:51.607Z",
   "project": "YatraContentSeptember2026",
-  "session": "8a3dde17",
-  "headline": "Goal: plan + market London Europe Yatra 2027 (17 Apr–2 May 2027, 15N/16D, 8 countries, coach) for Hare Krishna Golden Te",
-  "summary": "Built minute itinerary data (itinerary_data.py), Excel (build_workbook.py), Claude Docs living doc, booking guide, 4 posters, 2-page photo poster, A4 brochure, Word itinerary; both brands via YATRA_BRAND switch. Last steps: Bhakti versions with no departure city; driver tips + optional extras removed from all creatives.",
-  "taskDescription": "Goal: plan + market London Europe Yatra 2027 (17 Apr–2 May 2027, 15N/16D, 8 countries, coach) for Hare Krishna Golden Temple Hyderabad, plus Bhakti Yatra (Hare Krishna Movement Indore) rebrand. Intent: one data source drives Excel, living doc and all creatives so plan and marketing never drift.",
-  "currentStatus": "Done: all creatives both brands rendered, pushed to claude/new-session-yaq8x4. Remaining: user feedback; hotels/some lunch restaurants TBC; Tower of London price unverified; Titlis group discount 10% vs 20% unconfirmed.",
+  "session": "ffe326c4",
+  "headline": "London & Europe Yatra 2027 (17 Apr–2 May, 16 days, 8 countries) marketing for Hare Krishna Golden Temple / Punya Kshetra",
+  "summary": "Session: 4 language versions (te/hi/kn/ta) of designer poster (marketing/lang, OpenCV inpaint + HTML overlay). Living-doc link given (lacks final price). Pulled punya-kshetras-brand skill from branch claude/pensive-galileo-twgsa0 onto this branch. Built work folder itineraries/london-europe-yatra/punya-kshetras: first devotional brochure+poster, then reworked per user into general-audience \"London & Europe Grand Tour\" (27-page A4 brochure + 1080×1350 poster) selling attractions/wonders, with web photos. Engine extended with overrides + attractions page. All pushed to claude/new-session-yaq8x4.",
+  "taskDescription": "London & Europe Yatra 2027 (17 Apr–2 May, 16 days, 8 countries) marketing for Hare Krishna Golden Temple / Punya Kshetras. Goal: sell tour to paying registrants. Core intent: one data source (itinerary_data.py) feeds Excel, posters, brochures, Word, translations; latest = general-audience (layman) edition.",
+  "currentStatus": "Done: lang posters; Grand Tour brochure+poster (no overflow, banned words scanned), committed/pushed, sent to user. Remaining: registration close date unknown (not shown); 6 day photos still older Wikimedia (Keukenhof, Titlis, Rhine Falls, Venice, Dover, Cologne); facts unreviewed; no translations/yatri itinerary of Grand Tour yet; living doc not updated with price.",
   "keyDecisions": [
-    "Decision: price Rs 5,49,000 incl. international flights + 5% GST + 2% TCS — Reason: user final; TCS refunded via ITR",
-    "Decision: daily 07:30 programme, 08:00–09:00 breakfast, 09:00 departure; exceptions Day 14 Rome train, Day 16 flight — Reason: user instruction; fixed departures",
-    "Decision: London Day 2 Akshaya Patra Watford, Bhaktivedanta Manor Sunday programme, Tussauds, ISKCON Soho, Covent Garden; Day 3 Changing of Guard, King's Gallery, Tower/Koh-i-Noor, Tower Bridge, Thames boat, London Eye, Westminster — Reason: user dropped Oxford/Cotswolds; one-direction routing",
-    "Decision: Lion King only as Plan B Sun matinee; no ROH show on dates — Reason: no Monday show; Tosca 17/20 Apr only",
-    "Decision: never print photo credits on creatives — Reason: user explicit, accepts licence risk; credits kept in marketing/photos/credits.json",
-    "Decision: brand switch in marketing/brand.py (YATRA_BRAND=bhakti) rewrites HKGT HTML/Word into Bhakti (ISKCON Vijay Nagar-Indore + Bhakti Yatra logos, purple, phones +91 72248 64316 / +91 92570 45200, Bhaktiyatra social) — Reason: one source, two brands",
-    "Decision: Bhakti versions say only 'International flights included', no city/airline — Reason: user instruction for Indore audience",
-    "Decision: driver tips + optional extras removed from all creatives, kept in internal Excel — Reason: user instruction; costing stays correct",
-    "Decision: shareable docs exclude budget, margin, fares, hotel rates, ticket costs — Reason: external audience"
+    "Decision: Grand Tour edition headlines sights (8 countries, 63 attractions, 11 UNESCO, Colosseum New7Wonder, Pisa Medieval Wonder) — Reason: user wants common-man appeal, not ISKCON temples",
+    "Decision: temples kept in schedule with plain wording (make_rows.py TEMPLE map) — Reason: still part of itinerary, just not headline",
+    "Decision: engine overrides with_line, quote/quote_by, welcome_img/cap/title, experiences, why_title, hl_title, places_header/places_title + attractions page; defaults unchanged — Reason: brand skill reusable for devotional yatras",
+    "Decision: meal page two columns when >30 meals — Reason: 44 meals overflowed one page",
+    "Decision: web images from Bing with source URLs in punya-kshetras/imgcredits.json, never printed — Reason: user accepts copyright risk; credits never on creatives",
+    "Decision: price ₹5,49,000 + 5% GST + 2% TCS incl international flights & visas; no driver tips/optional extras/Who-can-join — Reason: prior user rules"
   ],
-  "userContribution": null,
+  "userContribution": "Supplied designer poster image and asked for te/hi/kn/ta versions; asked for living doc link; asked for poster+brochure via Punya Kshetras brand skill; then directed full rework to common-man angle highlighting attractions/wonders and new internet photos, accepting copyright risk.",
   "userDecisions": [
     {
-      "decision": "Final price Rs 5,49,000 incl. international flights + 5% GST + 2% TCS",
-      "reason": "Trip dates final",
-      "alternativesRejected": null
+      "decision": "Brochure/poster must target common man, highlight attractions and world wonders, not ISKCON temples",
+      "reason": "attract paying registrants",
+      "alternativesRejected": "devotional temple-focused edition"
     },
     {
-      "decision": "Drop Oxford and Cotswolds; add listed London sights",
-      "reason": "More time for attractions",
-      "alternativesRejected": null
-    },
-    {
-      "decision": "No photo credits on any creative",
-      "reason": "Accepts licence risk",
-      "alternativesRejected": null
-    },
-    {
-      "decision": "Bhakti Yatra versions: international flights included, no city",
-      "reason": null,
-      "alternativesRejected": "Indore via Delhi/Mumbai"
-    },
-    {
-      "decision": "Remove driver tips and optional extras completely from posters and PDFs",
-      "reason": null,
+      "decision": "Use best internet photos regardless of licence",
+      "reason": "team will handle permissions/copyright",
       "alternativesRejected": null
     }
   ],
   "failedApproaches": [
-    "Approach: Wikimedia API search/imageinfo in loops → Result: HTTP 429 rate limits → Lesson: batch slowly; download thumbs directly from thumb.wikimedia.org using saved URLs",
-    "Approach: render.js with require → Result: fails, repo package.json is ESM → Lesson: use .cjs for node scripts",
-    "Approach: Claude Docs block replace without guards / using char ids → Result: refused → Lesson: whole-block replace needs ifHash+ifRev; use block ids; find-text edits for small changes",
-    "Approach: photo credits line on poster → Result: user rejected → Lesson: never include credits in creatives"
+    "Approach: Wikimedia Commons search API + upload thumbnails → Result: HTTP 429 after ~10 images, minutes per file → Lesson: container IP throttled; don't rely on Wikimedia bulk",
+    "Approach: Unsplash napi/Pexels/DuckDuckGo/Openverse → Result: 401/403/bot challenge/429 → Lesson: blocked from container",
+    "Approach: Bing image search scrape (parallel, then sequential) → Result: good first round, later poisoned off-topic results; title filter returns zero → Lesson: use first-round results, review contact sheets visually, ask team for photos"
   ],
   "blockers": null,
   "modifiedFiles": [
-    "itineraries/london-europe-yatra/itinerary_data.py: London Days 2-3 redesign, retimes, BOOKING list, ticket links/prices, price 549000",
-    "itineraries/london-europe-yatra/build_workbook.py: Booking guide sheet, planned-walks column, price text",
-    "itineraries/london-europe-yatra/marketing/build_marketing.py: 4 posters + brochure; tips/optional removed",
-    "itineraries/london-europe-yatra/marketing/build_photo_poster.py + fetch_photos.py + photos/: 2-page photo poster, no credits",
-    "itineraries/london-europe-yatra/marketing/brand.py: HKGT/Bhakti brand settings, colour map, no-city flight text",
-    "itineraries/london-europe-yatra/marketing/export_word_data.py + build_word.cjs: Word itinerary, brand-aware, filters internal + extras",
-    "itineraries/london-europe-yatra/marketing/render.cjs, render_photo_poster.cjs: brand-aware output paths",
-    "itineraries/london-europe-yatra/marketing/out/ and out/bhakti-yatra/: rendered JPG/PDF/DOCX"
+    ".claude/skills/punya-kshetras-brand/: skill copied from pensive-galileo branch; engine/common.py new override defaults; gen.py attractions page, overrides, two-column meal page, places/highlight titles; poster.py and yatri.py use with_line/experiences",
+    "itineraries/london-europe-yatra/punya-kshetras/package.py: Grand Tour general-audience content",
+    "itineraries/london-europe-yatra/punya-kshetras/make_rows.py: rows.json from itinerary_data.py, layman wording, drops walks/luggage coaches/prices/optional text",
+    "itineraries/london-europe-yatra/punya-kshetras/make_imgmap.py, imgcredits.json, img/: photos + credits/source URLs",
+    "itineraries/london-europe-yatra/punya-kshetras/out/: Grand Tour Brochure.pdf, Poster.jpg/.pdf",
+    "itineraries/london-europe-yatra/marketing/lang/: make_base.py, build_lang_posters.py, render_lang.cjs; out/lang 4 language posters",
+    ".gitignore: .handoff/.injected"
   ],
   "implicitRules": [
-    "Branch claude/new-session-yaq8x4; commits end with Co-Authored-By + Claude-Session lines; no model id in commits",
-    "Rebuild: python3 marketing/build_marketing.py, build_photo_poster.py, export_word_data.py, node marketing/build_word.cjs, then node marketing/render.cjs + render_photo_poster.cjs from repo root; prefix YATRA_BRAND=bhakti for Bhakti; NODE_PATH=$(npm root -g)",
-    "Excel recalc: python3 /mnt/skills/public/xlsx/scripts/recalc.py file.xlsx 60",
-    "Living doc: Claude Docs project 41969992-a942-449c-8cfc-39fa59681168, node 01869f60-e37d; link https://claude.ai/artifact/96kSc9Lverwvxj1phuNgjZ",
-    "Bhakti Yatra brand assets originally from branch claude/pensive-galileo-twgsa0 docs/brand/",
-    "User addressed as Hare Krishna Prabhu; terse instructions"
+    "Grand Tour build: in punya-kshetras run python3 make_rows.py and python3 make_imgmap.py, then from itineraries/london-europe-yatra run bash ../../.claude/skills/punya-kshetras-brand/engine/build.sh punya-kshetras",
+    "Build previews in punya-kshetras/build/prev_brochure-NN.png (build/ gitignored); remove out/*.png before commit",
+    "Bing fetcher script was in scratchpad (bingfetch.py), not committed"
   ],
   "nextSteps": [
-    "Await user feedback on HKGT and Bhakti creatives",
-    "Ask/decide: drop Golconda and ISKCON Bangalore mentions in Bhakti versions; remove free optional mentions (morning japa, Cologne walk, Titlis Cliff Walk)",
-    "Add HKGT logo when provided",
-    "Confirm Titlis group discount and Tower of London price; fill TBC hotels and lunch restaurants"
+    "Get registration close date from team; add reg_close/reg_short to punya-kshetras/package.py and rebuild",
+    "Replace older photos (keukenhof, titlis, rhinefalls, venice, dover, cologne) when team supplies better ones",
+    "Have someone verify 'Did you know?' facts in package.py daypages",
+    "On request: Telugu/Hindi/Kannada/Tamil Grand Tour (translate i18n/en.json, build.sh te hi kn ta) and yatri itinerary PDF (itinerary.days)",
+    "Update living doc (Claude Docs 41969992-a942-449c-8cfc-39fa59681168) with final price if asked"
   ],
   "keywords": [
     "london europe yatra",
-    "bhakti yatra",
-    "posters",
-    "brochure",
-    "word itinerary",
-    "itinerary_data",
-    "brand.py",
-    "photo poster"
+    "grand tour brochure",
+    "punya kshetras brand",
+    "package.py",
+    "poster",
+    "language posters",
+    "make_rows",
+    "attractions page"
   ]
 }
