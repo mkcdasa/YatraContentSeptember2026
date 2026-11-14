@@ -418,7 +418,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 ## 12. World Checklist - tick what you have visited
 
-**Live clickable version:** https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW (ticks save to a shared record). In this file `[x]` = visited, `[ ]` = not yet; GitHub shows these boxes read-only in file view, so edit the text or use the live page. *(Likely)* = seen in your yatra dashboards - please confirm. Grouped Country > State/region > City.
+**Live version:** https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW (each row has a Visited / Not visited switch that saves automatically). In this file every line starts with VISITED or Not visited - change the word to update it. *(Likely)* = seen in your yatra dashboards - please confirm. Grouped Country > State/region > City.
 
 
 ### India
@@ -426,375 +426,375 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Andhra Pradesh**
 
-- [x] **Tirupati** - Tirumala Sri Venkateswara Temple (Balaji) _Temple_
-- [x] **Tirupati** - Sri Padmavathi Temple, Tiruchanur _Temple_
-- [ ] **Srikalahasti** - Srikalahasteeswara (Vayu linga) _Temple_
-- [ ] **Ahobilam** - Nava Narasimha kshetras _Temple_
-- [ ] **Srisailam** - Mallikarjuna Jyotirlinga & Bhramaramba _Temple_
-- [ ] **Simhachalam** - Varaha Lakshmi Narasimha Temple _Temple_
-- [ ] **Lepakshi** - Veerabhadra Temple (hanging pillar) _Monument_
-- [ ] **Amaravati** - Amaravati Stupa & Dhyana Buddha _Monument_
-- [ ] **Mantralayam** - Raghavendra Swamy Mutt _Temple_
+- **VISITED** · **Tirupati** - Tirumala Sri Venkateswara Temple (Balaji) _Temple_
+- **VISITED** · **Tirupati** - Sri Padmavathi Temple, Tiruchanur _Temple_
+- **Not visited** · **Srikalahasti** - Srikalahasteeswara (Vayu linga) _Temple_
+- **Not visited** · **Ahobilam** - Nava Narasimha kshetras _Temple_
+- **Not visited** · **Srisailam** - Mallikarjuna Jyotirlinga & Bhramaramba _Temple_
+- **Not visited** · **Simhachalam** - Varaha Lakshmi Narasimha Temple _Temple_
+- **Not visited** · **Lepakshi** - Veerabhadra Temple (hanging pillar) _Monument_
+- **Not visited** · **Amaravati** - Amaravati Stupa & Dhyana Buddha _Monument_
+- **Not visited** · **Mantralayam** - Raghavendra Swamy Mutt _Temple_
 
 **Telangana**
 
-- [x] **Hyderabad** - Hare Krishna Golden Temple, Banjara Hills (home) _ISKCON_
-- [ ] **Hyderabad** - Charminar & Mecca Masjid _Monument_
-- [ ] **Hyderabad** - Golconda Fort & Qutb Shahi Tombs _Monument_
-- [ ] **Hyderabad** - Salar Jung Museum _Museum_
-- [ ] **Hyderabad** - Birla Mandir & Chilkur Balaji _Temple_
-- [x] **Yadadri** - Yadagirigutta Lakshmi Narasimha Temple _Temple_
-- [x] **Bhadrachalam** - Sita Ramachandraswamy Temple _Temple_
-- [x] **Warangal** - Thousand Pillar Temple & Warangal Fort _Monument_
-- [ ] **Mulugu** - Ramappa (Rudreshwara) Temple - UNESCO _UNESCO_
-- [ ] **Basar** - Gnana Saraswati Temple _Temple_
+- **VISITED** · **Hyderabad** - Hare Krishna Golden Temple, Banjara Hills (home) _ISKCON_
+- **Not visited** · **Hyderabad** - Charminar & Mecca Masjid _Monument_
+- **Not visited** · **Hyderabad** - Golconda Fort & Qutb Shahi Tombs _Monument_
+- **Not visited** · **Hyderabad** - Salar Jung Museum _Museum_
+- **Not visited** · **Hyderabad** - Birla Mandir & Chilkur Balaji _Temple_
+- **VISITED** · **Yadadri** - Yadagirigutta Lakshmi Narasimha Temple _Temple_
+- **VISITED** · **Bhadrachalam** - Sita Ramachandraswamy Temple _Temple_
+- **VISITED** · **Warangal** - Thousand Pillar Temple & Warangal Fort _Monument_
+- **Not visited** · **Mulugu** - Ramappa (Rudreshwara) Temple - UNESCO _UNESCO_
+- **Not visited** · **Basar** - Gnana Saraswati Temple _Temple_
 
 **Karnataka**
 
-- [x] **Bengaluru** - ISKCON Sri Radha Krishna Temple, Rajajinagar _ISKCON_
-- [ ] **Bengaluru** - Vaikuntha Hill (ISKCON Vasanthapura) _ISKCON_
-- [ ] **Bengaluru** - Bull Temple, Lalbagh, Vidhana Soudha _Monument_
-- [ ] **Mysuru** - Mysore Palace & Dasara (Jamboo Savari) _Festival_
-- [x] **Mysuru** - Chamundeshwari Temple, Chamundi Hill _Temple_
-- [x] **Mysuru** - ISKCON Mysore _ISKCON_
-- [ ] **Srirangapatna** - Ranganathaswamy Temple _Temple_ *(Likely - confirm)*
-- [ ] **Melukote** - Cheluvanarayana & Yoga Narasimha _Temple_
-- [x] **Hampi** - Hampi (Vijayanagara) - Virupaksha, Vittala stone chariot - UNESCO _UNESCO_
-- [ ] **Pattadakal / Badami / Aihole** - Chalukya temples & cave temples - UNESCO _UNESCO_
-- [x] **Belur & Halebidu** - Hoysala temples (Chennakeshava, Hoysaleswara) - UNESCO _UNESCO_
-- [ ] **Somanathapura** - Keshava Temple - UNESCO (Hoysala) _UNESCO_
-- [ ] **Shravanabelagola** - Gomateshwara (Bahubali) statue _Monument_
-- [x] **Udupi** - Sri Krishna Matha (Kanakana Kindi) _Temple_
-- [ ] **Kollur / Dharmasthala / Kukke** - Mookambika, Manjunatha, Subrahmanya _Temple_ *(Likely - confirm)*
-- [x] **Gokarna** - Mahabaleshwar Temple (Atmalinga) _Temple_
-- [x] **Murudeshwar** - Giant Shiva statue & temple _Temple_
-- [ ] **Coorg** - Talakaveri, Bylakuppe Golden Temple _Nature_ *(Likely - confirm)*
-- [ ] **Chikkamagaluru** - Sringeri Sharada Peetham, Horanadu _Temple_ *(Likely - confirm)*
-- [ ] **Yana** - Yana caves _Nature_ *(Likely - confirm)*
-- [ ] **Bijapur (Vijayapura)** - Gol Gumbaz _Monument_
+- **VISITED** · **Bengaluru** - ISKCON Sri Radha Krishna Temple, Rajajinagar _ISKCON_
+- **Not visited** · **Bengaluru** - Vaikuntha Hill (ISKCON Vasanthapura) _ISKCON_
+- **Not visited** · **Bengaluru** - Bull Temple, Lalbagh, Vidhana Soudha _Monument_
+- **Not visited** · **Mysuru** - Mysore Palace & Dasara (Jamboo Savari) _Festival_
+- **VISITED** · **Mysuru** - Chamundeshwari Temple, Chamundi Hill _Temple_
+- **VISITED** · **Mysuru** - ISKCON Mysore _ISKCON_
+- **Not visited** · **Srirangapatna** - Ranganathaswamy Temple _Temple_ *(Likely - confirm)*
+- **Not visited** · **Melukote** - Cheluvanarayana & Yoga Narasimha _Temple_
+- **VISITED** · **Hampi** - Hampi (Vijayanagara) - Virupaksha, Vittala stone chariot - UNESCO _UNESCO_
+- **Not visited** · **Pattadakal / Badami / Aihole** - Chalukya temples & cave temples - UNESCO _UNESCO_
+- **VISITED** · **Belur & Halebidu** - Hoysala temples (Chennakeshava, Hoysaleswara) - UNESCO _UNESCO_
+- **Not visited** · **Somanathapura** - Keshava Temple - UNESCO (Hoysala) _UNESCO_
+- **Not visited** · **Shravanabelagola** - Gomateshwara (Bahubali) statue _Monument_
+- **VISITED** · **Udupi** - Sri Krishna Matha (Kanakana Kindi) _Temple_
+- **Not visited** · **Kollur / Dharmasthala / Kukke** - Mookambika, Manjunatha, Subrahmanya _Temple_ *(Likely - confirm)*
+- **VISITED** · **Gokarna** - Mahabaleshwar Temple (Atmalinga) _Temple_
+- **VISITED** · **Murudeshwar** - Giant Shiva statue & temple _Temple_
+- **Not visited** · **Coorg** - Talakaveri, Bylakuppe Golden Temple _Nature_ *(Likely - confirm)*
+- **Not visited** · **Chikkamagaluru** - Sringeri Sharada Peetham, Horanadu _Temple_ *(Likely - confirm)*
+- **Not visited** · **Yana** - Yana caves _Nature_ *(Likely - confirm)*
+- **Not visited** · **Bijapur (Vijayapura)** - Gol Gumbaz _Monument_
 
 **Tamil Nadu**
 
-- [x] **Chennai** - ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy _Temple_
-- [ ] **Mahabalipuram** - Shore Temple, Pancha Rathas - UNESCO _UNESCO_
-- [x] **Kanchipuram** - Varadaraja Perumal, Ekambareswarar, Kamakshi _Temple_
-- [x] **Srirangam** - Sri Ranganathaswamy Temple (largest functioning temple) _Temple_
-- [ ] **Thanjavur** - Brihadeeswara Temple - UNESCO (Great Living Chola Temples) _UNESCO_
-- [ ] **Gangaikonda Cholapuram / Darasuram** - Chola temples - UNESCO _UNESCO_
-- [ ] **Chidambaram** - Nataraja Temple _Temple_
-- [x] **Madurai** - Meenakshi Amman Temple _Temple_
-- [x] **Rameswaram** - Ramanathaswamy Temple & Dhanushkodi _Temple_
-- [ ] **Kanyakumari** - Vivekananda Rock, Thiruvalluvar statue, Devi temple _Monument_
-- [ ] **Tiruvannamalai** - Arunachaleswarar & Girivalam _Temple_
-- [ ] **Tirunelveli / Thiruchendur** - Nellaiappar, Murugan (Arupadai veedu) _Temple_
-- [ ] **Ooty / Kodaikanal** - Nilgiri Mountain Railway - UNESCO _UNESCO_
+- **VISITED** · **Chennai** - ISKCON Chennai (Sholinganallur); Kapaleeshwarar; Parthasarathy _Temple_
+- **Not visited** · **Mahabalipuram** - Shore Temple, Pancha Rathas - UNESCO _UNESCO_
+- **VISITED** · **Kanchipuram** - Varadaraja Perumal, Ekambareswarar, Kamakshi _Temple_
+- **VISITED** · **Srirangam** - Sri Ranganathaswamy Temple (largest functioning temple) _Temple_
+- **Not visited** · **Thanjavur** - Brihadeeswara Temple - UNESCO (Great Living Chola Temples) _UNESCO_
+- **Not visited** · **Gangaikonda Cholapuram / Darasuram** - Chola temples - UNESCO _UNESCO_
+- **Not visited** · **Chidambaram** - Nataraja Temple _Temple_
+- **VISITED** · **Madurai** - Meenakshi Amman Temple _Temple_
+- **VISITED** · **Rameswaram** - Ramanathaswamy Temple & Dhanushkodi _Temple_
+- **Not visited** · **Kanyakumari** - Vivekananda Rock, Thiruvalluvar statue, Devi temple _Monument_
+- **Not visited** · **Tiruvannamalai** - Arunachaleswarar & Girivalam _Temple_
+- **Not visited** · **Tirunelveli / Thiruchendur** - Nellaiappar, Murugan (Arupadai veedu) _Temple_
+- **Not visited** · **Ooty / Kodaikanal** - Nilgiri Mountain Railway - UNESCO _UNESCO_
 
 **Kerala**
 
-- [x] **Guruvayur** - Guruvayur Sri Krishna Temple _Temple_
-- [x] **Thiruvananthapuram** - Sree Padmanabhaswamy Temple _Temple_
-- [ ] **Sabarimala** - Ayyappa Temple _Temple_
-- [ ] **Kochi** - Fort Kochi, Mattancherry, Chottanikkara _Monument_
-- [ ] **Alappuzha / Kumarakom** - Backwaters houseboat _Nature_
-- [ ] **Thrissur** - Vadakkunnathan & Thrissur Pooram _Festival_ *(Likely - confirm)*
-- [ ] **Ambalappuzha / Aranmula** - Sri Krishna temples _Temple_
-- [ ] **Munnar** - Tea gardens, Eravikulam _Nature_
-- [ ] **Kollam / Kanyakumari border** - Suchindram _Temple_
+- **VISITED** · **Guruvayur** - Guruvayur Sri Krishna Temple _Temple_
+- **VISITED** · **Thiruvananthapuram** - Sree Padmanabhaswamy Temple _Temple_
+- **Not visited** · **Sabarimala** - Ayyappa Temple _Temple_
+- **Not visited** · **Kochi** - Fort Kochi, Mattancherry, Chottanikkara _Monument_
+- **Not visited** · **Alappuzha / Kumarakom** - Backwaters houseboat _Nature_
+- **Not visited** · **Thrissur** - Vadakkunnathan & Thrissur Pooram _Festival_ *(Likely - confirm)*
+- **Not visited** · **Ambalappuzha / Aranmula** - Sri Krishna temples _Temple_
+- **Not visited** · **Munnar** - Tea gardens, Eravikulam _Nature_
+- **Not visited** · **Kollam / Kanyakumari border** - Suchindram _Temple_
 
 **Maharashtra**
 
-- [x] **Mumbai** - ISKCON Juhu (Prabhupada samadhi) & Chowpatty _ISKCON_
-- [ ] **Mumbai** - Gateway of India, Elephanta Caves - UNESCO, CST - UNESCO _UNESCO_
-- [ ] **Mumbai** - Siddhivinayak, Mahalakshmi, Babulnath, Mumba Devi _Temple_
-- [ ] **Mumbai** - NMACC & Jio World Centre (BKC) _Modern_
-- [ ] **Pune** - ISKCON NVCC Katraj; Dagdusheth Ganapati _ISKCON_
-- [x] **Alandi / Dehu / Pandharpur** - Dnyaneshwar, Tukaram, Vitthal-Rukmini (Ashadhi Ekadashi) _Temple_
-- [ ] **Aurangabad** - Ajanta & Ellora caves (Kailasa temple) - UNESCO _UNESCO_
-- [ ] **Nashik / Trimbakeshwar** - Panchavati, Trimbakeshwar Jyotirlinga, Kumbh _Temple_
-- [ ] **Shirdi / Shani Shingnapur** - Sai Baba samadhi _Temple_
-- [ ] **Jyotirlingas** - Bhimashankar, Grishneshwar, Aundha Nagnath, Parli Vaijnath _Temple_
-- [ ] **Kolhapur / Tuljapur** - Mahalakshmi, Tulja Bhavani _Temple_
+- **VISITED** · **Mumbai** - ISKCON Juhu (Prabhupada samadhi) & Chowpatty _ISKCON_
+- **Not visited** · **Mumbai** - Gateway of India, Elephanta Caves - UNESCO, CST - UNESCO _UNESCO_
+- **Not visited** · **Mumbai** - Siddhivinayak, Mahalakshmi, Babulnath, Mumba Devi _Temple_
+- **Not visited** · **Mumbai** - NMACC & Jio World Centre (BKC) _Modern_
+- **Not visited** · **Pune** - ISKCON NVCC Katraj; Dagdusheth Ganapati _ISKCON_
+- **VISITED** · **Alandi / Dehu / Pandharpur** - Dnyaneshwar, Tukaram, Vitthal-Rukmini (Ashadhi Ekadashi) _Temple_
+- **Not visited** · **Aurangabad** - Ajanta & Ellora caves (Kailasa temple) - UNESCO _UNESCO_
+- **Not visited** · **Nashik / Trimbakeshwar** - Panchavati, Trimbakeshwar Jyotirlinga, Kumbh _Temple_
+- **Not visited** · **Shirdi / Shani Shingnapur** - Sai Baba samadhi _Temple_
+- **Not visited** · **Jyotirlingas** - Bhimashankar, Grishneshwar, Aundha Nagnath, Parli Vaijnath _Temple_
+- **Not visited** · **Kolhapur / Tuljapur** - Mahalakshmi, Tulja Bhavani _Temple_
 
 **Goa**
 
-- [ ] **Goa** - Basilica of Bom Jesus & Old Goa churches - UNESCO; Mangeshi _UNESCO_
+- **Not visited** · **Goa** - Basilica of Bom Jesus & Old Goa churches - UNESCO; Mangeshi _UNESCO_
 
 **Gujarat**
 
-- [x] **Diu** - Diu fort & beaches, Gangeshwar Mahadev _Sightseeing_
-- [x] **Dwarka** - Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga _Temple_
-- [x] **Somnath** - Somnath Jyotirlinga, Bhalka Tirth, Prabhas Patan _Temple_
-- [x] **Ahmedabad** - ISKCON Ahmedabad; Sabarmati Ashram; Adalaj stepwell; UNESCO city _UNESCO_
-- [ ] **Patan** - Rani ki Vav - UNESCO _UNESCO_
-- [ ] **Kevadia** - Statue of Unity _Modern_
-- [ ] **Dholavira** - Harappan city - UNESCO _UNESCO_
-- [ ] **Champaner-Pavagadh** - Archaeological park - UNESCO; Kalika Mata _UNESCO_
-- [x] **Ambaji / Modhera / Dakor** - Shakti peetha; Sun Temple; Ranchhodrai _Temple_
+- **VISITED** · **Diu** - Diu fort & beaches, Gangeshwar Mahadev _Sightseeing_
+- **VISITED** · **Dwarka** - Dwarkadhish Temple, Bet Dwarka, Nageshwar Jyotirlinga _Temple_
+- **VISITED** · **Somnath** - Somnath Jyotirlinga, Bhalka Tirth, Prabhas Patan _Temple_
+- **VISITED** · **Ahmedabad** - ISKCON Ahmedabad; Sabarmati Ashram; Adalaj stepwell; UNESCO city _UNESCO_
+- **Not visited** · **Patan** - Rani ki Vav - UNESCO _UNESCO_
+- **Not visited** · **Kevadia** - Statue of Unity _Modern_
+- **Not visited** · **Dholavira** - Harappan city - UNESCO _UNESCO_
+- **Not visited** · **Champaner-Pavagadh** - Archaeological park - UNESCO; Kalika Mata _UNESCO_
+- **VISITED** · **Ambaji / Modhera / Dakor** - Shakti peetha; Sun Temple; Ranchhodrai _Temple_
 
 **Rajasthan**
 
-- [x] **Jaipur** - Amber Fort, Hawa Mahal, Jantar Mantar - UNESCO, Govind Dev Ji _Monument_
-- [x] **Nathdwara** - Shrinathji Haveli _Temple_
-- [x] **Udaipur** - City Palace, Lake Pichola, Eklingji _Monument_
-- [ ] **Pushkar / Ajmer** - Brahma Temple, Pushkar lake, Dargah _Temple_
-- [ ] **Jodhpur / Jaisalmer** - Mehrangarh Fort; Jaisalmer Fort - UNESCO _UNESCO_
-- [ ] **Chittorgarh / Kumbhalgarh / Ranthambore** - Hill Forts of Rajasthan - UNESCO; tiger reserve _UNESCO_
-- [ ] **Mount Abu** - Dilwara Jain temples _Temple_
-- [ ] **Khatu / Salasar** - Khatu Shyamji, Salasar Balaji _Temple_
+- **VISITED** · **Jaipur** - Amber Fort, Hawa Mahal, Jantar Mantar - UNESCO, Govind Dev Ji _Monument_
+- **VISITED** · **Nathdwara** - Shrinathji Haveli _Temple_
+- **VISITED** · **Udaipur** - City Palace, Lake Pichola, Eklingji _Monument_
+- **Not visited** · **Pushkar / Ajmer** - Brahma Temple, Pushkar lake, Dargah _Temple_
+- **Not visited** · **Jodhpur / Jaisalmer** - Mehrangarh Fort; Jaisalmer Fort - UNESCO _UNESCO_
+- **Not visited** · **Chittorgarh / Kumbhalgarh / Ranthambore** - Hill Forts of Rajasthan - UNESCO; tiger reserve _UNESCO_
+- **Not visited** · **Mount Abu** - Dilwara Jain temples _Temple_
+- **Not visited** · **Khatu / Salasar** - Khatu Shyamji, Salasar Balaji _Temple_
 
 **Delhi**
 
-- [x] **New Delhi** - ISKCON East of Kailash (Glory of India) & Punjabi Bagh _ISKCON_
-- [ ] **Delhi** - Red Fort, Qutub Minar, Humayun's Tomb - UNESCO _UNESCO_
-- [ ] **Delhi** - Akshardham, Lotus Temple, India Gate, Birla Mandir _Monument_
+- **VISITED** · **New Delhi** - ISKCON East of Kailash (Glory of India) & Punjabi Bagh _ISKCON_
+- **Not visited** · **Delhi** - Red Fort, Qutub Minar, Humayun's Tomb - UNESCO _UNESCO_
+- **Not visited** · **Delhi** - Akshardham, Lotus Temple, India Gate, Birla Mandir _Monument_
 
 **Uttar Pradesh**
 
-- [x] **Vrindavan** - ISKCON Krishna Balaram Mandir & Prabhupada Samadhi _ISKCON_
-- [x] **Vrindavan** - Banke Bihari, Radha Raman, Radha Damodar, Prem Mandir, Seva Kunj, Nidhivan _Temple_
-- [x] **Mathura** - Krishna Janmabhoomi, Vishram Ghat, Dwarkadhish _Temple_
-- [ ] **Govardhan** - Govardhan parikrama, Radha Kund, Kusum Sarovar _Temple_ *(Likely - confirm)*
-- [ ] **Barsana / Nandgaon** - Radha Rani Temple, Nand Bhavan _Temple_ *(Likely - confirm)*
-- [x] **Ayodhya** - Ram Mandir (Ram Lalla), Hanuman Garhi, Kanak Bhavan, Saryu _Temple_
-- [x] **Varanasi (Kashi)** - Kashi Vishwanath & corridor, Ganga aarti, Sarnath _Temple_
-- [x] **Prayagraj** - Triveni Sangam, Maha Kumbh (2025), Hanuman Mandir _Festival_
-- [ ] **Naimisharanya** - Chakra Tirth, Vyasa Gaddi _Temple_ *(Likely - confirm)*
-- [x] **Agra** - Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO _UNESCO_
-- [x] **Lucknow** - Bara Imambara, Rumi Darwaza _Monument_
-- [ ] **Chitrakoot** - Kamadgiri, Ram Ghat _Temple_
+- **VISITED** · **Vrindavan** - ISKCON Krishna Balaram Mandir & Prabhupada Samadhi _ISKCON_
+- **VISITED** · **Vrindavan** - Banke Bihari, Radha Raman, Radha Damodar, Prem Mandir, Seva Kunj, Nidhivan _Temple_
+- **VISITED** · **Mathura** - Krishna Janmabhoomi, Vishram Ghat, Dwarkadhish _Temple_
+- **Not visited** · **Govardhan** - Govardhan parikrama, Radha Kund, Kusum Sarovar _Temple_ *(Likely - confirm)*
+- **Not visited** · **Barsana / Nandgaon** - Radha Rani Temple, Nand Bhavan _Temple_ *(Likely - confirm)*
+- **VISITED** · **Ayodhya** - Ram Mandir (Ram Lalla), Hanuman Garhi, Kanak Bhavan, Saryu _Temple_
+- **VISITED** · **Varanasi (Kashi)** - Kashi Vishwanath & corridor, Ganga aarti, Sarnath _Temple_
+- **VISITED** · **Prayagraj** - Triveni Sangam, Maha Kumbh (2025), Hanuman Mandir _Festival_
+- **Not visited** · **Naimisharanya** - Chakra Tirth, Vyasa Gaddi _Temple_ *(Likely - confirm)*
+- **VISITED** · **Agra** - Taj Mahal, Agra Fort, Fatehpur Sikri - UNESCO _UNESCO_
+- **VISITED** · **Lucknow** - Bara Imambara, Rumi Darwaza _Monument_
+- **Not visited** · **Chitrakoot** - Kamadgiri, Ram Ghat _Temple_
 
 **Uttarakhand**
 
-- [x] **Char Dham** - Yamunotri, Gangotri, Kedarnath, Badrinath _Temple_
-- [x] **Rishikesh / Haridwar** - Ganga aarti, Har ki Pauri, Laxman Jhula, ISKCON Rishikesh _Temple_
-- [x] **Dehradun / Mussoorie** - Base for Char Dham _Nature_
-- [ ] **Hemkund / Valley of Flowers** - Valley of Flowers - UNESCO _UNESCO_
-- [ ] **Panch Kedar / Panch Badri** - Tungnath, Madhyamaheshwar, Rudranath, Kalpeshwar; Adi Badri etc. _Temple_
-- [ ] **Jim Corbett** - Corbett National Park _Nature_
+- **VISITED** · **Char Dham** - Yamunotri, Gangotri, Kedarnath, Badrinath _Temple_
+- **VISITED** · **Rishikesh / Haridwar** - Ganga aarti, Har ki Pauri, Laxman Jhula, ISKCON Rishikesh _Temple_
+- **VISITED** · **Dehradun / Mussoorie** - Base for Char Dham _Nature_
+- **Not visited** · **Hemkund / Valley of Flowers** - Valley of Flowers - UNESCO _UNESCO_
+- **Not visited** · **Panch Kedar / Panch Badri** - Tungnath, Madhyamaheshwar, Rudranath, Kalpeshwar; Adi Badri etc. _Temple_
+- **Not visited** · **Jim Corbett** - Corbett National Park _Nature_
 
 **Himachal Pradesh**
 
-- [ ] **Manali / Kullu** - Hadimba, Vashisht, Rohtang / Atal tunnel _Nature_
-- [ ] **Dharamshala** - McLeod Ganj, Dalai Lama temple _Monument_
-- [ ] **Shimla** - Kalka-Shimla railway - UNESCO, Jakhoo _UNESCO_
-- [ ] **Kangra / Chamunda / Jwalamukhi / Naina Devi** - Shakti peethas _Temple_
-- [ ] **Spiti** - Key Monastery, Tabo _Monument_
+- **Not visited** · **Manali / Kullu** - Hadimba, Vashisht, Rohtang / Atal tunnel _Nature_
+- **Not visited** · **Dharamshala** - McLeod Ganj, Dalai Lama temple _Monument_
+- **Not visited** · **Shimla** - Kalka-Shimla railway - UNESCO, Jakhoo _UNESCO_
+- **Not visited** · **Kangra / Chamunda / Jwalamukhi / Naina Devi** - Shakti peethas _Temple_
+- **Not visited** · **Spiti** - Key Monastery, Tabo _Monument_
 
 **Jammu & Kashmir**
 
-- [ ] **Katra** - Vaishno Devi _Temple_
-- [ ] **Pahalgam / Baltal** - Amarnath cave _Temple_
-- [ ] **Srinagar** - Dal Lake, Shankaracharya temple, Mughal gardens, Kheer Bhawani _Nature_
+- **Not visited** · **Katra** - Vaishno Devi _Temple_
+- **Not visited** · **Pahalgam / Baltal** - Amarnath cave _Temple_
+- **Not visited** · **Srinagar** - Dal Lake, Shankaracharya temple, Mughal gardens, Kheer Bhawani _Nature_
 
 **Ladakh**
 
-- [ ] **Leh** - Pangong, Nubra, Hemis, Thiksey, Khardung La _Nature_
+- **Not visited** · **Leh** - Pangong, Nubra, Hemis, Thiksey, Khardung La _Nature_
 
 **Punjab**
 
-- [ ] **Amritsar** - Golden Temple, Jallianwala Bagh, Wagah border _Temple_
-- [ ] **Anandpur Sahib** - Takht Kesgarh Sahib _Temple_
+- **Not visited** · **Amritsar** - Golden Temple, Jallianwala Bagh, Wagah border _Temple_
+- **Not visited** · **Anandpur Sahib** - Takht Kesgarh Sahib _Temple_
 
 **Haryana**
 
-- [x] **Kurukshetra** - Brahma Sarovar, Jyotisar (Gita sthal), ISKCON Kurukshetra _Temple_
+- **VISITED** · **Kurukshetra** - Brahma Sarovar, Jyotisar (Gita sthal), ISKCON Kurukshetra _Temple_
 
 **Madhya Pradesh**
 
-- [ ] **Ujjain** - Mahakaleshwar Jyotirlinga & Mahakal Lok; Kal Bhairav; Sandipani Ashram; Simhastha 2028 _Temple_
-- [ ] **Omkareshwar** - Omkareshwar Jyotirlinga & parikrama _Temple_
-- [ ] **Indore** - Khajrana Ganesh, ISKCON Indore, Rajwada _Temple_
-- [ ] **Maheshwar / Mandu** - Ahilya ghats; Mandu monuments _Monument_
-- [ ] **Khajuraho** - Khajuraho temples - UNESCO _UNESCO_
-- [ ] **Sanchi** - Sanchi Stupa - UNESCO _UNESCO_
-- [ ] **Bhimbetka** - Rock shelters - UNESCO _UNESCO_
-- [x] **Gwalior / Orchha** - Gwalior Fort; Orchha Ram Raja _Monument_
-- [ ] **Amarkantak** - Narmada udgam _Temple_
-- [ ] **Kanha / Bandhavgarh** - Tiger reserves _Nature_
+- **Not visited** · **Ujjain** - Mahakaleshwar Jyotirlinga & Mahakal Lok; Kal Bhairav; Sandipani Ashram; Simhastha 2028 _Temple_
+- **Not visited** · **Omkareshwar** - Omkareshwar Jyotirlinga & parikrama _Temple_
+- **Not visited** · **Indore** - Khajrana Ganesh, ISKCON Indore, Rajwada _Temple_
+- **Not visited** · **Maheshwar / Mandu** - Ahilya ghats; Mandu monuments _Monument_
+- **Not visited** · **Khajuraho** - Khajuraho temples - UNESCO _UNESCO_
+- **Not visited** · **Sanchi** - Sanchi Stupa - UNESCO _UNESCO_
+- **Not visited** · **Bhimbetka** - Rock shelters - UNESCO _UNESCO_
+- **VISITED** · **Gwalior / Orchha** - Gwalior Fort; Orchha Ram Raja _Monument_
+- **Not visited** · **Amarkantak** - Narmada udgam _Temple_
+- **Not visited** · **Kanha / Bandhavgarh** - Tiger reserves _Nature_
 
 **Chhattisgarh**
 
-- [ ] **Rajim / Sirpur / Chitrakote** - Rajim Kumbh, Laxman temple, Chitrakote falls _Temple_
+- **Not visited** · **Rajim / Sirpur / Chitrakote** - Rajim Kumbh, Laxman temple, Chitrakote falls _Temple_
 
 **Bihar**
 
-- [x] **Bodh Gaya** - Mahabodhi Temple - UNESCO _UNESCO_
-- [x] **Gaya** - Vishnupad Temple (pind daan) _Temple_
-- [ ] **Nalanda / Rajgir** - Nalanda ruins - UNESCO; Vishwa Shanti Stupa _UNESCO_
-- [x] **Patna** - Takht Patna Sahib, ISKCON Patna _Temple_
+- **VISITED** · **Bodh Gaya** - Mahabodhi Temple - UNESCO _UNESCO_
+- **VISITED** · **Gaya** - Vishnupad Temple (pind daan) _Temple_
+- **Not visited** · **Nalanda / Rajgir** - Nalanda ruins - UNESCO; Vishwa Shanti Stupa _UNESCO_
+- **VISITED** · **Patna** - Takht Patna Sahib, ISKCON Patna _Temple_
 
 **Jharkhand**
 
-- [ ] **Deoghar** - Baidyanath Jyotirlinga _Temple_
+- **Not visited** · **Deoghar** - Baidyanath Jyotirlinga _Temple_
 
 **West Bengal**
 
-- [x] **Mayapur** - ISKCON Mayapur - TOVP, Prabhupada Pushpa Samadhi, Yogapith _ISKCON_
-- [ ] **Navadvipa** - Navadvipa mandala parikrama _Temple_
-- [x] **Kolkata** - ISKCON Kolkata; Dakshineswar; Kalighat; Belur Math; Victoria Memorial; Prabhupada birthplace (Tollygunge) _Temple_
-- [ ] **Darjeeling** - Darjeeling Himalayan Railway - UNESCO _UNESCO_
-- [ ] **Sundarbans** - Sundarbans - UNESCO _UNESCO_
+- **VISITED** · **Mayapur** - ISKCON Mayapur - TOVP, Prabhupada Pushpa Samadhi, Yogapith _ISKCON_
+- **Not visited** · **Navadvipa** - Navadvipa mandala parikrama _Temple_
+- **VISITED** · **Kolkata** - ISKCON Kolkata; Dakshineswar; Kalighat; Belur Math; Victoria Memorial; Prabhupada birthplace (Tollygunge) _Temple_
+- **Not visited** · **Darjeeling** - Darjeeling Himalayan Railway - UNESCO _UNESCO_
+- **Not visited** · **Sundarbans** - Sundarbans - UNESCO _UNESCO_
 
 **Odisha**
 
-- [x] **Puri** - Jagannath Temple, Ratha Yatra, Gundicha, Tota Gopinath, Haridas samadhi _Temple_
-- [x] **Konark** - Sun Temple - UNESCO _UNESCO_
-- [x] **Bhubaneswar** - Lingaraj, Mukteshwar, Udayagiri caves, ISKCON _Temple_
-- [ ] **Chilika** - Chilika lake & Kalijai _Nature_
+- **VISITED** · **Puri** - Jagannath Temple, Ratha Yatra, Gundicha, Tota Gopinath, Haridas samadhi _Temple_
+- **VISITED** · **Konark** - Sun Temple - UNESCO _UNESCO_
+- **VISITED** · **Bhubaneswar** - Lingaraj, Mukteshwar, Udayagiri caves, ISKCON _Temple_
+- **Not visited** · **Chilika** - Chilika lake & Kalijai _Nature_
 
 **Assam**
 
-- [ ] **Guwahati** - Kamakhya Temple, Umananda _Temple_
-- [ ] **Majuli** - Vaishnava satras (river island) _Temple_
-- [ ] **Kaziranga** - Kaziranga - UNESCO (rhinos) _UNESCO_
+- **Not visited** · **Guwahati** - Kamakhya Temple, Umananda _Temple_
+- **Not visited** · **Majuli** - Vaishnava satras (river island) _Temple_
+- **Not visited** · **Kaziranga** - Kaziranga - UNESCO (rhinos) _UNESCO_
 
 **Meghalaya**
 
-- [ ] **Shillong / Cherrapunji** - Living root bridges, Mawlynnong, Dawki _Nature_
+- **Not visited** · **Shillong / Cherrapunji** - Living root bridges, Mawlynnong, Dawki _Nature_
 
 **Arunachal Pradesh**
 
-- [ ] **Tawang** - Tawang Monastery (ILP) _Monument_
+- **Not visited** · **Tawang** - Tawang Monastery (ILP) _Monument_
 
 **Manipur**
 
-- [ ] **Imphal** - Shree Govindajee Temple, Loktak lake, Kangla Fort _Temple_
+- **Not visited** · **Imphal** - Shree Govindajee Temple, Loktak lake, Kangla Fort _Temple_
 
 **Nagaland**
 
-- [ ] **Kohima** - Hornbill Festival (Dec), WWII cemetery _Festival_
+- **Not visited** · **Kohima** - Hornbill Festival (Dec), WWII cemetery _Festival_
 
 **Mizoram**
 
-- [ ] **Aizawl** - Solomon's Temple, Reiek _Monument_
+- **Not visited** · **Aizawl** - Solomon's Temple, Reiek _Monument_
 
 **Tripura**
 
-- [x] **Udaipur (Tripura)** - Tripura Sundari (Shakti peetha), Ujjayanta Palace, Unakoti _Temple_
+- **VISITED** · **Udaipur (Tripura)** - Tripura Sundari (Shakti peetha), Ujjayanta Palace, Unakoti _Temple_
 
 **Sikkim**
 
-- [ ] **Gangtok** - Rumtek, Tsomgo lake, Nathu La; Khangchendzonga NP - UNESCO _UNESCO_
+- **Not visited** · **Gangtok** - Rumtek, Tsomgo lake, Nathu La; Khangchendzonga NP - UNESCO _UNESCO_
 
 **Andaman & Nicobar**
 
-- [ ] **Port Blair** - Cellular Jail, Havelock (Radhanagar) _Monument_
+- **Not visited** · **Port Blair** - Cellular Jail, Havelock (Radhanagar) _Monument_
 
 **Lakshadweep**
 
-- [ ] **Agatti / Bangaram** - Lagoons _Nature_
+- **Not visited** · **Agatti / Bangaram** - Lagoons _Nature_
 
 **Puducherry**
 
-- [ ] **Puducherry** - Aurobindo Ashram, Auroville, French quarter _Monument_
+- **Not visited** · **Puducherry** - Aurobindo Ashram, Auroville, French quarter _Monument_
 
 **Maharashtra**
 
-- [ ] **Mumbai** - Marine Drive, Gateway of India, Juhu beach, Bandra-Worli Sea Link, Film City _Sightseeing_
-- [ ] **Lonavala / Mahabaleshwar** - Hill stations, Imagica theme park _Sightseeing_
+- **Not visited** · **Mumbai** - Marine Drive, Gateway of India, Juhu beach, Bandra-Worli Sea Link, Film City _Sightseeing_
+- **Not visited** · **Lonavala / Mahabaleshwar** - Hill stations, Imagica theme park _Sightseeing_
 
 **Goa**
 
-- [ ] **North / South Goa** - Calangute, Baga, Palolem beaches; Dudhsagar falls _Beach_
+- **Not visited** · **North / South Goa** - Calangute, Baga, Palolem beaches; Dudhsagar falls _Beach_
 
 **Rajasthan**
 
-- [ ] **Jaipur** - Chokhi Dhani, Nahargarh sunset, Jal Mahal _Sightseeing_
-- [ ] **Jaisalmer** - Sam sand dunes camel safari & desert camp _Sightseeing_
+- **Not visited** · **Jaipur** - Chokhi Dhani, Nahargarh sunset, Jal Mahal _Sightseeing_
+- **Not visited** · **Jaisalmer** - Sam sand dunes camel safari & desert camp _Sightseeing_
 
 **Uttar Pradesh**
 
-- [x] **Agra** - Mehtab Bagh (Taj sunset view), Taj Mahotsav (Feb) _Sightseeing_
+- **VISITED** · **Agra** - Mehtab Bagh (Taj sunset view), Taj Mahotsav (Feb) _Sightseeing_
 
 **Delhi**
 
-- [ ] **Delhi** - Chandni Chowk, Connaught Place, Dilli Haat, Rashtrapati Bhavan _Sightseeing_
+- **Not visited** · **Delhi** - Chandni Chowk, Connaught Place, Dilli Haat, Rashtrapati Bhavan _Sightseeing_
 
 **Himachal Pradesh**
 
-- [ ] **Manali / Solang** - Solang Valley adventure, Atal Tunnel, Sissu _Nature_
+- **Not visited** · **Manali / Solang** - Solang Valley adventure, Atal Tunnel, Sissu _Nature_
 
 **Jammu & Kashmir**
 
-- [ ] **Gulmarg / Pahalgam / Sonamarg** - Gulmarg gondola, Betaab valley, Thajiwas glacier _Nature_
+- **Not visited** · **Gulmarg / Pahalgam / Sonamarg** - Gulmarg gondola, Betaab valley, Thajiwas glacier _Nature_
 
 **Ladakh**
 
-- [ ] **Leh** - Magnetic Hill, Pangong Tso, Nubra sand dunes (Bactrian camels) _Nature_
+- **Not visited** · **Leh** - Magnetic Hill, Pangong Tso, Nubra sand dunes (Bactrian camels) _Nature_
 
 **Karnataka**
 
-- [ ] **Bengaluru** - Wonderla, Bannerghatta, Nandi Hills sunrise, Cubbon Park _Sightseeing_
-- [ ] **Hampi** - Hampi coracle ride, Matanga hill sunrise _Sightseeing_
+- **Not visited** · **Bengaluru** - Wonderla, Bannerghatta, Nandi Hills sunrise, Cubbon Park _Sightseeing_
+- **Not visited** · **Hampi** - Hampi coracle ride, Matanga hill sunrise _Sightseeing_
 
 **Tamil Nadu**
 
-- [ ] **Ooty / Kodaikanal** - Botanical gardens, Doddabetta, Kodai lake _Nature_
+- **Not visited** · **Ooty / Kodaikanal** - Botanical gardens, Doddabetta, Kodai lake _Nature_
 
 **Kerala**
 
-- [ ] **Munnar / Thekkady / Varkala** - Tea museum, Periyar wildlife boat, Varkala cliff beach _Nature_
+- **Not visited** · **Munnar / Thekkady / Varkala** - Tea museum, Periyar wildlife boat, Varkala cliff beach _Nature_
 
 **Andhra Pradesh**
 
-- [ ] **Araku / Vizag** - Araku valley train, Borra caves, RK Beach, Kailasagiri _Nature_
+- **Not visited** · **Araku / Vizag** - Araku valley train, Borra caves, RK Beach, Kailasagiri _Nature_
 
 **Telangana**
 
-- [ ] **Hyderabad** - Ramoji Film City (world's largest), Hussain Sagar & Buddha statue, Hitec City _Sightseeing_
+- **Not visited** · **Hyderabad** - Ramoji Film City (world's largest), Hussain Sagar & Buddha statue, Hitec City _Sightseeing_
 
 **Gujarat**
 
-- [ ] **Kutch** - Rann Utsav - White Rann (Nov-Feb), Mandvi beach _Festival_
-- [ ] **Gir** - Gir National Park - Asiatic lions _Wildlife_
+- **Not visited** · **Kutch** - Rann Utsav - White Rann (Nov-Feb), Mandvi beach _Festival_
+- **Not visited** · **Gir** - Gir National Park - Asiatic lions _Wildlife_
 
 **Madhya Pradesh**
 
-- [ ] **Pachmarhi / Jabalpur** - Pachmarhi hill station; Bhedaghat marble rocks & Dhuandhar falls _Nature_
+- **Not visited** · **Pachmarhi / Jabalpur** - Pachmarhi hill station; Bhedaghat marble rocks & Dhuandhar falls _Nature_
 
 **Uttarakhand**
 
-- [ ] **Nainital / Auli / Mussoorie** - Naini lake, Auli skiing, Kempty falls _Nature_
+- **Not visited** · **Nainital / Auli / Mussoorie** - Naini lake, Auli skiing, Kempty falls _Nature_
 
 **West Bengal**
 
-- [ ] **Kolkata** - Howrah Bridge, Park Street, Eco Park, Science City _Sightseeing_
+- **Not visited** · **Kolkata** - Howrah Bridge, Park Street, Eco Park, Science City _Sightseeing_
 
 **Odisha**
 
-- [ ] **Puri** - Puri beach, Sand art (Sudarsan Pattnaik), Raghurajpur craft village _Sightseeing_
+- **Not visited** · **Puri** - Puri beach, Sand art (Sudarsan Pattnaik), Raghurajpur craft village _Sightseeing_
 
 **Assam**
 
-- [ ] **Kaziranga / Majuli** - Elephant & jeep safari; Brahmaputra river cruise _Wildlife_
+- **Not visited** · **Kaziranga / Majuli** - Elephant & jeep safari; Brahmaputra river cruise _Wildlife_
 
 **Meghalaya**
 
-- [ ] **Shillong** - Umiam lake, Elephant falls, Laitlum canyon _Nature_
+- **Not visited** · **Shillong** - Umiam lake, Elephant falls, Laitlum canyon _Nature_
 
 **Sikkim**
 
-- [ ] **Gangtok / Pelling** - Gurudongmar lake, Yumthang valley, Kanchenjunga views _Nature_
+- **Not visited** · **Gangtok / Pelling** - Gurudongmar lake, Yumthang valley, Kanchenjunga views _Nature_
 
 **Andaman & Nicobar**
 
-- [ ] **Havelock / Neil** - Scuba & sea walk, Radhanagar beach, Ross island, bioluminescence _Beach_
+- **Not visited** · **Havelock / Neil** - Scuba & sea walk, Radhanagar beach, Ross island, bioluminescence _Beach_
 
 **Rajasthan**
 
-- [ ] **Ranthambore / Sariska** - Tiger safari _Wildlife_
+- **Not visited** · **Ranthambore / Sariska** - Tiger safari _Wildlife_
 
 **Madhya Pradesh**
 
-- [ ] **Kanha / Bandhavgarh / Pench** - Tiger safaris (Jungle Book country) _Wildlife_
+- **Not visited** · **Kanha / Bandhavgarh / Pench** - Tiger safaris (Jungle Book country) _Wildlife_
 
 **Karnataka**
 
-- [ ] **Kabini / Bandipur / Nagarhole** - Safari, black panther (Kabini) _Wildlife_
+- **Not visited** · **Kabini / Bandipur / Nagarhole** - Safari, black panther (Kabini) _Wildlife_
 
 **Uttarakhand**
 
-- [ ] **Jim Corbett** - Dhikala zone safari _Wildlife_
+- **Not visited** · **Jim Corbett** - Dhikala zone safari _Wildlife_
 
 *India: 55 of 192 visited*
 
@@ -803,178 +803,178 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **New York**
 
-- [x] **New York City** - ISKCON NYC (26 Second Ave - Prabhupada's first temple; Brooklyn Radha Govinda) _ISKCON_
-- [x] **New York City** - Statue of Liberty, Ellis Island, Times Square, Central Park, Empire State, 9/11 Memorial _Monument_
-- [x] **New York City** - Metropolitan Museum, MoMA, Brooklyn Bridge _Museum_
-- [x] **Tompkins Square Park** - Hare Krishna Tree (first public kirtan 1966) _ISKCON_
+- **VISITED** · **New York City** - ISKCON NYC (26 Second Ave - Prabhupada's first temple; Brooklyn Radha Govinda) _ISKCON_
+- **VISITED** · **New York City** - Statue of Liberty, Ellis Island, Times Square, Central Park, Empire State, 9/11 Memorial _Monument_
+- **VISITED** · **New York City** - Metropolitan Museum, MoMA, Brooklyn Bridge _Museum_
+- **VISITED** · **Tompkins Square Park** - Hare Krishna Tree (first public kirtan 1966) _ISKCON_
 
 **Washington DC**
 
-- [x] **Washington DC** - White House, Capitol, Lincoln Memorial, Smithsonian museums _Monument_
+- **VISITED** · **Washington DC** - White House, Capitol, Lincoln Memorial, Smithsonian museums _Monument_
 
 **Maryland**
 
-- [ ] **Potomac** - ISKCON Washington DC _ISKCON_
-- [x] **Baltimore** - ISKCON Baltimore _ISKCON_
+- **Not visited** · **Potomac** - ISKCON Washington DC _ISKCON_
+- **VISITED** · **Baltimore** - ISKCON Baltimore _ISKCON_
 
 **Virginia**
 
-- [x] **Fairfax** - Sri Venkateswara Lotus Temple _Temple_
+- **VISITED** · **Fairfax** - Sri Venkateswara Lotus Temple _Temple_
 
 **Pennsylvania**
 
-- [x] **Pittsburgh** - Sri Venkateswara Temple, Penn Hills _Temple_
+- **VISITED** · **Pittsburgh** - Sri Venkateswara Temple, Penn Hills _Temple_
 
 **New York**
 
-- [x] **Niagara Falls** - Niagara Falls - Maid of the Mist, Cave of the Winds _Nature_
+- **VISITED** · **Niagara Falls** - Niagara Falls - Maid of the Mist, Cave of the Winds _Nature_
 
 **New Jersey**
 
-- [x] **Bridgewater** - Sri Venkateswara (Balaji) Temple; IHF New Jersey _Temple_
+- **VISITED** · **Bridgewater** - Sri Venkateswara (Balaji) Temple; IHF New Jersey _Temple_
 
 **California**
 
-- [ ] **Laguna Beach / San Jose / Mountain View** - ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley _ISKCON_
+- **Not visited** · **Laguna Beach / San Jose / Mountain View** - ISKCON Laguna Beach; Krishna Balaram Balaji Mandir (IHF San Jose); ISKCON Silicon Valley _ISKCON_
 
 **New York**
 
-- [x] **New York City** - Bhakti Center (East Village) _ISKCON_
+- **VISITED** · **New York City** - Bhakti Center (East Village) _ISKCON_
 
 **West Virginia**
 
-- [x] **Moundsville** - New Vrindaban - Prabhupada's Palace of Gold _ISKCON_
+- **VISITED** · **Moundsville** - New Vrindaban - Prabhupada's Palace of Gold _ISKCON_
 
 **California**
 
-- [x] **Los Angeles** - ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty _ISKCON_
-- [ ] **San Francisco** - Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) _Monument_
-- [ ] **Yosemite / Sequoia** - Yosemite - UNESCO _UNESCO_
-- [ ] **San Diego** - ISKCON San Diego, Balboa Park _ISKCON_
+- **VISITED** · **Los Angeles** - ISKCON LA (New Dwarka, Watseka Ave - Prabhupada's HQ), Hollywood, Getty _ISKCON_
+- **Not visited** · **San Francisco** - Golden Gate Bridge, Alcatraz; ISKCON Berkeley (Ratha Yatra origin 1967) _Monument_
+- **Not visited** · **Yosemite / Sequoia** - Yosemite - UNESCO _UNESCO_
+- **Not visited** · **San Diego** - ISKCON San Diego, Balboa Park _ISKCON_
 
 **Nevada / Arizona**
 
-- [ ] **Las Vegas / Grand Canyon** - Grand Canyon - UNESCO; Hoover Dam _UNESCO_
+- **Not visited** · **Las Vegas / Grand Canyon** - Grand Canyon - UNESCO; Hoover Dam _UNESCO_
 
 **Utah**
 
-- [ ] **Spanish Fork** - Sri Sri Radha Krishna Temple (Holi festival) _ISKCON_
+- **Not visited** · **Spanish Fork** - Sri Sri Radha Krishna Temple (Holi festival) _ISKCON_
 
 **Utah / Arizona**
 
-- [ ] **Zion, Bryce, Antelope Canyon, Monument Valley** - National parks _Nature_
+- **Not visited** · **Zion, Bryce, Antelope Canyon, Monument Valley** - National parks _Nature_
 
 **Florida**
 
-- [x] **Alachua** - ISKCON Alachua (New Raman Reti) - largest US community _ISKCON_
-- [x] **Orlando / Miami** - Disney World, Kennedy Space Center, Everglades - UNESCO _Modern_
+- **VISITED** · **Alachua** - ISKCON Alachua (New Raman Reti) - largest US community _ISKCON_
+- **VISITED** · **Orlando / Miami** - Disney World, Kennedy Space Center, Everglades - UNESCO _Modern_
 
 **Texas**
 
-- [ ] **Houston / Dallas** - ISKCON Houston (Radha Nila Madhava), Dallas (Kalachandji's), NASA JSC _ISKCON_
+- **Not visited** · **Houston / Dallas** - ISKCON Houston (Radha Nila Madhava), Dallas (Kalachandji's), NASA JSC _ISKCON_
 
 **Illinois**
 
-- [ ] **Chicago** - ISKCON Chicago; Millennium Park, Willis Tower, Art Institute _ISKCON_
+- **Not visited** · **Chicago** - ISKCON Chicago; Millennium Park, Willis Tower, Art Institute _ISKCON_
 
 **Massachusetts**
 
-- [x] **Boston** - ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail _ISKCON_
+- **VISITED** · **Boston** - ISKCON Boston (Prabhupada landed 1965, Commonwealth Pier); Harvard, MIT, Freedom Trail _ISKCON_
 
 **Pennsylvania**
 
-- [x] **Philadelphia / Gita Nagari** - Independence Hall - UNESCO; Gita Nagari farm (Port Royal) _UNESCO_
+- **VISITED** · **Philadelphia / Gita Nagari** - Independence Hall - UNESCO; Gita Nagari farm (Port Royal) _UNESCO_
 
 **New Jersey**
 
-- [x] **Towaco / Robbinsville** - ISKCON NJ; BAPS Akshardham Robbinsville (largest Hindu temple outside India) _Temple_
+- **VISITED** · **Towaco / Robbinsville** - ISKCON NJ; BAPS Akshardham Robbinsville (largest Hindu temple outside India) _Temple_
 
 **Georgia**
 
-- [ ] **Atlanta** - ISKCON Atlanta (New Panihati Dham) _ISKCON_
+- **Not visited** · **Atlanta** - ISKCON Atlanta (New Panihati Dham) _ISKCON_
 
 **Hawaii**
 
-- [ ] **Honolulu / Big Island** - ISKCON Honolulu (New Navadvipa); Pearl Harbor; Volcanoes NP - UNESCO _UNESCO_
+- **Not visited** · **Honolulu / Big Island** - ISKCON Honolulu (New Navadvipa); Pearl Harbor; Volcanoes NP - UNESCO _UNESCO_
 
 **Wyoming / Montana**
 
-- [ ] **Yellowstone** - Yellowstone - UNESCO _UNESCO_
+- **Not visited** · **Yellowstone** - Yellowstone - UNESCO _UNESCO_
 
 **Washington**
 
-- [ ] **Seattle** - Space Needle, Vedic Cultural Center Sammamish _Modern_
+- **Not visited** · **Seattle** - Space Needle, Vedic Cultural Center Sammamish _Modern_
 
 **Alaska**
 
-- [ ] **Denali / Glacier Bay** - Northern lights, glaciers _Nature_
+- **Not visited** · **Denali / Glacier Bay** - Northern lights, glaciers _Nature_
 
 **Louisiana**
 
-- [ ] **New Orleans** - French Quarter, ISKCON New Orleans _Monument_
+- **Not visited** · **New Orleans** - French Quarter, ISKCON New Orleans _Monument_
 
 **Michigan**
 
-- [ ] **Detroit** - ISKCON Detroit - Fisher Mansion (Bhaktivedanta Cultural Center) _ISKCON_
+- **Not visited** · **Detroit** - ISKCON Detroit - Fisher Mansion (Bhaktivedanta Cultural Center) _ISKCON_
 
 **North Carolina**
 
-- [ ] **Hillsborough** - ISKCON New Goloka _ISKCON_
+- **Not visited** · **Hillsborough** - ISKCON New Goloka _ISKCON_
 
 **New York**
 
-- [ ] **New York City** - Broadway show, Rockefeller / Top of the Rock, High Line, Grand Central, Fifth Avenue, One World Observatory _Sightseeing_
-- [ ] **New York City** - Brooklyn Bridge walk, DUMBO, Coney Island, Staten Island ferry _Sightseeing_
+- **Not visited** · **New York City** - Broadway show, Rockefeller / Top of the Rock, High Line, Grand Central, Fifth Avenue, One World Observatory _Sightseeing_
+- **Not visited** · **New York City** - Brooklyn Bridge walk, DUMBO, Coney Island, Staten Island ferry _Sightseeing_
 
 **Nevada**
 
-- [ ] **Las Vegas** - The Strip, Bellagio fountains, Fremont Street, Sphere, Cirque du Soleil _Sightseeing_
+- **Not visited** · **Las Vegas** - The Strip, Bellagio fountains, Fremont Street, Sphere, Cirque du Soleil _Sightseeing_
 
 **California**
 
-- [ ] **Los Angeles** - Universal Studios Hollywood, Disneyland Anaheim, Santa Monica Pier, Griffith Observatory, Beverly Hills _Theme park_
-- [ ] **San Francisco** - Alcatraz, Lombard Street, cable cars, Muir Woods, Napa Valley, Lake Tahoe _Sightseeing_
+- **Not visited** · **Los Angeles** - Universal Studios Hollywood, Disneyland Anaheim, Santa Monica Pier, Griffith Observatory, Beverly Hills _Theme park_
+- **Not visited** · **San Francisco** - Alcatraz, Lombard Street, cable cars, Muir Woods, Napa Valley, Lake Tahoe _Sightseeing_
 
 **Florida**
 
-- [ ] **Orlando** - Magic Kingdom, EPCOT, Hollywood Studios, Animal Kingdom, Universal, SeaWorld, Legoland _Theme park_
-- [ ] **Miami / Keys** - South Beach, Art Deco, Everglades airboat, Key West _Beach_
+- **Not visited** · **Orlando** - Magic Kingdom, EPCOT, Hollywood Studios, Animal Kingdom, Universal, SeaWorld, Legoland _Theme park_
+- **Not visited** · **Miami / Keys** - South Beach, Art Deco, Everglades airboat, Key West _Beach_
 
 **South Dakota**
 
-- [ ] **Keystone** - Mount Rushmore, Badlands, Crazy Horse _Monument_
+- **Not visited** · **Keystone** - Mount Rushmore, Badlands, Crazy Horse _Monument_
 
 **Arizona**
 
-- [ ] **Page / Sedona** - Antelope Canyon, Horseshoe Bend, Sedona red rocks _Nature_
+- **Not visited** · **Page / Sedona** - Antelope Canyon, Horseshoe Bend, Sedona red rocks _Nature_
 
 **Illinois**
 
-- [ ] **Chicago** - Navy Pier, Cloud Gate (Bean), Skydeck, river architecture cruise _Sightseeing_
+- **Not visited** · **Chicago** - Navy Pier, Cloud Gate (Bean), Skydeck, river architecture cruise _Sightseeing_
 
 **Washington DC**
 
-- [ ] **Washington DC** - Cherry blossoms (Mar-Apr), Smithsonian museums, Arlington, Georgetown _Sightseeing_
+- **Not visited** · **Washington DC** - Cherry blossoms (Mar-Apr), Smithsonian museums, Arlington, Georgetown _Sightseeing_
 
 **Tennessee**
 
-- [ ] **Nashville / Memphis / Smoky Mtns** - Graceland, Great Smoky Mountains NP (most-visited US park), Dollywood _Nature_
+- **Not visited** · **Nashville / Memphis / Smoky Mtns** - Graceland, Great Smoky Mountains NP (most-visited US park), Dollywood _Nature_
 
 **Texas**
 
-- [ ] **San Antonio / Austin** - The Alamo, River Walk _Sightseeing_
+- **Not visited** · **San Antonio / Austin** - The Alamo, River Walk _Sightseeing_
 
 **Massachusetts**
 
-- [x] **Boston** - Freedom Trail, Fenway, Harvard Yard, Cape Cod _Sightseeing_
+- **VISITED** · **Boston** - Freedom Trail, Fenway, Harvard Yard, Cape Cod _Sightseeing_
 
 **Colorado**
 
-- [ ] **Denver / Rocky Mountain NP** - Rocky Mountain NP, Garden of the Gods, Aspen _Nature_
+- **Not visited** · **Denver / Rocky Mountain NP** - Rocky Mountain NP, Garden of the Gods, Aspen _Nature_
 
 **Oregon / Washington**
 
-- [ ] **Portland / Seattle** - Multnomah Falls, Mt Rainier, Pike Place Market _Nature_
+- **Not visited** · **Portland / Seattle** - Multnomah Falls, Mt Rainier, Pike Place Market _Nature_
 
 *USA: 19 of 52 visited*
 
@@ -983,51 +983,51 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **England**
 
-- [x] **London** - Bhaktivedanta Manor, Watford _ISKCON_
-- [ ] **London** - ISKCON Soho Street (Radha Londonishvara) & Govinda's _ISKCON_
-- [x] **London** - Tower of London - UNESCO _UNESCO_
-- [x] **London** - Westminster Abbey & Palace of Westminster (Big Ben) - UNESCO _UNESCO_
-- [x] **London** - Buckingham Palace - Changing of the Guard _Monument_
-- [x] **London** - St Paul's Cathedral _Monument_
-- [x] **London** - London Eye, Thames cruise, Tower Bridge _Monument_
-- [x] **London** - Madame Tussauds _Museum_
-- [ ] **London** - British Museum (Indian galleries), Natural History, V&A _Museum_
-- [ ] **London** - Neasden BAPS Shri Swaminarayan Mandir _Temple_
-- [ ] **London** - Kew Gardens - UNESCO; Greenwich - UNESCO _UNESCO_
-- [ ] **Wiltshire** - Stonehenge - UNESCO _UNESCO_
-- [ ] **Bath** - Roman Baths - UNESCO _UNESCO_
-- [ ] **Oxford / Cambridge** - University colleges, Oxford Centre for Hindu Studies _Monument_
-- [ ] **Windsor** - Windsor Castle _Monument_
-- [ ] **Liverpool** - Beatles story (George Harrison link) _Museum_
-- [ ] **Henley / Friar Park** - George Harrison's Friar Park (exterior) _Monument_
-- [ ] **Leicester / Birmingham** - ISKCON Leicester (Sri Sri Radha Madhava), Birmingham temple _ISKCON_
-- [ ] **Lake District** - Lake District - UNESCO _UNESCO_
+- **VISITED** · **London** - Bhaktivedanta Manor, Watford _ISKCON_
+- **Not visited** · **London** - ISKCON Soho Street (Radha Londonishvara) & Govinda's _ISKCON_
+- **VISITED** · **London** - Tower of London - UNESCO _UNESCO_
+- **VISITED** · **London** - Westminster Abbey & Palace of Westminster (Big Ben) - UNESCO _UNESCO_
+- **VISITED** · **London** - Buckingham Palace - Changing of the Guard _Monument_
+- **VISITED** · **London** - St Paul's Cathedral _Monument_
+- **VISITED** · **London** - London Eye, Thames cruise, Tower Bridge _Monument_
+- **VISITED** · **London** - Madame Tussauds _Museum_
+- **Not visited** · **London** - British Museum (Indian galleries), Natural History, V&A _Museum_
+- **Not visited** · **London** - Neasden BAPS Shri Swaminarayan Mandir _Temple_
+- **Not visited** · **London** - Kew Gardens - UNESCO; Greenwich - UNESCO _UNESCO_
+- **Not visited** · **Wiltshire** - Stonehenge - UNESCO _UNESCO_
+- **Not visited** · **Bath** - Roman Baths - UNESCO _UNESCO_
+- **Not visited** · **Oxford / Cambridge** - University colleges, Oxford Centre for Hindu Studies _Monument_
+- **Not visited** · **Windsor** - Windsor Castle _Monument_
+- **Not visited** · **Liverpool** - Beatles story (George Harrison link) _Museum_
+- **Not visited** · **Henley / Friar Park** - George Harrison's Friar Park (exterior) _Monument_
+- **Not visited** · **Leicester / Birmingham** - ISKCON Leicester (Sri Sri Radha Madhava), Birmingham temple _ISKCON_
+- **Not visited** · **Lake District** - Lake District - UNESCO _UNESCO_
 
 **Scotland**
 
-- [ ] **Edinburgh** - Edinburgh Castle, Royal Mile - UNESCO; Karuna Bhavan (Lesmahagow) _UNESCO_
-- [ ] **Highlands** - Loch Ness, Glencoe, Isle of Skye _Nature_
+- **Not visited** · **Edinburgh** - Edinburgh Castle, Royal Mile - UNESCO; Karuna Bhavan (Lesmahagow) _UNESCO_
+- **Not visited** · **Highlands** - Loch Ness, Glencoe, Isle of Skye _Nature_
 
 **Wales**
 
-- [ ] **Cardiff / Snowdonia** - Cardiff Castle; Snowdon; castles of Edward I - UNESCO _UNESCO_
+- **Not visited** · **Cardiff / Snowdonia** - Cardiff Castle; Snowdon; castles of Edward I - UNESCO _UNESCO_
 
 **Northern Ireland**
 
-- [ ] **Antrim** - Giant's Causeway - UNESCO; Inis Rath (Govindadwipa, Fermanagh) _UNESCO_
+- **Not visited** · **Antrim** - Giant's Causeway - UNESCO; Inis Rath (Govindadwipa, Fermanagh) _UNESCO_
 
 **England**
 
-- [ ] **London** - Harry Potter Warner Bros Studio, The Shard, Sky Garden, Hyde Park, Camden, Notting Hill, Covent Garden, Borough Market _Sightseeing_
-- [ ] **London** - Wembley / Lord's / Wimbledon tour, West End musical, Natural History Museum _Sightseeing_
-- [ ] **Cotswolds / Stratford** - Cotswold villages, Shakespeare's birthplace, Warwick Castle _Sightseeing_
-- [ ] **Cornwall / Devon** - St Ives, Eden Project, Jurassic Coast _Nature_
-- [ ] **York / Manchester / Liverpool** - York Minster, Old Trafford tour, Albert Dock _Sightseeing_
+- **Not visited** · **London** - Harry Potter Warner Bros Studio, The Shard, Sky Garden, Hyde Park, Camden, Notting Hill, Covent Garden, Borough Market _Sightseeing_
+- **Not visited** · **London** - Wembley / Lord's / Wimbledon tour, West End musical, Natural History Museum _Sightseeing_
+- **Not visited** · **Cotswolds / Stratford** - Cotswold villages, Shakespeare's birthplace, Warwick Castle _Sightseeing_
+- **Not visited** · **Cornwall / Devon** - St Ives, Eden Project, Jurassic Coast _Nature_
+- **Not visited** · **York / Manchester / Liverpool** - York Minster, Old Trafford tour, Albert Dock _Sightseeing_
 
 **Scotland**
 
-- [ ] **Edinburgh** - Arthur's Seat, Royal Yacht Britannia, Edinburgh Fringe (Aug) _Sightseeing_
-- [ ] **Highlands** - Glenfinnan Viaduct (Hogwarts Express), Ben Nevis, Isle of Skye Fairy Pools _Nature_
+- **Not visited** · **Edinburgh** - Arthur's Seat, Royal Yacht Britannia, Edinburgh Fringe (Aug) _Sightseeing_
+- **Not visited** · **Highlands** - Glenfinnan Viaduct (Hogwarts Express), Ben Nevis, Isle of Skye Fairy Pools _Nature_
 
 *United Kingdom: 7 of 30 visited*
 
@@ -1036,43 +1036,43 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Ile-de-France**
 
-- [x] **Paris** - Eiffel Tower _Monument_
-- [x] **Paris** - Louvre Museum _Museum_
-- [x] **Paris** - Seine cruise, Notre-Dame, Arc de Triomphe, Champs-Elysees _Monument_
-- [x] **Paris** - Montmartre & Sacre-Coeur _Monument_
-- [ ] **Paris** - Palace of Versailles - UNESCO _UNESCO_
-- [ ] **Paris** - Musee d'Orsay, Sainte-Chapelle, Pantheon _Museum_
-- [ ] **Sarcelles** - ISKCON Paris _ISKCON_
+- **VISITED** · **Paris** - Eiffel Tower _Monument_
+- **VISITED** · **Paris** - Louvre Museum _Museum_
+- **VISITED** · **Paris** - Seine cruise, Notre-Dame, Arc de Triomphe, Champs-Elysees _Monument_
+- **VISITED** · **Paris** - Montmartre & Sacre-Coeur _Monument_
+- **Not visited** · **Paris** - Palace of Versailles - UNESCO _UNESCO_
+- **Not visited** · **Paris** - Musee d'Orsay, Sainte-Chapelle, Pantheon _Museum_
+- **Not visited** · **Sarcelles** - ISKCON Paris _ISKCON_
 
 **Centre-Val de Loire**
 
-- [x] **Lucay-le-Male** - ISKCON New Mayapur _ISKCON_
-- [ ] **Loire Valley** - Chateaux (Chambord, Chenonceau) - UNESCO _UNESCO_
+- **VISITED** · **Lucay-le-Male** - ISKCON New Mayapur _ISKCON_
+- **Not visited** · **Loire Valley** - Chateaux (Chambord, Chenonceau) - UNESCO _UNESCO_
 
 **Normandy**
 
-- [ ] **Mont-Saint-Michel** - Mont-Saint-Michel - UNESCO _UNESCO_
+- **Not visited** · **Mont-Saint-Michel** - Mont-Saint-Michel - UNESCO _UNESCO_
 
 **Provence**
 
-- [ ] **Avignon / Nice / Monaco** - Papal Palace, French Riviera _Monument_
+- **Not visited** · **Avignon / Nice / Monaco** - Papal Palace, French Riviera _Monument_
 
 **Alsace**
 
-- [ ] **Strasbourg / Colmar** - Old towns - UNESCO _UNESCO_
+- **Not visited** · **Strasbourg / Colmar** - Old towns - UNESCO _UNESCO_
 
 **Ile-de-France**
 
-- [ ] **Paris** - Disneyland Paris _Theme park_
-- [ ] **Paris** - Montparnasse view, Galeries Lafayette rooftop, Luxembourg Gardens, Moulin Rouge exterior, Pere Lachaise _Sightseeing_
+- **Not visited** · **Paris** - Disneyland Paris _Theme park_
+- **Not visited** · **Paris** - Montparnasse view, Galeries Lafayette rooftop, Luxembourg Gardens, Moulin Rouge exterior, Pere Lachaise _Sightseeing_
 
 **Provence**
 
-- [ ] **Provence** - Lavender fields (Jun-Jul), Gorges du Verdon _Nature_
+- **Not visited** · **Provence** - Lavender fields (Jun-Jul), Gorges du Verdon _Nature_
 
 **Auvergne-Rhone-Alpes**
 
-- [ ] **Chamonix** - Mont Blanc, Aiguille du Midi _Nature_
+- **Not visited** · **Chamonix** - Mont Blanc, Aiguille du Midi _Nature_
 
 *France: 5 of 16 visited*
 
@@ -1081,16 +1081,16 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Brussels**
 
-- [x] **Brussels** - Grand Place - UNESCO, Manneken Pis, Atomium _UNESCO_
+- **VISITED** · **Brussels** - Grand Place - UNESCO, Manneken Pis, Atomium _UNESCO_
 
 **Wallonia**
 
-- [x] **Durbuy** - ISKCON Radhadesh _ISKCON_
+- **VISITED** · **Durbuy** - ISKCON Radhadesh _ISKCON_
 
 **Flanders**
 
-- [ ] **Bruges / Ghent / Antwerp** - Bruges historic centre - UNESCO; Antwerp ISKCON _UNESCO_
-- [ ] **Bruges** - Canal boat, Belfry, chocolate & waffles _Sightseeing_
+- **Not visited** · **Bruges / Ghent / Antwerp** - Bruges historic centre - UNESCO; Antwerp ISKCON _UNESCO_
+- **Not visited** · **Bruges** - Canal boat, Belfry, chocolate & waffles _Sightseeing_
 
 *Belgium: 2 of 4 visited*
 
@@ -1099,16 +1099,16 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **North Holland**
 
-- [x] **Amsterdam** - Canal ring - UNESCO, Dam Square, Anne Frank House _UNESCO_
-- [ ] **Amsterdam** - Rijksmuseum, Van Gogh Museum; ISKCON Amsterdam _Museum_
+- **VISITED** · **Amsterdam** - Canal ring - UNESCO, Dam Square, Anne Frank House _UNESCO_
+- **Not visited** · **Amsterdam** - Rijksmuseum, Van Gogh Museum; ISKCON Amsterdam _Museum_
 
 **South Holland**
 
-- [ ] **Keukenhof / Kinderdijk** - Tulips (Mar-May); windmills - UNESCO _UNESCO_
+- **Not visited** · **Keukenhof / Kinderdijk** - Tulips (Mar-May); windmills - UNESCO _UNESCO_
 
 **North Holland**
 
-- [ ] **Zaanse Schans / Volendam** - Windmills, cheese farms, clog factory _Sightseeing_
+- **Not visited** · **Zaanse Schans / Volendam** - Windmills, cheese farms, clog factory _Sightseeing_
 
 *Netherlands: 1 of 4 visited*
 
@@ -1117,41 +1117,41 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **North Rhine-Westphalia**
 
-- [x] **Cologne** - Cologne Cathedral - UNESCO _UNESCO_
+- **VISITED** · **Cologne** - Cologne Cathedral - UNESCO _UNESCO_
 
 **Baden-Wurttemberg**
 
-- [x] **Black Forest / Triberg** - Black Forest, Triberg falls & cuckoo clocks _Nature_
+- **VISITED** · **Black Forest / Triberg** - Black Forest, Triberg falls & cuckoo clocks _Nature_
 
 **Bavaria**
 
-- [ ] **Munich** - Marienplatz, Nymphenburg, BMW; Oktoberfest _Monument_
-- [ ] **Neuschwanstein** - Neuschwanstein Castle _Monument_
-- [ ] **Jandelsbrunn** - ISKCON Simhachalam (Narasimha deity) _ISKCON_
+- **Not visited** · **Munich** - Marienplatz, Nymphenburg, BMW; Oktoberfest _Monument_
+- **Not visited** · **Neuschwanstein** - Neuschwanstein Castle _Monument_
+- **Not visited** · **Jandelsbrunn** - ISKCON Simhachalam (Narasimha deity) _ISKCON_
 
 **Rhineland-Palatinate**
 
-- [ ] **Abentheuer** - Goloka Dhama _ISKCON_
+- **Not visited** · **Abentheuer** - Goloka Dhama _ISKCON_
 
 **Berlin**
 
-- [ ] **Berlin** - Brandenburg Gate, Reichstag, Berlin Wall, Museum Island - UNESCO _UNESCO_
+- **Not visited** · **Berlin** - Brandenburg Gate, Reichstag, Berlin Wall, Museum Island - UNESCO _UNESCO_
 
 **Hesse / Rhine**
 
-- [ ] **Rhine Gorge** - Upper Middle Rhine Valley castles - UNESCO _UNESCO_
+- **Not visited** · **Rhine Gorge** - Upper Middle Rhine Valley castles - UNESCO _UNESCO_
 
 **Saxony**
 
-- [ ] **Dresden** - Frauenkirche, Zwinger _Monument_
+- **Not visited** · **Dresden** - Frauenkirche, Zwinger _Monument_
 
 **Bavaria**
 
-- [ ] **Munich / Fussen** - Oktoberfest (Sep-Oct), Zugspitze, Linderhof _Sightseeing_
+- **Not visited** · **Munich / Fussen** - Oktoberfest (Sep-Oct), Zugspitze, Linderhof _Sightseeing_
 
 **Hesse**
 
-- [ ] **Frankfurt / Heidelberg** - Romerberg, Heidelberg Castle, Rhine cruise Rudesheim _Sightseeing_
+- **Not visited** · **Frankfurt / Heidelberg** - Romerberg, Heidelberg Castle, Rhine cruise Rudesheim _Sightseeing_
 
 *Germany: 2 of 11 visited*
 
@@ -1160,51 +1160,51 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Schaffhausen**
 
-- [x] **Rhine Falls** - Rhine Falls _Nature_
+- **VISITED** · **Rhine Falls** - Rhine Falls _Nature_
 
 **Zurich**
 
-- [x] **Zurich** - Old Town, Lake Zurich; ISKCON Zurich _Monument_
+- **VISITED** · **Zurich** - Old Town, Lake Zurich; ISKCON Zurich _Monument_
 
 **Lucerne**
 
-- [x] **Lucerne** - Chapel Bridge, Lion Monument, Lake Lucerne _Monument_
+- **VISITED** · **Lucerne** - Chapel Bridge, Lion Monument, Lake Lucerne _Monument_
 
 **Obwalden**
 
-- [x] **Engelberg** - Mt Titlis (Cliff Walk, Ice Flyer) _Nature_
+- **VISITED** · **Engelberg** - Mt Titlis (Cliff Walk, Ice Flyer) _Nature_
 
 **Bern**
 
-- [ ] **Interlaken / Jungfrau** - Jungfraujoch - Top of Europe; Jungfrau-Aletsch - UNESCO _UNESCO_
+- **Not visited** · **Interlaken / Jungfrau** - Jungfraujoch - Top of Europe; Jungfrau-Aletsch - UNESCO _UNESCO_
 
 **Valais**
 
-- [ ] **Zermatt** - Matterhorn, Gornergrat _Nature_
+- **Not visited** · **Zermatt** - Matterhorn, Gornergrat _Nature_
 
 **Bern**
 
-- [ ] **Bern** - Old City - UNESCO _UNESCO_
+- **Not visited** · **Bern** - Old City - UNESCO _UNESCO_
 
 **Geneva / Vaud**
 
-- [ ] **Geneva / Montreux** - Lake Geneva, Chillon Castle, UN _Monument_
+- **Not visited** · **Geneva / Montreux** - Lake Geneva, Chillon Castle, UN _Monument_
 
 **Bern**
 
-- [ ] **Interlaken / Grindelwald** - Harder Kulm, First cliff walk, Lauterbrunnen falls, Schilthorn (Bond) _Nature_
+- **Not visited** · **Interlaken / Grindelwald** - Harder Kulm, First cliff walk, Lauterbrunnen falls, Schilthorn (Bond) _Nature_
 
 **Lucerne**
 
-- [ ] **Lucerne** - Mt Pilatus (cogwheel + cable car), Lake Lucerne cruise _Nature_
+- **Not visited** · **Lucerne** - Mt Pilatus (cogwheel + cable car), Lake Lucerne cruise _Nature_
 
 **Valais / Graubunden**
 
-- [ ] **Zermatt / St Moritz** - Glacier Express train, Bernina Express _Nature_
+- **Not visited** · **Zermatt / St Moritz** - Glacier Express train, Bernina Express _Nature_
 
 **Vaud**
 
-- [ ] **Montreux / Lausanne** - Lavaux vineyards, Chaplin's World, Olympic Museum _Sightseeing_
+- **Not visited** · **Montreux / Lausanne** - Lavaux vineyards, Chaplin's World, Olympic Museum _Sightseeing_
 
 *Switzerland: 4 of 12 visited*
 
@@ -1213,63 +1213,63 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Lombardy**
 
-- [x] **Milan** - Duomo, Galleria, Sforza Castle, Last Supper - UNESCO _UNESCO_
-- [x] **Chignolo d'Isola** - Villaggio Hare Krishna _ISKCON_
+- **VISITED** · **Milan** - Duomo, Galleria, Sforza Castle, Last Supper - UNESCO _UNESCO_
+- **VISITED** · **Chignolo d'Isola** - Villaggio Hare Krishna _ISKCON_
 
 **Veneto**
 
-- [x] **Venice** - St Mark's, Doge's Palace, Rialto, gondola - UNESCO _UNESCO_
-- [x] **Padova** - Prato della Valle, St Anthony's Basilica, Scrovegni Chapel - UNESCO _UNESCO_
-- [ ] **Verona** - Arena, Juliet's house - UNESCO _UNESCO_
+- **VISITED** · **Venice** - St Mark's, Doge's Palace, Rialto, gondola - UNESCO _UNESCO_
+- **VISITED** · **Padova** - Prato della Valle, St Anthony's Basilica, Scrovegni Chapel - UNESCO _UNESCO_
+- **Not visited** · **Verona** - Arena, Juliet's house - UNESCO _UNESCO_
 
 **Tuscany**
 
-- [x] **Florence** - Duomo, Ponte Vecchio, Piazza della Signoria, Uffizi - UNESCO _UNESCO_
-- [x] **Florence (San Casciano)** - ISKCON Villa Vrindavana _ISKCON_
-- [x] **Pisa** - Leaning Tower (Piazza dei Miracoli) - UNESCO _UNESCO_
-- [x] **Arezzo / Siena / San Gimignano** - Tuscan hill towns - UNESCO _UNESCO_
+- **VISITED** · **Florence** - Duomo, Ponte Vecchio, Piazza della Signoria, Uffizi - UNESCO _UNESCO_
+- **VISITED** · **Florence (San Casciano)** - ISKCON Villa Vrindavana _ISKCON_
+- **VISITED** · **Pisa** - Leaning Tower (Piazza dei Miracoli) - UNESCO _UNESCO_
+- **VISITED** · **Arezzo / Siena / San Gimignano** - Tuscan hill towns - UNESCO _UNESCO_
 
 **Lazio**
 
-- [x] **Rome** - Colosseum, Roman Forum, Pantheon - UNESCO _UNESCO_
-- [ ] **Rome** - Trevi Fountain, Spanish Steps, Piazza Navona; ISKCON Rome _Monument_
+- **VISITED** · **Rome** - Colosseum, Roman Forum, Pantheon - UNESCO _UNESCO_
+- **Not visited** · **Rome** - Trevi Fountain, Spanish Steps, Piazza Navona; ISKCON Rome _Monument_
 
 **Campania**
 
-- [ ] **Pompeii / Amalfi / Capri** - Pompeii - UNESCO; Amalfi Coast - UNESCO _UNESCO_
-- [ ] **Naples** - Historic centre - UNESCO, Vesuvius _UNESCO_
+- **Not visited** · **Pompeii / Amalfi / Capri** - Pompeii - UNESCO; Amalfi Coast - UNESCO _UNESCO_
+- **Not visited** · **Naples** - Historic centre - UNESCO, Vesuvius _UNESCO_
 
 **Sicily**
 
-- [ ] **Agrigento / Taormina / Etna** - Valley of Temples - UNESCO; Mt Etna - UNESCO _UNESCO_
+- **Not visited** · **Agrigento / Taormina / Etna** - Valley of Temples - UNESCO; Mt Etna - UNESCO _UNESCO_
 
 **Liguria**
 
-- [ ] **Cinque Terre** - Cinque Terre - UNESCO _UNESCO_
+- **Not visited** · **Cinque Terre** - Cinque Terre - UNESCO _UNESCO_
 
 **Lake Como**
 
-- [ ] **Como / Bellagio** - Lake Como _Nature_
+- **Not visited** · **Como / Bellagio** - Lake Como _Nature_
 
 **Veneto**
 
-- [ ] **Venice** - Murano & Burano islands, Lido _Sightseeing_
+- **Not visited** · **Venice** - Murano & Burano islands, Lido _Sightseeing_
 
 **Lazio**
 
-- [ ] **Rome** - Vatican Museums & Sistine Chapel, Trevi, Spanish Steps, Piazza Navona, Trastevere _Sightseeing_
+- **Not visited** · **Rome** - Vatican Museums & Sistine Chapel, Trevi, Spanish Steps, Piazza Navona, Trastevere _Sightseeing_
 
 **Campania**
 
-- [ ] **Sorrento / Positano / Capri** - Amalfi drive, Blue Grotto, Pompeii _Sightseeing_
+- **Not visited** · **Sorrento / Positano / Capri** - Amalfi drive, Blue Grotto, Pompeii _Sightseeing_
 
 **Tuscany**
 
-- [ ] **Chianti / Val d'Orcia** - Tuscan countryside, San Gimignano _Nature_
+- **Not visited** · **Chianti / Val d'Orcia** - Tuscan countryside, San Gimignano _Nature_
 
 **Lombardy**
 
-- [ ] **Lake Como / Garda** - Bellagio, Varenna, Gardaland theme park _Nature_
+- **Not visited** · **Lake Como / Garda** - Bellagio, Varenna, Gardaland theme park _Nature_
 
 *Italy: 9 of 21 visited*
 
@@ -1278,8 +1278,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Vatican**
 
-- [x] **Vatican City** - St Peter's Basilica & Square - UNESCO _UNESCO_
-- [ ] **Vatican City** - Vatican Museums & Sistine Chapel _Museum_
+- **VISITED** · **Vatican City** - St Peter's Basilica & Square - UNESCO _UNESCO_
+- **Not visited** · **Vatican City** - Vatican Museums & Sistine Chapel _Museum_
 
 *Vatican City: 1 of 2 visited*
 
@@ -1288,32 +1288,32 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Catalonia**
 
-- [ ] **Barcelona** - Sagrada Familia, Park Guell (Gaudi) - UNESCO; ISKCON Barcelona _UNESCO_
+- **Not visited** · **Barcelona** - Sagrada Familia, Park Guell (Gaudi) - UNESCO; ISKCON Barcelona _UNESCO_
 
 **Madrid**
 
-- [ ] **Madrid** - Prado, Royal Palace; ISKCON Madrid _Museum_
+- **Not visited** · **Madrid** - Prado, Royal Palace; ISKCON Madrid _Museum_
 
 **Andalusia**
 
-- [ ] **Granada / Seville / Cordoba** - Alhambra - UNESCO; Seville Cathedral; Mezquita - UNESCO _UNESCO_
-- [ ] **Brihuega / Guadalajara** - New Vraja Mandala (ISKCON farm) _ISKCON_
+- **Not visited** · **Granada / Seville / Cordoba** - Alhambra - UNESCO; Seville Cathedral; Mezquita - UNESCO _UNESCO_
+- **Not visited** · **Brihuega / Guadalajara** - New Vraja Mandala (ISKCON farm) _ISKCON_
 
 **Catalonia**
 
-- [ ] **Barcelona** - La Rambla, Camp Nou tour, Montserrat monastery, Magic Fountain _Sightseeing_
+- **Not visited** · **Barcelona** - La Rambla, Camp Nou tour, Montserrat monastery, Magic Fountain _Sightseeing_
 
 **Madrid**
 
-- [ ] **Madrid** - Santiago Bernabeu tour, Retiro Park, Toledo day trip _Sightseeing_
+- **Not visited** · **Madrid** - Santiago Bernabeu tour, Retiro Park, Toledo day trip _Sightseeing_
 
 **Andalusia**
 
-- [ ] **Seville / Ronda** - Flamenco show, Plaza de Espana, Ronda bridge _Sightseeing_
+- **Not visited** · **Seville / Ronda** - Flamenco show, Plaza de Espana, Ronda bridge _Sightseeing_
 
 **Balearic / Canary Is.**
 
-- [ ] **Mallorca / Ibiza / Tenerife** - Beaches, Mt Teide _Beach_
+- **Not visited** · **Mallorca / Ibiza / Tenerife** - Beaches, Mt Teide _Beach_
 
 *Spain: 0 of 8 visited*
 
@@ -1322,19 +1322,19 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Lisbon**
 
-- [ ] **Lisbon / Sintra** - Belem Tower, Jeronimos - UNESCO; Sintra - UNESCO; ISKCON Lisbon _UNESCO_
+- **Not visited** · **Lisbon / Sintra** - Belem Tower, Jeronimos - UNESCO; Sintra - UNESCO; ISKCON Lisbon _UNESCO_
 
 **Porto**
 
-- [ ] **Porto** - Ribeira - UNESCO, Douro valley _UNESCO_
+- **Not visited** · **Porto** - Ribeira - UNESCO, Douro valley _UNESCO_
 
 **Lisbon**
 
-- [ ] **Lisbon / Sintra / Cascais** - Tram 28, Pena Palace, Cabo da Roca _Sightseeing_
+- **Not visited** · **Lisbon / Sintra / Cascais** - Tram 28, Pena Palace, Cabo da Roca _Sightseeing_
 
 **Algarve**
 
-- [ ] **Lagos / Albufeira** - Benagil cave, cliffs _Beach_
+- **Not visited** · **Lagos / Albufeira** - Benagil cave, cliffs _Beach_
 
 *Portugal: 0 of 4 visited*
 
@@ -1343,15 +1343,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Vienna**
 
-- [ ] **Vienna** - Schonbrunn, Hofburg, St Stephen's - UNESCO; ISKCON Vienna _UNESCO_
+- **Not visited** · **Vienna** - Schonbrunn, Hofburg, St Stephen's - UNESCO; ISKCON Vienna _UNESCO_
 
 **Salzburg**
 
-- [ ] **Salzburg / Hallstatt** - Mozart city - UNESCO; Hallstatt - UNESCO _UNESCO_
+- **Not visited** · **Salzburg / Hallstatt** - Mozart city - UNESCO; Hallstatt - UNESCO _UNESCO_
 
 **Tyrol**
 
-- [ ] **Innsbruck / Salzburg** - Swarovski Crystal Worlds, Sound of Music tour, Hallstatt _Sightseeing_
+- **Not visited** · **Innsbruck / Salzburg** - Swarovski Crystal Worlds, Sound of Music tour, Hallstatt _Sightseeing_
 
 *Austria: 0 of 3 visited*
 
@@ -1360,15 +1360,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Prague**
 
-- [ ] **Prague** - Charles Bridge, Prague Castle, Old Town - UNESCO; ISKCON Prague _UNESCO_
+- **Not visited** · **Prague** - Charles Bridge, Prague Castle, Old Town - UNESCO; ISKCON Prague _UNESCO_
 
 **Central Bohemia**
 
-- [ ] **Krishnuv Dvur** - ISKCON farm (Krsnuv Dvur) _ISKCON_
+- **Not visited** · **Krishnuv Dvur** - ISKCON farm (Krsnuv Dvur) _ISKCON_
 
 **Prague**
 
-- [ ] **Prague** - Astronomical Clock, Vltava cruise, Petrin Tower, Cesky Krumlov day trip _Sightseeing_
+- **Not visited** · **Prague** - Astronomical Clock, Vltava cruise, Petrin Tower, Cesky Krumlov day trip _Sightseeing_
 
 *Czechia: 0 of 3 visited*
 
@@ -1377,15 +1377,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Budapest**
 
-- [ ] **Budapest** - Parliament, Buda Castle, Danube - UNESCO; ISKCON Budapest _UNESCO_
+- **Not visited** · **Budapest** - Parliament, Buda Castle, Danube - UNESCO; ISKCON Budapest _UNESCO_
 
 **Somogy**
 
-- [ ] **Somogyvamos** - Krishna Valley (Krisna-volgy) - eco village _ISKCON_
+- **Not visited** · **Somogyvamos** - Krishna Valley (Krisna-volgy) - eco village _ISKCON_
 
 **Budapest**
 
-- [ ] **Budapest** - Szechenyi thermal baths, Fisherman's Bastion, Danube night cruise _Sightseeing_
+- **Not visited** · **Budapest** - Szechenyi thermal baths, Fisherman's Bastion, Danube night cruise _Sightseeing_
 
 *Hungary: 0 of 3 visited*
 
@@ -1394,11 +1394,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Krakow**
 
-- [ ] **Krakow / Auschwitz** - Old Town - UNESCO; Wieliczka salt mine - UNESCO _UNESCO_
+- **Not visited** · **Krakow / Auschwitz** - Old Town - UNESCO; Wieliczka salt mine - UNESCO _UNESCO_
 
 **Lower Silesia**
 
-- [ ] **Czarnow** - New Santipur (ISKCON) _ISKCON_
+- **Not visited** · **Czarnow** - New Santipur (ISKCON) _ISKCON_
 
 *Poland: 0 of 2 visited*
 
@@ -1407,19 +1407,19 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Attica**
 
-- [ ] **Athens** - Acropolis & Parthenon - UNESCO _UNESCO_
+- **Not visited** · **Athens** - Acropolis & Parthenon - UNESCO _UNESCO_
 
 **Islands**
 
-- [ ] **Santorini / Mykonos / Delphi / Meteora** - Meteora - UNESCO; Delphi - UNESCO _UNESCO_
+- **Not visited** · **Santorini / Mykonos / Delphi / Meteora** - Meteora - UNESCO; Delphi - UNESCO _UNESCO_
 
 **South Aegean**
 
-- [ ] **Santorini / Mykonos** - Oia sunset, caldera cruise, Mykonos windmills _Beach_
+- **Not visited** · **Santorini / Mykonos** - Oia sunset, caldera cruise, Mykonos windmills _Beach_
 
 **Crete / Ionian**
 
-- [ ] **Crete / Corfu / Zakynthos** - Knossos, Navagio beach _Beach_
+- **Not visited** · **Crete / Corfu / Zakynthos** - Knossos, Navagio beach _Beach_
 
 *Greece: 0 of 4 visited*
 
@@ -1428,8 +1428,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Dalmatia**
 
-- [ ] **Dubrovnik / Split / Plitvice** - Old City - UNESCO; Diocletian's Palace; Plitvice - UNESCO _UNESCO_
-- [ ] **Dubrovnik / Hvar** - City walls walk (Game of Thrones), Hvar island _Sightseeing_
+- **Not visited** · **Dubrovnik / Split / Plitvice** - Old City - UNESCO; Diocletian's Palace; Plitvice - UNESCO _UNESCO_
+- **Not visited** · **Dubrovnik / Hvar** - City walls walk (Game of Thrones), Hvar island _Sightseeing_
 
 *Croatia: 0 of 2 visited*
 
@@ -1438,7 +1438,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Upper Carniola**
 
-- [ ] **Lake Bled / Ljubljana** - Lake Bled _Nature_
+- **Not visited** · **Lake Bled / Ljubljana** - Lake Bled _Nature_
 
 *Slovenia: 0 of 1 visited*
 
@@ -1447,7 +1447,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Copenhagen**
 
-- [ ] **Copenhagen** - Nyhavn, Little Mermaid, Tivoli; ISKCON Copenhagen _Monument_
+- **Not visited** · **Copenhagen** - Nyhavn, Little Mermaid, Tivoli; ISKCON Copenhagen _Monument_
 
 *Denmark: 0 of 1 visited*
 
@@ -1456,7 +1456,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Stockholm**
 
-- [ ] **Stockholm / Korsnas** - Gamla Stan, Vasa Museum; Almviks Gard (ISKCON farm) _ISKCON_
+- **Not visited** · **Stockholm / Korsnas** - Gamla Stan, Vasa Museum; Almviks Gard (ISKCON farm) _ISKCON_
 
 *Sweden: 0 of 1 visited*
 
@@ -1465,11 +1465,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Western fjords**
 
-- [ ] **Bergen / Geiranger / Tromso** - Fjords - UNESCO; Northern lights _UNESCO_
+- **Not visited** · **Bergen / Geiranger / Tromso** - Fjords - UNESCO; Northern lights _UNESCO_
 
 **Western**
 
-- [ ] **Bergen / Lofoten** - Flam railway, Preikestolen, Lofoten Islands, Tromso aurora _Nature_
+- **Not visited** · **Bergen / Lofoten** - Flam railway, Preikestolen, Lofoten Islands, Tromso aurora _Nature_
 
 *Norway: 0 of 2 visited*
 
@@ -1478,7 +1478,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Lapland / Reykjavik** - Northern lights, Golden Circle, Blue Lagoon _Nature_
+- **Not visited** · **Lapland / Reykjavik** - Northern lights, Golden Circle, Blue Lagoon _Nature_
 
 *Finland / Iceland: 0 of 1 visited*
 
@@ -1487,19 +1487,19 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Leinster**
 
-- [ ] **Dublin** - Trinity College (Book of Kells), Guinness; ISKCON Dublin _Monument_
+- **Not visited** · **Dublin** - Trinity College (Book of Kells), Guinness; ISKCON Dublin _Monument_
 
 **Ulster**
 
-- [ ] **Fermanagh** - Inis Rath - Govindadwipa (Hare Krishna island) _ISKCON_
+- **Not visited** · **Fermanagh** - Inis Rath - Govindadwipa (Hare Krishna island) _ISKCON_
 
 **Munster**
 
-- [ ] **Cliffs of Moher / Ring of Kerry** - Cliffs of Moher _Nature_
+- **Not visited** · **Cliffs of Moher / Ring of Kerry** - Cliffs of Moher _Nature_
 
 **Leinster / Munster**
 
-- [ ] **Dublin / Killarney** - Guinness Storehouse, Temple Bar, Cliffs of Moher, Ring of Kerry _Sightseeing_
+- **Not visited** · **Dublin / Killarney** - Guinness Storehouse, Temple Bar, Cliffs of Moher, Ring of Kerry _Sightseeing_
 
 *Ireland: 0 of 4 visited*
 
@@ -1508,23 +1508,23 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Istanbul**
 
-- [ ] **Istanbul** - Hagia Sophia, Blue Mosque, Topkapi - UNESCO _UNESCO_ *(Likely - confirm)*
+- **Not visited** · **Istanbul** - Hagia Sophia, Blue Mosque, Topkapi - UNESCO _UNESCO_ *(Likely - confirm)*
 
 **Cappadocia**
 
-- [ ] **Goreme** - Balloons, rock churches - UNESCO _UNESCO_
+- **Not visited** · **Goreme** - Balloons, rock churches - UNESCO _UNESCO_
 
 **Denizli / Izmir**
 
-- [ ] **Pamukkale / Ephesus** - Travertines - UNESCO; Ephesus - UNESCO _UNESCO_
+- **Not visited** · **Pamukkale / Ephesus** - Travertines - UNESCO; Ephesus - UNESCO _UNESCO_
 
 **Istanbul**
 
-- [ ] **Istanbul** - Bosphorus cruise, Grand Bazaar, Galata Tower, Basilica Cistern _Sightseeing_
+- **Not visited** · **Istanbul** - Bosphorus cruise, Grand Bazaar, Galata Tower, Basilica Cistern _Sightseeing_
 
 **Antalya**
 
-- [ ] **Antalya** - Mediterranean resorts, Duden falls _Beach_
+- **Not visited** · **Antalya** - Mediterranean resorts, Duden falls _Beach_
 
 *Turkey: 0 of 5 visited*
 
@@ -1533,15 +1533,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Moscow**
 
-- [ ] **Moscow** - Red Square, Kremlin, St Basil's - UNESCO; ISKCON Moscow (new temple) _UNESCO_
+- **Not visited** · **Moscow** - Red Square, Kremlin, St Basil's - UNESCO; ISKCON Moscow (new temple) _UNESCO_
 
 **St Petersburg**
 
-- [ ] **St Petersburg** - Hermitage, Peterhof - UNESCO _UNESCO_
+- **Not visited** · **St Petersburg** - Hermitage, Peterhof - UNESCO _UNESCO_
 
 **Moscow**
 
-- [ ] **Moscow** - Bolshoi Theatre, Moscow Metro tour, Gorky Park _Sightseeing_
+- **Not visited** · **Moscow** - Bolshoi Theatre, Moscow Metro tour, Gorky Park _Sightseeing_
 
 *Russia: 0 of 3 visited*
 
@@ -1550,32 +1550,32 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Dubai**
 
-- [ ] **Dubai** - Burj Khalifa & Dubai Mall / Fountain _Modern_ *(Likely - confirm)*
-- [ ] **Dubai** - ISKCON Dubai (Bur Dubai Shiva-Krishna temple) & Hindu Temple Jebel Ali _Temple_
-- [ ] **Dubai** - Palm Jumeirah, Atlantis, Burj Al Arab, Dubai Marina _Modern_
-- [ ] **Dubai** - Old Dubai - Al Fahidi, Gold & Spice souks, Dubai Creek abra _Monument_ *(Likely - confirm)*
-- [ ] **Dubai** - Museum of the Future, Dubai Frame, Global Village (Nov-Apr) _Modern_
-- [ ] **Dubai** - Desert safari, Miracle Garden (Nov-Apr) _Nature_
+- **Not visited** · **Dubai** - Burj Khalifa & Dubai Mall / Fountain _Modern_ *(Likely - confirm)*
+- **Not visited** · **Dubai** - ISKCON Dubai (Bur Dubai Shiva-Krishna temple) & Hindu Temple Jebel Ali _Temple_
+- **Not visited** · **Dubai** - Palm Jumeirah, Atlantis, Burj Al Arab, Dubai Marina _Modern_
+- **Not visited** · **Dubai** - Old Dubai - Al Fahidi, Gold & Spice souks, Dubai Creek abra _Monument_ *(Likely - confirm)*
+- **Not visited** · **Dubai** - Museum of the Future, Dubai Frame, Global Village (Nov-Apr) _Modern_
+- **Not visited** · **Dubai** - Desert safari, Miracle Garden (Nov-Apr) _Nature_
 
 **Abu Dhabi**
 
-- [ ] **Abu Dhabi** - BAPS Hindu Mandir (Abu Mureikhah) - first traditional Hindu temple in UAE _Temple_ *(Likely - confirm)*
-- [ ] **Abu Dhabi** - Sheikh Zayed Grand Mosque _Monument_ *(Likely - confirm)*
-- [ ] **Abu Dhabi** - Louvre Abu Dhabi, Qasr Al Watan, Emirates Palace _Museum_
-- [ ] **Yas Island** - Ferrari World, Yas Marina F1 circuit _Modern_
+- **Not visited** · **Abu Dhabi** - BAPS Hindu Mandir (Abu Mureikhah) - first traditional Hindu temple in UAE _Temple_ *(Likely - confirm)*
+- **Not visited** · **Abu Dhabi** - Sheikh Zayed Grand Mosque _Monument_ *(Likely - confirm)*
+- **Not visited** · **Abu Dhabi** - Louvre Abu Dhabi, Qasr Al Watan, Emirates Palace _Museum_
+- **Not visited** · **Yas Island** - Ferrari World, Yas Marina F1 circuit _Modern_
 
 **Sharjah / Fujairah**
 
-- [ ] **Sharjah** - Sharjah heritage area, Al Noor; Fujairah fort _Monument_
+- **Not visited** · **Sharjah** - Sharjah heritage area, Al Noor; Fujairah fort _Monument_
 
 **Dubai**
 
-- [ ] **Dubai** - Dubai Aquarium, Ski Dubai, IMG Worlds, Motiongate, Legoland, La Perle show _Theme park_
-- [ ] **Dubai** - Dhow cruise Marina, Dubai Opera, Jumeirah Beach, Ain Dubai, Al Seef _Sightseeing_
+- **Not visited** · **Dubai** - Dubai Aquarium, Ski Dubai, IMG Worlds, Motiongate, Legoland, La Perle show _Theme park_
+- **Not visited** · **Dubai** - Dhow cruise Marina, Dubai Opera, Jumeirah Beach, Ain Dubai, Al Seef _Sightseeing_
 
 **Abu Dhabi**
 
-- [ ] **Yas Island** - Warner Bros World, Yas Waterworld, SeaWorld Abu Dhabi, Saadiyat beach _Theme park_
+- **Not visited** · **Yas Island** - Warner Bros World, Yas Waterworld, SeaWorld Abu Dhabi, Saadiyat beach _Theme park_
 
 *UAE: 0 of 14 visited*
 
@@ -1584,59 +1584,59 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Western**
 
-- [x] **Colombo** - ISKCON Colombo (New Kurukshetra); Gangaramaya; Kelaniya Raja Maha Vihara _ISKCON_
+- **VISITED** · **Colombo** - ISKCON Colombo (New Kurukshetra); Gangaramaya; Kelaniya Raja Maha Vihara _ISKCON_
 
 **Central**
 
-- [x] **Nuwara Eliya** - Seetha Amman Kovil (Ashok Vatika), Hakgala garden _Temple_
-- [x] **Kandy** - Temple of the Tooth - UNESCO; Kataragama devale _UNESCO_
-- [x] **Dambulla / Sigiriya** - Golden Cave Temple - UNESCO; Sigiriya rock - UNESCO (Ravana link) _UNESCO_
-- [x] **Ella** - Ravana Falls & Ravana cave, Nine Arch Bridge _Nature_
+- **VISITED** · **Nuwara Eliya** - Seetha Amman Kovil (Ashok Vatika), Hakgala garden _Temple_
+- **VISITED** · **Kandy** - Temple of the Tooth - UNESCO; Kataragama devale _UNESCO_
+- **VISITED** · **Dambulla / Sigiriya** - Golden Cave Temple - UNESCO; Sigiriya rock - UNESCO (Ravana link) _UNESCO_
+- **VISITED** · **Ella** - Ravana Falls & Ravana cave, Nine Arch Bridge _Nature_
 
 **Uva / Southern**
 
-- [x] **Kataragama** - Kataragama (Murugan) shrine _Temple_
+- **VISITED** · **Kataragama** - Kataragama (Murugan) shrine _Temple_
 
 **Northern**
 
-- [x] **Jaffna** - Nallur Kandaswamy Kovil, Nagadeepa _Temple_
-- [x] **Jaffna / Mannar** - Nilavarai well, Keerimalai, Naguleswaram, Thiruketheeswaram, Rama Setu view _Temple_
+- **VISITED** · **Jaffna** - Nallur Kandaswamy Kovil, Nagadeepa _Temple_
+- **VISITED** · **Jaffna / Mannar** - Nilavarai well, Keerimalai, Naguleswaram, Thiruketheeswaram, Rama Setu view _Temple_
 
 **Central**
 
-- [x] **Ramboda** - Ramboda Hanuman temple & falls _Temple_
+- **VISITED** · **Ramboda** - Ramboda Hanuman temple & falls _Temple_
 
 **Eastern**
 
-- [x] **Trincomalee** - Koneswaram (Thirukoneswaram) & Shankari Devi; Kanniya hot wells _Temple_
+- **VISITED** · **Trincomalee** - Koneswaram (Thirukoneswaram) & Shankari Devi; Kanniya hot wells _Temple_
 
 **North Western**
 
-- [x] **Chilaw** - Munneswaram & Manavari (first Shiva linga by Rama) _Temple_
+- **VISITED** · **Chilaw** - Munneswaram & Manavari (first Shiva linga by Rama) _Temple_
 
 **Western**
 
-- [x] **Rumassala / Unawatuna** - Rumassala (Sanjeevani hill), Galle Fort - UNESCO _UNESCO_
+- **VISITED** · **Rumassala / Unawatuna** - Rumassala (Sanjeevani hill), Galle Fort - UNESCO _UNESCO_
 
 **Anuradhapura**
 
-- [x] **Anuradhapura / Polonnaruwa** - Sacred city - UNESCO; Jaya Sri Maha Bodhi _UNESCO_
+- **VISITED** · **Anuradhapura / Polonnaruwa** - Sacred city - UNESCO; Jaya Sri Maha Bodhi _UNESCO_
 
 **Southern**
 
-- [x] **Ussangoda / Dondra** - Ussangoda (Hanuman burnt land), Dondra Vishnu devale _Temple_
+- **VISITED** · **Ussangoda / Dondra** - Ussangoda (Hanuman burnt land), Dondra Vishnu devale _Temple_
 
 **Central**
 
-- [ ] **Kandy / Nuwara Eliya** - Kandy-Ella scenic train, Peradeniya gardens, Gregory lake, tea factory _Nature_
+- **Not visited** · **Kandy / Nuwara Eliya** - Kandy-Ella scenic train, Peradeniya gardens, Gregory lake, tea factory _Nature_
 
 **Southern**
 
-- [ ] **Mirissa / Bentota / Yala** - Whale watching, turtle hatchery, Yala leopard safari _Wildlife_
+- **Not visited** · **Mirissa / Bentota / Yala** - Whale watching, turtle hatchery, Yala leopard safari _Wildlife_
 
 **Central**
 
-- [ ] **Pinnawala / Minneriya** - Elephant orphanage; Minneriya elephant gathering (Aug-Sep) _Wildlife_
+- **Not visited** · **Pinnawala / Minneriya** - Elephant orphanage; Minneriya elephant gathering (Aug-Sep) _Wildlife_
 
 *Sri Lanka: 14 of 17 visited*
 
@@ -1645,25 +1645,25 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Siem Reap**
 
-- [x] **Siem Reap** - Angkor Wat (Vishnu temple) - UNESCO _UNESCO_
-- [x] **Siem Reap** - Angkor Thom - Bayon, Ta Prohm, Banteay Srei _UNESCO_
-- [ ] **Tonle Sap** - Floating villages _Nature_
+- **VISITED** · **Siem Reap** - Angkor Wat (Vishnu temple) - UNESCO _UNESCO_
+- **VISITED** · **Siem Reap** - Angkor Thom - Bayon, Ta Prohm, Banteay Srei _UNESCO_
+- **Not visited** · **Tonle Sap** - Floating villages _Nature_
 
 **Phnom Penh**
 
-- [ ] **Phnom Penh** - Royal Palace, Silver Pagoda, National Museum _Monument_
+- **Not visited** · **Phnom Penh** - Royal Palace, Silver Pagoda, National Museum _Monument_
 
 **Preah Vihear**
 
-- [ ] **Preah Vihear** - Preah Vihear (Shiva temple) - UNESCO _UNESCO_
+- **Not visited** · **Preah Vihear** - Preah Vihear (Shiva temple) - UNESCO _UNESCO_
 
 **Kampong Thom**
 
-- [ ] **Sambor Prei Kuk** - Pre-Angkor temples - UNESCO _UNESCO_
+- **Not visited** · **Sambor Prei Kuk** - Pre-Angkor temples - UNESCO _UNESCO_
 
 **Siem Reap**
 
-- [ ] **Siem Reap** - Angkor sunrise, Phare circus, Pub Street, Apsara dance _Sightseeing_
+- **Not visited** · **Siem Reap** - Angkor sunrise, Phare circus, Pub Street, Apsara dance _Sightseeing_
 
 *Cambodia: 2 of 7 visited*
 
@@ -1672,50 +1672,50 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Bangkok**
 
-- [ ] **Bangkok** - Grand Palace & Wat Phra Kaew (Emerald Buddha; Ramakien murals) _Monument_
-- [ ] **Bangkok** - Wat Arun, Wat Pho (Reclining Buddha), Chao Phraya cruise _Monument_
-- [ ] **Bangkok** - ISKCON Bangkok; Erawan (Brahma) shrine; Trimurti shrine; Sri Maha Mariamman _Temple_
-- [ ] **Bangkok** - Chatuchak market, Asiatique, Icon Siam _Modern_
+- **Not visited** · **Bangkok** - Grand Palace & Wat Phra Kaew (Emerald Buddha; Ramakien murals) _Monument_
+- **Not visited** · **Bangkok** - Wat Arun, Wat Pho (Reclining Buddha), Chao Phraya cruise _Monument_
+- **Not visited** · **Bangkok** - ISKCON Bangkok; Erawan (Brahma) shrine; Trimurti shrine; Sri Maha Mariamman _Temple_
+- **Not visited** · **Bangkok** - Chatuchak market, Asiatique, Icon Siam _Modern_
 
 **Ayutthaya**
 
-- [ ] **Ayutthaya** - Ayutthaya historical park - UNESCO _UNESCO_
+- **Not visited** · **Ayutthaya** - Ayutthaya historical park - UNESCO _UNESCO_
 
 **Sukhothai**
 
-- [ ] **Sukhothai** - Sukhothai - UNESCO _UNESCO_
+- **Not visited** · **Sukhothai** - Sukhothai - UNESCO _UNESCO_
 
 **Chiang Mai**
 
-- [ ] **Chiang Mai** - Doi Suthep, Old City temples; Yi Peng lanterns (Nov) _Temple_
+- **Not visited** · **Chiang Mai** - Doi Suthep, Old City temples; Yi Peng lanterns (Nov) _Temple_
 
 **Chonburi**
 
-- [ ] **Pattaya** - Sanctuary of Truth, Nong Nooch _Modern_
+- **Not visited** · **Pattaya** - Sanctuary of Truth, Nong Nooch _Modern_
 
 **Phuket / Krabi**
 
-- [ ] **Phuket** - Big Buddha, Phi Phi islands _Nature_
+- **Not visited** · **Phuket** - Big Buddha, Phi Phi islands _Nature_
 
 **Nakhon Ratchasima / Buriram**
 
-- [ ] **Phimai / Phanom Rung** - Khmer Hindu temples (Vishnu, Shiva) _Temple_
+- **Not visited** · **Phimai / Phanom Rung** - Khmer Hindu temples (Vishnu, Shiva) _Temple_
 
 **Bangkok**
 
-- [ ] **Bangkok** - Damnoen Saduak floating market, Maeklong railway market, Safari World, Siam Paragon, Khao San Road _Sightseeing_
+- **Not visited** · **Bangkok** - Damnoen Saduak floating market, Maeklong railway market, Safari World, Siam Paragon, Khao San Road _Sightseeing_
 
 **Chonburi / Phuket**
 
-- [ ] **Pattaya / Phuket** - Coral Island, Alcazar show, Phi Phi, James Bond island, Phang Nga _Beach_
+- **Not visited** · **Pattaya / Phuket** - Coral Island, Alcazar show, Phi Phi, James Bond island, Phang Nga _Beach_
 
 **Krabi**
 
-- [ ] **Krabi** - Railay beach, 4-island tour, Tiger Cave temple _Beach_
+- **Not visited** · **Krabi** - Railay beach, 4-island tour, Tiger Cave temple _Beach_
 
 **Chiang Mai**
 
-- [ ] **Chiang Mai / Chiang Rai** - Elephant sanctuary, White Temple, Night Bazaar _Sightseeing_
+- **Not visited** · **Chiang Mai / Chiang Rai** - Elephant sanctuary, White Temple, Night Bazaar _Sightseeing_
 
 *Thailand: 0 of 14 visited*
 
@@ -1724,44 +1724,44 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Bagmati**
 
-- [x] **Kathmandu** - Pashupatinath - UNESCO _Temple_
-- [x] **Kathmandu** - Budhanilkantha (sleeping Vishnu), Swayambhunath, Boudhanath - UNESCO _Temple_
-- [x] **Patan / Bhaktapur** - Krishna Mandir, Durbar Squares - UNESCO _UNESCO_
-- [x] **Kathmandu** - ISKCON Kathmandu (Budhanilkantha) _ISKCON_
-- [x] **Bhaktapur** - Changu Narayan (oldest Vishnu temple) - UNESCO _Temple_
-- [x] **Kathmandu** - Guhyeshwari Shakti peetha _Temple_
+- **VISITED** · **Kathmandu** - Pashupatinath - UNESCO _Temple_
+- **VISITED** · **Kathmandu** - Budhanilkantha (sleeping Vishnu), Swayambhunath, Boudhanath - UNESCO _Temple_
+- **VISITED** · **Patan / Bhaktapur** - Krishna Mandir, Durbar Squares - UNESCO _UNESCO_
+- **VISITED** · **Kathmandu** - ISKCON Kathmandu (Budhanilkantha) _ISKCON_
+- **VISITED** · **Bhaktapur** - Changu Narayan (oldest Vishnu temple) - UNESCO _Temple_
+- **VISITED** · **Kathmandu** - Guhyeshwari Shakti peetha _Temple_
 
 **Gandaki**
 
-- [x] **Pokhara** - Bindhyabasini, Tal Barahi, Devi's Fall _Temple_
-- [x] **Mustang** - Muktinath (108 water spouts, Shaligram) _Temple_
-- [x] **Pokhara** - Phewa lake, Bindhyabasini, Sarangkot sunrise _Nature_
-- [x] **Jomsom / Kali Gandaki** - Shaligram river, Kagbeni _Nature_
+- **VISITED** · **Pokhara** - Bindhyabasini, Tal Barahi, Devi's Fall _Temple_
+- **VISITED** · **Mustang** - Muktinath (108 water spouts, Shaligram) _Temple_
+- **VISITED** · **Pokhara** - Phewa lake, Bindhyabasini, Sarangkot sunrise _Nature_
+- **VISITED** · **Jomsom / Kali Gandaki** - Shaligram river, Kagbeni _Nature_
 
 **Madhesh**
 
-- [x] **Janakpur** - Janaki Mandir (Sita's birthplace), Vivah Mandap _Temple_
+- **VISITED** · **Janakpur** - Janaki Mandir (Sita's birthplace), Vivah Mandap _Temple_
 
 **Lumbini**
 
-- [ ] **Lumbini** - Buddha's birthplace - UNESCO _UNESCO_ *(Likely - confirm)*
+- **Not visited** · **Lumbini** - Buddha's birthplace - UNESCO _UNESCO_ *(Likely - confirm)*
 
 **Koshi**
 
-- [ ] **Barahakshetra / Pathibhara** - Varaha kshetra; Pathibhara Devi _Temple_
+- **Not visited** · **Barahakshetra / Pathibhara** - Varaha kshetra; Pathibhara Devi _Temple_
 
 **Bagmati**
 
-- [ ] **Everest region** - Everest base camp / Kala Patthar or mountain flight _Nature_
-- [x] **Chitwan (Bharatpur)** - Chitwan NP - UNESCO _UNESCO_
+- **Not visited** · **Everest region** - Everest base camp / Kala Patthar or mountain flight _Nature_
+- **VISITED** · **Chitwan (Bharatpur)** - Chitwan NP - UNESCO _UNESCO_
 
 **Gandaki**
 
-- [ ] **Pokhara** - Paragliding Sarangkot, World Peace Pagoda, Gupteshwar cave _Nature_
+- **Not visited** · **Pokhara** - Paragliding Sarangkot, World Peace Pagoda, Gupteshwar cave _Nature_
 
 **Bagmati**
 
-- [ ] **Kathmandu / Nagarkot** - Everest mountain flight, Nagarkot sunrise, Thamel _Nature_
+- **Not visited** · **Kathmandu / Nagarkot** - Everest mountain flight, Nagarkot sunrise, Thamel _Nature_
 
 *Nepal: 12 of 17 visited*
 
@@ -1770,11 +1770,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Paro / Thimphu**
 
-- [ ] **Paro** - Tiger's Nest (Taktsang), Punakha Dzong, Thimphu Buddha _Monument_
+- **Not visited** · **Paro** - Tiger's Nest (Taktsang), Punakha Dzong, Thimphu Buddha _Monument_
 
 **-**
 
-- [ ] **Paro / Thimphu** - Dochula pass, Phobjikha valley (black-necked cranes), Tshechu festival _Nature_
+- **Not visited** · **Paro / Thimphu** - Dochula pass, Phobjikha valley (black-necked cranes), Tshechu festival _Nature_
 
 *Bhutan: 0 of 2 visited*
 
@@ -1783,7 +1783,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Dhaka / Sylhet**
 
-- [ ] **Dhaka** - Dhakeshwari; ISKCON Dhaka (Swamibag); Sri Chaitanya birthplace link at Sylhet _Temple_
+- **Not visited** · **Dhaka** - Dhakeshwari; ISKCON Dhaka (Swamibag); Sri Chaitanya birthplace link at Sylhet _Temple_
 
 *Bangladesh: 0 of 1 visited*
 
@@ -1792,8 +1792,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Male / atolls** - Island resort, snorkelling _Nature_
-- [ ] **Male / atolls** - Overwater villa, bioluminescent beach (Vaadhoo), snorkelling with manta rays _Beach_
+- **Not visited** · **Male / atolls** - Island resort, snorkelling _Nature_
+- **Not visited** · **Male / atolls** - Overwater villa, bioluminescent beach (Vaadhoo), snorkelling with manta rays _Beach_
 
 *Maldives: 0 of 2 visited*
 
@@ -1802,8 +1802,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Grand Bassin** - Ganga Talao (Shiva), ISKCON Mauritius (Phoenix), Le Morne - UNESCO _Temple_
-- [ ] **Mauritius** - Chamarel seven-coloured earth, Ile aux Cerfs, underwater waterfall (Le Morne), catamaran _Beach_
+- **Not visited** · **Grand Bassin** - Ganga Talao (Shiva), ISKCON Mauritius (Phoenix), Le Morne - UNESCO _Temple_
+- **Not visited** · **Mauritius** - Chamarel seven-coloured earth, Ile aux Cerfs, underwater waterfall (Le Morne), catamaran _Beach_
 
 *Mauritius: 0 of 2 visited*
 
@@ -1812,15 +1812,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Selangor**
 
-- [ ] **Kuala Lumpur** - Batu Caves (Murugan), Petronas Towers; ISKCON KL _Temple_
+- **Not visited** · **Kuala Lumpur** - Batu Caves (Murugan), Petronas Towers; ISKCON KL _Temple_
 
 **Penang**
 
-- [ ] **George Town** - George Town - UNESCO; Kek Lok Si _UNESCO_
+- **Not visited** · **George Town** - George Town - UNESCO; Kek Lok Si _UNESCO_
 
 **Kuala Lumpur / Pahang**
 
-- [ ] **KL / Genting / Langkawi** - KL Tower, Genting Highlands SkyWorlds, Langkawi SkyBridge & cable car _Theme park_
+- **Not visited** · **KL / Genting / Langkawi** - KL Tower, Genting Highlands SkyWorlds, Langkawi SkyBridge & cable car _Theme park_
 
 *Malaysia: 0 of 3 visited*
 
@@ -1829,8 +1829,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Singapore** - Marina Bay Sands, Gardens by the Bay, Sri Mariamman, Sri Krishnan temple, Sentosa _Modern_
-- [ ] **Singapore** - Universal Studios, Marina Bay light show, Night Safari, Jewel Changi waterfall, Little India, Merlion, Sentosa cable car _Theme park_
+- **Not visited** · **Singapore** - Marina Bay Sands, Gardens by the Bay, Sri Mariamman, Sri Krishnan temple, Sentosa _Modern_
+- **Not visited** · **Singapore** - Universal Studios, Marina Bay light show, Night Safari, Jewel Changi waterfall, Little India, Merlion, Sentosa cable car _Theme park_
 
 *Singapore: 0 of 2 visited*
 
@@ -1839,19 +1839,19 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Bali**
 
-- [ ] **Ubud / Uluwatu / Besakih** - Besakih mother temple, Tanah Lot, Uluwatu, Tirta Empul; Kecak dance (Ramayana) _Temple_
+- **Not visited** · **Ubud / Uluwatu / Besakih** - Besakih mother temple, Tanah Lot, Uluwatu, Tirta Empul; Kecak dance (Ramayana) _Temple_
 
 **Central Java**
 
-- [ ] **Yogyakarta** - Prambanan (Shiva-Vishnu-Brahma) - UNESCO; Borobudur - UNESCO _UNESCO_
+- **Not visited** · **Yogyakarta** - Prambanan (Shiva-Vishnu-Brahma) - UNESCO; Borobudur - UNESCO _UNESCO_
 
 **Jakarta**
 
-- [ ] **Jakarta** - ISKCON Jakarta; Monas _ISKCON_
+- **Not visited** · **Jakarta** - ISKCON Jakarta; Monas _ISKCON_
 
 **Bali**
 
-- [ ] **Bali** - Ubud rice terraces (Tegallalang), Nusa Penida (Kelingking), Kuta/Seminyak, Mt Batur sunrise, Bali Swing _Beach_
+- **Not visited** · **Bali** - Ubud rice terraces (Tegallalang), Nusa Penida (Kelingking), Kuta/Seminyak, Mt Batur sunrise, Bali Swing _Beach_
 
 *Indonesia: 0 of 4 visited*
 
@@ -1860,11 +1860,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Quang Nam / Ha Long**
 
-- [ ] **My Son / Ha Long Bay** - My Son Cham Shiva temples - UNESCO; Ha Long Bay - UNESCO _UNESCO_
+- **Not visited** · **My Son / Ha Long Bay** - My Son Cham Shiva temples - UNESCO; Ha Long Bay - UNESCO _UNESCO_
 
 **-**
 
-- [ ] **Hanoi / Da Nang / HCMC** - Ha Long Bay cruise, Golden Bridge (Ba Na Hills), Hoi An lanterns, Cu Chi tunnels, Sapa _Sightseeing_
+- **Not visited** · **Hanoi / Da Nang / HCMC** - Ha Long Bay cruise, Golden Bridge (Ba Na Hills), Hoi An lanterns, Cu Chi tunnels, Sapa _Sightseeing_
 
 *Vietnam: 0 of 2 visited*
 
@@ -1873,7 +1873,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Champasak**
 
-- [ ] **Vat Phou** - Vat Phou Khmer Hindu temple - UNESCO; Luang Prabang - UNESCO _UNESCO_
+- **Not visited** · **Vat Phou** - Vat Phou Khmer Hindu temple - UNESCO; Luang Prabang - UNESCO _UNESCO_
 
 *Laos: 0 of 1 visited*
 
@@ -1882,7 +1882,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Mandalay / Bagan**
 
-- [ ] **Bagan** - Bagan temples - UNESCO; Shwedagon Pagoda (Yangon) _UNESCO_
+- **Not visited** · **Bagan** - Bagan temples - UNESCO; Shwedagon Pagoda (Yangon) _UNESCO_
 
 *Myanmar: 0 of 1 visited*
 
@@ -1891,7 +1891,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Luzon**
 
-- [ ] **Manila / Banaue** - Intramuros; rice terraces - UNESCO _UNESCO_
+- **Not visited** · **Manila / Banaue** - Intramuros; rice terraces - UNESCO _UNESCO_
 
 *Philippines: 0 of 1 visited*
 
@@ -1900,28 +1900,28 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Kanto**
 
-- [ ] **Tokyo** - Senso-ji, Meiji shrine, Shibuya, Skytree; ISKCON Tokyo (Funabori) _Monument_
+- **Not visited** · **Tokyo** - Senso-ji, Meiji shrine, Shibuya, Skytree; ISKCON Tokyo (Funabori) _Monument_
 
 **Kansai**
 
-- [ ] **Kyoto / Nara** - Fushimi Inari, Kinkaku-ji, Kiyomizu - UNESCO; Todai-ji (Nara) _UNESCO_
-- [ ] **Osaka / Hiroshima** - Osaka Castle; Peace Memorial - UNESCO; Miyajima _UNESCO_
+- **Not visited** · **Kyoto / Nara** - Fushimi Inari, Kinkaku-ji, Kiyomizu - UNESCO; Todai-ji (Nara) _UNESCO_
+- **Not visited** · **Osaka / Hiroshima** - Osaka Castle; Peace Memorial - UNESCO; Miyajima _UNESCO_
 
 **Chubu**
 
-- [ ] **Mt Fuji / Hakone** - Mt Fuji - UNESCO _UNESCO_
+- **Not visited** · **Mt Fuji / Hakone** - Mt Fuji - UNESCO _UNESCO_
 
 **Kanto**
 
-- [ ] **Tokyo** - Tokyo Disneyland & DisneySea, teamLab, Shinjuku, Akihabara, Harajuku, Tsukiji market _Theme park_
+- **Not visited** · **Tokyo** - Tokyo Disneyland & DisneySea, teamLab, Shinjuku, Akihabara, Harajuku, Tsukiji market _Theme park_
 
 **Kansai**
 
-- [ ] **Osaka / Kyoto** - Universal Studios Japan (Nintendo World), Dotonbori, Arashiyama bamboo grove, Gion, cherry blossom (Mar-Apr) _Theme park_
+- **Not visited** · **Osaka / Kyoto** - Universal Studios Japan (Nintendo World), Dotonbori, Arashiyama bamboo grove, Gion, cherry blossom (Mar-Apr) _Theme park_
 
 **Hokkaido / Chubu**
 
-- [ ] **Sapporo / Takayama** - Snow festival (Feb), Shirakawa-go, Japanese Alps _Nature_
+- **Not visited** · **Sapporo / Takayama** - Snow festival (Feb), Shirakawa-go, Japanese Alps _Nature_
 
 *Japan: 0 of 7 visited*
 
@@ -1930,11 +1930,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Seoul**
 
-- [ ] **Seoul** - Gyeongbokgung, Bukchon, N Seoul Tower; Gimhae (Queen Heo, Ayodhya princess link) _Monument_
+- **Not visited** · **Seoul** - Gyeongbokgung, Bukchon, N Seoul Tower; Gimhae (Queen Heo, Ayodhya princess link) _Monument_
 
 **Seoul / Jeju**
 
-- [ ] **Seoul / Jeju** - Lotte World, Everland, Nami Island, Myeongdong, Jeju island (visa-free for Indians), DMZ tour _Theme park_
+- **Not visited** · **Seoul / Jeju** - Lotte World, Everland, Nami Island, Myeongdong, Jeju island (visa-free for Indians), DMZ tour _Theme park_
 
 *South Korea: 0 of 2 visited*
 
@@ -1943,28 +1943,28 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Beijing**
 
-- [ ] **Beijing** - Great Wall - UNESCO, Forbidden City - UNESCO, Temple of Heaven _UNESCO_
+- **Not visited** · **Beijing** - Great Wall - UNESCO, Forbidden City - UNESCO, Temple of Heaven _UNESCO_
 
 **Shaanxi**
 
-- [ ] **Xi'an** - Terracotta Army - UNESCO _UNESCO_
+- **Not visited** · **Xi'an** - Terracotta Army - UNESCO _UNESCO_
 
 **Shanghai**
 
-- [ ] **Shanghai** - The Bund, Pudong _Modern_
+- **Not visited** · **Shanghai** - The Bund, Pudong _Modern_
 
 **Tibet**
 
-- [x] **Kailash / Manasarovar** - Mt Kailash outer kora (Dolma La) & Lake Manasarovar parikrama _Temple_
-- [ ] **Lhasa** - Potala Palace - UNESCO, Jokhang _UNESCO_
+- **VISITED** · **Kailash / Manasarovar** - Mt Kailash outer kora (Dolma La) & Lake Manasarovar parikrama _Temple_
+- **Not visited** · **Lhasa** - Potala Palace - UNESCO, Jokhang _UNESCO_
 
 **Shanghai / Beijing**
 
-- [ ] **Shanghai / Beijing** - Shanghai Disneyland, Bund night cruise, Summer Palace, Mutianyu Great Wall _Theme park_
+- **Not visited** · **Shanghai / Beijing** - Shanghai Disneyland, Bund night cruise, Summer Palace, Mutianyu Great Wall _Theme park_
 
 **Guangxi / Sichuan / Hunan**
 
-- [ ] **Guilin / Chengdu / Zhangjiajie** - Li River, giant pandas, Avatar mountains (Zhangjiajie glass bridge) _Nature_
+- **Not visited** · **Guilin / Chengdu / Zhangjiajie** - Li River, giant pandas, Avatar mountains (Zhangjiajie glass bridge) _Nature_
 
 *China: 1 of 7 visited*
 
@@ -1973,8 +1973,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Hong Kong** - Victoria Peak, Big Buddha (Lantau); ISKCON Hong Kong _Modern_
-- [ ] **Hong Kong** - Hong Kong Disneyland, Ocean Park, Star Ferry, Symphony of Lights, Ngong Ping 360 _Theme park_
+- **Not visited** · **Hong Kong** - Victoria Peak, Big Buddha (Lantau); ISKCON Hong Kong _Modern_
+- **Not visited** · **Hong Kong** - Hong Kong Disneyland, Ocean Park, Star Ferry, Symphony of Lights, Ngong Ping 360 _Theme park_
 
 *Hong Kong: 0 of 2 visited*
 
@@ -1983,8 +1983,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Taipei** - Taipei 101, Taroko Gorge _Modern_
-- [ ] **Taipei / Jiufen** - Jiufen old street, Sun Moon Lake, Shilin night market _Sightseeing_
+- **Not visited** · **Taipei** - Taipei 101, Taroko Gorge _Modern_
+- **Not visited** · **Taipei / Jiufen** - Jiufen old street, Sun Moon Lake, Shilin night market _Sightseeing_
 
 *Taiwan: 0 of 2 visited*
 
@@ -1993,7 +1993,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Almaty**
 
-- [ ] **Almaty** - Charyn Canyon; Sri Vrindavan Dham (ISKCON farm) _Nature_
+- **Not visited** · **Almaty** - Charyn Canyon; Sri Vrindavan Dham (ISKCON farm) _Nature_
 
 *Kazakhstan: 0 of 1 visited*
 
@@ -2002,7 +2002,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Samarkand / Bukhara** - Registan - UNESCO; Bukhara - UNESCO _UNESCO_
+- **Not visited** · **Samarkand / Bukhara** - Registan - UNESCO; Bukhara - UNESCO _UNESCO_
 
 *Uzbekistan: 0 of 1 visited*
 
@@ -2011,7 +2011,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Tbilisi / Kazbegi** - Old Tbilisi, Gergeti Trinity Church _Monument_
+- **Not visited** · **Tbilisi / Kazbegi** - Old Tbilisi, Gergeti Trinity Church _Monument_
 
 *Georgia: 0 of 1 visited*
 
@@ -2020,7 +2020,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Yerevan / Geghard** - Geghard - UNESCO, Garni temple _UNESCO_
+- **Not visited** · **Yerevan / Geghard** - Geghard - UNESCO, Garni temple _UNESCO_
 
 *Armenia: 0 of 1 visited*
 
@@ -2029,7 +2029,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Jerusalem** - Old City - UNESCO (Western Wall, Church of Holy Sepulchre, Dome of the Rock) _UNESCO_
+- **Not visited** · **Jerusalem** - Old City - UNESCO (Western Wall, Church of Holy Sepulchre, Dome of the Rock) _UNESCO_
 
 *Israel / Palestine: 0 of 1 visited*
 
@@ -2038,7 +2038,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Petra / Wadi Rum** - Petra - UNESCO; Wadi Rum - UNESCO; Dead Sea _UNESCO_
+- **Not visited** · **Petra / Wadi Rum** - Petra - UNESCO; Wadi Rum - UNESCO; Dead Sea _UNESCO_
 
 *Jordan: 0 of 1 visited*
 
@@ -2047,7 +2047,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **AlUla** - Hegra - UNESCO _UNESCO_
+- **Not visited** · **AlUla** - Hegra - UNESCO _UNESCO_
 
 *Saudi Arabia: 0 of 1 visited*
 
@@ -2056,7 +2056,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Muscat**
 
-- [ ] **Muscat** - Sultan Qaboos Mosque, Motishwar Mandir (oldest Hindu temple in Gulf), Nizwa _Temple_
+- **Not visited** · **Muscat** - Sultan Qaboos Mosque, Motishwar Mandir (oldest Hindu temple in Gulf), Nizwa _Temple_
 
 *Oman: 0 of 1 visited*
 
@@ -2065,7 +2065,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Doha**
 
-- [ ] **Doha** - Museum of Islamic Art, Souq Waqif, Katara _Museum_
+- **Not visited** · **Doha** - Museum of Islamic Art, Souq Waqif, Katara _Museum_
 
 *Qatar: 0 of 1 visited*
 
@@ -2074,7 +2074,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Manama**
 
-- [ ] **Manama** - Shreenathji Temple (200-yr-old), Bahrain Fort - UNESCO _Temple_
+- **Not visited** · **Manama** - Shreenathji Temple (200-yr-old), Bahrain Fort - UNESCO _Temple_
 
 *Bahrain: 0 of 1 visited*
 
@@ -2083,11 +2083,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Giza / Luxor**
 
-- [ ] **Giza / Luxor / Aswan** - Pyramids & Sphinx - UNESCO; Karnak, Valley of Kings - UNESCO; Abu Simbel; Nile cruise _UNESCO_
+- **Not visited** · **Giza / Luxor / Aswan** - Pyramids & Sphinx - UNESCO; Karnak, Valley of Kings - UNESCO; Abu Simbel; Nile cruise _UNESCO_
 
 **Red Sea**
 
-- [ ] **Hurghada / Sharm** - Red Sea diving, Nile felucca, Cairo museum (GEM) _Beach_
+- **Not visited** · **Hurghada / Sharm** - Red Sea diving, Nile felucca, Cairo museum (GEM) _Beach_
 
 *Egypt: 0 of 2 visited*
 
@@ -2096,7 +2096,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Nairobi / Maasai Mara**
 
-- [ ] **Nairobi** - ISKCON Nairobi; Maasai Mara migration (Jul-Oct) _ISKCON_
+- **Not visited** · **Nairobi** - ISKCON Nairobi; Maasai Mara migration (Jul-Oct) _ISKCON_
 
 *Kenya: 0 of 1 visited*
 
@@ -2105,7 +2105,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Arusha / Zanzibar**
 
-- [ ] **Serengeti / Kilimanjaro / Zanzibar** - Serengeti - UNESCO; Kilimanjaro - UNESCO; Stone Town - UNESCO _UNESCO_
+- **Not visited** · **Serengeti / Kilimanjaro / Zanzibar** - Serengeti - UNESCO; Kilimanjaro - UNESCO; Stone Town - UNESCO _UNESCO_
 
 *Tanzania: 0 of 1 visited*
 
@@ -2114,11 +2114,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Western Cape / KZN**
 
-- [ ] **Cape Town / Durban** - Table Mountain, Robben Island - UNESCO; ISKCON Durban (Sri Sri Radha Radhanath), Kruger NP _ISKCON_
+- **Not visited** · **Cape Town / Durban** - Table Mountain, Robben Island - UNESCO; ISKCON Durban (Sri Sri Radha Radhanath), Kruger NP _ISKCON_
 
 **-**
 
-- [ ] **Cape Town / Kruger** - Cape of Good Hope, Boulders penguins, Garden Route, Kruger Big Five safari, Soweto _Wildlife_
+- **Not visited** · **Cape Town / Kruger** - Cape of Good Hope, Boulders penguins, Garden Route, Kruger Big Five safari, Soweto _Wildlife_
 
 *South Africa: 0 of 2 visited*
 
@@ -2127,8 +2127,8 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Marrakech / Fes / Chefchaouen** - Medinas - UNESCO _UNESCO_
-- [ ] **Marrakech / Sahara** - Jemaa el-Fnaa, Merzouga desert camp, Atlas mountains _Sightseeing_
+- **Not visited** · **Marrakech / Fes / Chefchaouen** - Medinas - UNESCO _UNESCO_
+- **Not visited** · **Marrakech / Sahara** - Jemaa el-Fnaa, Merzouga desert camp, Atlas mountains _Sightseeing_
 
 *Morocco: 0 of 2 visited*
 
@@ -2137,7 +2137,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Amhara**
 
-- [ ] **Lalibela** - Rock-hewn churches - UNESCO _UNESCO_
+- **Not visited** · **Lalibela** - Rock-hewn churches - UNESCO _UNESCO_
 
 *Ethiopia: 0 of 1 visited*
 
@@ -2146,7 +2146,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Victoria Falls** - Victoria Falls - UNESCO _UNESCO_
+- **Not visited** · **Victoria Falls** - Victoria Falls - UNESCO _UNESCO_
 
 *Zimbabwe / Zambia: 0 of 1 visited*
 
@@ -2155,7 +2155,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Bwindi / Volcanoes** - Mountain gorillas; ISKCON Kampala _Nature_
+- **Not visited** · **Bwindi / Volcanoes** - Mountain gorillas; ISKCON Kampala _Nature_
 
 *Uganda / Rwanda: 0 of 1 visited*
 
@@ -2164,23 +2164,23 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Ontario**
 
-- [ ] **Toronto / Niagara** - ISKCON Toronto (Hare Krishna Centre); CN Tower; Niagara Falls _ISKCON_
+- **Not visited** · **Toronto / Niagara** - ISKCON Toronto (Hare Krishna Centre); CN Tower; Niagara Falls _ISKCON_
 
 **British Columbia**
 
-- [ ] **Vancouver / Banff** - ISKCON Vancouver (Burnaby); Banff & Jasper - UNESCO _UNESCO_
+- **Not visited** · **Vancouver / Banff** - ISKCON Vancouver (Burnaby); Banff & Jasper - UNESCO _UNESCO_
 
 **Quebec**
 
-- [ ] **Montreal / Quebec City** - ISKCON Montreal; Old Quebec - UNESCO _UNESCO_
+- **Not visited** · **Montreal / Quebec City** - ISKCON Montreal; Old Quebec - UNESCO _UNESCO_
 
 **Ontario / Alberta**
 
-- [ ] **Niagara / Banff** - Hornblower cruise (Canadian side), Lake Louise, Moraine Lake, Icefields Parkway, Jasper _Nature_
+- **Not visited** · **Niagara / Banff** - Hornblower cruise (Canadian side), Lake Louise, Moraine Lake, Icefields Parkway, Jasper _Nature_
 
 **Quebec / BC**
 
-- [ ] **Montreal / Vancouver** - Old Quebec, Stanley Park, Capilano suspension bridge, Whistler _Sightseeing_
+- **Not visited** · **Montreal / Vancouver** - Old Quebec, Stanley Park, Capilano suspension bridge, Whistler _Sightseeing_
 
 *Canada: 0 of 5 visited*
 
@@ -2189,15 +2189,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Yucatan**
 
-- [ ] **Chichen Itza / Tulum / Cancun** - Chichen Itza - UNESCO; Tulum _UNESCO_
+- **Not visited** · **Chichen Itza / Tulum / Cancun** - Chichen Itza - UNESCO; Tulum _UNESCO_
 
 **Mexico City**
 
-- [ ] **Mexico City** - Teotihuacan - UNESCO; Zocalo; ISKCON Mexico City _UNESCO_
+- **Not visited** · **Mexico City** - Teotihuacan - UNESCO; Zocalo; ISKCON Mexico City _UNESCO_
 
 **Quintana Roo**
 
-- [ ] **Cancun / Riviera Maya** - Xcaret park, cenotes, Isla Mujeres, Cozumel _Beach_
+- **Not visited** · **Cancun / Riviera Maya** - Xcaret park, cenotes, Isla Mujeres, Cozumel _Beach_
 
 *Mexico: 0 of 3 visited*
 
@@ -2206,11 +2206,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Cusco**
 
-- [ ] **Machu Picchu / Cusco** - Machu Picchu - UNESCO; Sacred Valley; ISKCON Cusco _UNESCO_
+- **Not visited** · **Machu Picchu / Cusco** - Machu Picchu - UNESCO; Sacred Valley; ISKCON Cusco _UNESCO_
 
 **Lima / Puno**
 
-- [ ] **Lima / Lake Titicaca** - Historic centre - UNESCO; Titicaca _UNESCO_
+- **Not visited** · **Lima / Lake Titicaca** - Historic centre - UNESCO; Titicaca _UNESCO_
 
 *Peru: 0 of 2 visited*
 
@@ -2219,11 +2219,11 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Rio / Sao Paulo**
 
-- [ ] **Rio de Janeiro** - Christ the Redeemer, Sugarloaf - UNESCO; Iguazu Falls - UNESCO; Nova Gokula (ISKCON farm, Pindamonhangaba) _UNESCO_
+- **Not visited** · **Rio de Janeiro** - Christ the Redeemer, Sugarloaf - UNESCO; Iguazu Falls - UNESCO; Nova Gokula (ISKCON farm, Pindamonhangaba) _UNESCO_
 
 **Rio**
 
-- [ ] **Rio de Janeiro** - Copacabana, Ipanema, Carnival (Feb-Mar), Selaron steps _Beach_
+- **Not visited** · **Rio de Janeiro** - Copacabana, Ipanema, Carnival (Feb-Mar), Selaron steps _Beach_
 
 *Brazil: 0 of 2 visited*
 
@@ -2232,7 +2232,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Buenos Aires / Misiones**
 
-- [ ] **Buenos Aires / Iguazu** - Recoleta, Tango; Iguazu - UNESCO; Perito Moreno glacier _UNESCO_
+- **Not visited** · **Buenos Aires / Iguazu** - Recoleta, Tango; Iguazu - UNESCO; Perito Moreno glacier _UNESCO_
 
 *Argentina: 0 of 1 visited*
 
@@ -2241,7 +2241,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Santiago / Atacama / Easter Island** - Atacama desert; Rapa Nui moai - UNESCO _UNESCO_
+- **Not visited** · **Santiago / Atacama / Easter Island** - Atacama desert; Rapa Nui moai - UNESCO _UNESCO_
 
 *Chile: 0 of 1 visited*
 
@@ -2250,7 +2250,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Cartagena / Bogota** - Cartagena old city - UNESCO _UNESCO_
+- **Not visited** · **Cartagena / Bogota** - Cartagena old city - UNESCO _UNESCO_
 
 *Colombia: 0 of 1 visited*
 
@@ -2259,7 +2259,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Georgetown / Port of Spain / Paramaribo** - Hindu diaspora temples; Temple in the Sea (Waterloo, Trinidad); ISKCON Guyana _Temple_
+- **Not visited** · **Georgetown / Port of Spain / Paramaribo** - Hindu diaspora temples; Temple in the Sea (Waterloo, Trinidad); ISKCON Guyana _Temple_
 
 *Guyana / Trinidad / Suriname: 0 of 1 visited*
 
@@ -2268,7 +2268,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Havana**
 
-- [ ] **Havana** - Old Havana - UNESCO _UNESCO_
+- **Not visited** · **Havana** - Old Havana - UNESCO _UNESCO_
 
 *Cuba: 0 of 1 visited*
 
@@ -2277,7 +2277,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Arenal / Panama City** - Rainforest, Panama Canal _Nature_
+- **Not visited** · **Arenal / Panama City** - Rainforest, Panama Canal _Nature_
 
 *Costa Rica / Panama: 0 of 1 visited*
 
@@ -2286,40 +2286,40 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **New South Wales**
 
-- [ ] **Sydney** - Opera House - UNESCO, Harbour Bridge, Bondi; ISKCON Sydney (North Sydney) _UNESCO_
-- [ ] **Murwillumbah** - New Govardhana (ISKCON farm); Byron Bay _ISKCON_
+- **Not visited** · **Sydney** - Opera House - UNESCO, Harbour Bridge, Bondi; ISKCON Sydney (North Sydney) _UNESCO_
+- **Not visited** · **Murwillumbah** - New Govardhana (ISKCON farm); Byron Bay _ISKCON_
 
 **Victoria**
 
-- [ ] **Melbourne** - ISKCON Melbourne (Albert Park); Great Ocean Road (Twelve Apostles); New Nandagram _ISKCON_
+- **Not visited** · **Melbourne** - ISKCON Melbourne (Albert Park); Great Ocean Road (Twelve Apostles); New Nandagram _ISKCON_
 
 **Queensland**
 
-- [ ] **Brisbane / Cairns / Gold Coast** - Great Barrier Reef - UNESCO; ISKCON Brisbane; Daintree _UNESCO_
+- **Not visited** · **Brisbane / Cairns / Gold Coast** - Great Barrier Reef - UNESCO; ISKCON Brisbane; Daintree _UNESCO_
 
 **Northern Territory**
 
-- [ ] **Uluru** - Uluru-Kata Tjuta - UNESCO _UNESCO_
+- **Not visited** · **Uluru** - Uluru-Kata Tjuta - UNESCO _UNESCO_
 
 **Western Australia**
 
-- [ ] **Perth** - ISKCON Perth; Pinnacles, Rottnest _ISKCON_
+- **Not visited** · **Perth** - ISKCON Perth; Pinnacles, Rottnest _ISKCON_
 
 **Tasmania**
 
-- [ ] **Hobart** - Cradle Mountain, MONA _Nature_
+- **Not visited** · **Hobart** - Cradle Mountain, MONA _Nature_
 
 **New South Wales**
 
-- [ ] **Sydney** - Blue Mountains, Bondi-Coogee walk, Taronga Zoo, Sydney Harbour cruise, Vivid (May-Jun) _Sightseeing_
+- **Not visited** · **Sydney** - Blue Mountains, Bondi-Coogee walk, Taronga Zoo, Sydney Harbour cruise, Vivid (May-Jun) _Sightseeing_
 
 **Victoria**
 
-- [ ] **Melbourne / Phillip Island** - Penguin parade, Yarra Valley, MCG tour, Puffing Billy _Sightseeing_
+- **Not visited** · **Melbourne / Phillip Island** - Penguin parade, Yarra Valley, MCG tour, Puffing Billy _Sightseeing_
 
 **Queensland**
 
-- [ ] **Gold Coast / Cairns** - Movie World, Dreamworld, Sea World; reef snorkel/dive, Kuranda railway _Theme park_
+- **Not visited** · **Gold Coast / Cairns** - Movie World, Dreamworld, Sea World; reef snorkel/dive, Kuranda railway _Theme park_
 
 *Australia: 0 of 10 visited*
 
@@ -2328,15 +2328,15 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **North Island**
 
-- [ ] **Auckland / Rotorua** - ISKCON Auckland (Kumeu); Rotorua geothermal; Hobbiton _ISKCON_
+- **Not visited** · **Auckland / Rotorua** - ISKCON Auckland (Kumeu); Rotorua geothermal; Hobbiton _ISKCON_
 
 **South Island**
 
-- [ ] **Queenstown / Milford Sound** - Fiordland - UNESCO; Christchurch ISKCON _UNESCO_
+- **Not visited** · **Queenstown / Milford Sound** - Fiordland - UNESCO; Christchurch ISKCON _UNESCO_
 
 **South / North Island**
 
-- [ ] **Queenstown / Rotorua** - Bungee (AJ Hackett), Milford Sound cruise, Franz Josef glacier, Te Puia geysers, Waitomo glow-worm caves, Hobbiton _Nature_
+- **Not visited** · **Queenstown / Rotorua** - Bungee (AJ Hackett), Milford Sound cruise, Franz Josef glacier, Te Puia geysers, Waitomo glow-worm caves, Hobbiton _Nature_
 
 *New Zealand: 0 of 3 visited*
 
@@ -2345,7 +2345,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Viti Levu**
 
-- [ ] **Nadi / Suva** - Sri Siva Subramaniya temple (Nadi); ISKCON Fiji (Lautoka, Suva, Labasa) _Temple_
+- **Not visited** · **Nadi / Suva** - Sri Siva Subramaniya temple (Nadi); ISKCON Fiji (Lautoka, Suva, Labasa) _Temple_
 
 *Fiji: 0 of 1 visited*
 
@@ -2354,7 +2354,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Bay of Kotor**
 
-- [ ] **Kotor / Budva** - Kotor old town & fortress, Budva riviera _Sightseeing_
+- **Not visited** · **Kotor / Budva** - Kotor old town & fortress, Budva riviera _Sightseeing_
 
 *Montenegro: 0 of 1 visited*
 
@@ -2363,7 +2363,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Reykjavik** - Golden Circle, Blue Lagoon, South Coast waterfalls, Jokulsarlon glacier lagoon, Northern Lights (Sep-Mar) _Nature_
+- **Not visited** · **Reykjavik** - Golden Circle, Blue Lagoon, South Coast waterfalls, Jokulsarlon glacier lagoon, Northern Lights (Sep-Mar) _Nature_
 
 *Iceland: 0 of 1 visited*
 
@@ -2372,7 +2372,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Lapland**
 
-- [ ] **Rovaniemi** - Santa Claus Village, husky safari, glass igloos _Sightseeing_
+- **Not visited** · **Rovaniemi** - Santa Claus Village, husky safari, glass igloos _Sightseeing_
 
 *Finland: 0 of 1 visited*
 
@@ -2381,7 +2381,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Mahe / Praslin / La Digue** - Anse Source d'Argent, Vallee de Mai - UNESCO _Beach_
+- **Not visited** · **Mahe / Praslin / La Digue** - Anse Source d'Argent, Vallee de Mai - UNESCO _Beach_
 
 *Seychelles: 0 of 1 visited*
 
@@ -2390,7 +2390,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Dead Sea** - Float in the Dead Sea, Masada _Nature_
+- **Not visited** · **Dead Sea** - Float in the Dead Sea, Masada _Nature_
 
 *Israel / Jordan: 0 of 1 visited*
 
@@ -2399,7 +2399,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Maasai Mara / Serengeti** - Great Migration (Jul-Oct), Ngorongoro crater, hot-air balloon safari _Wildlife_
+- **Not visited** · **Maasai Mara / Serengeti** - Great Migration (Jul-Oct), Ngorongoro crater, hot-air balloon safari _Wildlife_
 
 *Kenya / Tanzania: 0 of 1 visited*
 
@@ -2408,7 +2408,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Sossusvlei / Okavango** - Namib dunes, Etosha, Okavango Delta mokoro _Wildlife_
+- **Not visited** · **Sossusvlei / Okavango** - Namib dunes, Etosha, Okavango Delta mokoro _Wildlife_
 
 *Namibia / Botswana: 0 of 1 visited*
 
@@ -2417,7 +2417,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Galapagos**
 
-- [ ] **Galapagos Islands** - Galapagos wildlife cruise - UNESCO; Quito old town _Wildlife_
+- **Not visited** · **Galapagos Islands** - Galapagos wildlife cruise - UNESCO; Quito old town _Wildlife_
 
 *Ecuador: 0 of 1 visited*
 
@@ -2426,7 +2426,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Amazon**
 
-- [ ] **Manaus / Iquitos** - Amazon river lodge, meeting of waters _Wildlife_
+- **Not visited** · **Manaus / Iquitos** - Amazon river lodge, meeting of waters _Wildlife_
 
 *Brazil / Peru: 0 of 1 visited*
 
@@ -2435,7 +2435,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **Patagonia**
 
-- [ ] **El Calafate / Torres del Paine** - Perito Moreno glacier, Torres del Paine W-trek, Ushuaia (end of the world) _Nature_
+- **Not visited** · **El Calafate / Torres del Paine** - Perito Moreno glacier, Torres del Paine W-trek, Ushuaia (end of the world) _Nature_
 
 *Argentina / Chile: 0 of 1 visited*
 
@@ -2444,7 +2444,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Antarctic Peninsula** - Expedition cruise from Ushuaia (Nov-Mar) _Nature_
+- **Not visited** · **Antarctic Peninsula** - Expedition cruise from Ushuaia (Nov-Mar) _Nature_
 
 *Antarctica: 0 of 1 visited*
 
@@ -2453,7 +2453,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Caribbean cruise** - Bahamas / Jamaica / Cayman cruise from Miami; Barbados, St Lucia Pitons _Beach_
+- **Not visited** · **Caribbean cruise** - Bahamas / Jamaica / Cayman cruise from Miami; Barbados, St Lucia Pitons _Beach_
 
 *Caribbean: 0 of 1 visited*
 
@@ -2462,7 +2462,7 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 **-**
 
-- [ ] **Fiji / Bora Bora / Tahiti** - Mamanuca islands, Bora Bora overwater bungalows _Beach_
+- **Not visited** · **Fiji / Bora Bora / Tahiti** - Mamanuca islands, Bora Bora overwater bungalows _Beach_
 
 *Fiji / Pacific: 0 of 1 visited*
 
@@ -2539,62 +2539,62 @@ Europe + London Jul 2024 was done continent-first (15-27 Jul, itinerary Days 4-1
 
 ## 14. India - states & union territories (GPS)
 
-Tick as you cover new ones.
+Each line starts with VISITED or Not visited.
 
-- [x] **Telangana** (State) - 2440 days, 166 trips, 26 cities; 2015-02-18 to 2026-10-20. Banswada, Bhadrachalam, Bhongir, Farrukhnagar, Hyderabad, Jangaon, Kamareddi, Khammam, Mahbubabad, Mahbubnagar, Mancheral, Manuguru
-- [x] **Karnataka** (State) - 180 days, 29 trips, 29 cities; 2016-02-05 to 2026-10-12. Bagepalli, Basavakalyan, Belagavi, Belur, Bengaluru, Byndoor, Channapatna, Channarayapatna, Closepet, Devanhalli, Gadag-Betageri, Gangawati
-- [x] **Uttarakhand** (State) - 143 days, 8 trips, 9 cities; 2019-05-28 to 2024-06-20. Dehra Dun, Haridwar, Mussoorie, Pauri, Rishikesh, Roorkee, Srinagar, Tehri, Uttarkashi
-- [x] **Uttar Pradesh** (State) - 142 days, 22 trips, 38 cities; 2017-09-04 to 2025-01-21. Achhnera, Agra, Atarra, Ayodhya, Bela, Bindki, Chandauli, Chhata, Dataganj, Deoband, Etawah, Fyzabad
-- [x] **Andhra Pradesh** (State) - 58 days, 29 trips, 38 cities; 2015-10-17 to 2026-10-03. Akkarampalle, Betamcherla, Chemmumiahpet, Dharmavaram, Dhone, Giddalur, Gooty, Gorantla, Guntakal, Guntur, Hindupur, Jaggaiahpet
-- [x] **Gujarat** (State) - 45 days, 6 trips, 30 cities; 2015-04-24 to 2025-01-30. Ahmedabad, Ambaji, Ankleshwar, Baola, Bharuch, Bhiloda, Bholav, Bilimora, Chorwad, Chotila, Dakor, Dwarka
-- [x] **Rajasthan** (State) - 31 days, 12 trips, 9 cities; 2017-09-05 to 2024-10-16. Bharatpur, Dausa, Dungarpur, Jaipur, Kaman, Karauli, Nathdwara, Rajsamand, Udaipur
-- [x] **Haryana** (State) - 29 days, 21 trips, 6 cities; 2019-03-07 to 2026-06-12. Faridabad, Gharaunda, Gurugram, Karnal, Nilokheri, Thanesar
-- [x] **West Bengal** (State) - 28 days, 5 trips, 15 cities; 2016-07-25 to 2025-03-16. Baharampur, Barddhaman, Bolpur, Howrah, Kalna, Kalyani, Kharagpur, Kolkata, Krishnanagar, Nagarukhra City, Navadwip, Rampur Hat
-- [x] **Maharashtra** (State) - 25 days, 20 trips, 13 cities; 2015-04-24 to 2025-09-30. Ballarpur, Bhayandar, Borivli, Dharmabad, Gondia, Kalyan, Mumbai, Nagpur, Nanded, Navi Mumbai, Pandharpur, Purna
-- [x] **Tamil Nadu** (State) - 23 days, 12 trips, 14 cities; 2015-10-17 to 2025-04-27. Arakkonam, Chennai, Dindigul, Kanchipuram, Krishnagiri, Kuzhithurai, Madurai, Madurantakam, Rameswaram, Sriperumbudur, Srivilliputhur, Thoothukudi
-- [x] **Delhi** (UT) - 16 days, 12 trips, 4 cities; 2019-03-07 to 2024-10-11. Delhi, Karol Bagh, Najafgarh, Narela
-- [x] **Odisha** (State) - 15 days, 5 trips, 10 cities; 2018-10-13 to 2022-12-16. Balasore, Bhubaneswar, Brahmapur, Cuttack, Jajpur, Jaleshwar, Konarka, Puri, Remuna, Rourkela
-- [x] **Bihar** (State) - 7 days, 4 trips, 5 cities; 2019-02-21 to 2022-07-09. Bodh Gaya, Gaya, Patna, Sherghati, Sitamarhi
-- [x] **Madhya Pradesh** (State) - 7 days, 6 trips, 7 cities; 2017-09-23 to 2022-07-10. Bhopal, Gwalior, Itarsi, Jabalpur, Khandwa, Pandhurna, Sohagpur
-- [x] **Kerala** (State) - 2 days, 1 trips, 9 cities; 2018-02-18 to 2018-02-19. Guruvayur, Kanayannur, Kollam, Kozhikode, Kunnamkulam, Shoranur, Thiruvananthapuram, Thrissur, Tirur
-- [x] **Chhattisgarh** (State) - 1 days, 1 trips, 1 cities; 2019-02-20 to 2019-02-20. Bhilai
-- [x] **Dadra and Nagar Haveli and Daman and Diu** (UT) - 1 days, 1 trips, 1 cities; 2025-01-30 to 2025-01-30. Diu
-- [x] **Jharkhand** (State) - 1 days, 1 trips, 2 cities; 2019-02-21 to 2019-02-21. Barki Saria, Gomoh
-- [ ] **Andaman and Nicobar Islands** (UT) - not yet
-- [ ] **Arunachal Pradesh** (State) - not yet
-- [ ] **Assam** (State) - not yet
-- [ ] **Chandigarh** (UT) - not yet
-- [ ] **Goa** (State) - not yet
-- [ ] **Himachal Pradesh** (State) - not yet
-- [ ] **Jammu and Kashmir** (UT) - not yet
-- [ ] **Ladakh** (UT) - not yet
-- [ ] **Lakshadweep** (UT) - not yet
-- [ ] **Manipur** (State) - not yet
-- [ ] **Meghalaya** (State) - not yet
-- [ ] **Mizoram** (State) - not yet
-- [ ] **Nagaland** (State) - not yet
-- [ ] **Puducherry** (UT) - not yet
-- [ ] **Punjab** (State) - not yet
-- [ ] **Sikkim** (State) - not yet
-- [ ] **Tripura** (State) - not yet
+- **VISITED** · **Telangana** (State) - 2440 days, 166 trips, 26 cities; 2015-02-18 to 2026-10-20. Banswada, Bhadrachalam, Bhongir, Farrukhnagar, Hyderabad, Jangaon, Kamareddi, Khammam, Mahbubabad, Mahbubnagar, Mancheral, Manuguru
+- **VISITED** · **Karnataka** (State) - 180 days, 29 trips, 29 cities; 2016-02-05 to 2026-10-12. Bagepalli, Basavakalyan, Belagavi, Belur, Bengaluru, Byndoor, Channapatna, Channarayapatna, Closepet, Devanhalli, Gadag-Betageri, Gangawati
+- **VISITED** · **Uttarakhand** (State) - 143 days, 8 trips, 9 cities; 2019-05-28 to 2024-06-20. Dehra Dun, Haridwar, Mussoorie, Pauri, Rishikesh, Roorkee, Srinagar, Tehri, Uttarkashi
+- **VISITED** · **Uttar Pradesh** (State) - 142 days, 22 trips, 38 cities; 2017-09-04 to 2025-01-21. Achhnera, Agra, Atarra, Ayodhya, Bela, Bindki, Chandauli, Chhata, Dataganj, Deoband, Etawah, Fyzabad
+- **VISITED** · **Andhra Pradesh** (State) - 58 days, 29 trips, 38 cities; 2015-10-17 to 2026-10-03. Akkarampalle, Betamcherla, Chemmumiahpet, Dharmavaram, Dhone, Giddalur, Gooty, Gorantla, Guntakal, Guntur, Hindupur, Jaggaiahpet
+- **VISITED** · **Gujarat** (State) - 45 days, 6 trips, 30 cities; 2015-04-24 to 2025-01-30. Ahmedabad, Ambaji, Ankleshwar, Baola, Bharuch, Bhiloda, Bholav, Bilimora, Chorwad, Chotila, Dakor, Dwarka
+- **VISITED** · **Rajasthan** (State) - 31 days, 12 trips, 9 cities; 2017-09-05 to 2024-10-16. Bharatpur, Dausa, Dungarpur, Jaipur, Kaman, Karauli, Nathdwara, Rajsamand, Udaipur
+- **VISITED** · **Haryana** (State) - 29 days, 21 trips, 6 cities; 2019-03-07 to 2026-06-12. Faridabad, Gharaunda, Gurugram, Karnal, Nilokheri, Thanesar
+- **VISITED** · **West Bengal** (State) - 28 days, 5 trips, 15 cities; 2016-07-25 to 2025-03-16. Baharampur, Barddhaman, Bolpur, Howrah, Kalna, Kalyani, Kharagpur, Kolkata, Krishnanagar, Nagarukhra City, Navadwip, Rampur Hat
+- **VISITED** · **Maharashtra** (State) - 25 days, 20 trips, 13 cities; 2015-04-24 to 2025-09-30. Ballarpur, Bhayandar, Borivli, Dharmabad, Gondia, Kalyan, Mumbai, Nagpur, Nanded, Navi Mumbai, Pandharpur, Purna
+- **VISITED** · **Tamil Nadu** (State) - 23 days, 12 trips, 14 cities; 2015-10-17 to 2025-04-27. Arakkonam, Chennai, Dindigul, Kanchipuram, Krishnagiri, Kuzhithurai, Madurai, Madurantakam, Rameswaram, Sriperumbudur, Srivilliputhur, Thoothukudi
+- **VISITED** · **Delhi** (UT) - 16 days, 12 trips, 4 cities; 2019-03-07 to 2024-10-11. Delhi, Karol Bagh, Najafgarh, Narela
+- **VISITED** · **Odisha** (State) - 15 days, 5 trips, 10 cities; 2018-10-13 to 2022-12-16. Balasore, Bhubaneswar, Brahmapur, Cuttack, Jajpur, Jaleshwar, Konarka, Puri, Remuna, Rourkela
+- **VISITED** · **Bihar** (State) - 7 days, 4 trips, 5 cities; 2019-02-21 to 2022-07-09. Bodh Gaya, Gaya, Patna, Sherghati, Sitamarhi
+- **VISITED** · **Madhya Pradesh** (State) - 7 days, 6 trips, 7 cities; 2017-09-23 to 2022-07-10. Bhopal, Gwalior, Itarsi, Jabalpur, Khandwa, Pandhurna, Sohagpur
+- **VISITED** · **Kerala** (State) - 2 days, 1 trips, 9 cities; 2018-02-18 to 2018-02-19. Guruvayur, Kanayannur, Kollam, Kozhikode, Kunnamkulam, Shoranur, Thiruvananthapuram, Thrissur, Tirur
+- **VISITED** · **Chhattisgarh** (State) - 1 days, 1 trips, 1 cities; 2019-02-20 to 2019-02-20. Bhilai
+- **VISITED** · **Dadra and Nagar Haveli and Daman and Diu** (UT) - 1 days, 1 trips, 1 cities; 2025-01-30 to 2025-01-30. Diu
+- **VISITED** · **Jharkhand** (State) - 1 days, 1 trips, 2 cities; 2019-02-21 to 2019-02-21. Barki Saria, Gomoh
+- **Not visited** · **Andaman and Nicobar Islands** (UT) - not yet
+- **Not visited** · **Arunachal Pradesh** (State) - not yet
+- **Not visited** · **Assam** (State) - not yet
+- **Not visited** · **Chandigarh** (UT) - not yet
+- **Not visited** · **Goa** (State) - not yet
+- **Not visited** · **Himachal Pradesh** (State) - not yet
+- **Not visited** · **Jammu and Kashmir** (UT) - not yet
+- **Not visited** · **Ladakh** (UT) - not yet
+- **Not visited** · **Lakshadweep** (UT) - not yet
+- **Not visited** · **Manipur** (State) - not yet
+- **Not visited** · **Meghalaya** (State) - not yet
+- **Not visited** · **Mizoram** (State) - not yet
+- **Not visited** · **Nagaland** (State) - not yet
+- **Not visited** · **Puducherry** (UT) - not yet
+- **Not visited** · **Punjab** (State) - not yet
+- **Not visited** · **Sikkim** (State) - not yet
+- **Not visited** · **Tripura** (State) - not yet
 
 ### Pilgrimage status
 
-- [x] Somnath _Jyotirlinga_
-- [ ] Mallikarjuna, Srisailam _Jyotirlinga_
-- [ ] Mahakaleshwar, Ujjain _Jyotirlinga_
-- [ ] Omkareshwar _Jyotirlinga_
-- [x] Kedarnath _Jyotirlinga_
-- [ ] Bhimashankar _Jyotirlinga_
-- [x] Kashi Vishwanath, Varanasi _Jyotirlinga_
-- [ ] Trimbakeshwar, Nashik _Jyotirlinga_
-- [ ] Vaidyanath, Deoghar _Jyotirlinga_
-- [x] Nageshwar, Dwarka _Jyotirlinga_
-- [x] Rameshwaram _Jyotirlinga + Char Dham_
-- [ ] Grishneshwar, Ellora _Jyotirlinga_
-- [x] Badrinath _Char Dham_
-- [x] Dwarka _Char Dham_
-- [x] Jagannath Puri _Char Dham_
+- **VISITED** · Somnath _Jyotirlinga_
+- **Not visited** · Mallikarjuna, Srisailam _Jyotirlinga_
+- **Not visited** · Mahakaleshwar, Ujjain _Jyotirlinga_
+- **Not visited** · Omkareshwar _Jyotirlinga_
+- **VISITED** · Kedarnath _Jyotirlinga_
+- **Not visited** · Bhimashankar _Jyotirlinga_
+- **VISITED** · Kashi Vishwanath, Varanasi _Jyotirlinga_
+- **Not visited** · Trimbakeshwar, Nashik _Jyotirlinga_
+- **Not visited** · Vaidyanath, Deoghar _Jyotirlinga_
+- **VISITED** · Nageshwar, Dwarka _Jyotirlinga_
+- **VISITED** · Rameshwaram _Jyotirlinga + Char Dham_
+- **Not visited** · Grishneshwar, Ellora _Jyotirlinga_
+- **VISITED** · Badrinath _Char Dham_
+- **VISITED** · Dwarka _Char Dham_
+- **VISITED** · Jagannath Puri _Char Dham_
 
 ## 15. GPS cities & towns (374)
 
@@ -2989,4 +2989,5 @@ Tick as you cover new ones.
 - 21 Oct 2026 - World Checklist expanded to 566 places / 91 countries incl. popular sightseeing, theme parks, beaches, wildlife; real tick boxes added (Excel ☑/☐ dropdown, Markdown [x]).
 - 21 Oct 2026 - Merged Google Maps Timeline export (Travel Master List.xlsx): GPS countries/states/cities/places/pilgrimage sheets; Travel Log corrected (Nepal 2019, Sri Lanka 2022 batches, Turkey x2, Canada, UAE transit + Abu Dhabi, Kailash dates); USA places corrected (no San Francisco; Alachua/Boston/Philadelphia added); 134 checklist ticks; 2 itinerary conflicts flagged.
 - 22 Oct 2026 - Conflicts resolved: Sri Lanka Jan 2026 and Nepal May 2026 confirmed visited (Timeline off); Canada removed (not entered).
-- 25 Oct 2026 - Checkboxes fixed: Excel uses TRUE/FALSE cells (Insert > Checkbox for native boxes); live clickable checklist at https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW
+- 25 Oct 2026 - Checkboxes fixed: Excel uses TRUE/FALSE cells (Insert > Checkbox for native boxes); live checklist at https://claude.ai/artifact/JuAxMccJzM3owCPqXNf2jW
+- 14 Nov 2026 - All tick boxes replaced by a plain Visited / Not visited column (Excel dropdown, PDF, Markdown, live page)
