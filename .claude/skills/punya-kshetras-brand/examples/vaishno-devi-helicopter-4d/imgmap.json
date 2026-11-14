@@ -1,0 +1,47 @@
+{
+ "banganga": {
+  "src": "img/banganga.jpg",
+  "credit": "Banganga (Shri Mata Vaishno Devi) – Thenipunanand, CC BY-SA 4.0",
+  "cap": "Banganga, Katra"
+ },
+ "bhawan": {
+  "src": "img/bhawan.jpg",
+  "credit": "Vaishno Devi Bhavan – Abhishek Chandra, Public domain",
+  "cap": "Shri Mata Vaishno Devi Bhawan"
+ },
+ "bhawan2": {
+  "src": "img/bhawan2.jpg",
+  "credit": "Shri Mata Vaishno Devi Bhawan, Katra Jammu & Kashmir INDIA – KDhruv406, CC BY 4.0",
+  "cap": "Bhawan from the track"
+ },
+ "helipad": {
+  "src": "img/helipad.jpg",
+  "credit": "Sanji Chhat helipad vaishno devi – Mabhishek84, CC BY-SA 3.0",
+  "cap": "Sanjichhat Helipad"
+ },
+ "jammu2": {
+  "src": "img/jammu2.jpg",
+  "credit": "The Temples of Raghunath, Jammu, India, ca.1875-ca.1940 (imp-cswc-GB-237-CSWC47-LS10-011) – Unknown author, Public domain",
+  "cap": "Raghunath Temple, Jammu (historic photo)"
+ },
+ "katragate": {
+  "src": "img/katragate.jpg",
+  "credit": "Vaishno Devi entrance – Thenerdatul, CC BY 4.0",
+  "cap": "Katra welcome gate"
+ },
+ "ropeway": {
+  "src": "img/ropeway.jpg",
+  "credit": "Houses and Shops located in Katra, Jammu and Kashmir – Anubhav Sinha, CC BY-SA 2.0",
+  "cap": "Ropeway to Bhairon Ghati"
+ },
+ "trikuta": {
+  "src": "img/trikuta.jpg",
+  "credit": "Trikuta Mountains – KuShahrukh Tendulkar, CC BY-SA 4.0",
+  "cap": "Trikuta hills"
+ },
+ "vdb3": {
+  "src": "img/vdb3.jpg",
+  "credit": "Vaishno Devi Bhawan – Raulcaeser, CC BY-SA 3.0",
+  "cap": "Bhawan complex"
+ }
+}

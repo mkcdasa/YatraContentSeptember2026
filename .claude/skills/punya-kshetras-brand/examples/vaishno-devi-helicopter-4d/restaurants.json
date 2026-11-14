@@ -1,0 +1,69 @@
+{
+ "Restaurant, Bhawan": [
+  {
+   "name": "Restaurant, Bhawan",
+   "note": "Shrine Board-run, pure veg, open round the clock",
+   "map": "https://www.google.com/maps/search/?api=1&query=Shri+Mata+Vaishno+Devi+Bhawan%2C+Katra"
+  }
+ ],
+ "Pooja Vaishno Dhaba, Katra": [
+  {
+   "name": "Pooja Vaishno Dhaba",
+   "note": "Pure veg, Main Bazar on Banganga Road",
+   "map": "https://www.google.com/maps/search/?api=1&query=Pooja+Vaishno+Dhaba%2C+Main+Bazar%2C+Katra"
+  },
+  {
+   "name": "Madhuban Saattvik Restaurant",
+   "note": "Backup · pure veg, no onion-garlic",
+   "map": "https://www.google.com/maps/search/?api=1&query=Madhuban+Saattvik+Restaurant%2C+Hotel+Chinar%2C+Katra"
+  }
+ ],
+ "Bakshi Restaurant, Gulmarg": [
+  {
+   "name": "Bakshi Restaurant",
+   "note": "Veg & Jain food, Main Market",
+   "map": "https://www.google.com/maps/search/?api=1&query=Bakshi+Restaurant%2C+Main+Market%2C+Gulmarg"
+  },
+  {
+   "name": "Pandit Brothers Vegetarian Dhaba",
+   "note": "Backup · pure veg",
+   "map": "https://www.google.com/maps/search/?api=1&query=Pandit+Brothers+Vegetarian+Dhaba%2C+Gulmarg"
+  }
+ ],
+ "Dogra Vaishno Bhojnalaya, Sonamarg": [
+  {
+   "name": "Dogra Vaishno Bhojnalaya",
+   "note": "Pure veg, Sonamarg market",
+   "map": "https://www.google.com/maps/search/?api=1&query=Dogra+Vaishno+Bhojnalaya%2C+Sonamarg"
+  },
+  {
+   "name": "Hotel Sonamarg Palace",
+   "note": "Backup · veg restaurant facing Thajiwas",
+   "map": "https://www.google.com/maps/search/?api=1&query=Hotel+Sonamarg+Palace%2C+Sonamarg"
+  }
+ ],
+ "Krishna Vaishno Dhaba, Srinagar": [
+  {
+   "name": "Krishna Vaishno Dhaba",
+   "note": "Pure veg since 1984, Durganag near Dal Gate",
+   "map": "https://www.google.com/maps/search/?api=1&query=Krishna+Vaishno+Dhaba%2C+Durganag%2C+Srinagar"
+  },
+  {
+   "name": "Vishal Dhaba",
+   "note": "Backup · pure veg, next door",
+   "map": "https://www.google.com/maps/search/?api=1&query=Vishal+Dhaba%2C+Durganag%2C+Dalgate%2C+Srinagar"
+  }
+ ],
+ "Niramish, Srinagar": [
+  {
+   "name": "Niramish",
+   "note": "Pure veg, Durganag near Dal Gate",
+   "map": "https://www.google.com/maps/search/?api=1&query=Niramish%2C+Durganag%2C+Srinagar"
+  },
+  {
+   "name": "Krishna Vaishno Dhaba",
+   "note": "Backup · pure veg",
+   "map": "https://www.google.com/maps/search/?api=1&query=Krishna+Vaishno+Dhaba%2C+Durganag%2C+Srinagar"
+  }
+ ]
+}

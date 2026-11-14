@@ -1,0 +1,222 @@
+{
+ "amsterdam": {
+  "src": "img/amsterdam.jpg",
+  "credit": "File:Colorful canal houses at golden hour in Damrak avenue Amsterdam the Netherlands.jpg – Basile Morin, CC BY-SA 4.0",
+  "cap": "Amsterdam"
+ },
+ "arc": {
+  "src": "img/arc.jpg",
+  "credit": "File:Arc de Triomphe de l'Étoile at night vertical fix.jpg – Wilfredor, CC0",
+  "cap": "Arc de Triomphe"
+ },
+ "atomium": {
+  "src": "img/atomium.jpg",
+  "credit": "File:Atomium, Bruselas, Bélgica, 2021-12-15, DD 148-150 HDR.jpg – Diego Delso, CC BY-SA 4.0",
+  "cap": "Atomium, Brussels"
+ },
+ "cologne": {
+  "src": "img/cologne.jpg",
+  "credit": "File:Cologne - Panoramic Image of the old town at dusk.jpg – Ahgee, CC BY-SA 3.0",
+  "cap": "Cologne Cathedral"
+ },
+ "cologne2": {
+  "src": "img/cologne2.jpg",
+  "credit": "File:Cologne - Panoramic Image of the old town at dusk.jpg – Ahgee, CC BY-SA 3.0",
+  "cap": "Cologne old town"
+ },
+ "colosseum": {
+  "src": "img/colosseum.jpg",
+  "credit": "File:Colosseum of Rome, Italy.jpg – public-domain (CC0) contributor, CC0",
+  "cap": "Colosseum, Rome"
+ },
+ "dover": {
+  "src": "img/dover.jpg",
+  "credit": "File:White Cliffs of Dover from Ferry.jpg – , CC BY 4.0",
+  "cap": "White Cliffs of Dover"
+ },
+ "eiffel": {
+  "src": "img/eiffel.jpg",
+  "credit": "File:Paris - The Eiffel Tower in spring - 2307.jpg – Jorge Royan, CC BY-SA 3.0",
+  "cap": "Eiffel Tower, Paris"
+ },
+ "grandplace": {
+  "src": "img/grandplace.jpg",
+  "credit": "File:Edificios en la Grand-Place, Bruselas, Bélgica, 2021-12-15, DD 184-186 HDR.jpg – Diego Delso, CC BY-SA 4.0",
+  "cap": "Grand Place, Brussels"
+ },
+ "guard": {
+  "src": "img/guard.jpg",
+  "credit": "File:Guard of Buckingham Palace - 01.jpg – , CC BY-SA 3.0",
+  "cap": "Changing of the Guard, Buckingham Palace"
+ },
+ "keukenhof": {
+  "src": "img/keukenhof.jpg",
+  "credit": "File:Keukenhof 2018 DSC 0059.jpg – Atamari, CC BY-SA 4.0",
+  "cap": "Keukenhof tulip gardens"
+ },
+ "londoneye": {
+  "src": "img/londoneye.jpg",
+  "credit": "File:London Eye Twilight April 2006.jpg – , CC BY 2.5",
+  "cap": "London Eye"
+ },
+ "louvre": {
+  "src": "img/louvre.jpg",
+  "credit": "File:Louvre Courtyard, Looking West.jpg – Benh LIEU SONG (Flickr), CC BY-SA 4.0",
+  "cap": "The Louvre"
+ },
+ "lucerne": {
+  "src": "img/lucerne.jpg",
+  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
+  "cap": "Lucerne"
+ },
+ "lucerne2": {
+  "src": "img/lucerne2.jpg",
+  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
+  "cap": "Alpine lakes on the way"
+ },
+ "manor": {
+  "src": "img/manor.jpg",
+  "credit": "File:Bhaktivedanta Manor - 01.JPG – Ilya Mauter, CC BY-SA 2.5",
+  "cap": "Bhaktivedanta Manor"
+ },
+ "notredame": {
+  "src": "img/notredame.jpg",
+  "credit": "File:Notre Dame Paris front facade lower.jpg – Benh LIEU SONG, CC BY-SA 3.0",
+  "cap": "Notre-Dame, Paris"
+ },
+ "pisa": {
+  "src": "img/pisa.jpg",
+  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
+  "cap": "Pisa"
+ },
+ "pisa2": {
+  "src": "img/pisa2.jpg",
+  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
+  "cap": "Square of Miracles, Pisa"
+ },
+ "radhadesh": {
+  "src": "img/radhadesh.jpg",
+  "credit": "File:Radhadesh Château de Petite-Somme 1.jpg – Wouter Hagens, CC BY-SA 3.0",
+  "cap": "Radhadesh, Belgium"
+ },
+ "rhinefalls": {
+  "src": "img/rhinefalls.jpg",
+  "credit": "File:Neuhausen am Rheinfall.jpg – Jörg Braukmann, CC BY-SA 4.0",
+  "cap": "Rhine Falls"
+ },
+ "rhinefalls2": {
+  "src": "img/rhinefalls2.jpg",
+  "credit": "File:Neuhausen am Rheinfall.jpg – Jörg Braukmann, CC BY-SA 4.0",
+  "cap": "Rhine Falls, Schaffhausen"
+ },
+ "titlis": {
+  "src": "img/titlis.jpg",
+  "credit": "File:Titlis-1.jpg – Man Ho Lam (lemon_ho), CC BY 2.5",
+  "cap": "Mount Titlis"
+ },
+ "titlis2": {
+  "src": "img/titlis2.jpg",
+  "credit": "File:Titlis-1.jpg – Man Ho Lam (lemon_ho), CC BY 2.5",
+  "cap": "Through the Swiss Alps"
+ },
+ "tower": {
+  "src": "img/tower.jpg",
+  "credit": "File:Tower of London viewed from the River Thames.jpg – , CC BY-SA 3.0",
+  "cap": "Tower of London"
+ },
+ "towerbridge": {
+  "src": "img/towerbridge.jpg",
+  "credit": "File:Tower Bridge golden hour.jpg – The Cosmonaut, CC BY-SA 2.5 ca",
+  "cap": "Tower Bridge, London"
+ },
+ "vatican": {
+  "src": "img/vatican.jpg",
+  "credit": "File:St Peter's Square, Vatican City - April 2007.jpg – Diliff, CC BY-SA 3.0",
+  "cap": "St Peter's, Vatican"
+ },
+ "venice": {
+  "src": "img/venice.jpg",
+  "credit": "File:Gondolas, Grand Canal, Venice.jpg – Peter K Burian, CC BY-SA 4.0",
+  "cap": "Venice"
+ },
+ "venice2": {
+  "src": "img/venice2.jpg",
+  "credit": "File:Gondolas, Grand Canal, Venice.jpg – Peter K Burian, CC BY-SA 4.0",
+  "cap": "Gondolas, Venice"
+ },
+ "westminster": {
+  "src": "img/westminster.jpg",
+  "credit": "File:Houses of Parliament, London - geograph.org.uk - 4786361.jpg – Alan Hunt (geograph.org.uk), CC BY-SA 2.0",
+  "cap": "Westminster"
+ },
+ "windmills": {
+  "src": "img/windmills.jpg",
+  "credit": "File:Windmills at Zaanse Schans, Zaanstad, 2022.jpg – DimiTalen, CC0",
+  "cap": "Zaanse Schans windmills"
+ },
+ "bigben": {
+  "src": "img/westminster.jpg",
+  "credit": "File:Houses of Parliament, London - geograph.org.uk - 4786361.jpg – Alan Hunt (geograph.org.uk), CC BY-SA 2.0",
+  "cap": "Westminster"
+ },
+ "titisee": {
+  "src": "img/rhinefalls.jpg",
+  "credit": "File:Neuhausen am Rheinfall.jpg – Jörg Braukmann, CC BY-SA 4.0",
+  "cap": "Rhine Falls"
+ },
+ "zurich": {
+  "src": "img/lucerne.jpg",
+  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
+  "cap": "Lucerne"
+ },
+ "interlaken": {
+  "src": "img/titlis.jpg",
+  "credit": "File:Titlis-1.jpg – Man Ho Lam (lemon_ho), CC BY 2.5",
+  "cap": "Mount Titlis"
+ },
+ "como": {
+  "src": "img/lucerne.jpg",
+  "credit": "File:Luzern - Chapel Bridge - March 2019 (02).jpg – Liridon, CC BY-SA 4.0",
+  "cap": "Lucerne"
+ },
+ "milan": {
+  "src": "img/venice.jpg",
+  "credit": "File:Gondolas, Grand Canal, Venice.jpg – Peter K Burian, CC BY-SA 4.0",
+  "cap": "Venice"
+ },
+ "padova": {
+  "src": "img/venice.jpg",
+  "credit": "File:Gondolas, Grand Canal, Venice.jpg – Peter K Burian, CC BY-SA 4.0",
+  "cap": "Venice"
+ },
+ "florence": {
+  "src": "img/pisa.jpg",
+  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
+  "cap": "Pisa"
+ },
+ "pontevecchio": {
+  "src": "img/pisa.jpg",
+  "credit": "File:The Duomo and Tower of Pisa at sunrise.jpg – MHoser, CC BY-SA 4.0",
+  "cap": "Pisa"
+ },
+ "trevi": {
+  "src": "img/colosseum.jpg",
+  "credit": "File:Colosseum of Rome, Italy.jpg – public-domain (CC0) contributor, CC0",
+  "cap": "Colosseum, Rome"
+ },
+ "stpeters": {
+  "src": "img/vatican.jpg",
+  "credit": "File:St Peter's Square, Vatican City - April 2007.jpg – Diliff, CC BY-SA 3.0",
+  "cap": "St Peter's, Vatican"
+ },
+ "seine": {
+  "src": "img/eiffel.jpg",
+  "credit": "File:Paris - The Eiffel Tower in spring - 2307.jpg – Jorge Royan, CC BY-SA 3.0",
+  "cap": "Eiffel Tower, Paris"
+ },
+ "alps": {
+  "src": "img/titlis.jpg",
+  "credit": "File:Titlis-1.jpg – Man Ho Lam (lemon_ho), CC BY 2.5",
+  "cap": "Mount Titlis"
+ }
+}

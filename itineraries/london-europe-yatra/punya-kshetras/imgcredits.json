@@ -1,0 +1,94 @@
+{
+ "guard": {
+  "title": "File:Guard of Buckingham Palace - 01.jpg",
+  "license": "CC BY-SA 3.0",
+  "cap": "Changing of the Guard, Buckingham Palace"
+ },
+ "tower": {
+  "title": "File:Tower of London viewed from the River Thames.jpg",
+  "license": "CC BY-SA 3.0",
+  "cap": "Tower of London"
+ },
+ "londoneye": {
+  "title": "File:London Eye Twilight April 2006.jpg",
+  "license": "CC BY 2.5",
+  "cap": "London Eye"
+ },
+ "dover": {
+  "title": "File:White Cliffs of Dover from Ferry.jpg",
+  "license": "CC BY 4.0",
+  "cap": "White Cliffs of Dover"
+ },
+ "arc": {
+  "title": "File:Arc de Triomphe de l'Étoile at night vertical fix.jpg",
+  "artist": "Wilfredor",
+  "license": "CC0",
+  "cap": "Arc de Triomphe"
+ },
+ "notredame": {
+  "title": "File:Notre Dame Paris front facade lower.jpg",
+  "artist": "Benh LIEU SONG",
+  "license": "CC BY-SA 3.0",
+  "cap": "Notre-Dame, Paris"
+ },
+ "louvre": {
+  "title": "File:Louvre Courtyard, Looking West.jpg",
+  "artist": "Benh LIEU SONG (Flickr)",
+  "license": "CC BY-SA 4.0",
+  "cap": "The Louvre"
+ },
+ "atomium": {
+  "title": "File:Atomium, Bruselas, Bélgica, 2021-12-15, DD 148-150 HDR.jpg",
+  "artist": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "cap": "Atomium, Brussels"
+ },
+ "grandplace": {
+  "title": "File:Edificios en la Grand-Place, Bruselas, Bélgica, 2021-12-15, DD 184-186 HDR.jpg",
+  "artist": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "cap": "Grand Place, Brussels"
+ },
+ "cologne": {
+  "title": "File:Cologne - Panoramic Image of the old town at dusk.jpg",
+  "artist": "Ahgee",
+  "license": "CC BY-SA 3.0",
+  "cap": "Cologne Cathedral"
+ },
+ "cologne2": {
+  "title": "File:Cologne - Panoramic Image of the old town at dusk.jpg",
+  "artist": "Ahgee",
+  "license": "CC BY-SA 3.0",
+  "cap": "Cologne old town"
+ },
+ "rhinefalls2": {
+  "title": "File:Neuhausen am Rheinfall.jpg",
+  "artist": "Jörg Braukmann",
+  "license": "CC BY-SA 4.0",
+  "cap": "Rhine Falls, Schaffhausen"
+ },
+ "titlis2": {
+  "title": "File:Titlis-1.jpg",
+  "artist": "Man Ho Lam (lemon_ho)",
+  "license": "CC BY 2.5",
+  "cap": "Through the Swiss Alps"
+ },
+ "lucerne2": {
+  "title": "File:Luzern - Chapel Bridge - March 2019 (02).jpg",
+  "artist": "Liridon",
+  "license": "CC BY-SA 4.0",
+  "cap": "Alpine lakes on the way"
+ },
+ "venice2": {
+  "title": "File:Gondolas, Grand Canal, Venice.jpg",
+  "artist": "Peter K Burian",
+  "license": "CC BY-SA 4.0",
+  "cap": "Gondolas, Venice"
+ },
+ "pisa2": {
+  "title": "File:The Duomo and Tower of Pisa at sunrise.jpg",
+  "artist": "MHoser",
+  "license": "CC BY-SA 4.0",
+  "cap": "Square of Miracles, Pisa"
+ }
+}
