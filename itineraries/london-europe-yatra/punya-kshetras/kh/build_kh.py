@@ -26,7 +26,15 @@ E = html.escape
 C = B.CONTACT
 
 def rel(p): return os.path.relpath(p, HERE).replace(os.sep, "/")
-IMG = lambda k: rel(os.path.join(WD, "img", k + ".jpg"))
+SMALL = os.path.join(HERE, "build", "img")
+def IMG(k):
+    """Downscaled copy (1300 px, q80) in kh/build/img so the PDF stays small enough to share on WhatsApp."""
+    from PIL import Image
+    src = os.path.join(WD, "img", k + ".jpg"); dst = os.path.join(SMALL, k + ".jpg")
+    if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+        os.makedirs(SMALL, exist_ok=True)
+        im = Image.open(src).convert("RGB"); im.thumbnail((1300, 1300)); im.save(dst, quality=80, optimize=True)
+    return rel(dst)
 LOGO_HK = rel(os.path.join(SKILL, "assets", "brand", "hkgt_logo.png"))
 LOGO_PK = rel(os.path.join(SKILL, "assets", "brand", "pk_logo.png"))
 SEAL = rel(os.path.join(SKILL, "assets", "brand", "seal.png"))
