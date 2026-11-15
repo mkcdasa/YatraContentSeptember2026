@@ -1,94 +1,95 @@
 # Day-by-day bullets for the travel-catalogue style brochure (build_kh.py).
-# Same itinerary as ../package.py and ../rows.json, written as short bullet points (no timings), general audience.
+# Places follow the team's final "16 Days Europe Spiritual & Cultural Tour" plan (Nov 2026).
 # (title, photo key, bullets). Meals and the overnight stop come from rows.json / package.py.
 DAYS = [
  ("Hyderabad / Bangalore – London", "bigben", [
-  "Hyderabad group: Emirates via Dubai, landing at London Heathrow at 4:10 pm",
-  "Bangalore group: Etihad via Abu Dhabi, landing at Heathrow at 6:45 pm",
-  "Our tour manager welcomes you at Heathrow; private coach to the hotel",
-  "Welcome get-together and briefing for the tour"]),
- ("London – Watford – London", "manor", [
-  "Akshaya Patra kitchen in Watford, which cooks thousands of free school meals every day",
-  "Bhaktivedanta Manor, the Tudor-style manor gifted by Beatle George Harrison: Sunday programme and a grand Indian lunch",
-  "Madame Tussauds: pose with Bollywood stars, royals and world leaders",
-  "Hare Krishna temple in Soho, in the heart of the West End",
-  "Evening stroll and street performers at Covent Garden"]),
- ("Royal London", "buckingham", [
-  "Changing of the Guard at Buckingham Palace",
-  "The King's Gallery at Buckingham Palace",
+  "Bangalore group: Etihad via Abu Dhabi, landing at London Heathrow at 12:45 pm",
+  "Hyderabad group: Emirates via Dubai, landing at Heathrow at 6:40 pm",
+  "Immigration and baggage, then our tour manager meets you; private coach to Wembley",
+  "Hotel check-in, dinner at an Indian restaurant",
+  "Welcome kirtan and introduction to the tour programme"]),
+ ("Watford – Central London", "manor", [
+  "Akshaya Patra UK Central Kitchen: see how free school meals are cooked and delivered",
+  "Bhaktivedanta Manor: temple darshan, beautiful gardens, goshala and the Sunday programme",
+  "Madame Tussauds: lifelike wax figures of Bollywood stars, royals and world leaders",
+  "ISKCON Soho temple: evening arati and kirtan",
+  "Dinner, then an evening walk through Covent Garden past the Royal Opera House"]),
+ ("Royal London & Thames Cruise", "buckingham", [
+  "Buckingham Palace and the Changing of the Guard",
+  "The King's Gallery: royal art collections",
   "Tower of London: the Crown Jewels and the Koh-i-Noor",
-  "Walk across Tower Bridge",
-  "Thames boat ride to the London Eye for a 30-minute ride at sunset",
-  "Big Ben and the Houses of Parliament"]),
+  "Tower Bridge photo stop",
+  "Thames River cruise from Tower Pier to the London Eye, then a ride on the London Eye",
+  "Big Ben, the Houses of Parliament and Westminster Bridge"]),
  ("London – Dover – Calais – Paris", "dover", [
-  "After breakfast, check out and drive to the Port of Dover",
-  "Ferry across the English Channel past the White Cliffs of Dover",
-  "Lunch on board the ferry",
-  "Drive through northern France to Paris and check in"]),
- ("Paris Sightseeing", "eiffel", [
-  "Arc de Triomphe and the Champs-Élysées; drive past Place de la Concorde",
-  "Eiffel Tower: lift to the 2nd floor for views over Paris",
-  "South Indian lunch in Paris",
-  "Notre-Dame Cathedral, Île de la Cité and the Latin Quarter",
-  "Hare Krishna temple of Paris; evening programme",
-  "Night cruise on the River Seine past the glittering city"]),
- ("Paris – Brussels", "louvre", [
-  "Guided visit to the Louvre: Mona Lisa, Venus de Milo and the Winged Victory",
+  "Drive to the Port of Dover; UK exit and French entry formalities",
+  "Ferry across the English Channel from Dover to Calais",
+  "Drive through the French countryside to Paris",
+  "Hotel check-in and dinner at an Indian restaurant"]),
+ ("Paris City Tour & Seine Cruise", "eiffel", [
+  "Arc de Triomphe and a drive along the Champs-Élysées",
+  "Eiffel Tower: up to the 2nd floor for panoramic views",
+  "Group photos at the Trocadéro",
+  "Notre-Dame Cathedral and Île de la Cité",
+  "ISKCON Paris temple at Sevran: darshan, evening arati and kirtan",
+  "Evening Seine River cruise past the illuminated landmarks"]),
+ ("Paris – Louvre – Brussels", "louvre", [
+  "Guided visit of the Louvre: Mona Lisa, Venus de Milo and the Winged Victory",
   "Drive to Brussels",
-  "Photo stop at the giant Atomium",
-  "Grand Place, Manneken Pis and the Royal Galleries"]),
- ("Brussels – Ardennes – Amsterdam", "radhadesh", [
-  "Drive into the green Ardennes hills to the fairy-tale Château de Petite Somme, home of the Radhadesh temple",
-  "Lunch and a walk in the château gardens",
-  "Drive to Amsterdam",
-  "Evening cruise through the UNESCO canal ring"]),
- ("Amsterdam – Keukenhof – Cologne", "keukenhof", [
-  "Zaanse Schans: working windmills, clog-making and a cheese farm",
-  "Keukenhof: millions of tulips in full spring bloom",
-  "Drive to Cologne",
-  "Evening walk to the floodlit Cologne Cathedral and Hohenzollern Bridge"]),
- ("Cologne – Black Forest", "cologne", [
+  "Atomium photo stop",
+  "Grand Place, Manneken Pis and the Galeries Royales Saint-Hubert"]),
+ ("Brussels – Radhadesh – Amsterdam", "radhadesh", [
+  "ISKCON Radhadesh in the Ardennes: Château de Petite Somme, the temple and the Museum of Sacred Art",
+  "Kirtan with the local devotees and a walk in the gardens",
+  "Drive to Amsterdam and check in",
+  "Evening canal cruise through Amsterdam's famous waterways"]),
+ ("Zaanse Schans – Keukenhof – Cologne", "keukenhof", [
+  "Zaanse Schans: windmills, wooden houses, cheese farms and clog-making demonstrations",
+  "Keukenhof Tulip Gardens: colourful tulip fields, pavilions and landscaped grounds",
+  "Group photos and leisure time among the flowers",
+  "Drive to Cologne, Germany"]),
+ ("Cologne – Goloka Dham – Titisee", "cologne", [
   "Cologne Cathedral, a UNESCO World Heritage Site",
-  "Hare Krishna temple, Cologne",
-  "Sunday lunch at a peaceful farm community in the German countryside",
-  "Drive south into the Black Forest"]),
+  "ISKCON Cologne: temple darshan and time with local devotees",
+  "ISKCON Goloka Dham near Trier: temple, goshala and the Sunday programme",
+  "Drive into the Black Forest to Titisee"]),
  ("Titisee – Rhine Falls – Zurich", "rhinefalls", [
-  "Lake Titisee promenade and cuckoo-clock shops with a live demonstration",
-  "Rhine Falls, Europe's most powerful waterfall",
-  "Zurich old town: Bahnhofstrasse and the lake promenade",
-  "Hare Krishna temple, Zurich; evening programme"]),
- ("Zurich – Mount Titlis – Lucerne – Interlaken", "titlis", [
-  "Mount Titlis by the revolving Rotair cable car: snow, Glacier Cave and Cliff Walk",
-  "Indian lunch on the mountain at Trübsee",
-  "Lucerne: Lion Monument and Chapel Bridge",
-  "One-hour cruise on Lake Lucerne",
-  "Scenic train to Interlaken"]),
+  "Lake Titisee and cuckoo-clock shops with clock-making demonstrations",
+  "Rhine Falls at Neuhausen, Europe's largest waterfall by volume",
+  "Zurich Old Town, Bahnhofstrasse, Lake Zurich promenade, Grossmünster and Fraumünster",
+  "ISKCON Zurich Krishna Temple: darshan, evening arati and kirtan"]),
+ ("Mount Titlis – Lucerne – Interlaken", "titlis", [
+  "Mount Titlis by the Rotair revolving cable car: snow, Glacier Cave and Cliff Walk",
+  "Lucerne: Lion Monument, Chapel Bridge and the Old Town",
+  "Scenic cruise on Lake Lucerne",
+  "Luzern–Interlaken Express, one of Switzerland's most scenic train journeys"]),
  ("Interlaken – Lake Como – Milan", "como", [
-  "Morning view of the snow-covered Jungfrau",
-  "Drive through the Swiss Alps by the Gotthard into Italy",
-  "Boat ride on beautiful Lake Como",
-  "Evening at a hilltop village community near Bergamo"]),
- ("Milan – Padova – Venice", "venice", [
-  "Milan Duomo and the Galleria Vittorio Emanuele II",
-  "Lunch in the Berici hills",
-  "Basilica of St Anthony and Prato della Valle, Padova",
-  "Venice: St Mark's Square and a gondola ride on the canals"]),
+  "Höhematte Park for views of the Jungfrau",
+  "Drive through the Swiss Alps by the Gotthard route into Italy",
+  "Lake Como: waterfront promenade, boat ride and Como Cathedral (exterior)",
+  "Villaggio Hare Krishna near Bergamo: darshan, evening arati, kirtan and goshala"]),
+ ("Milan – Prabhupada Desh – Padova – Venice", "venice", [
+  "Milan Cathedral (Duomo), Galleria Vittorio Emanuele II and La Scala (exterior)",
+  "ISKCON Prabhupada Desh: temple darshan and kirtan",
+  "Padova: Basilica of St Anthony and Prato della Valle",
+  "Venice: St Mark's Square, St Mark's Basilica (exterior), Doge's Palace, Bridge of Sighs and Rialto Bridge",
+  "Traditional gondola ride through the Venetian canals"]),
  ("Venice – Rome & Vatican – Florence", "colosseum", [
-  "Early high-speed train to Rome",
-  "Vatican Museums and the Sistine Chapel with licensed guides",
+  "Early Frecciarossa high-speed train to Rome",
+  "Vatican Museums and the Sistine Chapel with a guided tour",
   "St Peter's Basilica and St Peter's Square",
-  "Inside the Colosseum, with views of the Roman Forum",
+  "Guided visit inside the Colosseum, with views of the Roman Forum",
   "Trevi Fountain and the Pantheon",
-  "Evening train to Florence"]),
- ("Florence – Pisa – Milan", "pisa", [
+  "High-speed train to Florence"]),
+ ("Florence – Villa Vrindavan – Pisa", "pisa", [
   "Florence: the Duomo, Piazza della Signoria and Ponte Vecchio",
-  "Panoramic view from Piazzale Michelangelo",
-  "Lunch at a Tuscan villa among vineyards",
-  "Leaning Tower of Pisa and the Square of Miracles",
-  "Farewell dinner"]),
- ("Milan – Abu Dhabi – Home", "florence2", [
-  "Early breakfast and check-out",
-  "Check in at Milan Malpensa for Etihad via Abu Dhabi",
-  "Land in Hyderabad (2:45 am) and Bangalore (3:15 am) on Monday 3 May",
+  "Panoramic views from Piazzale Michelangelo",
+  "ISKCON Villa Vrindavan: darshan, kirtan and the temple gardens",
+  "Square of Miracles, Pisa: the Leaning Tower, Cathedral and Baptistery",
+  "Farewell gathering near Milan Malpensa"]),
+ ("Milan – Dubai / Abu Dhabi – Home", "florence2", [
+  "Early breakfast and transfer to Milan Malpensa Terminal 1",
+  "Hyderabad group: Emirates via Dubai, landing Hyderabad 3:05 am on Monday 3 May",
+  "Bangalore group: Etihad via Abu Dhabi, landing Bangalore 3:15 am on Monday 3 May",
   "Tour ends with wonderful memories"]),
 ]

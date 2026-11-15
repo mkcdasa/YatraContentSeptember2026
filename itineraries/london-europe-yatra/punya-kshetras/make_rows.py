@@ -79,7 +79,7 @@ TEMPLE = [("Manor", "Historic Tudor-style manor gifted by Beatle George Harrison
 for r in rows:
     if r[3] == "Temple":
         r[7] = next((t for k, t in TEMPLE if k in r[4]), r[7])
-        if "Manor" in r[4] and r[1] >= "11:30": r[7] = "Sunday programme with music, talk and a grand Indian vegetarian lunch"
+        if "Manor" in r[4] and r[1] >= "11:30": r[7] = "Sunday programme with music and a talk"
 # a luggage coach that runs while the group is on a train is not part of the yatri's day
 rows = [r for r in rows if not (r[3] == "Coach" and any(t[0] == r[0] and t[3] == "Train" and ov(r, t) for t in rows))]
 json.dump(rows, open(os.path.join(HERE, "rows.json"), "w"), ensure_ascii=False)

@@ -3,8 +3,8 @@
   "title": "London Europe Yatra",
   "subtitle": "with Hare Krishna Devotees — 8 countries",
   "dates": "17 April – 2 May 2027 (15 nights / 16 days)",
-  "organiser": "Hare Krishna Golden Temple, Banjara Hills, Hyderabad (Punya Kshetras)",
-  "contact": "+91 95053 88886 · www.punyakshetras.com · www.hkmhyderabad.org",
+  "organiser": "Bhakti Yatra by Hare Krishna Movement Indore · ISKCON Vijay Nagar, Indore, Madhya Pradesh",
+  "contact": "+91 72248 64316 · +91 92570 45200 · Facebook · Instagram · YouTube: Bhaktiyatra",
   "price": "₹5,49,000 per person (including international flights) + 5% GST + 2% TCS (TCS refunded/credited through your income-tax return)",
   "countries": [
    "United Kingdom",
@@ -29,140 +29,70 @@
    "day": 1,
    "date": "2027-04-17",
    "dow": "Sat",
-   "title": "Hyderabad & Bangalore → London Heathrow · Kamada Ekadasi",
+   "title": "Fly to London Heathrow · Kamada Ekadasi",
    "overnight": "London (Wembley)",
    "tz": "BST",
-   "summary": "Hyderabad group flies Emirates via Dubai (dep 04:40, arrive Heathrow 16:10); Bangalore group flies Etihad via Abu Dhabi (dep 10:00, arrive 18:45). Kamada Ekadasi: fruit meals on board. Welcome kirtan and dinner at the hotel.",
+   "summary": "International flight to London Heathrow (included), arriving in the afternoon or evening. Kamada Ekadasi: fruit meals on board. Welcome kirtan and dinner at an Indian restaurant in Wembley.",
    "short": "Fly to London",
-   "coach_km": 75,
+   "coach_km": 25,
    "walk_km": 0,
    "rows": [
     {
-     "time": "01:40–04:00",
+     "time": "As per flight",
      "what": "Reporting",
-     "where": "Rajiv Gandhi International Airport (HYD)",
-     "link": "https://www.google.com/maps/search/?api=1&query=Rajiv+Gandhi+International+Airport+Hyderabad",
-     "detail": "HYDERABAD GROUP: report at RGIA departures (3 h before). Tour manager hands over tickets, insurance, kit (cap, bag, ID card, name badge). Group check-in on Emirates; bag drop. 25 kg check-in + 7 kg cabin. Today is Kamada Ekadasi: fruit meals (FPML) pre-ordered on both flights.",
-     "note": "",
+     "where": "Departure airport in India",
+     "link": "",
      "meal": false,
-     "move": false
+     "move": false,
+     "note": "",
+     "detail": "Report 3 hours before the flight. Group check-in; the tour manager hands over the kit (cap, bag, ID card, name badge). Today is Kamada Ekadasi: fruit meals are pre-ordered on the flight."
     },
     {
-     "time": "04:40–16:10",
-     "what": "Flight · 7700 km",
-     "where": "Rajiv Gandhi International Airport (HYD) → Heathrow Terminal 3",
-     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+3",
-     "detail": "HYDERABAD GROUP: Emirates EK 525 HYD 04:40 → Dubai 06:45 (T3); 4 h 40 m layover; EK 31 Dubai 11:25 → Heathrow T3 16:10. Ekadasi: fruit meals on board; carry dry fruits, nuts, makhana.",
-     "note": "",
+     "time": "Sat 17 April",
+     "what": "Flight",
+     "where": "International flight to London Heathrow (included)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Airport+London",
      "meal": false,
-     "move": true
+     "move": true,
+     "note": "",
+     "detail": "Economy group fare; flight details are shared at booking. Arrive at Heathrow in the afternoon or evening. Ekadasi: fruit meals on board; carry dry fruits and nuts."
     },
     {
-     "time": "07:00–09:15",
-     "what": "Reporting",
-     "where": "Kempegowda International Airport (BLR), T2",
-     "link": "https://www.google.com/maps/search/?api=1&query=Kempegowda+International+Airport+Terminal+2+Bengaluru",
-     "detail": "BANGALORE GROUP: report at Kempegowda T2 (3 h before). Group check-in on Etihad (first leg operated by Akasa Air); confirm bags are checked through to London. 30 kg check-in + 7 kg cabin. Ekadasi fruit meals pre-ordered.",
-     "note": "",
-     "meal": false,
-     "move": false
-    },
-    {
-     "time": "10:00–18:45",
-     "what": "Flight · 8000 km",
-     "where": "Kempegowda International Airport (BLR), T2 → Heathrow Terminal 4",
-     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+4",
-     "detail": "BANGALORE GROUP: Etihad EY 1013 (Akasa Air) BLR T2 10:00 → Abu Dhabi 12:35; 1 h 35 m layover; EY 67 Abu Dhabi 14:10 → Heathrow T4 18:45.",
-     "note": "",
-     "meal": false,
-     "move": true
-    },
-    {
-     "time": "16:10–17:30",
+     "time": "On arrival",
      "what": "Arrival",
-     "where": "Heathrow Terminal 3",
-     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+3",
-     "detail": "HYDERABAD GROUP: UK Border (eVisa linked to passport), baggage claim, meet the tour manager at the T3 coach park. Headcount.",
-     "note": "",
+     "where": "London Heathrow",
+     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Airport+London",
      "meal": false,
-     "move": false
+     "move": false,
+     "note": "",
+     "detail": "UK Border (eVisa linked to the passport), baggage claim, meet the tour manager. Headcount."
     },
     {
-     "time": "17:30–18:15",
+     "time": "After arrival",
      "what": "Coach · 25 km",
-     "where": "Heathrow Terminal 3 → Hotel, Wembley area (TBC)",
-     "link": "https://www.google.com/maps/dir/?api=1&origin=Heathrow+Terminal+3&destination=Wembley%2C+London&travelmode=driving",
-     "detail": "Coach run 1: Hyderabad group to the hotel. Welcome talk, group rules, WhatsApp group, SIM/eSIM help.",
-     "note": "",
+     "where": "London Heathrow → Hotel, Wembley area (TBC)",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Heathrow+Airport+London&destination=Wembley%2C+London&travelmode=driving",
      "meal": false,
-     "move": true
+     "move": true,
+     "note": "",
+     "detail": "Coach to the hotel. Welcome talk, group rules, WhatsApp group, SIM/eSIM help. Check-in and rest."
     },
     {
-     "time": "18:15–19:00",
-     "what": "Hotel check-in",
-     "where": "Hotel, Wembley area (TBC)",
-     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
-     "detail": "Hyderabad group check-in, rest.",
-     "note": "",
-     "meal": false,
-     "move": false
-    },
-    {
-     "time": "18:20–19:00",
-     "what": "Coach · 25 km",
-     "where": "Hotel, Wembley area (TBC) → Heathrow Terminal 4",
-     "link": "https://www.google.com/maps/dir/?api=1&origin=Wembley%2C+London&destination=Heathrow+Terminal+4&travelmode=driving",
-     "detail": "Coach run 2 (empty) back to Heathrow T4 for the Bangalore group.",
-     "note": "",
-     "meal": false,
-     "move": true
-    },
-    {
-     "time": "19:30–20:30",
+     "time": "Evening",
      "what": "Dinner",
      "where": "Hotel, Wembley area (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
-     "detail": "Hotel / Indian caterer – Ekadasi (grain-free) menu. Hyderabad group dinner. No grains, beans, onion or garlic: fruit, potato, sabudana, paneer, nuts, milk.",
-     "note": "",
      "meal": true,
-     "move": false
-    },
-    {
-     "time": "18:45–19:45",
-     "what": "Arrival",
-     "where": "Heathrow Terminal 4",
-     "link": "https://www.google.com/maps/search/?api=1&query=Heathrow+Terminal+4",
-     "detail": "BANGALORE GROUP: UK Border, baggage claim, meet the coach at T4. Headcount.",
+     "move": false,
      "note": "",
-     "meal": false,
-     "move": false
+     "detail": "Hotel / Indian caterer – Ekadasi (grain-free) menu: fruit, potato, sabudana, paneer, nuts, milk."
     },
     {
-     "time": "19:45–20:30",
-     "what": "Coach · 25 km",
-     "where": "Heathrow Terminal 4 → Hotel, Wembley area (TBC)",
-     "link": "https://www.google.com/maps/dir/?api=1&origin=Heathrow+Terminal+4&destination=Wembley%2C+London&travelmode=driving",
-     "detail": "Coach run 2: Bangalore group to the hotel.",
-     "note": "",
-     "meal": false,
-     "move": true
-    },
-    {
-     "time": "20:45–21:30",
-     "what": "Dinner",
-     "where": "Hotel, Wembley area (TBC)",
-     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
-     "detail": "Hotel / Indian caterer – Ekadasi (grain-free) menu. Bangalore group dinner.",
-     "note": "",
-     "meal": true,
-     "move": false
-    },
-    {
-     "time": "21:30–22:00",
+     "time": "22:00–22:30",
      "what": "Briefing",
      "where": "Hotel, Wembley area (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
-     "detail": "Joint welcome kirtan and briefing. Tomorrow: break fast (Dvadasi parana) 05:59–10:40 at breakfast (08:00–09:00); coach 09:00. Sunset tonight about 20:05; jet lag: sleep by 22:30.",
+     "detail": "Welcome kirtan and introduction to the tour programme. Tomorrow: break fast (Dvadasi parana) 05:59–10:40 at breakfast (08:00–09:00); coach 09:00. Jet lag: sleep by 23:00.",
      "note": "",
      "meal": false,
      "move": false
@@ -171,7 +101,7 @@
    "meals": {
     "Breakfast": "On the flight",
     "Lunch": "On the flight",
-    "Dinner": "19:30 · Hotel, Wembley area (TBC) · Hotel / Indian caterer – Ekadasi (grain-free) menu; 20:45 · Hotel, Wembley area (TBC) · Hotel / Indian caterer – Ekadasi (grain-free) menu"
+    "Dinner": "Evening · Hotel, Wembley · Ekadasi (grain-free) menu"
    }
   },
   {
@@ -261,7 +191,7 @@
      "what": "Lunch",
      "where": "Bhaktivedanta Manor, ISKCON (Watford)",
      "link": "https://www.google.com/maps/search/?api=1&query=Bhaktivedanta+Manor%2C+Hilfield+Lane%2C+Watford+WD25+8HE",
-     "detail": "Bhaktivedanta Manor – Sunday feast prasadam (donation).",
+     "detail": "Indian restaurant, Watford (group booking, TBC) – or the Manor's Sunday prasadam (donation).",
      "note": "",
      "meal": true,
      "move": false
@@ -317,17 +247,27 @@
      "move": false
     },
     {
-     "time": "18:45–19:20",
+     "time": "18:45–19:30",
+     "what": "Dinner",
+     "where": "Govinda's Pure Vegetarian Restaurant, Soho",
+     "link": "https://www.google.com/maps/search/?api=1&query=Govinda%27s+Restaurant%2C+9-10+Soho+Street%2C+London",
+     "detail": "Govinda's Pure Vegetarian Restaurant, Soho (next to the temple) – group booking. Indian vegetarian dinner.",
+     "note": "",
+     "meal": true,
+     "move": false
+    },
+    {
+     "time": "19:30–19:50",
      "what": "Walk · 1 km",
-     "where": "Radha-Krishna Temple, ISKCON Soho (10 Soho Street) → Covent Garden Piazza & Royal Opera House",
-     "link": "https://www.google.com/maps/dir/?api=1&origin=Radha+Krishna+Temple+ISKCON%2C+10+Soho+Street%2C+London&destination=Royal+Opera+House%2C+Bow+Street%2C+London&travelmode=walking",
+     "where": "Govinda's Pure Vegetarian Restaurant, Soho → Covent Garden Piazza & Royal Opera House",
+     "link": "https://www.google.com/maps/dir/?api=1&origin=Govinda%27s+Restaurant%2C+9-10+Soho+Street%2C+London&destination=Royal+Opera+House%2C+Bow+Street%2C+London&travelmode=walking",
      "detail": "Walk 1 km through Soho and Seven Dials to Covent Garden (flat pavements, busy crossings: walk in a line behind the flag).",
      "note": "",
      "meal": false,
      "move": true
     },
     {
-     "time": "19:20–19:50",
+     "time": "19:50–20:20",
      "what": "Sightseeing",
      "where": "Covent Garden Piazza & Royal Opera House",
      "link": "https://www.google.com/maps/search/?api=1&query=Royal+Opera+House%2C+Bow+Street%2C+London",
@@ -337,7 +277,7 @@
      "move": false
     },
     {
-     "time": "19:50–20:00",
+     "time": "20:20–20:30",
      "what": "Walk · 0.4 km",
      "where": "Covent Garden Piazza & Royal Opera House → Coach pick-up, Aldwych / Strand",
      "link": "https://www.google.com/maps/dir/?api=1&origin=Royal+Opera+House%2C+Bow+Street%2C+London&destination=Aldwych%2C+London&travelmode=walking",
@@ -347,7 +287,7 @@
      "move": true
     },
     {
-     "time": "20:00–20:45",
+     "time": "20:30–21:15",
      "what": "Coach · 16 km",
      "where": "Coach pick-up, Aldwych / Strand → Hotel, Wembley area (TBC)",
      "link": "https://www.google.com/maps/dir/?api=1&origin=Aldwych%2C+London&destination=Wembley%2C+London&travelmode=driving",
@@ -357,17 +297,7 @@
      "move": true
     },
     {
-     "time": "20:45–21:30",
-     "what": "Dinner",
-     "where": "Hotel, Wembley area (TBC)",
-     "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
-     "note": "",
-     "meal": true,
-     "move": false
-    },
-    {
-     "time": "21:30–21:45",
+     "time": "21:15–21:30",
      "what": "Briefing",
      "where": "Hotel, Wembley area (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
@@ -379,8 +309,8 @@
    ],
    "meals": {
     "Breakfast": "08:00 · Hotel, Wembley area (TBC) · Hotel – complimentary buffet (08:00–09:00) – Dvadasi break fast between 05:59 and 10:40 (London)",
-    "Lunch": "13:00 · Bhaktivedanta Manor, ISKCON (Watford) · Bhaktivedanta Manor – Sunday feast prasadam (donation)",
-    "Dinner": "20:45 · Hotel, Wembley area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Lunch": "13:00 · Bhaktivedanta Manor, ISKCON (Watford) · Indian restaurant, Watford (group booking, TBC) – or the Manor's Sunday prasadam (donation)",
+    "Dinner": "18:45 · Govinda's Pure Vegetarian Restaurant, Soho · Govinda's Pure Vegetarian Restaurant, Soho (next to the temple) – group booking"
    }
   },
   {
@@ -590,7 +520,7 @@
      "what": "Dinner",
      "where": "Hotel, Wembley area (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Wembley%2C+London",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -609,7 +539,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Wembley area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:30 · Indian vegetarian restaurant near Tower Hill (TBC) · Indian vegetarian restaurant near Tower Hill (to be booked)",
-    "Dinner": "20:45 · Hotel, Wembley area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "20:45 · Hotel, Wembley area (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -719,7 +649,7 @@
      "what": "Dinner",
      "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -728,7 +658,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Wembley area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "14:00 · Port of Dover – P&O / DFDS ferry · Packed Satvik lunch from London Indian caterer (eaten on board)",
-    "Dinner": "21:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "21:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -878,7 +808,7 @@
      "what": "Dinner",
      "where": "Hotel, Gare du Nord / La Chapelle area (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Gare+du+Nord%2C+Paris",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -917,7 +847,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:35 · Saravanaa Bhavan Paris (Rue du Faubourg Saint-Denis) · Saravanaa Bhavan Paris – group booking",
-    "Dinner": "19:15 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "19:15 · Hotel, Gare du Nord / La Chapelle area (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1067,7 +997,7 @@
      "what": "Dinner",
      "where": "Hotel, Brussels centre (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Brussels+Central+Station",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1076,7 +1006,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Gare du Nord / La Chapelle area (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "12:35 · Krishna Bhavan, Rue Cail (South Indian vegetarian) · Krishna Bhavan, Rue Cail – group booking",
-    "Dinner": "20:30 · Hotel, Brussels centre (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "20:30 · Hotel, Brussels centre (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1186,7 +1116,7 @@
      "what": "Dinner",
      "where": "Hotel, Amsterdam (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Amsterdam+Centraal",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1225,7 +1155,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Brussels centre (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "12:45 · ISKCON Radhadesh – Château de Petite Somme · Radhadesh temple – prasadam (pre-arranged; donation)",
-    "Dinner": "19:00 · Hotel, Amsterdam (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "19:00 · Hotel, Amsterdam (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1345,7 +1275,7 @@
      "what": "Dinner",
      "where": "Hotel, Cologne centre (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=K%C3%B6ln+Hauptbahnhof",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1364,7 +1294,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Amsterdam (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:15 · Keukenhof tulip gardens · Packed Satvik lunch from Amsterdam Indian caterer (picnic area)",
-    "Dinner": "19:30 · Hotel, Cologne centre (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "19:30 · Hotel, Cologne centre (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1504,7 +1434,7 @@
      "what": "Dinner",
      "where": "Hotel, Titisee-Neustadt (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Titisee-Neustadt",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1513,7 +1443,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Cologne centre (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:30 · ISKCON Goloka Dham (Abentheuer, near Trier) · Goloka Dham temple – prasadam (pre-arranged; donation)",
-    "Dinner": "20:30 · Hotel, Titisee-Neustadt (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "20:30 · Hotel, Titisee-Neustadt (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1663,7 +1593,7 @@
      "what": "Dinner",
      "where": "Hotel, Zurich (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich+Hauptbahnhof",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1672,7 +1602,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Titisee-Neustadt (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:00 · Indian restaurant, Schaffhausen (TBC) · Indian restaurant, Schaffhausen (to be booked) – backup: packed lunch",
-    "Dinner": "19:30 · Hotel, Zurich (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "19:30 · Hotel, Zurich (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1832,7 +1762,7 @@
      "what": "Dinner",
      "where": "Hotel, Interlaken (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=H%C3%B6heweg%2C+Interlaken",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1841,7 +1771,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Zurich (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:00 · Indian Group Restaurant, Trübsee mid-station · Indian Group Restaurant at Trübsee mid-station (moved down from the summit during construction; pre-book)",
-    "Dinner": "20:30 · Hotel, Interlaken (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "20:30 · Hotel, Interlaken (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -1971,7 +1901,7 @@
      "what": "Dinner",
      "where": "Hotel, Milan (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Milano+Centrale",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -1980,7 +1910,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Interlaken (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:50 · Indian restaurant, Como (TBC) · Indian restaurant, Como (to be booked) – backup: packed lunch",
-    "Dinner": "20:30 · Hotel, Milan (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "20:30 · Hotel, Milan (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -2140,7 +2070,7 @@
      "what": "Dinner",
      "where": "Hotel, Venice-Mestre (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Mestre%2C+Venezia",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel).",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic.",
      "note": "",
      "meal": true,
      "move": false
@@ -2149,7 +2079,7 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Milan (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:00 · ISKCON Prabhupada Desh (Albettone, Vicenza) · Prabhupada Desh temple – prasadam (pre-arranged; donation)",
-    "Dinner": "20:45 · Hotel, Venice-Mestre (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel)"
+    "Dinner": "20:45 · Hotel, Venice-Mestre (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic"
    }
   },
   {
@@ -2508,7 +2438,7 @@
      "what": "Dinner",
      "where": "Hotel near Malpensa airport (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
-     "detail": "Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel) – farewell dinner.",
+     "detail": "Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic – farewell dinner.",
      "note": "",
      "meal": true,
      "move": false
@@ -2527,18 +2457,18 @@
    "meals": {
     "Breakfast": "08:00 · Hotel, Florence (TBC) · Hotel – complimentary buffet (08:00–09:00)",
     "Lunch": "13:00 · ISKCON Villa Vrindavan, Florence (Via Scopeti 108) · Villa Vrindavan – prasadam (pre-arranged; donation)",
-    "Dinner": "21:00 · Hotel near Malpensa airport (TBC) · Hotel – Satvik menu pre-agreed (or Indian caterer delivering to the hotel) – farewell dinner"
+    "Dinner": "21:00 · Hotel near Malpensa airport (TBC) · Indian restaurant near the hotel – group booking (TBC); Satvik menu, no onion or garlic – farewell dinner"
    }
   },
   {
    "day": 16,
    "date": "2027-05-02",
    "dow": "Sun",
-   "title": "Varuthini Ekadasi · Milan Malpensa → Abu Dhabi → Hyderabad / Bangalore",
+   "title": "Varuthini Ekadasi · Milan Malpensa → home",
    "overnight": "On flight (land 3 May)",
    "tz": "CEST",
-   "summary": "Etihad from Milan Malpensa via Abu Dhabi; land in Hyderabad (02:45) and Bangalore (03:15) on Monday 3 May. Varuthini Ekadasi: fruit meals on board.",
-   "short": "Fly home via Abu Dhabi",
+   "summary": "International flight home from Milan Malpensa (included); arrive in India early on Monday 3 May. Varuthini Ekadasi: fruit meals on board.",
+   "short": "Fly home",
    "coach_km": 10,
    "walk_km": 0,
    "rows": [
@@ -2547,7 +2477,7 @@
      "what": "Breakfast",
      "where": "Hotel near Malpensa airport (TBC)",
      "link": "https://www.google.com/maps/search/?api=1&query=Hotels+near+Milano+Malpensa+Airport",
-     "detail": "Hotel – Ekadasi breakfast (fruit, nuts, milk, potatoes; request in advance). EXCEPTION to the 09:00 start: the 11:40 flight needs the coach at 07:50.",
+     "detail": "Hotel – Ekadasi breakfast (fruit, nuts, milk, potatoes; request in advance). EXCEPTION to the 09:00 start: the 11:30 and 11:40 flights need the coach at 07:50.",
      "note": "",
      "meal": true,
      "move": false
@@ -2577,40 +2507,20 @@
      "what": "Airport formalities",
      "where": "Milan Malpensa Airport (MXP), T1",
      "link": "https://www.google.com/maps/search/?api=1&query=Milano+Malpensa+Terminal+1",
-     "detail": "Group check-in on Etihad, VAT refund at customs (before check-in for goods in checked bags), EES exit, security. Farewell and feedback forms.",
+     "detail": "Group check-in, VAT refund at customs (before check-in for goods in checked bags), EES exit, security. Farewell and feedback forms.",
      "note": "",
      "meal": false,
      "move": false
     },
     {
-     "time": "11:40–19:40",
-     "what": "Flight · 4900 km",
-     "where": "Milan Malpensa Airport (MXP), T1 → Abu Dhabi International Airport (AUH)",
-     "link": "https://www.google.com/maps/search/?api=1&query=Abu+Dhabi+International+Airport",
-     "detail": "BOTH GROUPS: Etihad EY 82 Malpensa T1 11:40 → Abu Dhabi T-A 19:40 (6 h). Ekadasi fruit meals (FPML) pre-ordered.",
+     "time": "11:40",
+     "what": "Flight",
+     "where": "Milan Malpensa → India (included)",
+     "link": "https://www.google.com/maps/search/?api=1&query=Milano+Malpensa+Terminal+1",
+     "meal": false,
+     "move": true,
      "note": "",
-     "meal": false,
-     "move": true
-    },
-    {
-     "time": "21:25–02:45",
-     "what": "Flight · 2600 km",
-     "where": "Abu Dhabi International Airport (AUH) → Rajiv Gandhi International Airport (HYD)",
-     "link": "https://www.google.com/maps/search/?api=1&query=Rajiv+Gandhi+International+Airport+Hyderabad",
-     "detail": "HYDERABAD GROUP: Etihad EY 352 Abu Dhabi 21:25 → Hyderabad 02:45 on Mon 3 May (1 h 45 m layover). Break fast on 3 May between 05:49 and 10:05 IST.",
-     "note": "Arrange airport pickups for seniors at 03:30.",
-     "meal": false,
-     "move": true
-    },
-    {
-     "time": "21:35–03:15",
-     "what": "Flight · 2700 km",
-     "where": "Abu Dhabi International Airport (AUH) → Kempegowda International Airport (BLR), T2",
-     "link": "https://www.google.com/maps/search/?api=1&query=Kempegowda+International+Airport+Terminal+2+Bengaluru",
-     "detail": "BANGALORE GROUP: Etihad EY 232 Abu Dhabi 21:35 → Bangalore T2 03:15 on Mon 3 May (1 h 55 m layover). Break fast on 3 May between 05:58 and 10:11 IST.",
-     "note": "Hare Krishna! Yatra complete.",
-     "meal": false,
-     "move": true
+     "detail": "International flight home (economy group fare). Arrive in India early on Monday 3 May. Varuthini Ekadasi: fruit meals on board; break fast on 3 May after landing."
     }
    ],
    "meals": {
@@ -2685,7 +2595,7 @@
  "inclusions": [
   "All transfers by private coach",
   "All meals",
-  "All airfare (ex-Hyderabad / Chennai / Bangalore or any South Indian city)",
+  "International flights (economy, group fares)",
   "All visa charges",
   "Services of a tour manager",
   "All sightseeing as in the itinerary",
@@ -2785,7 +2695,7 @@
   ],
   [
    "Time zones",
-   "UK = IST − 4 h 30 m (BST). France to Italy = IST − 3 h 30 m (CEST). Abu Dhabi = IST − 1 h 30 m."
+   "UK = IST − 4 h 30 m (BST). France to Italy = IST − 3 h 30 m (CEST)."
   ],
   [
    "Emergency numbers",
@@ -3244,14 +3154,17 @@
   ]
  ],
  "brand": {
-  "key": "hkgt",
-  "out": "out",
-  "prefix": "London_Europe_Yatra_2027",
-  "presenter": "Hare Krishna Golden Temple · Hyderabad",
-  "org": "Hare Krishna Golden Temple, Banjara Hills, Hyderabad",
-  "footer_org": "Hare Krishna Golden Temple, Hyderabad",
-  "phone": "+91 95053 88886",
-  "web": "www.punyakshetras.com · www.hkmhyderabad.org",
-  "logos": null
+  "key": "bhakti",
+  "out": "out/bhakti-yatra",
+  "prefix": "Bhakti_Yatra_London_Europe_Yatra_2027",
+  "presenter": "Hare Krishna Movement Indore",
+  "org": "Bhakti Yatra by Hare Krishna Movement Indore · ISKCON Vijay Nagar, Indore, Madhya Pradesh",
+  "footer_org": "Bhakti Yatra by Hare Krishna Movement Indore",
+  "phone": "+91 72248 64316 · +91 92570 45200",
+  "web": "Facebook · Instagram · YouTube: Bhaktiyatra",
+  "logos": [
+   "brand/iskcon_indore.png",
+   "brand/bhakti_yatra.png"
+  ]
  }
 }

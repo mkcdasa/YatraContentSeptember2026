@@ -22,22 +22,22 @@ PKG = {
  'gst_note': '+ 5% GST + 2% TCS',
  'price_note': 'per person · all-inclusive · including international flights & visas · the 2% TCS is credited back through your income-tax return',
  'seats_note': 'Limited seats – one coach only.',
- 'kicker': '8 Countries · 60+ Attractions',
+ 'kicker': '8 Countries · 70+ Attractions',
  'with_line': 'Escorted group tour from Hyderabad & Bangalore',
  'greeting': 'Namaste!',
  'closing': 'Bon voyage!',
  'hero': 'towerbridge',
  'hero_pos': '50% 45%',
  'cover_circles': [('colosseum', 'left:12mm;top:146mm'), ('eiffel', 'left:83mm;top:156mm'), ('titlis', 'left:154mm;top:146mm')],
- 'cover_feats': ['Flights & visas included', '60+ attractions', '11 UNESCO World Heritage Sites',
+ 'cover_feats': ['Flights & visas included', '70+ attractions', '11 UNESCO World Heritage Sites',
                  'Indian vegetarian meals', 'Indian tour manager', 'Senior-friendly pace'],
- 'stats': [(16, 'Days'), (8, 'Countries'), ('60+', 'Attractions'), (11, 'UNESCO sites'), ('4,000', 'Km by coach')],
+ 'stats': [(16, 'Days'), (8, 'Countries'), ('70+', 'Attractions'), (11, 'UNESCO sites'), ('4,000', 'Km by coach')],
  'welcome_title': ('Your dream holiday', 'to London & Europe'),
  'welcome_img': 'eiffel',
  'welcome_cap': 'The Eiffel Tower, Paris – you go up to the 2nd floor on Day 5',
  'quote': ('Travel is fatal to prejudice, bigotry, and narrow-mindedness.', 'The Innocents Abroad, 1869'),
  'quote_by': 'Mark Twain',
- 'intro': "See the best of Europe in one unforgettable journey: 8 countries, 60+ attractions and 11 UNESCO World Heritage "
+ 'intro': "See the best of Europe in one unforgettable journey: 8 countries, 70+ attractions and 11 UNESCO World Heritage "
           "Sites in 16 days. Stand before the Colosseum, one of the New 7 Wonders of the World, and the Leaning Tower of "
           "Pisa; go up the Eiffel Tower; see the Koh-i-Noor at the Tower of London; touch the snow on Mount Titlis; ride a "
           "gondola in Venice and walk into the Sistine Chapel. Flights, visas, hotels, Indian vegetarian meals, entry "
@@ -84,30 +84,30 @@ PKG = {
    'countries': [
      ('United Kingdom', ['Buckingham Palace', 'Changing of the Guard', "The King's Gallery", 'Tower of London',
                          'Crown Jewels & Koh-i-Noor', 'Tower Bridge', 'Thames boat ride', 'London Eye',
-                         'Big Ben & Houses of Parliament', 'Madame Tussauds', 'Covent Garden', 'White Cliffs of Dover']),
+                         'Big Ben & Houses of Parliament', 'Westminster Bridge', 'Madame Tussauds', 'Covent Garden & Royal Opera House', 'English Channel ferry']),
      ('France', ['Eiffel Tower (2nd floor)', 'Arc de Triomphe', 'Champs-Élysées', 'Place de la Concorde',
-                 'Notre-Dame', 'Latin Quarter', 'Louvre & Mona Lisa', 'Seine river cruise']),
-     ('Belgium', ['Atomium', 'Grand Place', 'Manneken Pis', 'Royal Galleries', 'Château in the Ardennes']),
+                 'Trocadéro', 'Notre-Dame', 'Île de la Cité', 'Louvre & Mona Lisa', 'Seine river cruise']),
+     ('Belgium', ['Atomium', 'Grand Place', 'Manneken Pis', 'Galeries Royales Saint-Hubert', 'Château de Petite Somme', 'Museum of Sacred Art']),
      ('Netherlands', ['Amsterdam canal cruise', 'Zaanse Schans windmills', 'Clog & cheese workshops', 'Keukenhof tulip gardens']),
      ('Germany', ['Cologne Cathedral', 'Hohenzollern Bridge', 'Black Forest drive', 'Lake Titisee', 'Cuckoo-clock shops']),
-     ('Switzerland', ['Rhine Falls', 'Zurich old town', 'Lake Zurich', 'Mount Titlis snow & Rotair', 'Glacier Cave & Cliff Walk',
-                      'Lion Monument', 'Chapel Bridge', 'Lake Lucerne cruise', 'Scenic train to Interlaken', 'Jungfrau view']),
-     ('Italy', ['Lake Como boat ride', 'Milan Duomo', 'Galleria Vittorio Emanuele II', 'Basilica of St Anthony, Padova',
-                "St Mark's Square", 'Venice gondola ride', 'Colosseum (inside)', 'Roman Forum', 'Trevi Fountain', 'Pantheon',
-                'Florence Duomo', 'Ponte Vecchio', 'Piazzale Michelangelo', 'Leaning Tower of Pisa', 'Rome by high-speed train']),
+     ('Switzerland', ['Rhine Falls', 'Zurich old town', 'Bahnhofstrasse', 'Lake Zurich', 'Grossmünster & Fraumünster', 'Mount Titlis snow & Rotair', 'Glacier Cave & Cliff Walk',
+                      'Lion Monument', 'Chapel Bridge', 'Lucerne Old Town', 'Lake Lucerne cruise', 'Luzern–Interlaken Express', 'Jungfrau view']),
+     ('Italy', ['Lake Como boat ride', 'Como Cathedral', 'Milan Duomo', 'Galleria Vittorio Emanuele II', 'La Scala', 'Basilica of St Anthony, Padova',
+                'Prato della Valle', "St Mark's Square & Basilica", "Doge's Palace & Bridge of Sighs", 'Rialto Bridge', 'Venice gondola ride', 'Colosseum (inside)', 'Roman Forum', 'Trevi Fountain', 'Pantheon',
+                'Florence Duomo', 'Piazza della Signoria', 'Ponte Vecchio', 'Piazzale Michelangelo', 'Leaning Tower, Cathedral & Baptistery of Pisa', 'Frecciarossa high-speed train']),
      ('Vatican City', ['Vatican Museums', 'Sistine Chapel', "St Peter's Basilica", "St Peter's Square"])],
    'unesco': ['Tower of London', 'Westminster', 'Paris, banks of the Seine', 'Grand Place, Brussels', 'Amsterdam canal ring',
               'Cologne Cathedral', 'Venice & its lagoon', 'Historic Rome', 'Vatican City', 'Historic Florence', 'Piazza del Duomo, Pisa']},
  'daypages': [
   {'n': 1, 'title': 'Welcome to London', 'stay': 'London (Wembley)', 'imgs': ['bigben', 'westminster2'],
-   'story': 'Fly from Hyderabad (Emirates via Dubai, landing Heathrow 4:10 pm) or Bangalore (Etihad via Abu Dhabi, landing '
-            '6:45 pm). Our tour manager meets you at Heathrow and takes you by private coach to the hotel. Welcome '
+   'story': 'Fly from Bangalore (Etihad via Abu Dhabi, landing Heathrow 12:45 pm) or Hyderabad (Emirates via Dubai, landing '
+            '6:40 pm). Our tour manager meets you at Heathrow and takes you by private coach to Wembley. Welcome '
             'get-together, a short briefing and a hot Indian dinner.',
    'sig': ('Did you know?', '"Big Ben" is really the name of the giant 13.7-tonne bell inside the clock tower. The tower '
            'itself is called the Elizabeth Tower.')},
   {'n': 2, 'title': 'Madame Tussauds · Covent Garden · Bhaktivedanta Manor', 'stay': 'London (Wembley)', 'imgs': ['manor', 'londoneye'],
    'story': "Start at Bhaktivedanta Manor, the mock-Tudor country house that Beatle George Harrison gave to the Hare Krishna "
-            "movement, for its Sunday programme and a grand Indian lunch, after a look inside the Akshaya Patra kitchen in "
+            "movement, for its gardens, goshala and Sunday programme, after a look inside the Akshaya Patra kitchen in "
             "Watford. Then pose with Bollywood stars, royals and world leaders at Madame Tussauds, visit the temple in Soho "
             "and enjoy the street performers of Covent Garden.",
    'sig': ('Did you know?', 'Madame Tussauds has been on Marylebone Road since 1884. Its Bollywood gallery is one of the most '
@@ -183,9 +183,9 @@ PKG = {
    'sig': ('Did you know?', 'The Leaning Tower of Pisa leans about 4 degrees. It began tilting while it was still being built, '
            'more than 800 years ago.')},
   {'n': 16, 'title': 'Flights Home with a Lifetime of Memories', 'stay': None, 'imgs': ['eiffelnight', 'colosseumair'],
-   'story': 'After an early breakfast, check in at Milan Malpensa for Etihad via Abu Dhabi, landing in Hyderabad and '
-            'Bangalore early on Monday 3 May.',
-   'sig': ('Your tour in numbers', '16 days · 8 countries · 60+ attractions · 11 UNESCO World Heritage Sites · about 4,000 km '
+   'story': 'After an early breakfast, check in at Milan Malpensa: Hyderabad group on Emirates via Dubai (landing 3:05 am), '
+            'Bangalore group on Etihad via Abu Dhabi (landing 3:15 am) on Monday 3 May.',
+   'sig': ('Your tour in numbers', '16 days · 8 countries · 70+ attractions · 11 UNESCO World Heritage Sites · about 4,000 km '
            'by private coach, plus ferry, boats and high-speed trains.')}],
  'places_header': ('Picture-Perfect Moments', 'The sights you will remember for life'),
  'places_title': ('Postcard moments', 'waiting for you'),
@@ -206,9 +206,9 @@ PKG = {
           'Entry tickets to every attraction in the itinerary',
           'Indian tour manager throughout and licensed local guides'],
  'excl': ['GST 5% and TCS 2%', 'Personal expenses and shopping', 'Anything not listed under inclusions'],
- 'flights': ['Hyderabad group: Emirates via Dubai, Sat 17 April, landing Heathrow 4:10 pm',
-             'Bangalore group: Etihad via Abu Dhabi, Sat 17 April, landing Heathrow 6:45 pm',
-             'Return: Etihad from Milan Malpensa via Abu Dhabi, Sun 2 May; landing Mon 3 May'],
+ 'flights': ['Hyderabad group: Emirates EK 527 / EK 3 via Dubai, Sat 17 April, dep 10:15 am, landing Heathrow 6:40 pm',
+             'Bangalore group: Etihad EY 233 / EY 63 via Abu Dhabi, Sat 17 April, dep 4:35 am, landing Heathrow 12:45 pm',
+             'Return Sun 2 May: Emirates EK 102 / EK 524 Milan → Dubai → Hyderabad (3:05 am, 3 May); Etihad EY 82 / EY 232 Milan → Abu Dhabi → Bangalore (3:15 am, 3 May)'],
  'flights_title': 'Flights · booked by us',
  'meal_note': 'All breakfasts, lunches and dinners are included: home-style Indian vegetarian food at hotels and selected '
               'Indian restaurants, so you never have to hunt for a meal abroad. No onion or garlic on request.',
@@ -258,7 +258,7 @@ PKG = {
  'rows': 'rows.json',
  'timing_note': 'Timings are indicative and may change with flight slots, weather and queues. Distances by road are approximate.',
  'poster': {'hero': 'towerbridge', 'pos': '50% 45%', 'circ': ['colosseum', 'eiffel', 'titlis'],
-            'kicker': '8 Countries · 60+ Attractions',
+            'kicker': '8 Countries · 70+ Attractions',
             'price_small': '+ 5% GST + 2% TCS · per person · incl. flights & visas',
             'hl': ['Eiffel Tower, Louvre & Seine cruise',
                    'Colosseum – a New 7 Wonder of the World',

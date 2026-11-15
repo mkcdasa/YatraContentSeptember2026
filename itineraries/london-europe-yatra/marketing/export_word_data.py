@@ -90,7 +90,7 @@ def no_city_days(days):
     d16["rows"] = rows
     for r in d16["rows"]:
         for k in ("detail", "note"):
-            r[k] = r[k].replace("Group check-in on Etihad", "Group check-in")
+            r[k] = r[k].replace("Group check-in on Emirates (Hyderabad group) and Etihad (Bangalore group)", "Group check-in").replace("Group check-in on Etihad", "Group check-in")
 
 
 def main():

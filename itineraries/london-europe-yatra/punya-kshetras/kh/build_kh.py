@@ -120,7 +120,7 @@ def cover():
 <div class="cvt"><div class="cvs">London &amp;</div><div class="cvb">EUROPE</div>
 <div class="cvr">Grand Tour 2027</div></div>
 <div class="cvbot"><div class="cvd"><span>{E(PK["dates"])}</span><b>{E(PK["duration"])}</b></div>
-<div class="cvc">8 Countries · 60+ Attractions · 11 UNESCO Sites</div>
+<div class="cvc">8 Countries · 70+ Attractions · 11 UNESCO Sites</div>
 <div class="ccs">{circ}</div>
 <div class="cvp"><small>All-inclusive, per person</small><b>{E(PK["price"])}</b><em>incl. international flights &amp; visas · {E(PK["gst_note"])}</em></div></div>
 {footer()}</section>'''

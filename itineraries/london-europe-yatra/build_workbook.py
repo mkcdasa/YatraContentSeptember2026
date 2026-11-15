@@ -90,7 +90,7 @@ def readme(wb):
                 "Hare Krishna! Everything here can be edited. Durations and daily km recalculate automatically.")
     rows = [
         ("Yatra", f"{D.YATRA['title']} {D.YATRA['subtitle']}"),
-        ("Dates", D.YATRA["dates"] + ". Out: Hyderabad EK 525/EK 31 (LHR T3 16:10) and Bangalore EY 1013/EY 67 (LHR T4 18:45) on 17 Apr. Back: EY 82 Malpensa 11:40 on 2 May → Abu Dhabi → EY 352 Hyderabad 02:45 / EY 232 Bangalore 03:15 on 3 May."),
+        ("Dates", D.YATRA["dates"] + ". Out: Bangalore EY 233/EY 63 via Abu Dhabi (LHR 12:45) and Hyderabad EK 527/EK 3 via Dubai (LHR T3 18:40) on 17 Apr. Back on 2 May: Hyderabad EK 102 Malpensa 11:30 → Dubai → EK 524 Hyderabad 03:05; Bangalore EY 82 Malpensa 11:40 → Abu Dhabi → EY 232 Bangalore 03:15 (3 May)."),
         ("Countries", ", ".join(D.YATRA["countries"])),
         ("Organised by", D.YATRA["organiser"]),
         ("Contact", D.YATRA["contact"]),

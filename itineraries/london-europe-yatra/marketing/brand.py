@@ -36,9 +36,9 @@ COLOURS = {
 
 # Bhakti Yatra creatives say "international flights included" and name no departure city or airline
 FLIGHT_TEXT = [
-    ("Hyderabad group flies Emirates via Dubai (dep 04:40, arrive Heathrow 16:10); Bangalore group flies Etihad via Abu Dhabi (dep 10:00, arrive 18:45).",
+    ("Bangalore group flies Etihad via Abu Dhabi (dep 04:35, arrive Heathrow 12:45); Hyderabad group flies Emirates via Dubai (dep 10:15, arrive 18:40).",
      "International flight to London Heathrow (included), arriving in the afternoon or evening."),
-    ("Etihad from Milan Malpensa via Abu Dhabi; land in Hyderabad (02:45) and Bangalore (03:15) on Monday 3 May.",
+    ("Hyderabad group: Emirates from Milan Malpensa via Dubai, landing 03:05; Bangalore group: Etihad via Abu Dhabi, landing 03:15 on Monday 3 May.",
      "International flight home from Milan Malpensa (included); arrive in India early on Monday 3 May."),
     ("Fly home via Abu Dhabi", "Fly home"),
     ("Flights from Hyderabad and Bangalore; return to both cities on 3 May.", "International flights included; home on 3 May."),
@@ -48,8 +48,8 @@ FLIGHT_TEXT = [
     ("Flights from Hyderabad & Bangalore", "International flights included"),
     ("All airfare (ex-Hyderabad / Chennai / Bangalore or any South Indian city)", "International flights (economy, group fares)"),
     ("Hyderabad & Bangalore → London Heathrow · Kamada Ekadasi", "Fly to London Heathrow · Kamada Ekadasi"),
-    ("Varuthini Ekadasi · Milan Malpensa → Abu Dhabi → Hyderabad / Bangalore", "Varuthini Ekadasi · Milan Malpensa → home"),
-    (" Abu Dhabi = IST − 1 h 30 m.", ""),
+    ("Varuthini Ekadasi · Milan Malpensa → Dubai / Abu Dhabi → Hyderabad / Bangalore", "Varuthini Ekadasi · Milan Malpensa → home"),
+    (" Dubai and Abu Dhabi = IST − 1 h 30 m.", ""),
 ]
 
 

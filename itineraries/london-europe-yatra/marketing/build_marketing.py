@@ -52,7 +52,7 @@ WONDERS = ["Changing of the Guard & Tower of London (Koh-i-Noor)", "London Eye &
 
 # day, short route for the at-a-glance list, brochure description
 DAY_TEXT = [
-    (1, "Fly to London", "Hyderabad group flies Emirates via Dubai (dep 04:40, arrive Heathrow 16:10); Bangalore group flies Etihad via Abu Dhabi (dep 10:00, arrive 18:45). Kamada Ekadasi: fruit meals on board. Welcome kirtan and dinner at the hotel."),
+    (1, "Fly to London", "Bangalore group flies Etihad via Abu Dhabi (dep 04:35, arrive Heathrow 12:45); Hyderabad group flies Emirates via Dubai (dep 10:15, arrive 18:40). Kamada Ekadasi: fruit meals on board. Welcome kirtan and dinner at an Indian restaurant in Wembley."),
     (2, "Akshaya Patra · Bhaktivedanta Manor · Madame Tussauds · ISKCON Soho", "Visit the Akshaya Patra kitchen in Watford, then Bhaktivedanta Manor for darshan of Sri Sri Radha-Gokulananda, the Sunday programme and feast prasadam. Afternoon at Madame Tussauds; evening arati at ISKCON Soho, where Srila Prabhupada installed Radha-Londonishvara in 1969; stroll through Covent Garden."),
     (3, "Royal London: Guard · Tower & Koh-i-Noor · Thames · London Eye", "Changing of the Guard at Buckingham Palace and The King's Gallery; the Tower of London with the Crown Jewels and the Koh-i-Noor; a walk on Tower Bridge; a Thames boat ride; the London Eye at sunset; Big Ben and the Houses of Parliament."),
     (4, "Dover ferry → Calais → Paris", "Coach to Dover and the ferry across the English Channel past the White Cliffs, then on through France to Paris. Balarama Rasayatra kirtan on the way."),
@@ -67,7 +67,7 @@ DAY_TEXT = [
     (13, "Milan · Prabhupada Desh · Padova · Venice", "Milan Cathedral, prasadam at ISKCON Prabhupada Desh, the Basilica of St Anthony in Padova and an evening in Venice: St Mark's Square and a gondola ride."),
     (14, "Rome by high-speed train: Vatican · Colosseum", "High-speed train to Rome: the Vatican Museums and Sistine Chapel, St Peter's Basilica, the Colosseum and the Trevi Fountain; train to Florence."),
     (15, "Florence · Villa Vrindavan · Pisa", "Florence (Duomo, Ponte Vecchio, Piazzale Michelangelo), prasadam at ISKCON Villa Vrindavan, the Leaning Tower of Pisa; farewell dinner near Milan Malpensa."),
-    (16, "Fly home via Abu Dhabi", "Etihad from Milan Malpensa via Abu Dhabi; land in Hyderabad (02:45) and Bangalore (03:15) on Monday 3 May. Varuthini Ekadasi: fruit meals on board."),
+    (16, "Fly home", "Hyderabad group: Emirates from Milan Malpensa via Dubai, landing 03:05; Bangalore group: Etihad via Abu Dhabi, landing 03:15 on Monday 3 May. Varuthini Ekadasi: fruit meals on board."),
 ]
 
 # route map: (label, lat, lon, label side, label dy, minor) - minor labels are hidden on small maps
@@ -318,8 +318,8 @@ def poster_price():
  <div class="step"><b>4</b><span>Pre-departure meeting and kit; fly on 17 April 2027</span></div>
 </div>
 <div class="flights">
- <div class="flight"><b>✈ From Hyderabad</b><span>Out Sat 17 Apr: Emirates via Dubai, dep 04:40 → London 16:10</span><span>Back Sun 2 May: Etihad via Abu Dhabi → Hyderabad 02:45 (3 May)</span></div>
- <div class="flight"><b>✈ From Bangalore</b><span>Out Sat 17 Apr: Etihad via Abu Dhabi, dep 10:00 → London 18:45</span><span>Back Sun 2 May: Etihad via Abu Dhabi → Bangalore 03:15 (3 May)</span></div>
+ <div class="flight"><b>✈ From Hyderabad</b><span>Out Sat 17 Apr: Emirates via Dubai, dep 10:15 → London 18:40</span><span>Back Sun 2 May: Emirates via Dubai → Hyderabad 03:05 (3 May)</span></div>
+ <div class="flight"><b>✈ From Bangalore</b><span>Out Sat 17 Apr: Etihad via Abu Dhabi, dep 04:35 → London 12:45</span><span>Back Sun 2 May: Etihad via Abu Dhabi → Bangalore 03:15 (3 May)</span></div>
 </div>
 <div class="foot">{contact_bar()}<div class="note">Limited seats – one coach. Prices are per person; payment schedule and cancellation terms on the booking form.</div></div>
 </div>"""
@@ -405,8 +405,8 @@ def brochure():
 <div class="box"><h3>Wonders of Europe</h3><ul>{''.join(f'<li>{t}</li>' for t in WONDERS)}<li>Brussels, Amsterdam canals and Lake Como</li></ul></div></div>
 <h3>Flights</h3>
 <table class="fl"><tr><th>Group</th><th>Outbound – Sat 17 April 2027</th><th>Return – Sun 2 May 2027</th></tr>
-<tr><td><b>Hyderabad</b></td><td>Emirates EK 525 / EK 31 via Dubai. Dep 04:40, arrive London Heathrow 16:10.</td><td>Etihad EY 82 / EY 352 via Abu Dhabi. Dep Milan Malpensa 11:40, arrive Hyderabad 02:45 on Mon 3 May.</td></tr>
-<tr><td><b>Bangalore</b></td><td>Etihad EY 1013 / EY 67 via Abu Dhabi. Dep 10:00, arrive London Heathrow 18:45.</td><td>Etihad EY 82 / EY 232 via Abu Dhabi. Dep Milan Malpensa 11:40, arrive Bangalore 03:15 on Mon 3 May.</td></tr></table>
+<tr><td><b>Hyderabad</b></td><td>Emirates EK 527 / EK 3 via Dubai. Dep 10:15, arrive London Heathrow 18:40.</td><td>Emirates EK 102 / EK 524 via Dubai. Dep Milan Malpensa 11:30, arrive Hyderabad 03:05 on Mon 3 May.</td></tr>
+<tr><td><b>Bangalore</b></td><td>Etihad EY 233 / EY 63 via Abu Dhabi. Dep 04:35, arrive London Heathrow 12:45.</td><td>Etihad EY 82 / EY 232 via Abu Dhabi. Dep Milan Malpensa 11:40, arrive Bangalore 03:15 on Mon 3 May.</td></tr></table>
 <p class="small" style="margin-top:2mm">Flight numbers and times are the shortlisted 2027 schedules and may change before ticketing.</p>
 <h3>A typical day</h3>
 <p>07:30 morning programme (japa, kirtan, Bhagavatam) · 08:00–09:00 breakfast at the hotel · 09:00 coach departs · lunch near the sights or at a temple · evening arati where possible · dinner at the hotel. Early starts only on the Rome day (Day 14) and the flight home (Day 16).</p>"""

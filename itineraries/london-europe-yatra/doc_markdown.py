@@ -72,7 +72,7 @@ def sections():
                             ("d4", range(12, 16), "Days 13–16 (29 Apr–2 May): Venice, Rome & Vatican, Florence, Pisa, Milan → home")):
         s[name] = f"## {head}\n\n" + "\n\n".join(day_md(D.DAYS[i]) for i in rng)
     meals = ["## Meal plan", "",
-             "Breakfast is at the hotel on all 15 hotel mornings. Lunch is at a temple on 6 days and at an Indian restaurant (or packed) on the rest. Dinner is at the hotel except on Day 2 (Govinda's, Soho) and Day 16 (packed, before the flight).", "",
+             "Breakfast is at the hotel on all 15 hotel mornings. Lunch is at a temple on 6 days and at an Indian restaurant (or packed) on the rest. Dinner is at an Indian restaurant every evening: near the hotel on most days, Govinda's in Soho on Day 2, and packed on the train on Day 14 (team's final plan, Nov 2026).", "",
              "| Day | Breakfast | Lunch | Dinner |", "| --- | --- | --- | --- |"]
     for d in D.DAYS:
         by = {}
@@ -85,7 +85,7 @@ def sections():
     s["pros"] = "\n".join(["## Pros and cons by day", "", "Every day has one clear highlight. The cost is early starts and long coach legs on Days 4, 6, 10 and 16.", "",
                            "| Day | Pros | Cons / watch-outs |", "| --- | --- | --- |"]
                           + [f"| {a} | {cell(b)} | {cell(c)} |" for a, b, c in D.PROS_CONS])
-    s["challenges"] = "\n".join(["## Challenges and risks", "", "The biggest risks are driver-hour limits, July traffic at borders and tunnels, and pickpockets in Paris and Rome. Each one has a mitigation below.", "",
+    s["challenges"] = "\n".join(["## Challenges and risks", "", "The biggest risks are driver-hour limits, spring traffic at borders and the Gotthard tunnel, and pickpockets in Paris and Rome. Each one has a mitigation below.", "",
                                  "| Challenge | What happens | Mitigation |", "| --- | --- | --- |"]
                                 + [f"| {cell(a)} | {cell(b)} | {cell(c)} |" for a, b, c in D.CHALLENGES])
     s["dos"] = "\n".join(["## Do's and don'ts", "", "Share this section with yatris at the pre-departure orientation.", "", "**Do**", ""]
@@ -96,7 +96,7 @@ def sections():
                           + ["", "| Inclusions | Exclusions |", "| --- | --- |"]
                           + [f"| {D.INCLUSIONS[i] if i < len(D.INCLUSIONS) else ''} | {D.EXCLUSIONS[i] if i < len(D.EXCLUSIONS) else ''} |" for i in range(max(len(D.INCLUSIONS), len(D.EXCLUSIONS)))]
                           + ["", f"Price: {D.YATRA['price']}."])
-    s["practical"] = "\n".join(["## Practical information", "", "Pack for both heat and cold: Rome can reach 35 °C and the Titlis summit 0 °C within the same week.", "",
+    s["practical"] = "\n".join(["## Practical information", "", "Pack for both heat and cold: Rome can reach 24 °C and the Titlis summit is below zero within the same week.", "",
                                 "| Topic | Details |", "| --- | --- |"] + [f"| {a} | {cell(b)} |" for a, b in D.PRACTICAL])
     return s
 

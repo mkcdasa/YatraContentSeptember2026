@@ -119,7 +119,7 @@ children.push(h1('2. Yatra amount, inclusions and exclusions'),
 
 // ---------------------------------------------------------------- 3. flights
 const flightRows = [];
-for (const d of [D.days[0], D.days[15]]) for (const r of d.rows) if (r.what.startsWith('Flight') || /EY 82|EY 352|EY 232/.test(r.detail)) flightRows.push([dayDate(d), r.time, r.detail]);
+for (const d of [D.days[0], D.days[15]]) for (const r of d.rows) if (r.what.startsWith('Flight') || /EY 82|EY 232|EK 102|EK 524/.test(r.detail)) flightRows.push([dayDate(d), r.time, r.detail]);
 children.push(h1('3. Flights'),
   p(BHAKTI ? 'International flights are included in the yatra amount (economy, group fares). Flight details are shared at booking.' : 'Shortlisted 2027 schedules. Flight numbers and times may change before ticketing. Times are local.'),
   table([2000, 1500, W - 3500], ['Date', 'Time', 'Flight'], flightRows),
