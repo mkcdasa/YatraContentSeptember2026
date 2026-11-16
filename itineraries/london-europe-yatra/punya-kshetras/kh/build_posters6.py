@@ -49,7 +49,7 @@ EXTRA = """
 .fj{flex:1;height:100%%;background:linear-gradient(135deg,var(--n),var(--n3));color:#fff;display:flex;flex-direction:column;justify-content:center;padding:0 16px}
 .fj b{display:flex;align-items:center;gap:8px;font:800 19px/1.1 Montserrat;color:var(--g2)}
 .fj b svg{width:24px;height:24px;flex:none}
-.fj span{font:600 13px Montserrat;margin-top:5px}
+.fj span{font:600 13px Montserrat;margin-top:4px;white-space:nowrap}.fj span.fn{margin-top:2px;font-size:12.5px;color:var(--g2)}.fj b{font-size:18px}
 .lg.dk{background:#2A0F38}.lg.nb{background:none;box-shadow:none;padding:0}.lg.nb img{height:62px}
 .ft .ph2{font-size:27px;line-height:1.15}.ft .ph2 svg{width:30px;height:30px}.ft .web b{color:var(--g2)}
 .uc em{font-style:normal;font:700 12px Montserrat;margin-top:8px;color:var(--g2)}
@@ -61,7 +61,7 @@ def flights():
     pl = ic(I["plane"], "#fff")
     return (f'<div class="fb"><div class="fx"><span class="fic">{pl}</span><div><small>ARRIVE</small><b>London Heathrow</b><span>before 6:30 PM · 17 Apr 2027</span></div></div>'
             f'<div class="fx"><span class="fic dep">{pl}</span><div><small>DEPART</small><b>Milan Malpensa</b><span>after 11 AM · 2 May 2027</span></div></div>'
-            f'<div class="fj"><b>{ic(I["globe"], "#F6D58B")}JOIN FROM ANYWHERE IN THE WORLD</b><span>Need flights? We book at actual cost · ₹80,000</span></div></div>')
+            f'<div class="fj"><b>{ic(I["globe"], "#F6D58B")}JOIN FROM ANYWHERE IN THE WORLD</b><span>Need flights? We book at the actual fare on your booking day.</span><span class="fn">Return fare approx. ₹80,000 as of Nov 2026 · fares change daily</span></div></div>')
 
 def page(pal, body, cls=""):
     css = (P.CSS + EXTRA).replace("%(vars)s", PALETTES[pal].replace("%", "%%")) % K.FONTS
