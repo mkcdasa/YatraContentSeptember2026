@@ -137,7 +137,7 @@ children.push(h1('4. Day-by-day summary'),
   bullet(`09:00 coach leaves the hotel; sightseeing and temple darshan with narration in ${BHAKTI ? 'Hindi and English' : 'Telugu, Hindi and English'}`),
   bullet('Lunch at an Indian restaurant or a temple near the sightseeing'),
   bullet('Evening arati at a temple where possible; dinner at the hotel; next-day briefing'),
-  p('Exceptions: Day 14 (Rome) starts at 05:00 for the 06:30 train, and Day 16 starts at 06:30 for the 11:40 flight.'),
+  p('Exceptions: Day 14 (Rome) starts at 05:00 for the 06:30 train, and Day 16 starts at 06:30 for the 11:30 and 11:40 flights.'),
   brk(),
 );
 
@@ -153,6 +153,21 @@ D.days.forEach((d, i) => {
     p([t(`Overnight: ${d.overnight}`, { bold: true, size: 18 }),
       t(d.coach_km ? `   ·   Coach: about ${d.coach_km} km` : '', { size: 18 }),
       t(d.walk_km ? `   ·   Walking between stops: about ${d.walk_km} km` : '', { size: 18 })]));
+  // route map of the day (maps/build_day_maps.py) and its legs: from → to, mode, distance, time
+  const mapPng = path.join(__dirname, '..', 'maps', 'out', `day_${String(d.day).padStart(2, '0')}.png`);
+  const mapJson = mapPng.replace('.png', '.json');
+  if (fs.existsSync(mapPng) && fs.existsSync(mapJson)) {
+    const M = JSON.parse(fs.readFileSync(mapJson, 'utf8'));
+    children.push(p([t('Route map of the day', { bold: true, color: MAROON, size: 22 })], { spacing: { before: 120, after: 60 } }),
+      new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(mapPng), transformation: { width: 650, height: 406 } })] }));
+    if (M.legs.length) {
+      const LW = [500, 4166, 1500, 1300, 1300, 1100];
+      children.push(table(LW, ['#', 'From → To (stop numbers on the map)', 'Mode', 'Distance', 'Time', 'Clock'],
+        M.legs.map((L) => [String(L.n), `${L.frm} ${L.from_name} → ${L.to} ${L.to_name}`, L.mode,
+          `${L.estimate ? '≈ ' : ''}${L.km} km`, `${L.estimate ? '≈ ' : ''}${L.duration}`, L.time]), { size: 16 }),
+        p([t(`Coach today: about ${M.coach_km} km · on foot between stops: about ${M.walk_km} km. ≈ marks a short hop estimated from the map. Map data © OpenStreetMap contributors.`, { size: 15, color: MUTED, italics: true })], { spacing: { before: 60, after: 120 } }));
+    }
+  }
   const fills = d.rows.map((r) => (r.meal ? 'FFF1D6' : r.move ? 'F3EEE7' : 'FFFFFF'));
   const rows = d.rows.map((r) => [
     r.time, r.what,
@@ -166,7 +181,7 @@ children.push(brk());
 
 // ---------------------------------------------------------------- 6. meals
 children.push(h1('6. Meal plan'),
-  p('All meals are Satvik: no onion, garlic, eggs, meat or fish. Breakfast is at the hotel; lunch is at a temple or an Indian restaurant near the sightseeing; dinner is at the hotel.'),
+  p('All meals are Satvik: no onion, garlic, eggs, meat or fish. Breakfast is at the hotel; lunch is at a temple or an Indian restaurant near the sightseeing; dinner is at an Indian restaurant.'),
   table([700, 2900, 3133, W - 6733], ['Day', 'Breakfast', 'Lunch', 'Dinner'],
     D.days.map((d) => [String(d.day), d.meals.Breakfast, d.meals.Lunch, d.meals.Dinner]), { size: 16 }),
 );

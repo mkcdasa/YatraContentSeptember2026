@@ -1,0 +1,68 @@
+{
+ "day": 1,
+ "stops": [
+  {
+   "n": 1,
+   "key": "LHR_T4",
+   "name": "Heathrow Terminal 4"
+  },
+  {
+   "n": 2,
+   "key": "LHR_T3",
+   "name": "Heathrow Terminal 3"
+  },
+  {
+   "n": 3,
+   "key": "H_LON",
+   "name": "Hotel, Wembley area"
+  },
+  {
+   "n": 4,
+   "key": "W_REST",
+   "name": "Indian vegetarian restaurant, Wembley"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 3,
+   "from_name": "Heathrow Terminal 4",
+   "to_name": "Hotel, Wembley area",
+   "mode": "Coach",
+   "km": 25,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "14:00–14:45",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 4,
+   "from_name": "Heathrow Terminal 3",
+   "to_name": "Indian vegetarian restaurant, Wembley",
+   "mode": "Coach",
+   "km": 25,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "20:00–20:45",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 4,
+   "to": 3,
+   "from_name": "Indian vegetarian restaurant, Wembley",
+   "to_name": "Hotel, Wembley area",
+   "mode": "Coach",
+   "km": 1,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "21:45–22:00",
+   "estimate": false
+  }
+ ],
+ "coach_km": 51,
+ "walk_km": 0
+}

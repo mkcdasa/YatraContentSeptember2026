@@ -1,0 +1,104 @@
+{
+ "day": 15,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_FLR",
+   "name": "Hotel, Florence"
+  },
+  {
+   "n": 2,
+   "key": "FLORENCE",
+   "name": "Florence"
+  },
+  {
+   "n": 3,
+   "key": "MICHELANGELO",
+   "name": "Piazzale Michelangelo viewpoint"
+  },
+  {
+   "n": 4,
+   "key": "VILLAVRINDAVAN",
+   "name": "ISKCON Villa Vrindavan, Florence"
+  },
+  {
+   "n": 5,
+   "key": "PISA",
+   "name": "Square of Miracles"
+  },
+  {
+   "n": 6,
+   "key": "H_MXP",
+   "name": "Hotel near Malpensa airport"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Florence",
+   "to_name": "Florence",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "09:00–09:15",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Florence",
+   "to_name": "Piazzale Michelangelo viewpoint",
+   "mode": "Coach",
+   "km": 4,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "11:00–11:20",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Piazzale Michelangelo viewpoint",
+   "to_name": "ISKCON Villa Vrindavan, Florence",
+   "mode": "Coach",
+   "km": 20,
+   "minutes": 35,
+   "duration": "35 min",
+   "time": "11:45–12:20",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "ISKCON Villa Vrindavan, Florence",
+   "to_name": "Square of Miracles",
+   "mode": "Coach",
+   "km": 85,
+   "minutes": 75,
+   "duration": "1 h 15 min",
+   "time": "14:00–15:15",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Square of Miracles",
+   "to_name": "Hotel near Malpensa airport",
+   "mode": "Coach",
+   "km": 300,
+   "minutes": 240,
+   "duration": "4 h 00 min",
+   "time": "16:30–20:30",
+   "estimate": false
+  }
+ ],
+ "coach_km": 412,
+ "walk_km": 0
+}

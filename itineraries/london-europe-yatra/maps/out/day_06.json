@@ -1,0 +1,104 @@
+{
+ "day": 6,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_PAR",
+   "name": "Hotel, Gare du Nord / La Chapelle area"
+  },
+  {
+   "n": 2,
+   "key": "LOUVRE",
+   "name": "Louvre Museum"
+  },
+  {
+   "n": 3,
+   "key": "KRISHNABHAVAN_PAR",
+   "name": "Krishna Bhavan, Rue Cail"
+  },
+  {
+   "n": 4,
+   "key": "ATOMIUM",
+   "name": "Atomium"
+  },
+  {
+   "n": 5,
+   "key": "GRANDPLACE",
+   "name": "Grand Place & Manneken Pis"
+  },
+  {
+   "n": 6,
+   "key": "H_BRU",
+   "name": "Hotel, Brussels centre"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Gare du Nord / La Chapelle area",
+   "to_name": "Louvre Museum",
+   "mode": "Coach",
+   "km": 4,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "09:00–09:25",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Louvre Museum",
+   "to_name": "Krishna Bhavan, Rue Cail",
+   "mode": "Coach",
+   "km": 4,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "12:15–12:35",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Krishna Bhavan, Rue Cail",
+   "to_name": "Atomium",
+   "mode": "Coach",
+   "km": 315,
+   "minutes": 240,
+   "duration": "4 h 00 min",
+   "time": "13:45–17:45",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Atomium",
+   "to_name": "Grand Place & Manneken Pis",
+   "mode": "Coach",
+   "km": 8,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "18:15–18:45",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Grand Place & Manneken Pis",
+   "to_name": "Hotel, Brussels centre",
+   "mode": "Coach",
+   "km": 2,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "19:45–20:00",
+   "estimate": false
+  }
+ ],
+ "coach_km": 333,
+ "walk_km": 0
+}

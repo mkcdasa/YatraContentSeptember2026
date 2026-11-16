@@ -1,0 +1,86 @@
+{
+ "day": 9,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_CGN",
+   "name": "Hotel, Cologne centre"
+  },
+  {
+   "n": 2,
+   "key": "DOM",
+   "name": "Cologne Cathedral"
+  },
+  {
+   "n": 3,
+   "key": "ISKCON_CGN",
+   "name": "ISKCON Cologne temple"
+  },
+  {
+   "n": 4,
+   "key": "GOLOKA",
+   "name": "ISKCON Goloka Dham"
+  },
+  {
+   "n": 5,
+   "key": "H_TIT",
+   "name": "Hotel, Titisee-Neustadt"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Cologne centre",
+   "to_name": "Cologne Cathedral",
+   "mode": "Coach",
+   "km": 2,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "09:00–09:10",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Cologne Cathedral",
+   "to_name": "ISKCON Cologne temple",
+   "mode": "Coach",
+   "km": 8,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "09:50–10:10",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "ISKCON Cologne temple",
+   "to_name": "ISKCON Goloka Dham",
+   "mode": "Coach",
+   "km": 190,
+   "minutes": 150,
+   "duration": "2 h 30 min",
+   "time": "11:00–13:30",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "ISKCON Goloka Dham",
+   "to_name": "Hotel, Titisee-Neustadt",
+   "mode": "Coach",
+   "km": 330,
+   "minutes": 270,
+   "duration": "4 h 30 min",
+   "time": "15:30–20:00",
+   "estimate": false
+  }
+ ],
+ "coach_km": 530,
+ "walk_km": 0
+}

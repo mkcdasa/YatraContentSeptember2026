@@ -1,0 +1,171 @@
+{
+ "day": 14,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_MES",
+   "name": "Hotel, Venice-Mestre"
+  },
+  {
+   "n": 2,
+   "key": "VE_MESTRE",
+   "name": "Venezia Mestre railway station"
+  },
+  {
+   "n": 3,
+   "key": "ROMA_TERMINI",
+   "name": "Roma Termini station"
+  },
+  {
+   "n": 4,
+   "key": "VATICAN",
+   "name": "Vatican Museums, Sistine Chapel & St Peter's Basilica"
+  },
+  {
+   "n": 5,
+   "key": "VAT_LUNCH",
+   "name": "Indian restaurant near the Vatican"
+  },
+  {
+   "n": 6,
+   "key": "COLOSSEUM",
+   "name": "Colosseum"
+  },
+  {
+   "n": 7,
+   "key": "TREVI",
+   "name": "Trevi Fountain"
+  },
+  {
+   "n": 8,
+   "key": "FI_SMN",
+   "name": "Firenze Santa Maria Novella station"
+  },
+  {
+   "n": 9,
+   "key": "H_FLR",
+   "name": "Hotel, Florence"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Venice-Mestre",
+   "to_name": "Venezia Mestre railway station",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "06:00–06:15",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Venezia Mestre railway station",
+   "to_name": "Roma Termini station",
+   "mode": "Train",
+   "km": 530,
+   "minutes": 230,
+   "duration": "3 h 50 min",
+   "time": "06:30–10:20",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Roma Termini station",
+   "to_name": "Vatican Museums, Sistine Chapel & St Peter's Basilica",
+   "mode": "Local coach",
+   "km": 6,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "10:20–10:50",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Vatican Museums, Sistine Chapel & St Peter's Basilica",
+   "to_name": "Indian restaurant near the Vatican",
+   "mode": "Walk",
+   "km": 0.5,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Indian restaurant near the Vatican",
+   "to_name": "Colosseum",
+   "mode": "Local coach",
+   "km": 5,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "15:30–16:00",
+   "estimate": false
+  },
+  {
+   "n": 6,
+   "frm": 6,
+   "to": 7,
+   "from_name": "Colosseum",
+   "to_name": "Trevi Fountain",
+   "mode": "Local coach",
+   "km": 2,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "17:30–17:50",
+   "estimate": false
+  },
+  {
+   "n": 7,
+   "frm": 7,
+   "to": 3,
+   "from_name": "Trevi Fountain",
+   "to_name": "Roma Termini station",
+   "mode": "Local coach",
+   "km": 3,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "19:20–19:45",
+   "estimate": false
+  },
+  {
+   "n": 8,
+   "frm": 3,
+   "to": 8,
+   "from_name": "Roma Termini station",
+   "to_name": "Firenze Santa Maria Novella station",
+   "mode": "Train",
+   "km": 275,
+   "minutes": 95,
+   "duration": "1 h 35 min",
+   "time": "20:10–21:45",
+   "estimate": false
+  },
+  {
+   "n": 9,
+   "frm": 8,
+   "to": 9,
+   "from_name": "Firenze Santa Maria Novella station",
+   "to_name": "Hotel, Florence",
+   "mode": "Coach",
+   "km": 2,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "21:50–22:05",
+   "estimate": false
+  }
+ ],
+ "coach_km": 21,
+ "walk_km": 0.5
+}

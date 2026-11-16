@@ -1,0 +1,148 @@
+{
+ "day": 5,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_PAR",
+   "name": "Hotel, Gare du Nord / La Chapelle area"
+  },
+  {
+   "n": 2,
+   "key": "ARC",
+   "name": "Arc de Triomphe & Champs-Élysées"
+  },
+  {
+   "n": 3,
+   "key": "EIFFEL",
+   "name": "Eiffel Tower"
+  },
+  {
+   "n": 4,
+   "key": "SARAVANAA_PAR",
+   "name": "Saravanaa Bhavan Paris"
+  },
+  {
+   "n": 5,
+   "key": "NOTREDAME",
+   "name": "Notre-Dame Cathedral & Île de la Cité"
+  },
+  {
+   "n": 6,
+   "key": "ISKCON_PAR",
+   "name": "ISKCON Paris temple"
+  },
+  {
+   "n": 7,
+   "key": "SEINE",
+   "name": "Seine River Cruise"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Gare du Nord / La Chapelle area",
+   "to_name": "Arc de Triomphe & Champs-Élysées",
+   "mode": "Coach",
+   "km": 5,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "09:00–09:25",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Arc de Triomphe & Champs-Élysées",
+   "to_name": "Eiffel Tower",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "10:15–10:35",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Eiffel Tower",
+   "to_name": "Saravanaa Bhavan Paris",
+   "mode": "Coach",
+   "km": 8,
+   "minutes": 35,
+   "duration": "35 min",
+   "time": "13:00–13:35",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Saravanaa Bhavan Paris",
+   "to_name": "Notre-Dame Cathedral & Île de la Cité",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "14:35–14:55",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Notre-Dame Cathedral & Île de la Cité",
+   "to_name": "ISKCON Paris temple",
+   "mode": "Coach",
+   "km": 20,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "15:45–16:30",
+   "estimate": false
+  },
+  {
+   "n": 6,
+   "frm": 6,
+   "to": 1,
+   "from_name": "ISKCON Paris temple",
+   "to_name": "Hotel, Gare du Nord / La Chapelle area",
+   "mode": "Coach",
+   "km": 18,
+   "minutes": 40,
+   "duration": "40 min",
+   "time": "18:30–19:10",
+   "estimate": false
+  },
+  {
+   "n": 7,
+   "frm": 1,
+   "to": 7,
+   "from_name": "Hotel, Gare du Nord / La Chapelle area",
+   "to_name": "Seine River Cruise",
+   "mode": "Coach",
+   "km": 7,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "20:25–20:55",
+   "estimate": false
+  },
+  {
+   "n": 8,
+   "frm": 7,
+   "to": 1,
+   "from_name": "Seine River Cruise",
+   "to_name": "Hotel, Gare du Nord / La Chapelle area",
+   "mode": "Coach",
+   "km": 7,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "22:05–22:35",
+   "estimate": false
+  }
+ ],
+ "coach_km": 71,
+ "walk_km": 0
+}

@@ -1,0 +1,32 @@
+{
+ "day": 16,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_MXP",
+   "name": "Hotel near Malpensa airport"
+  },
+  {
+   "n": 2,
+   "key": "MXP",
+   "name": "Milan Malpensa Airport"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel near Malpensa airport",
+   "to_name": "Milan Malpensa Airport",
+   "mode": "Coach",
+   "km": 10,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "07:50–08:10",
+   "estimate": false
+  }
+ ],
+ "coach_km": 10,
+ "walk_km": 0
+}

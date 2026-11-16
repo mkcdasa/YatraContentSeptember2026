@@ -1,0 +1,135 @@
+{
+ "day": 13,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_MIL",
+   "name": "Hotel, Milan"
+  },
+  {
+   "n": 2,
+   "key": "DUOMO_MIL",
+   "name": "Milan Duomo & Galleria Vittorio Emanuele II"
+  },
+  {
+   "n": 3,
+   "key": "PRABHUPADADESH",
+   "name": "ISKCON Prabhupada Desh"
+  },
+  {
+   "n": 4,
+   "key": "PADOVA",
+   "name": "Basilica of St Anthony, Padova"
+  },
+  {
+   "n": 5,
+   "key": "TRONCHETTO",
+   "name": "Venice Tronchetto coach terminal"
+  },
+  {
+   "n": 6,
+   "key": "SANMARCO",
+   "name": "St Mark's Square, Doge's Palace & gondola ride"
+  },
+  {
+   "n": 7,
+   "key": "H_MES",
+   "name": "Hotel, Venice-Mestre"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Milan",
+   "to_name": "Milan Duomo & Galleria Vittorio Emanuele II",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "09:00–09:20",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Milan Duomo & Galleria Vittorio Emanuele II",
+   "to_name": "ISKCON Prabhupada Desh",
+   "mode": "Coach",
+   "km": 210,
+   "minutes": 165,
+   "duration": "2 h 45 min",
+   "time": "10:15–13:00",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "ISKCON Prabhupada Desh",
+   "to_name": "Basilica of St Anthony, Padova",
+   "mode": "Coach",
+   "km": 35,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "14:45–15:30",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Basilica of St Anthony, Padova",
+   "to_name": "Venice Tronchetto coach terminal",
+   "mode": "Coach",
+   "km": 40,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "16:10–16:55",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Venice Tronchetto coach terminal",
+   "to_name": "St Mark's Square, Doge's Palace & gondola ride",
+   "mode": "Boat",
+   "km": 3.3,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "vaporetto",
+   "estimate": true
+  },
+  {
+   "n": 6,
+   "frm": 6,
+   "to": 5,
+   "from_name": "St Mark's Square, Doge's Palace & gondola ride",
+   "to_name": "Venice Tronchetto coach terminal",
+   "mode": "Boat",
+   "km": 3.3,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "vaporetto",
+   "estimate": true
+  },
+  {
+   "n": 7,
+   "frm": 5,
+   "to": 7,
+   "from_name": "Venice Tronchetto coach terminal",
+   "to_name": "Hotel, Venice-Mestre",
+   "mode": "Coach",
+   "km": 10,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "20:05–20:30",
+   "estimate": false
+  }
+ ],
+ "coach_km": 298,
+ "walk_km": 0
+}

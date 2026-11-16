@@ -1,0 +1,81 @@
+{
+ "day": 7,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_BRU",
+   "name": "Hotel, Brussels centre"
+  },
+  {
+   "n": 2,
+   "key": "RADHADESH",
+   "name": "ISKCON Radhadesh"
+  },
+  {
+   "n": 3,
+   "key": "H_AMS",
+   "name": "Hotel, Amsterdam"
+  },
+  {
+   "n": 4,
+   "key": "CANAL",
+   "name": "Amsterdam canal cruise"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Brussels centre",
+   "to_name": "ISKCON Radhadesh",
+   "mode": "Coach",
+   "km": 125,
+   "minutes": 105,
+   "duration": "1 h 45 min",
+   "time": "09:00–10:45",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "ISKCON Radhadesh",
+   "to_name": "Hotel, Amsterdam",
+   "mode": "Coach",
+   "km": 300,
+   "minutes": 240,
+   "duration": "4 h 00 min",
+   "time": "14:30–18:30",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Hotel, Amsterdam",
+   "to_name": "Amsterdam canal cruise",
+   "mode": "Coach",
+   "km": 5,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "20:15–20:35",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 3,
+   "from_name": "Amsterdam canal cruise",
+   "to_name": "Hotel, Amsterdam",
+   "mode": "Coach",
+   "km": 5,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "22:00–22:20",
+   "estimate": false
+  }
+ ],
+ "coach_km": 435,
+ "walk_km": 0
+}

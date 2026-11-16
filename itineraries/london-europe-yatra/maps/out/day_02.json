@@ -1,0 +1,158 @@
+{
+ "day": 2,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_LON",
+   "name": "Hotel, Wembley area"
+  },
+  {
+   "n": 2,
+   "key": "AKSHAYA",
+   "name": "Akshaya Patra UK central kitchen, Watford"
+  },
+  {
+   "n": 3,
+   "key": "MANOR",
+   "name": "Bhaktivedanta Manor"
+  },
+  {
+   "n": 4,
+   "key": "TUSSAUDS",
+   "name": "Madame Tussauds London"
+  },
+  {
+   "n": 5,
+   "key": "SOHO_DROP",
+   "name": "Coach set-down, Soho Square / Charing Cross Road"
+  },
+  {
+   "n": 6,
+   "key": "SOHO",
+   "name": "Radha-Krishna Temple"
+  },
+  {
+   "n": 7,
+   "key": "GOVINDAS_SOHO",
+   "name": "Govinda's Pure Vegetarian Restaurant, Soho"
+  },
+  {
+   "n": 8,
+   "key": "COVENT",
+   "name": "Covent Garden Piazza & Royal Opera House"
+  },
+  {
+   "n": 9,
+   "key": "STRAND_COACH",
+   "name": "Coach pick-up, Aldwych / Strand"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Wembley area",
+   "to_name": "Akshaya Patra UK central kitchen, Watford",
+   "mode": "Coach",
+   "km": 17,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "09:00–09:30",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Akshaya Patra UK central kitchen, Watford",
+   "to_name": "Bhaktivedanta Manor",
+   "mode": "Coach",
+   "km": 7,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "10:30–10:50",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Bhaktivedanta Manor",
+   "to_name": "Madame Tussauds London",
+   "mode": "Coach",
+   "km": 27,
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "13:45–14:45",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Madame Tussauds London",
+   "to_name": "Coach set-down, Soho Square / Charing Cross Road",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 25,
+   "duration": "25 min",
+   "time": "16:45–17:10",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Coach set-down, Soho Square / Charing Cross Road",
+   "to_name": "Radha-Krishna Temple",
+   "mode": "Walk",
+   "km": 0.2,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "17:10–17:15",
+   "estimate": false
+  },
+  {
+   "n": 6,
+   "frm": 7,
+   "to": 8,
+   "from_name": "Govinda's Pure Vegetarian Restaurant, Soho",
+   "to_name": "Covent Garden Piazza & Royal Opera House",
+   "mode": "Walk",
+   "km": 1.0,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "19:30–19:50",
+   "estimate": false
+  },
+  {
+   "n": 7,
+   "frm": 8,
+   "to": 9,
+   "from_name": "Covent Garden Piazza & Royal Opera House",
+   "to_name": "Coach pick-up, Aldwych / Strand",
+   "mode": "Walk",
+   "km": 0.4,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "20:20–20:30",
+   "estimate": false
+  },
+  {
+   "n": 8,
+   "frm": 9,
+   "to": 1,
+   "from_name": "Coach pick-up, Aldwych / Strand",
+   "to_name": "Hotel, Wembley area",
+   "mode": "Coach",
+   "km": 16,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "20:30–21:15",
+   "estimate": false
+  }
+ ],
+ "coach_km": 70,
+ "walk_km": 1.6
+}

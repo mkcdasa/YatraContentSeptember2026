@@ -1,0 +1,256 @@
+{
+ "day": 3,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_LON",
+   "name": "Hotel, Wembley area"
+  },
+  {
+   "n": 2,
+   "key": "BP_COACH",
+   "name": "Coach set-down, Buckingham Palace Road"
+  },
+  {
+   "n": 3,
+   "key": "BUCKINGHAM",
+   "name": "Buckingham Palace"
+  },
+  {
+   "n": 4,
+   "key": "KINGS_GALLERY",
+   "name": "The King's Gallery, Buckingham Palace"
+  },
+  {
+   "n": 5,
+   "key": "TOWERHILL_COACH",
+   "name": "Tower Hill coach park"
+  },
+  {
+   "n": 6,
+   "key": "TOWER_LUNCH",
+   "name": "Indian vegetarian restaurant near Tower Hill"
+  },
+  {
+   "n": 7,
+   "key": "TOWER",
+   "name": "Tower of London"
+  },
+  {
+   "n": 8,
+   "key": "TOWER_BRIDGE",
+   "name": "Tower Bridge"
+  },
+  {
+   "n": 9,
+   "key": "TOWER_PIER",
+   "name": "Tower Millennium Pier"
+  },
+  {
+   "n": 10,
+   "key": "EYE_PIER",
+   "name": "London Eye Pier"
+  },
+  {
+   "n": 11,
+   "key": "EYE",
+   "name": "London Eye"
+  },
+  {
+   "n": 12,
+   "key": "WESTMINSTER",
+   "name": "Westminster"
+  },
+  {
+   "n": 13,
+   "key": "WEST_COACH",
+   "name": "Coach pick-up, Victoria Embankment"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Wembley area",
+   "to_name": "Coach set-down, Buckingham Palace Road",
+   "mode": "Coach",
+   "km": 16,
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "09:00–10:00",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Coach set-down, Buckingham Palace Road",
+   "to_name": "Buckingham Palace",
+   "mode": "Walk",
+   "km": 0.5,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "10:00–10:15",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Buckingham Palace",
+   "to_name": "The King's Gallery, Buckingham Palace",
+   "mode": "Walk",
+   "km": 0.3,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 2,
+   "from_name": "The King's Gallery, Buckingham Palace",
+   "to_name": "Coach set-down, Buckingham Palace Road",
+   "mode": "Walk",
+   "km": 0.4,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "12:45–12:55",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 2,
+   "to": 5,
+   "from_name": "Coach set-down, Buckingham Palace Road",
+   "to_name": "Tower Hill coach park",
+   "mode": "Coach",
+   "km": 7,
+   "minutes": 35,
+   "duration": "35 min",
+   "time": "12:55–13:30",
+   "estimate": false
+  },
+  {
+   "n": 6,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Tower Hill coach park",
+   "to_name": "Indian vegetarian restaurant near Tower Hill",
+   "mode": "Walk",
+   "km": 0.2,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 7,
+   "frm": 6,
+   "to": 7,
+   "from_name": "Indian vegetarian restaurant near Tower Hill",
+   "to_name": "Tower of London",
+   "mode": "Walk",
+   "km": 0.3,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "14:15–14:25",
+   "estimate": false
+  },
+  {
+   "n": 8,
+   "frm": 7,
+   "to": 8,
+   "from_name": "Tower of London",
+   "to_name": "Tower Bridge",
+   "mode": "Walk",
+   "km": 1.2,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "16:45–17:15",
+   "estimate": false
+  },
+  {
+   "n": 9,
+   "frm": 8,
+   "to": 9,
+   "from_name": "Tower Bridge",
+   "to_name": "Tower Millennium Pier",
+   "mode": "Walk",
+   "km": 0.4,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "17:15–17:25",
+   "estimate": false
+  },
+  {
+   "n": 10,
+   "frm": 9,
+   "to": 10,
+   "from_name": "Tower Millennium Pier",
+   "to_name": "London Eye Pier",
+   "mode": "Boat",
+   "km": 5,
+   "minutes": 40,
+   "duration": "40 min",
+   "time": "17:30–18:10",
+   "estimate": false
+  },
+  {
+   "n": 11,
+   "frm": 10,
+   "to": 11,
+   "from_name": "London Eye Pier",
+   "to_name": "London Eye",
+   "mode": "Walk",
+   "km": 0.1,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 12,
+   "frm": 11,
+   "to": 12,
+   "from_name": "London Eye",
+   "to_name": "Westminster",
+   "mode": "Walk",
+   "km": 0.6,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "19:00–19:15",
+   "estimate": false
+  },
+  {
+   "n": 13,
+   "frm": 12,
+   "to": 13,
+   "from_name": "Westminster",
+   "to_name": "Coach pick-up, Victoria Embankment",
+   "mode": "Walk",
+   "km": 0.3,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "19:45–19:55",
+   "estimate": false
+  },
+  {
+   "n": 14,
+   "frm": 13,
+   "to": 1,
+   "from_name": "Coach pick-up, Victoria Embankment",
+   "to_name": "Hotel, Wembley area",
+   "mode": "Coach",
+   "km": 16,
+   "minutes": 50,
+   "duration": "50 min",
+   "time": "19:55–20:45",
+   "estimate": false
+  }
+ ],
+ "coach_km": 39,
+ "walk_km": 4.3
+}

@@ -1,0 +1,135 @@
+{
+ "day": 10,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_TIT",
+   "name": "Hotel, Titisee-Neustadt"
+  },
+  {
+   "n": 2,
+   "key": "TITISEE",
+   "name": "Lake Titisee & Black Forest cuckoo-clock shops"
+  },
+  {
+   "n": 3,
+   "key": "RHINEFALLS",
+   "name": "Rhine Falls"
+  },
+  {
+   "n": 4,
+   "key": "RF_LUNCH",
+   "name": "Indian restaurant, Schaffhausen"
+  },
+  {
+   "n": 5,
+   "key": "ZURICH",
+   "name": "Zurich old town"
+  },
+  {
+   "n": 6,
+   "key": "ISKCON_ZRH",
+   "name": "ISKCON Zurich"
+  },
+  {
+   "n": 7,
+   "key": "H_ZRH",
+   "name": "Hotel, Zurich"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Titisee-Neustadt",
+   "to_name": "Lake Titisee & Black Forest cuckoo-clock shops",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "short hop",
+   "estimate": true
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Lake Titisee & Black Forest cuckoo-clock shops",
+   "to_name": "Rhine Falls",
+   "mode": "Coach",
+   "km": 70,
+   "minutes": 75,
+   "duration": "1 h 15 min",
+   "time": "10:30–11:45",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Rhine Falls",
+   "to_name": "Indian restaurant, Schaffhausen",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "short hop",
+   "estimate": true
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 3,
+   "from_name": "Indian restaurant, Schaffhausen",
+   "to_name": "Rhine Falls",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "short hop",
+   "estimate": true
+  },
+  {
+   "n": 5,
+   "frm": 3,
+   "to": 5,
+   "from_name": "Rhine Falls",
+   "to_name": "Zurich old town",
+   "mode": "Coach",
+   "km": 50,
+   "minutes": 55,
+   "duration": "55 min",
+   "time": "14:00–14:55",
+   "estimate": false
+  },
+  {
+   "n": 6,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Zurich old town",
+   "to_name": "ISKCON Zurich",
+   "mode": "Coach",
+   "km": 3,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "16:20–16:40",
+   "estimate": false
+  },
+  {
+   "n": 7,
+   "frm": 6,
+   "to": 7,
+   "from_name": "ISKCON Zurich",
+   "to_name": "Hotel, Zurich",
+   "mode": "Coach",
+   "km": 4,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "18:30–18:45",
+   "estimate": false
+  }
+ ],
+ "coach_km": 136,
+ "walk_km": 0
+}

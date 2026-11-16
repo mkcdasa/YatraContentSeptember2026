@@ -1,0 +1,130 @@
+{
+ "day": 12,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_INT",
+   "name": "Hotel, Interlaken"
+  },
+  {
+   "n": 2,
+   "key": "HOHEMATTE",
+   "name": "Höhematte park"
+  },
+  {
+   "n": 3,
+   "key": "COMO",
+   "name": "Lake Como"
+  },
+  {
+   "n": 4,
+   "key": "COMO_LUNCH",
+   "name": "Indian restaurant, Como"
+  },
+  {
+   "n": 5,
+   "key": "VILLAGGIO",
+   "name": "Villaggio Hare Krishna"
+  },
+  {
+   "n": 6,
+   "key": "H_MIL",
+   "name": "Hotel, Milan"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Interlaken",
+   "to_name": "Höhematte park",
+   "mode": "Walk",
+   "km": 0.1,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 1,
+   "from_name": "Höhematte park",
+   "to_name": "Hotel, Interlaken",
+   "mode": "Walk",
+   "km": 0.1,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 3,
+   "frm": 1,
+   "to": 3,
+   "from_name": "Hotel, Interlaken",
+   "to_name": "Lake Como",
+   "mode": "Coach",
+   "km": 290,
+   "minutes": 270,
+   "duration": "4 h 30 min",
+   "time": "09:20–13:50",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Lake Como",
+   "to_name": "Indian restaurant, Como",
+   "mode": "Walk",
+   "km": 0.6,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 5,
+   "frm": 4,
+   "to": 3,
+   "from_name": "Indian restaurant, Como",
+   "to_name": "Lake Como",
+   "mode": "Walk",
+   "km": 0.6,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "on foot",
+   "estimate": true
+  },
+  {
+   "n": 6,
+   "frm": 3,
+   "to": 5,
+   "from_name": "Lake Como",
+   "to_name": "Villaggio Hare Krishna",
+   "mode": "Coach",
+   "km": 45,
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "16:15–17:15",
+   "estimate": false
+  },
+  {
+   "n": 7,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Villaggio Hare Krishna",
+   "to_name": "Hotel, Milan",
+   "mode": "Coach",
+   "km": 45,
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "19:00–20:00",
+   "estimate": false
+  }
+ ],
+ "coach_km": 380,
+ "walk_km": 1.4
+}

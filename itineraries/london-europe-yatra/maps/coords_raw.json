@@ -1,0 +1,524 @@
+{
+ "LHR_T4": {
+  "lat": 51.4588093,
+  "lon": -0.4454717,
+  "q": "Heathrow Terminal 4",
+  "hit": "Heathrow Terminal 4, London, United Kingdom"
+ },
+ "LHR_T3": {
+  "lat": 51.4712749,
+  "lon": -0.4555097,
+  "q": "Heathrow Terminal 3",
+  "hit": "Heathrow Terminal 3, London, United Kingdom"
+ },
+ "H_LON": {
+  "lat": 51.5531547,
+  "lon": -0.2957562,
+  "q": "Wembley, London",
+  "hit": "Wembley, London, United Kingdom"
+ },
+ "W_REST": {
+  "lat": null,
+  "lon": null,
+  "q": "Indian vegetarian restaurant Wembley London",
+  "hit": ""
+ },
+ "AKSHAYA": {
+  "lat": null,
+  "lon": null,
+  "q": "Akshaya Patra, Penfold Trading Estate, Imperial Way, Watford WD24 4YY",
+  "hit": ""
+ },
+ "MANOR": {
+  "lat": null,
+  "lon": null,
+  "q": "Bhaktivedanta Manor, Hilfield Lane, Watford WD25 8HE",
+  "hit": ""
+ },
+ "TUSSAUDS": {
+  "lat": 51.5229231,
+  "lon": -0.1548516,
+  "q": "Madame Tussauds London, Marylebone Road",
+  "hit": "Madame Tussauds, London, United Kingdom"
+ },
+ "SOHO_DROP": {
+  "lat": 51.5152892,
+  "lon": -0.1322103,
+  "q": "Soho Square, London",
+  "hit": "Soho Square Gardens, London, United Kingdom"
+ },
+ "SOHO": {
+  "lat": 51.5158307,
+  "lon": -0.1326966,
+  "q": "Radha Krishna Temple ISKCON, 10 Soho Street, London",
+  "hit": "Radha Krishna Temple, London, United Kingdom"
+ },
+ "GOVINDAS_SOHO": {
+  "lat": 51.5157962,
+  "lon": -0.1326509,
+  "q": "Govinda's Restaurant, 9-10 Soho Street, London",
+  "hit": "Govinda's, London, United Kingdom"
+ },
+ "COVENT": {
+  "lat": 51.5128732,
+  "lon": -0.1225639,
+  "q": "Royal Opera House, Bow Street, London",
+  "hit": "Royal Opera House, London, United Kingdom"
+ },
+ "STRAND_COACH": {
+  "lat": 51.5132178,
+  "lon": -0.1156233,
+  "q": "Aldwych, London",
+  "hit": "Aldwych, London, United Kingdom"
+ },
+ "BP_COACH": {
+  "lat": 51.4989812,
+  "lon": -0.1433808,
+  "q": "Royal Mews, Buckingham Palace Road, London",
+  "hit": "Buckingham Palace / Royal Mews, London, United Kingdom"
+ },
+ "BUCKINGHAM": {
+  "lat": 51.4978226,
+  "lon": -0.1442778,
+  "q": "Victoria Memorial, Buckingham Palace, London",
+  "hit": "War Memorials Trust, London, United Kingdom"
+ },
+ "KINGS_GALLERY": {
+  "lat": 51.4998279,
+  "lon": -0.142551,
+  "q": "The King's Gallery, Buckingham Palace, London",
+  "hit": "The King's Gallery, London, United Kingdom"
+ },
+ "TOWERHILL_COACH": {
+  "lat": 51.5088339,
+  "lon": -0.0801071,
+  "q": "Tower Hill Coach Park, Lower Thames Street, London EC3R 6DT",
+  "hit": "Tower Hill Car & Coach Park, London, United Kingdom"
+ },
+ "TOWER_LUNCH": {
+  "lat": null,
+  "lon": null,
+  "q": "Indian vegetarian restaurant near Tower Hill London",
+  "hit": ""
+ },
+ "TOWER": {
+  "lat": 51.508217,
+  "lon": -0.0761879,
+  "q": "Tower of London",
+  "hit": "Tower of London, London, United Kingdom"
+ },
+ "TOWER_BRIDGE": {
+  "lat": 51.5055158,
+  "lon": -0.0753665,
+  "q": "Tower Bridge, London",
+  "hit": "Tower Bridge, London, United Kingdom"
+ },
+ "TOWER_PIER": {
+  "lat": 51.507516,
+  "lon": -0.0796854,
+  "q": "Tower Millennium Pier, London",
+  "hit": "Tower Millennium Pier, London, United Kingdom"
+ },
+ "EYE_PIER": {
+  "lat": 51.5034484,
+  "lon": -0.1204713,
+  "q": "London Eye Pier, London",
+  "hit": "London Eye - Waterloo Pier, London, United Kingdom"
+ },
+ "EYE": {
+  "lat": 51.5272825,
+  "lon": -0.0902112,
+  "q": "London Eye, London",
+  "hit": "Moorfields Eye Hospital (City Road campus), London, United Kingdom"
+ },
+ "WESTMINSTER": {
+  "lat": 51.5006081,
+  "lon": -0.1275234,
+  "q": "Parliament Square, London",
+  "hit": "Parliament Square, London, United Kingdom"
+ },
+ "WEST_COACH": {
+  "lat": 51.5022544,
+  "lon": -0.1231736,
+  "q": "Westminster Pier, Victoria Embankment, London",
+  "hit": "Westminster Pier, London, United Kingdom"
+ },
+ "DOVER": {
+  "lat": 51.1262507,
+  "lon": 1.3305885,
+  "q": "Port of Dover Eastern Docks",
+  "hit": "Port of Dover - Eastern Docks, Dover, United Kingdom"
+ },
+ "CALAIS": {
+  "lat": 48.5264033,
+  "lon": 7.7810635,
+  "q": "Port of Calais",
+  "hit": "Rue de Calais, Strasbourg, France"
+ },
+ "H_PAR": {
+  "lat": 48.8804003,
+  "lon": 2.3549733,
+  "q": "Gare du Nord, Paris",
+  "hit": "Paris Gare du Nord, Paris, France"
+ },
+ "ARC": {
+  "lat": 48.8737791,
+  "lon": 2.2950372,
+  "q": "Arc de Triomphe, Paris",
+  "hit": "Arc de Triomphe, Paris, France"
+ },
+ "EIFFEL": {
+  "lat": 48.8582599,
+  "lon": 2.2945006,
+  "q": "Eiffel Tower, Paris",
+  "hit": "Tour Eiffel, Paris, France"
+ },
+ "SARAVANAA_PAR": {
+  "lat": 48.879909,
+  "lon": 2.3575889,
+  "q": "Saravanaa Bhavan, 170 Rue du Faubourg Saint-Denis, Paris",
+  "hit": "Arya Bhavan, Paris, France"
+ },
+ "NOTREDAME": {
+  "lat": 48.8529371,
+  "lon": 2.3500501,
+  "q": "Notre-Dame de Paris",
+  "hit": "Cathédrale Notre-Dame de Paris, Paris, France"
+ },
+ "ISKCON_PAR": {
+  "lat": null,
+  "lon": null,
+  "q": "ISKCON Paris, 230 Avenue de la Division Leclerc, Sevran",
+  "hit": ""
+ },
+ "SEINE": {
+  "lat": 48.8604547,
+  "lon": 2.2936273,
+  "q": "Bateaux Parisiens, Port de la Bourdonnais, Paris",
+  "hit": "Bateaux parisiens, Paris, France"
+ },
+ "LOUVRE": {
+  "lat": 48.8611473,
+  "lon": 2.3380277,
+  "q": "Louvre Museum, Paris",
+  "hit": "Musée du Louvre, Paris, France"
+ },
+ "KRISHNABHAVAN_PAR": {
+  "lat": 48.8827231,
+  "lon": 2.3596219,
+  "q": "Krishna Bhavan, 24 Rue Cail, Paris",
+  "hit": "Krishna Bhavan, Paris, France"
+ },
+ "ATOMIUM": {
+  "lat": 50.8976599,
+  "lon": 4.3413109,
+  "q": "Atomium, Brussels",
+  "hit": "Design Museum Brussels, Bruxelles - Brussel, België / Belgique / Belgien"
+ },
+ "GRANDPLACE": {
+  "lat": 50.8467291,
+  "lon": 4.3524081,
+  "q": "Grand Place, Brussels",
+  "hit": "Grand-Place - Grote Markt, Bruxelles - Brussel, België / Belgique / Belgien"
+ },
+ "H_BRU": {
+  "lat": 50.8464479,
+  "lon": 4.3586463,
+  "q": "Brussels Central Station",
+  "hit": "Gare Centrale - Centraal Station, Bruxelles - Brussel, België / Belgique / Belgien"
+ },
+ "RADHADESH": {
+  "lat": 50.3476919,
+  "lon": 5.4062552,
+  "q": "Radhadesh, Petite Somme 5, 6940 Durbuy",
+  "hit": "Radhadesh, Septon, België / Belgique / Belgien"
+ },
+ "H_AMS": {
+  "lat": 52.378901,
+  "lon": 4.9005805,
+  "q": "Amsterdam Centraal",
+  "hit": "Amsterdam Centraal, Amsterdam, Nederland"
+ },
+ "CANAL": {
+  "lat": 52.3786758,
+  "lon": 4.8971651,
+  "q": "Canal cruise Amsterdam Centraal",
+  "hit": "Canal Cruise, Amsterdam, Nederland"
+ },
+ "ZAANSE": {
+  "lat": 52.4750534,
+  "lon": 4.8179761,
+  "q": "Zaanse Schans",
+  "hit": "Zaanse Schans, Zaandam, Nederland"
+ },
+ "KEUKENHOF": {
+  "lat": 52.2698728,
+  "lon": 4.5472566,
+  "q": "Keukenhof, Lisse",
+  "hit": "Keukenhof, Lisse, Nederland"
+ },
+ "H_CGN": {
+  "lat": 50.9427839,
+  "lon": 6.9590705,
+  "q": "Köln Hauptbahnhof",
+  "hit": "Köln Hauptbahnhof, Köln, Deutschland"
+ },
+ "DOM": {
+  "lat": 50.9413035,
+  "lon": 6.958138,
+  "q": "Cologne Cathedral",
+  "hit": "Kölner Dom, Köln, Deutschland"
+ },
+ "ISKCON_CGN": {
+  "lat": -33.962848,
+  "lon": 18.4718447,
+  "q": "ISKCON Hare Krishna Tempel Köln",
+  "hit": "ISKCON Hare Krishna Temple, Rondebosch, South Africa"
+ },
+ "GOLOKA": {
+  "lat": 49.661552,
+  "lon": 7.086753,
+  "q": "Goloka Dham, Abentheuer, Germany",
+  "hit": "Goloka Dhama Verein e.V., Abentheuer, Deutschland"
+ },
+ "H_TIT": {
+  "lat": 47.9173421,
+  "lon": 8.1735161,
+  "q": "Titisee-Neustadt",
+  "hit": "Titisee-Neustadt, Baden-Württemberg, Deutschland"
+ },
+ "TITISEE": {
+  "lat": 47.9019411,
+  "lon": 8.1520913,
+  "q": "Seestraße, Titisee-Neustadt",
+  "hit": "Seestraße, Titisee-Neustadt, Deutschland"
+ },
+ "RHINEFALLS": {
+  "lat": 47.6811644,
+  "lon": 8.6197347,
+  "q": "Rheinfall, Neuhausen am Rheinfall",
+  "hit": "Neuhausen am Rheinfall, Schaffhausen, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "RF_LUNCH": {
+  "lat": 47.6987392,
+  "lon": 8.6341394,
+  "q": "Indian restaurant Schaffhausen",
+  "hit": "Migros Restaurant, Schaffhausen, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "ZURICH": {
+  "lat": 47.3664982,
+  "lon": 8.5407654,
+  "q": "Bürkliplatz, Zürich",
+  "hit": "Bürkliplatz, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "ISKCON_ZRH": {
+  "lat": 47.3726095,
+  "lon": 8.5629084,
+  "q": "Krishna Tempel, Bergstrasse 54, 8032 Zürich",
+  "hit": "Hare Krishna Tempel, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "H_ZRH": {
+  "lat": 47.3781008,
+  "lon": 8.5393635,
+  "q": "Zürich Hauptbahnhof",
+  "hit": "Zürich Hauptbahnhof, Zürich, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "TITLIS": {
+  "lat": 46.8162014,
+  "lon": 8.3958613,
+  "q": "Titlis Talstation, Engelberg",
+  "hit": "Talstation Titlis-Bahn, Engelberg, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "TITLIS_LUNCH": {
+  "lat": 46.8048625,
+  "lon": 8.3971638,
+  "q": "Trübsee Titlis Engelberg",
+  "hit": "TITLIS Xpress (Engelberg-Trübsee-Stand), Engelberg, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "LION": {
+  "lat": 47.0584443,
+  "lon": 8.310868,
+  "q": "Lion Monument, Lucerne",
+  "hit": "Löwendenkmal, Luzern, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "CHAPEL": {
+  "lat": 53.4865283,
+  "lon": -2.2453047,
+  "q": "Chapel Bridge, Lucerne",
+  "hit": "Palatine Bridge, Manchester, United Kingdom"
+ },
+ "LUZ_PIER": {
+  "lat": 43.3179662,
+  "lon": -73.8414057,
+  "q": "Lake Lucerne Navigation Company, Lucerne",
+  "hit": "Lake Luzerne Office / Glens Falls National Bank and Trust Company, Lake Luzerne, United States"
+ },
+ "LUZ_STN": {
+  "lat": 47.0506351,
+  "lon": 8.3107991,
+  "q": "Luzern Bahnhof",
+  "hit": "Luzern Bahnhof, Luzern, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "INTERLAKEN": {
+  "lat": 46.6904478,
+  "lon": 7.8689965,
+  "q": "Interlaken Ost",
+  "hit": "Interlaken Ost, Interlaken, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "H_INT": {
+  "lat": 46.6857564,
+  "lon": 7.8564572,
+  "q": "Höheweg, Interlaken",
+  "hit": "Höheweg, Interlaken, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "HOHEMATTE": {
+  "lat": 46.6860146,
+  "lon": 7.8573349,
+  "q": "Höhematte, Interlaken",
+  "hit": "Höhematte, Interlaken, Schweiz/Suisse/Svizzera/Svizra"
+ },
+ "COMO": {
+  "lat": 45.812521,
+  "lon": 9.0808006,
+  "q": "Piazza Cavour, Como",
+  "hit": "Piazza Cavour, Como, Italia"
+ },
+ "COMO_LUNCH": {
+  "lat": 47.9237789,
+  "lon": 106.9016914,
+  "q": "Indian restaurant Como",
+  "hit": "Namaste Indian Restaurant-2, Улан-Батор, Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"
+ },
+ "VILLAGGIO": {
+  "lat": 45.6762567,
+  "lon": 9.5148217,
+  "q": "Villaggio Hare Krishna, Bergamo",
+  "hit": "Villaggio Hare Krishna, Chignolo d'Isola, Italia"
+ },
+ "H_MIL": {
+  "lat": 45.4858786,
+  "lon": 9.2042617,
+  "q": "Milano Centrale",
+  "hit": "Milano Centrale, Milano, Italia"
+ },
+ "DUOMO_MIL": {
+  "lat": 45.4641669,
+  "lon": 9.1916121,
+  "q": "Duomo di Milano",
+  "hit": "Duomo di Milano, Milano, Italia"
+ },
+ "PRABHUPADADESH": {
+  "lat": 45.3612911,
+  "lon": 11.5884691,
+  "q": "Prabhupada Desh, Albettone",
+  "hit": "Prabhubada Desh, Albettone, Italia"
+ },
+ "PADOVA": {
+  "lat": 45.4014584,
+  "lon": 11.8808472,
+  "q": "Basilica di Sant'Antonio, Padova",
+  "hit": "Basilica di sant'Antonio Di Padova, Padova, Italia"
+ },
+ "TRONCHETTO": {
+  "lat": 45.4408533,
+  "lon": 12.3049777,
+  "q": "Tronchetto, Venezia",
+  "hit": "Tronchetto, Venezia, Italia"
+ },
+ "SANMARCO": {
+  "lat": 45.4342571,
+  "lon": 12.3386717,
+  "q": "Piazza San Marco, Venezia",
+  "hit": "Piazza San Marco, Venezia, Italia"
+ },
+ "H_MES": {
+  "lat": 45.4943063,
+  "lon": 12.2418053,
+  "q": "Mestre, Venezia",
+  "hit": "Mestre, Venezia, Italia"
+ },
+ "VE_MESTRE": {
+  "lat": 45.4833269,
+  "lon": 12.2300621,
+  "q": "Venezia Mestre station",
+  "hit": "La Venezia Station Residence, Mestre, Italia"
+ },
+ "H_FLR": {
+  "lat": 43.7775719,
+  "lon": 11.2474177,
+  "q": "Firenze Santa Maria Novella",
+  "hit": "Firenze Santa Maria Novella, Firenze, Italia"
+ },
+ "ROMA_TERMINI": {
+  "lat": 41.9005815,
+  "lon": 12.5025272,
+  "q": "Roma Termini",
+  "hit": "Roma Termini, Roma, Italia"
+ },
+ "VATICAN": {
+  "lat": 41.904961,
+  "lon": 12.4546617,
+  "q": "Vatican Museums, Vatican City",
+  "hit": "Musei Vaticani, , Civitas Vaticana"
+ },
+ "VAT_LUNCH": {
+  "lat": 26.9110527,
+  "lon": 70.9141054,
+  "q": "Indian restaurant near Vatican Rome",
+  "hit": ", Jaisalmer, India"
+ },
+ "COLOSSEUM": {
+  "lat": 41.8909421,
+  "lon": 12.491903,
+  "q": "Colosseum, Rome",
+  "hit": "Colosseo, Roma, Italia"
+ },
+ "TREVI": {
+  "lat": 41.9009778,
+  "lon": 12.4832848,
+  "q": "Trevi Fountain, Rome",
+  "hit": "Fontana di Trevi, Roma, Italia"
+ },
+ "FI_SMN": {
+  "lat": 43.7775719,
+  "lon": 11.2474177,
+  "q": "Firenze Santa Maria Novella",
+  "hit": "Firenze Santa Maria Novella, Firenze, Italia"
+ },
+ "FLORENCE": {
+  "lat": 43.7695737,
+  "lon": 11.2558641,
+  "q": "Piazza della Signoria, Firenze",
+  "hit": "Piazza della Signoria, Firenze, Italia"
+ },
+ "MICHELANGELO": {
+  "lat": 43.7631166,
+  "lon": 11.2651225,
+  "q": "Piazzale Michelangelo, Firenze",
+  "hit": "Piazzale Michelangelo, Firenze, Italia"
+ },
+ "VILLAVRINDAVAN": {
+  "lat": 43.6862459,
+  "lon": 11.2050976,
+  "q": "Villa Vrindavan, Via Scopeti 108, San Casciano in Val di Pesa",
+  "hit": "Villa Vrindavana, San Casciano in Val di Pesa, Italia"
+ },
+ "PISA": {
+  "lat": 43.7230859,
+  "lon": 10.395321,
+  "q": "Piazza dei Miracoli, Pisa",
+  "hit": "Piazza del Duomo, Pisa, Italia"
+ },
+ "H_MXP": {
+  "lat": null,
+  "lon": null,
+  "q": "Hotels near Milano Malpensa Airport",
+  "hit": ""
+ },
+ "MXP": {
+  "lat": 45.6194296,
+  "lon": 8.7076506,
+  "q": "Milano Malpensa Terminal 1",
+  "hit": "Malpensa Terminal 1, Vizzola Ticino, Italia"
+ }
+}

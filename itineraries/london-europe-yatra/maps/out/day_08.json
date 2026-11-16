@@ -1,0 +1,86 @@
+{
+ "day": 8,
+ "stops": [
+  {
+   "n": 1,
+   "key": "H_AMS",
+   "name": "Hotel, Amsterdam"
+  },
+  {
+   "n": 2,
+   "key": "ZAANSE",
+   "name": "Zaanse Schans windmills"
+  },
+  {
+   "n": 3,
+   "key": "KEUKENHOF",
+   "name": "Keukenhof tulip gardens"
+  },
+  {
+   "n": 4,
+   "key": "H_CGN",
+   "name": "Hotel, Cologne centre"
+  },
+  {
+   "n": 5,
+   "key": "DOM",
+   "name": "Cologne Cathedral"
+  }
+ ],
+ "legs": [
+  {
+   "n": 1,
+   "frm": 1,
+   "to": 2,
+   "from_name": "Hotel, Amsterdam",
+   "to_name": "Zaanse Schans windmills",
+   "mode": "Coach",
+   "km": 20,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "09:00–09:30",
+   "estimate": false
+  },
+  {
+   "n": 2,
+   "frm": 2,
+   "to": 3,
+   "from_name": "Zaanse Schans windmills",
+   "to_name": "Keukenhof tulip gardens",
+   "mode": "Coach",
+   "km": 55,
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "11:00–12:00",
+   "estimate": false
+  },
+  {
+   "n": 3,
+   "frm": 3,
+   "to": 4,
+   "from_name": "Keukenhof tulip gardens",
+   "to_name": "Hotel, Cologne centre",
+   "mode": "Coach",
+   "km": 260,
+   "minutes": 195,
+   "duration": "3 h 15 min",
+   "time": "15:30–18:45",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Hotel, Cologne centre",
+   "to_name": "Cologne Cathedral",
+   "mode": "Walk",
+   "km": 0.2,
+   "minutes": 5,
+   "duration": "5 min",
+   "time": "on foot",
+   "estimate": true
+  }
+ ],
+ "coach_km": 335,
+ "walk_km": 0.2
+}
