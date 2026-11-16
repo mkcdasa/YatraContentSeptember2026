@@ -36,18 +36,40 @@ EXTRA = """
 .uc{border-radius:14px;background:linear-gradient(135deg,var(--n),var(--n3));color:#fff;padding:14px 16px;display:flex;flex-direction:column;justify-content:center}
 .uc b{font:800 22px Montserrat;color:var(--g2);margin-bottom:6px;line-height:1.1}
 .uc span{font:600 14px/1.55 Montserrat}
+.A .big{font-size:72px}.A .w3{top:380px}.A .wc .ph{height:116px}.A .wc b{font-size:21px;margin-top:4px}
+.A .mid{top:540px;bottom:226px}.A .cy p{font-size:12px;line-height:1.28}.A .cys{gap:7px 14px}
+.B .ug{bottom:226px}
+.fb{position:absolute;left:28px;right:28px;bottom:130px;height:86px;border-radius:14px;background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.15);display:flex;align-items:center;overflow:hidden;border:2px solid var(--o)}
+.fx{display:flex;align-items:center;gap:10px;padding:0 16px;height:100%%;border-right:1px dashed rgba(0,0,0,.2)}
+.fic{width:40px;height:40px;border-radius:50%%;background:var(--n2);display:flex;align-items:center;justify-content:center;flex:none}
+.fic svg{width:22px;height:22px}
+.fx small{display:block;font:800 12px Montserrat;letter-spacing:2px;color:var(--c)}
+.fx b{display:block;font:800 18px/1.15 Montserrat;color:var(--n)}
+.fx span{font:600 13.5px Montserrat;color:#3a3040}
+.fj{flex:1;height:100%%;background:linear-gradient(135deg,var(--n),var(--n3));color:#fff;display:flex;flex-direction:column;justify-content:center;padding:0 16px}
+.fj b{display:flex;align-items:center;gap:8px;font:800 19px/1.1 Montserrat;color:var(--g2)}
+.fj b svg{width:24px;height:24px;flex:none}
+.fj span{font:600 13px Montserrat;margin-top:5px}
 .uc em{font-style:normal;font:700 12px Montserrat;margin-top:8px;color:var(--g2)}
 """
 
-def page(pal, body):
+PRICE = "₹4,60,000"
+
+def flights():
+    pl = ic(I["plane"], "#fff")
+    return (f'<div class="fb"><div class="fx"><span class="fic">{pl}</span><div><small>ARRIVE</small><b>London Heathrow</b><span>before 6:30 PM · 17 Apr 2027</span></div></div>'
+            f'<div class="fx"><span class="fic dep">{pl}</span><div><small>DEPART</small><b>Milan Malpensa</b><span>after 11 AM · 2 May 2027</span></div></div>'
+            f'<div class="fj"><b>{ic(I["globe"], "#F6D58B")}JOIN FROM ANYWHERE IN THE WORLD</b><span>Need flights? We book at actual cost · ₹80,000</span></div></div>')
+
+def page(pal, body, cls=""):
     css = (P.CSS + EXTRA).replace("%(vars)s", PALETTES[pal].replace("%", "%%")) % K.FONTS
-    return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="po">{body}</div></body></html>'
+    return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="po {cls}">{body}</div></body></html>'
 
 def logos():
     return f'<div class="lg l"><img src="{K.LOGO_HK}"></div><div class="lg r"><img src="{K.LOGO_PK}"></div>'
 
 def footer():
-    return (f'<div class="ft"><div class="pr"><small>ALL-INCLUSIVE · PER PERSON</small><b>{E(PK["price"])}</b><span>+ 5% GST + 2% TCS · flights &amp; visas incl.</span></div>'
+    return (f'<div class="ft"><div class="pr"><small>TOUR COST · PER PERSON</small><b>{PRICE}</b><span>Incl. UK &amp; Schengen visas</span><span>+ GST &amp; TCS · flights extra</span></div>'
             f'<span class="bk">Book Now →</span><span class="ph">{ic(I["phone"], "#F6D58B", 2)}{C["phone"]}</span>'
             f'<span class="web">{C["web1"]}<br>{C["web2"]}<br>17 Apr – 2 May 2027</span></div>')
 
@@ -61,8 +83,8 @@ def countries(pal):
             f'<div class="big"><span class="n">{TOTAL}</span> ATTRACTIONS</div>'
             f'<div class="rib">IN JUST <b>16 DAYS</b></div></div>'
             f'<div class="w3">{w3}</div><div class="mid"><div class="cys">{cys}</div>'
-            f'<div class="un"><b>{len(A["unesco"])} UNESCO World Heritage Sites on this tour</b><div>{un}</div></div></div>' + footer())
-    open(os.path.join(HERE, f"p6_countries_{pal}.html"), "w").write(page(pal, body))
+            f'<div class="un"><b>{len(A["unesco"])} UNESCO World Heritage Sites on this tour</b><div>{un}</div></div></div>' + flights() + footer())
+    open(os.path.join(HERE, f"p6_countries_{pal}.html"), "w").write(page(pal, body, "A"))
 
 def unesco(pal):
     tiles = "".join(f'<div class="ut"><img src="{IMG(k)}"><i>{n}</i><div><b>{E(t)}</b><small>{E(c)}</small></div></div>'
@@ -72,8 +94,8 @@ def unesco(pal):
     body = (logos() + f'<div class="hd u"><div class="sc">London &amp; Europe Grand Tour</div>'
             f'<div class="big"><span class="n">8</span> COUNTRIES · <span class="n">{TOTAL}</span> ATTRACTIONS</div>'
             f'<div class="big"><span class="n">11</span> UNESCO WORLD HERITAGE SITES</div>'
-            f'<div class="rib">IN JUST <b>16 DAYS</b></div></div><div class="ug">{tiles}</div>' + footer())
-    open(os.path.join(HERE, f"p6_unesco_{pal}.html"), "w").write(page(pal, body))
+            f'<div class="rib">IN JUST <b>16 DAYS</b></div></div><div class="ug">{tiles}</div>' + flights() + footer())
+    open(os.path.join(HERE, f"p6_unesco_{pal}.html"), "w").write(page(pal, body, "B"))
 
 if __name__ == "__main__":
     assert len(A["unesco"]) == 11
