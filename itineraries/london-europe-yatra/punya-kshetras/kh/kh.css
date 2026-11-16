@@ -292,3 +292,12 @@ img{display:block}
 .bki.gold{color:var(--g2);font-size:9.5pt}
 .bka{font-size:9.5pt;line-height:1.55;width:150mm;margin:8mm auto 0;opacity:.95}
 .bkf{display:inline-block;margin-top:8mm;background:linear-gradient(90deg,var(--c),var(--o));border-radius:10mm;padding:2mm 6mm;font-family:Montserrat;font-weight:700;font-size:9pt}
+
+/* headline numbers on the Wonders & Attractions page */
+.hl3{text-align:center;padding-top:18mm}
+.hl3 .script{font-size:22pt;margin-bottom:0}
+.hl3 h1{font-size:25pt;line-height:1.08}
+.hl3 h1 span{color:var(--c)}
+.big16{font-size:14pt;padding:2mm 9mm;margin-top:2mm}.big16 b{color:#FFF3B0;font-size:17pt}
+.wons.w3{grid-template-columns:repeat(3,1fr);margin-top:4mm}
+.wons.w3 .wc img{height:34mm}.wons.w3 .wcb{top:26.5mm}

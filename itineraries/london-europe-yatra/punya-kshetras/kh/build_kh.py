@@ -200,15 +200,19 @@ def routemap():
 # ---------- 4 wonders & attractions ----------
 def wonders():
     a = PK["attractions"]
-    w = "".join(f'<div class="wc"><img src="{IMG(k)}"><div class="wcb">{E(b)}</div><b>{E(t)}</b></div>' for k, t, b in a["wonders"])
+    w3 = [("colosseum", "Colosseum, Rome", "New 7 Wonders of the World"), ("pisa", "Leaning Tower of Pisa", "Wonder of the Medieval World"),
+          ("eiffel", "Eiffel Tower, Paris", "Modern wonder · 330 m")]
+    w = "".join(f'<div class="wc"><img src="{IMG(k)}"><div class="wcb">{E(b)}</div><b>{E(t)}</b></div>' for k, t, b in w3)
     cicons = {"United Kingdom": "flag", "France": "star", "Belgium": "camera", "Netherlands": "heart", "Germany": "pin",
               "Switzerland": "sun", "Italy": "globe", "Vatican City": "ticket"}
     cs = "".join(f'<div class="cy"><div class="cyh"><span class="cyi">{ic(I[cicons.get(c,"star")],"#fff")}</span><b>{E(c)}</b><em>{len(it)}</em></div>'
                  f'<p>{" · ".join(E(x) for x in it)}</p></div>' for c, it in a["countries"])
     total = sum(len(i) for _, i in a["countries"])
     un = "".join(f"<span>{E(x)}</span>" for x in a["unesco"])
-    return page(f'''{title(f"{total} ATTRACTIONS", "IN 8 COUNTRIES · ALL INCLUDED", script="Wonders of the world")}
-<div class="wons">{w}</div><div class="cys">{cs}</div>
+    return page(f'''<div class="ttl hl3"><div class="script">London &amp; Europe Grand Tour</div>
+<h1><span>8</span> COUNTRIES</h1><h1><span>3</span> WONDERS OF THE WORLD</h1><h1><span>{total}</span> ATTRACTIONS</h1>
+<div class="ribbon big16">IN JUST <b>16 DAYS</b></div></div>
+<div class="wons w3">{w}</div><div class="cys">{cs}</div>
 <div class="unesco"><b>{len(a["unesco"])} UNESCO World Heritage Sites on this tour</b><div>{un}</div></div>''')
 
 # ---------- day pages ----------
