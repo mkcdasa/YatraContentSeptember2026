@@ -3,7 +3,7 @@
 const path = require('path'), fs = require('fs');
 const { chromium } = require('playwright');
 const dir = __dirname, out = path.join(dir, 'out');
-const items = [['p5_headline', 'Headline-8-Countries-3-Wonders-75-Attractions', 1350]];
+const items = [['p5_headline_Teal-Amber', 'Headline-Teal-Amber', 1350], ['p5_headline_Royal-Blue-Gold', 'Headline-Royal-Blue-Gold', 1350]];
 (async () => {
   fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch();

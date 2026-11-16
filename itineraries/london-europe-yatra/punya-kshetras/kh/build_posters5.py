@@ -22,17 +22,18 @@ CICON = {"United Kingdom": "flag", "France": "star", "Belgium": "camera", "Nethe
 CSS = """
 @import url('%s');
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--n:#2A0D3D;--n2:#3A1452;--n3:#5B1F7E;--o:#F28C28;--c:#E8445A;--g:#E7B24A;--g2:#F6D58B}
+:root{%(vars)s}
 body{font-family:Poppins,sans-serif;background:#000}
 img{display:block}
-.po{width:1080px;height:1350px;position:relative;overflow:hidden;background:linear-gradient(180deg,#EAF5FB 0%%,#FFF8EE 18%%,#FFF3E4 80%%,#FFE9D2 100%%)}
-.lg{position:absolute;top:16px;left:50%%;transform:translateX(-50%%);display:flex;gap:8px;background:#fff;border-radius:12px;padding:7px 12px;box-shadow:0 3px 12px rgba(42,13,61,.15)}
-.lg img{height:40px}
-.hd{position:absolute;top:76px;left:0;right:0;text-align:center}
-.sc{font-family:'Great Vibes';font-size:46px;color:var(--o);line-height:1}
+.po{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg)}
+.lg{position:absolute;top:16px;background:#fff;border-radius:12px;padding:7px 12px;box-shadow:0 3px 12px rgba(0,0,0,.15)}
+.lg img{height:46px}
+.lg.l{left:18px}.lg.r{right:18px}
+.hd{position:absolute;top:84px;left:0;right:0;text-align:center}
+.sc{font-family:Montserrat;font-weight:800;font-size:30px;letter-spacing:5px;color:var(--o);line-height:1.2;text-transform:uppercase;margin:6px 0 4px}
 .big{font-family:'Playfair Display';font-weight:800;color:var(--n);font-size:64px;line-height:1.02;letter-spacing:1px}
 .big .n{color:var(--c)}
-.rib{display:inline-block;margin-top:10px;background:linear-gradient(90deg,var(--c),var(--o));color:#fff;font-family:Montserrat;font-weight:800;font-size:38px;letter-spacing:4px;padding:10px 40px;border-radius:10px;transform:rotate(-1.5deg);box-shadow:0 6px 16px rgba(232,68,90,.4)}
+.rib{display:inline-block;margin-top:10px;background:linear-gradient(90deg,var(--c),var(--o));color:#fff;font-family:Montserrat;font-weight:800;font-size:38px;letter-spacing:4px;padding:10px 40px;border-radius:10px;transform:rotate(-1.5deg);box-shadow:0 6px 16px rgba(0,0,0,.25)}
 .rib b{font-size:46px;color:#FFF3B0}
 .w3{position:absolute;top:420px;left:32px;right:32px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .wc{text-align:center}
@@ -63,12 +64,17 @@ img{display:block}
 .ft .web{text-align:right;font-family:Montserrat;font-weight:600;font-size:14px;line-height:1.45}
 """
 
-def build():
+PALETTES = {
+    "Teal-Amber": "--n:#0B2545;--n2:#134074;--n3:#0E7490;--o:#0E7490;--c:#F59E0B;--g:#F59E0B;--g2:#FCD34D;--bg:linear-gradient(180deg,#E6F4F1 0%,#FFFFFF 22%,#F3FAF8 100%)",
+    "Royal-Blue-Gold": "--n:#0A1F5C;--n2:#1D3A8A;--n3:#2747A8;--o:#1D4ED8;--c:#D97706;--g:#D4A017;--g2:#FDE68A;--bg:linear-gradient(180deg,#EAF0FF 0%,#FFFFFF 22%,#F5F8FF 100%)",
+}
+
+def build(pal="Teal-Amber"):
     w3 = "".join(f'<div class="wc"><div class="ph"><img src="{IMG(k)}"><span>{E(b)}</span></div><b>{E(t)}</b></div>' for k, t, b in WONDERS3)
     cys = "".join(f'<div class="cy"><div class="cyh"><span class="cyi">{ic(I[CICON[c]], "#fff")}</span><b>{E(c)}</b><em>{len(it)}</em></div>'
                   f'<p>{" · ".join(E(x) for x in it)}</p></div>' for c, it in A["countries"])
     un = "".join(f"<span>{E(x)}</span>" for x in A["unesco"])
-    body = (f'<div class="lg"><img src="{K.LOGO_HK}"><img src="{K.LOGO_PK}"></div>'
+    body = (f'<div class="lg l"><img src="{K.LOGO_HK}"></div><div class="lg r"><img src="{K.LOGO_PK}"></div>'
             f'<div class="hd"><div class="sc">London &amp; Europe Grand Tour</div>'
             f'<div class="big"><span class="n">8</span> COUNTRIES</div>'
             f'<div class="big"><span class="n">3</span> WONDERS OF THE WORLD</div>'
@@ -79,9 +85,9 @@ def build():
             f'<div class="ft"><div class="pr"><small>ALL-INCLUSIVE · PER PERSON</small><b>{E(PK["price"])}</b><span>+ 5% GST + 2% TCS · flights &amp; visas incl.</span></div>'
             f'<span class="bk">Book Now →</span><span class="ph">{ic(I["phone"], "#F6D58B", 2)}{C["phone"]}</span>'
             f'<span class="web">{C["web1"]}<br>{C["web2"]}<br>17 Apr – 2 May 2027</span></div>')
-    html = f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS % K.FONTS}</style></head><body><div class="po">{body}</div></body></html>'
-    open(os.path.join(HERE, "p5_headline.html"), "w").write(html)
-    print("wrote p5_headline.html")
+    html = f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS.replace("%(vars)s", PALETTES[pal].replace("%", "%%")) % K.FONTS}</style></head><body><div class="po">{body}</div></body></html>'
+    open(os.path.join(HERE, f"p5_headline_{pal}.html"), "w").write(html)
+    print("wrote", pal)
 
 if __name__ == "__main__":
-    build()
+    for pal in PALETTES: build(pal)
