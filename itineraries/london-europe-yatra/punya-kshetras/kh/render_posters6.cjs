@@ -3,7 +3,8 @@
 const path = require('path'), fs = require('fs');
 const { chromium } = require('playwright');
 const dir = __dirname, out = path.join(dir, 'out');
-const items = ['Brand','Teal-Amber'].flatMap(p => [['p6_countries_'+p, '8-Countries-75-Attractions-'+p, 1350], ['p6_unesco_'+p, '11-UNESCO-Sites-'+p, 1350]]);
+const set = (pre, tag, pals) => pals.flatMap(p => [[pre + '_countries_' + p, tag + '8-Countries-75-Attractions-' + p, 1350], [pre + '_unesco_' + p, tag + '11-UNESCO-Sites-' + p, 1350]]);
+const items = [...set('p6', '', ['Brand', 'Teal-Amber']), ...set('p6b', 'Bhakti-Yatra-', ['Bhakti-Purple', 'Teal-Amber'])];
 (async () => {
   fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch();
@@ -11,7 +12,7 @@ const items = ['Brand','Teal-Amber'].flatMap(p => [['p6_countries_'+p, '8-Countr
     const p = await b.newPage({ viewport: { width: 1080, height: h }, deviceScaleFactor: 2 });
     await p.goto('file://' + path.join(dir, src + '.html'), { waitUntil: 'networkidle' });
     await p.evaluate(() => document.fonts.ready);
-    const f = 'London-Europe-Grand-Tour-2027-Poster-' + name;
+    const f = name.startsWith('Bhakti-Yatra-') ? 'Bhakti-Yatra-London-Europe-Grand-Tour-2027-Poster-' + name.slice(13) : 'London-Europe-Grand-Tour-2027-Poster-' + name;
     await p.screenshot({ path: path.join(out, f + '.jpg'), type: 'jpeg', quality: 90 });
     await p.pdf({ path: path.join(out, f + '.pdf'), width: '1080px', height: h + 'px', printBackground: true, pageRanges: '1' });
     console.log(f); await p.close();

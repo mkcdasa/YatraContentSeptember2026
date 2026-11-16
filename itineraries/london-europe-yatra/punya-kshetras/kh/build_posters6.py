@@ -50,6 +50,8 @@ EXTRA = """
 .fj b{display:flex;align-items:center;gap:8px;font:800 19px/1.1 Montserrat;color:var(--g2)}
 .fj b svg{width:24px;height:24px;flex:none}
 .fj span{font:600 13px Montserrat;margin-top:5px}
+.lg.dk{background:#2A0F38}.lg.nb{background:none;box-shadow:none;padding:0}.lg.nb img{height:62px}
+.ft .ph2{font-size:27px;line-height:1.15}.ft .ph2 svg{width:30px;height:30px}.ft .web b{color:var(--g2)}
 .uc em{font-style:normal;font:700 12px Montserrat;margin-top:8px;color:var(--g2)}
 """
 
@@ -65,10 +67,27 @@ def page(pal, body, cls=""):
     css = (P.CSS + EXTRA).replace("%(vars)s", PALETTES[pal].replace("%", "%%")) % K.FONTS
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="po {cls}">{body}</div></body></html>'
 
+MK = os.path.relpath(os.path.join(HERE, "..", "..", "marketing", "brand"), HERE).replace(os.sep, "/")
+BRANDS = {
+    "hkgt": dict(prefix="p6", pals=["Brand", "Teal-Amber"]),
+    # Bhakti Yatra (Hare Krishna Movement Indore): ISKCON Indore logo (white art, needs a dark box) + Bhakti Yatra logo
+    "bhakti": dict(prefix="p6b", pals=["Bhakti-Purple", "Teal-Amber"]),
+}
+PALETTES["Bhakti-Purple"] = ("--n:#2A0F38;--n2:#4A1E66;--n3:#6A2C8C;--o:#7A3398;--c:#E07A1F;--g:#E7B24A;--g2:#F6D58B;"
+                             "--bg:linear-gradient(180deg,#F3EAFB 0%,#FFFFFF 22%,#FBF6FF 100%)")
+BR = "hkgt"
+
 def logos():
+    if BR == "bhakti":
+        return (f'<div class="lg l dk"><img src="{MK}/iskcon_indore.png"></div>'
+                f'<div class="lg r nb"><img src="{MK}/bhakti_yatra.png"></div>')
     return f'<div class="lg l"><img src="{K.LOGO_HK}"></div><div class="lg r"><img src="{K.LOGO_PK}"></div>'
 
 def footer():
+    if BR == "bhakti":
+        return (f'<div class="ft"><div class="pr"><small>TOUR COST · PER PERSON</small><b>{PRICE}</b><span>Incl. UK &amp; Schengen visas</span><span>+ GST &amp; TCS · flights extra</span></div>'
+                f'<span class="bk">Book Now →</span><span class="ph ph2">{ic(I["phone"], "#F6D58B", 2)}<span>+91 72248 64316<br>+91 92570 45200</span></span>'
+                f'<span class="web">Bhakti Yatra · HKM Indore<br>FB · Instagram · YouTube: <b>Bhaktiyatra</b><br>17 Apr – 2 May 2027</span></div>')
     return (f'<div class="ft"><div class="pr"><small>TOUR COST · PER PERSON</small><b>{PRICE}</b><span>Incl. UK &amp; Schengen visas</span><span>+ GST &amp; TCS · flights extra</span></div>'
             f'<span class="bk">Book Now →</span><span class="ph">{ic(I["phone"], "#F6D58B", 2)}{C["phone"]}</span>'
             f'<span class="web">{C["web1"]}<br>{C["web2"]}<br>17 Apr – 2 May 2027</span></div>')
@@ -84,7 +103,7 @@ def countries(pal):
             f'<div class="rib">IN JUST <b>16 DAYS</b></div></div>'
             f'<div class="w3">{w3}</div><div class="mid"><div class="cys">{cys}</div>'
             f'<div class="un"><b>{len(A["unesco"])} UNESCO World Heritage Sites on this tour</b><div>{un}</div></div></div>' + flights() + footer())
-    open(os.path.join(HERE, f"p6_countries_{pal}.html"), "w").write(page(pal, body, "A"))
+    open(os.path.join(HERE, f"{BRANDS[BR]['prefix']}_countries_{pal}.html"), "w").write(page(pal, body, "A"))
 
 def unesco(pal):
     tiles = "".join(f'<div class="ut"><img src="{IMG(k)}"><i>{n}</i><div><b>{E(t)}</b><small>{E(c)}</small></div></div>'
@@ -95,9 +114,10 @@ def unesco(pal):
             f'<div class="big"><span class="n">8</span> COUNTRIES · <span class="n">{TOTAL}</span> ATTRACTIONS</div>'
             f'<div class="big"><span class="n">11</span> UNESCO WORLD HERITAGE SITES</div>'
             f'<div class="rib">IN JUST <b>16 DAYS</b></div></div><div class="ug">{tiles}</div>' + flights() + footer())
-    open(os.path.join(HERE, f"p6_unesco_{pal}.html"), "w").write(page(pal, body, "B"))
+    open(os.path.join(HERE, f"{BRANDS[BR]['prefix']}_unesco_{pal}.html"), "w").write(page(pal, body, "B"))
 
 if __name__ == "__main__":
     assert len(A["unesco"]) == 11
-    for pal in PALETTES:
-        countries(pal); unesco(pal); print("wrote", pal)
+    for BR, cfg in BRANDS.items():
+        for pal in cfg["pals"]:
+            countries(pal); unesco(pal); print("wrote", BR, pal)
