@@ -1,3 +1,5 @@
+> **Superseded on 20 Nov 2026.** This report covers the earlier Veena World proposal (27 Nov 2025, 4 nights, Bangalore flights, April 2026). The current proposal is dated 19 Nov 2026: 5 nights / 6 days, land package only (no flights), 25 to 29 guests, June 2027, options at Rs 50,800, Rs 56,200 and Rs 62,500 per person before 5% GST, with 2 free seats. See `Bali_Yatra_21-26Jun2027_Plan.xlsx` and the living plan document for the current plan and budget.
+
 # Bali 04N/05D: Detailed Proposal Report
 
 **Source:** Veena World proposal for ISKCON Hyderabad (PDF "TRAVEL_PROPOSAL_FOR_ISKCON_HYDERABAD - BALI 04N 2711")
