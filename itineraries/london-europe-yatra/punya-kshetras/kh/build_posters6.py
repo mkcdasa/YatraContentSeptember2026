@@ -1,7 +1,7 @@
 """
 Two more headline posters (1080 x 1350), each in brand colours and a non-brand (Teal-Amber) theme:
   p6_countries_*  : LONDON & EUROPE GRAND TOUR · 8 COUNTRIES · 75 ATTRACTIONS · IN JUST 16 DAYS + same body as poster 5
-  p6_unesco_*     : ... + 11 UNESCO WORLD HERITAGE SITES with a photo of each site
+  p6_unesco_*     : ... + 10 UNESCO WORLD HERITAGE SITES with a photo of each site
     python3 kh/build_posters6.py && node kh/render_posters6.cjs
 """
 import os, sys
@@ -20,7 +20,7 @@ UNESCO = [("tower", "Tower of London", "United Kingdom"), ("westminster", "Westm
           ("eiffel", "Paris, Banks of the Seine", "France"), ("grandplace", "Grand Place, Brussels", "Belgium"),
           ("amsterdam", "Amsterdam Canal Ring", "Netherlands"), ("cologne", "Cologne Cathedral", "Germany"),
           ("venice", "Venice & its Lagoon", "Italy"), ("colosseumair", "Historic Centre of Rome", "Italy"),
-          ("stpeters", "Vatican City", "Vatican City"), ("florence", "Historic Centre of Florence", "Italy"),
+          ("stpeters", "Vatican City", "Vatican City"),
           ("pisa", "Piazza del Duomo, Pisa", "Italy")]
 
 EXTRA = """
@@ -33,7 +33,7 @@ EXTRA = """
 .ut div{position:absolute;left:0;right:0;bottom:0;padding:26px 10px 8px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:#fff}
 .ut b{display:block;font:700 16.5px/1.15 Montserrat}
 .ut small{font:600 12px Montserrat;color:var(--g2);letter-spacing:.5px;text-transform:uppercase}
-.uc{border-radius:14px;background:linear-gradient(135deg,var(--n),var(--n3));color:#fff;padding:14px 16px;display:flex;flex-direction:column;justify-content:center}
+.uc{grid-column:span 2;border-radius:14px;background:linear-gradient(135deg,var(--n),var(--n3));color:#fff;padding:14px 16px;display:flex;flex-direction:column;justify-content:center}
 .uc b{font:800 22px Montserrat;color:var(--g2);margin-bottom:6px;line-height:1.1}
 .uc span{font:600 14px/1.55 Montserrat}
 .A .big{font-size:72px}.A .w3{top:380px}.A .wc .ph{height:116px}.A .wc b{font-size:21px;margin-top:4px}
@@ -112,12 +112,12 @@ def unesco(pal):
     tiles += f'<div class="uc"><b>8 Countries<br>{TOTAL} Attractions</b><span>{names}</span><em>16 days · 17 Apr – 2 May 2027</em></div>'
     body = (logos() + f'<div class="hd u"><div class="sc">London &amp; Europe Grand Tour</div>'
             f'<div class="big"><span class="n">8</span> COUNTRIES · <span class="n">{TOTAL}</span> ATTRACTIONS</div>'
-            f'<div class="big"><span class="n">11</span> UNESCO WORLD HERITAGE SITES</div>'
+            f'<div class="big"><span class="n">{len(UNESCO)}</span> UNESCO WORLD HERITAGE SITES</div>'
             f'<div class="rib">IN JUST <b>16 DAYS</b></div></div><div class="ug">{tiles}</div>' + flights() + footer())
     open(os.path.join(HERE, f"{BRANDS[BR]['prefix']}_unesco_{pal}.html"), "w").write(page(pal, body, "B"))
 
 if __name__ == "__main__":
-    assert len(A["unesco"]) == 11
+    assert len(A["unesco"]) == len(UNESCO) == 10
     for BR, cfg in BRANDS.items():
         for pal in cfg["pals"]:
             countries(pal); unesco(pal); print("wrote", BR, pal)

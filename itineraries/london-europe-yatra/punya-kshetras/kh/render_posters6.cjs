@@ -3,7 +3,7 @@
 const path = require('path'), fs = require('fs');
 const { chromium } = require('playwright');
 const dir = __dirname, out = path.join(dir, 'out');
-const set = (pre, tag, pals) => pals.flatMap(p => [[pre + '_countries_' + p, tag + '8-Countries-75-Attractions-' + p, 1350], [pre + '_unesco_' + p, tag + '11-UNESCO-Sites-' + p, 1350]]);
+const set = (pre, tag, pals) => pals.flatMap(p => [[pre + '_countries_' + p, tag + '8-Countries-68-Attractions-' + p, 1350], [pre + '_unesco_' + p, tag + '10-UNESCO-Sites-' + p, 1350]]);
 const items = [...set('p6', '', ['Brand', 'Teal-Amber']), ...set('p6b', 'Bhakti-Yatra-', ['Bhakti-Purple', 'Teal-Amber'])];
 (async () => {
   fs.mkdirSync(out, { recursive: true });

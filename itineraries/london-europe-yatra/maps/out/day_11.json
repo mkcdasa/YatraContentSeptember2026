@@ -33,16 +33,21 @@
   },
   {
    "n": 7,
+   "key": "LUZ_DIN",
+   "name": "Indian restaurant, Lucerne"
+  },
+  {
+   "n": 8,
    "key": "LUZ_STN",
    "name": "Luzern railway station"
   },
   {
-   "n": 8,
+   "n": 9,
    "key": "INTERLAKEN",
    "name": "Interlaken Ost station"
   },
   {
-   "n": 9,
+   "n": 10,
    "key": "H_INT",
    "name": "Hotel, Interlaken"
   }
@@ -131,9 +136,9 @@
    "frm": 6,
    "to": 7,
    "from_name": "Lake Lucerne cruise pier",
-   "to_name": "Luzern railway station",
+   "to_name": "Indian restaurant, Lucerne",
    "mode": "Walk",
-   "km": 0.1,
+   "km": 0.4,
    "minutes": 5,
    "duration": "5 min",
    "time": "on foot",
@@ -141,18 +146,31 @@
   },
   {
    "n": 8,
-   "frm": 7,
-   "to": 8,
+   "frm": 8,
+   "to": 9,
    "from_name": "Luzern railway station",
    "to_name": "Interlaken Ost station",
    "mode": "Train",
    "km": 75,
    "minutes": 110,
    "duration": "1 h 50 min",
-   "time": "18:05–19:55",
+   "time": "19:05–20:55",
    "estimate": false
+  },
+  {
+   "n": 9,
+   "frm": 9,
+   "to": 10,
+   "from_name": "Interlaken Ost station",
+   "to_name": "Hotel, Interlaken",
+   "mode": "Walk",
+   "km": 1.4,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "on foot",
+   "estimate": true
   }
  ],
  "coach_km": 120,
- "walk_km": 1.3
+ "walk_km": 3.0
 }

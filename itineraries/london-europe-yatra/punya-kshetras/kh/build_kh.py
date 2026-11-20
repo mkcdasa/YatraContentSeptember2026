@@ -120,7 +120,7 @@ def cover():
 <div class="cvt"><div class="cvs">London &amp;</div><div class="cvb">EUROPE</div>
 <div class="cvr">Grand Tour 2027</div></div>
 <div class="cvbot"><div class="cvd"><span>{E(PK["dates"])}</span><b>{E(PK["duration"])}</b></div>
-<div class="cvc">8 Countries · 70+ Attractions · 11 UNESCO Sites</div>
+<div class="cvc">8 Countries · 65+ Attractions · 10 UNESCO Sites</div>
 <div class="ccs">{circ}</div>
 <div class="cvp"><small>All-inclusive, per person</small><b>{E(PK["price"])}</b><em>incl. international flights &amp; visas · {E(PK["gst_note"])}</em></div></div>
 {footer()}</section>'''
@@ -142,26 +142,26 @@ def departure():
 <div class="card whycard"><ul class="why2">{wl}</ul></div>''', bg="lucerne2", bgh="40%")
 
 # ---------- 3 route map ----------
-CITIES = [("London", -0.13, 51.51, "stay", "3N"), ("Dover", 1.31, 51.13, "stop", ""), ("Calais", 1.86, 50.95, "stop", ""),
+CITIES = [("London", -0.13, 51.51, "stay", "3N"),
           ("Paris", 2.35, 48.86, "stay", "2N"), ("Brussels", 4.35, 50.85, "stay", "1N"), ("Ardennes", 5.46, 50.35, "stop", ""),
           ("Amsterdam", 4.90, 52.37, "stay", "1N"), ("Keukenhof", 4.55, 52.27, "stop", ""), ("Cologne", 6.96, 50.94, "stay", "1N"),
           ("Black Forest", 8.15, 47.90, "stay", "1N"), ("Rhine Falls", 8.61, 47.68, "stop", ""), ("Zurich", 8.54, 47.37, "stay", "1N"),
           ("Lucerne", 8.31, 47.05, "stop", ""), ("Titlis", 8.40, 46.78, "stop", ""), ("Interlaken", 7.86, 46.69, "stay", "1N"),
-          ("Lake Como", 9.08, 45.85, "stop", ""), ("Milan", 9.19, 45.46, "stay", "1N"), ("Padova", 11.88, 45.41, "stop", ""),
-          ("Venice", 12.33, 45.44, "stay", "1N"), ("Rome & Vatican", 12.48, 41.90, "stop", ""), ("Florence", 11.26, 43.77, "stay", "1N"),
-          ("Pisa", 10.40, 43.72, "stop", ""), ("Milan Malpensa", 8.72, 45.63, "stay", "1N")]
-ROUTE = [("London", "Dover", "c"), ("Dover", "Calais", "f"), ("Calais", "Paris", "c"), ("Paris", "Brussels", "c"),
+          ("Bergamo", 9.67, 45.69, "stop", ""), ("Milan", 9.19, 45.46, "stay", "1N"), ("Padova", 11.88, 45.41, "stop", ""),
+          ("Venice", 12.33, 45.44, "stay", "1N"), ("Rome & Vatican", 12.48, 41.90, "stay", "1N"), ("Villa Vrindavan", 11.20, 43.70, "stop", ""),
+          ("Pisa", 10.40, 43.72, "stay", "1N"), ("Milan Malpensa", 8.72, 45.63, "stop", "")]
+ROUTE = [("London", "Paris", "t"), ("Paris", "Brussels", "c"),
          ("Brussels", "Ardennes", "c"), ("Ardennes", "Amsterdam", "c"), ("Amsterdam", "Keukenhof", "c"), ("Keukenhof", "Cologne", "c"),
          ("Cologne", "Black Forest", "c"), ("Black Forest", "Rhine Falls", "c"), ("Rhine Falls", "Zurich", "c"), ("Zurich", "Titlis", "c"),
-         ("Titlis", "Lucerne", "c"), ("Lucerne", "Interlaken", "t"), ("Interlaken", "Lake Como", "c"), ("Lake Como", "Milan", "c"),
-         ("Milan", "Padova", "c"), ("Padova", "Venice", "c"), ("Venice", "Rome & Vatican", "t"), ("Rome & Vatican", "Florence", "t"),
-         ("Florence", "Pisa", "c"), ("Pisa", "Milan Malpensa", "c")]
-LBL = {"London": (-12, -14, "end"), "Dover": (-8, 26, "end"), "Calais": (10, 26, "start"), "Paris": (-12, 6, "end"),
+         ("Titlis", "Lucerne", "c"), ("Lucerne", "Interlaken", "t"), ("Interlaken", "Bergamo", "c"), ("Bergamo", "Milan", "c"),
+         ("Milan", "Padova", "c"), ("Padova", "Venice", "c"), ("Venice", "Rome & Vatican", "t"), ("Rome & Vatican", "Villa Vrindavan", "c"),
+         ("Villa Vrindavan", "Pisa", "c"), ("Pisa", "Milan Malpensa", "c")]
+LBL = {"London": (-12, -14, "end"), "Paris": (-12, 6, "end"),
        "Brussels": (-10, -12, "end"), "Ardennes": (12, 14, "start"), "Amsterdam": (12, -10, "start"), "Keukenhof": (-12, -2, "end"),
        "Cologne": (14, 4, "start"), "Black Forest": (-12, 6, "end"), "Rhine Falls": (14, -6, "start"), "Zurich": (14, 8, "start"),
-       "Lucerne": (-12, -4, "end"), "Titlis": (14, 10, "start"), "Interlaken": (-12, 6, "end"), "Lake Como": (14, -8, "start"),
+       "Lucerne": (-12, -4, "end"), "Titlis": (14, 10, "start"), "Interlaken": (-12, 6, "end"), "Bergamo": (12, 24, "start"),
        "Milan": (-6, 30, "end"), "Padova": (4, 32, "middle"), "Venice": (-4, -18, "middle"), "Rome & Vatican": (-14, 8, "end"),
-       "Florence": (14, 2, "start"), "Pisa": (-12, 6, "end"), "Milan Malpensa": (-14, 8, "end")}
+       "Villa Vrindavan": (14, 2, "start"), "Pisa": (-12, 6, "end"), "Milan Malpensa": (-14, 8, "end")}
 def routemap():
     P = json.load(open(os.path.join(HERE, "map_proj.json")))
     K = math.cos(math.radians(48))
@@ -191,11 +191,11 @@ def routemap():
     svg = (f'<svg viewBox="0 0 {P["W"]} {P["H"]}" class="ov" preserveAspectRatio="xMidYMid slice"><style>.mapml{{font:700 22px Montserrat;fill:#2A0D3D}}.mapmls{{font-size:25px;fill:#3A1452}}'
            f'.mapcn{{font:800 20px Montserrat;fill:#E8445A;opacity:.55;letter-spacing:3px;text-anchor:middle}}</style>{cl}{seg}{pins}</svg>')
     leg = "".join(f'<div class="li"><span class="lk {k}"></span>{t}</div>' for k, t in
-                  [("pin", "Overnight stay"), ("dot", "Sightseeing stop"), ("coach", "Private coach"), ("ferry", "Channel ferry"), ("train", "Train")])
+                  [("pin", "Overnight stay"), ("dot", "Sightseeing stop"), ("coach", "Private coach"), ("train", "Eurostar & trains")])
     return page(f'''{title("ROUTE MAP", "8 COUNTRIES · ONE SMOOTH JOURNEY", script="Your journey")}
 <div class="map"><img src="{MAP}">{svg}</div>
 <div class="legend card">{leg}</div>
-<div class="mapnote card"><b>Start:</b> London (flights from Hyderabad &amp; Bangalore) &nbsp;→&nbsp; <b>End:</b> Milan Malpensa (flights home) &nbsp;·&nbsp; about 4,000 km by coach</div>''')
+<div class="mapnote card"><b>Start:</b> London (flights from Hyderabad &amp; Bangalore) &nbsp;→&nbsp; <b>End:</b> Milan Malpensa (flights home) &nbsp;·&nbsp; about 3,500 km by coach</div>''')
 
 # ---------- 4 wonders & attractions ----------
 def wonders():
@@ -237,7 +237,7 @@ def daypage(a, b):
     return page(f'''<div class="drow r1">{daycard(a,"l")}<div class="dph"><img src="{IMG(ka)}"><span>{E(cap(ka))}</span></div></div>
 <div class="drow r2"><div class="dph"><img src="{IMG(kb)}"><span>{E(cap(kb))}</span></div>{daycard(b,"r")}</div>
 {SPARK.replace('class="spark"','class="spark" style="right:14mm;top:150mm"')}''', cls="dpage", bg=DAYBG[a], bgh="32%")
-DAYBG = {1: "westminster2", 3: "towerbridge", 5: "eiffelnight", 7: "zaanse", 9: "lucerne", 11: "como2", 13: "trevi", 15: "pontevecchio"}
+DAYBG = {1: "westminster2", 3: "towerbridge", 5: "eiffelnight", 7: "zaanse", 9: "lucerne", 11: "titlis2", 13: "trevi", 15: "pisa2"}
 CAPS = json.load(open(os.path.join(WD, "imgmap.json")))
 def cap(k): return CAPS.get(k, {}).get("cap", k.title())
 
@@ -245,13 +245,13 @@ def cap(k): return CAPS.get(k, {}).get("cap", k.title())
 STAYIMG = [("London", "Wembley", "3 Nights", "towerbridge"), ("Paris", "", "2 Nights", "eiffelnight"), ("Brussels", "", "1 Night", "atomium"),
            ("Amsterdam", "", "1 Night", "amsterdam"), ("Cologne", "", "1 Night", "cologne2"), ("Black Forest", "Titisee", "1 Night", "rhinefalls2"),
            ("Zurich", "", "1 Night", "zurich"), ("Interlaken", "", "1 Night", "interlaken"), ("Milan", "", "1 Night", "milan2"),
-           ("Venice", "Mestre", "1 Night", "venice2"), ("Florence", "", "1 Night", "florence"), ("Milan Malpensa", "Airport area", "1 Night", "como2")]
+           ("Venice", "Mestre", "1 Night", "venice2"), ("Rome", "", "1 Night", "colosseumair"), ("Pisa", "", "1 Night", "pisa2")]
 def stays():
     cards = "".join(f'<div class="sc"><div class="sci"><img src="{IMG(k)}"><span class="scn">{E(n)}</span></div>'
                     f'<div class="scb"><b>{E(c)}</b>{f"<small>{E(s)}</small>" if s else ""}</div></div>' for c, s, n, k in STAYIMG)
     return page(f'''{title("YOUR STAY", "15 NIGHTS · 12 HANDPICKED HOTELS", script="Rest well, travel far")}
 <div class="card stnote">{ic(I["bed"],"#E8445A")}<div>Comfortable hotels checked and approved by our team, <b>twin sharing</b>, with hot Indian vegetarian breakfast and dinner. Hotels are chosen close to the sights so you spend less time on the road.</div></div>
-<div class="scs">{cards}</div>''', bg="como", bgh="22%")
+<div class="scs">{cards}</div>''', bg="milan", bgh="22%")
 
 # ---------- price ----------
 def price():
@@ -285,7 +285,7 @@ PRACT = [("sun", "Weather in late April", "15–21 °C by day and 6–11 °C at 
          ("clock", "Time zones", "UK is 4 h 30 m behind India; France to Italy are 3 h 30 m behind."),
          ("senior", "Senior citizens", "Seats near the front, wheelchairs booked at the Louvre, Vatican and airports, extra rest stops and lifts wherever available."),
          ("cash", "Water & toilets", "Tap water is drinkable in most places. Public toilets often charge €0.50–€1; use restaurant and museum toilets."),
-         ("bag", "Shopping", "Paris perfumes, Swiss chocolates and watches, cuckoo clocks in Titisee, leather in Florence, Murano glass in Venice. Ask for tax-free forms.")]
+         ("bag", "Shopping", "Paris perfumes, Swiss chocolates and watches, cuckoo clocks in Titisee, Italian leather, Murano glass in Venice. Ask for tax-free forms.")]
 def tips():
     pr = "".join(f'<div class="tp"><span>{ic(I[i],"#fff")}</span><div><b>{E(t)}</b><p>{E(x)}</p></div></div>' for i, t, x in PRACT)
     dos = "".join(f'<li>{E(x)}</li>' for x in PK["dos"]); dn = "".join(f'<li>{E(x)}</li>' for x in PK["donts"])
@@ -340,7 +340,7 @@ def payments():
 <div class="pmr">{ic(I["globe"],"#3A1452")} {C["web1"]}</div><div class="pmr">{ic(I["globe"],"#3A1452")} {C["web2"]}</div>
 <div class="pmr note">Bank details are shared on confirmation by our team.</div></div></div>
 <div class="pillh">Documents for your visa</div>
-<div class="card visa"><ul>{vs}</ul><p>We guide you through the UK and Schengen visa paperwork step by step. Visa fees are included.</p></div>''', bg="florence2", bgh="22%")
+<div class="card visa"><ul>{vs}</ul><p>We guide you through the UK and Schengen visa paperwork step by step. Visa fees are included.</p></div>''', bg="venice2", bgh="22%")
 
 # ---------- cancellation ----------
 def cancel():

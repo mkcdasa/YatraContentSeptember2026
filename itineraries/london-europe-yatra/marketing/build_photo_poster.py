@@ -39,7 +39,7 @@ BACK_TILES = [("westminster", "Big Ben & Parliament"), ("radhadesh", "Radhadesh 
               ("vatican", "St Peter's, Vatican"), ("pisa", "Leaning Tower of Pisa")]
 
 ROUTE = ["London", "Paris", "Brussels", "Amsterdam", "Cologne", "Black Forest", "Zurich", "Lucerne",
-         "Interlaken", "Lake Como", "Milan", "Venice", "Rome", "Florence", "Pisa"]
+         "Interlaken", "Milan", "Venice", "Rome", "Pisa"]
 COUNTRIES = ["UK", "France", "Belgium", "Netherlands", "Germany", "Switzerland", "Italy", "Vatican"]
 TEMPLES = ["Bhaktivedanta Manor", "ISKCON Soho", "ISKCON Paris", "Radhadesh", "ISKCON Cologne", "Goloka Dham",
            "ISKCON Zurich", "Villaggio Hare Krishna", "Prabhupada Desh", "Villa Vrindavan"]

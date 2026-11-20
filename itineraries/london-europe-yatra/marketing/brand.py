@@ -50,6 +50,9 @@ FLIGHT_TEXT = [
     ("Hyderabad & Bangalore → London Heathrow · Kamada Ekadasi", "Fly to London Heathrow · Kamada Ekadasi"),
     ("Varuthini Ekadasi · Milan Malpensa → Dubai / Abu Dhabi → Hyderabad / Bangalore", "Varuthini Ekadasi · Milan Malpensa → home"),
     (" Dubai and Abu Dhabi = IST − 1 h 30 m.", ""),
+    ("Early drive from Pisa to Milan Malpensa. Hyderabad group: Emirates via Dubai, landing 03:05; Bangalore group: Etihad via Abu Dhabi, landing 03:15 on Monday 3 May.",
+     "Early drive from Pisa to Milan Malpensa and the international flight home (included); arrive in India early on Monday 3 May."),
+    ("Varuthini Ekadasi · Pisa → Milan Malpensa → Dubai / Abu Dhabi → Hyderabad / Bangalore", "Varuthini Ekadasi · Pisa → Milan Malpensa → home"),
 ]
 
 

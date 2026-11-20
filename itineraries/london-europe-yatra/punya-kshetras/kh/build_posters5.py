@@ -1,7 +1,7 @@
 """
 "Headline numbers" poster (1080 × 1350), same look as the brochure's Wonders & Attractions page:
-8 COUNTRIES · 3 WONDERS OF THE WORLD · 75 ATTRACTIONS in equal big type, then IN JUST 16 DAYS,
-the three wonders, country cards with counts, the 11 UNESCO sites, price and Book Now.
+8 COUNTRIES · 3 WONDERS OF THE WORLD · N ATTRACTIONS in equal big type, then IN JUST 16 DAYS,
+the three wonders, country cards with counts, the UNESCO sites, price and Book Now.
 
     python3 kh/build_posters5.py && node kh/render_posters5.cjs
 """

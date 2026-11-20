@@ -73,7 +73,7 @@ def postcard():
 """
     pcs = "".join(f'<div class="pc"><img src="{IMG(k)}"><span>{t}</span></div>' for k, t in (("eiffel", "Paris"), ("venice", "Venice"), ("titlis", "Swiss Alps")))
     lines = "".join(f"<div><b>✓</b> {t}</div>" for t in ["International flights & visas", "15 nights in good hotels", "Indian veg meals, every meal",
-                                                         f"{TOTAL} attractions, all tickets", "Private coach, ferry & trains", "Indian tour manager"])
+                                                         f"{TOTAL} attractions, all tickets", "Coach, Eurostar & trains", "Indian tour manager"])
     body = (f'<div class="paper"></div><div class="bd"></div>{logos()}'
             f'<div class="gr"><div class="a">Greetings from</div><div class="lond">London &amp;</div><div class="big">EUROPE</div>'
             f'<div class="c">17 APR – 2 MAY 2027 · 16 DAYS</div></div>'

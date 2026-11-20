@@ -62,17 +62,17 @@ def sections():
     s = {}
     s["summary"] = "\n".join(
         ["## Day summary", "",
-         f"The coach covers about {sum(coach_totals(d)[0] for d in D.DAYS):,} km between 17 April and 2 May 2027. No day goes past the EU limit of 9 hours' driving. Day 9 (Cologne → Goloka Dham → Black Forest) is the longest, at about 7.5 hours on the coach including breaks. Day 14 (Rome) is the longest day on foot, from 05:00 to 22:30.", "",
+         f"The coach covers about {sum(coach_totals(d)[0] for d in D.DAYS):,} km between 17 April and 2 May 2027. Day 9 (ISKCON Cologne → Goloka Dham → Black Forest) is the longest coach day, about 7 hours including breaks, and Day 15 (Rome → Villa Vrindavan → Pisa) runs to the 12-hour driver limit. Days 4 and 14 start at 05:00, and Day 16 leaves Pisa at 04:30 (revised plan, 19 Nov 2026).", "",
          "| Day | Date | Route | Overnight | Coach km | Coach time incl. breaks |", "| --- | --- | --- | --- | --- | --- |"]
         + [f"| {d['day']} | {d['dow']} {int(d['date'][8:])} {'Apr' if d['date'][5:7]=='04' else 'May'} | {cell(d['title'])} | {d['overnight']} | {coach_totals(d)[0]:,} | {fmt_m(coach_totals(d)[1])} |" for d in D.DAYS]
-        + ["", "Coach km include the coach's empty repositioning runs (Day 11 to Interlaken, Day 14 to Florence). Flights, the ferry, boats, cable cars, trains and the Rome local coach are not counted."])
-    for name, rng, head in (("d1", range(0, 4), "Days 1–4 (17–20 Apr): Hyderabad & Bangalore → London → Paris"),
-                            ("d2", range(4, 8), "Days 5–8 (21–24 Apr): Paris, Louvre, Brussels, Radhadesh, Amsterdam, Keukenhof"),
-                            ("d3", range(8, 12), "Days 9–12 (25–28 Apr): Cologne, Goloka Dham, Black Forest, Zurich, Titlis, Lucerne, Lake Como"),
-                            ("d4", range(12, 16), "Days 13–16 (29 Apr–2 May): Venice, Rome & Vatican, Florence, Pisa, Milan → home")):
+        + ["", "Coach km include the coach's empty repositioning runs (Day 11 to Interlaken, Day 14 to Rome). Flights, the Eurostar, boats, cable cars, trains and the Rome local coach are not counted."])
+    for name, rng, head in (("d1", range(0, 4), "Days 1–4 (17–20 Apr): Hyderabad & Bangalore → London → Eurostar → Paris"),
+                            ("d2", range(4, 8), "Days 5–8 (21–24 Apr): Louvre, Eiffel Tower, Brussels, Radhadesh, Amsterdam, Keukenhof, Cologne"),
+                            ("d3", range(8, 12), "Days 9–12 (25–28 Apr): Goloka Dham, Black Forest, Zurich, Titlis, Lucerne, Bergamo, Milan"),
+                            ("d4", range(12, 16), "Days 13–16 (29 Apr–2 May): Venice, Rome & Vatican, Villa Vrindavan, Pisa, Malpensa → home")):
         s[name] = f"## {head}\n\n" + "\n\n".join(day_md(D.DAYS[i]) for i in rng)
     meals = ["## Meal plan", "",
-             "Breakfast is at the hotel on all 15 hotel mornings. Lunch is at a temple on 6 days and at an Indian restaurant (or packed) on the rest. Dinner is at an Indian restaurant every evening: near the hotel on most days, Govinda's in Soho on Day 2, and packed on the train on Day 14 (team's final plan, Nov 2026).", "",
+             "Breakfast is at the hotel every morning, packed on Day 4 (Eurostar) and early on Days 14 and 16. Lunch is at a temple on 5 days (Soho, Radhadesh, Goloka Dham, Villaggio Hare Krishna, Villa Vrindavan) and at an Indian restaurant (or packed) on the rest. Dinner is at an Indian restaurant on most evenings and at ISKCON Paris on Day 4 (revised plan, 19 Nov 2026).", "",
              "| Day | Breakfast | Lunch | Dinner |", "| --- | --- | --- | --- |"]
     for d in D.DAYS:
         by = {}
@@ -82,7 +82,7 @@ def sections():
         meals.append(f"| {d['day']} | {by.get('Breakfast', 'In flight / airport')} | {by.get('Lunch', '')} | {by.get('Dinner', '')} |")
     meals += ["", "All meals are Satvik: no onion, garlic, eggs, meat or fish. Confirm each menu in writing 2 weeks ahead and reconfirm 48 hours ahead. Restaurants marked TBC still need to be shortlisted and booked."]
     s["meals"] = "\n".join(meals)
-    s["pros"] = "\n".join(["## Pros and cons by day", "", "Every day has one clear highlight. The cost is early starts and long coach legs on Days 4, 6, 10 and 16.", "",
+    s["pros"] = "\n".join(["## Pros and cons by day", "", "Every day has one clear highlight. The cost is early starts on Days 4, 14 and 16 and long coach legs on Days 9, 12 and 15.", "",
                            "| Day | Pros | Cons / watch-outs |", "| --- | --- | --- |"]
                           + [f"| {a} | {cell(b)} | {cell(c)} |" for a, b, c in D.PROS_CONS])
     s["challenges"] = "\n".join(["## Challenges and risks", "", "The biggest risks are driver-hour limits, spring traffic at borders and the Gotthard tunnel, and pickpockets in Paris and Rome. Each one has a mitigation below.", "",

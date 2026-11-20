@@ -8,16 +8,41 @@
   },
   {
    "n": 2,
-   "key": "DOVER",
-   "name": "Port of Dover"
+   "key": "ST_PANCRAS",
+   "name": "London St Pancras International"
   },
   {
    "n": 3,
-   "key": "CALAIS",
-   "name": "Port of Calais"
+   "key": "GARE_NORD",
+   "name": "Paris Gare du Nord"
   },
   {
    "n": 4,
+   "key": "SARAVANAA_PAR",
+   "name": "Saravanaa Bhavan Paris"
+  },
+  {
+   "n": 5,
+   "key": "ARC",
+   "name": "Arc de Triomphe & Champs-Élysées"
+  },
+  {
+   "n": 6,
+   "key": "NOTREDAME",
+   "name": "Notre-Dame Cathedral & Île de la Cité"
+  },
+  {
+   "n": 7,
+   "key": "SEINE",
+   "name": "Seine River Cruise"
+  },
+  {
+   "n": 8,
+   "key": "ISKCON_PAR",
+   "name": "ISKCON Paris temple"
+  },
+  {
+   "n": 9,
    "key": "H_PAR",
    "name": "Hotel, Gare du Nord / La Chapelle area"
   }
@@ -28,41 +53,106 @@
    "frm": 1,
    "to": 2,
    "from_name": "Hotel, Wembley area",
-   "to_name": "Port of Dover",
+   "to_name": "London St Pancras International",
    "mode": "Coach",
-   "km": 135,
-   "minutes": 135,
-   "duration": "2 h 15 min",
-   "time": "09:00–11:15",
+   "km": 14,
+   "minutes": 45,
+   "duration": "45 min",
+   "time": "05:30–06:15",
    "estimate": false
   },
   {
    "n": 2,
    "frm": 2,
    "to": 3,
-   "from_name": "Port of Dover",
-   "to_name": "Port of Calais",
-   "mode": "Ferry",
-   "km": 42,
-   "minutes": 90,
-   "duration": "1 h 30 min",
-   "time": "13:45–16:15",
+   "from_name": "London St Pancras International",
+   "to_name": "Paris Gare du Nord",
+   "mode": "Train",
+   "km": 492,
+   "minutes": 199,
+   "duration": "3 h 19 min",
+   "time": "08:01–11:20",
    "estimate": false
   },
   {
    "n": 3,
    "frm": 3,
    "to": 4,
-   "from_name": "Port of Calais",
+   "from_name": "Paris Gare du Nord",
+   "to_name": "Saravanaa Bhavan Paris",
+   "mode": "Coach",
+   "km": 1,
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "11:20–11:35",
+   "estimate": false
+  },
+  {
+   "n": 4,
+   "frm": 4,
+   "to": 5,
+   "from_name": "Saravanaa Bhavan Paris",
+   "to_name": "Arc de Triomphe & Champs-Élysées",
+   "mode": "Coach",
+   "km": 7,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "12:30–13:00",
+   "estimate": false
+  },
+  {
+   "n": 5,
+   "frm": 5,
+   "to": 6,
+   "from_name": "Arc de Triomphe & Champs-Élysées",
+   "to_name": "Notre-Dame Cathedral & Île de la Cité",
+   "mode": "Coach",
+   "km": 6,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "13:40–14:10",
+   "estimate": false
+  },
+  {
+   "n": 6,
+   "frm": 6,
+   "to": 7,
+   "from_name": "Notre-Dame Cathedral & Île de la Cité",
+   "to_name": "Seine River Cruise",
+   "mode": "Coach",
+   "km": 6,
+   "minutes": 35,
+   "duration": "35 min",
+   "time": "15:10–15:45",
+   "estimate": false
+  },
+  {
+   "n": 7,
+   "frm": 7,
+   "to": 8,
+   "from_name": "Seine River Cruise",
+   "to_name": "ISKCON Paris temple",
+   "mode": "Coach",
+   "km": 25,
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "17:15–18:15",
+   "estimate": false
+  },
+  {
+   "n": 8,
+   "frm": 8,
+   "to": 9,
+   "from_name": "ISKCON Paris temple",
    "to_name": "Hotel, Gare du Nord / La Chapelle area",
    "mode": "Coach",
-   "km": 295,
-   "minutes": 240,
-   "duration": "4 h 00 min",
-   "time": "16:30–20:30",
+   "km": 20,
+   "minutes": 40,
+   "duration": "40 min",
+   "time": "20:15–20:55",
    "estimate": false
   }
  ],
- "coach_km": 430,
+ "coach_km": 79,
  "walk_km": 0
 }

@@ -114,7 +114,7 @@ def luxury():
 # ---------------- C. boarding pass ----------------
 def ticket():
     stops = ["LONDON", "PARIS", "BRUSSELS", "AMSTERDAM", "COLOGNE", "BLACK FOREST", "ZURICH", "LUCERNE", "INTERLAKEN",
-             "LAKE COMO", "MILAN", "VENICE", "ROME", "VATICAN", "FLORENCE", "PISA"]
+             "MILAN", "VENICE", "ROME", "VATICAN", "PISA"]
     st = "".join(f"<span>{s}</span>" for s in stops)
     bars = "".join(f'<i style="width:{w}px"></i>' for w in [3, 1, 2, 4, 1, 1, 3, 2, 1, 4, 2, 1, 3, 1, 2, 2, 4, 1, 3, 1, 1, 2, 4, 2, 1, 3, 1, 2, 3, 1, 4, 1, 2] * 2)
     inc = "".join(f'<div>{ic(I[k], "#E8445A")}{t}</div>' for k, t in
@@ -166,7 +166,7 @@ def ticket():
             f'<div class="ap r"><b>LHR</b><span>London Heathrow</span></div></div>'
             f'<div class="fl"><div><small>DEPART</small><b>17 APR 2027</b></div><div><small>RETURN</small><b>2 MAY 2027</b></div>'
             f'<div><small>DURATION</small><b>16 DAYS</b></div><div><small>COUNTRIES</small><b>8</b></div></div>'
-            f'<div class="via"><small>VIA · BY PRIVATE COACH, FERRY &amp; TRAIN</small><div>{st}</div></div>'
+            f'<div class="via"><small>VIA · BY EUROSTAR, PRIVATE COACH &amp; TRAIN</small><div>{st}</div></div>'
             f'<div class="inc">{inc}</div></div>'
             f'<div class="s"><small>PASSENGER</small><b>YOU &amp; FAMILY</b><small>CLASS</small><b>ALL-INCLUSIVE</b>'
             f'<small>FARE PER PERSON</small><b class="pr">{PRICE}</b><b class="tx">+ 5% GST + 2% TCS<br>incl. flights &amp; visas</b>'
@@ -206,11 +206,11 @@ def mapposter():
 .nt{position:absolute;top:1040px;left:40px;right:40px;text-align:center;font-family:Montserrat;font-weight:700;font-size:21px;color:var(--n2)}
 """
     leg = ('<div class="lg2"><div><span class="k1"></span>Overnight stay</div><div><span class="k2"></span>Sightseeing</div>'
-           '<div><span class="k3"></span>Private coach</div><div><span class="k4"></span>Channel ferry</div><div><span class="k5"></span>Train</div></div>')
+           '<div><span class="k3"></span>Private coach</div><div><span class="k5"></span>Train</div></div>')
     body = (f'{logos(False)}<div class="hd"><div class="a">One smooth journey</div><div class="b">London to Italy</div>'
             f'<div class="c">8 COUNTRIES · 16 DAYS · 17 APR – 2 MAY 2027</div></div>{m}'
             f'<div class="pc"><small>ALL-INCLUSIVE</small><b>{PRICE}</b><span>per person + 5% GST + 2% TCS<br>flights &amp; visas included</span></div>{leg}{HL}'
-            f'<div class="nt">About 4,000 km by private coach · Channel ferry · Swiss &amp; Italian trains · {TOTAL} attractions</div>'
+            f'<div class="nt">About 3,500 km by private coach · Eurostar · Swiss &amp; Italian trains · {TOTAL} attractions</div>'
             + '<div class="inr">' + ''.join(f'<div>{ic(I[k], "#E8445A")}{t}</div>' for k, t in [("plane","Flights"),("passport","Visas"),("bed","Hotels"),("food","Indian meals"),("bus","Coach & trains"),("ticket","Entry tickets")]) + '</div>'
             + brush())
     doc(css, body, 1350, "p2_map.html")
@@ -223,7 +223,7 @@ def story():
           ("NETHERLANDS", "Keukenhof tulips · windmills · canals", "keukenhof"),
           ("GERMANY", "Cologne Cathedral · Black Forest", "cologne"),
           ("SWITZERLAND", "Mount Titlis snow · Lucerne · Rhine Falls", "titlis"),
-          ("ITALY", "Venice · Colosseum · Pisa · Lake Como", "venice"),
+          ("ITALY", "Venice · Colosseum · Pisa · Milan", "venice"),
           ("VATICAN CITY", "Sistine Chapel · St Peter's Basilica", "stpeters")]
     strips = "".join(f'<div class="st"><img src="{IMG(k)}"><div class="sl"><b>{i:02d}</b><div><h3>{c}</h3><p>{E(s)}</p></div></div></div>'
                      for i, (c, s, k) in enumerate(cs, 1))

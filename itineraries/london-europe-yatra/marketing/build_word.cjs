@@ -95,7 +95,7 @@ children.push(h1('1. The yatra at a glance'),
   kv([
     ['Dates', '17 April – 2 May 2027 (15 nights / 16 days)'],
     ['Countries', D.yatra.countries.join(', ')],
-    ['Route', 'London (3 nights) → Paris (2) → Brussels → Amsterdam → Cologne → Black Forest (Titisee) → Zurich → Interlaken → Milan → Venice-Mestre → Florence → near Milan Malpensa. Rome and the Vatican are a high-speed-train day on 30 April.'],
+    ['Route', 'London (3 nights) → Eurostar → Paris (2) → Brussels → Amsterdam → Cologne → Black Forest (Titisee) → Zurich → Interlaken → Milan → Venice-Mestre → Rome (by high-speed train) → Pisa → Milan Malpensa.'],
     BHAKTI ? ['Flights', 'International flights included (into London Heathrow; home from Milan Malpensa)'] : ['Departure cities', 'Hyderabad and Bangalore (flights into London Heathrow; home from Milan Malpensa)'],
     ['Temples', D.temples.join(', ')],
     ['Yatra amount', `${D.price.base} per person, including international flights, + 5% GST + 2% TCS`],
@@ -137,7 +137,7 @@ children.push(h1('4. Day-by-day summary'),
   bullet(`09:00 coach leaves the hotel; sightseeing and temple darshan with narration in ${BHAKTI ? 'Hindi and English' : 'Telugu, Hindi and English'}`),
   bullet('Lunch at an Indian restaurant or a temple near the sightseeing'),
   bullet('Evening arati at a temple where possible; dinner at the hotel; next-day briefing'),
-  p('Exceptions: Day 14 (Rome) starts at 05:00 for the 06:30 train, and Day 16 starts at 06:30 for the 11:30 and 11:40 flights.'),
+  p('Exceptions: Day 4 starts at 05:00 for the 08:00 Eurostar (packed breakfast), Day 14 at 05:00 for the train to Rome, Day 15 at 07:00, and Day 16 at 04:00 for the drive from Pisa to Malpensa.'),
   brk(),
 );
 

@@ -18,13 +18,13 @@
   },
   {
    "n": 4,
-   "key": "H_CGN",
-   "name": "Hotel, Cologne centre"
+   "key": "DOM",
+   "name": "Cologne Cathedral"
   },
   {
    "n": 5,
-   "key": "DOM",
-   "name": "Cologne Cathedral"
+   "key": "H_CGN",
+   "name": "Hotel, Cologne centre"
   }
  ],
  "legs": [
@@ -59,28 +59,28 @@
    "frm": 3,
    "to": 4,
    "from_name": "Keukenhof tulip gardens",
-   "to_name": "Hotel, Cologne centre",
+   "to_name": "Cologne Cathedral",
    "mode": "Coach",
    "km": 260,
    "minutes": 195,
    "duration": "3 h 15 min",
-   "time": "15:30–18:45",
+   "time": "15:00–18:15",
    "estimate": false
   },
   {
    "n": 4,
    "frm": 4,
    "to": 5,
-   "from_name": "Hotel, Cologne centre",
-   "to_name": "Cologne Cathedral",
-   "mode": "Walk",
-   "km": 0.2,
-   "minutes": 5,
-   "duration": "5 min",
-   "time": "on foot",
-   "estimate": true
+   "from_name": "Cologne Cathedral",
+   "to_name": "Hotel, Cologne centre",
+   "mode": "Coach",
+   "km": 2,
+   "minutes": 10,
+   "duration": "10 min",
+   "time": "19:00–19:10",
+   "estimate": false
   }
  ],
- "coach_km": 335,
- "walk_km": 0.2
+ "coach_km": 337,
+ "walk_km": 0
 }

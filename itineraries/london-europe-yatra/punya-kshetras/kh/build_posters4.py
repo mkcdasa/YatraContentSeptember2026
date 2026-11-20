@@ -1,7 +1,7 @@
 """
 Four two-part poster sets (1080 × 1350 each), built to attract Indian travellers:
   bollywood – Bollywood-famous places (Swiss snow, Keukenhof tulips, Eiffel, Venice, Madame Tussauds)
-  unesco    – 2 wonders of the world + 11 UNESCO World Heritage Sites
+  unesco    – 2 wonders of the world + 10 UNESCO World Heritage Sites
   top10     – top 10 must-see attractions countdown
   passport  – country-by-country passport stamps
 Part 1 = the hook; Part 2 = every detail (16 days, inclusions, flights, price, contacts), styled per set.
@@ -53,7 +53,7 @@ PART2_CSS = """
 .why4 b{color:var(--ac2)}
 """
 INC = [("plane", "International flights"), ("passport", "UK & Schengen visas"), ("bed", "15 nights hotels"), ("food", "Indian veg, all meals"),
-       ("bus", "Coach, ferry & trains"), ("ticket", f"{TOTAL} attractions"), ("user", "Indian tour manager"), ("senior", "Senior-friendly pace")]
+       ("bus", "Coach, Eurostar & trains"), ("ticket", f"{TOTAL} attractions"), ("user", "Indian tour manager"), ("senior", "Senior-friendly pace")]
 def part2(title_small, title, foot):
     days = "".join(f'<div class="dd"><i><small>DAY</small>{n:02d}</i><div><b>{E(t)} · {E(dt)}</b><span>{E(p)}</span></div></div>'
                    for n, (dt, t, p) in enumerate(DAYLINE, 1))
@@ -134,17 +134,17 @@ def unesco():
 """
     un = [("tower", "Tower of London"), ("bigben", "Westminster"), ("notredame", "Paris, Seine banks"), ("grandplace", "Grand Place, Brussels"),
           ("amsterdam", "Amsterdam canals"), ("cologne", "Cologne Cathedral"), ("venice", "Venice & lagoon"), ("colosseum2", "Historic Rome"),
-          ("stpeters", "Vatican City"), ("florence", "Historic Florence"), ("pisa", "Piazza del Duomo, Pisa"), ("eiffelnight", "+ Eiffel Tower")]
+          ("stpeters", "Vatican City"), ("pisa", "Piazza del Duomo, Pisa"), ("eiffelnight", "+ Eiffel Tower"), ("trevi", "+ Trevi Fountain")]
     ug = "".join(f'<div class="u"><img src="{IMG(k)}"><span>{t}</span></div>' for k, t in un)
     ft = footer("#0B2E19", "#fff", "#E9C46A", "#0B2E19", "#E9C46A")
     p1 = (f'<div class="pat"></div>{logos()}<div class="pg1">1 / 2</div>'
           f'<div class="ttl"><small>LONDON &amp; EUROPE GRAND TOUR · 2027</small><b>See the Wonders of the World</b><span>in 16 days</span></div>'
           f'<div class="w2"><div class="wx"><img src="{IMG("colosseum")}"><div class="bd">NEW 7 WONDERS OF THE WORLD</div><span>Colosseum, Rome</span></div>'
           f'<div class="wx"><img src="{IMG("pisa")}"><div class="bd">WONDER OF THE MEDIEVAL WORLD</div><span>Leaning Tower of Pisa</span></div></div>'
-          f'<div class="uh"><i>11</i><b>UNESCO World Heritage Sites</b></div><div class="ug">{ug}</div>'
+          f'<div class="uh"><i>10</i><b>UNESCO World Heritage Sites</b></div><div class="ug">{ug}</div>'
           f'<div class="pp"><div><small>ALL-INCLUSIVE · PER PERSON</small><b>{PRICE}</b></div><span>+ 5% GST + 2% TCS · 17 Apr – 2 May 2027<br>Flights, visas, hotels &amp; Indian meals included</span></div>{ft}')
     doc(css, p1, "p4_unesco_1.html")
-    doc(css, part2("2 WONDERS · 11 UNESCO SITES · 8 COUNTRIES", "Your 16-day heritage journey", ft), "p4_unesco_2.html", "")
+    doc(css, part2("2 WONDERS · 10 UNESCO SITES · 8 COUNTRIES", "Your 16-day heritage journey", ft), "p4_unesco_2.html", "")
 
 # ================= 3. Top 10 must-see (sunset orange / white) =================
 def top10():
@@ -171,14 +171,14 @@ def top10():
 """
     t = [("eiffel", "Eiffel Tower, Paris", "Lift to the 2nd floor · Seine night cruise"),
          ("titlis", "Snow on Mount Titlis", "Rotair cable car · Glacier Cave · Cliff Walk"),
-         ("colosseum", "Colosseum, Rome", "A New 7 Wonder of the World – we go inside"),
+         ("colosseum", "Colosseum, Rome", "A New 7 Wonder of the World"),
          ("venice", "Venice gondola ride", "St Mark's Square · Rialto · Bridge of Sighs"),
          ("pisa", "Leaning Tower of Pisa", "The famous 'holding the tower' photo"),
-         ("bigben", "London Eye & Big Ben", "Thames cruise · Westminster at sunset"),
+         ("bigben", "London Eye & Big Ben", "British Museum · Westminster by night"),
          ("sistine", "Vatican & Sistine Chapel", "Michelangelo · St Peter's Basilica"),
          ("crownjewels", "The Koh-i-Noor", "Crown Jewels at the Tower of London"),
          ("keukenhof", "Keukenhof tulips", "Millions of flowers in full bloom"),
-         ("como", "Lake Como & Lucerne", "Boat rides among Alps and villas")]
+         ("lucerne", "Lucerne & the lake", "Chapel Bridge · Lake Lucerne cruise")]
     tg = "".join(f'<div class="tt"><img src="{IMG(k)}"><i>{n}</i><div class="r"><b>{a}</b><span>{b}</span></div></div>' for n, (k, a, b) in enumerate(t, 1))
     ft = footer("#431407", "#fff", "linear-gradient(90deg,#F97316,#B91C1C)", "#fff", "#FFE08A")
     p1 = (f'{logos()}<div class="pg1">1 / 2</div><div class="ttl"><div class="n">10</div><div class="t"><small>MUST-SEE IN EUROPE</small><b>All in one tour</b>'
@@ -223,7 +223,7 @@ def passport():
            ("NETHERLANDS", "Keukenhof · windmills · canals", "keukenhof", "#D9480F", "1 NIGHT"),
            ("GERMANY", "Cologne Cathedral · Black Forest", "cologne", "#2F3E46", "2 NIGHTS"),
            ("SWITZERLAND", "Titlis snow · Lucerne · Rhine Falls", "titlis", "#C0392B", "2 NIGHTS"),
-           ("ITALY", "Venice · Colosseum · Pisa · Como", "venice", "#1F6F3F", "4 NIGHTS"),
+           ("ITALY", "Venice · Colosseum · Pisa · Milan", "venice", "#1F6F3F", "4 NIGHTS"),
            ("VATICAN", "Sistine Chapel · St Peter's", "stpeters", "#6B21A8", "DAY 14")]
     st = "".join(f'<div class="st" style="--c:{c}"><i>{n}</i><img src="{IMG(k)}"><b>{t}</b><span>{d}</span></div>' for t, d, k, c, n in stp)
     ft = footer("#0F2238", "#fff", "#C0392B", "#fff", "#F2C14E")
@@ -231,7 +231,7 @@ def passport():
           f'<div class="lgw"><img src="{K.LOGO_HK}"></div><div class="lgw"><img src="{K.LOGO_PK}"></div></div><div class="pg1" style="top:118px">1 / 2</div>'
           f'<div class="cv"><small>GRAND TOUR</small><b>London &amp;<br>Europe</b><div class="gl">{ic(I["globe"], "#F2C14E", 1.4)}</div><span>PASSPORT · 2027</span></div>'
           f'<div class="tt2" style="top:200px"><small>8 STAMPS IN 16 DAYS</small><b>Collect them all</b>'
-          f'<span>17 April – 2 May 2027 · {TOTAL} attractions · 11 UNESCO sites</span><em>Flights &amp; visas included</em></div>'
+          f'<span>17 April – 2 May 2027 · {TOTAL} attractions · 10 UNESCO sites</span><em>Flights &amp; visas included</em></div>'
           f'<div class="stg">{st}</div>'
           f'<div class="pp"><div><small>ALL-INCLUSIVE · PER PERSON</small><b>{PRICE}</b></div><span>+ 5% GST + 2% TCS<br>Hotels, Indian meals, coach &amp; tickets included</span></div>{ft}')
     doc(css, p1, "p4_passport_1.html")

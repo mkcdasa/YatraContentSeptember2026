@@ -8,13 +8,13 @@
   },
   {
    "n": 2,
-   "key": "DUOMO_MIL",
-   "name": "Milan Duomo & Galleria Vittorio Emanuele II"
+   "key": "PRABHUPADADESH",
+   "name": "ISKCON Prabhupada Desh"
   },
   {
    "n": 3,
-   "key": "PRABHUPADADESH",
-   "name": "ISKCON Prabhupada Desh"
+   "key": "VIC_LUNCH",
+   "name": "Indian restaurant, Vicenza"
   },
   {
    "n": 4,
@@ -33,6 +33,11 @@
   },
   {
    "n": 7,
+   "key": "VEN_DIN",
+   "name": "Indian restaurant, Venice"
+  },
+  {
+   "n": 8,
    "key": "H_MES",
    "name": "Hotel, Venice-Mestre"
   }
@@ -43,38 +48,38 @@
    "frm": 1,
    "to": 2,
    "from_name": "Hotel, Milan",
-   "to_name": "Milan Duomo & Galleria Vittorio Emanuele II",
+   "to_name": "ISKCON Prabhupada Desh",
    "mode": "Coach",
-   "km": 3,
-   "minutes": 20,
-   "duration": "20 min",
-   "time": "09:00–09:20",
+   "km": 210,
+   "minutes": 165,
+   "duration": "2 h 45 min",
+   "time": "09:00–11:45",
    "estimate": false
   },
   {
    "n": 2,
    "frm": 2,
    "to": 3,
-   "from_name": "Milan Duomo & Galleria Vittorio Emanuele II",
-   "to_name": "ISKCON Prabhupada Desh",
+   "from_name": "ISKCON Prabhupada Desh",
+   "to_name": "Indian restaurant, Vicenza",
    "mode": "Coach",
-   "km": 210,
-   "minutes": 165,
-   "duration": "2 h 45 min",
-   "time": "10:15–13:00",
+   "km": 20,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "13:00–13:30",
    "estimate": false
   },
   {
    "n": 3,
    "frm": 3,
    "to": 4,
-   "from_name": "ISKCON Prabhupada Desh",
+   "from_name": "Indian restaurant, Vicenza",
    "to_name": "Basilica of St Anthony, Padova",
    "mode": "Coach",
    "km": 35,
    "minutes": 45,
    "duration": "45 min",
-   "time": "14:45–15:30",
+   "time": "14:20–15:05",
    "estimate": false
   },
   {
@@ -87,7 +92,7 @@
    "km": 40,
    "minutes": 45,
    "duration": "45 min",
-   "time": "16:10–16:55",
+   "time": "15:45–16:30",
    "estimate": false
   },
   {
@@ -106,30 +111,43 @@
   {
    "n": 6,
    "frm": 6,
-   "to": 5,
+   "to": 7,
    "from_name": "St Mark's Square, Doge's Palace & gondola ride",
-   "to_name": "Venice Tronchetto coach terminal",
-   "mode": "Boat",
-   "km": 3.3,
-   "minutes": 25,
-   "duration": "25 min",
-   "time": "vaporetto",
+   "to_name": "Indian restaurant, Venice",
+   "mode": "Walk",
+   "km": 1.2,
+   "minutes": 20,
+   "duration": "20 min",
+   "time": "on foot",
    "estimate": true
   },
   {
    "n": 7,
+   "frm": 7,
+   "to": 5,
+   "from_name": "Indian restaurant, Venice",
+   "to_name": "Venice Tronchetto coach terminal",
+   "mode": "Boat",
+   "km": 4,
+   "minutes": 30,
+   "duration": "30 min",
+   "time": "20:30–21:00",
+   "estimate": false
+  },
+  {
+   "n": 8,
    "frm": 5,
-   "to": 7,
+   "to": 8,
    "from_name": "Venice Tronchetto coach terminal",
    "to_name": "Hotel, Venice-Mestre",
    "mode": "Coach",
    "km": 10,
    "minutes": 25,
    "duration": "25 min",
-   "time": "20:05–20:30",
+   "time": "21:00–21:25",
    "estimate": false
   }
  ],
- "coach_km": 298,
- "walk_km": 0
+ "coach_km": 315,
+ "walk_km": 1.2
 }

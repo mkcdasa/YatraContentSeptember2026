@@ -15,24 +15,24 @@ PK, C, E, ic, I, IMG = K.PK, K.C, K.E, K.ic, K.I, K.IMG
 TOTAL = sum(len(i) for _, i in PK["attractions"]["countries"])
 DAYLINE = [
     ("Sat 17 Apr", "Fly to London", "Hyderabad & Bangalore groups land at Heathrow · welcome dinner"),
-    ("Sun 18 Apr", "London", "Akshaya Patra · Bhaktivedanta Manor · Madame Tussauds · Soho · Covent Garden"),
-    ("Mon 19 Apr", "Royal London", "Buckingham Palace · Tower of London & Koh-i-Noor · Thames cruise · London Eye"),
-    ("Tue 20 Apr", "London → Paris", "White Cliffs of Dover · English Channel ferry · drive to Paris"),
-    ("Wed 21 Apr", "Paris", "Eiffel Tower 2nd floor · Arc de Triomphe · Notre-Dame · Seine night cruise"),
-    ("Thu 22 Apr", "Paris → Brussels", "Louvre & Mona Lisa · Atomium · Grand Place · Manneken Pis"),
+    ("Sun 18 Apr", "London", "Madame Tussauds · ISKCON Soho · British Museum · Bhaktivedanta Manor"),
+    ("Mon 19 Apr", "Royal London", "Buckingham Palace · Tower of London & Koh-i-Noor · Trafalgar Square · London Eye"),
+    ("Tue 20 Apr", "London → Paris", "Eurostar under the Channel · Arc de Triomphe · Notre-Dame · Seine cruise"),
+    ("Wed 21 Apr", "Paris", "Louvre & Mona Lisa · Eiffel Tower 2nd floor · Trocadéro"),
+    ("Thu 22 Apr", "Paris → Brussels", "Atomium · Grand Place · Manneken Pis · Belgian waffles"),
     ("Fri 23 Apr", "Belgium → Amsterdam", "Radhadesh château in the Ardennes · Amsterdam canal cruise"),
-    ("Sat 24 Apr", "Holland → Cologne", "Zaanse Schans windmills · Keukenhof tulip gardens"),
-    ("Sun 25 Apr", "Germany", "Cologne Cathedral · Goloka Dham · into the Black Forest"),
+    ("Sat 24 Apr", "Holland → Cologne", "Zaanse Schans windmills · Keukenhof tulips · Cologne Cathedral"),
+    ("Sun 25 Apr", "Germany", "ISKCON Cologne · Goloka Dham · through the Black Forest"),
     ("Mon 26 Apr", "Black Forest → Zurich", "Lake Titisee & cuckoo clocks · Rhine Falls · Zurich old town"),
-    ("Tue 27 Apr", "Swiss Alps", "Snow on Mount Titlis · Lucerne · scenic train to Interlaken"),
-    ("Wed 28 Apr", "Alps → Italy", "Jungfrau view · Gotthard · Lake Como boat ride · Milan"),
-    ("Thu 29 Apr", "Milan → Venice", "Milan Duomo · Padova · St Mark's Square · gondola ride"),
-    ("Fri 30 Apr", "Rome & Vatican", "Vatican Museums · Sistine Chapel · St Peter's · Colosseum · Trevi"),
-    ("Sat 1 May", "Florence & Pisa", "Duomo · Ponte Vecchio · Villa Vrindavan · Leaning Tower of Pisa"),
-    ("Sun 2 May", "Fly home", "Milan → Dubai / Abu Dhabi → Hyderabad / Bangalore (land 3 May)"),
+    ("Tue 27 Apr", "Swiss Alps", "Snow on Mount Titlis · Ice Flyer · Lucerne · train to Interlaken"),
+    ("Wed 28 Apr", "Alps → Italy", "Gotthard · Hare Krishna village, Bergamo · Milan Duomo"),
+    ("Thu 29 Apr", "Milan → Venice", "Prabhupada Desh · Padova · St Mark's Square · gondola ride"),
+    ("Fri 30 Apr", "Rome & Vatican", "High-speed train · Vatican Museums · Sistine Chapel · St Peter's"),
+    ("Sat 1 May", "Rome → Pisa", "Colosseum · Trevi Fountain · Pantheon · Leaning Tower of Pisa"),
+    ("Sun 2 May", "Fly home", "Pisa → Milan → Dubai / Abu Dhabi → Hyderabad / Bangalore (land 3 May)"),
 ]
 INCL = [("plane", "International flights"), ("passport", "UK & Schengen visas"), ("bed", "15 nights hotels"),
-        ("food", "All Indian veg meals"), ("bus", "Private coach, ferry & trains"), ("ticket", "All entry tickets"),
+        ("food", "All Indian veg meals"), ("bus", "Coach, Eurostar & trains"), ("ticket", "All entry tickets"),
         ("user", "Indian tour manager")]
 WONDERS = [("colosseum", "Colosseum", "New 7 Wonders"), ("pisa", "Leaning Tower", "Medieval Wonder"),
            ("eiffel", "Eiffel Tower", "330 m icon"), ("sistine", "Sistine Chapel", "Michelangelo")]
@@ -137,7 +137,7 @@ def hero(h, img="towerbridge"):
 <div class="top"><div class="lgw"><img src="{K.LOGO_HK}"></div><img class="seal" src="{K.SEAL}"><div class="lgw"><img src="{K.LOGO_PK}"></div></div>
 <div class="tt"><div class="s1">London &amp;</div><div class="s2">EUROPE</div><div class="s3">GRAND TOUR 2027</div></div>
 <div class="hb"><div class="dt"><span>17 April – 2 May 2027</span><b>15 Nights / 16 Days</b></div>
-<div class="stat">8 Countries · {TOTAL} Attractions · 11 UNESCO World Heritage Sites</div><div class="cty">{circ}</div></div></div>'''
+<div class="stat">8 Countries · {TOTAL} Attractions · {len(PK["attractions"]["unesco"])} UNESCO World Heritage Sites</div><div class="cty">{circ}</div></div></div>'''
 
 def band():
     return f'''<div class="band"><div class="pr"><small>All-inclusive · per person</small><b>{E(PK["price"])}</b><em>+ 5% GST + 2% TCS (TCS credited back in your ITR)</em></div>

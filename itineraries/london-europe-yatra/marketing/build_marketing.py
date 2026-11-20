@@ -45,42 +45,42 @@ TEMPLES = ["Bhaktivedanta Manor, Watford", "ISKCON Soho, London", "ISKCON Paris"
            "ISKCON Cologne", "Goloka Dham, Germany", "ISKCON Zurich", "Villaggio Hare Krishna, Italy",
            "Prabhupada Desh, Italy", "Villa Vrindavan, Florence"]
 
-WONDERS = ["Changing of the Guard & Tower of London (Koh-i-Noor)", "London Eye & Thames cruise",
-           "Eiffel Tower, Louvre & Seine cruise", "Keukenhof tulips & Dutch windmills",
-           "Mount Titlis snow & Lake Lucerne", "Rhine Falls & the Black Forest",
-           "Venice gondola ride", "Vatican, Sistine Chapel & Colosseum", "Florence & Leaning Tower of Pisa"]
+WONDERS = ["Changing of the Guard & Tower of London (Koh-i-Noor)", "British Museum, Trafalgar Square & London Eye",
+           "Eurostar through the Channel Tunnel", "Eiffel Tower, Louvre & Seine cruise", "Keukenhof tulips & Dutch windmills",
+           "Mount Titlis snow, Ice Flyer & Lake Lucerne", "Rhine Falls & the Black Forest",
+           "Venice gondola ride", "Vatican, Sistine Chapel, Colosseum & Trevi", "Leaning Tower of Pisa"]
 
 # day, short route for the at-a-glance list, brochure description
 DAY_TEXT = [
     (1, "Fly to London", "Bangalore group flies Etihad via Abu Dhabi (dep 04:35, arrive Heathrow 12:45); Hyderabad group flies Emirates via Dubai (dep 10:15, arrive 18:40). Kamada Ekadasi: fruit meals on board. Welcome kirtan and dinner at an Indian restaurant in Wembley."),
-    (2, "Akshaya Patra · Bhaktivedanta Manor · Madame Tussauds · ISKCON Soho", "Visit the Akshaya Patra kitchen in Watford, then Bhaktivedanta Manor for darshan of Sri Sri Radha-Gokulananda, the Sunday programme and feast prasadam. Afternoon at Madame Tussauds; evening arati at ISKCON Soho, where Srila Prabhupada installed Radha-Londonishvara in 1969; stroll through Covent Garden."),
-    (3, "Royal London: Guard · Tower & Koh-i-Noor · Thames · London Eye", "Changing of the Guard at Buckingham Palace and The King's Gallery; the Tower of London with the Crown Jewels and the Koh-i-Noor; a walk on Tower Bridge; a Thames boat ride; the London Eye at sunset; Big Ben and the Houses of Parliament."),
-    (4, "Dover ferry → Calais → Paris", "Coach to Dover and the ferry across the English Channel past the White Cliffs, then on through France to Paris. Balarama Rasayatra kirtan on the way."),
-    (5, "Paris: Eiffel Tower · Notre-Dame · ISKCON Paris · Seine", "Arc de Triomphe and the Champs-Élysées, the Eiffel Tower (2nd floor), Notre-Dame, darshan at ISKCON Paris and an evening cruise on the Seine."),
-    (6, "Louvre → Brussels", "Morning at the Louvre (Mona Lisa), then Brussels: the Atomium, the Grand Place and Manneken Pis."),
-    (7, "Radhadesh → Amsterdam canal cruise", "Darshan and prasadam at ISKCON Radhadesh, a castle temple in the Ardennes hills; on to Amsterdam for an evening canal cruise."),
-    (8, "Windmills · Keukenhof tulips → Cologne", "The windmills of Zaanse Schans and the Keukenhof tulip gardens at peak bloom; drive to Cologne."),
-    (9, "Cologne · Goloka Dham → Black Forest", "Cologne Cathedral and ISKCON Cologne, then the Sunday programme and feast at Goloka Dham; evening in the Black Forest."),
-    (10, "Titisee · Rhine Falls → Zurich", "Lake Titisee and the cuckoo-clock shops, the thundering Rhine Falls, Zurich and darshan at ISKCON Zurich."),
-    (11, "Mount Titlis · Lucerne → Interlaken", "Snow on Mount Titlis by the rotating cable car; Lucerne's Lion Monument and Chapel Bridge; a lake cruise; scenic train to Interlaken."),
-    (12, "Gotthard → Lake Como → Villaggio Hare Krishna", "Through the Swiss Alps and the Gotthard to Italy: a boat ride on Lake Como and darshan at Villaggio Hare Krishna; overnight Milan."),
-    (13, "Milan · Prabhupada Desh · Padova · Venice", "Milan Cathedral, prasadam at ISKCON Prabhupada Desh, the Basilica of St Anthony in Padova and an evening in Venice: St Mark's Square and a gondola ride."),
-    (14, "Rome by high-speed train: Vatican · Colosseum", "High-speed train to Rome: the Vatican Museums and Sistine Chapel, St Peter's Basilica, the Colosseum and the Trevi Fountain; train to Florence."),
-    (15, "Florence · Villa Vrindavan · Pisa", "Florence (Duomo, Ponte Vecchio, Piazzale Michelangelo), prasadam at ISKCON Villa Vrindavan, the Leaning Tower of Pisa; farewell dinner near Milan Malpensa."),
-    (16, "Fly home", "Hyderabad group: Emirates from Milan Malpensa via Dubai, landing 03:05; Bangalore group: Etihad via Abu Dhabi, landing 03:15 on Monday 3 May. Varuthini Ekadasi: fruit meals on board."),
+    (2, "Madame Tussauds · ISKCON Soho · British Museum · Bhaktivedanta Manor", "Morning at Madame Tussauds; darshan and prasadam lunch at ISKCON Soho, where Srila Prabhupada installed Radha-Londonishvara in 1969; the British Museum; a short stop at the Akshaya Patra kitchen in Watford; evening arati and dinner at Bhaktivedanta Manor."),
+    (3, "Royal London: Guard · Tower & Koh-i-Noor · Trafalgar Square · London Eye", "Changing of the Guard at Buckingham Palace; the Tower of London with the Crown Jewels and the Koh-i-Noor; Tower Bridge; Trafalgar Square; the London Eye; Big Ben and the Houses of Parliament lit up at night."),
+    (4, "Eurostar → Paris · Notre-Dame · Seine · ISKCON Paris", "The 08:00 Eurostar under the English Channel to Paris (packed breakfast). Paris orientation: the Arc de Triomphe, the Champs-Élysées, Notre-Dame and the Île de la Cité; a Seine cruise; evening arati and dinner at ISKCON Paris. Balarama Rasayatra."),
+    (5, "Paris: Louvre · Eiffel Tower · Trocadéro", "A guided morning at the Louvre (Mona Lisa, Venus de Milo, Winged Victory), then the Eiffel Tower to the 2nd floor and the classic photo from the Trocadéro."),
+    (6, "Paris → Brussels: Atomium · Grand Place", "Drive to Brussels: the Atomium, the Grand Place, Manneken Pis and the Galeries Royales Saint-Hubert, with time for waffles and chocolate."),
+    (7, "Radhadesh → Amsterdam canal cruise", "Darshan, kirtan and prasadam at ISKCON Radhadesh, a castle temple in the Ardennes hills, with its Museum of Sacred Art; on to Amsterdam for an evening canal cruise."),
+    (8, "Windmills · Keukenhof tulips → Cologne Cathedral", "The windmills, cheese and clog workshops of Zaanse Schans and the Keukenhof tulip gardens at peak bloom; drive to Cologne and its great cathedral."),
+    (9, "ISKCON Cologne · Goloka Dham → Black Forest", "Darshan at ISKCON Cologne, then the Sunday programme at Goloka Dham; through the Black Forest to Lake Titisee."),
+    (10, "Titisee · Rhine Falls → Zurich", "Lake Titisee and the cuckoo-clock shops, the thundering Rhine Falls, a Zurich city tour and darshan at ISKCON Zurich."),
+    (11, "Mount Titlis · Lucerne → Interlaken", "Snow on Mount Titlis by the rotating cable car: Glacier Cave, Cliff Walk and Ice Flyer; Lucerne's Lion Monument and Chapel Bridge; a lake cruise; the scenic Luzern–Interlaken Express."),
+    (12, "Gotthard → Villaggio Hare Krishna → Milan", "Through the Swiss Alps and the Gotthard to Italy: prasadam lunch at Villaggio Hare Krishna near Bergamo, then Milan Cathedral, the Galleria and La Scala in the evening."),
+    (13, "Prabhupada Desh · Padova · Venice", "Darshan at ISKCON Prabhupada Desh, the Basilica of St Anthony in Padova and an evening in Venice: St Mark's Square, the Doge's Palace, the Rialto Bridge and a gondola ride."),
+    (14, "Rome by high-speed train: Vatican", "High-speed train to Rome: the Vatican Museums and the Sistine Chapel, St Peter's Basilica and St Peter's Square; overnight in Rome."),
+    (15, "Colosseum · Trevi · Villa Vrindavan · Pisa", "The Colosseum and the Roman Forum, the Trevi Fountain and the Pantheon; prasadam at ISKCON Villa Vrindavan near Florence; the Leaning Tower of Pisa; farewell dinner in Pisa."),
+    (16, "Fly home", "Early drive from Pisa to Milan Malpensa. Hyderabad group: Emirates via Dubai, landing 03:05; Bangalore group: Etihad via Abu Dhabi, landing 03:15 on Monday 3 May. Varuthini Ekadasi: fruit meals on board."),
 ]
 
 # route map: (label, lat, lon, label side, label dy, minor) - minor labels are hidden on small maps
-CITIES = [("London", 51.51, -0.13, "l", 0, False), ("Dover", 51.13, 1.31, "r", 0, True), ("Paris", 48.86, 2.35, "l", 0, False),
+CITIES = [("London", 51.51, -0.13, "l", 0, False), ("Paris", 48.86, 2.35, "l", 0, False),
           ("Brussels", 50.85, 4.35, "r", 17, True), ("Radhadesh", 50.31, 5.45, "r", 12, True), ("Amsterdam", 52.37, 4.90, "r", 0, False),
           ("Cologne", 50.94, 6.96, "r", -4, False), ("Black Forest", 47.90, 8.15, "l", 0, True), ("Zurich", 47.37, 8.54, "r", -6, False),
-          ("Lucerne", 47.05, 8.31, "r", 12, True), ("Interlaken", 46.69, 7.86, "l", 2, False), ("Lake Como", 45.81, 9.08, "r", -6, True),
+          ("Lucerne", 47.05, 8.31, "r", 12, True), ("Interlaken", 46.69, 7.86, "l", 2, False), ("Bergamo", 45.69, 9.67, "r", -6, True),
           ("Milan", 45.46, 9.19, "r", 14, False), ("Venice", 45.44, 12.33, "r", 0, False), ("Rome", 41.90, 12.50, "r", 0, False),
-          ("Florence", 43.77, 11.25, "r", 0, False), ("Pisa", 43.72, 10.40, "l", 0, False), ("Malpensa", 45.63, 8.72, "l", 0, None)]
-ROUTE = ["London", "Dover", "Paris", "Brussels", "Radhadesh", "Amsterdam", "Cologne", "Black Forest", "Zurich",
-         "Lucerne", "Interlaken", "Lake Como", "Milan", "Venice", "Rome", "Florence", "Pisa", "Malpensa"]
-TRAIN_LEGS = {("Venice", "Rome"), ("Rome", "Florence")}
-FERRY_LEGS = {("Dover", "Paris")}
+          ("Florence", 43.77, 11.25, "r", 0, True), ("Pisa", 43.72, 10.40, "l", 0, False), ("Malpensa", 45.63, 8.72, "l", 0, None)]
+ROUTE = ["London", "Paris", "Brussels", "Radhadesh", "Amsterdam", "Cologne", "Black Forest", "Zurich",
+         "Lucerne", "Interlaken", "Bergamo", "Milan", "Venice", "Rome", "Florence", "Pisa", "Malpensa"]
+TRAIN_LEGS = {("London", "Paris"), ("Lucerne", "Interlaken"), ("Venice", "Rome")}
+FERRY_LEGS = set()
 
 
 def route_svg(w, h, dark=False):
@@ -106,7 +106,7 @@ def route_svg(w, h, dark=False):
         out.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{ink}" stroke-width="3" stroke-linecap="round"{dash}/>')
     for name, lat, lon, side, dy, minor in CITIES:
         x, y = pos[name]
-        big = name in ("London", "Paris", "Amsterdam", "Zurich", "Venice", "Rome", "Florence")
+        big = name in ("London", "Paris", "Amsterdam", "Zurich", "Venice", "Rome", "Pisa")
         r = 7 if big else 5
         out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="#E8891D" stroke="{text}" stroke-width="2"/>')
         if minor is None or (minor and small):
@@ -119,9 +119,7 @@ def route_svg(w, h, dark=False):
     out.append(f'<g font-size="13" fill="{text}"><line x1="16" y1="{h-46}" x2="46" y2="{h-46}" stroke="{ink}" stroke-width="3"/>'
                f'<text x="54" y="{h-41}">Coach</text>'
                f'<line x1="16" y1="{h-26}" x2="46" y2="{h-26}" stroke="{ink}" stroke-width="3" stroke-dasharray="7 6"/>'
-               f'<text x="54" y="{h-21}">Train</text>'
-               f'<line x1="110" y1="{h-26}" x2="140" y2="{h-26}" stroke="{ink}" stroke-width="3" stroke-dasharray="2 6"/>'
-               f'<text x="148" y="{h-21}">Ferry</text></g>')
+               f'<text x="54" y="{h-21}">Train</text></g>')
     out.append(f'<rect x="1" y="1" width="{w-2}" height="{h-2}" fill="none" stroke="{soft}" rx="14"/>')
     out.append("</svg>")
     return "".join(out)
@@ -307,7 +305,7 @@ def poster_price():
   <div class="small">*TCS (Tax Collected at Source) is deposited against your PAN. You get it back as a refund or as credit against your tax when you file your income-tax return. Per person, twin sharing.</div></div>
  <div class="card"><h3>Included</h3><ul>
   <li>International flights from Hyderabad or Bangalore (economy, group fares)</li><li>UK and Schengen visa charges</li>
-  <li>15 nights in hotels</li><li>All meals: Satvik prasadam, no onion or garlic</li><li>Private coach throughout, ferry, boats and trains in the plan</li>
+  <li>15 nights in hotels</li><li>All meals: Satvik prasadam, no onion or garlic</li><li>Private coaches, Eurostar, boats and trains in the plan</li>
   <li>All sightseeing and entry tickets in the itinerary</li><li>Experienced tour manager and licensed local guides</li></ul></div>
 </div>
 <div class="card" style="margin-top:18px"><h3>Not included</h3><ul style="columns:2;column-gap:24px"><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li></ul></div>
@@ -402,7 +400,7 @@ def brochure():
 <p>Travel with Hare Krishna devotees through eight countries in sixteen days. Take darshan at ten ISKCON temples, including Srila Prabhupada's Bhaktivedanta Manor and the castle temple of Radhadesh. See Europe's great sights, from the Tower of London and the Eiffel Tower to Mount Titlis, Venice and the Vatican. Every meal is Satvik prasadam, and the group travels together in one private coach with an experienced tour manager.</p>
 <div class="facts"><div class="fact"><b>16</b><span>days / 15 nights</span></div><div class="fact"><b>8</b><span>countries</span></div><div class="fact"><b>10</b><span>ISKCON temples</span></div><div class="fact"><b>2</b><span>departure cities</span></div></div>
 <div class="two"><div class="box"><h3>Holy places</h3><ul>{''.join(f'<li>{t}</li>' for t in TEMPLES)}<li>Akshaya Patra kitchen, Watford (seva visit)</li></ul></div>
-<div class="box"><h3>Wonders of Europe</h3><ul>{''.join(f'<li>{t}</li>' for t in WONDERS)}<li>Brussels, Amsterdam canals and Lake Como</li></ul></div></div>
+<div class="box"><h3>Wonders of Europe</h3><ul>{''.join(f'<li>{t}</li>' for t in WONDERS)}<li>Brussels, Amsterdam canals and Milan Cathedral</li></ul></div></div>
 <h3>Flights</h3>
 <table class="fl"><tr><th>Group</th><th>Outbound – Sat 17 April 2027</th><th>Return – Sun 2 May 2027</th></tr>
 <tr><td><b>Hyderabad</b></td><td>Emirates EK 527 / EK 3 via Dubai. Dep 10:15, arrive London Heathrow 18:40.</td><td>Emirates EK 102 / EK 524 via Dubai. Dep Milan Malpensa 11:30, arrive Hyderabad 03:05 on Mon 3 May.</td></tr>
@@ -426,7 +424,7 @@ def brochure():
 <table class="calc" style="margin-top:3mm"><tr><td>Yatra amount</td><td>{inr(D.PRICE_PP)}</td></tr><tr><td>GST 5%</td><td>{inr(GST)}</td></tr>
 <tr><td>Sub-total</td><td>{inr(SUBTOTAL)}</td></tr><tr><td>TCS 2%*</td><td>{inr(TCS)}</td></tr><tr class="tot"><td>Total paid</td><td>{inr(SUBTOTAL + TCS)}</td></tr></table>
 <p class="small" style="margin-top:3mm">*TCS (Tax Collected at Source) is deposited against your PAN. You get it back as a refund, or as credit against your tax, when you file your income-tax return. A PAN is needed for the booking.</p></div>
-<div class="box"><h3>Included</h3><ul><li>International flights from Hyderabad or Bangalore (economy, group fares)</li><li>UK and Schengen visa charges</li><li>15 nights in hotels</li><li>All meals: Satvik prasadam, no onion or garlic; Ekadasi meals</li><li>Private coach throughout, Dover–Calais ferry, Thames, Seine, Amsterdam and lake boats, Swiss and Italian trains in the plan</li><li>All sightseeing and entry tickets in the itinerary</li><li>Tour manager and licensed local guides</li></ul>
+<div class="box"><h3>Included</h3><ul><li>International flights from Hyderabad or Bangalore (economy, group fares)</li><li>UK and Schengen visa charges</li><li>15 nights in hotels</li><li>All meals: Satvik prasadam, no onion or garlic; Ekadasi meals</li><li>Private coaches, Eurostar London–Paris, Seine, Amsterdam and Lake Lucerne boats, Swiss and Italian trains in the plan</li><li>All sightseeing and entry tickets in the itinerary</li><li>Tour manager and licensed local guides</li></ul>
 <h3>Not included</h3><ul><li>GST 5% and TCS 2%</li><li>Personal expenses and shopping</li></ul></div></div>
 <h3>Visa documents (start collecting now)</h3>
 <div class="two"><div class="box"><ul>

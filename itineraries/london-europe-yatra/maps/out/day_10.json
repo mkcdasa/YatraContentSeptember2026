@@ -13,13 +13,13 @@
   },
   {
    "n": 3,
-   "key": "RHINEFALLS",
-   "name": "Rhine Falls"
+   "key": "RF_LUNCH",
+   "name": "Indian restaurant, Schaffhausen"
   },
   {
    "n": 4,
-   "key": "RF_LUNCH",
-   "name": "Indian restaurant, Schaffhausen"
+   "key": "RHINEFALLS",
+   "name": "Rhine Falls"
   },
   {
    "n": 5,
@@ -56,68 +56,55 @@
    "frm": 2,
    "to": 3,
    "from_name": "Lake Titisee & Black Forest cuckoo-clock shops",
-   "to_name": "Rhine Falls",
+   "to_name": "Indian restaurant, Schaffhausen",
    "mode": "Coach",
    "km": 70,
    "minutes": 75,
    "duration": "1 h 15 min",
-   "time": "10:30–11:45",
+   "time": "10:45–12:00",
    "estimate": false
   },
   {
    "n": 3,
    "frm": 3,
    "to": 4,
-   "from_name": "Rhine Falls",
-   "to_name": "Indian restaurant, Schaffhausen",
-   "mode": "Coach",
-   "km": 3,
-   "minutes": 10,
-   "duration": "10 min",
-   "time": "short hop",
-   "estimate": true
-  },
-  {
-   "n": 4,
-   "frm": 4,
-   "to": 3,
    "from_name": "Indian restaurant, Schaffhausen",
    "to_name": "Rhine Falls",
    "mode": "Coach",
    "km": 3,
    "minutes": 10,
    "duration": "10 min",
-   "time": "short hop",
-   "estimate": true
+   "time": "13:00–13:10",
+   "estimate": false
   },
   {
-   "n": 5,
-   "frm": 3,
+   "n": 4,
+   "frm": 4,
    "to": 5,
    "from_name": "Rhine Falls",
    "to_name": "Zurich old town",
    "mode": "Coach",
    "km": 50,
-   "minutes": 55,
-   "duration": "55 min",
-   "time": "14:00–14:55",
+   "minutes": 60,
+   "duration": "1 h 00 min",
+   "time": "14:40–15:40",
    "estimate": false
   },
   {
-   "n": 6,
+   "n": 5,
    "frm": 5,
    "to": 6,
    "from_name": "Zurich old town",
    "to_name": "ISKCON Zurich",
    "mode": "Coach",
    "km": 3,
-   "minutes": 20,
-   "duration": "20 min",
-   "time": "16:20–16:40",
+   "minutes": 15,
+   "duration": "15 min",
+   "time": "17:45–18:00",
    "estimate": false
   },
   {
-   "n": 7,
+   "n": 6,
    "frm": 6,
    "to": 7,
    "from_name": "ISKCON Zurich",
@@ -126,10 +113,10 @@
    "km": 4,
    "minutes": 15,
    "duration": "15 min",
-   "time": "18:30–18:45",
+   "time": "19:00–19:15",
    "estimate": false
   }
  ],
- "coach_km": 136,
+ "coach_km": 133,
  "walk_km": 0
 }
